@@ -1,0 +1,43 @@
+<root>
+	<Properties>
+		<boidsModel>
+			<Type>			ENUM			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+			<Default>		0				</Default>
+			<Widget>		ENUM
+				<enum> <value> 0 </value><display> characters/creatures/crow/crow.model </display> </enum>
+			</Widget>
+		</boidsModel>
+		<approachRadius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10.000000 		</Default>
+			<Editable>		true			</Editable>
+		</approachRadius>
+		<collisionFraction>
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.5				</Default>
+			<Editable>		true			</Editable>
+		</collisionFraction>
+		<influenceRadius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10.000000 		</Default>
+			<Editable>		true			</Editable>
+		</influenceRadius>
+		<boidsCount>
+			<Type>			UINT16			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10 				</Default>
+			<Editable>		true			</Editable>
+		</boidsCount>
+		<boidsVelocity>
+			<Type>			FLOAT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		3.000000		</Default>
+			<Editable>		true			</Editable>
+		</boidsVelocity>
+	</Properties>
+</root>

@@ -1,0 +1,95 @@
+<Starshina.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>leftforearm</nodeName>
+      <boxName>leftforearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.050000 -0.045000</minBounds>
+      <maxBounds>0.380000 0.050000 0.045000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftarm</nodeName>
+      <boxName>leftarm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.038476 -0.073724 -0.088663</minBounds>
+      <maxBounds>0.303345 0.067610 0.090542</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightforearm</nodeName>
+      <boxName>rightforearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.050001 -0.045000</minBounds>
+      <maxBounds>0.380000 0.050000 0.045001</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightarm</nodeName>
+      <boxName>rightarm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.038476 -0.067610 -0.088664</minBounds>
+      <maxBounds>0.303345 0.073724 0.090541</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>HP_head</nodeName>
+      <boxName>HP_head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.005188 -0.076259 -0.104777</minBounds>
+      <maxBounds>0.188012 0.076259 0.094769</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>neck</nodeName>
+      <boxName>neck_bwhitbox</boxName>
+      <bodyZone>GROIN</bodyZone>
+      <minBounds>-0.043395 -0.146599 -0.112387</minBounds>
+      <maxBounds>0.074876 0.146598 0.116650</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>spine</nodeName>
+      <boxName>spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.115384 -0.170532 -0.117343</minBounds>
+      <maxBounds>0.430524 0.170531 0.147973</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftfoot</nodeName>
+      <boxName>leftfoot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.050246 -0.065264 -0.131103</minBounds>
+      <maxBounds>0.260064 0.064630 0.124700</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftleg</nodeName>
+      <boxName>leftleg_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.004342 -0.064747 -0.080510</minBounds>
+      <maxBounds>0.412353 0.091362 0.128074</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftupleg</nodeName>
+      <boxName>leftupleg_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>-0.006081 -0.085886 -0.103499</minBounds>
+      <maxBounds>0.497692 0.089312 0.129507</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightfoot</nodeName>
+      <boxName>rightfoot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.050199 -0.064925 -0.122528</minBounds>
+      <maxBounds>0.248586 0.064261 0.124687</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightleg</nodeName>
+      <boxName>rightleg_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.004342 -0.091362 -0.080510</minBounds>
+      <maxBounds>0.412353 0.064747 0.128074</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightupleg</nodeName>
+      <boxName>rightupleg_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>-0.008235 -0.090728 -0.103462</minBounds>
+      <maxBounds>0.499104 0.085975 0.138960</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Starshina.xml>

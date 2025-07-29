@@ -1,0 +1,91 @@
+<root>
+
+	<Implements>
+		<Interface>BaseAndCell </Interface>
+		<Interface>TimerManagerCell </Interface>
+	</Implements>
+	
+	<Properties>
+	
+		<CreatorMB>
+			<Type>			MAILBOX		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</CreatorMB>
+
+
+		<CreatorCellMB>
+			<Type>			MAILBOX		</Type>
+			<Flags>			BASE		</Flags>
+		</CreatorCellMB>
+		
+		<!-- avatar id how create userfire   -->
+	
+		
+		
+		<explheight>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</explheight>	
+		
+		
+		<radiusDamage>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</radiusDamage>		
+		
+		<radius>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</radius>	
+		
+		
+		<fwspeed>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</fwspeed>	
+		
+		
+		<fuseIsBurning>
+			<Type> INT8 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</fuseIsBurning>
+		
+		<number>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</number>
+			
+		<collisionPos>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</collisionPos>
+		
+		
+	</Properties>
+	
+	
+	
+	<ClientMethods>
+	
+		<startFire>
+			<Arg>		VECTOR3				</Arg>
+			<Arg>		INT8				</Arg>
+		</startFire>	
+	
+	</ClientMethods>
+
+	
+	
+	
+	<CellMethods>
+	</CellMethods>
+	
+	
+	
+	
+	<BaseMethods>
+	</BaseMethods>
+	
+
+	
+</root>

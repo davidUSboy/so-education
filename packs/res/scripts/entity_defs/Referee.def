@@ -1,0 +1,84 @@
+<root>
+	<Properties>
+		<!-- Send on create-->	
+		<groupIDS>
+			<Flags>	BASE								</Flags>
+			<Type>	ARRAY <of> GROUPID	</of>			</Type>
+		</groupIDS>
+		
+		<questID>
+			<Flags>	BASE								</Flags>
+			<Type>	QUESTID								</Type>
+		</questID>
+	<!-- Send on create-->	
+	
+		<Counters>
+			<Type>	ARRAY <of>	REFEREE_COUNTER	</of>	</Type>
+			<Flags>	BASE								</Flags>
+		</Counters>
+		
+		<Statistic>
+			<Type>	ARRAY <of>	PVP_REFEREE_STATISTIC	</of>	</Type>
+			<Flags>	BASE								</Flags>
+		</Statistic>		
+
+		<periods>
+			<Type>	ARRAY <of>	REFEREE_PERIODS	</of>	</Type>
+			<Flags>	BASE								</Flags>
+		</periods>			
+		
+		<Quest>
+			<Type>	QUESTONCELL							</Type>
+			<Flags>	BASE								</Flags>
+		</Quest>
+		
+		<!--logged>
+			<Type> ARRAY <of> REFEREE_USER </of></Type>
+			<Flags>	BASE </Flags>
+		</logged-->
+
+		<curPeriod>
+			<Type> 	INT8								</Type>
+			<Flags>	BASE 								</Flags>
+			<Default>		0							</Default>
+		</curPeriod>
+		
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+	
+	<BaseMethods>
+	
+		<takeQuest>
+			<Arg>	QUEST	</Arg>
+		</takeQuest>
+		
+		<takeMemberInfo>
+			<Arg>	ARRAY <of> PVP_REFEREE_STATISTIC </of>	</Arg>
+		</takeMemberInfo>
+		
+		<incFrag>
+			<Arg>	GROUPID		</Arg>
+			<Arg>	ENTITY_ID	</Arg>
+			<Arg>	INT8		</Arg>
+			<Arg>	UNICODE_STRING		</Arg>
+		</incFrag>
+		
+		<incDeath>
+			<Arg>	GROUPID		</Arg>
+			<Arg>	ENTITY_ID	</Arg>
+			<Arg>	INT8		</Arg>
+			<Arg>	UNICODE_STRING		</Arg>
+		</incDeath>
+		
+		<getPVPStatInfo>
+			<Arg>	ENTITY_ID	</Arg>
+			<Arg>	MAILBOX		</Arg>
+		</getPVPStatInfo>
+		
+		<onLoseMember>
+			<Arg>	ENTITY_ID	</Arg>
+		</onLoseMember>
+	</BaseMethods>
+</root>

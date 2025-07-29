@@ -1,0 +1,104 @@
+<root>
+
+	<Domain>	CLIENT	</Domain>
+
+	<Implements>
+		<Interface> LogicNodeUDO </Interface>
+	</Implements>	
+
+	<Properties>
+	 	<spawnPoints>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true		</Editable>
+		</spawnPoints>
+
+
+		<numItemsOnPoints>
+			<Type>INT32</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>0</Default>
+			<Editable>		true		</Editable>
+		</numItemsOnPoints>
+
+		<numItemsInContainer>
+			<Type>INT32</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>2</Default>
+			<Editable>		true		</Editable>
+		</numItemsInContainer>
+
+		<fUseServerTime>
+			<Type>INT8</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>0</Default>
+			<Editable>		true		</Editable>
+			<Widget>ENUM
+				<enum>
+					<value>0</value>
+					<display> Время от рестарта </display>
+				</enum>
+				<enum>
+					<value>1</value>
+					<display> Мировое время </display>
+				</enum>
+			</Widget>
+		</fUseServerTime>
+
+
+		<fDestroyItemsOnSleep>
+			<Type>INT8</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>0</Default>
+			<Editable>		true		</Editable>
+			<Widget>ENUM
+				<enum>
+					<value>0</value>
+					<display> Оставлять </display>
+				</enum>
+				<enum>
+					<value>1</value>
+					<display> Удалять </display>
+				</enum>
+			</Widget>
+		</fDestroyItemsOnSleep>
+
+		<spawnerWorkTime>
+			<Type>FLOAT</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>10</Default>
+			<Editable>		true		</Editable>
+		</spawnerWorkTime>
+
+		<spawnerSleepTime>
+			<Type>FLOAT</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>10</Default>
+			<Editable>		true		</Editable>
+		</spawnerSleepTime>
+
+		<itemLifeTime>
+			<Type>FLOAT</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>-1</Default>
+			<Editable>		true		</Editable>
+		</itemLifeTime>
+
+
+		<itemSpawnThreshold>
+			<Type>FLOAT</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>0.000000</Default>
+			<Editable>		true		</Editable>
+		</itemSpawnThreshold>
+
+		<ItemListNames>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> </Default>
+			<Editable> true </Editable>
+		</ItemListNames>
+		
+	</Properties>
+
+</root>

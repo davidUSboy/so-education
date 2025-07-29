@@ -1,0 +1,80 @@
+<root>
+  <client>
+    <STRING_15_13>Без бороды</STRING_15_13>
+    <STRING_28_12>Обычный</STRING_28_12>
+    <STRING_45_11>Голова 1</STRING_45_11>
+    <STRING_46_14>Голова 2</STRING_46_14>
+    <STRING_47_14>Голова 3</STRING_47_14>
+    <STRING_48_14>Голова 4</STRING_48_14>
+    <STRING_49_14>Голова 5</STRING_49_14>
+    <STRING_50_14>Голова 6</STRING_50_14>
+    <STRING_51_14>Голова 7</STRING_51_14>
+    <STRING_52_14>Голова 8</STRING_52_14>
+    <STRING_53_14>Голова 9</STRING_53_14>
+    <STRING_54_14>Голова 10</STRING_54_14>
+    <STRING_55_14>Голова 11</STRING_55_14>
+    <STRING_56_14>Голова 12</STRING_56_14>
+    <STRING_57_14>Голова 13</STRING_57_14>
+    <STRING_58_14>Голова 14</STRING_58_14>
+    <STRING_59_14>Голова 15</STRING_59_14>
+    <STRING_60_14>Голова 16</STRING_60_14>
+    <STRING_61_14>Голова 17</STRING_61_14>
+    <STRING_62_14>Голова 18</STRING_62_14>
+    <STRING_63_14>Голова 19</STRING_63_14>
+    <STRING_64_14>Голова 20</STRING_64_14>
+    <STRING_65_14>Голова 21</STRING_65_14>
+    <STRING_66_14>Голова 22</STRING_66_14>
+    <STRING_67_14>Голова 23</STRING_67_14>
+    <STRING_68_14>Голова 24</STRING_68_14>
+    <STRING_69_14>Голова 25</STRING_69_14>
+    <STRING_70_14>Голова 26</STRING_70_14>
+    <STRING_71_14>Голова 27</STRING_71_14>
+    <STRING_84_13>Обычные</STRING_84_13>
+    <STRING_99_19>Штормовка</STRING_99_19>
+    <STRING_100_15>Куртка</STRING_100_15>
+    <STRING_101_17>Хаки</STRING_101_17>
+    <STRING_120_15>Джинсы</STRING_120_15>
+    <STRING_121_14>Лонги</STRING_121_14>
+    <STRING_138_16>Берцы</STRING_138_16>
+    <STRING_145_34>Голова XXX</STRING_145_34>
+    <STRING_146_42>Борода XXX</STRING_146_42>
+    <STRING_147_46>Цвет XXX</STRING_147_46>
+    <STRING_148_33>Штаны XXX</STRING_148_33>
+    <STRING_149_35>Свитер XXX</STRING_149_35>
+    <o2_body_shtormovka>Штормовка</o2_body_shtormovka>
+    <o2_body_shtormovka_hood>Штормовка с кап.</o2_body_shtormovka_hood>
+    <o2_body_haki>Хаки</o2_body_haki>
+    <o2_body_haki_hood>Хаки с кап.</o2_body_haki_hood>
+    <o2_body_kojanka>Кожанка</o2_body_kojanka>
+    <o2_body_smock_01>Толстовка</o2_body_smock_01>
+    <o2_body_smock_01_blue>Толстовка синяя</o2_body_smock_01_blue>
+    <o2_body_smock_01_green>Толстовка зелёная</o2_body_smock_01_green>
+    <o2_body_smock_01_red>Толстовка красная</o2_body_smock_01_red>
+    <o2_body_smock_01_yellow>Толстовка жёлтая</o2_body_smock_01_yellow>
+    <o2_body_sweater_01>Свитер</o2_body_sweater_01>
+    <o2_body_sweater_01_blue>Свитер синий</o2_body_sweater_01_blue>
+    <o2_body_sweater_01_green>Свитер зелёный</o2_body_sweater_01_green>
+    <o2_body_sweater_01_red>Свитер красный</o2_body_sweater_01_red>
+    <o2_body_sweater_01_yellow>Свитер жёлтый</o2_body_sweater_01_yellow>
+    <o3_palms_perch>Перчатки</o3_palms_perch>
+    <o3_palms_poluperchatki>Полуперчатки</o3_palms_poluperchatki>
+    <o3_palms_poluperchatki2>Полуперчатки (байк)</o3_palms_poluperchatki2>
+    <o3_palms_usilennie>Полуперчатки (усил)</o3_palms_usilennie>
+    <o4_legs_longi>Штаны</o4_legs_longi>
+    <o4_legs_jeans_blue>Джинсы (голубые)</o4_legs_jeans_blue>
+    <o4_legs_jeans_brown>Джинсы (коричневые)</o4_legs_jeans_brown>
+    <o4_legs_jeans_black>Джинсы (чёрные)</o4_legs_jeans_black>
+    <o4_legs_jeans_green>Джинсы (зелёные)</o4_legs_jeans_green>
+    <o4_legs_bigpants_01>Штаны с кар.(чёрные)</o4_legs_bigpants_01>
+    <o4_legs_bigpants_01_gray>Штаны с кар.(серые)</o4_legs_bigpants_01_gray>
+    <o4_legs_jeans_01>Джинсы (чёрные)</o4_legs_jeans_01>
+    <o4_legs_jeans_01_gray>Джинсы (серые)</o4_legs_jeans_01_gray>
+    <o4_legs_pants_01>Штаны (чёрные)</o4_legs_pants_01>
+    <o4_legs_pants_01_gray>Штаны (серые)</o4_legs_pants_01_gray>
+    <o5_feet_bertci_m1>Ботинки (берцы)</o5_feet_bertci_m1>
+    <o5_feet_bertci_m2>Ботинки (трекинг)</o5_feet_bertci_m2>
+    <o5_feet_bertci_m3>Ботинки (зелёные)</o5_feet_bertci_m3>
+    <o5_feet_bertci_m4>Ботинки (коричневые)</o5_feet_bertci_m4>
+    <o5_feet_botinki>Ботинки (чёрные)</o5_feet_botinki>
+  </client>
+</root>

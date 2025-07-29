@@ -1,0 +1,74 @@
+<Vedun.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip001 Head</nodeName>
+      <boxName>Bip001 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.034333 -0.075997 -0.105024</minBounds>
+      <maxBounds>0.225498 0.075998 0.129571</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Forearm</nodeName>
+      <boxName>Bip001 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.003848 -0.080114 -0.063258</minBounds>
+      <maxBounds>0.413848 0.043790 0.060647</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L UpperArm</nodeName>
+      <boxName>Bip001 L UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.004175 -0.091153 -0.082229</minBounds>
+      <maxBounds>0.265861 0.048847 0.077771</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Forearm</nodeName>
+      <boxName>Bip001 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.003848 -0.043790 -0.063258</minBounds>
+      <maxBounds>0.413848 0.080114 0.060647</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R UpperArm</nodeName>
+      <boxName>Bip001 R UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.004175 -0.048846 -0.082229</minBounds>
+      <maxBounds>0.265861 0.091154 0.077771</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Calf</nodeName>
+      <boxName>Bip001 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.087229 -0.087229</minBounds>
+      <maxBounds>0.436144 0.087229 0.087229</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Thigh</nodeName>
+      <boxName>Bip001 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>-0.000080 -0.087229 -0.087229</minBounds>
+      <maxBounds>0.436224 0.087429 0.087429</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Calf</nodeName>
+      <boxName>Bip001 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.087229 -0.087229</minBounds>
+      <maxBounds>0.436144 0.087229 0.087229</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Thigh</nodeName>
+      <boxName>Bip001 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>-0.000080 -0.087229 -0.087229</minBounds>
+      <maxBounds>0.436224 0.087428 0.087429</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Pelvis</nodeName>
+      <boxName>Bip001 Pelvis_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.000435 -0.177668 -0.114694</minBounds>
+      <maxBounds>0.579909 0.177668 0.185046</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Vedun.xml>

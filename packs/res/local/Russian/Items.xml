@@ -1,0 +1,67 @@
+<root>
+  <Messages>
+    <FAIL_USE_BLACK_BOX>Не достаточно свободных слотов в инвентаре!</FAIL_USE_BLACK_BOX>
+    <FAIL_ITEM_CANT_BE_ATTACHED>Этот предмет не может быть присоединен</FAIL_ITEM_CANT_BE_ATTACHED>
+    <FAIL_ITEM_ALREADY_ATTACHED>Подобный предмет уже присоединен</FAIL_ITEM_ALREADY_ATTACHED>
+    <FAIL_ATTACHING_NOT_A_PART>Присоединять можно только предметы - запчасти</FAIL_ATTACHING_NOT_A_PART>
+    <FAIL_MOTHER_NOT_A_WEAPON>Установить предмет можно только на броню и оружие</FAIL_MOTHER_NOT_A_WEAPON>
+    <FAIL_MOTHER_CANT_CARRY>Запчасть не подходит к этому предмету</FAIL_MOTHER_CANT_CARRY>
+    <FAIL_NOTHING_TO_REPAIR>Нечего чинить</FAIL_NOTHING_TO_REPAIR>
+    <FAIL_LOW_SKILL_LEVEL>Недостаточный навык</FAIL_LOW_SKILL_LEVEL>
+    <FAIL_NO_REPAIR_KIT>Нет ремонтного набора</FAIL_NO_REPAIR_KIT>
+    <FAIL_REPAIR_FAILED>Не удалось починить предмет</FAIL_REPAIR_FAILED>
+    <FAIL_NOT_DETACHABLE>Этот предмет нельзя отсоединить</FAIL_NOT_DETACHABLE>
+    <FAIL_ALREADY_DETACHED>Этот предмет уже отсоединен</FAIL_ALREADY_DETACHED>
+    <FAIL_TRADER_NO_MONEY>У торговца не осталось денег</FAIL_TRADER_NO_MONEY>
+    <FAIL_TRADER_NO_WARE>У торговца кончился товар</FAIL_TRADER_NO_WARE>
+    <FAIL_CANT_SELL>Этот предмет нельзя продать</FAIL_CANT_SELL>
+    <FAIL_NO_BATTARY>Элемент питания разряжен</FAIL_NO_BATTARY>
+    <FAIL_NO_MONEY>Недостаточно денег</FAIL_NO_MONEY>
+    <FAIL_NO_RECIPE>Нет этого рецепта</FAIL_NO_RECIPE>
+    <FAIL_NO_RESOURCE>Не хватает ресурсов</FAIL_NO_RESOURCE>
+    <FAIL_CRAFT_ROLL_FAIL>Не получилось создать предмет</FAIL_CRAFT_ROLL_FAIL>
+    <FAIL_ITEM_EQUIPPED>Нельзя манипулировать экипированными предметами</FAIL_ITEM_EQUIPPED>
+    <FAIL_IMPROPER_AMMO>Неподходящие патроны</FAIL_IMPROPER_AMMO>
+    <AMMO_ALREADY_LOADED>Оружие уже заряжено этими патронами</AMMO_ALREADY_LOADED>
+    <FAIL_TRADER_NOT_BUY_IT>Торговец не принимает этот товар</FAIL_TRADER_NOT_BUY_IT>
+    <FAIL_ITEM_STRUCTURE>Ошибка структуры предмета</FAIL_ITEM_STRUCTURE>
+    <FAIL_TOO_MANY_ITEMS>У вас слишком много предметов</FAIL_TOO_MANY_ITEMS>
+    <CHECK_AND_CONFIRM>Проверьте условия сделки и нажмите "Подтвердить" еще раз</CHECK_AND_CONFIRM>
+    <ITEM_BROKEN_NOT_REPAIR>Новая максимальная прочность будет меньше текущей прочности предмета. Ремонт отменен.</ITEM_BROKEN_NOT_REPAIR>
+    <FAIL_CANT_UNITE>Предметы нельзя объединить</FAIL_CANT_UNITE>
+    <FAIL_NO_TRADER>Торговец пропал</FAIL_NO_TRADER>
+    <FAIL_PLAYER_EXCHANGE_CHANGED>Внимание! Оппонент поменял условия сделки</FAIL_PLAYER_EXCHANGE_CHANGED>
+    <FAIL_MAX_ITEMS>Вы достигли максимального количества предметов у персонажа</FAIL_MAX_ITEMS>
+    <FAIL_NO_ITEM_HOLDER>Владелец предмета для передачи не найден</FAIL_NO_ITEM_HOLDER>
+    <FAIL_NOT_IN_RANGE>Вне зоны досягаемости</FAIL_NOT_IN_RANGE>
+    <FAIL_CANT_TRADE>У вас нет возможности торговать</FAIL_CANT_TRADE>
+    <FAIL_ITEM_QUEST>Невозможно передать этот предмет</FAIL_ITEM_QUEST>
+    <FAIL_OTHER_ACTION>Сначала следует закончить предыдущее действие</FAIL_OTHER_ACTION>
+    <FAIL_KNOWN_RECIPE>Уже известный рецепт</FAIL_KNOWN_RECIPE>
+    <FAIL_CLAN_ITEM>Вы не можете экипировать этот предмет. Он принадлежит другой группировке.</FAIL_CLAN_ITEM>
+    <FAIL_CANT_MODIFY_EQUIPPED_ITEM>Нельзя модифицировать экипированный предмет</FAIL_CANT_MODIFY_EQUIPPED_ITEM>
+    <FAIL_USED_ITEM>Предмет уже был использован</FAIL_USED_ITEM>
+    <FAIL_NO_STORAGE_PLACE>Закончилось место в хранилище</FAIL_NO_STORAGE_PLACE>
+    <FAIL_WAS_EQUIPPED>Этот предмет уже был экипирован</FAIL_WAS_EQUIPPED>
+    <FAIL_OVERFLOW_SLOT>FAIL_OVERFLOW_SLOT</FAIL_OVERFLOW_SLOT>
+    <FAIL_IMPOSSIBLE_COOK>FAIL_IMPOSSIBLE_COOK Этот предмет невозможно приготовить</FAIL_IMPOSSIBLE_COOK>
+    <FAIL_STACK>FAIL_STACK Этот предмет нужно разъеденить</FAIL_STACK>
+    <FAIL_USER_FIRE_ACCESS>FAIL_USER_FIRE_ACCESS владелец костра запретил это действие</FAIL_USER_FIRE_ACCESS>
+    <FAIL_CONTAINER_OFERFLOW>Контейнер полон</FAIL_CONTAINER_OFERFLOW>
+    <FAIL_CONTAINER_MAX_USE>Стабраствор исчерпан</FAIL_CONTAINER_MAX_USE>
+    <FAIL_ARTEFACT_DEAD>Невозможное действие для разряженного артефакта</FAIL_ARTEFACT_DEAD>
+    <FAIL_NO_WORKBRENCH>Для этой операции требуется верстак</FAIL_NO_WORKBRENCH>
+  </Messages>
+  <GUIStrings>
+    <RELOAD>Перезарядка</RELOAD>
+    <LOAD_AMMO>Смена патронов</LOAD_AMMO>
+    <USING>Использование</USING>
+    <EQUIP>Экипировка</EQUIP>
+    <UNJAMM>Устранение задержек при стрельбе</UNJAMM>
+    <JAMM>Отказ оружия</JAMM>
+    <STONE>Бросок камня</STONE>
+    <GRENADE>Бросок гранаты</GRENADE>
+    <MODIFICATION>Модификация</MODIFICATION>
+    <SITTING>----</SITTING>
+  </GUIStrings>
+</root>

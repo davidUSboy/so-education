@@ -1,0 +1,25 @@
+<root>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	<Properties>
+		<linkUDO>
+			<Type>			UDO_REF 			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</linkUDO>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

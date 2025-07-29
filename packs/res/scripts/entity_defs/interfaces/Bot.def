@@ -1,0 +1,133 @@
+<root>
+	<Implements>
+		<Interface>Manipulable</Interface>
+	</Implements>
+	
+	<Properties>
+		<!-- DEBUG props. Ask mon -->			
+		<debugEnabled>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>	
+			<Default> 0 </Default>
+		</debugEnabled>
+		<debugMovePoint>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>	
+		</debugMovePoint>	
+		<registeredAvatars>
+			<Type> ARRAY <of> MAILBOX </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</registeredAvatars>	
+		<!-- /end of DEBUG props -->
+		
+		<ints>
+			<Type> ARRAY <of>INT32</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</ints>
+		
+		<floats>
+			<Type> ARRAY <of>FLOAT</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</floats>
+		
+		<vectors>
+			<Type> ARRAY <of>VECTOR3</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</vectors>
+		
+		<controllers>
+			<Type> ARRAY <of>INT32</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</controllers>
+		
+		<flags>
+			<Type> ARRAY <of>INT32</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</flags>
+
+		<points>
+			<Type> ARRAY <of>VECTOR3</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</points>
+		
+		<timersCount>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</timersCount>
+		
+		<timer_ids>
+			<Type> 
+			ARRAY <of> INT32	</of>
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</timer_ids>
+		
+		<isDecomposed>
+			<Type> BOOL </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</isDecomposed>
+
+		<targets>
+			 <Type> ARRAY <of>FIXED_DICT
+					<Properties>
+						<targetID>
+							<Type> ENTITY_ID </Type>
+						</targetID>
+						<value>
+							<Type> FLOAT </Type>
+						</value>
+					</Properties> </of>
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</targets>
+		
+		<steps>
+			<Type>	ARRAY <of>VECTOR3</of> <size>15</size> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</steps>
+		
+		<skills>
+			<Type> ARRAY <of>MOB_SKILL_ENTRY</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</skills>
+
+		<navPointsFailedCtr>
+			<Type>	INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</navPointsFailedCtr>
+		
+		<isBrainEnabled>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 1 </Default>
+		</isBrainEnabled>		
+		
+	</Properties>
+
+	<CellMethods>
+		<debug_addAvatar>
+			<Arg> 	MAILBOX	</Arg>
+		</debug_addAvatar>
+	
+		<targetAdd>
+			<Arg>		INT64	</Arg>
+			<Arg>		FLOAT	</Arg>
+		</targetAdd>
+
+		<targetRemove>
+			<Arg>		INT64	</Arg>
+		</targetRemove>
+
+		<setBrainEnabled>
+			<Arg> BOOL </Arg>
+		</setBrainEnabled>
+
+		<clearTargets>
+		</clearTargets>
+
+		<annihilate/>
+		
+	</CellMethods>
+</root>

@@ -1,0 +1,52 @@
+<root>
+	<Implements>
+	</Implements> 
+
+	<Properties>
+		<baseName>
+			<Type> UNICODE_STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent>	true	</Persistent>
+		</baseName>
+		
+		<prices>
+			<Type>	ARRAY <of> INT32 </of>		</Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default>		[]		</Default>
+			<Persistent>	true	</Persistent>
+		</prices>
+		
+		<maxPrice>
+			<Type> INT32 </Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Default> 0 </Default>
+			<Persistent>	false	</Persistent>
+		</maxPrice>
+		
+		<currentClan>
+			<Type> INT64 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default>		0		</Default>
+			<Persistent>	true	</Persistent>
+		</currentClan>
+		
+		<visitor>
+			<Type> MAILBOX </Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>	false	</Persistent>
+		</visitor>
+	</Properties>
+	
+	<ClientMethods>
+	</ClientMethods>
+	
+	<CellMethods>
+		
+	</CellMethods>
+	
+	<BaseMethods>
+	</BaseMethods>
+	
+
+	
+</root>

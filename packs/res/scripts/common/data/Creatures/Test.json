@@ -1,0 +1,76 @@
+{
+	"__parent__" : "Common",
+	"model" : "worm/worm_hulud.model",	
+	"name,bylevel" : {
+		"default" : "Creatures.common.WORM1",
+		"2" : "Creatures.common.WORM2"
+	},
+	"coefLevel, bylevel": {
+		"default" : 1,
+		"1" : 2.0,
+		"2" : 3.0,
+		"3" : 4.0
+	}
+	"actions,bylevel" : {
+		"default" : {
+			"Rise,bylevel" : {
+				"default" : {
+					"model_actions" : ["Rise"],
+					"sounds" : ["mob/bear/pain"],
+					"sfxes" : []
+				},
+				"2,override" : {
+					"model_actions" : ["Die"]
+				}
+			},
+			"Hide" : {
+				"model_actions" : ["Hide"],
+				"sounds" : ["mob/dog/pain"],
+				"sfxes" : []
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/bear/death"],
+				"sfxes" : []
+			}
+		},
+		"2" : {
+			"Hide" : {				
+				"model_actions" : ["Die"]
+			}	
+		}
+	},
+	"karma": 30,
+	"states" : {
+		"attacking_1" : {
+			"conditions,bylevel" : {
+				"default" : [
+					{
+						"to_state" : "attacking_1",
+						"predicate" : [
+							{
+								"name" : "targets_count",
+								"operator" : "equal",
+								"value" : 0
+							}
+						]
+					},
+					{
+						"to_state" : "attacking_1",
+						"predicate" : [
+							["health_percent", "less", 50]
+						]
+					}
+				],
+				"2,override" : [
+					{
+						"to_state" : "AAAA"
+					},
+					{
+						"to_state" : "BBBB"
+					}					
+				]
+			}
+		}
+	}
+}

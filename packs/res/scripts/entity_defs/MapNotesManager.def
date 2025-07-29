@@ -1,0 +1,53 @@
+<root>
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		MapNotesManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+		<notes>
+			<Type>ARRAY <of> QUEST_MAP_NOTE_ENTRY </of> </Type>
+			<Flags> BASE </Flags>
+		</notes>
+		<!--players>
+			<Type>ARRAY <of> PLAYER_NOTES </of> </Type>
+			<Flags> BASE 						</Flags>
+			<Persistent>	true				</Persistent>
+		</players>
+		<logged>
+			<Type>ARRAY <of> QUESTS_GROUP_LOGGED </of> </Type>
+			<Flags> BASE 						</Flags>
+		</logged-->
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+	
+	<BaseMethods>
+		<onObjectInit>
+			<Arg>	QUEST_MAP_NOTE_ENTRY		</Arg>
+		</onObjectInit>
+		
+		<onPlayerGeometryMapped>
+			<!--Arg>	DBID						</Arg-->
+			<Arg>	ARRAY	<of>	STRING	</of></Arg>
+			<Arg>	STRING						</Arg>
+			<Arg>	MAILBOX						</Arg>
+		</onPlayerGeometryMapped>
+		<!--onEnterWorld>
+			<ARG>	ARRAY	<of>	STRING	</of></Arg>
+			<Arg>	STRING						</Arg>
+			<Arg>	MAILBOX						</Arg>
+		</onEnterWorld-->
+		<addNoteToPlayer>
+			<!--Arg>	DBID						</Arg-->
+			<Arg>	MAILBOX						</Arg>
+			<Arg>	STRING						</Arg>
+		</addNoteToPlayer>
+		<!--clearMailbox>
+			<Arg>	DBID						</Arg>
+		</clearMailbox-->
+	</BaseMethods>
+</root>

@@ -1,0 +1,11 @@
+<mm_settings.xml>
+	
+	<behaviour>
+		<render3Dmm_space>	true	</render3Dmm_space>
+	</behaviour>
+	
+	<mm_space>
+		<cameraName>	mm_camera		</cameraName>
+		<spaceName>		spaces/mm_space	</spaceName>
+	</mm_space>
+</mm_settings.xml>

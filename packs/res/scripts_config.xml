@@ -1,0 +1,18 @@
+<scripts_config.xml>
+  <space> spaces/outlands </space>
+  <player>
+    <entityType> Avatar </entityType>
+    <startPosition> 1295.179565 -1.6554479598999023 -372.73953247070312 </startPosition>
+    <startDirection> 1.000000 0.000000 -2.2137274742126465 </startDirection>
+  </player>
+  <server>
+    <online> true </online>
+    <host> 45.89.88.83 </host>
+  </server>
+  <chat>
+    <visibleLines> 4 </visibleLines>
+  </chat>
+  <login>
+    <host> 45.89.88.83:22231 </host>
+  </login>
+</scripts_config.xml>

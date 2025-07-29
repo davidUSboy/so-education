@@ -1,0 +1,10 @@
+﻿<alignment=center><img=soGUI/maps/loadingScreen/appStart2.tga;200;50>
+
+<hlink=http://stalker.so;URL:http://stalker.so;color>
+<hlink=http://forum.stalker.so;URL:http://forum.stalker.so;color>
+<alignment=center><color=255255000255>Управление:<color=255255255255>
+
+<alignment=center> <bindingkeys>
+
+
+

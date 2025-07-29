@@ -1,0 +1,686 @@
+<root>
+	<LoDLevels>
+		<level> 20     <hyst>  4 </hyst> <label> SHORT     </label>     </level>
+		<level> 100     <hyst> 10 </hyst> <label> LONG</label>     </level>
+		<level> 250     <hyst> 20 </hyst> <label> UNREAL     </label>     </level>
+	</LoDLevels>
+	<Properties>
+
+		<DelayedPutOnItemID>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</DelayedPutOnItemID>
+	
+		<ItemsWeight>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> false </Persistent>
+		</ItemsWeight>
+		
+		<CreditNumber>
+			<Type> INT32 </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> false </Persistent>
+			<Default> 0 </Default>
+		</CreditNumber>
+		<ActiveTintID>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveTintID>
+	
+		<ActiveItemID>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveItemID>
+		<ActiveItemType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveItemType>
+		<ActiveItemAmmo>
+			<Type> INT32 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveItemAmmo>
+		<ActiveItemCondition>
+			<Type> INT32 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveItemCondition>
+		<ActiveItemRepairsNumber>
+			<Type> INT32 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveItemRepairsNumber>
+		<ActiveItemJammed>
+			<Type> INT8 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveItemJammed>
+		<ActiveItemAmmoType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveItemAmmoType>
+		
+		<PrimaryWeaponUpgrades>
+			<Type> WEAPON_UPGRADES </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>
+				<ButtType>0</ButtType>
+				<MagazineType>0</MagazineType>
+				<LauncherType>0</LauncherType>
+				<LightType>0</LightType>
+				<BayonetType>0</BayonetType>
+				<SilencerType>0</SilencerType>
+				<ScopeType>0</ScopeType>
+				<AmmoType>0</AmmoType>			
+			</Default>
+			<DetailLevel>LONG</DetailLevel>
+		</PrimaryWeaponUpgrades>
+		
+		<SecondaryWeaponUpgrades>
+			<Type> WEAPON_UPGRADES </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>
+				<ButtType>0</ButtType>
+				<MagazineType>0</MagazineType>
+				<LauncherType>0</LauncherType>
+				<LightType>0</LightType>
+				<BayonetType>0</BayonetType>
+				<SilencerType>0</SilencerType>
+				<ScopeType>0</ScopeType>
+				<AmmoType>0</AmmoType>
+			</Default>
+			<DetailLevel>LONG</DetailLevel>
+		</SecondaryWeaponUpgrades>
+		
+		
+		<ActiveGrenadeID>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveGrenadeID>
+		<ActiveGrenadeType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>0</Default>
+		</ActiveGrenadeType>
+		
+		<ActiveArmorSet>
+			<Type> ARMORSET </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>
+				<HeadID>0</HeadID>
+				<HeadType>0</HeadType>
+				<ShirtID>0</ShirtID>
+				<ShirtType>0</ShirtType>
+				<HandsID>0</HandsID>
+				<HandsType>0</HandsType>
+				<BootsID>0</BootsID>
+				<BootsType>0</BootsType>
+				<ArmorID>0</ArmorID>
+				<ArmorType>0</ArmorType>
+				<PantsID>0</PantsID>
+				<PantsType>0</PantsType>
+				<HatID>0</HatID>
+				<HatType>0</HatType>
+				<MaskID>0</MaskID>
+				<MaskType>0</MaskType>
+				<BackPackID>0</BackPackID>
+				<BackPackType>0</BackPackType>	
+			</Default>
+		</ActiveArmorSet>
+		
+		<ActiveArmorConditionList>
+			<Type> ARRAY <of>ARMOR_CONDITION_ENTRY</of></Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default></Default>
+		</ActiveArmorConditionList>
+		
+		<ActiveWeaponSet>
+			<Type> QIUCKWEAPONSET </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>
+				<MeleeSlotID>0</MeleeSlotID>
+				<MeleeSlotType>0</MeleeSlotType>
+				<PrimarySlotID>0</PrimarySlotID>
+				<PrimarySlotType>0</PrimarySlotType>
+				<SecondarySlotID>0</SecondarySlotID>
+				<SecondarySlotType>0</SecondarySlotType>
+				<MeleeSlotTintID>0</MeleeSlotTintID>
+				<PrimarySlotTintID>0</PrimarySlotTintID>
+				<SecondarySlotTintID>0</SecondarySlotTintID>
+			</Default>
+		</ActiveWeaponSet>	
+		
+		<ActiveGadjetSet>
+			<Type> GADJETSSET </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>
+				<GadjetID>0</GadjetID>
+				<GadjetType>0</GadjetType>	
+				<GadjetWork>0</GadjetWork>	
+			</Default>
+		</ActiveGadjetSet>
+
+		<ActiveArtifactList>
+			<Type> ARRAY <of> ACTIVE_ARTIFACT_ENTRY </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+		</ActiveArtifactList>
+
+		
+		<CarryingItems>
+			<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default> </Default>
+		</CarryingItems>
+		
+		
+		<StoredItems>
+			<Type> ARRAY <of> BANK_ENTRY  </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default> </Default>
+		</StoredItems>
+		
+				
+		<StoredItemsInShop>
+			<Type> ARRAY <of> ITEM_ID  </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default> </Default>
+		</StoredItemsInShop>
+		
+		
+		<KnowingRecipes>
+			<Type> ARRAY <of> INT32  </of> </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> false </Persistent>
+			<Default> </Default>
+		</KnowingRecipes>
+		
+		
+	
+		<CanShoot>
+			<Type> INT8 </Type>
+			<Flags> OWN_CLIENT </Flags>
+		</CanShoot>
+		
+
+		
+		<CanUse>
+			<Type> INT8 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Default>1</Default>
+		</CanUse>
+		
+		<neededIDFunction>
+			<Type> PYTHON </Type>
+			<Flags> CELL_PRIVATE </Flags>		
+		</neededIDFunction>
+		
+		<CurrentWeaponAmmo>
+			<Type> INT32 </Type>	
+			<Flags> OWN_CLIENT </Flags>		
+			<Default>0</Default>
+		</CurrentWeaponAmmo>
+		
+		<ExchangeProperties>
+			<Type> EXCHANGE_LIST </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default>
+				<ItemsToExchange> </ItemsToExchange>
+				<CreditsToExchange>0</CreditsToExchange>
+				<GoldToExchange>0</GoldToExchange>
+				<TradingEntity>0</TradingEntity>
+				<fConfirm>0</fConfirm>	
+				<TradeInitiator>0</TradeInitiator>
+				<ExchangeID>0</ExchangeID>
+			</Default>
+		</ExchangeProperties>
+
+		<LastExchangeID>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default>0</Default>
+		</LastExchangeID>
+			
+	
+
+		
+
+		<!-- <EquippedItems>
+			<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+		</EquippedItems>	-->
+		
+		
+	</Properties>
+	
+	<BaseMethods>		
+		<AddNewItemFromDispather>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</AddNewItemFromDispather>
+		
+			
+		<OnItemAdded>
+		</OnItemAdded>	
+		<OnItemLost>
+		</OnItemLost>
+
+		<!--<BaseExchangeStart>-->
+			<!--<Arg> MAILBOX </Arg>-->
+			<!--<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>-->
+			<!--<Type> INT32</Type>-->
+		<!--</BaseExchangeStart>-->
+		
+		
+	</BaseMethods>
+	
+	<CellMethods>
+		<testPrint/>
+		
+		<updateAccountToAvatarGold>
+			<Arg>	INT64	</Arg> <!-- goldvalue -->
+		</updateAccountToAvatarGold>
+		
+		
+		<!-- SHOP cell comunicate -->
+		
+		<updateStoredItemsInShop/>		
+		
+		
+		
+		<sellerItemsInShopResponse>
+			<Arg>		PYTHON		</Arg> <!-- data -->
+		</sellerItemsInShopResponse>	
+		
+		
+		<itemToShop>
+			<Exposed/>
+			<Arg>		COMPLEX_ITEM		</Arg> <!-- complexItem -->
+			<Arg>		INT64				</Arg> <!-- price -->
+			<Arg>		STRING				</Arg> <!-- BankName -->
+		</itemToShop>			
+
+	
+	
+		<buyItemFromShop>
+			<Exposed/>
+			<Arg>		STRING				</Arg> <!-- sellerAvatarName -->
+			<Arg>		INT32				</Arg> <!-- complexItemID -->
+			<Arg>		INT64				</Arg> <!-- price -->
+			<Arg>		STRING				</Arg> <!-- BankName -->
+		</buyItemFromShop>	
+		
+		
+	
+			
+			
+		<shopBuyingApprove>
+			<Arg>		COMPLEX_ITEM		</Arg> <!-- complexItem -->
+			<Arg>		INT64				</Arg> <!-- price -->			
+			<Arg>		STRING				</Arg> <!-- BankName -->	
+			<Arg>		STRING				</Arg> <!-- sellerAvatarName -->	
+			<Arg>		INT32				</Arg> <!-- status -->	
+			
+		</shopBuyingApprove>				
+			
+		<ShopItemPlacedApprove>
+			<Arg>		INT32		</Arg> <!-- complexItemID -->
+			<Arg>		INT64				</Arg> <!-- price -->			
+			<Arg>		INT64				</Arg> <!-- price_tax -->			
+			<Arg>		STRING				</Arg> <!-- BankName -->	
+			<Arg>		INT32				</Arg> <!-- status -->	
+		</ShopItemPlacedApprove>	
+			
+			
+		<shopSaleApprove>
+			<Arg>		INT32				</Arg> <!-- complexItemID -->
+			<Arg>		INT64				</Arg> <!-- price -->			
+			<Arg>		STRING				</Arg> <!-- BankName -->			
+			<Arg>		STRING				</Arg> <!-- buyerName -->			
+		</shopSaleApprove>	
+	
+	
+	
+		<cancelSaleShop>
+			<Exposed/>
+			<Arg>	ITEM_ID			</Arg>	<!-- complexItemID -->
+			<Arg>	STRING			</Arg>	<!-- BankName -->		
+		</cancelSaleShop>
+	
+		<cancelSaleApprove>
+			<Arg>	ITEM_ID			</Arg>	<!-- complexItemID -->
+			<Arg>	STRING			</Arg>	<!-- BankName -->	
+			<Arg>		INT32				</Arg> <!-- status -->		
+		</cancelSaleApprove>
+		
+		
+		
+		<getShopCatalogFiltered>
+			<Exposed/>
+			<Arg>		INT8				</Arg> <!-- sortFlag -->
+			<Arg>		INT8				</Arg> <!-- forward -->
+			<Arg>		INT32				</Arg> <!-- page_start -->
+			<Arg>		INT32				</Arg> <!-- page_len -->
+			<Arg>	ARRAY <of>INT32</of>	</Arg> <!-- tags -->
+		</getShopCatalogFiltered>		
+		
+		
+		<getShopAllCatalog>
+			<Exposed/>
+			<Arg>	ARRAY <of>INT32</of>	</Arg> <!-- tags -->
+		</getShopAllCatalog>
+		
+		
+		
+		<shopCatalogResponseFiltered>
+			<Arg>		PYTHON				</Arg> <!-- data -->
+			<Arg>		INT32				</Arg> <!-- page_start -->
+			<Arg>		INT32				</Arg> <!-- last_index_item -->
+			<Arg>		INT32				</Arg> <!-- all_index_item -->
+		</shopCatalogResponseFiltered>
+			
+			
+		<shopCatalogAllResponse>
+			<Arg>		PYTHON				</Arg> <!-- data -->
+		</shopCatalogAllResponse>
+		
+		
+		
+		
+		<!-- /SHOP cell comunicate -->
+	
+	
+	
+	
+	
+
+		<onDroppedItemDestroyed>
+			<Arg>		MAILBOX				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+		</onDroppedItemDestroyed>
+	
+		<TakeItem>
+			<Arg> MAILBOX </Arg>
+			<Arg> COMPLEX_ITEM </Arg>
+			<Arg> INT8 </Arg>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</TakeItem>
+		
+		
+		<GiveItem>
+			<Arg> MAILBOX </Arg>
+			<Arg> COMPLEX_ITEM </Arg>
+			<Arg> INT8 </Arg>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</GiveItem>
+	
+		<RequestItem>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT8 </Arg>
+		</RequestItem>
+			
+		<RequestAllItems>
+			<Arg> MAILBOX </Arg>
+		</RequestAllItems>
+	
+	
+		<IncreaseMoney>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> MAILBOX </Arg>
+			<Arg> STRING </Arg>
+		</IncreaseMoney>	
+		<DecreaseMoney>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> MAILBOX </Arg>
+			<Arg> STRING </Arg>
+		</DecreaseMoney>	
+	
+		<throwNewID>
+			<Arg> INT32 </Arg>
+		</throwNewID>	
+		
+		<DpleeteConsumables>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</DpleeteConsumables>	
+		
+		<!--DivideItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</DivideItem-->	
+		
+		<wipeItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</wipeItem>		
+	
+		<SellItemToTrader>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</SellItemToTrader>	
+		
+		<BuyItemFromTrader>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT8 </Arg> <!-- forGold -->
+		</BuyItemFromTrader>	
+		
+		<TradeEnd>
+			<Arg> INT32 </Arg>
+		</TradeEnd>
+			
+
+		
+
+		
+		
+		<ItemHolderExhousted>
+			<Arg> MAILBOX </Arg>
+		</ItemHolderExhousted>
+		
+		
+		<DiscardConfirm>
+			<Exposed/>
+		</DiscardConfirm>
+		
+		<DiscardExchange>
+			<Arg> INT8 </Arg>
+		</DiscardExchange>
+		
+		<StartNPCRepair>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</StartNPCRepair>
+		
+		
+		<AddComplexItemID>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL </Arg>
+		</AddComplexItemID>
+		
+		<GetAllItemsFromCarryer>
+			<Arg> INT32 </Arg>
+		</GetAllItemsFromCarryer>
+		
+		<RemoteDeleteItem>
+			<Arg> INT32 </Arg>
+			<Arg> MAILBOX </Arg>
+		</RemoteDeleteItem>
+		<AppruveItem>
+			<Arg> INT32 </Arg>
+			<Arg> MAILBOX </Arg>
+		</AppruveItem>
+
+		<GetItemFromHolder>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</GetItemFromHolder>	
+		
+
+		
+
+		
+		<AddItemToTrade>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</AddItemToTrade>	
+		<RemoveItemFromTrade>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</RemoveItemFromTrade>	
+		<SetMoneyToTrade>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</SetMoneyToTrade>
+		<SetGoldToTrade>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</SetGoldToTrade>	
+		<SetConfirm>
+			<Exposed/>
+			<Arg> INT8 </Arg>
+		</SetConfirm>
+		<SetOffer>
+			<Exposed/>
+			<Arg> INT8 </Arg>
+		</SetOffer>
+		<BeginExchange>
+			<Exposed/>
+			<Arg> ENTITY_ID </Arg>
+		</BeginExchange>
+		<cancelExchange>
+			<Exposed/>
+			<Arg> ENTITY_ID </Arg>
+		</cancelExchange>
+		<DoExchange>
+		</DoExchange>	
+		<SetOpponent>
+			<Arg> ENTITY_ID </Arg>
+		</SetOpponent>	
+		<CancelTrade>
+			<Exposed/>
+			<Arg> INT8 </Arg>
+		</CancelTrade>	
+		
+		
+	
+	
+
+		
+	</CellMethods>
+	
+	<ClientMethods>
+	
+	
+		<ExchangeAppruved>
+		</ExchangeAppruved>
+		<ExchangeEnded>
+		</ExchangeEnded>
+		
+				
+		<showShopMessage>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+		</showShopMessage>	
+		
+		<showShopMessageExpand>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		PYTHON				</Arg>
+		</showShopMessageExpand>
+		
+		
+		
+		<shopCatalogResponseFiltered>
+			<Arg>		PYTHON				</Arg> <!-- data -->
+			<Arg>		INT32				</Arg> <!-- page_start -->
+			<Arg>		INT32				</Arg> <!-- last_index_item -->
+			<Arg>		INT32				</Arg> <!-- all_index_item -->
+		</shopCatalogResponseFiltered>
+			
+			
+		<shopCatalogAllResponse>
+			<Arg>		PYTHON				</Arg> <!-- data -->
+		</shopCatalogAllResponse>
+		
+		
+		<fromShopError>
+			<Arg>		INT32				</Arg> <!-- error_code -->
+		</fromShopError>	
+	
+	
+		<ReportFail>
+			<Arg> INT32 </Arg>
+		</ReportFail>
+	
+		<SetActiveWeaponAmmo>
+			<Arg> INT32 </Arg>
+		</SetActiveWeaponAmmo>
+		<NeedToUpdateInventory>
+		</NeedToUpdateInventory>
+		<NeedToUpdateTradeInterface>
+			<Arg> ENTITY_ID </Arg>
+		</NeedToUpdateTradeInterface>
+		<NeedToUpdateExchangeInterface>
+		</NeedToUpdateExchangeInterface>
+		<onCraftEnded>
+		</onCraftEnded>
+		
+		
+		<onItemAdded>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</onItemAdded>
+		<onItemLost>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</onItemLost>
+		
+	</ClientMethods>
+
+	
+</root>

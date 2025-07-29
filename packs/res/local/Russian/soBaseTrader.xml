@@ -1,0 +1,12 @@
+<root>
+  <EntityName>Торговец донат_базами</EntityName>
+  <CLAN_NAME>Название клана:</CLAN_NAME>
+  <CURRENT>Текущий арендатор базы:</CURRENT>
+  <lastPrice>Последняя ставка:</lastPrice>
+  <STEP>Шаг аукциона</STEP>
+  <COUNT>Количество участников:</COUNT>
+  <END_RENT_DATE>Дата окончания текущей аренды:</END_RENT_DATE>
+  <END_DATE>Дата окончания аукциона:</END_DATE>
+  <NEXT_RENT>Дальнейшая аренда:</NEXT_RENT>
+  <END_DATA>Увеличить последнюю ставку с учетом шага аукциона:</END_DATA>
+</root>

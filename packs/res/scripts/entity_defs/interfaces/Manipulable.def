@@ -1,0 +1,32 @@
+<root>
+	<Properties>
+		<manipulatorBase>
+			<Type> MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</manipulatorBase>
+		
+		<waypoint>
+			<Type> WAYPOINT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</waypoint>
+		
+		<notificationRules>
+			<Type> UINT16 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</notificationRules>		
+	</Properties>
+	
+	<CellMethods>
+		<setNotificationRules>
+			<Arg> UINT16 </Arg> <!-- flags -->
+		</setNotificationRules>
+		
+		<setWaypoint>
+			<Arg> WAYPOINT </Arg>
+		</setWaypoint>
+		
+		<set_waypoints>
+			<Arg> ARRAY <of> WAYPOINT </of> </Arg>
+		</set_waypoints>		
+	</CellMethods>
+</root>

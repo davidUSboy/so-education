@@ -1,0 +1,57 @@
+<root>
+	<Properties>		
+		<effects>
+			<Type> ARRAY <of> BASE_EFFECT_ENTRY </of> </Type>
+			<Persistent> true </Persistent>
+			<Flags> CELL_PRIVATE </Flags>
+		</effects>
+		
+		<!-- 
+			Is used to automatically propagate ids of effects to other clients - to create sfxes.
+			Effects for own client is propagating by cell entity manually.
+		-->
+		<effectsVisibleForAll>
+			<Type> ARRAY <of> BASE_EFFECT_ID </of> </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+			<!-- <Flags> ALL_CLIENTS </Flags> -->
+		</effectsVisibleForAll>
+	</Properties>
+	
+	<BaseMethods>		
+	</BaseMethods>
+	
+	<CellMethods>
+		<applyEffect>
+			<Arg> ENTITY_ID </Arg> <!-- id -->
+			<Arg> BASE_EFFECT_ID </Arg> <!-- id -->
+			<Arg> INT32 </Arg> <!-- stacks -->
+		</applyEffect>
+		
+		<applyModifiedEffect>
+			<Arg> ENTITY_ID </Arg> <!-- id -->
+			<Arg> BASE_EFFECT_ID </Arg> <!-- id -->
+			<Arg> INT32 </Arg> <!-- stacks -->
+			<Arg> FLOAT </Arg> <!-- modifier -->
+		</applyModifiedEffect>		
+		
+		<removeEffectById>
+			<Arg> BASE_EFFECT_ID </Arg>
+		</removeEffectById>		
+		
+		<onEffectSourcesChanged>
+			<Arg> BASE_EFFECT_ID </Arg> <!-- id -->
+			<Arg> ENTITY_ID </Arg> <!-- id -->
+		</onEffectSourcesChanged>
+	</CellMethods>
+	
+	<ClientMethods>
+		<changeVisibleEffect>
+			<Arg> VISIBLE_EFFECT_ENTRY </Arg>
+		</changeVisibleEffect>
+		
+		<removeVisibleEffect>
+			<Arg> BASE_EFFECT_ID </Arg>
+		</removeVisibleEffect>
+		
+	</ClientMethods>
+</root>

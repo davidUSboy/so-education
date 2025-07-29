@@ -1,0 +1,203 @@
+<root>
+  <UNDEFINED_EFFECT>Unknown effect</UNDEFINED_EFFECT>
+  <Safe_Area_name>Safeness</Safe_Area_name>
+  <Safe_Area_tooltip>Perfectly protected area</Safe_Area_tooltip>
+  <Safe_PvP_name>Безопасность от сталкеров</Safe_PvP_name>
+  <Safe_PvP_tooltip>Безупречно охраняемая территория от сталкеров</Safe_PvP_tooltip>
+  <Safe_Respawn_name>Security (2 сsec)</Safe_Respawn_name>
+  <Safe_Respawn_tooltip>Safe Zone (temp)</Safe_Respawn_tooltip>
+  <Normal_Load_name>Normal Weight</Normal_Load_name>
+  <Heavy_Load_name>Heavy Weight</Heavy_Load_name>
+  <Heavy_Load_tooltip>Decreasing walking speed</Heavy_Load_tooltip>
+  <Stop_Load_name>Overweight</Stop_Load_name>
+  <Stop_Load_tooltip>Overweight immobility</Stop_Load_tooltip>
+  <Crouch_name>Bend</Crouch_name>
+  <Crouch_tooltip>Bend slowdown</Crouch_tooltip>
+  <Sitting_name>Crouch</Sitting_name>
+  <Sitting_tooltip>Rest</Sitting_tooltip>
+  <Sniping_name>Aiming</Sniping_name>
+  <Sniping_tooltip>Aiming slowdown</Sniping_tooltip>
+  <Cover_name>Cover</Cover_name>
+  <Cover_tooltip>Bulletproof cover</Cover_tooltip>
+  <Slow_Regeneration_name>Passive Health Regeneration</Slow_Regeneration_name>
+  <Regeneration_Average_name>Health Regeneration</Regeneration_Average_name>
+  <Regeneration_Average_tooltip>Wound healing</Regeneration_Average_tooltip>
+  <Regeneration_Fast_name>Fast Health Regeneration</Regeneration_Fast_name>
+  <Regeneration_Fast_tooltip>Tissue regeneration</Regeneration_Fast_tooltip>
+  <Stun_name>Stun</Stun_name>
+  <Stun_tooltip>Stun</Stun_tooltip>
+  <Poison_name>Poison</Poison_name>
+  <Poison_tooltip>Poisoning</Poison_tooltip>
+  <DrugTripFood_name>Drugs mushrooms</DrugTripFood_name>
+  <DrugTripFood_tooltip>Drug intoxication</DrugTripFood_tooltip>
+  <Bleed_name>Bleeding</Bleed_name>
+  <Bleed_tooltip>Bleeding</Bleed_tooltip>
+  <RadioactivitySource_name>Radioactivity</RadioactivitySource_name>
+  <RadioactivitySource_tooltip>Radioactive radiation Baer/sec</RadioactivitySource_tooltip>
+  <Radioactivity_name>Radioactivity</Radioactivity_name>
+  <Radioactivity_tooltip>radiation sickness:
+ 100-200 - light
+ 200-400 - average
+ 400-600 - heavy
+ 600-800 - extremely heavy
+ over 800 - lethal</Radioactivity_tooltip>
+  <Water_name>Water</Water_name>
+  <Water_tooltip>Very cold water</Water_tooltip>
+  <ColdSource_name>Cold Source</ColdSource_name>
+  <ColdSource_tooltip>Freezing wind</ColdSource_tooltip>
+  <Cold_name>Freezing</Cold_name>
+  <Cold_tooltip>Freezing:
+ 25-50 - light
+ 50-75 - average
+ 75-90 - heavy</Cold_tooltip>
+  <WarmSource_name>Heat Source</WarmSource_name>
+  <WarmSource_tooltip>Heat source</WarmSource_tooltip>
+  <Warm_name>Warming</Warm_name>
+  <Warm_tooltip>Heating Pad:
+ Shows heater effect duration in minutes, reduces freezing</Warm_tooltip>
+  <TwinsPositiveSource_name>Positive Twin Source</TwinsPositiveSource_name>
+  <TwinsPositiveSource_tooltip>Spawn "Positive Twin" effect</TwinsPositiveSource_tooltip>
+  <TwinsPositive_name>Positive Twin</TwinsPositive_name>
+  <TwinsPositive_tooltip>(+) Positive Twin protection:
+ less than 10 - protection from Negative Twin effects
+ more than 10 - overflow damage</TwinsPositive_tooltip>
+  <TwinsNegative_name>Negative Twin</TwinsNegative_name>
+  <TwinsNegative_tooltip>(-) Negative Twin effect</TwinsNegative_tooltip>
+  <Light_Armor_name>Light Armor</Light_Armor_name>
+  <Light_Armor_tooltip>Light armor speed reduction</Light_Armor_tooltip>
+  <Medium_Armor_name>Medium Armor</Medium_Armor_name>
+  <Medium_Armor_tooltip>Medium armor speed reduction</Medium_Armor_tooltip>
+  <Heavy_Armor_name>Heavy Armor</Heavy_Armor_name>
+  <Heavy_Armor_tooltip>Heavy armor speed reduction</Heavy_Armor_tooltip>
+  <Mixed_Armor_name>Mixed Armor</Mixed_Armor_name>
+  <Mixed_Armor_tooltip>Mixed armor speed reduction</Mixed_Armor_tooltip>
+  <Antigrav_name>Antigrav Artefact</Antigrav_name>
+  <Antigrav_tooltip>Antigrav: (+) speed increase; (-) bullet damage vulnerability</Antigrav_tooltip>
+  <Screen_name>Screen Artefact</Screen_name>
+  <Screen_tooltip>Screen: (+) explosion defense; (-) close-in defense</Screen_tooltip>
+  <Pillow_name>Pillow Artefact</Pillow_name>
+  <Pillow_tooltip>Pillow: (+) close-in defense, fall defense; (-) bullet defence</Pillow_tooltip>
+  <Shield_name>Shield Artefact</Shield_name>
+  <Shield_tooltip>Shield: (+) bullet defence; (-) explosion defence</Shield_tooltip>
+  <Rezina_name>Rubber Artefact</Rezina_name>
+  <Rezina_tooltip>Rubber: (+) remove radiation; (-) causes a damage</Rezina_tooltip>
+  <Stabilizer_name>Stabilizer Artefact</Stabilizer_name>
+  <Stabilizer_tooltip>Stabilizer: (+) twice less damage from falling, (-) reduses speed</Stabilizer_tooltip>
+  <Food_Small_name>Small Food Package</Food_Small_name>
+  <Food_Small_tooltip>Snack (max portions: 3), small speed increasing</Food_Small_tooltip>
+  <Food_Average_name>Average Food Package</Food_Average_name>
+  <Food_Average_tooltip>Good meal (max portions: 2), average speed increasing</Food_Average_tooltip>
+  <Food_Big_name>Full Meal</Food_Big_name>
+  <Food_Big_tooltip>Full nutricious meal (max portions: 1), average speed increasing</Food_Big_tooltip>
+  <AntiPoison_name>Antidote</AntiPoison_name>
+  <AntiPoison_tooltip>Poison removal</AntiPoison_tooltip>
+  <AntiRadin_name>Anti-radiation</AntiRadin_name>
+  <AntiRadin_tooltip>Radiation removal</AntiRadin_tooltip>
+  <AntiBleed_name>Anti-bleeding</AntiBleed_name>
+  <AntiBleed_tooltip>Bleeding reduction</AntiBleed_tooltip>
+  <StimPack_name>Medkit</StimPack_name>
+  <StimPack_tooltip>Stimulator</StimPack_tooltip>
+  <Flask_bullet_name>Bulletproof Skin Oil</Flask_bullet_name>
+  <Flask_bullet_tooltip>Bullet damage vulnerability reduction</Flask_bullet_tooltip>
+  <Flask_Ryabinovka_name>"Ryabinovka" Tincture</Flask_Ryabinovka_name>
+  <Flask_Ryabinovka_tooltip>"Ryabinovka" tincture: Rejuvenates and cleans your water</Flask_Ryabinovka_tooltip>
+  <Rested_phys_name>Physical Cheerfulness</Rested_phys_name>
+  <Rested_phys_tooltip>Rested - speed increased</Rested_phys_tooltip>
+  <RegenArea_Slow_name>Light Health Restore Area</RegenArea_Slow_name>
+  <RegenArea_Slow_tooltip>Restore</RegenArea_Slow_tooltip>
+  <CampFire_name>Fire</CampFire_name>
+  <CampFire_tooltip>Make a fire to warm up and rest</CampFire_tooltip>
+  <CampFireOnArea_name>Big Area Campfire</CampFireOnArea_name>
+  <CampFireOnArea_tooltip>Restore</CampFireOnArea_tooltip>
+  <Pain_name>Pain</Pain_name>
+  <Pain_tooltip>Intense pain, constrains movement</Pain_tooltip>
+  <onBlock_name>Armor Hit</onBlock_name>
+  <onBlock_tooltip>Through-defence hit effect</onBlock_tooltip>
+  <handsShake_name>Hand Shaking</handsShake_name>
+  <handsShake_tooltip>Hand shaking, aim reduction</handsShake_tooltip>
+  <BioSpore_name>Biospores</BioSpore_name>
+  <BioSpore_tooltip>Taking biospores through breathing</BioSpore_tooltip>
+  <Anomaly_Katapulta_Dmg_name>Catapult</Anomaly_Katapulta_Dmg_name>
+  <Hungry_name>Hunger</Hungry_name>
+  <Hungry_tooltip>You are hungry, you can't run</Hungry_tooltip>
+  <Anomaly_Arrester_name>Effect of the Arrester Anomaly</Anomaly_Arrester_name>
+  <Anomaly_Microwave_name>Effect of the Microwave Anomaly</Anomaly_Microwave_name>
+  <Anomaly_Press_name>Effect of the Press Anomaly</Anomaly_Press_name>
+  <Anomaly_Drobilka_name>Effect of the Drobilka Anomaly</Anomaly_Drobilka_name>
+  <Anomaly_Katapulta_name>Effect of the Katapulta Anomaly</Anomaly_Katapulta_name>
+  <Anomaly_Razryadnik_name>Effect of the Razryadnik Anomaly</Anomaly_Razryadnik_name>
+  <Anomaly_Mikrovolnovka_name>Effect of the Mikrovolnovka Anomaly</Anomaly_Mikrovolnovka_name>
+  <Anomaly_Zelenaya_gnil_name>Effect of the Zelenaya_gnil Anomaly</Anomaly_Zelenaya_gnil_name>
+  <Anomaly_Psycho_name>Effect of the Psycho Anomaly</Anomaly_Psycho_name>
+  <Anomaly_Noob_visible_name>Effect of the Noob_visible Anomaly</Anomaly_Noob_visible_name>
+  <Anomaly_Noob_invisible_name>Effect of the Noob_invisible Anomaly</Anomaly_Noob_invisible_name>
+  <Anomaly_Vezuviy_uniq_name>Effect of the Vezuviy_uniq Anomaly</Anomaly_Vezuviy_uniq_name>
+  <Worm_Regeneration_name>Regeneration</Worm_Regeneration_name>
+  <Creature_Regeneration_name>Mutant Health Regeneration</Creature_Regeneration_name>
+  <test_constant_speed_name>Test: Speed</test_constant_speed_name>
+  <test_constant_speed_tooltip>Speed test effect tooltip</test_constant_speed_tooltip>
+  <test_stama_regen_name>Test: Stamina Regeneration</test_stama_regen_name>
+  <test_stama_regen_tooltip>Stamina regeneration test effect tooltip</test_stama_regen_tooltip>
+  <test_forbid_safe_area_name>Test: Safe_Area defense</test_forbid_safe_area_name>
+  <test_forbid_safe_area_tooltip>Safe area forbid test effect</test_forbid_safe_area_tooltip>
+  <test_forbid_stun_name>Test: Stun Protection</test_forbid_stun_name>
+  <test_forbid_stun_tooltip>ТStun protection test effect</test_forbid_stun_tooltip>
+  <test_heal_name>Test: Heal</test_heal_name>
+  <test_heal_tooltip>Test Effect: 1 per sec heal</test_heal_tooltip>
+  <SevereInjury_name>Severe Injury</SevereInjury_name>
+  <SevereInjury_tooltip>1\3 of max health, the effect ends in safe-zone (1 per 10 sec). The stronger injury, the longer time spends to come to the senses, if stalker decided to rest.</SevereInjury_tooltip>
+  <Contusion_name>Contusion</Contusion_name>
+  <Contusion_tooltip>Can't jump and run away</Contusion_tooltip>
+  <MedKitSource_name>Medkit</MedKitSource_name>
+  <MedKitSource_tooltip>Gradual health regeneration</MedKitSource_tooltip>
+  <Intoxication_name>Intoxication</Intoxication_name>
+  <Intoxication_tooltip>Drug's overdose intoxication</Intoxication_tooltip>
+  <AntiRadinVof_name>Antiradiation</AntiRadinVof_name>
+  <AntiRadinVof_tooltip>Increases resistance of an organism to radiation</AntiRadinVof_tooltip>
+  <AntiPoisonVof_name>Resistance to Poisons</AntiPoisonVof_name>
+  <AntiPoisonVof_tooltip>High metabolism removes poisons</AntiPoisonVof_tooltip>
+  <AntiStun_name>Nerve Stimulator</AntiStun_name>
+  <AntiStun_tooltip>Stun immunity</AntiStun_tooltip>
+  <InfraredSource_name>Fire Damage</InfraredSource_name>
+  <InfraredSource_tooltip>Burn from a hot surface</InfraredSource_tooltip>
+  <ArtifactScreenAlpha_name>Artefact α-Screen</ArtifactScreenAlpha_name>
+  <ArtifactScreenAlpha_tooltip>А.α-Screen: (+) explosive defense; (-) close combat defense</ArtifactScreenAlpha_tooltip>
+  <ArtifactScreenBeta_name>β</ArtifactScreenBeta_name>
+  <ArtifactScreenGamma_name>γ</ArtifactScreenGamma_name>
+  <ArtifactScreenDelta_name>δ</ArtifactScreenDelta_name>
+  <ArtifactScreenEpsilon_name>ε</ArtifactScreenEpsilon_name>
+  <ArtifactPillowAlpha_name>Artefact α-Pillow</ArtifactPillowAlpha_name>
+  <ArtifactPillowAlpha_tooltip>А.α-Pillow: (+) close combat defense; (-) bullet defense</ArtifactPillowAlpha_tooltip>
+  <ArtifactPillowBeta_name>Artefact β-Pillow</ArtifactPillowBeta_name>
+  <ArtifactPillowBeta_tooltip>А.β-Pillow: (+) close combat defense; (-) bullet defense; \n(α-artefact impact is 20% more powerful)</ArtifactPillowBeta_tooltip>
+  <ArtifactPillowGamma_name>γ</ArtifactPillowGamma_name>
+  <ArtifactPillowDelta_name>δ</ArtifactPillowDelta_name>
+  <ArtifactPillowEpsilon_name>ε</ArtifactPillowEpsilon_name>
+  <ArtifactShieldAlpha_name>Artefact α-Shield</ArtifactShieldAlpha_name>
+  <ArtifactShieldAlpha_tooltip>А.α-Shield: (+) bullet defense; (-) explosive defense</ArtifactShieldAlpha_tooltip>
+  <ArtifactShieldBeta_name>Artefact β-Shield</ArtifactShieldBeta_name>
+  <ArtifactShieldBeta_tooltip>А.β-Shield: (+) bullet defense; (-) explosive defense; \n(α-artefact impact is 20% more powerful)</ArtifactShieldBeta_tooltip>
+  <ArtifactRubberAlpha_name>Artefact α-Rubber</ArtifactRubberAlpha_name>
+  <ArtifactRubberAlpha_tooltip>А.α-Rubber: (+) radiation absorb; (-) demage</ArtifactRubberAlpha_tooltip>
+  <ArtifactRubberBeta_name>Artefact β-Rubber</ArtifactRubberBeta_name>
+  <ArtifactRubberBeta_tooltip>А.β-Rubber: (+) radiation absorb; (-) damage; \n(α-artefact impact is 100% more powerful)</ArtifactRubberBeta_tooltip>
+  <ArtifactAntigravAlpha_name>Artefact  α-Anti-g</ArtifactAntigravAlpha_name>
+  <ArtifactAntigravAlpha_tooltip>А.α-Anti-g: (+) Speed increase; (-) bullet vulnerability</ArtifactAntigravAlpha_tooltip>
+  <ArtifactAntigravBeta_name>Artefact β-Anti-g</ArtifactAntigravBeta_name>
+  <ArtifactAntigravBeta_tooltip>А.β-Anti-g: (+) Speed increase; (-) bullet vulnerability; \n(α-artefact impact is 20% more powerful)</ArtifactAntigravBeta_tooltip>
+  <ArtifactStabilizerAlpha_name>Artefact α-Stabilizer</ArtifactStabilizerAlpha_name>
+  <ArtifactStabilizerAlpha_tooltip>А.α-Stabilizer: (+) Two times less health damage when falling</ArtifactStabilizerAlpha_tooltip>
+  <ArtifactStabilizerBeta_name>Artefact β-Stabilizer</ArtifactStabilizerBeta_name>
+  <ArtifactStabilizerBeta_tooltip>А.β-Stabilizer: (+) Two times less health damage when falling</ArtifactStabilizerBeta_tooltip>
+  <Slow_Web_name>Strong web</Slow_Web_name>
+  <Slow_Glue_name>Sticky substance</Slow_Glue_name>
+  <Acid_name>Acid</Acid_name>
+  <BioSporeMoss_name>Venomous moss</BioSporeMoss_name>
+  <Senseless_name>Unconscious</Senseless_name>
+  <Senseless_tooltip>Can't move</Senseless_tooltip>
+  <Burn_name>Fire</Burn_name>
+  <Burn_tooltip>Your clothes are on fire!</Burn_tooltip>
+  <Adrenaline_name>Psychomotor Stimulant</Adrenaline_name>
+  <Adrenaline_tooltip>Psychomotor Stimulant, increases survival</Adrenaline_tooltip>
+  <Adrenaline_msgBox>Psychomotor Stimulant will kick in in {0} sec</Adrenaline_msgBox>
+</root>

@@ -1,0 +1,16 @@
+<!-- Stalker Online SpaceManager definitions -->
+
+<root>
+	<Properties>
+	</Properties>
+	
+	<BaseMethods>
+	</BaseMethods>
+	
+	<CellMethods>
+	</CellMethods>
+	
+	<ClientMethods>
+	</ClientMethods>
+
+</root>

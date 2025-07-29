@@ -1,0 +1,36 @@
+<root>
+  <common>
+    <NO_DESCRIPTION>Нет описания</NO_DESCRIPTION>
+    <VOID_ITEM>Предмет</VOID_ITEM>
+    <LC_WEAPON>ОРУЖИЕ</LC_WEAPON>
+    <LC_CLOTH>ОДЕЖДА</LC_CLOTH>
+    <LC_ARTIFACT>Артефакты</LC_ARTIFACT>
+    <LC_GADGET>Гаджеты</LC_GADGET>
+    <LC_BUFF>Вещества</LC_BUFF>
+    <LC_PART>Детали</LC_PART>
+    <LC_AMMO>Патроны</LC_AMMO>
+    <LC_EXPLOSION>Взрывчатка</LC_EXPLOSION>
+    <LC_LOOT>Трофеи</LC_LOOT>
+    <LC_QUEST>Квесты</LC_QUEST>
+    <LC_PISTOL>Пистолеты</LC_PISTOL>
+    <LC_REVOLVER>Револьверы</LC_REVOLVER>
+    <LC_SUB_MACHINE_GUN>Пистолет-пулемёты</LC_SUB_MACHINE_GUN>
+    <LC_ASSAULT_RIFLE>Штурмовые винтовки</LC_ASSAULT_RIFLE>
+    <LC_SNIPER_RIFLE>Снайперские винтовки</LC_SNIPER_RIFLE>
+    <LC_RIFLE>Винтовки</LC_RIFLE>
+    <LC_SHOTGUN>Дробовики</LC_SHOTGUN>
+    <LC_MACHINE_GUN>Пулемёты</LC_MACHINE_GUN>
+    <LC_GRENADE_LAUNCHER>Гранатометы</LC_GRENADE_LAUNCHER>
+    <LC_ROCKET_LAUNCHER>Ракетницы</LC_ROCKET_LAUNCHER>
+    <LC_GRENADE>Гранаты</LC_GRENADE>
+    <LC_HEAD>Шапки</LC_HEAD>
+    <LC_SHIRT>Рубашки</LC_SHIRT>
+    <LC_HANDS>Перчатки</LC_HANDS>
+    <LC_PANTS>Штаны</LC_PANTS>
+    <LC_BOOTS>Ботинки</LC_BOOTS>
+    <LC_ARMOR>Броня</LC_ARMOR>
+    <LC_HAT>Шляпы</LC_HAT>
+    <LC_MASK>Маски</LC_MASK>
+    <LC_BACKPACK>Рюкзаки</LC_BACKPACK>
+  </common>
+</root>

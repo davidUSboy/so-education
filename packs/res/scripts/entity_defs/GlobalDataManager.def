@@ -1,0 +1,92 @@
+<Root>
+	<Properties>
+		<!--	Globally registered name. -->
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		GlobalDataManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+		
+		<convertToBaseEffectEntry>
+			<Type>			BASE_EFFECT_ENTRY			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</convertToBaseEffectEntry>
+		
+		<teleportPoints>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</teleportPoints>
+		
+		<spawnAreas>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</spawnAreas>
+		
+		<clanNames>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</clanNames>
+		
+		<clanIDs>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</clanIDs>
+		
+		<clanWars>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</clanWars>
+
+		<clanIDWars>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</clanIDWars>
+
+		<bases>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</bases>
+		
+	</Properties>
+
+	<BaseMethods>
+
+		<cleanup/>
+
+		<!--<registerClans>-->
+			<!--<Arg> ARRAY <of>CLAN_ID_NAME_ENTRY</of>	</Arg>-->
+		<!--</registerClans>-->
+		
+		<registerPVPoint>
+			<Arg>	ENTITY_ID	</Arg>
+			<Arg>	INT64		</Arg>
+			<Arg>	VECTOR3		</Arg>
+			<Arg>	INT8		</Arg>
+		</registerPVPoint>
+		
+		<unregisterPVPoint>
+			<Arg>	ENTITY_ID	</Arg>
+		</unregisterPVPoint>		
+
+		<!--<setClanIDWars>-->
+			<!--<Arg> PYTHON </Arg>-->
+		<!--</setClanIDWars>-->
+
+		<registerBase>
+			<Arg>	STRING		</Arg>
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	INT64		</Arg>
+		</registerBase>
+
+	</BaseMethods>
+</Root>

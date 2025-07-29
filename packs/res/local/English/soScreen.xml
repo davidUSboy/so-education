@@ -1,0 +1,20 @@
+<root>
+  <soGUI>
+    <STRING_41_24>Cancel</STRING_41_24>
+    <STRING_42_21>Yes</STRING_42_21>
+    <STRING_43_20>No</STRING_43_20>
+    <STRING_44_23>Apply</STRING_44_23>
+    <STRING_45_23>Clear</STRING_45_23>
+    <STRING_694_42>Settings</STRING_694_42>
+    <STRING_718_42>Authors</STRING_718_42>
+    <STRING_801_16>Enter player name:</STRING_801_16>
+    <STRING_874_25>Cancel</STRING_874_25>
+    <STRING_987_19>Graphic settings:</STRING_987_19>
+    <STRING_1003_23>Screen resolution:</STRING_1003_23>
+    <STRING_1047_79>Window mode</STRING_1047_79>
+    <STRING_1072_82>Music</STRING_1072_82>
+    <STRING_1085_26>Level of detalisation:</STRING_1085_26>
+    <STRING_1164_35>Cancel</STRING_1164_35>
+    <STRING_1181_34>Apply</STRING_1181_34>
+  </soGUI>
+</root>

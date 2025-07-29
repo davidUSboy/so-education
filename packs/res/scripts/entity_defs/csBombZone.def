@@ -1,0 +1,56 @@
+<root>
+	<Implements>
+	</Implements>
+	
+	<Properties>
+		<ZoneName>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+		</ZoneName>
+
+		<csRoom>
+			<Type>			MAILBOX		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</csRoom>
+
+		<proximityID>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</proximityID>
+
+
+
+		<radius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		5.000000			</Default>
+			<Persistent>	0			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  -->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+		</radius>
+
+	</Properties>
+
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+		<setRoom>
+			<Arg>		MAILBOX	</Arg>
+		</setRoom>
+	</BaseMethods>
+
+
+
+</root>
+
+
+

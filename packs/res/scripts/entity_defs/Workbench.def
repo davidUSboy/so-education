@@ -1,0 +1,25 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>	
+		<workbenchType>
+			<Type>	UINT8	</Type>
+			<Flags> ALL_CLIENTS</Flags>
+			<Editable>		true			</Editable>
+			<Default> 1 </Default>
+		</workbenchType>
+	</Properties>
+	
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+</root>
+

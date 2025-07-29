@@ -1,0 +1,75 @@
+<root>
+  <strings>
+    <str1>%s available</str1>
+    <str2>Do you take the quest?</str2>
+    <str3>%sPK:%s=%s %s</str3>
+    <str4>%sstatus:%s=%s online</str4>
+    <str5>%sstatus:%s=%s offline</str5>
+    <str6>%slocation:%s=%s %s</str6>
+    <str7>%sReward:%s=%s %s</str7>
+    <str8>Buy</str8>
+    <str9>Confirm</str9>
+    <str10>Cancel</str10>
+    <str11>Warning!The offered price may differ from the price in the store</str11>
+    <str12>Buy</str12>
+    <str13>You do not have enough money to buy it %s - you got %s - the price</str13>
+    <str14>that you are sure</str14>
+    <str15>Are you %s sure you want to buy it?</str15>
+    <str16>are you you want to buy this item?</str16>
+    <str17>Price:</str17>
+    <str18>r.</str18>
+    <str19>username text</str19>
+    <str20>Trader:</str20>
+    <str21>Location:</str21>
+    <str22>Buy</str22>
+    <str23>Price:</str23>
+    <str24>Time remain:</str24>
+    <str25>h.</str25>
+    <str26>.</str26>
+    <str27>UPDATE</str27>
+    <str28>Price</str28>
+    <str29>Vendor:</str29>
+    <str30>Time</str30>
+    <str31>MERCH</str31>
+    <str32>average cost: %s</str32>
+    <str33>Attached parts:</str33>
+    <str34>Total average cost: %s</str34>
+    <str35>List for sale</str35>
+    <str36>Confirm</str36>
+    <str37>Cancel</str37>
+    <str38>Price:</str38>
+    <str39>10 % sale comission</str39>
+    <str40>Price must be higher than 10 r.</str40>
+    <str41>you don't have enough money to pay %s - you got %s - comission</str41>
+    <str42>sale comission %s%%:</str42>
+    <str43>Place an ad about prisoning</str43>
+    <str44>Confirm</str44>
+    <str45>Cancel</str45>
+    <str46>You have:</str46>
+    <str47>Reward:</str47>
+    <str48>To be paid:</str48>
+    <str49>5 % sale comission</str49>
+    <str50>PK name:</str50>
+    <str51>0r.</str51>
+    <str52>Price must be higher than 1000 r.</str52>
+    <str53>you don't have enough money to pay %s - you got %s - reward</str53>
+    <str55>Error</str55>
+    <str56>Loading...</str56>
+    <str57>Failed to enter game</str57>
+    <str58>You must rename your character before you may continue</str58>
+    <str59>Error</str59>
+    <str60>&lt;NO DATA&gt;</str60>
+    <str61>Weapon Accuracy = {0:.5f}</str61>
+    <str62>Weapon Accuracy = {0:.5f}</str62>
+    <str63>&lt;NO DATA&gt;</str63>
+    <str64>Weapon Knockback = {0:.5f}, ({1:.2%}) ({2:.5f} from accuracy)</str64>
+    <str65>&lt;NO DATA&gt;</str65>
+    <str66>&lt;NO DATA&gt;</str66>
+    <str67>&lt;NO DATA&gt;</str67>
+    <str68>&lt;NO DATA&gt;</str68>
+    <str69>less than a minute</str69>
+    <str70>%s minutes</str70>
+    <str71>%s hours</str71>
+    <str72>%s days</str72>
+  </strings>
+</root>

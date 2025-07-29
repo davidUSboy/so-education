@@ -1,0 +1,132 @@
+<root>
+  <client>
+    <PVP_GO_TO_SHOP>Buy a Weapon</PVP_GO_TO_SHOP>
+    <FAIL_UF_PLDEAD>FAIL_UF_PLDEAD</FAIL_UF_PLDEAD>
+    <FAIL_UF_GROUND>FAIL_UF_GROUND</FAIL_UF_GROUND>
+    <FAIL_UF_GEOMETRY>FAIL_UF_GEOMETRY</FAIL_UF_GEOMETRY>
+    <FAIL_UF_OTHER_UF>FAIL_UF_OTHER_UF</FAIL_UF_OTHER_UF>
+    <FAIL_UF_WATER>You can't make a fire in water</FAIL_UF_WATER>
+    <FAIL_UF_SAFE_AREA>FAIL_UF_SAFE_AREA</FAIL_UF_SAFE_AREA>
+    <MSG1>Enter /help command to get command notes</MSG1>
+    <MSG2>You're dead</MSG2>
+    <Hit>Target hit</Hit>
+    <Miss>Bad shot</Miss>
+    <AlreadyOrdered>is already wanted</AlreadyOrdered>
+    <YouOrdered>you're wanted</YouOrdered>
+    <YouHaveOrder>You've got an order</YouHaveOrder>
+    <AnnouncementArrest>Arrest</AnnouncementArrest>
+    <MSG3>Forbidden</MSG3>
+    <MSG4>Reloading</MSG4>
+    <MSG5>No weapon</MSG5>
+    <MSG6>Graphic error</MSG6>
+    <MSG7>Weapon is empty</MSG7>
+    <MSG8>Weapon is jammed</MSG8>
+    <MSG9>Problems with your weapon</MSG9>
+    <MSG10>Click OK to teleport to the safe zone.</MSG10>
+    <MSG11>You killed yourself.</MSG11>
+    <MSG12>You killed by an anomaly.</MSG12>
+    <MSG13>You're killed by:</MSG13>
+    <MSG14>Unknown stalker killed you.</MSG14>
+    <MSG15>You've been killed by:</MSG15>
+    <MSG16>You've been killed by NIP.</MSG16>
+    <MSG18>Mob killed you.</MSG18>
+    <MSG19>You've been killed by something.</MSG19>
+    <MSG20>You're dead.</MSG20>
+    <MSG21>BACK IN ACTION!</MSG21>
+    <MSG22>You killed: {name}</MSG22>
+    <MSG23>You killed somebody.</MSG23>
+    <KILLED_BY_EFFECT>You've been killed by effect {effect_name}</KILLED_BY_EFFECT>
+    <MSG24>kill</MSG24>
+    <YOU_HAVE_INJURED>You shot: {name} ({damage})</YOU_HAVE_INJURED>
+    <MSG26>You hurt something.</MSG26>
+    <MSG27>Critical damage!</MSG27>
+    <MSG28>damage</MSG28>
+    <INJURED_BY_EFFECT>You're injured by {effect_name}</INJURED_BY_EFFECT>
+    <MSG30>You hurt yourself</MSG30>
+    <MSG31>You're hurt by an anomaly</MSG31>
+    <MSG32>You're shot by:</MSG32>
+    <MSG33>You're shot by an unknown stalker</MSG33>
+    <MSG34>You're shot by:</MSG34>
+    <MSG35>You're shot by NPC</MSG35>
+    <MSG37>You was wounded by mob</MSG37>
+    <MSG38>You're wounded</MSG38>
+    <MSG39>You're wounded</MSG39>
+    <MSG40>Ignor list:</MSG40>
+    <MSG41>Swearing is allowed</MSG41>
+    <MSG42>Swearing is forbidden</MSG42>
+    <MSG43>Your ID:</MSG43>
+    <MSG44>Battle log record is on</MSG44>
+    <MSG45>Battle log record is off</MSG45>
+    <MSG_NO_FLASHLIGHT>No flashlight attached</MSG_NO_FLASHLIGHT>
+    <MSG_UNABLE_TO_RELOAD>Reloading is not possible</MSG_UNABLE_TO_RELOAD>
+    <MSG_AMMO_IS_FULL>Weapon is loaded</MSG_AMMO_IS_FULL>
+    <MSG_NO_AMMO_TO_LOAD>No ammo to load</MSG_NO_AMMO_TO_LOAD>
+    <MSG_ARMOR_PUTON_SPRINT>You can't put on the run</MSG_ARMOR_PUTON_SPRINT>
+    <MSG_FIRE_ON_SPRINT>You can't shoot on the run</MSG_FIRE_ON_SPRINT>
+    <MSG_RELOAD_ON_SPRINT>You can't reload on the run</MSG_RELOAD_ON_SPRINT>
+    <INIT_TRADE>Initiate trade</INIT_TRADE>
+    <DOYOU_WANT_TO_START_TRADE>Do you really want to start trade?</DOYOU_WANT_TO_START_TRADE>
+    <DEFAULT_PLAYER>Default character</DEFAULT_PLAYER>
+    <PLAYER_WIPE_WARNING>All items and effects will be reset after confirmation. You'll need to restart the game. Do you wish to reset your char?</PLAYER_WIPE_WARNING>
+    <TRADE_LOCK>Trade proposal blocking :</TRADE_LOCK>
+    <TRADE_LOCK_ON>On</TRADE_LOCK_ON>
+    <TRADE_LOCK_OFF>Off</TRADE_LOCK_OFF>
+    <OTHER_PLAYER_OFFERS_BARTER>{0} wants to trade with you. Do you agree?</OTHER_PLAYER_OFFERS_BARTER>
+    <BARTER_OFFER>Trade offer</BARTER_OFFER>
+    <UNKNOWN_PLAYER>by an unknown player</UNKNOWN_PLAYER>
+    <STRING_1122_8>All factions:</STRING_1122_8>
+    <STRING_2743_56>You</STRING_2743_56>
+    <STRING_2988_18>System commands:
+/help - console commands help
+/defaultmeplease - remove all items and buffs (to apply changes you need to reload the character)
+/iwannadie - faint while calling for help (there is a risk to lose items)
+/trade - on\off trade offers 
+/time - current time</STRING_2988_18>
+    <STRING_2988_19>Clan manager:
+/clandestroy - (clan leader only) disband the clan
+/claninvite [name] - invite stalker [name] to the clan
+/clankick [name] - kick the stalker [name] from the clan
+/clanleave - leave the clan
+/clanwar [clan_name] - declare a war with [clan_name]
+/basewar - declare a war to the host of the territory in which your avatar is located
+/clanwarlist - show the list of clans which are at war with you
+/clanpeace [clan_name] - offer a truce to [clan_name]</STRING_2988_19>
+    <STRING_2988_20>Squad manager:
+ - To create the squad you need to invite at least one other stalker
+/groupdestroy - (leader only) disband the squad
+/groupleader [name] - (leader only) give your leader rights to stalker [name]
+/kick [name] - (leader only) kick from the squad
+/invite [name] - (leader only) invite to the squad
+/inviter [name] - recommend a stalker to the leader
+/grouplist - show the list of the squad members
+/groupleave - leave the squad</STRING_2988_20>
+    <STRING_2988_21>Text messages:
+@[name] [text] - send a private message to stalker [name]
+%[text] - send a message to everyone in your clan
+/ignore [name] - add stalker [name] to the ignore list
+/unignore [name] - remove stalker [name] from the ignore list
+/ignore_list - show the ignore list 
+/chatabuse [on, off] - on\off censorship</STRING_2988_21>
+    <STRING_2988_22>Other commands:
+/reputation - show the factions reputation points</STRING_2988_22>
+    <STRING_HELP_1>Tester commands:</STRING_HELP_1>
+    <STRING_HELP_2>Game master commands:</STRING_HELP_2>
+    <STRING_HELP_3>Developer commands:</STRING_HELP_3>
+    <STRING_3114_23>There are {0} players in the game now</STRING_3114_23>
+    <STRING_3122_24>The fight log recording is active</STRING_3122_24>
+    <STRING_3278_10>Player</STRING_3278_10>
+    <STRING_3790_9>Activate</STRING_3790_9>
+    <STRING_3839_20>dungeon</STRING_3839_20>
+    <ON_DEAD_TITLE>You're unconscious</ON_DEAD_TITLE>
+    <ON_DEAD_REVIVE>To the safe zone</ON_DEAD_REVIVE>
+    <ON_DEAD_LIE_DOWN>Rest</ON_DEAD_LIE_DOWN>
+    <USE_DEAD_TITLE>Unconscious</USE_DEAD_TITLE>
+    <GIVE_AID_TO_DEAD>Use a medkit</GIVE_AID_TO_DEAD>
+    <KILL_AND_BEAT>Hit and search</KILL_AND_BEAT>
+    <REVIVE_DEAD>Revive</REVIVE_DEAD>
+    <SAFE_ZONE_WAITING>Enter to safe zone in</SAFE_ZONE_WAITING>
+    <USE_ITEM_ON_TARGET_CAPTION>Using item:</USE_ITEM_ON_TARGET_CAPTION>
+    <USE_ITEM_ON_TARGET>Approve use of {0} by {1} on you?</USE_ITEM_ON_TARGET>
+    <YOU_WILL_DAY_ON_X_SECONDS>You will die in {0} seconds</YOU_WILL_DAY_ON_X_SECONDS>
+  </client>
+</root>

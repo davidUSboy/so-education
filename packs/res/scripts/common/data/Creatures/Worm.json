@@ -1,0 +1,285 @@
+{
+	"name, bylevel" : {
+		"default" : "Creatures.common.WORM1",		
+		"large_worm" : "Creatures.common.WORM2"
+	},
+	"model" : "worm/worm_hulud.model",	
+	"karma": 30,
+	"model_scale, bylevel" : {
+		"default" : 1,
+		"large_worm" : 2,
+		"small_worm" : 0.1
+	},
+	"tints, bylevel" : {
+		"default" : [{"bodys": "box1", "heads": "wood"}],
+		"large_worm" : [{"bodys": "metal2", "heads": "metal"}, {"bodys": "box1", "heads": "wood"}, {}]
+	},
+	"coefLevel, bylevel": {
+		"default" : 99,
+		"1" : 99,
+		"2" : 99,
+		"3" : 99
+	},
+	"experience, bylevel" : {
+		"default" : 200,
+		"large_worm" : 300
+	},
+	"health, bylevel" : {
+		"default" : 3,
+		"large_worm" : 4
+	},
+	"agro_range, bylevel" : {
+		"default" : 10,
+		"large_worm" : 20
+	},
+	"lose_agro_range, bylevel" : {
+		"default" : 12,
+		"large_worm" : 22
+	},		
+	"global_cooldown, bylevel" : {
+		"default" : 2,
+		"large_worm" : 1
+	},
+	"defence, bylevel" : {
+		"default" : {
+			"MELEE" : 700.0,
+			"BULLET" : 1.0,
+			"EXPLOSION" : 60.0,
+			"BIO" : 700.0
+		},
+		"large_worm" : {
+			"BULLET" : 1000.0
+		}
+	},
+	"height, bylevel" : {
+		"default" : 3,
+		"large_worm" : 10
+	},	
+	"width, bylevel" : {
+		"default" : 2,
+		"large_worm" : 3
+	},	
+	"decompose_time, bylevel" : {
+		"default" : [500,700],
+		"large_worm" : [20,20]
+	},
+	"footsteps_sound" : "mob/dog/footsteps",
+	"actions, bylevel, parent=worm_test_parent" : {
+		"default" : {
+			"Attack" : {
+				"model_actions" : ["Attack"]
+			},		
+			"Rise,bylevel" : {
+				"default" : {
+					"model_actions" : ["Rise"],
+					"sounds" : ["mob/bear/pain"]
+				},
+				"large_worm,override" : {
+					"model_actions" : ["Die"]
+				}
+			},
+			"Hide" : {
+				"model_actions" : ["Hide"],
+				"sounds" : ["mob/dog/pain"]
+			},
+			"Pain" : {
+				"sounds" : ["mob/dog/pain"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/bear/death"]
+			},
+			"Injured_state" : {
+				"model_actions" : ["Injured_state"]
+			}
+		},
+		"large_worm" : {
+			"Hide" : {
+				"model_actions" : ["Die"]
+			}	
+		}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"common_conditions, parent=default_common_conditions" : [
+		{
+			"to_state" : "injured_hidden_1",
+			"predicate,bylevel" : {
+				"default" : 
+					["and",[
+						["state","equal","attacking_1"],
+						["health_percent", "less", 50]
+					]],
+				"large_worm" : 
+					["and",[
+						["state","equal","attacking_1"],
+						["health_percent", "less", 90]
+					]]
+			}
+		}		
+	],
+	"default_state" : "hidden",
+	"states" : {
+		"hidden" : {
+			"caps" : ["Hidden"],
+			"conditions" : [
+				{
+					"to_state" : "attacking_1",
+					"predicate" : ["targets_count", "more", 0]
+				}
+			],					
+			"transitions" : {
+				"attacking_1" : {"time" : 0.5, "actions" : ["Rise"]}
+			},
+			"agro_range, bylevel" : {
+				"default" : 10,
+				"w" : 2
+			},
+			"lose_agro_range, bylevel" : {
+				"default" : 12,
+				"w" : 3
+			}			
+		},
+		"revealed" : {			
+			"caps" : ["Aggressive"],
+			"conditions" : [
+				{
+					"to_state" : "hidden",
+					"predicate" : ["targets_count", "more", 0]
+				}
+			]	
+		},		
+		"attacking_1" : {
+			"caps" : ["Aggressive"],
+			"entering_actions" : { "actions" : [], "time" : 0},
+			"skills" : {
+				"WORM_GRENADE_TEST" : 1,
+				"WORM_RANGE_TEST" : 1
+			},
+			"movement_types" : [],
+			"conditions" : [
+				{
+					"to_state" : "hidden",
+					"predicate" : ["targets_count", "equal", 0]
+				}
+			],			
+			"transitions" : {
+				"hidden" : {"time" : 4, "actions" : ["Hide"]},
+				"injured_hidden_1" : {"time" : 0.5, "actions" : ["Hide"]}
+			}
+		},
+		"injured_hidden_1" : {
+			"caps" : ["Hidden"],
+			"persistent_actions" : ["Injured_state"],
+			"persistent_effects" : {
+				"800" : {"stacks":3}
+			},
+			"conditions" : [
+				{
+					"to_state" : "hidden",
+					"predicate" : 
+						["and",[
+							["targets_count", "equal", "0"],
+							["health_percent", "more", "75"]
+						]]
+				},
+				{
+					"to_state" : "attacking_injured",
+					"predicate" : ["health_percent", "more", "75"]
+				}
+			],
+			"transitions" : {
+				"attacking_injured" : {"time" : 3, "actions" : ["Rise"]}
+			},
+			"agro_range, bylevel" : {
+				"default" : 10,
+				"w" : 5
+			},
+			"lose_agro_range, bylevel" : {
+				"default" : 12,
+				"w" : 6
+			}		
+		},
+		"attacking_injured" : {
+			"caps" : ["Aggressive"],
+			"skills" : {
+				"WORM_GRENADE_TEST" : 1,
+				"WORM_RANGE_TEST" : 2
+			},
+			"persistent_actions" : ["Injured_state"],
+			"conditions" : [
+				{
+					"to_state" : "hidden",
+					"predicate" : ["targets_count", "equal", 0]
+				}
+			],
+			"transitions" : {
+				"hidden" : {"time" : 1, "actions" : ["Hide"]}
+			}
+		},
+		"dead" : {
+			"caps" : ["Dead"],
+			"entering_actions" : { "actions" : ["Die"], "time" : 2},
+			"conditions" : [
+				{
+					"to_state" : "hidden",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			],
+			"transitions" : {
+				"hidden" : {"time" : 0, "actions" : []}
+			}
+		}
+	},
+	"skills" : {
+		"WORM_RANGE_TEST": {
+			"type": "DIRECT",
+			"cast_range": 10.0,
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["TORSO"],
+					"type" : "MELEE",
+					"value" : [0.015, 0.020],
+					"penetration" : 100
+				},
+				"large_worm": {
+					"value" : [0.04, 0.05]
+				}
+			},			
+			"effects": [["Bleed", 0]], 
+			"actions": ["Attack"],
+			"sfxes_on_self": [
+				{						
+					"path"			: "sfx/Mob/AttackPsy_new.xml",
+					"source_node" 	: "Scene Root",
+					"target_node"	: "HP_spine1",
+					"direct_to_target": 0,
+					"delay"			: 0.5,
+					"play_time"		: 1
+				}
+			]
+		},
+		"WORM_GRENADE_TEST": {
+			"type": "THROW",
+			"cast_range": 10.0,
+			"cooldown": 1.5,
+			"aoe_radius": 3,
+			"throwing_type"	: "BIO",
+			"throw_start_position, bylevel"	: {
+				"default" : [0, 1.5, 0],
+				"small_worm" : [0, 0.2, 0]
+			},
+			"explode_delay"	: 2,
+			"damage": {
+				"type" : "MELEE",
+				"value" : [0.015, 0.030],
+				"penetration" : 100
+			},			
+			"effects": [["Bleed", 0]], 
+			"actions": ["Attack"]
+		}		
+	}
+}

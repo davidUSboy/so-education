@@ -1,0 +1,273 @@
+<root>
+	<perk>
+		<id>1</id>
+		<Name> Strength Upgrade </Name>
+		<Description> (+ $value Strength) </Description>
+	</perk>
+	<perk>
+		<id>2</id>
+		<Name> Dexterity Upgrade </Name>
+		<Description> (+ $value Dexterity) </Description>
+	</perk>
+	<perk>
+		<id>3</id>
+		<Name> Perception Upgrade </Name>
+		<Description>(+ $value Perception) </Description>
+	</perk>
+	<perk>
+		<id>4</id>
+		<Name> Intelligence Upgrade </Name>
+		<Description> (+ $value Intelligence) </Description>
+	</perk>
+	<perk>
+		<id>5</id>
+		<Name> Endurance Upgrade </Name>
+		<Description> (+ $value Endurance) </Description>
+	</perk>
+	<perk>
+		<id>6</id>
+		<Name> Psi Upgrade </Name>
+		<Description> (+ $value Psi) </Description>
+	</perk>
+	<perk>
+		<id>7</id>
+		<Name> Heavy Weapon Stealth Upgrade </Name>
+		<Description> (reduce of stealth penalty while using heavy weapon) </Description>
+	</perk>
+	<perk>
+		<id>8</id>
+		<Name> Overload Stealth Upgrade </Name>
+		<Description> (reduce of stealth penalty while overload) </Description>
+	</perk>
+	<perk>
+		<id>9</id>
+		<Name> Fatigue Reduction </Name>
+		<Description> (- $value % Fatigue) </Description>
+	</perk>
+	<perk>
+		<id>20</id>
+		<Name> Weight Upgrade </Name>
+		<Description> (+ $value Max Weight) </Description>
+	</perk>
+	<perk>
+		<id>21</id>
+		<Name> Stun Resistance </Name>
+		<Description> (stun duration decrease on $value %) </Description>
+	</perk>
+	<perk>
+		<id>29</id>
+		<Name> Thick-skinned </Name>
+		<Description> (- $value % Recieved Damage)</Description>
+	</perk>
+	<perk>
+		<id>30</id>
+		<Name> Marathoner </Name>
+		<Description> (+ $value % Speed) </Description>
+	</perk>
+	<perk>
+		<id>10</id>
+		<Name> Rifles Carrying </Name>
+		<Description> (- $value % Rifles Weight) </Description>
+	</perk>
+	<perk>
+		<id>11</id>
+		<Name> Heavy Weapons Carrying </Name>
+		<Description> (- $value % Heavy Weapons Weight) </Description>
+	</perk>
+	<perk>
+		<id>12</id>
+		<Name> Small Firearms Quick Reload </Name>
+		<Description> (+ $value % Reload Speed of Small Firearms) </Description>
+	</perk>
+	<perk>
+		<id>13</id>
+		<Name> Assault Rifles Quick Reload </Name>
+		<Description> (+ $value % Reload Speed of Assault Rifles) </Description>
+	</perk>
+	<perk>
+		<id>14</id>
+		<Name> Rifles Quick Reload </Name>
+		<Description> (+ $value % Reload Speed of Rifles) </Description>
+	</perk>
+	<perk>
+		<id>15</id>
+		<Name> Heavy Weapons Quick Reload </Name>
+		<Description> (+ $value % Reload Speed of Heavy Weapons) </Description>
+	</perk>
+	<perk>
+		<id>16</id>
+		<Name> Small Firearms Quick Draw </Name>
+		<Description> (+ $value % Draw Speed of Small Firearms) </Description>
+	</perk>
+	<perk>
+		<id>17</id>
+		<Name> Assault Rifles Quick Draw </Name>
+		<Description> (+ $value % Draw Speed of Assault Rifles) </Description>
+	</perk>
+	<perk>
+		<id>18</id>
+		<Name> Rifles Quick Draw </Name>
+		<Description> (+ $value % Draw Speed of Rifles) </Description>
+	</perk>
+	<perk>
+		<id>19</id>
+		<Name> Heavy Weapons Quick Draw </Name>
+		<Description> (+ $value % Draw Speed of Heavy Weapons) </Description>
+	</perk>
+	<perk>
+		<id>23</id>
+		<Name> Fast Grenades </Name>
+		<Description> (+ $value number of grenades thrown at a time) </Description>
+	</perk>
+	<perk>
+		<id>24</id>
+		<Name> Base Repair </Name>
+		<Description> (now you can repair base items) </Description>
+	</perk>
+	<perk>
+		<id>25</id>
+		<Name> Advanced Repair </Name>
+		<Description> (now you can repair normal items) </Description>
+	</perk>
+	<perk>
+		<id>26</id>
+		<Name> Expert Repair </Name>
+		<Description> (now you can repair complex items) </Description>
+	</perk>
+	<perk>
+		<id>27</id>
+		<Name> Master Repair </Name>
+		<Description> (you can repair anything) </Description>
+	</perk>
+	<perk>
+		<id>32</id>
+		<Name> Small Firearms Maintenance </Name>
+		<Description> (reduce deterioration of Small Firearms) </Description>
+	</perk>
+	<perk>
+		<id>33</id>
+		<Name> Assault Rifles Maintenance </Name>
+		<Description> (reduce deterioration of Assault Rifles) </Description>
+	</perk>
+	<perk>
+		<id>34</id>
+		<Name> Rifles Maintenance </Name>
+		<Description> (reduce deterioration of Rifles)</Description>
+	</perk>
+	<perk>
+		<id>35</id>
+		<Name> Heavy Weapons Maintenance </Name>
+		<Description> (reduce deterioration of Heavy Weapons)</Description>
+	</perk>
+	<perk>
+		<id>28</id>
+		<Name> Good Doctor </Name>
+		<Description> (+ $value % effects of medications) </Description>
+	</perk>
+	<perk>
+		<id>45</id>
+		<Name> Para-medic </Name>
+		<Description> (+ $value % positive effects when healing others) </Description>
+	</perk>
+	<perk>
+		<id>31</id>
+		<Name> Less negative effects </Name>
+		<Description> (- $value % duration of negative effects) </Description>
+	</perk>
+	<perk>
+		<id>36</id>
+		<Name> Camper </Name>
+		<Description> (increase accuracy if remaining still) </Description>
+	</perk>
+	<perk>
+		<id>37</id>
+		<Name> Grenade Throw Distance Upgrade </Name>
+		<Description> (increase throw distance of grenades) </Description>
+	</perk>
+	<perk>
+		<id>44</id>
+		<Name> Reduce Weapons Loss </Name>
+		<Description> (- $value % Weapons Loss) </Description>
+	</perk>
+	<perk>
+		<id>38</id>
+		<Name> Reduce Ammo Loss </Name>
+		<Description> (- $value % Ammo Loss) </Description>
+	</perk>
+	<perk>
+		<id>39</id>
+		<Name> Reduce Loot Loss </Name>
+		<Description> (- $value % Loot Loss) </Description>
+	</perk>
+	<perk>
+		<id>40</id>
+		<Name> Base Craft </Name>
+		<Description> (now you can craft base items) </Description>
+	</perk>
+	<perk>
+		<id>41</id>
+		<Name> Advanced Craft </Name>
+		<Description> (now you can craft normal items) </Description>
+	</perk>
+	<perk>
+		<id>42</id>
+		<Name> Expert Craft </Name>
+		<Description> (now you can craft complex items) </Description>
+	</perk>
+	<perk>
+		<id>43</id>
+		<Name> Master Craft </Name>
+		<Description> (you may craft anything) </Description>
+	</perk>
+	
+	<perk>
+		<id>49</id>
+		<Name> Critical Hit Chance Upgrade 1  </Name>
+		<Description> (+ $value % Critical Hit Chance) </Description>
+	</perk>
+	<perk>
+		<id>50</id>
+		<Name> Critical Hit Chance Upgrade 2  </Name>
+		<Description> (+ $value % Critical Hit Chance) </Description>
+	</perk>
+	<perk>
+		<id>51</id>
+		<Name> Critical Hit Chance Upgrade 3  </Name>
+		<Description> (+ $value % Critical Hit Chance) </Description>
+	</perk>
+	<perk>
+		<id>52</id>
+		<Name> Critical Hit Chance Upgrade 4  </Name>
+		<Description> (+ $value % Critical Hit Chance) </Description>
+	</perk>
+	
+	
+	<perk>
+		<id>45</id>
+		<Name> Critical Hit Damage Upgrade 1 </Name>
+		<Description> (+ $value % Critical Hit Damage) </Description>
+	</perk>
+	<perk>
+		<id>46</id>
+		<Name> Critical Hit Damage Upgrade 2 </Name>
+		<Description> (+ $value % Critical Hit Damage) </Description>
+	</perk>
+	<perk>
+		<id>47</id>
+		<Name> Critical Hit Damage Upgrade 3 </Name>
+		<Description> (+ $value % Critical Hit Damage) </Description>
+	</perk>
+	<perk>
+		<id>48</id>
+		<Name> Critical Hit Damage Upgrade 4 </Name>
+		<Description> (+ $value % Critical Hit Damage) </Description>
+	</perk>
+	<!--<perk>
+		<id>24</id>
+		<Name> Суперперк </Name>
+		<Description> Быстрее! Выше! Сильнее! (теперь ты можешь прокачать любой навык еще выше) </Description>
+	</perk>-->
+
+
+	
+</root>

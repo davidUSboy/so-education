@@ -1,0 +1,157 @@
+<root>
+  <NPC>
+    <bd_Palach>Хмырь</bd_Palach>
+    <Palka>Палка</Palka>
+    <Hunter>Обворованный сталкер</Hunter>
+    <Bank_NZ>Кладовщик</Bank_NZ>
+    <profShleimovich>Проф. Шлеймович</profShleimovich>
+    <Tunnel_provodnik_NZ2>Проводник</Tunnel_provodnik_NZ2>
+    <Tunnel_provodnik_NZ>Проводник</Tunnel_provodnik_NZ>
+    <Fin>Фин</Fin>
+    <Veterinar>Ветеринар</Veterinar>
+    <Provodnik_NZ_Tungus>Проводник</Provodnik_NZ_Tungus>
+    <Bank_Imarek>Кладовщик</Bank_Imarek>
+    <Prohor_puteichik>Прохор Путейщик</Prohor_puteichik>
+    <Gurman>Гурман</Gurman>
+    <Bank_tunnel>Кладовщик</Bank_tunnel>
+    <Kolia_Tesla>Коля Тесла</Kolia_Tesla>
+    <Cap_Bljdad>Капитан Блждад</Cap_Bljdad>
+    <Sizif>Сизиф</Sizif>
+    <Aibolit>Айболит</Aibolit>
+    <Seryi>Серый</Seryi>
+    <Shperling>Кап. Шперлинг</Shperling>
+    <Repairman>Ремонтник</Repairman>
+    <Repair_bandit>Ремонтник</Repair_bandit>
+    <Armor_trader>Броня</Armor_trader>
+    <Korobochka>Коробочка</Korobochka>
+    <Krol>Крол</Krol>
+    <Vasiatka>Васятка</Vasiatka>
+    <Ammo_trader_noob>Патроны</Ammo_trader_noob>
+    <Stalker_Bomzh>Бомж</Stalker_Bomzh>
+    <Pechkin>Печкин</Pechkin>
+    <Special_trader>Спец товары</Special_trader>
+    <Ammo_trader>Патроны</Ammo_trader>
+    <Mikulo>Микуло</Mikulo>
+    <Kosmatii>Косматый</Kosmatii>
+    <Provodnik_NZ_uchenie>Проводник</Provodnik_NZ_uchenie>
+    <Barmen_LVZ>Бармен</Barmen_LVZ>
+    <Dirty_Iuriy>Грязный Юрий</Dirty_Iuriy>
+    <Teklberry>Тэклберри</Teklberry>
+    <Bank_SZ>Кладовщик</Bank_SZ>
+    <Armor_trader_noob>Броня</Armor_trader_noob>
+    <Repairman_Noob>Ремонтник</Repairman_Noob>
+    <Hatter>Шляпник</Hatter>
+    <Patisson>Патиссон</Patisson>
+    <Misha_ohotnik>Миша охотник</Misha_ohotnik>
+    <Hitrec>Хитрец</Hitrec>
+    <Rabbit>Заяц</Rabbit>
+    <Mitka>Митька Охотник</Mitka>
+    <Ahmed_Fan_Blan>Ахмед ибн Фах Блан</Ahmed_Fan_Blan>
+    <Science_trader>Приборы</Science_trader>
+    <Lisiy>Лысый</Lisiy>
+    <Greek>Грек</Greek>
+    <Maslenkov>Масленков</Maslenkov>
+    <Dima_golova>Дима</Dima_golova>
+    <Stalker_Bomzh_3>Бомж</Stalker_Bomzh_3>
+    <Stalker_Bomzh_2>Бомж</Stalker_Bomzh_2>
+    <Kolja_Kislii>Коля Кислый</Kolja_Kislii>
+    <Kyrier>Курьер</Kyrier>
+    <doc_Zinoviev>Док. Зиновьев</doc_Zinoviev>
+    <Stalker_Bomzh_4>Бомж</Stalker_Bomzh_4>
+    <Efreitor_Kazakov>Ефр. Казаков</Efreitor_Kazakov>
+    <Fedya_Prorok>Федя Пророк</Fedya_Prorok>
+    <Fedor>Федор</Fedor>
+    <Jura_Barabashka>Юра Барабашка</Jura_Barabashka>
+    <Provodnik_Tungus_NZ>Проводник</Provodnik_Tungus_NZ>
+    <Aid_trader>Торговец</Aid_trader>
+    <Rashid_New>Алекс</Rashid_New>
+    <fs_Shpricev>Ученый</fs_Shpricev>
+    <Pavel_Privokzalov>Павел Привокзалов</Pavel_Privokzalov>
+    <CaptureBase_Sklad>Ремонтник</CaptureBase_Sklad>
+    <Basmach>Басмач</Basmach>
+    <clan_pochta_repairman>Ремонтник</clan_pochta_repairman>
+    <Stalker_Bomzh_Domovoi>Бомж</Stalker_Bomzh_Domovoi>
+    <Yashka_Beast>Яшка Тварь</Yashka_Beast>
+    <Clan_manager>Регистратор</Clan_manager>
+    <Bank_vezuv_uchenie>Кладовщик</Bank_vezuv_uchenie>
+    <Grishkovec>Гришковец</Grishkovec>
+    <Sergeant_Dibenko>Серж. Дибенко</Sergeant_Dibenko>
+    <Chereshnikov>Проф. Черешников</Chereshnikov>
+    <Metrofan>Метрофан</Metrofan>
+    <Temych>Темыч Сталкер</Temych>
+    <Sergeant_Drachuk>серж. Драчук</Sergeant_Drachuk>
+    <Timka>Тимка</Timka>
+    <Dog_hunter>Охранник</Dog_hunter>
+    <Dr_Eizenshtein>Док. Эйзенштейн</Dr_Eizenshtein>
+    <Kyznec>Кузнец</Kyznec>
+    <Lovchiy>Ловчий</Lovchiy>
+    <Staryi_stalker>Старый Сталкер</Staryi_stalker>
+    <Rashid>Рашид</Rashid>
+    <Trader>Скупщик хабара</Trader>
+    <fs_Ryjei>Рыжий</fs_Ryjei>
+    <Voronin>Воронин</Voronin>
+    <Sanek_Bivaliy>Санек Бывалый</Sanek_Bivaliy>
+    <Fifer>Дудочник</Fifer>
+    <Muhomor>Мухомор</Muhomor>
+    <Stepan_Brodyaga>Степан Бродяга</Stepan_Brodyaga>
+    <Aid_trader_noob>Доктор</Aid_trader_noob>
+    <Meniala_RavenWood>Барыга</Meniala_RavenWood>
+    <Swamp_Trader>Шкурник</Swamp_Trader>
+    <Doc_Home>Доктор Дом</Doc_Home>
+    <Weapon_trader>Оружие</Weapon_trader>
+    <Kashtan>Каштан</Kashtan>
+    <Vatman>Ватман</Vatman>
+    <Bolotnik>Болотник</Bolotnik>
+    <prapNicheporenko>прап. Ничепоренко</prapNicheporenko>
+    <Buch>Буч</Buch>
+    <Jora_Karas>Жора Карась</Jora_Karas>
+    <Efreitor_Druz>Ефр. Друзь</Efreitor_Druz>
+    <Bank_Swamp>Кладовщик</Bank_Swamp>
+    <Kich>Кич</Kich>
+    <Jivoderov>Доктор Живодеров</Jivoderov>
+    <Plyuch>Бармен Плющ</Plyuch>
+    <Tatarin>Татарин</Tatarin>
+    <Meniala_Standart>Барыга</Meniala_Standart>
+    <Efreitor_Kvashnia>Ефр. Квашина</Efreitor_Kvashnia>
+    <Meniala1>Сталкер Штопор</Meniala1>
+    <Maslov>Глеб Маслов</Maslov>
+    <Meniala_Swamp>Барыга</Meniala_Swamp>
+    <Valera>Валера</Valera>
+    <Imarek>Имарек</Imarek>
+    <Priest>Поп</Priest>
+    <Krendel>Крендель</Krendel>
+    <NZ_Provodnik1>Проводник</NZ_Provodnik1>
+    <NZ_Provodnik2>Проводник</NZ_Provodnik2>
+    <Svetlii_Nastavnik_Mihail>Наставник Михаил</Svetlii_Nastavnik_Mihail>
+    <PK_Trader_NZ01>Барыга Плевок</PK_Trader_NZ01>
+    <Mokruh>Мокрух</Mokruh>
+    <Shtaket>Штакет</Shtaket>
+    <Zelenkin>Зеленкин</Zelenkin>
+    <Morse>Морзе</Morse>
+    <Dipol>Петруха Диполь</Dipol>
+    <Bank_Thief>Подозрительный кладовщик</Bank_Thief>
+    <Ammo_trader_bandit>Торговец патронами</Ammo_trader_bandit>
+  </NPC>
+  <Area>
+    <area_poligon>Полигон</area_poligon>
+    <guid_827B0CE74EEE2F465EBBF1A0C3BA7A91>пос. Радиус</guid_827B0CE74EEE2F465EBBF1A0C3BA7A91>
+    <stonehenge>Стоунхендж</stonehenge>
+    <mentovka>Здание милиции</mentovka>
+    <DK>Дом культуры</DK>
+    <Post_Kazakov>Первый пост</Post_Kazakov>
+    <small_station>ЖД станция</small_station>
+    <haron_house>Дом Харона</haron_house>
+    <farvillage_pochtampt>Дальняя деревня</farvillage_pochtampt>
+    <swamp_exit>Переход к болотам</swamp_exit>
+    <Post_Kvashni>Третий пост</Post_Kvashni>
+    <swamp_house>Дом на болоте</swamp_house>
+    <new_district>Новый район</new_district>
+    <Prison02>Тюрьма.</Prison02>
+    <science_station>Подземная лаборатория</science_station>
+    <stadium>Стадион</stadium>
+    <Post_Druzia>Второй пост</Post_Druzia>
+    <trainstation>Вокзал</trainstation>
+    <area_pos-Novikovo>пос. Новиково</area_pos-Novikovo>
+    <vhod_v_shahtu>Шахта № 13</vhod_v_shahtu>
+  </Area>
+</root>

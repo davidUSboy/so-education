@@ -1,0 +1,90 @@
+<root>
+	<Properties>
+		<ch_HitPoints>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<Persistent>true</Persistent>
+			<Default>
+				<CurrentValue>100</CurrentValue>
+			</Default>
+		</ch_HitPoints>
+		<ch_MaxHitPoints>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<default></default>
+		</ch_MaxHitPoints>
+		<ch_CombatPoints>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_CombatPoints>
+		<ch_MaxCombatPoints>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<default></default>
+		</ch_MaxCombatPoints>
+
+		<ch_Stamina>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_Stamina>
+
+		<ch_MaxStamina>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_MaxStamina>
+
+		<ch_MoveSpeed>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_MoveSpeed>
+
+		<ch_Accuracy>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_Accuracy>
+
+		<ch_HitPointsRegeneration>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_HitPointsRegeneration>
+
+		<ch_StaminaRegeneration>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_StaminaRegeneration>
+
+		<ch_CombatPointsRegeneration>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_CombatPointsRegeneration>
+
+		<ch_MaxWeight>
+			<Type>ENTITY_CHARACTERISTIC</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_MaxWeight>
+
+		<ch_Defence>
+			<Type>COMPLEX_ENTITY_CHARACTERISTIC_LEVEL2</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_Defence>
+		
+		<ch_Penetration>
+			<Type>COMPLEX_ENTITY_CHARACTERISTIC_LEVEL2</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_Penetration>	
+
+		<ch_DamageAbsorb>
+			<Type>COMPLEX_ENTITY_CHARACTERISTIC_LEVEL2</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+		</ch_DamageAbsorb>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

@@ -1,0 +1,39 @@
+<root>
+	<Properties>
+		<talkFlag>
+			<Type> INT8 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default>0</Default>
+		</talkFlag>
+
+		<interactive_name>
+			<Type> STRING </Type>
+			<Flags> BASE </Flags>
+		</interactive_name>
+	</Properties>
+	
+	<BaseMethods>
+
+			<findFirstDialog>
+                <Arg>	ARRAY <of> QUESTID </of> 	</Arg><!--self.getOpenedIDs(),-->
+                <Arg>	ARRAY <of> QUESTID </of> 	</Arg><!--self.getClosedIDs(),-->
+                <Arg>	ARRAY <of> QUESTID </of> 	</Arg><!--self.getOnTestIDs(),-->
+                <Arg>	ARRAY <of> QUESTID </of> 	</Arg><!--self.getFailedIDs(),-->
+                <Arg> 	INT64 						</Arg><!--karma,-->
+                <Arg>	ARRAY <of> INT8 </of> 	</Arg>    <!--fractionIDs,-->
+                <Arg>	ARRAY <of> INT32 </of> 	</Arg>    <!--fractionReputation,-->
+                <Arg>	INT64 	</Arg>                    <!--self.clanID(),-->
+                <Arg>	DIALOGID 	</Arg>                <!--dialogID,-->
+                <Arg> 	MAILBOX 					</Arg><!--self-->
+                <Arg>	INT8		</Arg>                <!--attr-->
+                <Arg>	ARRAY <of>	DIALOGID </of>	</Arg>
+                <Arg>	ARRAY <of>	DIALOG_VERSION </of>	</Arg>
+			</findFirstDialog>
+	</BaseMethods>
+	
+	<CellMethods>
+	</CellMethods>
+	
+	<ClientMethods>
+	</ClientMethods>
+</root>

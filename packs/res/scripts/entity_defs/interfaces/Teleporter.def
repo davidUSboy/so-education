@@ -1,0 +1,28 @@
+ <root>
+	<Properties>
+	</Properties>
+	
+	<BaseMethods>
+	</BaseMethods>
+	
+	<CellMethods>
+		<teleportEntity>
+			<Arg> MAILBOX </Arg> <!-- entity for teleporting -->
+			<Arg> VECTOR3 </Arg> <!-- position -->
+			<Arg> VECTOR3 </Arg> <!-- direction -->
+			<Arg> TELEPORT_TYPE </Arg> <!-- teleport_type -->
+		</teleportEntity>
+		
+		<onTeleporting>
+			<Arg> MAILBOX </Arg> <!-- entity for teleporting -->
+		</onTeleporting>	
+		
+		<onTeleportEnded>
+			<Arg> MAILBOX </Arg> <!-- entity for teleporting -->
+			<Arg> INT8 </Arg>	 
+		</onTeleportEnded>		
+	</CellMethods>
+	
+	<ClientMethods>
+	</ClientMethods>
+</root>

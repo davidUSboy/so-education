@@ -1,0 +1,18 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+
+	<Properties>
+		<radius> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		5.000000 			</Default>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+	</Properties>
+
+</root>
+

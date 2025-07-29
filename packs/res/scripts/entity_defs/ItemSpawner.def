@@ -1,0 +1,112 @@
+<root>
+
+	<Implements>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+	<Properties>
+		<spawnPoints>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</spawnPoints>
+
+		<numItemsOnPoints>
+			<Type>INT32</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</numItemsOnPoints>
+
+
+		<numItemsInContainer>
+			<Type>INT32</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</numItemsInContainer>
+
+		<fUseServerTime>
+			<Type>INT8</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</fUseServerTime>
+		
+		<spawnerWorkTime>
+			<Type>FLOAT</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</spawnerWorkTime>
+
+		<spawnerSleepTime>
+			<Type>FLOAT</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</spawnerSleepTime>
+
+		<itemLifeTime>
+			<Type>FLOAT</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</itemLifeTime>
+		
+		<itemSpawnThreshold>
+			<Type>FLOAT</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</itemSpawnThreshold>
+
+		<fDestroyItemsOnSleep>
+			<Type>INT8</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</fDestroyItemsOnSleep>
+
+		<ItemListNames>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> </Default>
+		</ItemListNames>
+
+
+		<mode_change_time>
+			<Type>			FLOAT64		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</mode_change_time>
+
+		<mode>
+			<Type>			INT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</mode>
+
+		<items_list>
+			<Type> ARRAY <of> INT32  </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</items_list>
+
+
+		<spawn_item_list>
+			<Type> ARRAY <of>
+				FIXED_DICT
+				<Properties>
+				<SpawnTime>
+					<Type> FLOAT64 </Type>
+				</SpawnTime>
+				<SpawnPoint>
+					<Type> UDO_REF </Type>
+				</SpawnPoint>
+				</Properties>
+			</of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</spawn_item_list>
+
+
+
+
+
+
+
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onDroppedItemDestroyed>
+			<Arg>		MAILBOX				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+		</onDroppedItemDestroyed>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

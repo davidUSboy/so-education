@@ -1,0 +1,24 @@
+<root>
+	<Properties>
+
+		<account_dbid>
+			<Type> INT64 </Type>
+			<Flags> BASE </Flags>
+			<Default> 0 </Default>
+		</account_dbid>
+		<avatar_dbid>
+			<Type> INT64 </Type>
+			<Flags> BASE </Flags>
+			<Default> 0 </Default>
+		</avatar_dbid>
+
+	</Properties>
+	<BaseMethods>
+		<addEvent>
+			<Arg> INT32 </Arg>
+			<Arg> STRING </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL </Arg>
+		</addEvent>
+	</BaseMethods>
+</root>

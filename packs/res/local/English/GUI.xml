@@ -1,0 +1,319 @@
+<root>
+  <IngameMenu>
+    <RESUME_GAME_BTN_LABEL>Return to Game</RESUME_GAME_BTN_LABEL>
+    <OPTIONS_BTN_LABEL>Options</OPTIONS_BTN_LABEL>
+    <LOGOUT_BTN_LABEL>Logout</LOGOUT_BTN_LABEL>
+    <QUIT_GAME_BTN_LABEL>Quit Game</QUIT_GAME_BTN_LABEL>
+    <PVP>PVP</PVP>
+    <leaveFromRoom>Quit PvP</leaveFromRoom>
+    <changeTeam>Choose Action</changeTeam>
+    <exit>Exit</exit>
+  </IngameMenu>
+  <DonateBase>
+    <ClanName>Your clan name:</ClanName>
+    <CurrentTenant>Current base tenant:</CurrentTenant>
+    <DateEndRent>The auction will end in:</DateEndRent>
+    <DateEndAuction>Last date of the auction:</DateEndAuction>
+    <FartherRent>Minimum bid:</FartherRent>
+    <CountMemberAuction>Number of bidders:</CountMemberAuction>
+    <LastStake>Last bid:</LastStake>
+    <StepAuction>Auction step:</StepAuction>
+    <IncStake>Increase last bid (based on the auction step):</IncStake>
+    <bInc>Increase on the bid increment</bInc>
+    <bConfirmStake>Confirm indicated rate</bConfirmStake>
+    <bRefreshInfo>Refresh info</bRefreshInfo>
+    <noFartherRent>Not</noFartherRent>
+    <tenant>Tenant</tenant>
+    <name>Base name</name>
+    <location>Location</location>
+    <timeToBuy>The auction will start in</timeToBuy>
+    <timeToSell>Time till expiration</timeToSell>
+    <stake>Last bid</stake>
+    <title>Auction</title>
+    <title_manager>Base Manager</title_manager>
+    <text>You are not the clan leader</text>
+    <view>Review</view>
+    <cashback>Take the money</cashback>
+    <deposit>Deposit</deposit>
+    <deposit_back>Take the deposit back</deposit_back>
+    <zoo>Zoo</zoo>
+    <vesuvius>Vesuvius</vesuvius>
+    <warehouse>Clan's Bank</warehouse>
+    <management>Managing The Base</management>
+    <guards>Recruiting Guardsmen</guards>
+    <recruitment_text>&lt;NO DATA&gt;</recruitment_text>
+    <free>Base {name} doesn't belong to anyone</free>
+    <owner>Owner за the base {name}: {clan}</owner>
+    <greeting>Welcome to base {name}</greeting>
+  </DonateBase>
+  <FriendList>
+    <CaptionQueryWindow>Friend request</CaptionQueryWindow>
+    <QueryFriend1>Player</QueryFriend1>
+    <QueryFriend2>wants to add you to friends. Do you agree?</QueryFriend2>
+    <CaptionTabFriend>Friendlist</CaptionTabFriend>
+    <CaptionTabBlack>Blacklist</CaptionTabBlack>
+    <isOnline>Online</isOnline>
+    <isOffline>Offline</isOffline>
+    <sendMessage>Send a message</sendMessage>
+    <delFriend>Delete from friendlist</delFriend>
+    <addToGroup>Add to group</addToGroup>
+    <addToClan>Add to Clan</addToClan>
+    <addedToFriendList>added to friendlist</addedToFriendList>
+    <deletedFriendmsg>deleted from your friendlist</deletedFriendmsg>
+    <notFind>not found on your friendlist</notFind>
+    <isAlreadyYourFriend>is already  your friend</isAlreadyYourFriend>
+    <readFriendNameCaption>Type the name of a person</readFriendNameCaption>
+    <deletingFromFriendList1>Remove</deletingFromFriendList1>
+    <deletingFromFriendList2>from  friendlist?</deletingFromFriendList2>
+    <AddingYourselfNotAllowed>You can't add yourself to friendlist</AddingYourselfNotAllowed>
+    <ExceededLimitFriends>You can't add more people to friendlist!</ExceededLimitFriends>
+    <ExceededLimitBlackList>You can't add more people to  blacklist!</ExceededLimitBlackList>
+    <addToFriendListCaption>Adding to friendlist</addToFriendListCaption>
+    <addToBlackListCaption>Putting on blacklist</addToBlackListCaption>
+    <addedToBlackList>added to blacklist</addedToBlackList>
+    <playerNotFound>The player is not found</playerNotFound>
+    <playerFoundInBlackList>The player is already on blacklist</playerFoundInBlackList>
+    <playerNotFoundInBlackList>is not found on blacklist</playerNotFoundInBlackList>
+    <playerIsDeleted>is removed from blacklist</playerIsDeleted>
+    <delFromBlackList>Remove from blacklist</delFromBlackList>
+    <AddingYourselfNotAllowedToBlackList>You can't add yourself to blacklist</AddingYourselfNotAllowedToBlackList>
+    <PlayerInBlackList>The player is on blacklist,</PlayerInBlackList>
+    <isNotify>Notifications</isNotify>
+    <InviteNotSend>Invitation isn't sent, try again in 30 seconds</InviteNotSend>
+    <add>Add</add>
+  </FriendList>
+  <QuitMenu>
+    <YES_BTN_LABEL>Yes</YES_BTN_LABEL>
+    <NO_BTN_LABEL>No</NO_BTN_LABEL>
+    <QUESTION_LABEL>Do you really want to quit the game?</QUESTION_LABEL>
+  </QuitMenu>
+  <CraftGUI>
+    <WINDOW_CAPTION>Craft (P)</WINDOW_CAPTION>
+  </CraftGUI>
+  <QuestLog>
+    <WINDOW_CAPTION>Quest journal (J)</WINDOW_CAPTION>
+    <ACTIVE_QUESTS_TAB_LABEL>Active quests</ACTIVE_QUESTS_TAB_LABEL>
+    <COMPLETED_QUESTS_TAB_LABEL>Completed quests</COMPLETED_QUESTS_TAB_LABEL>
+    <WANTED_TAB_LABEL>Wanted</WANTED_TAB_LABEL>
+  </QuestLog>
+  <GPSMap>
+    <WINDOW_CAPTION>Map (M)</WINDOW_CAPTION>
+  </GPSMap>
+  <General>
+    <DAYS_SHORTENING>d</DAYS_SHORTENING>
+    <HOURS_SHORTENING>h</HOURS_SHORTENING>
+    <MINUTES_SHORTENING>m</MINUTES_SHORTENING>
+    <SECONDS_SHORTENING>s</SECONDS_SHORTENING>
+  </General>
+  <ClanGUI>
+    <GENERAL_TAB_LABEL>General</GENERAL_TAB_LABEL>
+    <MEMBERS_TAB_LABEL>Members</MEMBERS_TAB_LABEL>
+    <FINANCE_TAB_LABEL>Finance</FINANCE_TAB_LABEL>
+    <BASES_TAB_LABEL>Bases</BASES_TAB_LABEL>
+    <INVITE_TO_CLAN>Invite to clan</INVITE_TO_CLAN>
+    <INVITE_TO_CLAN_TEXT>Text a name:</INVITE_TO_CLAN_TEXT>
+    <INVITE_TO_CLAN_CAPTION>Clan invitation</INVITE_TO_CLAN_CAPTION>
+    <NO_CLAN>You are not a member of a clan yet</NO_CLAN>
+  </ClanGUI>
+  <EULAGUI>
+    <ACCEPT>Accept</ACCEPT>
+    <DECLINE>Decline</DECLINE>
+  </EULAGUI>
+  <CharacterMaker>
+    <GENDER_CHOICE_LABEL>Sex</GENDER_CHOICE_LABEL>
+    <GENDER_MALE>Male</GENDER_MALE>
+    <GENDER_FEMALE>Female</GENDER_FEMALE>
+    <ORIGINATION_CHOICE_LABEL>Origins</ORIGINATION_CHOICE_LABEL>
+    <ORIGINATION_FOREIGN>Aliens</ORIGINATION_FOREIGN>
+    <ORIGINATION_LOCAL>Natives</ORIGINATION_LOCAL>
+    <NEXT_BUTTON_LABEL>Next</NEXT_BUTTON_LABEL>
+    <FINISH_BUTTON_LABEL>Done</FINISH_BUTTON_LABEL>
+    <BACK_BUTTON_LABEL>Back</BACK_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Cancel</CANCEL_BUTTON_LABEL>
+    <RANDOM_CUSTOMIZATION_BUTTON_LABEL>Random</RANDOM_CUSTOMIZATION_BUTTON_LABEL>
+    <APPEARANCE_CAPTION>Appearance</APPEARANCE_CAPTION>
+    <Equipment>Munitions</Equipment>
+  </CharacterMaker>
+  <CharacterPicker>
+    <PLAY_BUTTON_LABEL>Play</PLAY_BUTTON_LABEL>
+    <BACK_TO_MAIN_BUTTON_LABEL>Back</BACK_TO_MAIN_BUTTON_LABEL>
+    <NEW_CHARACTER_BUTTON_LABEL>Create</NEW_CHARACTER_BUTTON_LABEL>
+    <DELETE_CHARACTER_BUTTON_LABEL>Delete</DELETE_CHARACTER_BUTTON_LABEL>
+    <RESTORE_CHARACTER_BUTTON_LABEL>Restore</RESTORE_CHARACTER_BUTTON_LABEL>
+    <EMPTY_CHARACTER_SLOT>Empty</EMPTY_CHARACTER_SLOT>
+    <CHARACTER_LIST_CAPTION>Characters List</CHARACTER_LIST_CAPTION>
+    <activatePremium>Premium account</activatePremium>
+  </CharacterPicker>
+  <CharacterManagment>
+    <START_GAME_BUTTON_LABEL>START</START_GAME_BUTTON_LABEL>
+    <CREATE_CHARACTER_BUTTON_LABEL>Create new character</CREATE_CHARACTER_BUTTON_LABEL>
+    <EXIT_TO_MAIN_MENU_BUTTON_LABEL>Exit to main menu</EXIT_TO_MAIN_MENU_BUTTON_LABEL>
+    <DELETE_CHARACTER_BUTTON_LABEL>Delete</DELETE_CHARACTER_BUTTON_LABEL>
+    <RENAME_CHARACTER_BUTTON_LABEL>Rename</RENAME_CHARACTER_BUTTON_LABEL>
+    <CREATE_CHARACTER_CONFIRM_BUTTON_LABEL>CREATE</CREATE_CHARACTER_CONFIRM_BUTTON_LABEL>
+    <CREATE_CHARACTER_CANCEL_BUTTON_LABEL>Cancel</CREATE_CHARACTER_CANCEL_BUTTON_LABEL>
+  </CharacterManagment>
+  <CharacterGUI>
+    <CHARACTER_CHARACTERISTIC_STRENGTH>Strength</CHARACTER_CHARACTERISTIC_STRENGTH>
+    <CHARACTER_CHARACTERISTIC_INTELLIGENCE>Intelligence</CHARACTER_CHARACTERISTIC_INTELLIGENCE>
+    <CHARACTER_CHARACTERISTIC_DEXTERITY>Dexterity</CHARACTER_CHARACTERISTIC_DEXTERITY>
+    <CHARACTER_CHARACTERISTIC_CONSTITUTION>Constitution</CHARACTER_CHARACTERISTIC_CONSTITUTION>
+    <CHARACTER_CHARACTERISTIC_PERCEPTION>Perception</CHARACTER_CHARACTERISTIC_PERCEPTION>
+    <CHARACTER_CHARACTERISTIC_PSIONICS>Psi</CHARACTER_CHARACTERISTIC_PSIONICS>
+    <EQUIPMENT_TAB_LABEL>Equipment</EQUIPMENT_TAB_LABEL>
+    <REPUTATION_TAB_LABEL>Reputation</REPUTATION_TAB_LABEL>
+    <PVP_STATISTICS_TAB_LABEL>PvP stats</PVP_STATISTICS_TAB_LABEL>
+    <ARTIFACTS_TAB_LABEL>Artefacts</ARTIFACTS_TAB_LABEL>
+    <CHARACTERISTICS_TAB_LABEL>Characteristics</CHARACTERISTICS_TAB_LABEL>
+  </CharacterGUI>
+  <ChatConsole>
+    <ALL_CHANNELS_TAB_LABEL>All</ALL_CHANNELS_TAB_LABEL>
+    <CLAN_CHANNEL_TAB_LABEL>%Clan</CLAN_CHANNEL_TAB_LABEL>
+    <FRIENDS_CHANNEL_TAB_LABEL>#Friends</FRIENDS_CHANNEL_TAB_LABEL>
+    <PARTY_CHANNEL_TAB_LABEL>+Squad</PARTY_CHANNEL_TAB_LABEL>
+    <PRIVATE_MESSAGES_TAB_LABEL>@PM</PRIVATE_MESSAGES_TAB_LABEL>
+    <CHANNEL_SETTINGS_WINDOW_CAPTION>Set channel:</CHANNEL_SETTINGS_WINDOW_CAPTION>
+    <CHANNEL_SETTINGS_WINDOW_CONFIRM_BUTTON_LABEL>Guide PvP</CHANNEL_SETTINGS_WINDOW_CONFIRM_BUTTON_LABEL>
+    <CHANNEL_SETTINGS_WINDOW_CANCEL_BUTTON_LABEL>Cancel</CHANNEL_SETTINGS_WINDOW_CANCEL_BUTTON_LABEL>
+    <MESSAGE_TYPE_DAMAGE>Damage</MESSAGE_TYPE_DAMAGE>
+    <MESSAGE_TYPE_ITEMS>Items</MESSAGE_TYPE_ITEMS>
+    <TIMESTAMP_OPTION_LABEL>Time</TIMESTAMP_OPTION_LABEL>
+    <MESSAGE_TYPE_SYSTEM>System message</MESSAGE_TYPE_SYSTEM>
+    <MESSAGE_TYPE_QUESTS>Quests</MESSAGE_TYPE_QUESTS>
+    <MESSAGE_TYPE_NPCS>NPC</MESSAGE_TYPE_NPCS>
+    <MESSAGE_TYPE_GENERAL>General</MESSAGE_TYPE_GENERAL>
+    <MESSAGE_TYPE_CLAN>Clan</MESSAGE_TYPE_CLAN>
+    <MESSAGE_TYPE_PARTY>Squad</MESSAGE_TYPE_PARTY>
+    <MESSAGE_TYPE_PRIVATE>PM</MESSAGE_TYPE_PRIVATE>
+    <MESSAGE_TYPE_FRIENDS>Friends</MESSAGE_TYPE_FRIENDS>
+    <MESSAGE_TYPE_TRADE>Trade</MESSAGE_TYPE_TRADE>
+  </ChatConsole>
+  <Inventory>
+    <WINDOW_CAPTION>Inventory</WINDOW_CAPTION>
+  </Inventory>
+  <TitleMenu>
+    <LOGIN_WINDOW_lanRU>RU</LOGIN_WINDOW_lanRU>
+    <LOGIN_WINDOW_lanENG>ENG</LOGIN_WINDOW_lanENG>
+    <LOGIN_WINDOW_CAPTION>Stalker Online BETA {version}</LOGIN_WINDOW_CAPTION>
+    <LOGIN_WINDOW_LOGIN_LABEL>Login:</LOGIN_WINDOW_LOGIN_LABEL>
+    <LOGIN_WINDOW_PASSWORD_LABEL>Password:</LOGIN_WINDOW_PASSWORD_LABEL>
+    <LOGIN_WINDOW_LOGIN_BUTTON_LABEL>LOGIN</LOGIN_WINDOW_LOGIN_BUTTON_LABEL>
+    <LOGIN_WINDOW_SAVE_PASSWORD_LABEL>Save password</LOGIN_WINDOW_SAVE_PASSWORD_LABEL>
+    <LOGIN_WINDOW_OPTIONS_BUTTON_LABEL>OPTIONS</LOGIN_WINDOW_OPTIONS_BUTTON_LABEL>
+    <LOGIN_WINDOW_QUIT_BUTTON_LABEL>QUIT</LOGIN_WINDOW_QUIT_BUTTON_LABEL>
+  </TitleMenu>
+  <MessageBoxes>
+    <OK_BUTTON_LABEL>OK</OK_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Cancel</CANCEL_BUTTON_LABEL>
+    <YES_BUTTON_LABEL>Yes</YES_BUTTON_LABEL>
+    <NO_BUTTON_LABEL>No</NO_BUTTON_LABEL>
+    <UNDO_BUTTON_LABEL>Undo</UNDO_BUTTON_LABEL>
+    <APPLY_BUTTON_LABEL>Apply</APPLY_BUTTON_LABEL>
+    <RESET_BUTTON_LABEL>Reset</RESET_BUTTON_LABEL>
+    <CONFIRM_BUTTON_LABEL>Confirm</CONFIRM_BUTTON_LABEL>
+    <SAVE_BUTTON_LABEL>Save</SAVE_BUTTON_LABEL>
+    <INVALID_BUTTON_LABEL>INVALID_BUTTON_TYPE</INVALID_BUTTON_LABEL>
+  </MessageBoxes>
+  <MunitionsGUI>
+    <NO_AMMO>No</NO_AMMO>
+  </MunitionsGUI>
+  <PackageSellGUI>
+    <HIDE_UNAFFORDABLE_LABEL>Hide unavailble</HIDE_UNAFFORDABLE_LABEL>
+    <AUTOFILL_LABEL>Autofill</AUTOFILL_LABEL>
+    <CONFIRM_BUTTON_LABEL>Confirm</CONFIRM_BUTTON_LABEL>
+    <CLEAR_BUTTON_LABEL>Clear</CLEAR_BUTTON_LABEL>
+    <WINDOW_CAPTION>Exchange</WINDOW_CAPTION>
+    <FOR_EXCHANGE_LABEL>For exchange</FOR_EXCHANGE_LABEL>
+  </PackageSellGUI>
+  <InterPlayerTrade>
+    <MONEY_OUT_LABEL>Give money</MONEY_OUT_LABEL>
+    <MAKE_OFFER_BUTTON_LABEL>Make offer</MAKE_OFFER_BUTTON_LABEL>
+    <CONFIRM_BUTTON_LABEL>Confirm</CONFIRM_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Cancel</CANCEL_BUTTON_LABEL>
+    <MONEY_IN_LABEL>Receiving money</MONEY_IN_LABEL>
+    <GOLD_IN_LABEL>g.r.</GOLD_IN_LABEL>
+    <ruble_in_label>rub.</ruble_in_label>
+  </InterPlayerTrade>
+  <LevelingGUI>
+    <EQUIPMENT_SPEC_TAB_LABEL>Equipment</EQUIPMENT_SPEC_TAB_LABEL>
+    <MEDICINE_SPEC_TAB_LABEL>Medicine</MEDICINE_SPEC_TAB_LABEL>
+    <WEAPONRY_SPEC_TAB_LABEL>Weapon</WEAPONRY_SPEC_TAB_LABEL>
+    <REPAIRS_SPEC_TAB_LABEL>Repair</REPAIRS_SPEC_TAB_LABEL>
+    <EXPERIENCE_LABEL>XP:</EXPERIENCE_LABEL>
+    <LEVEL_LABEL>LEVEL:</LEVEL_LABEL>
+    <ESSENTIAL_SKILLS_LABEL>BASE SKILLS</ESSENTIAL_SKILLS_LABEL>
+    <SPECIALISATIONS_LABEL>SPECIALISATIONS</SPECIALISATIONS_LABEL>
+    <ADVANCED_SKILLS_LABEL>ADVANCED SKILLS</ADVANCED_SKILLS_LABEL>
+    <SPECIALISATION_POINTS_LABEL>SPECIALISATION POINTS:</SPECIALISATION_POINTS_LABEL>
+    <AVAILABLE_EXPERIENCE_LABEL>AVAILABLE EXPERIENCE:</AVAILABLE_EXPERIENCE_LABEL>
+    <ACTIVE_SKILLS_LABEL>Active skills</ACTIVE_SKILLS_LABEL>
+    <CONFIRM_BUTTON_LABEL>Confirm</CONFIRM_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Cancel</CANCEL_BUTTON_LABEL>
+    <SPEND_EXPERIENCE_LABEL>Spend skillpoints:</SPEND_EXPERIENCE_LABEL>
+    <PROFESSION_MODIFIER_LABEL>Profession modifier:</PROFESSION_MODIFIER_LABEL>
+  </LevelingGUI>
+  <Vendor>
+    <WINDOW_CAPTION>TRADE</WINDOW_CAPTION>
+    <PRICE_LABEL>PRICE:</PRICE_LABEL>
+    <BUY_TAB_LABEL>BUY</BUY_TAB_LABEL>
+    <SELL_TAB_LABEL>SELL</SELL_TAB_LABEL>
+    <CONFIRM_BUTTON_LABEL>CONFIRM</CONFIRM_BUTTON_LABEL>
+    <CLEAR_BUTTON_LABEL>CLEAR</CLEAR_BUTTON_LABEL>
+    <OUTCOME_LABEL>TOTAL:</OUTCOME_LABEL>
+    <GOLD_LABEL>Golden roubles</GOLD_LABEL>
+    <MONEY_LABEL>Ruble</MONEY_LABEL>
+    <toSite>Refill account</toSite>
+  </Vendor>
+  <Legacy>
+    <TABLET_PC_BACK_TO_MAIN_BUTTON_LABEL>Main menu</TABLET_PC_BACK_TO_MAIN_BUTTON_LABEL>
+    <CLAN_NAME_LABEL>Clan name</CLAN_NAME_LABEL>
+    <CONFIGURE_RIGHTS_LABEL>Rights configure</CONFIGURE_RIGHTS_LABEL>
+    <CLAN_TRADE_MANAGMENT_LABEL>Clan trade managment</CLAN_TRADE_MANAGMENT_LABEL>
+    <RANKS_LABEL>Ranks</RANKS_LABEL>
+    <RIGHTS_LABEL>Rights</RIGHTS_LABEL>
+    <APPLY_LABEL>Apply</APPLY_LABEL>
+    <CANCEL_LABEL>Cancel</CANCEL_LABEL>
+    <TRADE_ITEM_CHOICE>Trade
+item
+choice</TRADE_ITEM_CHOICE>
+    <SELL_TO_CLAN_ONLY>Sell to
+clan
+only</SELL_TO_CLAN_ONLY>
+    <NAME>Name</NAME>
+    <QUANTITY_SHORT>Quantity</QUANTITY_SHORT>
+    <BASE_COST>Base
+cost</BASE_COST>
+    <BUY_COST>Buy
+cost</BUY_COST>
+    <COST_FOR_CLANMATES>Cost for
+clanmates</COST_FOR_CLANMATES>
+    <COST_FOR_NEUTRALS>Cost for
+neutrals</COST_FOR_NEUTRALS>
+    <COST_FOR_FRIENDS>Cost for
+friends</COST_FOR_FRIENDS>
+    <COST_FOR_ENEMIES>Cost for
+enemies</COST_FOR_ENEMIES>
+    <SET_COST_IN_PERCENTS>Set cost in %</SET_COST_IN_PERCENTS>
+    <CLANMATE_NAME>Name</CLANMATE_NAME>
+    <CLANMATE_RANK>Rank</CLANMATE_RANK>
+    <CLANMAE_STATE>State</CLANMAE_STATE>
+  </Legacy>
+  <hunter>
+    <take>Take it</take>
+    <CancelOrder>cancel an order</CancelOrder>
+    <hanters>hunters: {0}</hanters>
+    <PK>PK</PK>
+    <injured>The injured</injured>
+    <reward>Reward</reward>
+    <remainingTime>Time remain</remainingTime>
+    <caption>.</caption>
+  </hunter>
+  <itemCache>
+    <cancelSale>remove a sale</cancelSale>
+    <sale>sell</sale>
+  </itemCache>
+  <warehouse>
+    <canselSale>Remove a sale</canselSale>
+    <sale>Sell</sale>
+  </warehouse>
+</root>

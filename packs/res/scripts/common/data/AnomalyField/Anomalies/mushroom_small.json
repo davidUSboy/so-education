@@ -1,0 +1,24 @@
+{
+    "sfxes": {
+        "revealed": [
+            "sfx/anomaly_mushroom.xml"
+        ], 
+        "warning": [
+            "sfx/anomaly_mushroom_off_small.xml"
+        ], 
+        "hide": [
+            "sfx/anomaly_mushroom_off_small.xml"
+        ], 
+        "persistent": [
+            "sfx/anomaly_mushroom_off_small.xml"
+        ]
+    }, 
+    "name": "mushroom_small", 
+    "effects": [
+        {
+            "modifier": 1.0, 
+            "stacks": 1, 
+            "id": 701
+        }
+    ]
+}

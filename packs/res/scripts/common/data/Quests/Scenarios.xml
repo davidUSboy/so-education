@@ -1,0 +1,278 @@
+	<root>
+	<scenario>
+		<id>	1	</id>
+
+		<type>	0 	</type>						<!--0 - pve defense, 1 - pve attack-->
+		<time>	15	</time>						<!-- in minutes -->
+		<winif>	2	</winif> 					<!--1 - time is over, 2 - scenario is over  -->
+
+		<mobs>
+			<mob>
+				<type>	0	</type>
+				<goto>	1	</goto>				<!-- 0 - hold, 1 - go to defense area, attack-->
+				<count>	50	</count> 			<!--0 - infinity-->
+				<level> 1	</level>
+				<update> 1	</update>
+				<wayName>way1	</wayName>
+			</mob>
+		</mobs>
+		<npcs>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	2	</id>
+
+		<type>	1 	</type>						<!--0 - pve defense, 1 - pve attack-->
+		<time>	4	</time>						<!-- in minutes -->
+		<winif>	2	</winif> 					<!--1 - time is over, 2 - scenario is over  -->
+
+		<mobs>
+			<mob>
+				<type>	0	</type>
+				<goto>	1	</goto>				<!-- 0 - hold, 1 - go to defense area-->
+				<count>	50	</count> 	<!--0 - infinity-->
+				<level> 1	</level>
+				<update> 0	</update>
+				<wayName>way1	</wayName>
+			</mob>
+		</mobs>
+		<npcs>
+		</npcs>
+	</scenario>
+	
+	
+	<scenario>
+		<id>	3	</id>
+
+		<type>	2 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+
+		<mobs>
+			<mob>
+				<type>	0	</type>
+				<goto>	2	</goto>				<!-- 0 - hold, 1 - go to defense area, 2 - attack player-->
+				<count>	1	</count> 	<!--0 - infinity-->
+				<level> 1	</level>
+				<update> 0	</update>
+				<wayName>way1	</wayName>
+			</mob>
+		</mobs>
+		<npcs>
+		</npcs>
+	</scenario>
+	
+	<!--Start here to make scenarios for quests-->
+	
+	<scenario>
+		<id>	4	</id>
+
+		<type>	2 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+
+		<mobs>
+			<mob>
+				<type>	3	</type>
+				<goto>	0	</goto>				<!-- 0 - hold, 1 - go to defense area, 2 - attack player-->
+				<count>	1	</count> 	<!--0 - infinity-->
+				<level> 1	</level>
+				<update> 0	</update>
+				<wayName>way1	</wayName>
+			</mob>
+		</mobs>
+		<npcs>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	6	</id>
+
+		<type>	2 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+
+		<mobs>
+			<mob>
+				<type>	4	</type>
+				<goto>	0	</goto>				<!-- 0 - hold, 1 - go to defense area, 2 - attack player-->
+				<count>	1	</count> 	<!--0 - infinity-->
+				<level> 3	</level>
+				<update> 0	</update>
+				<wayName>way1	</wayName>
+				
+			</mob>
+		</mobs>
+		<npcs>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	5	</id>
+
+		<type>	2 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+
+		<mobs>
+			<mob>
+				<type>	1	</type>
+				<goto>	0	</goto>				<!-- 0 - hold, 1 - go to defense area, 2 - attack player-->
+				<count>	1	</count> 	<!--0 - infinity-->
+				<level> 1	</level>
+				<update> 0	</update>
+				<wayName>way1	</wayName>
+			</mob>
+		</mobs>
+		<npcs>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	7	</id>
+		<type>	4 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+		<mobs>
+		</mobs>
+		<npcs>
+			<npc>
+				<id>	0				</id>
+				<type>	0				</type>
+				<npcName> 				</npcName>
+				<wayName>test1_ohota	</wayName>
+				<fractionID>	0		</fractionID>
+			</npc>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	8	</id>
+		<type>	4 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+		<mobs>
+		</mobs>
+		<npcs>
+			<npc>
+				<id>	0				</id>
+				<type>	0				</type>
+				<npcName> 				</npcName>
+				<wayName>bandit_hunt	</wayName>
+				<fractionID>	0		</fractionID>
+			</npc>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	9	</id>
+		<type>	4 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+		<mobs>
+		</mobs>
+		<npcs>
+			<npc>
+				<id>	0				</id>
+				<type>	0				</type>
+				<npcName> 				</npcName>
+				<wayName>trader_hunt	</wayName>
+				<fractionID>	0		</fractionID>
+			</npc>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	10	</id>
+		<type>	4 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+		<mobs>
+		</mobs>
+		<npcs>
+			<npc>
+				<id>	0				</id>
+				<type>	0				</type>
+				<npcName> 				</npcName>
+				<wayName>scientist_hunt	</wayName>
+				<fractionID>	0		</fractionID>
+			</npc>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	11	</id>
+		<type>	4 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+		<mobs>
+		</mobs>
+		<npcs>
+			<npc>
+				<id>	0				</id>
+				<type>	0				</type>
+				<npcName> 				</npcName>
+				<wayName>shtaket_hunt	</wayName>
+				<fractionID>	0		</fractionID>
+			</npc>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	12	</id>
+		<type>	4 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+		<mobs>
+		</mobs>
+		<npcs>
+			<npc>
+				<id>	0				</id>
+				<type>	0				</type>
+				<npcName> 				</npcName>
+				<wayName>group_hunt	</wayName>
+				<fractionID>	0		</fractionID>
+			</npc>
+		</npcs>
+	</scenario>
+	
+	<scenario>		<!--attack of rat-->
+		<id>	13	</id>
+
+		<type>	2 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+
+		<mobs>
+			<mob>
+				<type>	4	</type>
+				<goto>	0	</goto>				<!-- 0 - hold, 1 - go to defense area, 2 - attack player-->
+				<count>	1	</count> 	<!--0 - infinity-->
+				<level> 3	</level>
+				<update> 0	</update>
+				<wayName>way1	</wayName>
+			</mob>
+		</mobs>
+		<npcs>
+		</npcs>
+	</scenario>
+	
+	<scenario>
+		<id>	14	</id>
+		<type>	4 	</type>
+		<time>	0	</time>
+		<winif>	2	</winif>
+		<mobs>
+		</mobs>
+		<npcs>
+			<npc>
+				<id>	0				</id>
+				<type>	0				</type>
+				<npcName> 				</npcName>
+				<wayName>dumpster_ohota	</wayName>
+				<fractionID>	0		</fractionID>
+			</npc>
+		</npcs>
+	</scenario>
+</root>

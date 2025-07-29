@@ -1,0 +1,93 @@
+<root>
+
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		ItemDispatcher	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+		
+		<pDelayedItems>
+			<Type>			ARRAY <of> ITEM_DISPATCHER_ENTRY </of> </Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true				</Persistent>
+		</pDelayedItems>
+		<pLastItemID>
+			<Type> INT32 </Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true				</Persistent>
+		</pLastItemID>
+	</Properties>
+		
+	<BaseMethods>
+	
+		<WriteToDB>
+		</WriteToDB>
+		
+		<LastIDPoll>
+			<Arg> MAILBOX </Arg>
+		</LastIDPoll>
+		
+		
+		<CheckForItems>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> MAILBOX </Arg>
+		</CheckForItems>
+		
+		
+		<DelayedAddItem>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> INT32 </Arg>
+		</DelayedAddItem>
+
+		<!-- <itemIsCreated>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</itemIsCreated>	
+
+		<itemIsDestroyed>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</itemIsDestroyed> -->
+		
+		<CreateNewItem>
+			<Arg>MAILBOX</Arg>
+			<Arg> VECTOR3 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</CreateNewItem>	
+		
+		<AddNewItemToEntity>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</AddNewItemToEntity>
+	</BaseMethods>
+	
+	<CellMethods>
+	
+	<!--	<ScanAreaAndAddWeapon>
+		</ScanAreaAndAddWeapon> -->
+				
+	<!--	<AddNewItemToEntity>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</AddNewItemToEntity>	
+		
+		<AddNewItemToEntityWithID>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</AddNewItemToEntityWithID>	 -->
+		
+		
+	</CellMethods>
+	
+	<ClientMethods>
+	</ClientMethods>
+</root>

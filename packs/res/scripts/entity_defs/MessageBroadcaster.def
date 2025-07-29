@@ -1,0 +1,8 @@
+<root>
+	<BaseMethods>
+		<announce>
+			<Arg>	UNICODE_STRING	</Arg> <!-- sender nick, may be empty -->
+			<Arg>	UNICODE_STRING	</Arg> <!-- message to be announced -->
+		</announce>
+	</BaseMethods>
+</root>

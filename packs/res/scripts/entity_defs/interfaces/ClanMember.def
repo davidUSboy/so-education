@@ -1,0 +1,301 @@
+<root>
+	<Properties>
+		<clanName>
+			<Type>	STRING		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>	true	</Persistent>
+		</clanName>
+
+		<clanEnemies>
+			<Type>	ARRAY <of>STRING</of>		</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Persistent>	false	</Persistent>
+		</clanEnemies>
+		
+		<clanID>
+			<Type>	INT64		</Type>
+			<Flags>	BASE_AND_CLIENT	</Flags>
+			<Persistent>	true	</Persistent>
+		</clanID>
+
+		<cellClanID>
+			<Type>	INT64		    </Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>	true	</Persistent>
+		</cellClanID>
+		
+		<clanHostiles>
+			<Type>	ARRAY <of>STRING</of>		</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Persistent>	false	</Persistent>
+		</clanHostiles>
+		
+		<localBaseClanID> <!-- last clan name for area (/basewar) -->
+			<Type>	INT64		</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Persistent>	false	</Persistent>
+		</localBaseClanID>
+
+        <clanRights>
+			<Type>	INT64		    </Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Persistent>	false	</Persistent>
+        </clanRights>
+
+        <nameBaseLeaguer>
+			<Type>	STRING		    </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+	        <Persistent>	true	</Persistent>
+        </nameBaseLeaguer>
+
+        <nameBaseNeutral>
+			<Type>	STRING		    </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+	        <Persistent>	true	</Persistent>
+        </nameBaseNeutral>
+
+		<ownerBase>
+			<Type>	INT64		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</ownerBase>
+
+
+		<!--tracker's properties-->
+		<base_tracker>
+			<Type>
+				FIXED_DICT
+				<Properties>
+					<status>
+						<Type> FLOAT </Type>
+					</status>
+					<time>
+						<Type> FLOAT32 </Type>
+					</time>
+					<clan_name>
+						<Type> UNICODE_STRING </Type>
+					</clan_name>
+					<flags>
+						<Type> ARRAY
+							<of>
+								FIXED_DICT
+								<Properties>
+									<id>
+										<Type> INT64 </Type>
+									</id>
+									<progress>
+										<Type> FLOAT </Type>
+									</progress>
+									<state>
+										<Type> INT8 </Type>
+									</state>
+									<winning_clanName>
+										<Type> UNICODE_STRING </Type>
+									</winning_clanName>
+									<level>
+										<Type> INT8 </Type>
+									</level>
+								</Properties>
+							</of>
+						</Type>
+					</flags>
+				</Properties>
+			</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+		</base_tracker>
+
+		<reinfp_tracker>
+			<Type>
+				FIXED_DICT
+				<Properties>
+					<progress>
+						<Type> FLOAT </Type>
+					</progress>
+					<status>
+						<Type> INT8 </Type>
+					</status>
+					<name>
+						<Type> UNICODE_STRING </Type>
+					</name>
+					<time>
+						<Type> FLOAT32 </Type>
+					</time>
+					<clan_name>
+						<Type> UNICODE_STRING </Type>
+					</clan_name>
+				</Properties>
+			</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+		</reinfp_tracker>
+
+
+		<show_tracker>
+			<Type>      INT8        </Type>
+			<Flags>	    OWN_CLIENT	</Flags>
+			<Default>	0	    </Default>
+		</show_tracker>
+	</Properties>
+	
+	<CellMethods>
+		
+		<setClanName>
+			<Arg>		STRING				</Arg>
+		</setClanName>
+		
+		<setClanEnemies>
+			<Arg>	ARRAY <of>STRING</of>		</Arg> <!-- Enemies (free kills) -->
+			<Arg>	ARRAY <of>STRING</of>		</Arg> <!-- Hostiles (you're free kill for them) -->
+		</setClanEnemies>
+
+        <setClanRights>
+            <Arg>		INT64				</Arg>
+        </setClanRights>
+
+        <setClanID>
+            <Arg>		INT64				</Arg>
+        </setClanID>
+
+		<updateNameBaseLeaguer>
+			<Arg>		STRING				</Arg>
+		</updateNameBaseLeaguer>
+
+		<updateNameBaseNeutral>
+			<Arg>		STRING				</Arg>
+		</updateNameBaseNeutral>
+
+		<!--<updateRFProgress>-->
+			<!--<Arg>       FLOAT               </Arg>-->
+			<!--<Arg>       UNICODE_STRING      </Arg>-->
+			<!--<Arg>       INT8                </Arg>-->
+		<!--</updateRFProgress>-->
+
+		<onEnterRFPoint>
+			<Arg> UNICODE_STRING              </Arg>
+			<Arg> INT8                        </Arg>
+			<Arg> FLOAT                       </Arg>
+			<Arg> UNICODE_STRING              </Arg>
+			<Arg> FLOAT                       </Arg>
+		</onEnterRFPoint>
+
+		<onLeaveRFPoint/>
+
+		<updateBaseTime>
+			<Arg> FLOAT             </Arg>
+		</updateBaseTime>
+
+		<onEnterBase>
+			<Arg> INT8              </Arg>
+			<Arg> UNICODE_STRING    </Arg>
+			<Arg> FLOAT             </Arg>
+		</onEnterBase>
+
+		<updateFlag>
+			<Arg> ENTITY_ID                   </Arg>
+			<Arg> INT8                        </Arg>
+			<Arg> FLOAT                       </Arg>
+			<Arg> UNICODE_STRING              </Arg>
+			<Arg> INT8                        </Arg>
+		</updateFlag>
+
+		<updateBaseStatus>
+			<Arg> INT8              </Arg>
+		</updateBaseStatus>
+
+		<onLeaveBase/>
+	</CellMethods>
+
+	<BaseMethods>
+		<createClan>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</createClan>
+		
+		<onClanJoined>
+			<Arg> INT64 </Arg>
+			<Arg> STRING </Arg>
+		</onClanJoined>
+		
+		<onClanCreated>
+			<Arg> INT64 </Arg>
+			<Arg> STRING </Arg>
+		</onClanCreated>
+		
+		<onClanLeft>
+			<Arg> INT64 </Arg>
+		</onClanLeft>
+		
+		<!--<clanInvite>-->
+			<!--<Arg> INT64 </Arg>-->
+			<!--<Arg> DBID </Arg>-->
+		<!--</clanInvite>-->
+		
+		<clanWar>
+			<Arg> STRING </Arg>
+		</clanWar>
+		
+		<tryToClanInvite>
+			<Arg> INT64 </Arg> <!-- notice type id -->
+			<Arg> INT64 </Arg> <!-- notice reply id -->
+			<Arg> ARRAY <of>STRING</of> </Arg> <!-- notice string data array (names, objects etc) -->
+			<Arg> MAILBOX </Arg>
+		</tryToClanInvite>
+
+		<leaveClan>
+			<Exposed/>
+		</leaveClan>
+	</BaseMethods>
+	
+	<ClientMethods>
+	
+		<clanRosterUpdate>
+			<Arg> ARRAY <of>CLAN_MEMBER_ENTRY</of> </Arg> <!-- all clan members - rank, name, time of last login -->
+		</clanRosterUpdate>
+
+		<clanMemberRosterUpdate>
+			<Arg> CLAN_MEMBER_ENTRY </Arg> <!-- all clan members - rank, name, time of last login -->
+		</clanMemberRosterUpdate>
+		
+		<clanRanksUpdate>
+			<Arg> ARRAY <of>CLAN_RANK_ENTRY</of> </Arg> <!-- all clan ranks -->
+			<Arg> INT32 </Arg> <!-- own rank id -->
+		</clanRanksUpdate>
+
+        <showClanCreateDialog>
+            <Arg> BOOL </Arg>
+        </showClanCreateDialog>
+
+        <!--<printDebugInfo>-->
+            <!--<Arg> UNICODE_STRING </Arg>-->
+	        <!--<Arg> INT8           </Arg>-->
+        <!--</printDebugInfo>-->
+
+		<!--<clearDebugInfo>-->
+		<!--</clearDebugInfo>-->
+
+
+		<!--<updateFlag>-->
+			<!--<Arg> ENTITY_ID                     </Arg>-->
+			<!--<Arg> INT8                        </Arg>-->
+			<!--<Arg> FLOAT                       </Arg>-->
+			<!--<Arg> UNICODE_STRING              </Arg>-->
+			<!--<Arg> INT8                        </Arg>-->
+		<!--</updateFlag>-->
+
+	<!--def onEnterRFPoint(self, name, status, progress, clanName, time)-->
+		<onLeaveRFPoint/>
+
+		<onLeaveBase/>
+
+		<tellAboutClanStatus>
+			<Arg>	ARRAY		<of>		INT64		</of>		</Arg>
+			<Arg>	ARRAY		<of>		UNICODE_STRING		</of>		</Arg>
+			<Arg>	INT8		</Arg>
+		</tellAboutClanStatus>
+
+		<onEnterRFPoint/>
+
+		<onEnterBase/>
+
+		<leaveClan/>
+
+	</ClientMethods>
+</root>

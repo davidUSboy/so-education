@@ -1,0 +1,102 @@
+<Bear.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>head1_Bip01 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.093176 -0.236207 -0.265103</minBounds>
+      <maxBounds>0.334066 0.236206 0.328626</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>head2_Bip01 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>0.235255 -0.124881 -0.117851</minBounds>
+      <maxBounds>0.639625 0.124879 0.347629</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Hand</nodeName>
+      <boxName>Bip01 R Hand_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.012916 -0.165573 -0.084760</minBounds>
+      <maxBounds>0.410504 0.154977 0.127327</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm</nodeName>
+      <boxName>Bip01 R Forearm_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.221550 -0.159438 -0.211083</minBounds>
+      <maxBounds>0.478450 0.190562 0.088917</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Hand</nodeName>
+      <boxName>Bip01 L Hand_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.012915 -0.154977 -0.084760</minBounds>
+      <maxBounds>0.410503 0.165572 0.127327</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm</nodeName>
+      <boxName>Bip01 L Forearm_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.221549 -0.190562 -0.211085</minBounds>
+      <maxBounds>0.478451 0.159438 0.088915</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Neck</nodeName>
+      <boxName>Bip01 Neck_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.337740 -0.355434 -0.463212</minBounds>
+      <maxBounds>0.215504 0.355436 0.812000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine2</nodeName>
+      <boxName>puzo_Bip01 Spine2_bwhitbox</boxName>
+      <bodyZone>GROIN</bodyZone>
+      <minBounds>-0.585943 -0.291919 0.517092</minBounds>
+      <maxBounds>0.612209 0.291929 1.007010</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine1</nodeName>
+      <boxName>Bip01 Spine1_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.090963 -0.616837 -0.293364</minBounds>
+      <maxBounds>1.104716 0.616839 0.736072</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Foot</nodeName>
+      <boxName>Bip01 L Foot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.045294 -0.154393 -0.095745</minBounds>
+      <maxBounds>0.195294 0.167656 0.349337</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Calf</nodeName>
+      <boxName>Bip01 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.100672 -0.129435 -0.135411</minBounds>
+      <maxBounds>0.389026 0.135210 0.224072</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Foot</nodeName>
+      <boxName>Bip01 R Foot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.045294 -0.167655 -0.095745</minBounds>
+      <maxBounds>0.195294 0.154393 0.349336</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Calf</nodeName>
+      <boxName>Bip01 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.100672 -0.135210 -0.135411</minBounds>
+      <maxBounds>0.389026 0.129435 0.224072</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine</nodeName>
+      <boxName>Bip01 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.402443 -0.450410 -0.226748</minBounds>
+      <maxBounds>0.501988 0.450413 0.716129</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Bear.xml>

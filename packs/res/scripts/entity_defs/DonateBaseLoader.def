@@ -1,0 +1,90 @@
+<root>
+	<Implements>
+        <Interface> Teleporter </Interface>
+		<Interface> TimerManagerCell </Interface>
+		<!--<Interface> IEventListener </Interface>-->
+	</Implements>
+
+	<Properties>
+		<spaceDir>
+			<Type> STRING </Type>
+			<Flags> BASE </Flags>
+			<Persistent>	true			</Persistent>
+		</spaceDir>
+
+		<geometry>
+			<Type> STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent>	true			</Persistent>
+		</geometry>
+
+        <name>
+            <Type> STRING </Type>
+			<Flags> BASE </Flags>
+        </name>
+
+        <clanID>
+            <Type> INT64 </Type>
+			<Flags> BASE </Flags>
+        </clanID>
+
+		<startTime>
+			<Type> FLOAT64 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent>	false			</Persistent>
+		</startTime>
+
+		<isDefault>
+			<Type> INT8 </Type>
+			<Flags> BASE </Flags>
+		</isDefault>
+		
+		<notifyBaseOnLoad>
+			<Type> MAILBOX  </Type>
+			<Flags> BASE</Flags>
+		</notifyBaseOnLoad>
+
+		<!--<registeredEntities>-->
+			<!--<Type> ARRAY <of> MAILBOX </of>  </Type>-->
+			<!--<Flags> CELL_PRIVATE </Flags>-->
+		<!--</registeredEntities>-->
+
+		<timePeriods>
+			<Type> ARRAY <of>
+				FIXED_DICT
+				<Properties>
+					<time>
+						<Type>      INT64       </Type>
+					</time>
+					<name>
+						<Type>      STRING      </Type>
+					</name>
+				</Properties> </of>
+			  </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</timePeriods>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<gotSpaceID>
+			<Arg> INT32 </Arg>
+		</gotSpaceID>
+		
+		<destroySpace>
+		</destroySpace>
+	</BaseMethods>
+
+	<CellMethods>
+		<destroySpace>
+		</destroySpace>
+
+		<setTime>
+			<Arg> FLOAT64 </Arg> <!-- time -->
+			<Arg> FLOAT64 </Arg> <!-- speed -->
+		</setTime>
+	</CellMethods>
+</root>

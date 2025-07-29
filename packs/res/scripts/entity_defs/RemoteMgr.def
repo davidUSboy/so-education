@@ -1,0 +1,13 @@
+<!-- Stalker online Account definitions -->
+<root>
+	<BaseMethods>
+		<call_back>
+			<Arg> INT32 </Arg>
+			<Arg> PYTHON </Arg>
+			<Arg> PYTHON </Arg>
+		</call_back>
+		<del_func_reference>
+			<Arg> INT32 </Arg>
+		</del_func_reference>
+	</BaseMethods>
+</root>

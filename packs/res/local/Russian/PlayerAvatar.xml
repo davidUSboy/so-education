@@ -1,0 +1,132 @@
+<root>
+  <client>
+    <PVP_GO_TO_SHOP>Купить оружие</PVP_GO_TO_SHOP>
+    <FAIL_UF_PLDEAD>Вы не можете создать костер когда мертвы</FAIL_UF_PLDEAD>
+    <FAIL_UF_GROUND>Вы не можете создать костер в воздухе</FAIL_UF_GROUND>
+    <FAIL_UF_GEOMETRY>Костер возможно создать только на ровной поверхности</FAIL_UF_GEOMETRY>
+    <FAIL_UF_OTHER_UF>Костер нельзя создать изза других костров</FAIL_UF_OTHER_UF>
+    <FAIL_UF_WATER>Костер нельзя создать в воде</FAIL_UF_WATER>
+    <FAIL_UF_SAFE_AREA>Костер нельзя создать в безопасной зоне</FAIL_UF_SAFE_AREA>
+    <MSG1>Введите команду /help для получения справки по доступным командам</MSG1>
+    <MSG2>Вы мертвы</MSG2>
+    <Hit>Попадение</Hit>
+    <Miss>Промах</Miss>
+    <AlreadyOrdered>уже заказан</AlreadyOrdered>
+    <YouOrdered>вы заказаны</YouOrdered>
+    <YouHaveOrder>у вас есть заказ</YouHaveOrder>
+    <AnnouncementArrest>Объявление об аресте</AnnouncementArrest>
+    <MSG3>Запрещено</MSG3>
+    <MSG4>Идет перезарядка</MSG4>
+    <MSG5>Оружия нет</MSG5>
+    <MSG6>Ошибка графического отображения</MSG6>
+    <MSG7>Оружие не заряжено</MSG7>
+    <MSG8>Оружие заклинило</MSG8>
+    <MSG9>Проблемы с оружием</MSG9>
+    <MSG10>Для возврата в последнюю безопасную зону, нажмите OK.</MSG10>
+    <MSG11>Вы убили себя.</MSG11>
+    <MSG12>Вас убила аномалия.</MSG12>
+    <MSG13>Вас убил сталкер:</MSG13>
+    <MSG14>Вас убил какой-то сталкер.</MSG14>
+    <MSG15>Вас убил:</MSG15>
+    <MSG16>Вас убил НИП.</MSG16>
+    <MSG18>Вас убил монстр.</MSG18>
+    <MSG19>Вас убило что-то.</MSG19>
+    <MSG20>Вы погибли.</MSG20>
+    <MSG21>Вы снова на ногах.</MSG21>
+    <MSG22>Вы убили: {name}</MSG22>
+    <MSG23>Вы убили кого-то.</MSG23>
+    <KILLED_BY_EFFECT>Вы убиты эффектом {effect_name}</KILLED_BY_EFFECT>
+    <MSG24>убил</MSG24>
+    <YOU_HAVE_INJURED>Вы ранили: {name} ({damage})</YOU_HAVE_INJURED>
+    <MSG26>Вы ранили неведомо кого.</MSG26>
+    <MSG27>Критическое повреждение!</MSG27>
+    <MSG28>урон</MSG28>
+    <INJURED_BY_EFFECT>Вы ранены эффектом {effect_name}</INJURED_BY_EFFECT>
+    <MSG30>Вы ранили сами себя</MSG30>
+    <MSG31>Вы ранены аномалией</MSG31>
+    <MSG32>Вас ранил сталкер:</MSG32>
+    <MSG33>Вас ранил какой-то сталкер</MSG33>
+    <MSG34>Вас ранил:</MSG34>
+    <MSG35>Вас ранил НИП</MSG35>
+    <MSG37>Вас ранил монстр</MSG37>
+    <MSG38>Вы чем-то ранены</MSG38>
+    <MSG39>Вы чем-то ранены</MSG39>
+    <MSG40>Список игнорируемых:</MSG40>
+    <MSG41>Ругательства разрешены</MSG41>
+    <MSG42>Ругательства запрещены</MSG42>
+    <MSG43>Ваш ID:</MSG43>
+    <MSG44>Запись лога боя включена</MSG44>
+    <MSG45>Запись лога боя выключена</MSG45>
+    <MSG_NO_FLASHLIGHT>Нет фонарика</MSG_NO_FLASHLIGHT>
+    <MSG_UNABLE_TO_RELOAD>Перезарядка невозможна</MSG_UNABLE_TO_RELOAD>
+    <MSG_AMMO_IS_FULL>Оружие уже заряжено</MSG_AMMO_IS_FULL>
+    <MSG_NO_AMMO_TO_LOAD>Нет подходящих патронов</MSG_NO_AMMO_TO_LOAD>
+    <MSG_ARMOR_PUTON_SPRINT>Невозможно одеть на бегу</MSG_ARMOR_PUTON_SPRINT>
+    <MSG_FIRE_ON_SPRINT>Запрещено стрелять на бегу</MSG_FIRE_ON_SPRINT>
+    <MSG_RELOAD_ON_SPRINT>Запрещена перезарядка на бегу</MSG_RELOAD_ON_SPRINT>
+    <INIT_TRADE>Предложить обмен</INIT_TRADE>
+    <DOYOU_WANT_TO_START_TRADE>Вы действительно хотите предложить {0} обмен?</DOYOU_WANT_TO_START_TRADE>
+    <DEFAULT_PLAYER>Сброс персонажа</DEFAULT_PLAYER>
+    <PLAYER_WIPE_WARNING>После подтверждения на вашем персонаже удалятся все предметы и будут сброшены все эффекты. После обнуления персонажа требуется перезайти в игру. Произвести сброс?</PLAYER_WIPE_WARNING>
+    <TRADE_LOCK>Блокировка предложений торговли:</TRADE_LOCK>
+    <TRADE_LOCK_ON>Включена</TRADE_LOCK_ON>
+    <TRADE_LOCK_OFF>Выключена</TRADE_LOCK_OFF>
+    <OTHER_PLAYER_OFFERS_BARTER>{0} предлагает вам начать бартер. Согласны?</OTHER_PLAYER_OFFERS_BARTER>
+    <BARTER_OFFER>Предложение сделки</BARTER_OFFER>
+    <UNKNOWN_PLAYER>неизвестно кем</UNKNOWN_PLAYER>
+    <STRING_1122_8>Все фракции:</STRING_1122_8>
+    <STRING_2743_56>Вы</STRING_2743_56>
+    <STRING_2988_18>Системные команды:
+/help - текущая справка по консольным командам
+/defaultmeplease - удаление всех предметов и сброс статусов (для применения изменений в силу, требуется перезайти за персонажа)
+/iwannadie - потерять сознание и вызвать помощь (возможно выпадение вещей)
+/trade - вкл.\выкл. входящих предложений обмена
+/time - текущее время</STRING_2988_18>
+    <STRING_2988_19>Управление группировкой:
+/clandestroy - (только владелец) распустить группировку
+/claninvite [имя] - пригласить в группировку
+/clankick [имя] - исключить из группировки
+/clanleave - покинуть группировку
+/clanwar [название_группировки] - объвить войну
+/basewar - объявить войну группировке, которая контролирует текущую территорию, на которой в данный момент находится персонаж
+/clanwarlist - список группировок, для которых объявлена война
+/clanpeace [название_группировки] - предложить мир</STRING_2988_19>
+    <STRING_2988_20>Управление отрядом:
+ - Для создания группы нужно пригласить любого сталкера
+/groupdestroy - (только владелец) расформировать отряд
+/groupleader [имя] - (только владелец) передать лидерство отрядом
+/kick [имя] - (только владелец) выгнать из отряда
+/invite [имя] - (только владелец) пригласить в отряд
+/inviter [имя] - рекомендовать лидеру пригласить в отряд
+/grouplist - список участников своего отряда
+/groupleave - покинуть отряд</STRING_2988_20>
+    <STRING_2988_21>Текстовые сообщения:
+@[имя] [текст] - отправить личное сообщение сталкеру [имя]
+%[текст] - отправить сообщение всем в своей группировке
+/ignore [имя] - игнорировать все текстовые сообщения от сталкера [имя]
+/unignore [имя] - перестать игнорировать сообщения от сталкера [имя]
+/ignore_list - список игнорируемых сталкеров
+/chatabuse [on, off] - включение и выключение цензуры сообщений</STRING_2988_21>
+    <STRING_2988_22>Прочие команды:
+/reputation - репутация среди фракций</STRING_2988_22>
+    <STRING_HELP_1>Команды тестера:</STRING_HELP_1>
+    <STRING_HELP_2>Команды игрового мастера:</STRING_HELP_2>
+    <STRING_HELP_3>Команды разработчика:</STRING_HELP_3>
+    <STRING_3114_23>Сейчас в игре: {0} игроков</STRING_3114_23>
+    <STRING_3122_24>Запись лога боя выключена</STRING_3122_24>
+    <STRING_3278_10>Игрок</STRING_3278_10>
+    <STRING_3790_9>Активировать</STRING_3790_9>
+    <STRING_3839_20>подземелье</STRING_3839_20>
+    <ON_DEAD_TITLE>Вы при смерти</ON_DEAD_TITLE>
+    <ON_DEAD_REVIVE>В безопасную зону</ON_DEAD_REVIVE>
+    <ON_DEAD_LIE_DOWN>Отлежаться</ON_DEAD_LIE_DOWN>
+    <USE_DEAD_TITLE>При смерти</USE_DEAD_TITLE>
+    <GIVE_AID_TO_DEAD>Использовать аптечку</GIVE_AID_TO_DEAD>
+    <KILL_AND_BEAT>Добить и обыскать</KILL_AND_BEAT>
+    <REVIVE_DEAD>Привести в чувства</REVIVE_DEAD>
+    <SAFE_ZONE_WAITING>До входа в безопасную зону осталось:</SAFE_ZONE_WAITING>
+    <USE_ITEM_ON_TARGET_CAPTION>Использование предмета:</USE_ITEM_ON_TARGET_CAPTION>
+    <USE_ITEM_ON_TARGET>Разрешить {1} использовать {0} на Вас?</USE_ITEM_ON_TARGET>
+    <YOU_WILL_DAY_ON_X_SECONDS>Вы умрете менее, чем через {0} секунд.</YOU_WILL_DAY_ON_X_SECONDS>
+  </client>
+</root>

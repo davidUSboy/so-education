@@ -1,0 +1,57 @@
+<root>
+  <common>
+    <NO_ERROR>No error</NO_ERROR>
+    <FORBIDDEN_CHARS>The name contains invalid characters</FORBIDDEN_CHARS>
+    <SHORT_NAME>The name is too short</SHORT_NAME>
+    <LONG_NAME>The name is too long</LONG_NAME>
+    <NAME_ALREADY_TAKEN>The name you want is already taken</NAME_ALREADY_TAKEN>
+    <STARTS_WITH_UNDERSCORE>The name mustn't begin with an underscore</STARTS_WITH_UNDERSCORE>
+    <ENDS_WITH_UNDERSCORE>Your name mustn't end with an underscore</ENDS_WITH_UNDERSCORE>
+    <MANY_UNDERSCORES>Too many underscores</MANY_UNDERSCORES>
+    <NO_CHARACTER>Character is not found.</NO_CHARACTER>
+    <NO_CHARACTER_WITH_DBID>There is no character with this DBID</NO_CHARACTER_WITH_DBID>
+    <OUT_OF_RENAME_TRIES>You have no more attempts left.</OUT_OF_RENAME_TRIES>
+  </common>
+  <ShopResponses>
+    <FAIL_NO_MONEY>Not enough money</FAIL_NO_MONEY>
+    <EVERYTHING_OK>Succeeded.</EVERYTHING_OK>
+    <PLACED_OK>Announcement posted</PLACED_OK>
+    <SLOT_OVERFLOW>No free slots</SLOT_OVERFLOW>
+    <ALREADY_IN_SHOP>Already on sale</ALREADY_IN_SHOP>
+    <AVATARNAME_NOTFOUND>Seller name not found</AVATARNAME_NOTFOUND>
+    <ITEM_STATUS_NO_SALE>Item withdrawn from sale</ITEM_STATUS_NO_SALE>
+    <ITEM_NOT_FOUND>Item not found</ITEM_NOT_FOUND>
+    <ITEM_PRICE_DIFFERENT>This price differs from placed, try without cheats</ITEM_PRICE_DIFFERENT>
+    <FAIL_SMALL_MONEY>Illegal small price</FAIL_SMALL_MONEY>
+    <FAIL_BIG_PRICE>Illegal huge price</FAIL_BIG_PRICE>
+    <FAIL_ITEM_NOT_IN_STORED>This item is selling through the repository only</FAIL_ITEM_NOT_IN_STORED>
+    <FAIL_NO_MONEY_TAX>Not enough money to pay the tax</FAIL_NO_MONEY_TAX>
+    <FAIL_NO_BUY_SELF>You can not buy items from yourself!</FAIL_NO_BUY_SELF>
+    <FAIL_BANK_OVERFLOW>Your storage is full. You can't purchase anything.</FAIL_BANK_OVERFLOW>
+    <FAIL_ITEM_OUTOFTIME>The item {itemname} is out of time, take it from {bank}</FAIL_ITEM_OUTOFTIME>
+    <APPROVE_BUY>The item {itemname} has been sold for {price}, take it from NPC {bank}</APPROVE_BUY>
+    <APPROVE_SOLD>The item {itemname} has been sold to {buyerName} for {price}., You got money from  NPC {bank}</APPROVE_SOLD>
+    <CANCEL_SHOP>Out of stock</CANCEL_SHOP>
+    <FAIL_INVALID_OPERATION>Invalid Operation</FAIL_INVALID_OPERATION>
+  </ShopResponses>
+  <HunterResponses>
+    <DELETE_AD_OK>The proposal for {0} is removed</DELETE_AD_OK>
+    <DELETE_AD_NOT_FOUND>Thу proposal for {0} is not found</DELETE_AD_NOT_FOUND>
+    <GET_MY_WANTED>GET_MY_WANTED</GET_MY_WANTED>
+    <GET_WANTED_POSITION>GET_WANTED_POSITION</GET_WANTED_POSITION>
+    <WANTED_NOT_FOUND>Player {0} not found</WANTED_NOT_FOUND>
+    <SUBSCRIPTION_OK>The player {0} took the mission. reward:{1}r., time left {2}h.</SUBSCRIPTION_OK>
+    <WANTEDKILLEDANDIMPRISONED_OK>{0} slain, reward: {1}, hunters{3}. {4} avenged</WANTEDKILLEDANDIMPRISONED_OK>
+    <SUBMIT_FAIL_VICTIMNAME>{3} is already wanted, cancel your request or wait until the person is caught</SUBMIT_FAIL_VICTIMNAME>
+    <SUBMIT_FAIL_WANTEDNAME>{0} is already wanted, request has been sent {3}</SUBMIT_FAIL_WANTEDNAME>
+    <SUBMIT_OK>Request is posted.</SUBMIT_OK>
+    <REPORT_NOT_WANTED>REPORT_NOT_WANTED</REPORT_NOT_WANTED>
+    <MAX_OFFENFER>You can't take more missions</MAX_OFFENFER>
+    <MIN_PRICE>The reward is too small</MIN_PRICE>
+    <NO_CREDITNUMBER>Not enouph money</NO_CREDITNUMBER>
+    <OFFENDER_REMOVE>Player (0) isn't wanted anymore</OFFENDER_REMOVE>
+    <WANTED_REMOVE>Player (1) isn't wanted anymore</WANTED_REMOVE>
+    <YOU_KILLED_AND_IMPRISONED>Hunter {0} caught you, you're jailed</YOU_KILLED_AND_IMPRISONED>
+    <WANTED_THIS_I>You can't take this quest!</WANTED_THIS_I>
+  </HunterResponses>
+</root>

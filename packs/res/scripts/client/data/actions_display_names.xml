@@ -1,0 +1,307 @@
+<actions_display_names.xml>
+	<action>	
+		<internal_name>	LeftMouseButton	</internal_name>
+		<display_name>	KeyBinds.Names.LEFT_MOUSE_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	FriendList	</internal_name>
+		<display_name>	KeyBinds.Names.FriendList	</display_name>
+	</action>
+	
+	<action>	
+		<internal_name>	PVPScoreBar	</internal_name>
+		<display_name>	KeyBinds.Names.PVPSCOREBAR_VALUE	</display_name>
+	</action>
+	
+	<action>	
+		<internal_name>	SwitchNightVision	</internal_name>
+		<display_name>	KeyBinds.Names.SWITCHNIGHTVISION_VALUE	</display_name>
+	</action>
+		
+	<action>	
+		<internal_name>	FriendList	</internal_name>
+		<display_name>	KeyBinds.Names.FRIENDLIST_VALUE	</display_name>
+	</action>
+	
+	<action>	
+		<internal_name>	RightMouseButton	</internal_name>
+		<display_name>	KeyBinds.Names.RIGHT_MOUSE_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>	
+		<internal_name>	MiddleMouseButton	</internal_name>
+		<display_name>	KeyBinds.Names.MIDDLE_MOUSE_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	MoveForward	</internal_name>
+		<display_name>	KeyBinds.Names.MOVEFORWARD_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	MoveBackward	</internal_name>
+		<display_name>	KeyBinds.Names.MOVEBACKWARD_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	StrafeLeft	</internal_name>
+		<display_name>	KeyBinds.Names.STRAFELEFT_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	StrafeRight	</internal_name>
+		<display_name>	KeyBinds.Names.STRAFERIGHT_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ReloadWeapon	</internal_name>
+		<display_name>	KeyBinds.Names.RELOADWEAPON_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ChangeAmmoType	</internal_name>
+		<display_name>	KeyBinds.Names.CHANGEAMMOTYPE_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	Binoculars	</internal_name>
+		<display_name>	KeyBinds.Names.BINOCULARS_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ChangeViewShoulder	</internal_name>
+		<display_name>	KeyBinds.Names.CHANGEVIEWSHOULDER_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	Jump	</internal_name>
+		<display_name>	KeyBinds.Names.JUMP_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	PickUpAll	</internal_name>
+		<display_name>	KeyBinds.Names.PICKUPALL_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	InteractObject	</internal_name>
+		<display_name>	KeyBinds.Names.INTERACTOBJECT_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	DisconnectFromServer	</internal_name>
+		<display_name>	KeyBinds.Names.DISCONNECTFROMSERVER_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	Sprint	</internal_name>
+		<display_name>	KeyBinds.Names.SPRINT_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	PrimaryWeapon	</internal_name>
+		<display_name>	KeyBinds.Names.PRIMARYWEAPON_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	SecondaryWeapon	</internal_name>
+		<display_name>	KeyBinds.Names.SECONDARYWEAPON_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	HolsterWeapon	</internal_name>
+		<display_name>	KeyBinds.Names.HOLSTERWEAPON_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	Crouch	</internal_name>
+		<display_name>	KeyBinds.Names.CROUCH_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	ToggleCrouch	</internal_name>
+		<display_name>	KeyBinds.Names.TOGGLECROUCH_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	SitGround	</internal_name>
+		<display_name>	KeyBinds.Names.SITGROUND_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	SitBackpack	</internal_name>
+		<display_name>	KeyBinds.Names.SITBACKPACK_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	SitGroundX	</internal_name>
+		<display_name>	KeyBinds.Names.SITGROUNDX_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	SitLegs	</internal_name>
+		<display_name>	KeyBinds.Names.SITLEGS_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	LookAround	</internal_name>
+		<display_name>	KeyBinds.Names.LOOKAROUND_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ThrowStone	</internal_name>
+		<display_name>	KeyBinds.Names.THROWSTONE_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	ThrowGrenade	</internal_name>
+		<display_name>	KeyBinds.Names.THROWGRENADE_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	InventoryShow	</internal_name>
+		<display_name>	KeyBinds.Names.INVENTORYSHOW_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ToggleCharacterGUI	</internal_name>
+		<display_name>	KeyBinds.Names.TOGGLECHARACTERGUI_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ToggleSkillGUI	</internal_name>
+		<display_name>	KeyBinds.Names.TOGGLESKILLGUI_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	QuestJournal	</internal_name>
+		<display_name>	KeyBinds.Names.QUESTJOURNAL_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ShowHelp	</internal_name>
+		<display_name>	KeyBinds.Names.SHOWHELP_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ToggleClanGUI	</internal_name>
+		<display_name>	KeyBinds.Names.TOGGLECLANGUI_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	showCraft	</internal_name>
+		<display_name>	KeyBinds.Names.SHOWCRAFT_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	GlobalMap	</internal_name>
+		<display_name>	KeyBinds.Names.GLOBALMAP_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	SpotLight	</internal_name>
+		<display_name>	KeyBinds.Names.SPOTLIGHT_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	ViewEntities	</internal_name>
+		<display_name>	KeyBinds.Names.VIEWENTITIES_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	toggleGUI	</internal_name>
+		<display_name>	KeyBinds.Names.TOGGLEGUI_DISPLAY_VALUE	</display_name>
+	</action>
+
+<!-- 	<action>
+		<internal_name>	togglePrivateStore	</internal_name>
+		<display_name>	KeyBinds.Names.TOGGLEPRIVATESTORE_DISPLAY_VALUE	</display_name>
+	</action> -->
+
+	<action>
+		<internal_name>	ReleaseCursor	</internal_name>
+		<display_name>	KeyBinds.Names.RELEASECURSOR_DISPLAY_VALUE	</display_name>
+	</action>
+	
+	<action>
+		<internal_name>	QuickSlot1	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT1_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot2	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT2_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot3	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT3_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot4	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT4_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot5	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT5_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot6	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT6_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot7	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT7_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot8	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT8_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot9	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT9_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickSlot10	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKSLOT10_DISPLAY_VALUE	</display_name>
+	</action>
+
+	<action>
+		<internal_name>	QuickLine1	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE1_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine2	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE2_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine3	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE3_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine4	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE4_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine5	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE5_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine6	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE6_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine7	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE7_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine8	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE8_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine9	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE9_DISPLAY_VALUE	</display_name>
+	</action>
+	<action>
+		<internal_name>	QuickLine10	</internal_name>
+		<display_name>	KeyBinds.Names.QUICKLINE10_DISPLAY_VALUE	</display_name>
+	</action>
+
+</actions_display_names.xml>

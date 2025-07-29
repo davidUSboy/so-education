@@ -1,0 +1,24 @@
+<root>
+  <chat>
+    <CLAN_CHANNEL_MARK>ГРП</CLAN_CHANNEL_MARK>
+    <PARTY_CHANNEL_MARK>ОТР</PARTY_CHANNEL_MARK>
+    <TRADE_CHANNEL_MARK>ТРГ</TRADE_CHANNEL_MARK>
+    <PRIVATE_CHANNEL_MARK>ЛС</PRIVATE_CHANNEL_MARK>
+    <MESSAGE_FROM_DELIMETER>от</MESSAGE_FROM_DELIMETER>
+    <MESSAGE_FROM_ME_NAME>Я</MESSAGE_FROM_ME_NAME>
+    <INVITE_PLAYER_PARTY>Пригласить {invited_nick} в отряд</INVITE_PLAYER_PARTY>
+    <INVITE_PLAYER_CLAN>Пригласить {invited_nick} в группу</INVITE_PLAYER_CLAN>
+    <CONTEXT_ADD_TO_FRIEND>Добавить {Nick} в друзья</CONTEXT_ADD_TO_FRIEND>
+    <CONTEXT_ADD_TO_IGNORE>Добавить {Nick} в черный список</CONTEXT_ADD_TO_IGNORE>
+  </chat>
+  <Messages>
+    <OKAY>Хорошо</OKAY>
+    <INPUT_MONEY_FOR_TRADE>Сумма для обмена</INPUT_MONEY_FOR_TRADE>
+    <EXCHANGE_WILL_START_IN>Обмен начнется через {0} секунд</EXCHANGE_WILL_START_IN>
+    <OPPONENT_ACCEPT>Оппонент принял обмен</OPPONENT_ACCEPT>
+    <GOLD_SELL_TITLE>Продажа</GOLD_SELL_TITLE>
+    <GOLD_SELL_MESSAGE>ВНИМАНИЕ! Вы продаете уникальный предмет, купленный за золотые рубли. Потраченные золотые рубли и проданные уникальные вещи НЕ возвращаются. Хотите продать уникальный предмет за обычные рубли?</GOLD_SELL_MESSAGE>
+    <WEIGHT_STATE_HEAVY>У вас перегруз - скорость движения снижена</WEIGHT_STATE_HEAVY>
+    <WEIGHT_STATE_STOP>Превышен максимальный вес - вы не можете двигаться</WEIGHT_STATE_STOP>
+  </Messages>
+</root>

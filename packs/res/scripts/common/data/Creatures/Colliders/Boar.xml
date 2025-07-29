@@ -1,0 +1,60 @@
+<Boar.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip001 Head</nodeName>
+      <boxName>Bip001 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.136906 -0.158914 -0.218740</minBounds>
+      <maxBounds>0.435212 0.158914 0.216980</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L UpperArm</nodeName>
+      <boxName>Bip001 L UpperArm_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.076581 -0.076581</minBounds>
+      <maxBounds>0.550000 0.076581 0.076581</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R UpperArm</nodeName>
+      <boxName>Bip001 R UpperArm_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.076581 -0.076581</minBounds>
+      <maxBounds>0.550000 0.076581 0.076581</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L HorseLink</nodeName>
+      <boxName>Bip001 L HorseLink_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.060000 -0.060000</minBounds>
+      <maxBounds>0.220000 0.060000 0.060000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Thigh</nodeName>
+      <boxName>Bip001 L Thigh_bwhitbox</boxName>
+      <bodyZone>GROIN</bodyZone>
+      <minBounds>-0.102316 -0.103495 -0.147324</minBounds>
+      <maxBounds>0.347684 0.086505 0.182676</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R HorseLink</nodeName>
+      <boxName>Bip001 R HorseLink_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.060000 -0.060000</minBounds>
+      <maxBounds>0.220000 0.060000 0.060000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Thigh</nodeName>
+      <boxName>Bip001 R Thigh_bwhitbox</boxName>
+      <bodyZone>GROIN</bodyZone>
+      <minBounds>-0.102316 -0.086505 -0.147324</minBounds>
+      <maxBounds>0.347683 0.103494 0.182676</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Spine</nodeName>
+      <boxName>Bip001 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.019389 -0.229007 -0.245814</minBounds>
+      <maxBounds>0.716556 0.229008 0.349953</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Boar.xml>

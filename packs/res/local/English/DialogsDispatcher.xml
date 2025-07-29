@@ -1,0 +1,5 @@
+<root>
+  <DIALOGS_HAVE_RESTARTED>Dialogues are rebooted.</DIALOGS_HAVE_RESTARTED>
+  <NPC_HAS_BLOCKED>NPC {0} blocked.</NPC_HAS_BLOCKED>
+  <NPC_HAS_UNBLOCKED>NPC {0} unblocked.</NPC_HAS_UNBLOCKED>
+</root>

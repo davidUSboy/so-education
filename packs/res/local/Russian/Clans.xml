@@ -1,0 +1,90 @@
+<root>
+  <Messages>
+    <CLAN_NAME_IS_OCCUPIED>Такая группировка уже существует (или существовала). Для возвращения названий уничтоженных группировок обращайтесь к администрации.</CLAN_NAME_IS_OCCUPIED>
+    <CLAN_NAME_IS_TOO_SHORT>Название группировки слишком короткое.</CLAN_NAME_IS_TOO_SHORT>
+    <CLAN_NAME_IS_TOO_LONG>Название группировки слишком длинное.</CLAN_NAME_IS_TOO_LONG>
+    <CLAN_NAME_HAVE_TOO_MUCH_UNDERLINE>Название группировки содержит слишком много знаков подчеркивания.</CLAN_NAME_HAVE_TOO_MUCH_UNDERLINE>
+    <CLAN_NAME_CANT_ENDS_WITH_UNDERLINE>Название группировки не должно заканчиваться на подчеркивание.</CLAN_NAME_CANT_ENDS_WITH_UNDERLINE>
+    <CLAN_NAME_CANT_BEGIN_WITH_UNDERLINE>Название группировки не может начинаться с подчеркивания.</CLAN_NAME_CANT_BEGIN_WITH_UNDERLINE>
+    <CLAN_NAME_HAVE_FORBIDDEN_CHAR>Название группировки может состоять из русских или английских букв (но не их смеси), подчеркиваний, и цифр. Предложенное название не удовлетворяет этим правилам.</CLAN_NAME_HAVE_FORBIDDEN_CHAR>
+    <CLAN_HAVE_BEEN_DELETED>Группировка расформирована.</CLAN_HAVE_BEEN_DELETED>
+    <CLAN_HAVE_BEEN_CREATED>Группировка сформирована.</CLAN_HAVE_BEEN_CREATED>
+    <YOR_CLAN_IS_NOT_EXIST>Ваша группировка не существует. Выход осуществлен успешно.</YOR_CLAN_IS_NOT_EXIST>
+    <PLAYER_HAVE_LEAVE_CLAN>{0} вышел из группировки.</PLAYER_HAVE_LEAVE_CLAN>
+    <YOU_HAVE_LEAVE_THE_CLAN>Вы вышли из группировки.</YOU_HAVE_LEAVE_THE_CLAN>
+    <YOU_CANT_LEAVE_CLAN_BECAUSE_YOU_ARE_LEADER>Вы не можете выйти из группировки так как являетесь её лидером.</YOU_CANT_LEAVE_CLAN_BECAUSE_YOU_ARE_LEADER>
+    <YOU_ARE_NOT_MEMBER_OF_THE_GROUP>Вы не являетесь членом группировки.</YOU_ARE_NOT_MEMBER_OF_THE_GROUP>
+    <YOU_CANT_KICK_YOURSELF>Вы не можете исключить из группировки самого себя.</YOU_CANT_KICK_YOURSELF>
+    <YOU_HAVE_NOT_RIGHT_TO_KICK>У Вас нет права исключать из группировки.</YOU_HAVE_NOT_RIGHT_TO_KICK>
+    <YOU_CANT_KICK_THE_LEADER>Нельзя исключать из группировки лидера.</YOU_CANT_KICK_THE_LEADER>
+    <PLAYER_HAS_BEEN_KICKED_KICK_WITH_REASON>{0} исключил из группировки {1}. Причина: {2}"</PLAYER_HAS_BEEN_KICKED_KICK_WITH_REASON>
+    <PLAYER_HAS_BEEN_KICKED>{0} исключил из группировки {1}.</PLAYER_HAS_BEEN_KICKED>
+    <PLAYER_HAS_BENN_PROMOTED_TO_THE_RANK>{0} повышен с {1} до {2}.</PLAYER_HAS_BENN_PROMOTED_TO_THE_RANK>
+    <PLAYER_HAS_BENN_DEMOTED_TO_THE_RANK>{0} понижен с {1} до {2}.</PLAYER_HAS_BENN_DEMOTED_TO_THE_RANK>
+    <CLAN_LEADER_HAS_CHANGED>Новый лидер группировки {0}.</CLAN_LEADER_HAS_CHANGED>
+    <YOU_HAVE_NOT_RIGHT_TO_INVITE>У Вас нет права приглашать в группировку.</YOU_HAVE_NOT_RIGHT_TO_INVITE>
+    <YOU_ARE_NOT_IN_CLAN>Вы не состоите в группировке.</YOU_ARE_NOT_IN_CLAN>
+    <YOU_HAVE_NOT_RIGHT_TO_START_WAR>У Вас нет права начинать войну.</YOU_HAVE_NOT_RIGHT_TO_START_WAR>
+    <YOU_HAVE_NOT_RIGHT_TO_STOP_WAR>У Вас нет права завершать войну.</YOU_HAVE_NOT_RIGHT_TO_STOP_WAR>
+    <YOU_CANT_START_WAR_WITH_YOUR_OWN_CLAN>Вы не можете начать войну с собственной группировкой.</YOU_CANT_START_WAR_WITH_YOUR_OWN_CLAN>
+    <CANT_FIND_CLAN_TO_WAR>Не найдена группировка для начала войны.</CANT_FIND_CLAN_TO_WAR>
+    <CANT_FIND_CLAN_TO_STOP_WAR>Не найдена группировка для прекращения войны.</CANT_FIND_CLAN_TO_STOP_WAR>
+    <YOU_HAVE_REFUSED_TO_JOIN_IN_CLAN>Вы отказались от вступления в группировку.</YOU_HAVE_REFUSED_TO_JOIN_IN_CLAN>
+    <YOU_HAVE_JOINED_IN_CLAN>Вы вступили в группировку.</YOU_HAVE_JOINED_IN_CLAN>
+    <YOUR_INVITATION_IS_OUT_OF_DATE>Ваше приглашение в группировку устарело.</YOUR_INVITATION_IS_OUT_OF_DATE>
+    <THERE_IS_NO_CLAN_MEMBER_WITH_NAME>Не существует участника группировки с именем {0}</THERE_IS_NO_CLAN_MEMBER_WITH_NAME>
+    <THERE_IS_NO_CLAN_WITH_NAME>Группировка с именем {0} не существует.</THERE_IS_NO_CLAN_WITH_NAME>
+    <YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_CREATE_NEW>Вы должны выйти из группировки перед созданием новой.</YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_CREATE_NEW>
+    <YOU_CANT_CREATE_CLAN_WITH_THIS_NAME>Вы не можете создать группировку с таким именем.</YOU_CANT_CREATE_CLAN_WITH_THIS_NAME>
+    <YOU_CANT_JOIN_TO_THIS_CLAN>Вы не можете присоединиться к этой группировке.</YOU_CANT_JOIN_TO_THIS_CLAN>
+    <YOU_CANT_LEAVE_BEFORE_YOU_ARE_LEADER>Вы не можете выйти из группировки - передайте лидерство кому-то ещё, или используйте команду /clandestroy.</YOU_CANT_LEAVE_BEFORE_YOU_ARE_LEADER>
+    <YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_YOU_WILL_BE_JOINED>Вас приглашают в группировку {0}. Для вступление покиньте текущую группировку.</YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_YOU_WILL_BE_JOINED>
+    <PLAYER_CANT_ACCEPT_YOUR_OFFER_BEACUSE_HE_IS_ALREADY_IN_CLAN>{0} не может принять ваше приглашение так как уже состоит в другой группировке.</PLAYER_CANT_ACCEPT_YOUR_OFFER_BEACUSE_HE_IS_ALREADY_IN_CLAN>
+    <YOU_INVITATION_HAS_BEEN_SENT>Ваше приглашение в группировку выслано.</YOU_INVITATION_HAS_BEEN_SENT>
+    <DAYS>дней</DAYS>
+    <HOURS>часов</HOURS>
+    <MINUTES>минут</MINUTES>
+    <LESS_THEN_MINUTE>менее минуты</LESS_THEN_MINUTE>
+    <YOU_CAN_INVITE_THIS_PLAYER_IN_TIME>Вы можете пригласить в группировку этого персонажа через {0} дней {1} часов {2} минут {3} секунд.</YOU_CAN_INVITE_THIS_PLAYER_IN_TIME>
+    <PRVT>рекрут</PRVT>
+    <CPR>рядовой</CPR>
+    <SRGT>сержант</SRGT>
+    <YOU_HAVE_BEEN_INVITED>Вас приглашают в группировку {0}. Для вступление покиньте текущую группировку.</YOU_HAVE_BEEN_INVITED>
+    <YOUR_CLAN_IS_IN_WAR_WITH>Ваша группировка ведет войну с</YOUR_CLAN_IS_IN_WAR_WITH>
+    <YOUR_CLAN_HAS_NO_WARS>Ваша группировка не ведет ни с кем войны.</YOUR_CLAN_HAS_NO_WARS>
+    <THERE_IS_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>С Вашей группировкой ведут войну</THERE_IS_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>
+    <THERE_IS_NO_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>С Вашей группировкой никто не ведет войны.</THERE_IS_NO_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>
+    <LOGGED_IN>{0} зашел.</LOGGED_IN>
+    <LOGGED_OUT>{0} вышел.</LOGGED_OUT>
+    <PLATER_HAS_KICKED_PLAYER>{0} исключил {1} из группировки.</PLATER_HAS_KICKED_PLAYER>
+    <CLAN_HAS_STARTED_WAR>Группировка {0} объявляет войну группировке {1}</CLAN_HAS_STARTED_WAR>
+    <CLAN_HAS_STOPED_WAR>Группировка {0} прекращает войну группировке {1}</CLAN_HAS_STOPED_WAR>
+  </Messages>
+  <Interface>
+    <CLAN_ALREADY_EXIST>Такая группировка уже есть!</CLAN_ALREADY_EXIST>
+    <INCORRECT_CLAN_NAME>Некорректное имя группировки</INCORRECT_CLAN_NAME>
+    <ENTER_CLAN_NAME>Введите имя группировки.</ENTER_CLAN_NAME>
+    <BASE>База</BASE>
+    <STATE_FREE>свободна</STATE_FREE>
+    <BEFORE_CAPTURE_START>До захвата</BEFORE_CAPTURE_START>
+    <BEFORE_CAPTURE_STOP>До окончания захвата</BEFORE_CAPTURE_STOP>
+    <BEFORE_DEFEND_START>До начала обороны</BEFORE_DEFEND_START>
+    <IS_BEING_CAPTURED>захватывает</IS_BEING_CAPTURED>
+    <IS_CAPTURED>захвачена</IS_CAPTURED>
+    <REINFORCEMENT_POINT>Укреп.точка</REINFORCEMENT_POINT>
+    <POINT>тч.</POINT>
+    <ONLINE>Онлайн</ONLINE>
+    <LAST_TIME>Был {0} назад.</LAST_TIME>
+    <KICK_TITLE>Причина исключения из группировки</KICK_TITLE>
+    <KICK_QUESTION>Введите причину исключения из группировки {0}:</KICK_QUESTION>
+    <INVITE_IN_GROUP>Пригласить в группу</INVITE_IN_GROUP>
+    <KICK_FROM_CLAN>Исключить из группировки</KICK_FROM_CLAN>
+    <PROMOTE_RANK>Повысить ранг</PROMOTE_RANK>
+    <DEMOTE_RANK>Понизить ранг</DEMOTE_RANK>
+    <GIVE_LEADERSHIP>Передать лидерство</GIVE_LEADERSHIP>
+    <RANK_NAME_TITLE>Название ранга</RANK_NAME_TITLE>
+    <RANK_NAME_QUESTION>Введите новое название</RANK_NAME_QUESTION>
+    <LEAVE_TITLE>Выход из группировки</LEAVE_TITLE>
+    <LEAVE_QUESTION>Вы уверены, что хотите выйти из группировки?</LEAVE_QUESTION>
+  </Interface>
+</root>

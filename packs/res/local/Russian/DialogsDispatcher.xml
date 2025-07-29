@@ -1,0 +1,5 @@
+<root>
+  <DIALOGS_HAVE_RESTARTED>Диалоги перезагружены.</DIALOGS_HAVE_RESTARTED>
+  <NPC_HAS_BLOCKED>NPC с именем {0} заблокирован.</NPC_HAS_BLOCKED>
+  <NPC_HAS_UNBLOCKED>NPC с именем {0} разаблокирован.</NPC_HAS_UNBLOCKED>
+</root>

@@ -1,0 +1,112 @@
+<Root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	<Properties>
+		<!--	Globally registered name. -->
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		GoldWriter		</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+
+		<thresholdBonus>
+			<Type>			INT32			</Type>
+			<Flags>			BASE			</Flags>		
+			<Persistent>	true			</Persistent>
+			<Default>		0		</Default>
+		</thresholdBonus>
+		
+		<percentBonus>
+			<Type>			FLOAT32			</Type>
+			<Flags>			BASE			</Flags>		
+			<Persistent>	true			</Persistent>
+			<Default>		0		</Default>
+		</percentBonus>
+	
+		<GW_HOST> 
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>		
+		</GW_HOST>		
+		
+		
+		
+		<GW_PORT> 
+			<Type>			INT32			</Type>
+			<Flags>			BASE			</Flags>		
+		</GW_PORT>		
+	
+		<SITE_HOST> 
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>		
+		</SITE_HOST>		
+		
+		
+		
+		<SITE_PORT> 
+			<Type>			INT32			</Type>
+			<Flags>			BASE			</Flags>		
+		</SITE_PORT>		
+		
+	<!-- 	<serv_sckt> 
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>		
+		</serv_sckt> -->
+
+	
+	</Properties>
+
+	<BaseMethods>
+	
+		<setPercentBonus>
+			<Arg>	INT32			</Arg>
+			<Arg>	FLOAT32			</Arg>
+		</setPercentBonus>
+		<cleanup/>
+
+		<responseFromAlliveAccount>
+			<Arg>	STRING			</Arg>	<!-- msgID -->
+			<Arg>	STRING			</Arg>	<!-- command -->
+			<Arg>	INT64			</Arg>	<!-- DBID -->
+			<Arg>	STRING			</Arg>	<!-- gold or notfound -->
+			<Arg>	STRING			</Arg>	<!-- sTransaction -->
+		</responseFromAlliveAccount>
+
+		<runCommandGW>
+			<Arg>	STRING			</Arg>	<!-- backPort -->
+			<Arg>	STRING			</Arg>	<!-- command -->
+			<Arg>	INT64			</Arg>	<!-- DBID -->
+			<Arg>	INT64			</Arg>	<!-- gold -->
+			<Arg>	STRING			</Arg>	<!-- sTransaction -->
+		</runCommandGW>
+
+		<runCommandPhone>
+			<Arg>	UINT64			</Arg>	<!-- acc DBID -->
+			<Arg>	UINT64			</Arg>	<!-- phone number -->
+		</runCommandPhone>
+		
+	
+		<logEvent>
+			<Arg>	INT64			</Arg>	<!-- DBID -->
+			<Arg>	STRING			</Arg>	<!-- command -->
+			<Arg>	INT64			</Arg>	<!-- allgold -->
+			<Arg>	INT64			</Arg>	<!-- difgold -->
+			<Arg>	UNICODE_STRING	</Arg>	<!-- charname -->
+			<Arg>	INT32			</Arg>	<!-- targetID -->
+			<Arg>	STRING			</Arg>	<!-- sTransaction -->
+		</logEvent>
+		
+		
+		
+		
+		
+	</BaseMethods>
+	
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

@@ -1,0 +1,33 @@
+<root>
+	<Properties>
+		<mapNotesID>
+			<Type>ARRAY <of> STRING </of> </Type>
+			<Flags> BASE </Flags>
+			<Persistent>	true	</Persistent>
+		</mapNotesID>
+		
+	</Properties>
+	
+	<BaseMethods>	
+
+		<tryOpenNote>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</tryOpenNote>
+		
+		<saveMapNotes>
+			<Arg> ARRAY <of> STRING </of>  </Arg>
+		</saveMapNotes>
+	</BaseMethods>
+	
+	<CellMethods>
+		<makeMapNotes>
+			<Arg>	ARRAY	<of>	MAP_NOTE_ENTRY	</of>	</Arg>
+		</makeMapNotes>
+	</CellMethods>
+	
+	<ClientMethods>
+	</ClientMethods>
+	
+	
+</root>

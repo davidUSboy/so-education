@@ -1,0 +1,36 @@
+{
+	"difficultyMin" : 1,
+	"difficultyMax" : 1000,
+	"lifetime": 0.25,
+	
+	"artifact_spawn_chance": 0.0,
+	"default_state": "main",
+	"states": {
+		"main": {
+			"radius": 5.0,
+			"radiusOut": 10.0,
+			"damage": {
+				"type": "BIO",
+				"distribution":  "RADIAL",
+				"frequency": 0.0,
+				"value": 20.0,
+				"penetration": 100.0,
+				"body_zone": "TORSO"
+			},
+			
+			"invisible": 0,
+			"teleport_enabled": 1,
+			"teleport_shotEnabled": 1,
+			"teleport_effectsEnabled": 1,
+			"nudge_type": "NONE",
+			"nudge_interval": 1,
+			"particles": "particles/anomaly_OFF.xml",
+			"particlesOut": "particles/anomaly_OFF.xml",
+			
+			
+			"sfx_self_interval": [3,6],
+			
+			"sound": "environment/fire_campfire"
+		}
+	}
+}

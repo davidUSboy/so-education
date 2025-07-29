@@ -1,0 +1,12 @@
+<root>
+  <HAS_KICKED_FROM_CLAN>excluded from the clan</HAS_KICKED_FROM_CLAN>
+  <REASON>. Reason:</REASON>
+  <YOU_HAVE_NO_RIGHT_TO_START_WAR>You have no rights to start a war.</YOU_HAVE_NO_RIGHT_TO_START_WAR>
+  <YOU_HAVE_NO_BASE>There aren't any captured bases.</YOU_HAVE_NO_BASE>
+  <HEAD>Commander</HEAD>
+  <ASSISTANT>First assistant</ASSISTANT>
+  <OFFICER>Officer</OFFICER>
+  <RECRUIT>Recruiter</RECRUIT>
+  <VETERAN>Veteran</VETERAN>
+  <NOOB>Noob</NOOB>
+</root>

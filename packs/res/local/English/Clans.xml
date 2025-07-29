@@ -1,0 +1,90 @@
+<root>
+  <Messages>
+    <CLAN_NAME_IS_OCCUPIED>The clan with this name does already exist (or did). If you want to recreate the clan, please contact the administration.</CLAN_NAME_IS_OCCUPIED>
+    <CLAN_NAME_IS_TOO_SHORT>The clan name is too short.</CLAN_NAME_IS_TOO_SHORT>
+    <CLAN_NAME_IS_TOO_LONG>The clan name is too long.</CLAN_NAME_IS_TOO_LONG>
+    <CLAN_NAME_HAVE_TOO_MUCH_UNDERLINE>The clan name has too many underlines.</CLAN_NAME_HAVE_TOO_MUCH_UNDERLINE>
+    <CLAN_NAME_CANT_ENDS_WITH_UNDERLINE>The clan name can't end with underline.</CLAN_NAME_CANT_ENDS_WITH_UNDERLINE>
+    <CLAN_NAME_CANT_BEGIN_WITH_UNDERLINE>The clan name can't begin with underline.</CLAN_NAME_CANT_BEGIN_WITH_UNDERLINE>
+    <CLAN_NAME_HAVE_FORBIDDEN_CHAR>The name contains invalid characters. Only Russian or Latin caharacters, underscores and digits are allowed.</CLAN_NAME_HAVE_FORBIDDEN_CHAR>
+    <CLAN_HAVE_BEEN_DELETED>Clan disbanded.</CLAN_HAVE_BEEN_DELETED>
+    <CLAN_HAVE_BEEN_CREATED>Clan created.</CLAN_HAVE_BEEN_CREATED>
+    <YOR_CLAN_IS_NOT_EXIST>Your clan does not exist.</YOR_CLAN_IS_NOT_EXIST>
+    <PLAYER_HAVE_LEAVE_CLAN>{0} has left the clan.</PLAYER_HAVE_LEAVE_CLAN>
+    <YOU_HAVE_LEAVE_THE_CLAN>You have left the clan.</YOU_HAVE_LEAVE_THE_CLAN>
+    <YOU_CANT_LEAVE_CLAN_BECAUSE_YOU_ARE_LEADER>You are the Commander. You can't leave the clan.</YOU_CANT_LEAVE_CLAN_BECAUSE_YOU_ARE_LEADER>
+    <YOU_ARE_NOT_MEMBER_OF_THE_GROUP>You're not a member of the clan.</YOU_ARE_NOT_MEMBER_OF_THE_GROUP>
+    <YOU_CANT_KICK_YOURSELF>You can't exclude yourself from the clan.</YOU_CANT_KICK_YOURSELF>
+    <YOU_HAVE_NOT_RIGHT_TO_KICK>Tou have no right to exclude members from the clan.</YOU_HAVE_NOT_RIGHT_TO_KICK>
+    <YOU_CANT_KICK_THE_LEADER>You can't exclude the Commander from the clan.</YOU_CANT_KICK_THE_LEADER>
+    <PLAYER_HAS_BEEN_KICKED_KICK_WITH_REASON>{0} was excluded {1}. Reason: {2}"</PLAYER_HAS_BEEN_KICKED_KICK_WITH_REASON>
+    <PLAYER_HAS_BEEN_KICKED>{0} excluded {1} from the clan.</PLAYER_HAS_BEEN_KICKED>
+    <PLAYER_HAS_BENN_PROMOTED_TO_THE_RANK>{0} was promoted from {1} to {2}.</PLAYER_HAS_BENN_PROMOTED_TO_THE_RANK>
+    <PLAYER_HAS_BENN_DEMOTED_TO_THE_RANK>{0} was demoted from {1} to {2}.</PLAYER_HAS_BENN_DEMOTED_TO_THE_RANK>
+    <CLAN_LEADER_HAS_CHANGED>New commander of the clan is {0}.</CLAN_LEADER_HAS_CHANGED>
+    <YOU_HAVE_NOT_RIGHT_TO_INVITE>You have no right to invite people to the clan.</YOU_HAVE_NOT_RIGHT_TO_INVITE>
+    <YOU_ARE_NOT_IN_CLAN>You are not a member of a clan yet.</YOU_ARE_NOT_IN_CLAN>
+    <YOU_HAVE_NOT_RIGHT_TO_START_WAR>You have no right to start a war.</YOU_HAVE_NOT_RIGHT_TO_START_WAR>
+    <YOU_HAVE_NOT_RIGHT_TO_STOP_WAR>You have no right to stop the war.</YOU_HAVE_NOT_RIGHT_TO_STOP_WAR>
+    <YOU_CANT_START_WAR_WITH_YOUR_OWN_CLAN>You can't start a war with your own clan.</YOU_CANT_START_WAR_WITH_YOUR_OWN_CLAN>
+    <CANT_FIND_CLAN_TO_WAR>Opposite clan is not found to start a war.</CANT_FIND_CLAN_TO_WAR>
+    <CANT_FIND_CLAN_TO_STOP_WAR>Opposite clan is not found to stop the war.</CANT_FIND_CLAN_TO_STOP_WAR>
+    <YOU_HAVE_REFUSED_TO_JOIN_IN_CLAN>You declined the invitation to the clan.</YOU_HAVE_REFUSED_TO_JOIN_IN_CLAN>
+    <YOU_HAVE_JOINED_IN_CLAN>You joined the clan.</YOU_HAVE_JOINED_IN_CLAN>
+    <YOUR_INVITATION_IS_OUT_OF_DATE>Your invitation is out of date.</YOUR_INVITATION_IS_OUT_OF_DATE>
+    <THERE_IS_NO_CLAN_MEMBER_WITH_NAME>There is no clan member with the name {0}.</THERE_IS_NO_CLAN_MEMBER_WITH_NAME>
+    <THERE_IS_NO_CLAN_WITH_NAME>There is no clan with the name {0}.</THERE_IS_NO_CLAN_WITH_NAME>
+    <YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_CREATE_NEW>You must leave the clan to create a new one.</YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_CREATE_NEW>
+    <YOU_CANT_CREATE_CLAN_WITH_THIS_NAME>You can't create clan with this name.</YOU_CANT_CREATE_CLAN_WITH_THIS_NAME>
+    <YOU_CANT_JOIN_TO_THIS_CLAN>You can't join this clan.</YOU_CANT_JOIN_TO_THIS_CLAN>
+    <YOU_CANT_LEAVE_BEFORE_YOU_ARE_LEADER>You can't leave the clan. Delegate your authority as Commander to another clan member or use the command /clandestroy.</YOU_CANT_LEAVE_BEFORE_YOU_ARE_LEADER>
+    <YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_YOU_WILL_BE_JOINED>You've been invited to the clan {0}. You must leave your clan before you can join another.</YOU_MUST_LEAVE_FROM_THE_CLAN_BEFORE_YOU_WILL_BE_JOINED>
+    <PLAYER_CANT_ACCEPT_YOUR_OFFER_BEACUSE_HE_IS_ALREADY_IN_CLAN>{0} can't accept your offer. He is already a member of a clan.</PLAYER_CANT_ACCEPT_YOUR_OFFER_BEACUSE_HE_IS_ALREADY_IN_CLAN>
+    <YOU_INVITATION_HAS_BEEN_SENT>Your invitation has been sent.</YOU_INVITATION_HAS_BEEN_SENT>
+    <DAYS>days</DAYS>
+    <HOURS>hours</HOURS>
+    <MINUTES>minutes</MINUTES>
+    <LESS_THEN_MINUTE>less than a minute</LESS_THEN_MINUTE>
+    <YOU_CAN_INVITE_THIS_PLAYER_IN_TIME>You can invite this stalker in {0} days {1} hours {2} minutes {3} seconds.</YOU_CAN_INVITE_THIS_PLAYER_IN_TIME>
+    <PRVT>private</PRVT>
+    <CPR>corporal</CPR>
+    <SRGT>sergeant</SRGT>
+    <YOU_HAVE_BEEN_INVITED>You have been invited to {0}. You must leave your clan if you want to join another.</YOU_HAVE_BEEN_INVITED>
+    <YOUR_CLAN_IS_IN_WAR_WITH>Your clan is in war with</YOUR_CLAN_IS_IN_WAR_WITH>
+    <YOUR_CLAN_HAS_NO_WARS>Your clan isn't in war.</YOUR_CLAN_HAS_NO_WARS>
+    <THERE_IS_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>List of hostile clans.</THERE_IS_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>
+    <THERE_IS_NO_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>There are no hostile clans.</THERE_IS_NO_CLANS_WHICH_ARE_IN_WAR_WITH_YOU>
+    <LOGGED_IN>{0} logged in.</LOGGED_IN>
+    <LOGGED_OUT>{0} logged out.</LOGGED_OUT>
+    <PLATER_HAS_KICKED_PLAYER>{0} excluded  {1} from the clan.</PLATER_HAS_KICKED_PLAYER>
+    <CLAN_HAS_STARTED_WAR>The clan {0} starts a war with {1}</CLAN_HAS_STARTED_WAR>
+    <CLAN_HAS_STOPED_WAR>The clan {0} stops the war with {1}</CLAN_HAS_STOPED_WAR>
+  </Messages>
+  <Interface>
+    <CLAN_ALREADY_EXIST>The clan with this name already exists!</CLAN_ALREADY_EXIST>
+    <INCORRECT_CLAN_NAME>Invalid clan name</INCORRECT_CLAN_NAME>
+    <ENTER_CLAN_NAME>Enter clan name.</ENTER_CLAN_NAME>
+    <BASE>Base</BASE>
+    <STATE_FREE>free</STATE_FREE>
+    <BEFORE_CAPTURE_START>Before capture start</BEFORE_CAPTURE_START>
+    <BEFORE_CAPTURE_STOP>Before capture stop</BEFORE_CAPTURE_STOP>
+    <BEFORE_DEFEND_START>Before defend start</BEFORE_DEFEND_START>
+    <IS_BEING_CAPTURED>capture in progress</IS_BEING_CAPTURED>
+    <IS_CAPTURED>is captured</IS_CAPTURED>
+    <REINFORCEMENT_POINT>Fortification</REINFORCEMENT_POINT>
+    <POINT>point</POINT>
+    <ONLINE>Online</ONLINE>
+    <LAST_TIME>Was {0} ago.</LAST_TIME>
+    <KICK_TITLE>Reason for the expulsion of the clan</KICK_TITLE>
+    <KICK_QUESTION>Name the reason for the expulsion of the clan {0}:</KICK_QUESTION>
+    <INVITE_IN_GROUP>Invite to the clan</INVITE_IN_GROUP>
+    <KICK_FROM_CLAN>Exclude from the clan</KICK_FROM_CLAN>
+    <PROMOTE_RANK>Promote</PROMOTE_RANK>
+    <DEMOTE_RANK>Demote</DEMOTE_RANK>
+    <GIVE_LEADERSHIP>Pass the leadership</GIVE_LEADERSHIP>
+    <RANK_NAME_TITLE>Rank title</RANK_NAME_TITLE>
+    <RANK_NAME_QUESTION>Enter a new name</RANK_NAME_QUESTION>
+    <LEAVE_TITLE>Leave the clan</LEAVE_TITLE>
+    <LEAVE_QUESTION>Are you sure you want to leave the clan?</LEAVE_QUESTION>
+  </Interface>
+</root>

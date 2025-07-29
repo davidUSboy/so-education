@@ -1,0 +1,88 @@
+<Brutor.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm</nodeName>
+      <boxName>Bip01 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.086845 -0.086845</minBounds>
+      <maxBounds>0.620939 0.086844 0.086845</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L UpperArm</nodeName>
+      <boxName>Bip01 L UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.130212 -0.140013</minBounds>
+      <maxBounds>0.518619 0.130212 0.140013</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm</nodeName>
+      <boxName>Bip01 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>-0.000000 -0.094711 -0.090318</minBounds>
+      <maxBounds>0.660019 0.094711 0.090318</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R UpperArm</nodeName>
+      <boxName>Bip01 R UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.120892 -0.131419 -0.165186</minBounds>
+      <maxBounds>0.492021 0.154322 0.125355</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>Bip01 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.000001 -0.185463 -0.217003</minBounds>
+      <maxBounds>0.315413 0.185462 0.217004</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Foot</nodeName>
+      <boxName>Bip01 L Foot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.033227 -0.115646 -0.040512</minBounds>
+      <maxBounds>0.212523 0.115940 0.356107</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Calf</nodeName>
+      <boxName>Bip01 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.031450 -0.128647 -0.178074</minBounds>
+      <maxBounds>0.617991 0.081301 0.035334</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Thigh</nodeName>
+      <boxName>Bip01 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>-0.072227 -0.142967 -0.132673</minBounds>
+      <maxBounds>0.440267 0.133101 0.139508</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Foot</nodeName>
+      <boxName>Bip01 R Foot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.023292 -0.086533 -0.032770</minBounds>
+      <maxBounds>0.191849 0.085548 0.336971</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Calf</nodeName>
+      <boxName>Bip01 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.060136 -0.068891 -0.111698</minBounds>
+      <maxBounds>0.557411 0.102761 0.069448</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Thigh</nodeName>
+      <boxName>Bip01 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.001452 -0.085353 -0.155608</minBounds>
+      <maxBounds>0.454027 0.128263 0.155040</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine</nodeName>
+      <boxName>Bip01 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.121233 -0.309061 -0.297838</minBounds>
+      <maxBounds>0.894706 0.274277 0.297221</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Brutor.xml>

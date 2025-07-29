@@ -1,0 +1,35 @@
+	<root>
+	<Implements>
+		<Interface>BaseAndCell</Interface>
+		<Interface>TimerManagerCell</Interface>
+	</Implements>
+	
+	<Properties>
+		<type>
+			<Type>			PVPOINTTYPE 	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+			<Editable>		true			</Editable>
+		</type>
+		
+		<name>
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true				</Editable>
+		</name>
+	</Properties>
+
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

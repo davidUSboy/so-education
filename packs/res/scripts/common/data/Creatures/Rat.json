@@ -1,0 +1,456 @@
+{
+    "actions, bylevel": {
+        "[3,4]": {
+            "AttackTooth": {
+                "model_actions": [
+                    "AttackTooth"
+                ], 
+                "sounds": [
+                    "mob/big_rat/attack"
+                ]
+            }, 
+            "Attacking": {
+                "sounds": [
+                    "mob/big_rat/angry"
+                ]
+            }, 
+            "Die": {
+                "model_actions": [
+                    "Die"
+                ], 
+                "sounds": [
+                    "mob/big_rat/death"
+                ]
+            }, 
+            "Idle": {
+                "sounds": [
+                    "mob/big_rat/idle"
+                ]
+            }, 
+            "Idle1": {
+                "model_actions": [
+                    "Idle1"
+                ], 
+                "sounds": [
+                    "mob/big_rat/idle"
+                ]
+            }, 
+            "Pain": {
+                "sounds": [
+                    "mob/big_rat/pain"
+                ]
+            }
+        }, 
+        "default": {
+            "AttackTooth": {
+                "model_actions": [
+                    "AttackTooth"
+                ], 
+                "sounds": [
+                    "mob/rat/attack"
+                ]
+            }, 
+            "Attacking": {
+                "sounds": [
+                    "mob/rat/angry"
+                ]
+            }, 
+            "Dead": {
+                "model_actions": [
+                    "Dead"
+                ]
+            }, 
+            "Die": {
+                "model_actions": [
+                    "Die"
+                ], 
+                "sounds": [
+                    "mob/rat/death"
+                ]
+            }, 
+            "Idle": {
+                "sounds": [
+                    "mob/rat/idle"
+                ]
+            }, 
+            "Idle1": {
+                "model_actions": [
+                    "Idle1"
+                ], 
+                "sounds": [
+                    "mob/rat/idle"
+                ]
+            }, 
+            "Pain": {
+                "sounds": [
+                    "mob/rat/pain"
+                ]
+            }
+        }
+    }, 
+    "agro_range, bylevel": {
+        "4": 12, 
+        "[1,orig_lvl1_tutor]": 1, 
+        "default": 10
+    }, 
+    "coefLevel, bylevel": {
+        "1": 2.0, 
+        "2": 3.0, 
+        "3": 10, 
+        "4": 99, 
+        "default": 1
+    }, 
+    "common_conditions,parent=default_common_conditions": [], 
+    "decompose_time": [
+        10, 
+        30
+    ], 
+    "default_state": "walk_around", 
+    "defence, bylevel": {
+        "2": {
+            "BULLET": 0.0
+        }, 
+        "3": {
+            "BULLET": 50.0
+        }, 
+        "4": {
+            "BULLET": 150.0, 
+            "COLD": 1000.0
+        }, 
+        "[1,orig_lvl1_tutor]": {
+            "BULLET": 0.0
+        }, 
+        "default": {
+            "BIO": 700.0, 
+            "BULLET": 1.0, 
+            "EXPLOSION": 50.0, 
+            "MELEE": 700.0
+        }
+    }, 
+    "events": {
+        "onTakeDamage": [
+            "Pain"
+        ]
+    }, 
+    "experience, bylevel": {
+        "2": 48, 
+        "3": 108, 
+        "4": 192, 
+        "[1,orig_lvl1_tutor]": 6, 
+        "default": 10
+    }, 
+    "foot_nodes": [
+        "Bip001 L Toe01", 
+        "Bip001 R Toe01"
+    ], 
+    "footsteps_sound": "mob/rat/footsteps", 
+    "global_cooldown": 3, 
+    "health, bylevel": {
+        "2": 0.12, 
+        "3": 0.3, 
+        "4": 0.75, 
+        "[1,orig_lvl1_tutor]": 0.024, 
+        "default": 0.054
+    }, 
+    "height": 0.1, 
+    "karma": 99, 
+    "loot, bylevel": {
+        "2, override": {
+            "810173": "0.4", 
+            "835": "0.4"
+        }, 
+        "3, override": {
+            "810173": "0.4", 
+            "819": "0.55"
+        }, 
+        "4, override": {
+            "810173": "0.4", 
+            "820": "0.55"
+        }, 
+        "default": {}
+    }, 
+    "lose_agro_range, bylevel": {
+        "4": 22, 
+        "[1,orig_lvl1_tutor]": 5, 
+        "default": 20
+    }, 
+    "melee_distance, bylevel": {
+        "2": 2.3, 
+        "3": 2.6, 
+        "4": 3, 
+        "[1,orig_lvl1_tutor]": 2.1, 
+        "default": 2
+    }, 
+    "melee_height, bylevel": {
+        "3": 1, 
+        "4": 1.5, 
+        "default": 0.5
+    }, 
+    "model, bylevel": {
+        "4": "rat-mutant/rat-mutant_snow_lod1.model", 
+        "default": "rat-mutant/rat-mutant_lod1.model"
+    }, 
+    "model_scale, bylevel": {
+        "1": 0.6, 
+        "3": 1.8, 
+        "4": 2.4, 
+        "[2,orig_lvl1_tutor]": 1.2, 
+        "default": 1
+    }, 
+    "name, bylevel": {
+        "1": "Creatures.common.RAT2", 
+        "2": "Creatures.common.RAT3", 
+        "3": "Creatures.common.RAT4", 
+        "4": "Creatures.common.RAT5", 
+        "default": "Creatures.common.RAT1", 
+        "orig_lvl1_tutor": "Creatures.common.RAT1"
+    }, 
+    "randomLoot": {
+        "0": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [], 
+                    "type": "Loot"
+                }
+            ]
+        }, 
+        "2": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [
+                        {
+                            "dropChance": 40.0, 
+                            "itemID": "810173", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }, 
+                        {
+                            "dropChance": 40.0, 
+                            "itemID": "835", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }
+                    ], 
+                    "type": "Loot"
+                }
+            ]
+        }, 
+        "3": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [
+                        {
+                            "dropChance": 40.0, 
+                            "itemID": "810173", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }, 
+                        {
+                            "dropChance": 55.00000000000001, 
+                            "itemID": "819", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }
+                    ], 
+                    "type": "Loot"
+                }
+            ]
+        }, 
+        "4": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [
+                        {
+                            "dropChance": 40.0, 
+                            "itemID": "810173", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }, 
+                        {
+                            "dropChance": 55.00000000000001, 
+                            "itemID": "820", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }
+                    ], 
+                    "type": "Loot"
+                }
+            ]
+        }
+    }, 
+    "skills": {
+        "RAT_MELEE": {
+            "actions": [
+                "AttackTooth"
+            ], 
+            "aoe_radius": 0, 
+            "cooldown": 2.0, 
+            "damage, bylevel": {
+                "2": {
+                    "value": [
+                        0.045, 
+                        0.068
+                    ]
+                }, 
+                "3": {
+                    "value": [
+                        0.083, 
+                        0.125
+                    ]
+                }, 
+                "4": {
+                    "value": [
+                        0.128, 
+                        0.192
+                    ]
+                }, 
+                "[1,orig_lvl1_tutor]": {
+                    "value": [
+                        0.006, 
+                        0.014
+                    ]
+                }, 
+                "default": {
+                    "body_zones": [
+                        "LEG_LOWER"
+                    ], 
+                    "penetration": 100, 
+                    "type": "MELEE", 
+                    "value": [
+                        0.01, 
+                        0.02
+                    ]
+                }
+            }, 
+            "type": "MELEE"
+        }
+    }, 
+    "states": {
+        "attacking, parent=default_attacking": {
+            "movement_types": [
+                "follow_target", 
+                "walk_around"
+            ], 
+            "persistent_actions": [
+                "Attacking"
+            ], 
+            "skills": {
+                "RAT_MELEE": 1
+            }, 
+            "speed, bylevel": {
+                "2": {
+                    "follow_target": 2.4
+                }, 
+                "3": {
+                    "follow_target": 3.5
+                }, 
+                "4": {
+                    "follow_target": 3.5
+                }, 
+                "[1,orig_lvl1_tutor]": {
+                    "follow_target": 2
+                }, 
+                "default": {
+                    "follow_target": 1.3, 
+                    "walk_around": [
+                        0.7, 
+                        1.4
+                    ]
+                }
+            }
+        }, 
+        "before_recover, parent=default_before_recover": {
+            "speed, bylevel": {
+                "2": {
+                    "walk_around": [
+                        0.7, 
+                        1.4
+                    ]
+                }, 
+                "3": {
+                    "walk_around": [
+                        0.9, 
+                        1.7
+                    ]
+                }, 
+                "4": {
+                    "walk_around": [
+                        0.9, 
+                        1.7
+                    ]
+                }, 
+                "default": {
+                    "walk_around": [
+                        0.6, 
+                        1.3
+                    ]
+                }
+            }
+        }, 
+        "dead": {
+            "conditions": [
+                {
+                    "predicate": [
+                        "is_dead", 
+                        "equal", 
+                        0
+                    ], 
+                    "to_state": "walk_around"
+                }
+            ], 
+            "entering_actions": {
+                "actions": [
+                    "Die"
+                ], 
+                "time": 0.9
+            }, 
+            "persistent_actions": [
+                "Dead"
+            ]
+        }, 
+        "recover, parent=default_recover": {
+            "persistent_actions": [
+                "Idle"
+            ]
+        }, 
+        "walk_around, parent=default_walk_around": {
+            "persistent_actions": [
+                "Idle"
+            ], 
+            "speed, bylevel": {
+                "2": {
+                    "walk_around": [
+                        0.7, 
+                        1.4
+                    ]
+                }, 
+                "3": {
+                    "walk_around": [
+                        0.8, 
+                        1.5
+                    ]
+                }, 
+                "4": {
+                    "walk_around": [
+                        0.8, 
+                        1.5
+                    ]
+                }, 
+                "default": {
+                    "walk_around": [
+                        0.6, 
+                        1.3
+                    ]
+                }
+            }
+        }
+    }, 
+    "tints": [
+        {}
+    ], 
+    "width": 0.1
+}

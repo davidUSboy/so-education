@@ -1,0 +1,8 @@
+<root>
+	<Properties>
+		<lastSpatialInfo>
+			<Type> SPATIAL_FIELD_VISITOR_INFO </Type>
+			<Flags>	CELL_PRIVATE </Flags>
+		</lastSpatialInfo>
+	</Properties>
+</root>

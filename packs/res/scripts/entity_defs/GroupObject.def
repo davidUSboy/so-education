@@ -1,0 +1,24 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> ModelSelector </Interface>
+	</Implements>
+
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<gatherGroup>
+			<Arg>		GROUPID		</Arg>
+		</gatherGroup>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+</root>
+

@@ -1,0 +1,157 @@
+<root>
+  <NPC>
+    <bd_Palach>Muddy</bd_Palach>
+    <Palka>Stick</Palka>
+    <Hunter>Robbed Trader</Hunter>
+    <Bank_NZ>Stockman</Bank_NZ>
+    <profShleimovich>Prof. Shleimovich</profShleimovich>
+    <Tunnel_provodnik_NZ2>Guide</Tunnel_provodnik_NZ2>
+    <Tunnel_provodnik_NZ>Guide</Tunnel_provodnik_NZ>
+    <Fin>Fin</Fin>
+    <Veterinar>Veterinarian</Veterinar>
+    <Provodnik_NZ_Tungus>Guide</Provodnik_NZ_Tungus>
+    <Bank_Imarek>Stockman</Bank_Imarek>
+    <Prohor_puteichik>Prochor the Trackman</Prohor_puteichik>
+    <Gurman>Gourmet</Gurman>
+    <Bank_tunnel>Stockman</Bank_tunnel>
+    <Kolia_Tesla>Kolya Tesla</Kolia_Tesla>
+    <Cap_Bljdad>Captain Feck-o</Cap_Bljdad>
+    <Sizif>Sisyphus</Sizif>
+    <Aibolit>Aybolit</Aibolit>
+    <Seryi>Seriy</Seryi>
+    <Shperling>Captain Shperling</Shperling>
+    <Repairman>Repairman</Repairman>
+    <Repair_bandit>Repairman</Repair_bandit>
+    <Armor_trader>Trader</Armor_trader>
+    <Korobochka>Boxy</Korobochka>
+    <Krol>Krol</Krol>
+    <Vasiatka>Vasyatka</Vasiatka>
+    <Ammo_trader_noob>Ammo Trader</Ammo_trader_noob>
+    <Stalker_Bomzh>Homeless</Stalker_Bomzh>
+    <Pechkin>Pechkin</Pechkin>
+    <Special_trader>Special Trader</Special_trader>
+    <Ammo_trader>Ammo Trader</Ammo_trader>
+    <Mikulo>Mikulo</Mikulo>
+    <Kosmatii>Shaggy</Kosmatii>
+    <Provodnik_NZ_uchenie>Guide</Provodnik_NZ_uchenie>
+    <Barmen_LVZ>Bartender</Barmen_LVZ>
+    <Dirty_Iuriy>Dirty Yuriy</Dirty_Iuriy>
+    <Teklberry>Tackleberry</Teklberry>
+    <Bank_SZ>Stockman</Bank_SZ>
+    <Armor_trader_noob>Armor Trader</Armor_trader_noob>
+    <Repairman_Noob>Repairman</Repairman_Noob>
+    <Hatter>Hatter</Hatter>
+    <Patisson>Patisson</Patisson>
+    <Misha_ohotnik>Misha the Hunter</Misha_ohotnik>
+    <Hitrec>Sly</Hitrec>
+    <Rabbit>Hare</Rabbit>
+    <Mitka>Mitka the Hunter</Mitka>
+    <Ahmed_Fan_Blan>Ahmed ibn Fah-Blahn</Ahmed_Fan_Blan>
+    <Science_trader>Equipment Trader</Science_trader>
+    <Lisiy>Bald</Lisiy>
+    <Greek>Greek</Greek>
+    <Maslenkov>Maslenkov</Maslenkov>
+    <Dima_golova>Dima</Dima_golova>
+    <Stalker_Bomzh_3>Homeless</Stalker_Bomzh_3>
+    <Stalker_Bomzh_2>Homeless</Stalker_Bomzh_2>
+    <Kolja_Kislii>Kolya Kisliy</Kolja_Kislii>
+    <Kyrier>Courier</Kyrier>
+    <doc_Zinoviev>Doctor Zinoviev</doc_Zinoviev>
+    <Stalker_Bomzh_4>Homeless</Stalker_Bomzh_4>
+    <Efreitor_Kazakov>Corporal Kazakov</Efreitor_Kazakov>
+    <Fedya_Prorok>Fedya the Prophet</Fedya_Prorok>
+    <Fedor>Fedor</Fedor>
+    <Jura_Barabashka>Yura Barabashka</Jura_Barabashka>
+    <Provodnik_Tungus_NZ>Guide</Provodnik_Tungus_NZ>
+    <Aid_trader>Doctor</Aid_trader>
+    <Rashid_New>Alex</Rashid_New>
+    <fs_Shpricev>Prof. Simonov</fs_Shpricev>
+    <Pavel_Privokzalov>Powell</Pavel_Privokzalov>
+    <CaptureBase_Sklad>Repairman</CaptureBase_Sklad>
+    <Basmach>Basmach</Basmach>
+    <clan_pochta_repairman>Repairman</clan_pochta_repairman>
+    <Stalker_Bomzh_Domovoi>Homeless</Stalker_Bomzh_Domovoi>
+    <Yashka_Beast>Yashka</Yashka_Beast>
+    <Clan_manager>Manager</Clan_manager>
+    <Bank_vezuv_uchenie>Stockman</Bank_vezuv_uchenie>
+    <Grishkovec>Grishkovets</Grishkovec>
+    <Sergeant_Dibenko>Sgt. Dibenko</Sergeant_Dibenko>
+    <Chereshnikov>Professor Chereshnikov</Chereshnikov>
+    <Metrofan>Metrofan</Metrofan>
+    <Temych>Tyomich the Stalker</Temych>
+    <Sergeant_Drachuk>Sgt. Drachuk</Sergeant_Drachuk>
+    <Timka>Timka</Timka>
+    <Dog_hunter>Security</Dog_hunter>
+    <Dr_Eizenshtein>Doctor Eizeinshtein</Dr_Eizenshtein>
+    <Kyznec>Blacksmith</Kyznec>
+    <Lovchiy>Trapper</Lovchiy>
+    <Staryi_stalker>Old Stalker</Staryi_stalker>
+    <Rashid>Rasheed</Rashid>
+    <Trader>Loot Buyer</Trader>
+    <fs_Ryjei>Docent Krasnov</fs_Ryjei>
+    <Voronin>Voronin</Voronin>
+    <Sanek_Bivaliy>Sanek the Skilled</Sanek_Bivaliy>
+    <Fifer>Fifer</Fifer>
+    <Muhomor>Amanita</Muhomor>
+    <Stepan_Brodyaga>Stepan the Tramp</Stepan_Brodyaga>
+    <Aid_trader_noob>Doctor</Aid_trader_noob>
+    <Meniala_RavenWood>Pusher</Meniala_RavenWood>
+    <Swamp_Trader>Skinner</Swamp_Trader>
+    <Doc_Home>Doctor Home</Doc_Home>
+    <Weapon_trader>Weapon</Weapon_trader>
+    <Kashtan>Chestnut</Kashtan>
+    <Vatman>Whatman</Vatman>
+    <Bolotnik>Swampman</Bolotnik>
+    <prapNicheporenko>Ensign Nechiporenko</prapNicheporenko>
+    <Buch>Butch</Buch>
+    <Jora_Karas>Zhora the Crucian</Jora_Karas>
+    <Efreitor_Druz>Corporal Druz</Efreitor_Druz>
+    <Bank_Swamp>Stockman</Bank_Swamp>
+    <Kich>Kich</Kich>
+    <Jivoderov>Doctor Flayer</Jivoderov>
+    <Plyuch>Ivy the Bartender</Plyuch>
+    <Tatarin>The Tatar</Tatarin>
+    <Meniala_Standart>Pusher</Meniala_Standart>
+    <Efreitor_Kvashnia>Corporal Kvashina</Efreitor_Kvashnia>
+    <Meniala1>Corkscrew the Stalker</Meniala1>
+    <Maslov>Gleb Maslov</Maslov>
+    <Meniala_Swamp>Pusher</Meniala_Swamp>
+    <Valera>Valera</Valera>
+    <Imarek>Ymarek</Imarek>
+    <Priest>Priest</Priest>
+    <Krendel>Pretzel</Krendel>
+    <NZ_Provodnik1>Guide</NZ_Provodnik1>
+    <NZ_Provodnik2>Guide</NZ_Provodnik2>
+    <Svetlii_Nastavnik_Mihail>Light Mentor Mikhail</Svetlii_Nastavnik_Mihail>
+    <PK_Trader_NZ01>Spit the Pusher</PK_Trader_NZ01>
+    <Mokruh>Mokruch</Mokruh>
+    <Shtaket>Shtaket</Shtaket>
+    <Zelenkin>Zelenkin</Zelenkin>
+    <Morse>Morse</Morse>
+    <Dipol>Petrukh Dipole</Dipol>
+    <Bank_Thief>Suspicious Warehouseman</Bank_Thief>
+    <Ammo_trader_bandit>Ammo Trader</Ammo_trader_bandit>
+  </NPC>
+  <Area>
+    <area_poligon>Firing Range</area_poligon>
+    <guid_827B0CE74EEE2F465EBBF1A0C3BA7A91>Radius</guid_827B0CE74EEE2F465EBBF1A0C3BA7A91>
+    <stonehenge>Stonehendge</stonehenge>
+    <mentovka>Police Building</mentovka>
+    <DK>Palace of Culture</DK>
+    <Post_Kazakov>First Post</Post_Kazakov>
+    <small_station>Railroad Station</small_station>
+    <haron_house>Charon's Hut</haron_house>
+    <farvillage_pochtampt>Distant Village</farvillage_pochtampt>
+    <swamp_exit>To the Swamps</swamp_exit>
+    <Post_Kvashni>Third Post</Post_Kvashni>
+    <swamp_house>Swamp House</swamp_house>
+    <new_district>New District</new_district>
+    <Prison02>Prison.</Prison02>
+    <science_station>Underground Lab</science_station>
+    <stadium>Stadium</stadium>
+    <Post_Druzia>Second Post</Post_Druzia>
+    <trainstation>Station</trainstation>
+    <area_pos-Novikovo>Novikovo</area_pos-Novikovo>
+    <vhod_v_shahtu>Mine № 13</vhod_v_shahtu>
+  </Area>
+</root>

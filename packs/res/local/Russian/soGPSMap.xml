@@ -1,0 +1,25 @@
+<root>
+  <soGUI>
+    <STRING_208_19>Неизвестная область</STRING_208_19>
+    <STRING_500_104>Тестовый спэйс</STRING_500_104>
+    <STRING_501_113>Станция</STRING_501_113>
+    <STRING_502_107>Новая Земля</STRING_502_107>
+    <STRING_503_111>Тунгуска</STRING_503_111>
+    <STRING_504_107>Степи</STRING_504_107>
+    <STRING_505_111>Везувий</STRING_505_111>
+    <STRING_506_107>Вулкан</STRING_506_107>
+    <STRING_507_117>Любеч</STRING_507_117>
+    <STRING_508_112>Окрестности Любеча</STRING_508_112>
+    <STRING_772_19>Меню</STRING_772_19>
+    <STRING_steppe_dust>Пустыня</STRING_steppe_dust>
+    <minimap_outlands_caravan>Караван</minimap_outlands_caravan>
+    <minimap_fukushima>Фукушима</minimap_fukushima>
+    <minimap_pk_prison01>Тюрьма</minimap_pk_prison01>
+    <minimap_outlands_airport>Аэропорт</minimap_outlands_airport>
+    <minimap_lubech_underground>Подземелье</minimap_lubech_underground>
+    <minimap_dm_outlands_village>PvP Пригород Любеча</minimap_dm_outlands_village>
+    <minimap_dm_rocks>PvP Горы</minimap_dm_rocks>
+    <minimap_dm_ryabinushka>PvP Рябинушка</minimap_dm_ryabinushka>
+    <minimap_dm_snowland>PvP Остров Снежный</minimap_dm_snowland>
+  </soGUI>
+</root>

@@ -1,0 +1,16 @@
+<root>
+  <base>
+    <STRING_1072_42>Only the squad leader can submit requests.</STRING_1072_42>
+    <STRING_1093_43>You can't be submitted for event.</STRING_1093_43>
+    <STRING_1101_44>You can't be submitted for event.</STRING_1101_44>
+    <STRING_1115_50>You've rejected your subscription</STRING_1115_50>
+    <STRING_1117_44>You've rejected your subscription</STRING_1117_44>
+    <STRING_1132_51>Your squad sent request:</STRING_1132_51>
+    <STRING_1134_42>You've sent the request:</STRING_1134_42>
+  </base>
+  <YOU_CANT_ROLL_UP_YOU_ARE_NOT_LEADER>Only the squad leader can submit requests.</YOU_CANT_ROLL_UP_YOU_ARE_NOT_LEADER>
+  <NOW_YOU_CANT_ROLL_UP_ON_EVENT>You can't be submitted for event.</NOW_YOU_CANT_ROLL_UP_ON_EVENT>
+  <YOU_DAVE_REFUSED_FROM_EVENT>You've rejected your subscription</YOU_DAVE_REFUSED_FROM_EVENT>
+  <YOUR_GROUP_HAS_ROLL_UP_ON_EVENT>Your squad sent request:</YOUR_GROUP_HAS_ROLL_UP_ON_EVENT>
+  <YOU_HAVE_ROLL_UP_ON_EVENT>You've sent the request:</YOU_HAVE_ROLL_UP_ON_EVENT>
+</root>

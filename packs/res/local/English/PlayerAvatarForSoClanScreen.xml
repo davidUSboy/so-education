@@ -1,0 +1,34 @@
+<root>
+  <client>
+    <CLAN_NAME_CAPTION>Clan name: {0}</CLAN_NAME_CAPTION>
+    <STRING_176_6>cheap</STRING_176_6>
+    <STRING_177_6>average</STRING_177_6>
+    <STRING_178_6>expensive</STRING_178_6>
+    <STRING_180_23>Description (for cheap)</STRING_180_23>
+    <STRING_335_6>Rights editing</STRING_335_6>
+    <STRING_336_6>Ranks purpose</STRING_336_6>
+    <STRING_337_6>Clan invitation</STRING_337_6>
+    <STRING_338_6>Kick from clan</STRING_338_6>
+    <STRING_339_6>Назначение квот на вылов</STRING_339_6>
+    <STRING_340_6>Base Keeper</STRING_340_6>
+    <STRING_341_6>Declaration of war/peace</STRING_341_6>
+    <STRING_342_6>Clan items use</STRING_342_6>
+    <USED_DONATE_SHOP>The right to buy clan stuff.</USED_DONATE_SHOP>
+    <STRING_345_6>Rights edit</STRING_345_6>
+    <STRING_346_6>Ranks purpose</STRING_346_6>
+    <STRING_347_6>Clan invitation</STRING_347_6>
+    <STRING_348_6>Kick from clan</STRING_348_6>
+    <STRING_349_6>Set the quota</STRING_349_6>
+    <STRING_350_6>Base Keeper</STRING_350_6>
+    <STRING_351_6>Declaration of war/peace</STRING_351_6>
+    <STRING_352_6>Clan items use</STRING_352_6>
+    <STRING_594_25>Security (level</STRING_594_25>
+    <STRING_595_25>Secures.</STRING_595_25>
+    <STRING_607_25>Trader (level</STRING_607_25>
+    <STRING_608_25>Trades, keeps your stuff.</STRING_608_25>
+    <STRING_620_25>Repairman (level</STRING_620_25>
+    <STRING_621_25>Fixing</STRING_621_25>
+    <STRING_633_25>Doc (level</STRING_633_25>
+    <STRING_634_25>Cures.</STRING_634_25>
+  </client>
+</root>

@@ -1,0 +1,49 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<presetName>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>							</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</presetName>
+		
+		<innerRadius>
+			<Type>		FLOAT			</Type>
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	5.0			</Default>
+			<Editable>	true			</Editable>
+		</innerRadius>
+		
+		<outerRadius>
+			<Type>		FLOAT			</Type>
+			<Widget>	RADIUS
+				<colour>	0 255 0 192	</colour>
+				<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	10.0			</Default>
+			<Editable>	true			</Editable>
+		</outerRadius>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+	
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

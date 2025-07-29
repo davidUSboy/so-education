@@ -1,0 +1,234 @@
+<root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		GroupManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+		
+		<grps>
+			<Type> ARRAY <of> QUESTS_GROUP_ONBASE </of>	</Type>
+			<Flags>	BASE 								</Flags>
+		</grps>
+		
+		<loners>
+			<Type>	ARRAY	<of>	QUESTS_GROUP_MEMBER	</of>	</Type>
+			<Flags>	BASE 								</Flags>
+		</loners>
+		
+		<logged>
+			<Type> ARRAY <of> QUESTS_GROUP_LOGGED </of></Type>
+			<Flags>	BASE </Flags>
+		</logged>
+		
+		<sort_period>
+			<Type>			FLOAT32						</Type>
+			<Flags>			BASE						</Flags>
+			<Default>		60.0						</Default>
+		</sort_period>
+		<queues>
+			<Type>	ARRAY	<of>	PV_QUEUE	</of>	</Type>
+			<Flags>			BASE						</Flags>
+			<!--Persistent> True 							</Persistent-->
+		</queues>
+		<quests>
+			<Type>		ARRAY	<of>	QUEST	</of>		</Type>
+			<Flags>		BASE								</Flags>
+		</quests>
+		
+		<pvpoints>
+			<Type>		ARRAY	<of>	PVPOINT_DESCRIPTION</of>	</Type>
+			<Flags>		BASE								</Flags>
+		</pvpoints>
+		
+		<lastGroupID>
+			<Type>		INT64								</Type>
+			<Flags>		BASE								</Flags>
+			<Default>	1									</Default>
+		</lastGroupID>
+		
+		<referees>
+			<Type>		ARRAY	<of>	REFEREES	</of>	</Type>
+			<Flags>		BASE								</Flags>
+		</referees>
+	</Properties>
+	
+	<BaseMethods>
+		<onEnter>
+			<Arg>	MAILBOX	</Arg>
+            <Arg>	DBID	</Arg>
+			<Arg>	GROUPID	</Arg>
+		</onEnter>
+		
+		<addParticipant>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE_STRING	</Arg>
+		</addParticipant>
+		
+		<leaveGroup>
+			<Arg> GROUPID 	</Arg>
+			<Arg> MAILBOX 	</Arg>
+			<Arg> INT64 	</Arg>
+		</leaveGroup>
+		
+		<destroyGroup>
+			<Arg> GROUPID 	</Arg>
+			<Arg> MAILBOX 	</Arg>
+			<Arg> INT64 	</Arg>
+		</destroyGroup>
+		
+		<kickFromGroup>
+			<Arg> GROUPID 			</Arg>
+			<Arg> MAILBOX 			</Arg>
+			<Arg> INT64 			</Arg>
+			<Arg> UNICODE_STRING 	</Arg>
+		</kickFromGroup>
+		
+		<clearMailbox>
+			<Arg> DBID 				</Arg>
+			<Arg> GROUPID 				</Arg>
+		</clearMailbox>
+		
+		<takeStartPosition>
+			<Arg>	GROUPID	</Arg>
+			<Arg>	INT64	</Arg>
+			<Arg>	VECTOR3	</Arg>
+		</takeStartPosition>
+		
+		<setStatus>
+			<Arg>	INT64	</Arg>
+			<Arg>	GROUPID	</Arg>
+			<Arg>	QUESTID	</Arg>
+			<Arg>	INT8	</Arg>
+		</setStatus>
+		
+		<takeQuest>
+			<Arg> 	GROUPID		</Arg>
+			<Arg>	QUESTONCELL	</Arg>
+			<Arg>	INT8		</Arg>
+		</takeQuest>
+		
+		<takeInfo>
+			<Arg> GROUPID </Arg>
+			<Arg> QUESTID </Arg>
+		</takeInfo>
+		
+		<takeReward>
+			<Arg> GROUPID </Arg>
+			<Arg> QUESTID </Arg>
+		</takeReward>
+		
+		<createScenarioEye>
+			<Arg> GROUPID 	</Arg>
+			<Arg> INT64 	</Arg>
+			<Arg> QUESTID 	</Arg>
+		</createScenarioEye>
+		
+		<onScenarioWin>
+			<Arg>	GROUPID </Arg>
+			<Arg> QUESTID 	</Arg>
+		</onScenarioWin>
+		
+		<onScenarioFailed>
+			<Arg>	GROUPID </Arg>
+			<Arg> QUESTID 	</Arg>
+		</onScenarioFailed>
+		
+		<Win>
+			<Arg> GROUPID </Arg>
+			<Arg> QUESTID </Arg>
+			<Arg>	ARRAY <of>	PVP_USER_STATISTIC	</of>	</Arg>
+		</Win>
+		
+		<onRefereeError>
+			<Arg>		INT8						</Arg>
+			<Arg>	ARRAY <of>	GROUPID	</of>	</Arg>
+		</onRefereeError>
+
+		<Failed>
+			<Arg> GROUPID </Arg>
+			<Arg> QUESTID </Arg>
+		</Failed>
+		
+		<!--<showParticipant>-->
+			<!--<Arg> GROUPID 	</Arg>-->
+			<!--<Arg> MAILBOX 	</Arg>-->
+			<!--<Arg> INT64 	</Arg>-->
+		<!--</showParticipant>-->
+		
+		<setMembPotential>
+			<Arg> GROUPID 	</Arg>
+			<Arg> DBID 		</Arg>
+			<Arg> INT32		</Arg>
+		</setMembPotential>
+		
+		<onInstanceError>
+			<Arg> GROUPID 	</Arg>
+			<Arg> QUESTID 	</Arg>
+		</onInstanceError>
+	
+		<takeQuestForNPC>
+			<Arg> QUEST 	</Arg>
+		</takeQuestForNPC>
+		
+		<createQueue>
+			<Arg> GROUPID 			</Arg>
+			<Arg> QUESTID 			</Arg>
+			<Arg> DBID 				</Arg>
+			<Arg> UNICODE_STRING	</Arg>
+			<Arg> MAILBOX			</Arg>
+		</createQueue>
+		
+		<instanceGetReady>
+			<Arg>	INT64						</Arg>
+		</instanceGetReady>
+		
+		<registerPVPoint>
+			<Arg>	ENTITY_ID	</Arg>
+			<Arg>	INT64		</Arg>
+			<Arg>	VECTOR3		</Arg>
+			<Arg>	INT8		</Arg>
+		</registerPVPoint>
+		
+		<unregisterPVPoint>
+			<Arg>	ENTITY_ID	</Arg>
+		</unregisterPVPoint>
+		
+		<!--INSTANCES-->
+		<!--Uncommit to make group instances-->
+		<!--<tryTeleportToInstance>-->
+			<!--<Arg>	ARRAY	<of>	INT64	</of>	</Arg>-->
+			<!--<Arg>	GROUPID	</Arg>-->
+			<!--<Arg>	DBID	</Arg>-->
+			<!--<Arg>	MAILBOX	</Arg>-->
+			<!--<Arg>	ARRAY <of>ENTITY_ID</of>	</Arg>-->
+		<!--</tryTeleportToInstance>-->
+		
+		<tryGatherGroup>
+			<Arg>	GROUPID	</Arg>
+			<Arg>	VECTOR3	</Arg>
+			<Arg>	INT64	</Arg>
+		</tryGatherGroup>
+
+        <setItemConfig>
+			<Arg>	GROUPID	</Arg>
+            <Arg>	DBID	</Arg>
+			<Arg>	INT16	</Arg>
+        </setItemConfig>
+
+       <changeOwner>
+            <Arg>	GROUPID	                        </Arg>
+            <Arg>	DBID	                        </Arg>
+            <Arg>	UNICODE_STRING	                        </Arg>
+        </changeOwner>
+	</BaseMethods>
+</root>

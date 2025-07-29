@@ -1,0 +1,177 @@
+<root>
+  <TO_BACKPACK>В рюкзак</TO_BACKPACK>
+  <INFO>Информация</INFO>
+  <ITEM_DROP>Выбрасывание предмета</ITEM_DROP>
+  <RLY_DROP>Вы действительно хотите выбросить предмет?</RLY_DROP>
+  <ITEM_DELETE>Уничтожение предмета</ITEM_DELETE>
+  <RLY_DELETE>Вы действительно хотите уничтожить предмет?</RLY_DELETE>
+  <ADD_MARK>Добавить метку</ADD_MARK>
+  <MARK_NOTES>Пояснение к метке</MARK_NOTES>
+  <BUG_REPORT>Сообщить об ошибке</BUG_REPORT>
+  <DELETE_MARK>Удалить метку</DELETE_MARK>
+  <DO_TELEPORT>Телепортироваться</DO_TELEPORT>
+  <BUY_IT>Купить</BUY_IT>
+  <FAIL_CANUSEDYETINT>Невозможно применить</FAIL_CANUSEDYETINT>
+  <ASK_USE_TINT>Вы уверены что хотите нанести {0} на {1}?</ASK_USE_TINT>
+  <FAIL_USE_TINT_OLD_TINT>Нужно очистить старую краску</FAIL_USE_TINT_OLD_TINT>
+  <client>
+    <FireWood>Добавляет время горения костра на: {0}</FireWood>
+    <CookingTime>Время приготовления на костре: {0}</CookingTime>
+    <CookingTo>Приготовляется в: {0}</CookingTo>
+    <ARTIFACT_UNEQUIP_TEXT>При снятии есть {0:.2%} шанс разрушения артефакта. Продолжить?</ARTIFACT_UNEQUIP_TEXT>
+    <ARTIFACT_UNEQUIP>Снятие артефакта</ARTIFACT_UNEQUIP>
+    <ARTIFACT_UNLOCK>Слоты под артефакты
+		Чтобы разблокировать слот, выполните одно из условий:
+		а) Бой: ур. 9
+		б) Выживание: ур. 8
+		в) Поддержка: ур. 7</ARTIFACT_UNLOCK>
+    <ItemStorage>Хранилище</ItemStorage>
+    <HAND_TO_HAND>Рукопашная</HAND_TO_HAND>
+    <FIREARMS>Огнестрельное</FIREARMS>
+    <EXPLOSION>Взрыв</EXPLOSION>
+    <FALLING>Падение</FALLING>
+    <ARMOR_PIERCING>Бронебойное</ARMOR_PIERCING>
+    <BLEEDING>Кровотечение</BLEEDING>
+    <MAGNETIC>Магнитное</MAGNETIC>
+    <COLD>Обморожение</COLD>
+    <GRAVITY>Гравитационное</GRAVITY>
+    <ELECTRICITY>Электрическое</ELECTRICITY>
+    <INFRARED>Инфракрасное</INFRARED>
+    <RADIATION>Радиация</RADIATION>
+    <PSY>Пси</PSY>
+    <BIO>Биологическое</BIO>
+    <ACOUSTIC>Акустическое</ACOUSTIC>
+    <SELF_ACOUSTIC>Самоакустическое</SELF_ACOUSTIC>
+    <NOTHING>Никакое</NOTHING>
+    <VERY_LOW>Очень низкая</VERY_LOW>
+    <LOW>Низкая</LOW>
+    <AVARAGE>Среднее</AVARAGE>
+    <MEDIUM>Приличная</MEDIUM>
+    <HIGH>Высокая</HIGH>
+    <MAXIMUM>Неубивамая</MAXIMUM>
+    <STRONG>Сильная</STRONG>
+    <FAST>Быстрое</FAST>
+    <MODERATE>Ускоренное</MODERATE>
+    <SLOW>Медленное</SLOW>
+    <HEAD>Голова</HEAD>
+    <TORSO>Туловище</TORSO>
+    <LEFT_UP_LEG>Левое бедро</LEFT_UP_LEG>
+    <RIGHT_UP_LEG>Правое бедро</RIGHT_UP_LEG>
+    <LEFT_LEG>Левая голень</LEFT_LEG>
+    <RIGHT_LEG>Правая голень</RIGHT_LEG>
+    <LEG_UPPER>Бедро</LEG_UPPER>
+    <LEG_LOWER>Голень</LEG_LOWER>
+    <FACE>Лицо</FACE>
+    <FOREARM_LEFT>Левое предплечье</FOREARM_LEFT>
+    <FOREARM_RIGHT>Правое предплечье</FOREARM_RIGHT>
+    <FOREARM>Предплечье</FOREARM>
+    <ARM_LEFT>Левое плечо</ARM_LEFT>
+    <ARM_RIGHT>Правое плечо</ARM_RIGHT>
+    <ARM>Плечо</ARM>
+    <HEART>Сердце</HEART>
+    <GROIN>Пах</GROIN>
+    <COMMON>Обычный</COMMON>
+    <RARE>Продвинутый</RARE>
+    <EXPERT>Эксперт</EXPERT>
+    <COST>Стоимость: {0}</COST>
+    <SKILL_LEVEL_CAP>Требуемый уровень навыка: {0}</SKILL_LEVEL_CAP>
+    <REQUIRENMENTS>Требует: %s</REQUIRENMENTS>
+    <ADAPTATION>Привычка: {0}</ADAPTATION>
+    <STATE>Cостояние: {0}</STATE>
+    <NUM_ARMED>Заряжено: {0}</NUM_ARMED>
+    <APPROXIMATE_COST>Примерная стоимость: {0}</APPROXIMATE_COST>
+    <ROUBLES>р.</ROUBLES>
+    <WEAPON_JAMMED>Оружие заклинено</WEAPON_JAMMED>
+    <ITEM_BROKEN>Предмет испорчен</ITEM_BROKEN>
+    <NUMBER>Количество: {0}</NUMBER>
+    <NUM_USES>Использований: {0}</NUM_USES>
+    <NUM_USES_ARTEF_CONTAINER>Использований: {0} из {1}</NUM_USES_ARTEF_CONTAINER>
+    <DAY>д</DAY>
+    <HOURS>ч</HOURS>
+    <MINUTES>м</MINUTES>
+    <SECONDS>с</SECONDS>
+    <ARTIFACT_CHARGE_FULL>Заряд артефакта полон</ARTIFACT_CHARGE_FULL>
+    <ARTIFACT_CHARGE_DEPLEETED>Заряд артефакта исчерпан</ARTIFACT_CHARGE_DEPLEETED>
+    <ARTIFACT_CHARGE_REMAINING>Заряда осталось на: %s</ARTIFACT_CHARGE_REMAINING>
+    <BELONGS_TO_QUEST>Относится к квесту: %s</BELONGS_TO_QUEST>
+    <QUEST_ITEM>Квестовый предмет</QUEST_ITEM>
+    <NUMBER_INFIFNITY>Количество: бесконечно</NUMBER_INFIFNITY>
+    <TRADER_NUM_MONEY>Денег у торговца: {0}</TRADER_NUM_MONEY>
+    <TRADER_NUM_MONEYINFIFNITY>Денег у торговца: бесконечно</TRADER_NUM_MONEYINFIFNITY>
+    <GOLD>з.р.</GOLD>
+    <ROUBLES_FULL>рублей</ROUBLES_FULL>
+    <GOLD_FULL>золотых рублей.</GOLD_FULL>
+    <REPAIR_COST>Стоимость ремонта: {0}</REPAIR_COST>
+    <MAY_BE_REAPIRED>Можно ремонтировать</MAY_BE_REAPIRED>
+    <REPAIR_NOT_NEEDED>Ремонт не нужен</REPAIR_NOT_NEEDED>
+    <DROP>Выбросить</DROP>
+    <INFO>Информация</INFO>
+    <EQUIP>Экипировать</EQUIP>
+    <REPAIR>Починить</REPAIR>
+    <EXTRACT>Извлечь</EXTRACT>
+    <REMOVE>Отсоединить</REMOVE>
+    <USE>Использовать</USE>
+    <USE_ON_TARGET>Использовать на цели</USE_ON_TARGET>
+    <LOAD_AMMO>Зарядить</LOAD_AMMO>
+    <DIVIDE>Разделить</DIVIDE>
+    <LEVEL>Уровень: {0}</LEVEL>
+    <PENETRATION_SUM>Пробивная способность: {0} {1:s}</PENETRATION_SUM>
+    <PENETRATION>Модификатор пробивной способности: {0} {1:s}</PENETRATION>
+    <PENETRATION_100>(защита цели не меняется)</PENETRATION_100>
+    <PENETRATION_LESS_100>(защита цели на {0}% менее эффективна)</PENETRATION_LESS_100>
+    <PENETRATION_MORE_100>(защита цели на {0}% более эффективна)</PENETRATION_MORE_100>
+    <MAIN_DAMAGE>Основное повреждение: {0}</MAIN_DAMAGE>
+    <FROM_TO>от {0} до {0}</FROM_TO>
+    <ADDITIONAL_DAMAGE>Дополнительное повреждение: {0}</ADDITIONAL_DAMAGE>
+    <RANGE>Дальность: {0}</RANGE>
+    <WEIGHT>Вес: {0}</WEIGHT>
+    <ACCURACY>Точность: {0}</ACCURACY>
+    <FIRE_RATE>Скорострельность: {0}</FIRE_RATE>
+    <FAIL_TOLERANCE>Отказоустойчивость: %s</FAIL_TOLERANCE>
+    <ACCURACY_BORDER>Кучность: %s</ACCURACY_BORDER>
+    <MOVE_ACCURACY_LOST>Расхождение прицела: %s</MOVE_ACCURACY_LOST>
+    <KICKBACK>Отдача: %s</KICKBACK>
+    <ACURACY_RECOIL>Схождение прицела: %s</ACURACY_RECOIL>
+    <SKILL_LEVEL>Уровень мастерства: %s</SKILL_LEVEL>
+    <AMMO_USES>Использует патроны: {0}</AMMO_USES>
+    <CAN_INSTALL>Можно установить: {0}</CAN_INSTALL>
+    <DEFENCE>Защита:</DEFENCE>
+    <NUM_AMMO_IN_PACK>Патронов в пачке: {0}</NUM_AMMO_IN_PACK>
+    <MAY_BE_USED_BY>Подходит для: {0}</MAY_BE_USED_BY>
+    <NUM_PIECES>Количество осколков: {0}</NUM_PIECES>
+    <WAVE_RADIUS>Радиус ударной волны: {0}</WAVE_RADIUS>
+    <NEEDED_RESOURCES>Требуемые ресурсы: {0}</NEEDED_RESOURCES>
+    <needWorkbenchType>Требуется оборудование: {0}</needWorkbenchType>
+    <NEEDED_SKILLS>Требуемые навыки: {0}</NEEDED_SKILLS>
+    <SUCCES_CHANCE>Шанс успеха: {0}</SUCCES_CHANCE>
+    <DIVIDE_PROCESS>Разделение</DIVIDE_PROCESS>
+    <HOW_MUCH_ITEMS_DEVIDE>Сколько предметов отделить?</HOW_MUCH_ITEMS_DEVIDE>
+    <ITEM_ADDED>Добавлен предмет {0}</ITEM_ADDED>
+    <NUM_ITEMS_CLOSE_BRACKET>шт.)</NUM_ITEMS_CLOSE_BRACKET>
+    <ITEM_LOST>Потерян предмет {0}</ITEM_LOST>
+    <SPENDED>Потрачено {0} {1}</SPENDED>
+    <SUFFIXES_1>рубль</SUFFIXES_1>
+    <SUFFIXES_2>рубля</SUFFIXES_2>
+    <SUFFIXES_3>рублей</SUFFIXES_3>
+    <GAINED_FROM>Получено {0} {1} от {2}</GAINED_FROM>
+    <GAINED>Получено {0} {1}</GAINED>
+    <SUFFIXES_4>золотой рубль</SUFFIXES_4>
+    <SUFFIXES_5>золотых рубля</SUFFIXES_5>
+    <SUFFIXES_6>золотых рублей</SUFFIXES_6>
+    <COMBAT_EXPIRIENCE>боевого опыта</COMBAT_EXPIRIENCE>
+    <SURVIVAL_EXPIRIENCE>опыта выживания</SURVIVAL_EXPIRIENCE>
+    <OTHER_EXPIRIENCE>опыта поддержки</OTHER_EXPIRIENCE>
+    <SUFFIXES_7>единица</SUFFIXES_7>
+    <SUFFIXES_8>единицы</SUFFIXES_8>
+    <SUFFIXES_9>единиц</SUFFIXES_9>
+    <NO>Нет</NO>
+    <PERSONAL_ITEM>Предмет закреплен за персонажем</PERSONAL_ITEM>
+    <ITEM_TIME_TO_LIVE>До потери предмета: {0}</ITEM_TIME_TO_LIVE>
+    <NUM_AMMO_IN_MAGAZINE>Вместимость магазина: {0}</NUM_AMMO_IN_MAGAZINE>
+    <RECIPE>Рецепт: {0}</RECIPE>
+    <REFRESH>Обновление: {0}</REFRESH>
+    <UPGRADE>Улучшение: {0} Уровень {1}</UPGRADE>
+    <ARTEFACT_IN_CONTAINER>Артефакты:</ARTEFACT_IN_CONTAINER>
+    <ARTEFACT_IN_CONTAINER_EMPTY>Контейнер пуст</ARTEFACT_IN_CONTAINER_EMPTY>
+  </client>
+</root>

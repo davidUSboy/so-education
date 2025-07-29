@@ -1,0 +1,2004 @@
+<root>
+  <!-- 13 символов на имя-->
+  <!--ARTIFACT_SCREEN_ALPHA-->
+  <!--ARTIFACT_SCREEN_B-->
+  <!--ARTIFACT_SCREEN_G-->
+  <!--ARTIFACT_SCREEN_D-->
+  <!--ARTIFACT_SCREEN_E-->
+  <!--ARTIFACT_PILLOW_ALPHA-->
+  <!--ARTIFACT_PILLOW_BETA-->
+  <!--ARTIFACT_PILLOW_GAMMA-->
+  <!--ARTIFACT_PILLOW_DELTA-->
+  <!--ARTIFACT_PILLOW_EPSILON-->
+  <!--ARTIFACT_SHIELD_ALPHA-->
+  <!--ARTIFACT_SHIELD_BETA-->
+  <!--ARTIFACT_SHIELD_GAMMA-->
+  <!--ARTIFACT_SHIELD_DELTA-->
+  <!--ARTIFACT_SHIELD_EPSILON-->
+  <!--ARTIFACT_RUBBER_ALPHA-->
+  <!--ARTIFACT_RUBBER_BETA-->
+  <!--ARTIFACT_RUBBER_GAMMA-->
+  <!--ARTIFACT_RUBBER_DELTA-->
+  <!--ARTIFACT_RUBBER_EPSILON-->
+  <!--ARTIFACT_ANTIGRAV_ALPHA-->
+  <!--ARTIFACT_ANTIGRAV_BETA-->
+  <!--ARTIFACT_ANTIGRAV_GAMMA-->
+  <!--ARTIFACT_ANTIGRAV_DELTA-->
+  <!--ARTIFACT_ANTIGRAV_EPSILON-->
+  <!-- 		<ITEM_NAME_TYPE410020>"Военстал М2"|Чертеж модификации бронекостюма "Военстал"</ITEM_NAME_TYPE410020>
+		<ITEM_NAME_TYPE410021>"Сигма М2"|Чертеж модификации бронекостюма "Сигма"</ITEM_NAME_TYPE410021>
+		<ITEM_NAME_TYPE410022>"Шторм М2"|Чертеж модификации бронекостюма "Шторм"</ITEM_NAME_TYPE410022>
+		<ITEM_NAME_TYPE410023>"Маскиров М2"|Чертеж модификации бронекостюма "Маскировочный"</ITEM_NAME_TYPE410023>
+		<ITEM_NAME_TYPE410024>"Страж М2"|Чертеж модификации бронекостюма "Страж"</ITEM_NAME_TYPE410024>
+		<ITEM_NAME_TYPE410025>"Инквизитор М2"|Чертеж модификации бронекостюма "Инквизитор"</ITEM_NAME_TYPE410025>
+		<ITEM_NAME_TYPE410026>"Хищник М2"|Чертеж модификации бронекостюма "Хищник"</ITEM_NAME_TYPE410026>
+		<ITEM_NAME_TYPE410027>"Тишина М2"|Чертеж модификации бронекостюма "Тишина"</ITEM_NAME_TYPE410027>
+		<ITEM_NAME_TYPE410028>"Химера М2"|Чертеж модификации бронекостюма "Химера"</ITEM_NAME_TYPE410028>
+		<ITEM_NAME_TYPE410029>"STELS М2"|Чертеж модификации бронекостюма "STELS"</ITEM_NAME_TYPE410029>
+		<ITEM_NAME_TYPE410030>"Одиночки М2"|Чертеж модификации бронекостюма "Одиночки"</ITEM_NAME_TYPE410030>
+		<ITEM_NAME_TYPE410031>в."Военстал М2"|Чертеж восстановления бронекостюма "Военстал М2"</ITEM_NAME_TYPE410031>
+		<ITEM_NAME_TYPE410032>в."Сигма М2"|Чертеж восстановления бронекостюма "Сигма М2"</ITEM_NAME_TYPE410032>
+		<ITEM_NAME_TYPE410033>в."Страж М2"|Чертеж восстановления бронекостюма "Страж М2"</ITEM_NAME_TYPE410033>
+		<ITEM_NAME_TYPE410034>в."Инквизит.М2"|Чертеж восстановления бронекостюма "Инквизитор М2"</ITEM_NAME_TYPE410034>
+		<ITEM_NAME_TYPE410035>в."Хищник М2"|Чертеж восстановления бронекостюма "Хищник М2"</ITEM_NAME_TYPE410035>
+		<ITEM_NAME_TYPE410036>в."Тишина М2"|Чертеж восстановления бронекостюма "Тишина М2"</ITEM_NAME_TYPE410036>
+		<ITEM_NAME_TYPE410037>в."Одиночки М2"|Чертеж восстановления бронекостюма "Одиночки М2"</ITEM_NAME_TYPE410037>
+		<ITEM_NAME_TYPE410038>в."Химера М2"|Чертеж восстановления бронекостюма "Химера М2"</ITEM_NAME_TYPE410038>
+		<ITEM_NAME_TYPE410039>в."STELS М2"|Чертеж восстановления бронекостюма "STELS М2"</ITEM_NAME_TYPE410039>
+		<ITEM_NAME_TYPE410040>в."Маскир.М2"|Чертеж восстановления бронекостюма "Маскировочный М2"</ITEM_NAME_TYPE410040>
+		<ITEM_NAME_TYPE410041>в."Шторм М2"|Чертеж восстановления бронекостюма "Шторм М2"</ITEM_NAME_TYPE410041>
+ -->
+  <!--REPAIR_VIKING_HELM_SNOW в 483ем итеме -->
+  <ITEM_NAME_TYPE0>нет</ITEM_NAME_TYPE0>
+  <ITEM_NAME_TYPE1>ПМ|Пистолет ПМ</ITEM_NAME_TYPE1>
+  <ITEM_NAME_TYPE2>АК-74|Автомат АК-74</ITEM_NAME_TYPE2>
+  <ITEM_NAME_TYPE3>MP5-SD3|Пистолет-пулемет HK MP5-SD3</ITEM_NAME_TYPE3>
+  <ITEM_NAME_TYPE4>WA-2000|Снайперская винтовка WA-2000</ITEM_NAME_TYPE4>
+  <ITEM_NAME_TYPE5>АС-ВАЛ|Автомат АС-ВАЛ</ITEM_NAME_TYPE5>
+  <ITEM_NAME_TYPE6>ВСС|Снайперская винтовка ВСС "Винторез"</ITEM_NAME_TYPE6>
+  <ITEM_NAME_TYPE7>АК-74МСТ|Стабилизированный АК-74М</ITEM_NAME_TYPE7>
+  <ITEM_NAME_TYPE8>ТОЗ-34|Ружьё ТОЗ-34</ITEM_NAME_TYPE8>
+  <ITEM_NAME_TYPE9>Сайга-12К|Дробовик Сайга-12К</ITEM_NAME_TYPE9>
+  <ITEM_NAME_TYPE10>Ruger-M14|Винтовка Ruger Mini-14</ITEM_NAME_TYPE10>
+  <ITEM_NAME_TYPE11>Eagle|Пистолет Desert Eagle</ITEM_NAME_TYPE11>
+  <ITEM_NAME_TYPE12>FN-FAL|Автомат FN-FAL</ITEM_NAME_TYPE12>
+  <ITEM_NAME_TYPE13>FAMAS|Автомат FAMAS</ITEM_NAME_TYPE13>
+  <ITEM_NAME_TYPE14>РПГ-7|Гранатомет РПГ-7</ITEM_NAME_TYPE14>
+  <ITEM_NAME_TYPE15>M16A1|Автомат Colt-M16A1</ITEM_NAME_TYPE15>
+  <ITEM_NAME_TYPE16>HK-G36C|Автомат HK-G36C</ITEM_NAME_TYPE16>
+  <ITEM_NAME_TYPE17>M202|Гранатомет M202</ITEM_NAME_TYPE17>
+  <ITEM_NAME_TYPE18>M79|Гранатомет M79</ITEM_NAME_TYPE18>
+  <ITEM_NAME_TYPE19>Colt-1911|Пистолет Colt-1911</ITEM_NAME_TYPE19>
+  <ITEM_NAME_TYPE20>Jackhammer|Дробовик Jackhammer MK3A1</ITEM_NAME_TYPE20>
+  <ITEM_NAME_TYPE21>Обрез|Обрез ТОЗ-34</ITEM_NAME_TYPE21>
+  <ITEM_NAME_TYPE22>MP5-K|Пистолет-пулемет HK MP5-K</ITEM_NAME_TYPE22>
+  <ITEM_NAME_TYPE23>ППШ-41|Пистолет-пулемет ППШ-41</ITEM_NAME_TYPE23>
+  <ITEM_NAME_TYPE24>Scorpion-VZ61|Пистолет-пулемет Scorpion VZ61</ITEM_NAME_TYPE24>
+  <ITEM_NAME_TYPE25>СВД|Снайперская винтовка Драгунова</ITEM_NAME_TYPE25>
+  <ITEM_NAME_TYPE26>Mossberg-500|Дробовик Mossberg-500</ITEM_NAME_TYPE26>
+  <ITEM_NAME_TYPE27>Токарев-ТТ|Пистолет Токарев-ТТ</ITEM_NAME_TYPE27>
+  <ITEM_NAME_TYPE28>Glock-17|Пистолет Glock-17</ITEM_NAME_TYPE28>
+  <ITEM_NAME_TYPE29>MAC-10|Пистолет-пулемет MAC-10</ITEM_NAME_TYPE29>
+  <ITEM_NAME_TYPE30>SS-M4|Пистолет-пулемет Sites Spectre M4</ITEM_NAME_TYPE30>
+  <ITEM_NAME_TYPE31>UZI|Пистолет-пулемет UZI</ITEM_NAME_TYPE31>
+  <ITEM_NAME_TYPE32>SPAS-12|Дробовик SPAS-12</ITEM_NAME_TYPE32>
+  <ITEM_NAME_TYPE33>M1014-JSCS|Дробовик M1014-JSCS</ITEM_NAME_TYPE33>
+  <ITEM_NAME_TYPE34>АК-74М|Автомат АК-74М</ITEM_NAME_TYPE34>
+  <ITEM_NAME_TYPE35>АК-102|Автомат АК-102</ITEM_NAME_TYPE35>
+  <ITEM_NAME_TYPE36>АК-107|Автомат АК-107</ITEM_NAME_TYPE36>
+  <ITEM_NAME_TYPE37>АК-47|Автомат АК-47</ITEM_NAME_TYPE37>
+  <ITEM_NAME_TYPE38>AUG-A3|Автомат AUG-A3</ITEM_NAME_TYPE38>
+  <ITEM_NAME_TYPE39>HK-416|Автомат HK-416</ITEM_NAME_TYPE39>
+  <ITEM_NAME_TYPE40>M4A1|Автомат Colt-M4A1</ITEM_NAME_TYPE40>
+  <ITEM_NAME_TYPE41>Гроза-4|Автомат ОЦ-14 под 9х39</ITEM_NAME_TYPE41>
+  <ITEM_NAME_TYPE42>SIG 552|Автомат SIG SG 552 SB Commando</ITEM_NAME_TYPE42>
+  <ITEM_NAME_TYPE43>M1-Garand|Винтовка M1-Garand</ITEM_NAME_TYPE43>
+  <ITEM_NAME_TYPE44>Barrett-M82A3|Снайперская винтовка Barrett-M82A3</ITEM_NAME_TYPE44>
+  <ITEM_NAME_TYPE45>MK12-SPR|Снайперская винтовка MK12-SPR</ITEM_NAME_TYPE45>
+  <ITEM_NAME_TYPE46>MK48|Пулемет MK48</ITEM_NAME_TYPE46>
+  <ITEM_NAME_TYPE47>AUG-HBar|Пулемёт AUG-HBar</ITEM_NAME_TYPE47>
+  <ITEM_NAME_TYPE48>Печенег|Пулемет "Печенег"</ITEM_NAME_TYPE48>
+  <ITEM_NAME_TYPE49>Glock-18|Пистолет Glock-18</ITEM_NAME_TYPE49>
+  <ITEM_NAME_TYPE50>СВУ-А|Снайперская Винтовка Укороченная (ОЦ-3А)</ITEM_NAME_TYPE50>
+  <ITEM_NAME_TYPE51>СВД стп.|СВД (степной кам.)</ITEM_NAME_TYPE51>
+  <ITEM_NAME_TYPE52>СВД зим.|СВД (зимний кам.)</ITEM_NAME_TYPE52>
+  <ITEM_NAME_TYPE53>СВД гор.|СВД (городской кам.)</ITEM_NAME_TYPE53>
+  <ITEM_NAME_TYPE54>СВД лес.|СВД (лесной кам.)</ITEM_NAME_TYPE54>
+  <ITEM_NAME_TYPE55>M16A3|Автомат M16A3</ITEM_NAME_TYPE55>
+  <ITEM_NAME_TYPE56>M16A4|Автомат M16A4</ITEM_NAME_TYPE56>
+  <ITEM_NAME_TYPE57>СР-3|Автомат СР-3</ITEM_NAME_TYPE57>
+  <ITEM_NAME_TYPE58>СР-3М|Автомат СР-3М</ITEM_NAME_TYPE58>
+  <ITEM_NAME_TYPE59>СВД осн.|СВД (осенний кам.)</ITEM_NAME_TYPE59>
+  <ITEM_NAME_TYPE60>FN-FAL стп.|Автомат FN-FAL (степной кам.)</ITEM_NAME_TYPE60>
+  <ITEM_NAME_TYPE61>FN-FAL зим.|Автомат FN-FAL (зимний кам.)</ITEM_NAME_TYPE61>
+  <ITEM_NAME_TYPE62>FN-FAL гор.|Автомат FN-FAL (городской кам.)</ITEM_NAME_TYPE62>
+  <ITEM_NAME_TYPE63>FN-FAL лес.|Автомат FN-FAL (лесной кам.)</ITEM_NAME_TYPE63>
+  <ITEM_NAME_TYPE64>АС-ВАЛ стп.|АС-ВАЛ (степной кам.)</ITEM_NAME_TYPE64>
+  <ITEM_NAME_TYPE65>АС-ВАЛ зим.|АС-ВАЛ (зимний кам.)</ITEM_NAME_TYPE65>
+  <ITEM_NAME_TYPE66>АС-ВАЛ гор.|АС-ВАЛ (городской кам.)</ITEM_NAME_TYPE66>
+  <ITEM_NAME_TYPE67>АС-ВАЛ лес.|АС-ВАЛ (лесной кам.)</ITEM_NAME_TYPE67>
+  <ITEM_NAME_TYPE68>ВСС стп.|ВСС "Винторез" (степной кам.)</ITEM_NAME_TYPE68>
+  <ITEM_NAME_TYPE69>ВСС зим.|ВСС "Винторез" (зимний кам.)</ITEM_NAME_TYPE69>
+  <ITEM_NAME_TYPE70>ВСС гор.|ВСС "Винторез" (городской кам.)</ITEM_NAME_TYPE70>
+  <ITEM_NAME_TYPE71>ВСС лес.|ВСС "Винторез" (лесной кам.)</ITEM_NAME_TYPE71>
+  <ITEM_NAME_TYPE72>HK-G3a|Автомат HK-G3a</ITEM_NAME_TYPE72>
+  <ITEM_NAME_TYPE73>HK-G3a mk2|Автомат HK-G3a mk2</ITEM_NAME_TYPE73>
+  <ITEM_NAME_TYPE74>CZ-805|Автомат CZ-805</ITEM_NAME_TYPE74>
+  <ITEM_NAME_TYPE76>АК-47 стп.|Автомат АК-47 (степной кам.)</ITEM_NAME_TYPE76>
+  <ITEM_NAME_TYPE77>АК-47 зим.|Автомат АК-47 (зимний кам.)</ITEM_NAME_TYPE77>
+  <ITEM_NAME_TYPE78>АК-47 гор.|Автомат АК-47 (городской кам.)</ITEM_NAME_TYPE78>
+  <ITEM_NAME_TYPE79>АК-47 лес.|Автомат АК-47 (лесной кам.)</ITEM_NAME_TYPE79>
+  <ITEM_NAME_TYPE80>WA-2000 стп.|Walter WA-2000 (степной кам.)</ITEM_NAME_TYPE80>
+  <ITEM_NAME_TYPE81>WA-2000 зим.|Walter WA-2000 (зимний кам.)</ITEM_NAME_TYPE81>
+  <ITEM_NAME_TYPE82>WA-2000 гор.|Walter WA-2000 (городской кам.)</ITEM_NAME_TYPE82>
+  <ITEM_NAME_TYPE83>WA-2000 лес.|Walter WA-2000 (лесной кам.)</ITEM_NAME_TYPE83>
+  <ITEM_NAME_TYPE85>MK48 гор.|Пулемет MK48 (городской кам.)</ITEM_NAME_TYPE85>
+  <ITEM_NAME_TYPE86>MK48 лес.|Пулемет MK48 (лесной кам.)</ITEM_NAME_TYPE86>
+  <ITEM_NAME_TYPE87>SIG 751|Автомат SIG SG 751 LB</ITEM_NAME_TYPE87>
+  <ITEM_NAME_TYPE88>MK12 стп.|MK12-SPR (степной кам.)</ITEM_NAME_TYPE88>
+  <ITEM_NAME_TYPE89>MK12 зим.|MK12-SPR (зимний кам.)</ITEM_NAME_TYPE89>
+  <ITEM_NAME_TYPE90>MK12 гор.|MK12-SPR (городской кам.)</ITEM_NAME_TYPE90>
+  <ITEM_NAME_TYPE91>MK12 лес.|MK12-SPR (лесной кам.)</ITEM_NAME_TYPE91>
+  <ITEM_NAME_TYPE92>HK-417|Автомат HK-417</ITEM_NAME_TYPE92>
+  <ITEM_NAME_TYPE93>SIG 716|Автомат SIG 716</ITEM_NAME_TYPE93>
+  <ITEM_NAME_TYPE94>СВУ|Снайперская Винтовка Укороченная (ОЦ-3)</ITEM_NAME_TYPE94>
+  <ITEM_NAME_TYPE95>FN SCAR-H|Автомат FN mk.17 SCAR-H</ITEM_NAME_TYPE95>
+  <ITEM_NAME_TYPE96>SIG 751|Автомат SIG SG 751 LB</ITEM_NAME_TYPE96>
+  <ITEM_NAME_TYPE97>Гроза-1|Автомат ОЦ-14 под 7.62х39</ITEM_NAME_TYPE97>
+  <ITEM_NAME_TYPE100>Ниндзя|Бронежилет "Ниндзя"</ITEM_NAME_TYPE100>
+  <ITEM_NAME_TYPE101>Кайзер|Бронежилет "Кайзер"</ITEM_NAME_TYPE101>
+  <ITEM_NAME_TYPE102>Драгун|Бронежилет "Драгун"</ITEM_NAME_TYPE102>
+  <ITEM_NAME_TYPE103>Викинг|Шлем "Викинг"</ITEM_NAME_TYPE103>
+  <ITEM_NAME_TYPE104>Лонги|Штаны "Лонги"</ITEM_NAME_TYPE104>
+  <ITEM_NAME_TYPE105>Вязанка|Шапка "Вязанка"</ITEM_NAME_TYPE105>
+  <ITEM_NAME_TYPE106>Панама|Шляпа "Панама"</ITEM_NAME_TYPE106>
+  <ITEM_NAME_TYPE107>Пачка|Костюм "Пачка"</ITEM_NAME_TYPE107>
+  <ITEM_NAME_TYPE108>Штормовка|Куртка "Штормовка"</ITEM_NAME_TYPE108>
+  <ITEM_NAME_TYPE109>Штормовка с кап.|Куртка "Штормовка" с капюшоном</ITEM_NAME_TYPE109>
+  <ITEM_NAME_TYPE110>Фауна|Бронежилет "Фауна"</ITEM_NAME_TYPE110>
+  <ITEM_NAME_TYPE111>Чак|Штаны "Чак"</ITEM_NAME_TYPE111>
+  <ITEM_NAME_TYPE112>Чак|Бронежилет "Чак"</ITEM_NAME_TYPE112>
+  <ITEM_NAME_TYPE113>Секвойа 10кг|Рюкзак "Секвойа 80"</ITEM_NAME_TYPE113>
+  <ITEM_NAME_TYPE114>Колобок 5кг|Рюкзак "Колобок"</ITEM_NAME_TYPE114>
+  <ITEM_NAME_TYPE115>Арм. 15кг|Армейский рюкзак</ITEM_NAME_TYPE115>
+  <ITEM_NAME_TYPE116>Берет|Военный Берет</ITEM_NAME_TYPE116>
+  <ITEM_NAME_TYPE117>Граффити|Маска "Граффити"</ITEM_NAME_TYPE117>
+  <ITEM_NAME_TYPE118>ШИЗ|Штаны ШИЗ</ITEM_NAME_TYPE118>
+  <ITEM_NAME_TYPE119>ШИЗ|Бронежилет ШИЗ</ITEM_NAME_TYPE119>
+  <ITEM_NAME_TYPE120>Хаки|Куртка "Хаки"</ITEM_NAME_TYPE120>
+  <ITEM_NAME_TYPE121>Хаки с кап.|Куртка "Хаки" с капюшоном</ITEM_NAME_TYPE121>
+  <ITEM_NAME_TYPE122>Кожанка|Куртка Кожанка</ITEM_NAME_TYPE122>
+  <ITEM_NAME_TYPE123>Партизан|Телогрейка "Партизан"</ITEM_NAME_TYPE123>
+  <ITEM_NAME_TYPE124>Спецовка|Куртка "Спецовка"</ITEM_NAME_TYPE124>
+  <ITEM_NAME_TYPE125>Ученый|Халат "Ученый"</ITEM_NAME_TYPE125>
+  <ITEM_NAME_TYPE126>Техник|Халат "Техник"</ITEM_NAME_TYPE126>
+  <ITEM_NAME_TYPE127>Санитар|Медицинский халат "Санитар"</ITEM_NAME_TYPE127>
+  <ITEM_NAME_TYPE128>Очкарик|Шлем ШИЗ "Очкарик"</ITEM_NAME_TYPE128>
+  <ITEM_NAME_TYPE129>Прорезь|Шлем ШИЗ "Прорезь"</ITEM_NAME_TYPE129>
+  <ITEM_NAME_TYPE130>Хаки|Штаны "Хаки"</ITEM_NAME_TYPE130>
+  <ITEM_NAME_TYPE131>Харват|Штаны "Харват"</ITEM_NAME_TYPE131>
+  <ITEM_NAME_TYPE132>Партизан|Штаны "Партизан"</ITEM_NAME_TYPE132>
+  <ITEM_NAME_TYPE133>Флора|Бронежилет "Флора"</ITEM_NAME_TYPE133>
+  <ITEM_NAME_TYPE134>Майка|Бронежилет "Майка"</ITEM_NAME_TYPE134>
+  <ITEM_NAME_TYPE135>Омлет|Бронежилет "Омлет"</ITEM_NAME_TYPE135>
+  <ITEM_NAME_TYPE136>Крыса|Бронежилет "Железная Крыса"</ITEM_NAME_TYPE136>
+  <ITEM_NAME_TYPE137>Сандал|Бронежилет "Сандал"</ITEM_NAME_TYPE137>
+  <ITEM_NAME_TYPE138>Шкурка|Бронежилет "Шкурка"</ITEM_NAME_TYPE138>
+  <ITEM_NAME_TYPE139>Шпинат|Бронежилет "Шпинат"</ITEM_NAME_TYPE139>
+  <ITEM_NAME_TYPE140>Сухарь|Бронежилет "Сухарь"</ITEM_NAME_TYPE140>
+  <ITEM_NAME_TYPE141>ТАШ|Бронежилет ТАШ</ITEM_NAME_TYPE141>
+  <ITEM_NAME_TYPE142>Ворот|Бронежилет "Ворот"</ITEM_NAME_TYPE142>
+  <ITEM_NAME_TYPE143>Партизан 12кг|Рюкзак "Партизан"</ITEM_NAME_TYPE143>
+  <ITEM_NAME_TYPE144>Козырь|Шапка "Козырь"</ITEM_NAME_TYPE144>
+  <ITEM_NAME_TYPE145>Мазай|Шапка "Мазай"</ITEM_NAME_TYPE145>
+  <ITEM_NAME_TYPE146>Бандито|Повязка "Бандито"</ITEM_NAME_TYPE146>
+  <ITEM_NAME_TYPE147>Инглиш|Маска "Инглиш"</ITEM_NAME_TYPE147>
+  <ITEM_NAME_TYPE148>Слоник|Противогаз "Слоник"</ITEM_NAME_TYPE148>
+  <ITEM_NAME_TYPE149>Визирь|Повязка "Визирь"</ITEM_NAME_TYPE149>
+  <ITEM_NAME_TYPE150>Марс|Костюм "Марс"</ITEM_NAME_TYPE150>
+  <ITEM_NAME_TYPE151>Угорь|Костюм "Угорь"</ITEM_NAME_TYPE151>
+  <ITEM_NAME_TYPE152>Военстал|Костюм "Военстал"</ITEM_NAME_TYPE152>
+  <ITEM_NAME_TYPE153>Сигма|Костюм "Сигма"</ITEM_NAME_TYPE153>
+  <ITEM_NAME_TYPE154>Шторм|Костюм "Шторм"</ITEM_NAME_TYPE154>
+  <ITEM_NAME_TYPE155>Чак|Куртка "Чак"</ITEM_NAME_TYPE155>
+  <ITEM_NAME_TYPE156>Шакал|Броня "Шакал"</ITEM_NAME_TYPE156>
+  <ITEM_NAME_TYPE157>Шакал|Куртка "Шакал"</ITEM_NAME_TYPE157>
+  <ITEM_NAME_TYPE158>Шакал|Штаны "Шакал"</ITEM_NAME_TYPE158>
+  <ITEM_NAME_TYPE160>Вороний лес|Шлем "Вороний лес"</ITEM_NAME_TYPE160>
+  <ITEM_NAME_TYPE161>Вороний лес|Бронежилет "Вороний лес"</ITEM_NAME_TYPE161>
+  <ITEM_NAME_TYPE162>Вороний лес|Штаны "Вороний лес"</ITEM_NAME_TYPE162>
+  <ITEM_NAME_TYPE163>КК|Костюм "Красный Крест"</ITEM_NAME_TYPE163>
+  <ITEM_NAME_TYPE164>ППС|Костюм ППС</ITEM_NAME_TYPE164>
+  <ITEM_NAME_TYPE165>Маскиров.|Костюм маскировочный</ITEM_NAME_TYPE165>
+  <ITEM_NAME_TYPE166>Викинг М2|Шлем "Викинг" модифицированный</ITEM_NAME_TYPE166>
+  <ITEM_NAME_TYPE167>Драгун М2|Бронежилет "Драгун М2"</ITEM_NAME_TYPE167>
+  <ITEM_NAME_TYPE168>Крыса М2|Бронежилет "Железная Крыса М2"</ITEM_NAME_TYPE168>
+  <ITEM_NAME_TYPE169>ТАШ М2|Бронежилет ТАШ М2</ITEM_NAME_TYPE169>
+  <ITEM_NAME_TYPE170>Очки Кобра|Очки "Кобра"</ITEM_NAME_TYPE170>
+  <ITEM_NAME_TYPE171>Шпинат зим.|Бронежилет "Шпинат" (зимний кам.)</ITEM_NAME_TYPE171>
+  <ITEM_NAME_TYPE172>ТАШ зим.|Бронежилет ТАШ (зимний кам.)</ITEM_NAME_TYPE172>
+  <ITEM_NAME_TYPE173>Хаки зим.|Куртка "Хаки" (зимний кам.)</ITEM_NAME_TYPE173>
+  <ITEM_NAME_TYPE174>Хаки зим.|Штаны "Хаки" (зимний кам.)</ITEM_NAME_TYPE174>
+  <ITEM_NAME_TYPE175>Викинг зим.|Шлем "Викинг" (зимний кам.)</ITEM_NAME_TYPE175>
+  <ITEM_NAME_TYPE176>Партизан зим.|Рюкзак "Партизан" (зимний кам.)</ITEM_NAME_TYPE176>
+  <ITEM_NAME_TYPE177>Страж|Костюм "Страж"</ITEM_NAME_TYPE177>
+  <ITEM_NAME_TYPE178>Инквизитор|Костюм "Инквизитор"</ITEM_NAME_TYPE178>
+  <ITEM_NAME_TYPE179>Хищник|Костюм "Хищник"</ITEM_NAME_TYPE179>
+  <ITEM_NAME_TYPE180>ТАШ|Штаны ТАШ</ITEM_NAME_TYPE180>
+  <ITEM_NAME_TYPE181>Секв.10кг стп.|Рюкзак "Секвойа 80" (степной кам.)</ITEM_NAME_TYPE181>
+  <ITEM_NAME_TYPE182>Секв.10кг зим.|Рюкзак "Секвойа 80" (зимний кам.)</ITEM_NAME_TYPE182>
+  <ITEM_NAME_TYPE183>Секв.10кг гор.|Рюкзак "Секвойа 80" (городской кам.)</ITEM_NAME_TYPE183>
+  <ITEM_NAME_TYPE184>Секв.10кг лес.|Рюкзак "Секвойа 80" (лесной кам.)</ITEM_NAME_TYPE184>
+  <ITEM_NAME_TYPE185>Тень|Костюм "Тень"</ITEM_NAME_TYPE185>
+  <ITEM_NAME_TYPE186>Берет(кр)|Военный Берет красный</ITEM_NAME_TYPE186>
+  <ITEM_NAME_TYPE187>Берет(син)|Военный Берет синий</ITEM_NAME_TYPE187>
+  <ITEM_NAME_TYPE188>Тишина|Костюм "Тишина"</ITEM_NAME_TYPE188>
+  <ITEM_NAME_TYPE189>Одиночки|Костюм "Одиночки"</ITEM_NAME_TYPE189>
+  <ITEM_NAME_TYPE190>Одиночки 15кг|Рюкзак "Одиночки"</ITEM_NAME_TYPE190>
+  <ITEM_NAME_TYPE193>Химера|Костюм "Химера"</ITEM_NAME_TYPE193>
+  <ITEM_NAME_TYPE194>Химера|Рюкзак "Химера"</ITEM_NAME_TYPE194>
+  <ITEM_NAME_TYPE195>STELS|Костюм "STELS"</ITEM_NAME_TYPE195>
+  <ITEM_NAME_TYPE196>Кинолог|Костюм "Кинолог"</ITEM_NAME_TYPE196>
+  <ITEM_NAME_TYPE200>Экран|Артефакт "Экран"</ITEM_NAME_TYPE200>
+  <ITEM_NAME_TYPE201>Подушка|Артефакт "Подушка"</ITEM_NAME_TYPE201>
+  <ITEM_NAME_TYPE202>Щит|Артефакт "Щит"</ITEM_NAME_TYPE202>
+  <ITEM_NAME_TYPE203>Стаб.|Артефакт "Стабилизатор"</ITEM_NAME_TYPE203>
+  <ITEM_NAME_TYPE204>Резина|Артефакт "Резина"</ITEM_NAME_TYPE204>
+  <ITEM_NAME_TYPE205>Антиграв|Артефакт "Антиграв"</ITEM_NAME_TYPE205>
+  <ITEM_NAME_TYPE206>Р.Экран|Артефакт "Разбитый экран"</ITEM_NAME_TYPE206>
+  <ITEM_NAME_TYPE207>Везувий|Артефакт "Везувий"</ITEM_NAME_TYPE207>
+  <ITEM_NAME_TYPE208>Марево|Артефакт "Марево"</ITEM_NAME_TYPE208>
+  <ITEM_NAME_TYPE209>Проводник|Артефакт "Проводник"</ITEM_NAME_TYPE209>
+  <ITEM_NAME_TYPE210>Грелка|Артефакт "Грелка"</ITEM_NAME_TYPE210>
+  <ITEM_NAME_TYPE211>ARTIFACT_HEAT_ALPHA</ITEM_NAME_TYPE211>
+  <ITEM_NAME_TYPE212>ARTIFACT_HEAT_BETA</ITEM_NAME_TYPE212>
+  <ITEM_NAME_TYPE216>ARTIFACT_CHILL_ALPHA</ITEM_NAME_TYPE216>
+  <ITEM_NAME_TYPE217>ARTIFACT_CHILL_BETA</ITEM_NAME_TYPE217>
+  <ITEM_NAME_TYPE300>Бинокль|Бинокль</ITEM_NAME_TYPE300>
+  <ITEM_NAME_TYPE301>Дет.Аном.|Детектор аномалий</ITEM_NAME_TYPE301>
+  <ITEM_NAME_TYPE302>МЗА|Магнитный захват артефактов</ITEM_NAME_TYPE302>
+  <ITEM_NAME_TYPE303>МЗА собр.|Магнитный захват (собранный)</ITEM_NAME_TYPE303>
+  <ITEM_NAME_TYPE304>МЗА прот.|Магнитный захват (прототип)</ITEM_NAME_TYPE304>
+  <ITEM_NAME_TYPE305>МЗА модул.|Магнитный захват (модульный)</ITEM_NAME_TYPE305>
+  <ITEM_NAME_TYPE306>Бинокль НВ.|Бинокль ночного видения</ITEM_NAME_TYPE306>
+  <ITEM_NAME_TYPE400>Апт.мал.|Автомобильная аптечка</ITEM_NAME_TYPE400>
+  <ITEM_NAME_TYPE401>Ремнабор|Ремнабор</ITEM_NAME_TYPE401>
+  <ITEM_NAME_TYPE402>"АК74М стб"|Чертеж стабилизированного АК74М</ITEM_NAME_TYPE402>
+  <ITEM_NAME_TYPE403>"9х18 яд"|Чертеж отравленных патронов</ITEM_NAME_TYPE403>
+  <ITEM_NAME_TYPE404>Апт.сред.|Аптечка фельдшера</ITEM_NAME_TYPE404>
+  <ITEM_NAME_TYPE405>Апт.бол.|Санитарный набор</ITEM_NAME_TYPE405>
+  <ITEM_NAME_TYPE406>"Шашка"|Чертеж изготовления самодельной шашки</ITEM_NAME_TYPE406>
+  <ITEM_NAME_TYPE407>"C6H12O4"|Рецепт диперекиси ацетона</ITEM_NAME_TYPE407>
+  <ITEM_NAME_TYPE408>в."ТАШ М2"|Чертеж восстановления брони "ТАШ М2"</ITEM_NAME_TYPE408>
+  <ITEM_NAME_TYPE409>в."Драгун М2"|Чертеж восстановления брони "Драгун М2"</ITEM_NAME_TYPE409>
+  <ITEM_NAME_TYPE410>в."Ниндзя"|Чертеж восстановления брони "Ниндзя"</ITEM_NAME_TYPE410>
+  <ITEM_NAME_TYPE411>в."Кайзер"|Чертеж восстановления брони "Кайзер"</ITEM_NAME_TYPE411>
+  <ITEM_NAME_TYPE412>в."Драгун"|Чертеж восстановления брони "Драгун"</ITEM_NAME_TYPE412>
+  <ITEM_NAME_TYPE413>в."Фауна"|Чертеж восстановления брони "Фауна"</ITEM_NAME_TYPE413>
+  <ITEM_NAME_TYPE414>в."Чак" Б|Чертеж восстановления брони "Чак"</ITEM_NAME_TYPE414>
+  <ITEM_NAME_TYPE415>в."ШИЗ" Б|Чертеж восстановления брони ШИЗ</ITEM_NAME_TYPE415>
+  <ITEM_NAME_TYPE416>в."Флора"|Чертеж восстановления брони "Флора"</ITEM_NAME_TYPE416>
+  <ITEM_NAME_TYPE417>в."Майка"|Чертеж восстановления брони "Майка"</ITEM_NAME_TYPE417>
+  <ITEM_NAME_TYPE418>в."Омлет"|Чертеж восстановления брони "Омлет"</ITEM_NAME_TYPE418>
+  <ITEM_NAME_TYPE419>в."Крыса"|Чертеж восстановления брони "Крыса"</ITEM_NAME_TYPE419>
+  <ITEM_NAME_TYPE420>в."Сандал"|Чертеж восстановления брони "Сандал"</ITEM_NAME_TYPE420>
+  <ITEM_NAME_TYPE421>в."Шкурка"|Чертеж восстановления брони "Шкурка"</ITEM_NAME_TYPE421>
+  <ITEM_NAME_TYPE422>в."Шпинат"|Чертеж восстановления брони "Шпинат"</ITEM_NAME_TYPE422>
+  <ITEM_NAME_TYPE423>в."Сухарь"|Чертеж восстановления брони "Сухарь"</ITEM_NAME_TYPE423>
+  <ITEM_NAME_TYPE424>в."ТАШ"|Чертеж восстановления брони "ТАШ"</ITEM_NAME_TYPE424>
+  <ITEM_NAME_TYPE425>в."Ворот"|Чертеж восстановления брони "Ворот"</ITEM_NAME_TYPE425>
+  <ITEM_NAME_TYPE426>"СМЗ"|Чертеж самодельного магнитного захвата</ITEM_NAME_TYPE426>
+  <ITEM_NAME_TYPE427>в."DSC"|Чертеж восстановления брони группировки DSC</ITEM_NAME_TYPE427>
+  <ITEM_NAME_TYPE428>в."ВОЕНСТАЛ"|Чертеж восстановления брони группировки "ВОЕНСТАЛ"</ITEM_NAME_TYPE428>
+  <ITEM_NAME_TYPE429>в."Сигма"|Чертеж восстановления брони группировки "Сигма"</ITEM_NAME_TYPE429>
+  <ITEM_NAME_TYPE430>в."Крыса М2"|Чертеж восстановления брони "Железная Крыса М2"</ITEM_NAME_TYPE430>
+  <ITEM_NAME_TYPE431>Костёр|Костёр</ITEM_NAME_TYPE431>
+  <ITEM_NAME_TYPE432>р."ТАШ" разб.|Чертеж разборки бронежилета ТАШ на компоненты</ITEM_NAME_TYPE432>
+  <ITEM_NAME_TYPE433>в."КК"|Чертеж восстановления брони группировки "Красный Крест"</ITEM_NAME_TYPE433>
+  <ITEM_NAME_TYPE434>в."ППС"|Чертеж восстановления брони группировки ППС</ITEM_NAME_TYPE434>
+  <ITEM_NAME_TYPE435>в.штаны"ШИЗ"|Чертеж восстановления штанов ШИЗ</ITEM_NAME_TYPE435>
+  <ITEM_NAME_TYPE436>в."Очкарик"|Чертеж восстановления шлема "Очкарик" ШИЗ</ITEM_NAME_TYPE436>
+  <ITEM_NAME_TYPE437>в."Прорезь"|Чертеж восстановления шлема "Прорезь" ШИЗ</ITEM_NAME_TYPE437>
+  <ITEM_NAME_TYPE438>в."Печенег"|Чертеж ремонта пулемета "Печенег"</ITEM_NAME_TYPE438>
+  <ITEM_NAME_TYPE439>в."Пачка"|Чертеж восстановления костюма "Пачка"</ITEM_NAME_TYPE439>
+  <ITEM_NAME_TYPE440>в."Марс"|Чертеж восстановления костюма "Марс"</ITEM_NAME_TYPE440>
+  <ITEM_NAME_TYPE441>в."Угорь"|Чертеж восстановления костюма Угорь</ITEM_NAME_TYPE441>
+  <ITEM_NAME_TYPE442>в."Маскиров."|Чертеж восстановления маскировочной брони.</ITEM_NAME_TYPE442>
+  <ITEM_NAME_TYPE443>м."Викинг М2"|Чертеж модификации каски Викинг</ITEM_NAME_TYPE443>
+  <ITEM_NAME_TYPE444>м."Драгун М2"|Чертеж модификации бронежилета Драгун</ITEM_NAME_TYPE444>
+  <ITEM_NAME_TYPE445>м."Крыса М2"|Чертеж модификации бронежилета "Железная Крыса"</ITEM_NAME_TYPE445>
+  <ITEM_NAME_TYPE446>м."ТАШ М2"|Чертеж модификации бронежилета ТАШ</ITEM_NAME_TYPE446>
+  <ITEM_NAME_TYPE447>в."Тень"|Чертеж восстановления брони "Тень"</ITEM_NAME_TYPE447>
+  <ITEM_NAME_TYPE448>в."СВУ-А"|Чертеж ремонта СВУ-А</ITEM_NAME_TYPE448>
+  <ITEM_NAME_TYPE449>в."Инквизит."|Чертеж восстановления брони группировки "Инквизиция"</ITEM_NAME_TYPE449>
+  <ITEM_NAME_TYPE450>в."Хищник"|Чертеж восстановления брони "Хищник"</ITEM_NAME_TYPE450>
+  <ITEM_NAME_TYPE451>в."HK-417"|Чертеж ремонта HK-417</ITEM_NAME_TYPE451>
+  <ITEM_NAME_TYPE452>в."SIG 716"|Чертеж ремонта SIG 716</ITEM_NAME_TYPE452>
+  <ITEM_NAME_TYPE453>в.курт."Шакал"|Чертеж восстановления куртки "Шакал"</ITEM_NAME_TYPE453>
+  <ITEM_NAME_TYPE454>в.брон."Шакал"|Чертеж восстановления бронежилета "Шакал"</ITEM_NAME_TYPE454>
+  <ITEM_NAME_TYPE455>в.штаны"Шакал"|Чертеж восстановления штанов "Шакал"</ITEM_NAME_TYPE455>
+  <ITEM_NAME_TYPE456>в.шлем "ВЛ"|Чертеж восстановления шлема "Вороний Лес"</ITEM_NAME_TYPE456>
+  <ITEM_NAME_TYPE457>в.брон."ВЛ"|Чертеж восстановления бронежилета "Вороний Лес"</ITEM_NAME_TYPE457>
+  <ITEM_NAME_TYPE458>в.штаны"ВЛ"|Чертеж восстановления штанов "Вороний Лес"</ITEM_NAME_TYPE458>
+  <ITEM_NAME_TYPE459>в."Шпинат" зим.|Чертеж восстановления брони "Шпинат" (зимний кам.)</ITEM_NAME_TYPE459>
+  <ITEM_NAME_TYPE460>в.брон."ТАШ"|Чертеж восстановления брони ТАШ (зимний кам.)</ITEM_NAME_TYPE460>
+  <ITEM_NAME_TYPE461>в.штаны"Хаки" зим.|Чертеж восстановления штанов "Хаки" (зимний кам.)</ITEM_NAME_TYPE461>
+  <ITEM_NAME_TYPE462>в.штаны"Лонги"|Чертеж восстановления штанов "Лонги"</ITEM_NAME_TYPE462>
+  <ITEM_NAME_TYPE463>в.штаны"Хаки"|Чертеж восстановления штанов "Хаки"</ITEM_NAME_TYPE463>
+  <ITEM_NAME_TYPE464>в.штаны"Партиз."|Чертеж восстановления штанов "Партизан"</ITEM_NAME_TYPE464>
+  <ITEM_NAME_TYPE465>в.штаны"Чак"|Чертеж восстановления штанов "Чак"</ITEM_NAME_TYPE465>
+  <ITEM_NAME_TYPE466>в.штаны"ТАШ"|Чертеж восстановления штанов ТАШ</ITEM_NAME_TYPE466>
+  <ITEM_NAME_TYPE467>в.штаны"Харват" Ш|Чертеж восстановления штанов "Харват"</ITEM_NAME_TYPE467>
+  <ITEM_NAME_TYPE468>в."СВУ-ОЦ"|Чертеж ремонта СВУ-ОЦ</ITEM_NAME_TYPE468>
+  <ITEM_NAME_TYPE469>в."SCAR-H"|Чертеж ремонта FN mk.17 SCAR-H</ITEM_NAME_TYPE469>
+  <ITEM_NAME_TYPE472>в."Страж"|Чертеж восстановления брони "Страж"</ITEM_NAME_TYPE472>
+  <ITEM_NAME_TYPE473>Консервы|Ящик консервов</ITEM_NAME_TYPE473>
+  <ITEM_NAME_TYPE474>Противоядие|Набор противоядия</ITEM_NAME_TYPE474>
+  <ITEM_NAME_TYPE475>Антирад.|Средство выведения радиации</ITEM_NAME_TYPE475>
+  <ITEM_NAME_TYPE476>Бинты|Пачка медицинских бинтов</ITEM_NAME_TYPE476>
+  <ITEM_NAME_TYPE477>в."SIG 751"|Чертеж восстановления SIG SG 751 LB</ITEM_NAME_TYPE477>
+  <ITEM_NAME_TYPE478>в."WA-2000"|Чертеж восстановления WA-2000</ITEM_NAME_TYPE478>
+  <ITEM_NAME_TYPE479>"WA-2000" стп.|Чертеж восстановления WA-2000 (степной кам.)</ITEM_NAME_TYPE479>
+  <ITEM_NAME_TYPE480>"WA-2000" зим.|Чертеж восстановления WA-2000 (зимний кам.)</ITEM_NAME_TYPE480>
+  <ITEM_NAME_TYPE481>"WA-2000" гор.|Чертеж восстановления WA-2000 (городской кам.)</ITEM_NAME_TYPE481>
+  <ITEM_NAME_TYPE482>"WA-2000" лес.|Чертеж восстановления WA-2000 (лесной кам.)</ITEM_NAME_TYPE482>
+  <ITEM_NAME_TYPE483>в."Викинг" зим|Чертеж восстановления шлема Викинг (зимний кам.)</ITEM_NAME_TYPE483>
+  <ITEM_NAME_TYPE484>Апт.супер|Супер аптечка</ITEM_NAME_TYPE484>
+  <ITEM_NAME_TYPE485>"SIG 751 G"|Чертеж восстановления SIG SG 751 LB G</ITEM_NAME_TYPE485>
+  <ITEM_NAME_TYPE486>"Mk48" гор.|Чертеж восстановления MK48 (городской кам.)</ITEM_NAME_TYPE486>
+  <ITEM_NAME_TYPE487>"Mk48" лес.|Чертеж восстановления MK48 (лесной кам.)</ITEM_NAME_TYPE487>
+  <ITEM_NAME_TYPE488>в."Тишина"|Чертеж восстановления брони "Тишина"</ITEM_NAME_TYPE488>
+  <ITEM_NAME_TYPE489>в."Одиночка"|Чертеж восстановления брони "Одиночка"</ITEM_NAME_TYPE489>
+  <ITEM_NAME_TYPE490>Жар-Крыса|Пачка жареных крыс</ITEM_NAME_TYPE490>
+  <ITEM_NAME_TYPE491>"Лапки"|Вареные паучьи лапки (3 шт)</ITEM_NAME_TYPE491>
+  <ITEM_NAME_TYPE492>Соб.Головы|Жареные собачьи головы</ITEM_NAME_TYPE492>
+  <ITEM_NAME_TYPE493>Каб.Нога|Жареная кабанья нога</ITEM_NAME_TYPE493>
+  <ITEM_NAME_TYPE494>Печ.Голова|Печеная голова медведя.</ITEM_NAME_TYPE494>
+  <ITEM_NAME_TYPE496>Тушенка|Банка подозрительной тушенки</ITEM_NAME_TYPE496>
+  <ITEM_NAME_TYPE402000>Фейерв.5|Фейерверк из 5 залпов</ITEM_NAME_TYPE402000>
+  <ITEM_NAME_TYPE501>г.СР-3М|Глушитель СР-3М</ITEM_NAME_TYPE501>
+  <ITEM_NAME_TYPE502>ПСО-1|Советский прицел ПСО-1</ITEM_NAME_TYPE502>
+  <ITEM_NAME_TYPE504>20п. 9х39|Магазин на 20 патронов 9х39</ITEM_NAME_TYPE504>
+  <ITEM_NAME_TYPE505>Зенит|Тактический фонарь Зенит-2ДС</ITEM_NAME_TYPE505>
+  <ITEM_NAME_TYPE506>Колл.Прицел|Советский коллиматорный прицел</ITEM_NAME_TYPE506>
+  <ITEM_NAME_TYPE507>Comp-1|Штурмовой прицел Comp-1</ITEM_NAME_TYPE507>
+  <ITEM_NAME_TYPE508>ACOG TA2|Штурмовой прицел ACOG TA2</ITEM_NAME_TYPE508>
+  <ITEM_NAME_TYPE509>Comp-3М|Штурмовой прицел Comp-3М</ITEM_NAME_TYPE509>
+  <ITEM_NAME_TYPE510>Comp-4М|Штурмовой прицел Comp-4М</ITEM_NAME_TYPE510>
+  <ITEM_NAME_TYPE511>CBX-8|Снайперский прицел CBX 8x56</ITEM_NAME_TYPE511>
+  <ITEM_NAME_TYPE512>CBX-12|Снайперский прицел Kahles CBX 12x</ITEM_NAME_TYPE512>
+  <ITEM_NAME_TYPE513>MSS 6x|Снайперский прицел MSS 6x</ITEM_NAME_TYPE513>
+  <ITEM_NAME_TYPE514>MSS 4x|Снайперский прицел MSS 4x</ITEM_NAME_TYPE514>
+  <ITEM_NAME_TYPE515>CQT 3х|Снайперский прицел CQT 3х</ITEM_NAME_TYPE515>
+  <ITEM_NAME_TYPE516>X300|Тактический "Фонарь Surefire X300"</ITEM_NAME_TYPE516>
+  <ITEM_NAME_TYPE517>Фонарь М2|Подствольный фонарь "НАТО М2"</ITEM_NAME_TYPE517>
+  <ITEM_NAME_TYPE518>Лазерн.Ук.|Лазерный Целеуказатель</ITEM_NAME_TYPE518>
+  <ITEM_NAME_TYPE519>ПО 4х34|Снайперский прицел ПО 4х34.</ITEM_NAME_TYPE519>
+  <ITEM_NAME_TYPE520>ПО 6х36|Снайперский прицел ПО 6х36.</ITEM_NAME_TYPE520>
+  <ITEM_NAME_TYPE521>РППК|Российский прицел переменной кратности</ITEM_NAME_TYPE521>
+  <ITEM_NAME_TYPE522>ПОСП 8х42|Снайперский прицел ПОСП 8х42.</ITEM_NAME_TYPE522>
+  <ITEM_NAME_TYPE528>Глуш.П|Пистолетный глушитель</ITEM_NAME_TYPE528>
+  <ITEM_NAME_TYPE529>Глуш.Д.12|Самодельный глушитель для 12 кал.</ITEM_NAME_TYPE529>
+  <ITEM_NAME_TYPE530>GT BOISE|Автоматный глушитель GEMTECH BOISE</ITEM_NAME_TYPE530>
+  <ITEM_NAME_TYPE531>Глуш.А.39|Автоматный глушитель 7.62х39</ITEM_NAME_TYPE531>
+  <ITEM_NAME_TYPE532>Глуш.А.7|Автоматный глушитель 7.62х51 или 7.62х54</ITEM_NAME_TYPE532>
+  <ITEM_NAME_TYPE533>Глуш.С.5|Снайперский глушитель 5.45 или 5.56</ITEM_NAME_TYPE533>
+  <ITEM_NAME_TYPE534>Глуш.С.7|Снайперский глушитель 7.62х51 или 7.62х54</ITEM_NAME_TYPE534>
+  <ITEM_NAME_TYPE535>Глуш.С.9|Специальный глушитель 9х39</ITEM_NAME_TYPE535>
+  <ITEM_NAME_TYPE536>Приц.Ш.Сов|Штурмовой прицел 2-4х "ласточкин хвост"</ITEM_NAME_TYPE536>
+  <ITEM_NAME_TYPE537>Приц.Ш.НАТО|Штурмовой прицел 2-4х НАТО</ITEM_NAME_TYPE537>
+  <ITEM_NAME_TYPE538>Приц.С.Сов|Снайперский прицел 4-6-8х "ласточкин хвост"</ITEM_NAME_TYPE538>
+  <ITEM_NAME_TYPE539>Приц.С.НАТО|Снайперский прицел 4-6-8х НАТО</ITEM_NAME_TYPE539>
+  <ITEM_NAME_TYPE557>Камуф.сеть|Камуфляжная сеть</ITEM_NAME_TYPE557>
+  <ITEM_NAME_TYPE558>НСПУМ|Прицел ночного видения НСПУМ</ITEM_NAME_TYPE558>
+  <ITEM_NAME_TYPE510041>Приц.С.Н ПНВ|Снайперский прицел 4-6-8х НАТО с ПНВ</ITEM_NAME_TYPE510041>
+  <ITEM_NAME_TYPE600>9x18 ПМ|Патроны 9x18 ПМ</ITEM_NAME_TYPE600>
+  <ITEM_NAME_TYPE601>5.45x39|Патроны 5.45x39 ПС</ITEM_NAME_TYPE601>
+  <ITEM_NAME_TYPE602>9x19|Патроны 9x19 luger</ITEM_NAME_TYPE602>
+  <ITEM_NAME_TYPE603>7.62x51|Патроны 7.62x51 SS71</ITEM_NAME_TYPE603>
+  <ITEM_NAME_TYPE604>9x39 СП-5|Патроны 9x39 СП-5</ITEM_NAME_TYPE604>
+  <ITEM_NAME_TYPE605>9x18 бб|Патроны 9x18 ПБМ (брон.)</ITEM_NAME_TYPE605>
+  <ITEM_NAME_TYPE606>12х70 0000|Патроны 12х70 картечь 0000 (8 шт)</ITEM_NAME_TYPE606>
+  <ITEM_NAME_TYPE607>12х76 0000|Патроны 12х76 картечь 0000 (10 шт)</ITEM_NAME_TYPE607>
+  <ITEM_NAME_TYPE608>5.56x45 ss|Патроны 5.56x45 NATO</ITEM_NAME_TYPE608>
+  <ITEM_NAME_TYPE609>.357|Патроны .357 magnum</ITEM_NAME_TYPE609>
+  <ITEM_NAME_TYPE610>9x18 яд|Патроны 9x18 ПСВ с паучьим ядом (эксп.)</ITEM_NAME_TYPE610>
+  <ITEM_NAME_TYPE611>9В|Солевые батареи 9В</ITEM_NAME_TYPE611>
+  <ITEM_NAME_TYPE612>ПГ-7ВМ|Снаряд ПГ-7ВМ</ITEM_NAME_TYPE612>
+  <ITEM_NAME_TYPE613>7.62x54|Патроны 7.62x54 M1908</ITEM_NAME_TYPE613>
+  <ITEM_NAME_TYPE614>9х18 эк|Патроны 9х18 ПСВ (эксп.)</ITEM_NAME_TYPE614>
+  <ITEM_NAME_TYPE615>9x19 бб|Патроны 9x19 (брон.)</ITEM_NAME_TYPE615>
+  <ITEM_NAME_TYPE616>9x19 эк|Патроны 9x19 (эксп.)</ITEM_NAME_TYPE616>
+  <ITEM_NAME_TYPE617>.357 бб|Патроны .357 (брон.)</ITEM_NAME_TYPE617>
+  <ITEM_NAME_TYPE618>.357 обор|Патроны .357 оборонителный (эксп.)</ITEM_NAME_TYPE618>
+  <ITEM_NAME_TYPE619>.357 эк|Патроны .357 (эксп.)</ITEM_NAME_TYPE619>
+  <ITEM_NAME_TYPE620>.357 охот|Патроны .357 охотничий (эксп.)</ITEM_NAME_TYPE620>
+  <ITEM_NAME_TYPE621>7.62x25|Патроны 7.62x25 мм</ITEM_NAME_TYPE621>
+  <ITEM_NAME_TYPE622>7.62x25 эк|Патроны 7.62x25 (эксп.)</ITEM_NAME_TYPE622>
+  <ITEM_NAME_TYPE623>7.62x25 бш|Патроны 7.62x25 (бесш.)</ITEM_NAME_TYPE623>
+  <ITEM_NAME_TYPE624>7.62x38|Патроны 7.62x38 наган</ITEM_NAME_TYPE624>
+  <ITEM_NAME_TYPE625>9x39 ПАБ-9|Патроны 9x39 ПАБ-9</ITEM_NAME_TYPE625>
+  <ITEM_NAME_TYPE626>9x39 СП-6|Патроны 9x39 СП-6</ITEM_NAME_TYPE626>
+  <ITEM_NAME_TYPE627>5.45x39 бб|Патроны 5.45x39 ПП (брон.)</ITEM_NAME_TYPE627>
+  <ITEM_NAME_TYPE628>5.45x39 бб-в|Патроны 5.45x39 БС вольфрам (брон.)</ITEM_NAME_TYPE628>
+  <ITEM_NAME_TYPE629>5.45x39 бш|Патроны 5.45x39 УС (бесш.)</ITEM_NAME_TYPE629>
+  <ITEM_NAME_TYPE630>5.56x45 rem|Патроны 5.56x45 .223 Rem.</ITEM_NAME_TYPE630>
+  <ITEM_NAME_TYPE631>5.56x45 бб|Патроны 5.56x45 M995 (брон.)</ITEM_NAME_TYPE631>
+  <ITEM_NAME_TYPE632>7.62x39|Патроны 7.62x39 ПС</ITEM_NAME_TYPE632>
+  <ITEM_NAME_TYPE633>7.62x39 бб|Патроны 7.62x39 БП (брон.)</ITEM_NAME_TYPE633>
+  <ITEM_NAME_TYPE634>7.62x39 бш|Патроны 7.62x39 УС (бесш.)</ITEM_NAME_TYPE634>
+  <ITEM_NAME_TYPE635>7.62x51 бб|Патроны 7.62x51 M993 (брон.)</ITEM_NAME_TYPE635>
+  <ITEM_NAME_TYPE636>7.62x54 бб|Патроны 7.62x54 БП (брон.)</ITEM_NAME_TYPE636>
+  <ITEM_NAME_TYPE637>7.62x54 эк|Патроны 7.62x54 TMS (эксп.)</ITEM_NAME_TYPE637>
+  <ITEM_NAME_TYPE639>12.7x99 бб|Патроны 12.7x99 М2 (брон.)</ITEM_NAME_TYPE639>
+  <ITEM_NAME_TYPE638>12.7x99|Патроны 12.7x99 М33</ITEM_NAME_TYPE638>
+  <ITEM_NAME_TYPE640>12x70 пуля|Патроны 12x70 пуля</ITEM_NAME_TYPE640>
+  <ITEM_NAME_TYPE642>12x76 пуля|Патроны 12x76 пуля</ITEM_NAME_TYPE642>
+  <ITEM_NAME_TYPE641>12x70 00|Патроны 12x70 картечь 00 (12 шт)</ITEM_NAME_TYPE641>
+  <ITEM_NAME_TYPE643>12x76 00|Патроны 12x76 картечь 00 (15 шт)</ITEM_NAME_TYPE643>
+  <ITEM_NAME_TYPE644>1.5В|Батарейки 1.5В</ITEM_NAME_TYPE644>
+  <ITEM_NAME_TYPE645>3В|Батарейки 3В</ITEM_NAME_TYPE645>
+  <ITEM_NAME_TYPE646>12В|Батарейки 12В</ITEM_NAME_TYPE646>
+  <ITEM_NAME_TYPE647>ПГ-7ВЛ бб|Снаряд ПГ-7ВЛ (брон.)</ITEM_NAME_TYPE647>
+  <ITEM_NAME_TYPE648>ТБГ-7В эк|Снаряд ТБГ-7В "Танин" (эксп.)</ITEM_NAME_TYPE648>
+  <ITEM_NAME_TYPE649>ОГ-7В эк|Снаряд ОГ-7В (эксп.)</ITEM_NAME_TYPE649>
+  <ITEM_NAME_TYPE650>40x53|Гранаты 40мм</ITEM_NAME_TYPE650>
+  <ITEM_NAME_TYPE651>Ракета M74|Гранатометная ракета M74</ITEM_NAME_TYPE651>
+  <ITEM_NAME_TYPE652>9x18 ПМ(-1)|Патроны 9x18 ПМ (отсыревшие)</ITEM_NAME_TYPE652>
+  <ITEM_NAME_TYPE653>7.62x54 т|Патроны 7.62x54 TMS_T</ITEM_NAME_TYPE653>
+  <ITEM_NAME_TYPE654>7.62x51 эк|Патроны 7.62x51 (эксп.)</ITEM_NAME_TYPE654>
+  <ITEM_NAME_TYPE655>7.62x51 бб-в|Патроны 7.62x51 вольфрам (брон.)</ITEM_NAME_TYPE655>
+  <ITEM_NAME_TYPE656>7.62x54 бб-в|Патроны 7.62x54 вольфрам (брон.)</ITEM_NAME_TYPE656>
+  <ITEM_NAME_TYPE657>9x18(тр)|Патроны 9x18 (трвм.)</ITEM_NAME_TYPE657>
+  <ITEM_NAME_TYPE658>9x19(тр)|Патроны 9x19 (трвм.)</ITEM_NAME_TYPE658>
+  <ITEM_NAME_TYPE659>9x33(тр)|Патроны 9x33 (трвм.)</ITEM_NAME_TYPE659>
+  <ITEM_NAME_TYPE660>7.62x25(тр)|Патроны 7.62x25 (трвм.)</ITEM_NAME_TYPE660>
+  <ITEM_NAME_TYPE661>7.62x38(тр)|Патроны 7.62x38 (трвм.)</ITEM_NAME_TYPE661>
+  <ITEM_NAME_TYPE662>9x39(тр)|Патроны 9x39 (трвм.)</ITEM_NAME_TYPE662>
+  <ITEM_NAME_TYPE663>5.45x39(тр)|Патроны 5.45x39 (трвм.)</ITEM_NAME_TYPE663>
+  <ITEM_NAME_TYPE664>5.56x45(тр)|Патроны 5.56x45 (трвм.)</ITEM_NAME_TYPE664>
+  <ITEM_NAME_TYPE665>7.62x39(тр)|Патроны 7.62x39 (трвм.)</ITEM_NAME_TYPE665>
+  <ITEM_NAME_TYPE666>7.62x51(тр)|Патроны 7.62x51 (трвм.)</ITEM_NAME_TYPE666>
+  <ITEM_NAME_TYPE667>7.62x54(тр)|Патроны 7.62x54 (трвм.)</ITEM_NAME_TYPE667>
+  <ITEM_NAME_TYPE669>12x70(тр)|Патроны 12x70 (трвм.)</ITEM_NAME_TYPE669>
+  <ITEM_NAME_TYPE670>12x76(тр)|Патроны 12x76 (трвм.)</ITEM_NAME_TYPE670>
+  <ITEM_NAME_TYPE671>"9х19 FMJ"|Патроны 9х19 FMJ с паучьим ядом</ITEM_NAME_TYPE671>
+  <ITEM_NAME_TYPE672>9x39 яд.|Патроны 9x39 с паучьим ядом</ITEM_NAME_TYPE672>
+  <ITEM_NAME_TYPE700>Ф-1|Граната Ф-1</ITEM_NAME_TYPE700>
+  <ITEM_NAME_TYPE701>Шашка|Самодельная шашка</ITEM_NAME_TYPE701>
+  <ITEM_NAME_TYPE702>Камень|Камень</ITEM_NAME_TYPE702>
+  <ITEM_NAME_TYPE703>Ядер. Гр.|Ядерная граната</ITEM_NAME_TYPE703>
+  <ITEM_NAME_TYPE704>РГД-5|Граната РГД-5</ITEM_NAME_TYPE704>
+  <ITEM_NAME_TYPE705>Ф-1 учебн.|Учебная граната Ф-1</ITEM_NAME_TYPE705>
+  <ITEM_NAME_TYPE706>|FRAG_GRENADE_RGN</ITEM_NAME_TYPE706>
+  <ITEM_NAME_TYPE707>|FRAG_GRENADE_RGO</ITEM_NAME_TYPE707>
+  <ITEM_NAME_TYPE708>|SNOW_GRENADE</ITEM_NAME_TYPE708>
+  <ITEM_NAME_TYPE709>|FLASH_GRENADE</ITEM_NAME_TYPE709>
+  <ITEM_NAME_TYPE710>|WEB_GRENADE</ITEM_NAME_TYPE710>
+  <ITEM_NAME_TYPE711>|POISON_GRENADE</ITEM_NAME_TYPE711>
+  <ITEM_NAME_TYPE712>|GLUE_GRENADE</ITEM_NAME_TYPE712>
+  <ITEM_NAME_TYPE713>Кисл. гр.| Самодельная HOMEMADE_ACID_GRENADE</ITEM_NAME_TYPE713>
+  <ITEM_NAME_TYPE714>Дымовая г.|Дымовая граната</ITEM_NAME_TYPE714>
+  <ITEM_NAME_TYPE715>Молотов|Коктейль Молотова</ITEM_NAME_TYPE715>
+  <ITEM_NAME_TYPE716>Дым.гр.|Самодельная дымовая граната</ITEM_NAME_TYPE716>
+  <ITEM_NAME_TYPE717>граната|Самодельная осколочная граната</ITEM_NAME_TYPE717>
+  <ITEM_NAME_TYPE718>гран.яд|Самодельная осколочная граната с паучьим ядом</ITEM_NAME_TYPE718>
+  <ITEM_NAME_TYPE800>Лапка П|Небольшая паучья лапа</ITEM_NAME_TYPE800>
+  <ITEM_NAME_TYPE801>Голова ММ|Голова молодого медведя</ITEM_NAME_TYPE801>
+  <ITEM_NAME_TYPE802>Лапа МВ|Лапа молодой верлиоки</ITEM_NAME_TYPE802>
+  <ITEM_NAME_TYPE803>Голова С|Голова собаки-мутанта</ITEM_NAME_TYPE803>
+  <ITEM_NAME_TYPE804>Клык МК|Клык молодого кабана</ITEM_NAME_TYPE804>
+  <ITEM_NAME_TYPE805>Нога МК|Нога молодого кабана</ITEM_NAME_TYPE805>
+  <ITEM_NAME_TYPE806>Клык К|Клык кабана</ITEM_NAME_TYPE806>
+  <ITEM_NAME_TYPE808>Клык Б|Клык борова</ITEM_NAME_TYPE808>
+  <ITEM_NAME_TYPE807>Нога К|Нога кабана</ITEM_NAME_TYPE807>
+  <ITEM_NAME_TYPE809>Нога Б|Нога борова</ITEM_NAME_TYPE809>
+  <ITEM_NAME_TYPE810>Голова ДС|Голова дикой собаки</ITEM_NAME_TYPE810>
+  <ITEM_NAME_TYPE811>Челюсть|Челюсть полярной собаки</ITEM_NAME_TYPE811>
+  <ITEM_NAME_TYPE812>Лапа В|Лапа верлиоки</ITEM_NAME_TYPE812>
+  <ITEM_NAME_TYPE813>Лапа ПВ|Лапа панцирной верлиоки</ITEM_NAME_TYPE813>
+  <ITEM_NAME_TYPE814>Голова М|Голова медведя</ITEM_NAME_TYPE814>
+  <ITEM_NAME_TYPE815>Голова БМ|Голова большого медведя</ITEM_NAME_TYPE815>
+  <ITEM_NAME_TYPE816>Лапа П|Лапа паука</ITEM_NAME_TYPE816>
+  <ITEM_NAME_TYPE817>Лапа КП|Лапа королевского паука</ITEM_NAME_TYPE817>
+  <ITEM_NAME_TYPE818>Лапа УП|Лапа ужасающего паука</ITEM_NAME_TYPE818>
+  <ITEM_NAME_TYPE819>Хвост БК|Хвост большой крысы</ITEM_NAME_TYPE819>
+  <ITEM_NAME_TYPE820>Хвост ГК|Хвост гигантской крысы</ITEM_NAME_TYPE820>
+  <ITEM_NAME_TYPE821>Коготь ГБ|Коготь глупого бляка</ITEM_NAME_TYPE821>
+  <ITEM_NAME_TYPE822>Коготь Б|Коготь бляка</ITEM_NAME_TYPE822>
+  <ITEM_NAME_TYPE823>Коготь УБ|Коготь умного бляка</ITEM_NAME_TYPE823>
+  <ITEM_NAME_TYPE824>Язык ГБ|Язык глупого бляка</ITEM_NAME_TYPE824>
+  <ITEM_NAME_TYPE825>Язык Б|Язык бляка</ITEM_NAME_TYPE825>
+  <ITEM_NAME_TYPE826>Язык УБ|Язык умного бляка</ITEM_NAME_TYPE826>
+  <ITEM_NAME_TYPE827>Рука МБ|Рука медленного беса</ITEM_NAME_TYPE827>
+  <ITEM_NAME_TYPE828>Рука Б|Рука беса</ITEM_NAME_TYPE828>
+  <ITEM_NAME_TYPE829>Кость СБ|Кость ослабленного брутора</ITEM_NAME_TYPE829>
+  <ITEM_NAME_TYPE830>Кость Б|Кость брутора</ITEM_NAME_TYPE830>
+  <ITEM_NAME_TYPE831>Мускул СБ|Мускул ослабленного брутора</ITEM_NAME_TYPE831>
+  <ITEM_NAME_TYPE832>Мускул Б|Мускул брутора</ITEM_NAME_TYPE832>
+  <ITEM_NAME_TYPE833>Голова Щ|Голова щенка собаки</ITEM_NAME_TYPE833>
+  <ITEM_NAME_TYPE834>Рука ББ|Рука быстрого беса</ITEM_NAME_TYPE834>
+  <ITEM_NAME_TYPE835>Хвост МК|Хвост мутировавшей крысы</ITEM_NAME_TYPE835>
+  <ITEM_NAME_TYPE836>Паукан|Лапа Паукана</ITEM_NAME_TYPE836>
+  <ITEM_NAME_TYPE837>Медальон СВ|Медальон слепого Ведуна</ITEM_NAME_TYPE837>
+  <ITEM_NAME_TYPE838>Медальон В|Медальон Ведуна</ITEM_NAME_TYPE838>
+  <ITEM_NAME_TYPE839>Медальон ЗВ|Медальон зрячего Ведуна</ITEM_NAME_TYPE839>
+  <ITEM_NAME_TYPE840>|</ITEM_NAME_TYPE840>
+  <ITEM_NAME_TYPE841>|</ITEM_NAME_TYPE841>
+  <ITEM_NAME_TYPE842>|</ITEM_NAME_TYPE842>
+  <ITEM_NAME_TYPE843>|</ITEM_NAME_TYPE843>
+  <ITEM_NAME_TYPE844>|</ITEM_NAME_TYPE844>
+  <ITEM_NAME_TYPE845>|</ITEM_NAME_TYPE845>
+  <ITEM_NAME_TYPE846>|</ITEM_NAME_TYPE846>
+  <ITEM_NAME_TYPE847>|</ITEM_NAME_TYPE847>
+  <ITEM_NAME_TYPE848>|</ITEM_NAME_TYPE848>
+  <ITEM_NAME_TYPE849>|</ITEM_NAME_TYPE849>
+  <ITEM_NAME_TYPE850>|</ITEM_NAME_TYPE850>
+  <ITEM_NAME_TYPE851>|</ITEM_NAME_TYPE851>
+  <ITEM_NAME_TYPE852>|</ITEM_NAME_TYPE852>
+  <ITEM_NAME_TYPE853>|</ITEM_NAME_TYPE853>
+  <ITEM_NAME_TYPE854>_Пакет для Барыги|Пакет для Барыги</ITEM_NAME_TYPE854>
+  <ITEM_NAME_TYPE855>_Пакет с товаром|Пакет с товаром</ITEM_NAME_TYPE855>
+  <ITEM_NAME_TYPE856>_Блок сигарет "Light"|Блок сигарет "Light"</ITEM_NAME_TYPE856>
+  <ITEM_NAME_TYPE857>_Кабель|Кабель</ITEM_NAME_TYPE857>
+  <ITEM_NAME_TYPE858>_Сводки погоды|Сводки погоды</ITEM_NAME_TYPE858>
+  <ITEM_NAME_TYPE859>Документы|Секретные документы</ITEM_NAME_TYPE859>
+  <ITEM_NAME_TYPE860>Записка|Записка от Ветриченко для пилота</ITEM_NAME_TYPE860>
+  <ITEM_NAME_TYPE861>Письмо|Письмо для Зинаиды Фадеевны от её сына.</ITEM_NAME_TYPE861>
+  <ITEM_NAME_TYPE862>Посылка|Посылка от Зинаиды Фадеевны для Шепелева.</ITEM_NAME_TYPE862>
+  <ITEM_NAME_TYPE863>_Записка|Записка для пилота на Новой Земле</ITEM_NAME_TYPE863>
+  <ITEM_NAME_TYPE880>20 з.р.|Вексель номиналом 20 золотых рублей</ITEM_NAME_TYPE880>
+  <ITEM_NAME_TYPE881>50 з.р.|Вексель номиналом 50 золотых рублей</ITEM_NAME_TYPE881>
+  <ITEM_NAME_TYPE882>100 з.р.|Вексель номиналом 100 золотых рублей</ITEM_NAME_TYPE882>
+  <ITEM_NAME_TYPE883>500 з.р.|Вексель номиналом 500 золотых рублей</ITEM_NAME_TYPE883>
+  <ITEM_NAME_TYPE884>1000 з.р.|Вексель номиналом 1 000 золотых рублей</ITEM_NAME_TYPE884>
+  <ITEM_NAME_TYPE885>5000 з.р.|Вексель номиналом 5 000 золотых рублей</ITEM_NAME_TYPE885>
+  <ITEM_NAME_TYPE886>10000 з.р.|Вексель номиналом 10 000 золотых рублей</ITEM_NAME_TYPE886>
+  <ITEM_NAME_TYPE1100>Бутылочка|Пустая бутылочка</ITEM_NAME_TYPE1100>
+  <ITEM_NAME_TYPE1101>Беломор|Пачка "Беломора"</ITEM_NAME_TYPE1101>
+  <ITEM_NAME_TYPE1102>Свеча|Автомобильная свеча</ITEM_NAME_TYPE1102>
+  <ITEM_NAME_TYPE1103>Дл.Труба|Длинная трубка</ITEM_NAME_TYPE1103>
+  <ITEM_NAME_TYPE1104>Кор.Труба|Короткая труба</ITEM_NAME_TYPE1104>
+  <ITEM_NAME_TYPE1105>Труба рез.|Короткая труба с резьбой</ITEM_NAME_TYPE1105>
+  <ITEM_NAME_TYPE1106>Шайбы|Крупные шайбы</ITEM_NAME_TYPE1106>
+  <ITEM_NAME_TYPE1107>Пружинка|Пружинка</ITEM_NAME_TYPE1107>
+  <ITEM_NAME_TYPE1108>Пружина|Сильная пружина</ITEM_NAME_TYPE1108>
+  <ITEM_NAME_TYPE1109>Трансф.|Трансформатор</ITEM_NAME_TYPE1109>
+  <ITEM_NAME_TYPE1110>Обрезки|Обрезки проводков</ITEM_NAME_TYPE1110>
+  <ITEM_NAME_TYPE1111>Медь|Медная проволока</ITEM_NAME_TYPE1111>
+  <ITEM_NAME_TYPE1112>Провод|Провод в изоляции</ITEM_NAME_TYPE1112>
+  <ITEM_NAME_TYPE1113>Авт. акк.|Автомобильный аккумулятор</ITEM_NAME_TYPE1113>
+  <ITEM_NAME_TYPE1114>Шарики|Шарики от подшипника</ITEM_NAME_TYPE1114>
+  <ITEM_NAME_TYPE1115>Паяльник|Паяльная лампа</ITEM_NAME_TYPE1115>
+  <ITEM_NAME_TYPE1116>Пластина|Пластина композитного материала</ITEM_NAME_TYPE1116>
+  <ITEM_NAME_TYPE1117>Пластина|Пластина композитного материала</ITEM_NAME_TYPE1117>
+  <ITEM_NAME_TYPE1118>Пластина|Пластина композитного материала</ITEM_NAME_TYPE1118>
+  <ITEM_NAME_TYPE1119>Изолента|Изоляционная лента</ITEM_NAME_TYPE1119>
+  <ITEM_NAME_TYPE1120>Метал.Пласт.|Металлическая пластина</ITEM_NAME_TYPE1120>
+  <ITEM_NAME_TYPE1121>Мягк.Пласт.|Пластина мягкого металла</ITEM_NAME_TYPE1121>
+  <ITEM_NAME_TYPE1122>Стал.Пласт.|Стальная пластина</ITEM_NAME_TYPE1122>
+  <ITEM_NAME_TYPE1123>Бимет.Пласт.|Биметаллическая пластина</ITEM_NAME_TYPE1123>
+  <ITEM_NAME_TYPE1124>Нитки|Старые швейные нитки</ITEM_NAME_TYPE1124>
+  <ITEM_NAME_TYPE1125>Гайка|Крупная гайка</ITEM_NAME_TYPE1125>
+  <ITEM_NAME_TYPE1126>Инстр.|Набор инструментов</ITEM_NAME_TYPE1126>
+  <ITEM_NAME_TYPE1127>Зажигалка|Бензиновая зажигалка</ITEM_NAME_TYPE1127>
+  <ITEM_NAME_TYPE1128>Рулон|Рулон туалетной бумаги</ITEM_NAME_TYPE1128>
+  <ITEM_NAME_TYPE1129>Блок сиг.|Блок сигарет</ITEM_NAME_TYPE1129>
+  <ITEM_NAME_TYPE1130>Марганец|Марганец</ITEM_NAME_TYPE1130>
+  <ITEM_NAME_TYPE1131>Соль|Зеленая соль</ITEM_NAME_TYPE1131>
+  <ITEM_NAME_TYPE1133>Порошок|Серый порошок</ITEM_NAME_TYPE1133>
+  <ITEM_NAME_TYPE1132>Порошок|Коричневый порошок</ITEM_NAME_TYPE1132>
+  <ITEM_NAME_TYPE1134>H2O2|Перекись водорода</ITEM_NAME_TYPE1134>
+  <ITEM_NAME_TYPE1135>Химикат 2|Химикат 2</ITEM_NAME_TYPE1135>
+  <ITEM_NAME_TYPE1136>C6H12O4|Диперекись ацетона</ITEM_NAME_TYPE1136>
+  <ITEM_NAME_TYPE1137>Медик.|Коробка медикаментов</ITEM_NAME_TYPE1137>
+  <ITEM_NAME_TYPE1138>CuSO4 5H2O|Пробирка с медным купоросом</ITEM_NAME_TYPE1138>
+  <ITEM_NAME_TYPE1139>Яд|Пробирка с паучьим ядом</ITEM_NAME_TYPE1139>
+  <ITEM_NAME_TYPE1140>Кровь верл.|Пробирка с кровью верлиоки</ITEM_NAME_TYPE1140>
+  <ITEM_NAME_TYPE1141>Кровь медв.|Пробирка с кровью медведя</ITEM_NAME_TYPE1141>
+  <ITEM_NAME_TYPE1142>KMnO4|Пробирка с раствором марганцовки</ITEM_NAME_TYPE1142>
+  <ITEM_NAME_TYPE1143>Витамины|Витамины</ITEM_NAME_TYPE1143>
+  <ITEM_NAME_TYPE1144>Солидол|Банка солидола</ITEM_NAME_TYPE1144>
+  <ITEM_NAME_TYPE1145>Растворит.| Растворитель - 646</ITEM_NAME_TYPE1145>
+  <ITEM_NAME_TYPE1146>Бутылка|Пустая бутылка</ITEM_NAME_TYPE1146>
+  <ITEM_NAME_TYPE1147>Банка|Банка из-под Кофе</ITEM_NAME_TYPE1147>
+  <ITEM_NAME_TYPE1148>Специи|Набор специй</ITEM_NAME_TYPE1148>
+  <ITEM_NAME_TYPE1149>Чай|Пачка чая</ITEM_NAME_TYPE1149>
+  <ITEM_NAME_TYPE1150>Фонарь (слом.)|Сломанный фонарь</ITEM_NAME_TYPE1150>
+  <ITEM_NAME_TYPE1151>Ацетон|Ацетон</ITEM_NAME_TYPE1151>
+  <ITEM_NAME_TYPE1152>Свинец|Свинцовый лом</ITEM_NAME_TYPE1152>
+  <ITEM_NAME_TYPE1153>Р-детали|Радиодетали</ITEM_NAME_TYPE1153>
+  <ITEM_NAME_TYPE1154>Э-детали|Электродетали</ITEM_NAME_TYPE1154>
+  <ITEM_NAME_TYPE1155>Микрочип|Микрочип</ITEM_NAME_TYPE1155>
+  <ITEM_NAME_TYPE1156>Р-лампа|Радиолампа</ITEM_NAME_TYPE1156>
+  <ITEM_NAME_TYPE1157>Брезент|Брезент</ITEM_NAME_TYPE1157>
+  <ITEM_NAME_TYPE1158>Ткань|Прорезиненная ткань</ITEM_NAME_TYPE1158>
+  <ITEM_NAME_TYPE1159>Осн. ТАШ|Основа бронежилета ТАШ</ITEM_NAME_TYPE1159>
+  <ITEM_NAME_TYPE1160>Заточка|Заточка из куска железа</ITEM_NAME_TYPE1160>
+  <ITEM_NAME_TYPE1161>Заточка мягк|Заточка из куска мягкого железа</ITEM_NAME_TYPE1161>
+  <ITEM_NAME_TYPE1162>Скальпель|Стальной скальпель</ITEM_NAME_TYPE1162>
+  <ITEM_NAME_TYPE1163>Скальпель хир.|Хирургический скальпель</ITEM_NAME_TYPE1163>
+  <ITEM_NAME_TYPE1164>Р.Краснова|Рекомендации доц.Краснова</ITEM_NAME_TYPE1164>
+  <ITEM_NAME_TYPE1165>Р.Мусорщика|Рекомендации Мусорщика</ITEM_NAME_TYPE1165>
+  <ITEM_NAME_TYPE1166>Р.Шперлинга|Рекомендации Шперлинга</ITEM_NAME_TYPE1166>
+  <ITEM_NAME_TYPE1167>Р.Симонова|Рекомендации доц.Симонова</ITEM_NAME_TYPE1167>
+  <ITEM_NAME_TYPE1168>Р.Селикт.|Рекомендации доц.Селиктевича</ITEM_NAME_TYPE1168>
+  <ITEM_NAME_TYPE1169>Р.Гречкина|Рекомендации Гречкина</ITEM_NAME_TYPE1169>
+  <ITEM_NAME_TYPE1170>Р.Огурцова|Рекомендации Огурцова</ITEM_NAME_TYPE1170>
+  <ITEM_NAME_TYPE1171>Р.Отовар.|Рекомендации Отоварова</ITEM_NAME_TYPE1171>
+  <ITEM_NAME_TYPE1172>Р.Бочкина|Рекомендации Бочкина</ITEM_NAME_TYPE1172>
+  <ITEM_NAME_TYPE1173>Р.Плюшк.|Рекомендации Плюшкина</ITEM_NAME_TYPE1173>
+  <ITEM_NAME_TYPE1174>Р.Кривогл.|Рекомендации Кривоглазого</ITEM_NAME_TYPE1174>
+  <ITEM_NAME_TYPE1175>Р.Безлик.|Рекомендации Безликого</ITEM_NAME_TYPE1175>
+  <ITEM_NAME_TYPE1176>Р.Призрака|Рекомендации Призрака</ITEM_NAME_TYPE1176>
+  <ITEM_NAME_TYPE1177>Р.Хромого|Рекомендации Хромого</ITEM_NAME_TYPE1177>
+  <ITEM_NAME_TYPE1178>Р.Шептуна|Рекомендации Шептуна</ITEM_NAME_TYPE1178>
+  <ITEM_NAME_TYPE1179>Р.Шустрого|Рекомендации Сеньки Шустрого</ITEM_NAME_TYPE1179>
+  <ITEM_NAME_TYPE1180>Р.Тихого|Рекомендации Толика Тихого</ITEM_NAME_TYPE1180>
+  <ITEM_NAME_TYPE1181>Р.Микитыча|Рекомендации Микитыча</ITEM_NAME_TYPE1181>
+  <ITEM_NAME_TYPE1182>Р.Кислого|Рекомендации Коли Кислого</ITEM_NAME_TYPE1182>
+  <ITEM_NAME_TYPE1183>Р.Феникса|Рекомендации Макса Феникса</ITEM_NAME_TYPE1183>
+  <ITEM_NAME_TYPE1184>Сиг. Плюща|Блок сигарет Плюща</ITEM_NAME_TYPE1184>
+  <ITEM_NAME_TYPE1185>У. набор.|Универсальный набор инструментов</ITEM_NAME_TYPE1185>
+  <ITEM_NAME_TYPE1186>Р.Полковн.|Рекомендации Отставного Полковника</ITEM_NAME_TYPE1186>
+  <ITEM_NAME_TYPE1187>в Тунгуску|Билет в Тунгуску</ITEM_NAME_TYPE1187>
+  <ITEM_NAME_TYPE1188>Р.Кузнеца|Рекомендации Кузнеца</ITEM_NAME_TYPE1188>
+  <ITEM_NAME_TYPE1189>Записка|Записка от Плюща</ITEM_NAME_TYPE1189>
+  <ITEM_NAME_TYPE1606>_Р-детали|Радиодетали</ITEM_NAME_TYPE1606>
+  <ITEM_NAME_TYPE1607>_Инструменты|Инструменты</ITEM_NAME_TYPE1607>
+  <ITEM_NAME_TYPE1608>_Запчасти|Запчасти</ITEM_NAME_TYPE1608>
+  <ITEM_NAME_TYPE1609>Документы|Документы</ITEM_NAME_TYPE1609>
+  <ITEM_NAME_TYPE1610>_Э-детали|Электродетали</ITEM_NAME_TYPE1610>
+  <ITEM_NAME_TYPE1611>_Микрочип|Микрочип</ITEM_NAME_TYPE1611>
+  <ITEM_NAME_TYPE1612>_Р-лампа|Радиолампа</ITEM_NAME_TYPE1612>
+  <ITEM_NAME_TYPE1613>_Паяльник|Паяльная лампа</ITEM_NAME_TYPE1613>
+  <ITEM_NAME_TYPE1614>_Свеча|Автомобильная свеча</ITEM_NAME_TYPE1614>
+  <ITEM_NAME_TYPE1615>_"Беломор"|Пачка "Беломора"</ITEM_NAME_TYPE1615>
+  <ITEM_NAME_TYPE1616>_Портсигар|Портсигар</ITEM_NAME_TYPE1616>
+  <ITEM_NAME_TYPE1617>_КПК|Микрокомпьютер</ITEM_NAME_TYPE1617>
+  <ITEM_NAME_TYPE1618>_Игрушка|Детский мячик</ITEM_NAME_TYPE1618>
+  <ITEM_NAME_TYPE1619>_Игрушка|Игрушечный мишка</ITEM_NAME_TYPE1619>
+  <ITEM_NAME_TYPE1620>_Игрушка|Кубик Рубика</ITEM_NAME_TYPE1620>
+  <ITEM_NAME_TYPE1621>_Игрушка|Неваляшка</ITEM_NAME_TYPE1621>
+  <ITEM_NAME_TYPE1622>_Игрушка|Детский мячик</ITEM_NAME_TYPE1622>
+  <ITEM_NAME_TYPE1623>_Игрушка|Мягкий мишка</ITEM_NAME_TYPE1623>
+  <ITEM_NAME_TYPE1624>_Игрушка|Кубик Рубика</ITEM_NAME_TYPE1624>
+  <ITEM_NAME_TYPE1625>_Игрушка|Неваляшка</ITEM_NAME_TYPE1625>
+  <ITEM_NAME_TYPE1626>_Бутылка|Зеленая бутылка</ITEM_NAME_TYPE1626>
+  <ITEM_NAME_TYPE1627>_Коф.пара|Кофейная пара</ITEM_NAME_TYPE1627>
+  <ITEM_NAME_TYPE1628>_Рюкзак|Рюкзак Юры</ITEM_NAME_TYPE1628>
+  <ITEM_NAME_TYPE1629>_Фляжка|Пустая фляжка</ITEM_NAME_TYPE1629>
+  <ITEM_NAME_TYPE1630>_Вода|Фляжка с водой</ITEM_NAME_TYPE1630>
+  <ITEM_NAME_TYPE1631>_Спирт|Фляжка спирта</ITEM_NAME_TYPE1631>
+  <ITEM_NAME_TYPE1632>_Специи|Набор специй</ITEM_NAME_TYPE1632>
+  <ITEM_NAME_TYPE1633>_Тушенка|Банка тушенки</ITEM_NAME_TYPE1633>
+  <ITEM_NAME_TYPE1634>_Подстак.|Подстаканник</ITEM_NAME_TYPE1634>
+  <ITEM_NAME_TYPE1635>_Батарейка|Сломанная батарейка</ITEM_NAME_TYPE1635>
+  <ITEM_NAME_TYPE1636>_Телогр.|Грязная телогрейка</ITEM_NAME_TYPE1636>
+  <ITEM_NAME_TYPE1637>_Желчь|Медвежья желчь</ITEM_NAME_TYPE1637>
+  <ITEM_NAME_TYPE1638>_Мазь|Мазь из медвежьего жира</ITEM_NAME_TYPE1638>
+  <ITEM_NAME_TYPE1639>_Когти|Когти медведя</ITEM_NAME_TYPE1639>
+  <ITEM_NAME_TYPE1640>_Голова|Голова медведя (для Гурмана)</ITEM_NAME_TYPE1640>
+  <ITEM_NAME_TYPE1641>_Шкура|Шкура медведя</ITEM_NAME_TYPE1641>
+  <ITEM_NAME_TYPE1642>_Рука Беса|Рука Беса</ITEM_NAME_TYPE1642>
+  <ITEM_NAME_TYPE1643>_Коготь|Коготь Бляка</ITEM_NAME_TYPE1643>
+  <ITEM_NAME_TYPE1644>_Жир|Жир Бляка</ITEM_NAME_TYPE1644>
+  <ITEM_NAME_TYPE1645>_Зуб|Зуб Бляка</ITEM_NAME_TYPE1645>
+  <ITEM_NAME_TYPE1646>_Ухо|Кабанье ухо</ITEM_NAME_TYPE1646>
+  <ITEM_NAME_TYPE1647>_Копыто|Копыто кабана</ITEM_NAME_TYPE1647>
+  <ITEM_NAME_TYPE1648>_Бирка|Миграционная бирка</ITEM_NAME_TYPE1648>
+  <ITEM_NAME_TYPE1649>_Кость|Кость брутора</ITEM_NAME_TYPE1649>
+  <ITEM_NAME_TYPE1650>_Мускул|Мускул брутора</ITEM_NAME_TYPE1650>
+  <ITEM_NAME_TYPE1651>_Ошейник|Собачий ошейник</ITEM_NAME_TYPE1651>
+  <ITEM_NAME_TYPE1652>_Ухо|Ухо собаки</ITEM_NAME_TYPE1652>
+  <ITEM_NAME_TYPE1653>_Шкура|Шкура собаки</ITEM_NAME_TYPE1653>
+  <ITEM_NAME_TYPE1654>_Лапа|Лапа собаки</ITEM_NAME_TYPE1654>
+  <ITEM_NAME_TYPE1655>_Челюсть|Челюсть собаки</ITEM_NAME_TYPE1655>
+  <ITEM_NAME_TYPE1656>_Мозг|Мозг Студня</ITEM_NAME_TYPE1656>
+  <ITEM_NAME_TYPE1657>_Слизь|Слизь Студня</ITEM_NAME_TYPE1657>
+  <ITEM_NAME_TYPE1658>_Потроха|Потроха Студня</ITEM_NAME_TYPE1658>
+  <ITEM_NAME_TYPE1659>_Шкура|Шкура крысы</ITEM_NAME_TYPE1659>
+  <ITEM_NAME_TYPE1660>_Череп|Крысиный череп</ITEM_NAME_TYPE1660>
+  <ITEM_NAME_TYPE1661>_Хвост|Крысиный хвост</ITEM_NAME_TYPE1661>
+  <ITEM_NAME_TYPE1662>_Волос|Волос лешего</ITEM_NAME_TYPE1662>
+  <ITEM_NAME_TYPE1663>_Кожа|Кожа лешего</ITEM_NAME_TYPE1663>
+  <ITEM_NAME_TYPE1664>_Кокон|Паучий кокон</ITEM_NAME_TYPE1664>
+  <ITEM_NAME_TYPE1665>_Железа (яд)|Ядовитая паучья железа</ITEM_NAME_TYPE1665>
+  <ITEM_NAME_TYPE1666>_Железа (паут)|Паутинная паучья железа</ITEM_NAME_TYPE1666>
+  <ITEM_NAME_TYPE1667>_Жвалы|Жвалы паука</ITEM_NAME_TYPE1667>
+  <ITEM_NAME_TYPE1668>_Глаз|Глаз Верлиоки</ITEM_NAME_TYPE1668>
+  <ITEM_NAME_TYPE1669>_Коготь|Коготь Верлиоки</ITEM_NAME_TYPE1669>
+  <ITEM_NAME_TYPE1670>_Крыло|Крыло Верлиоки</ITEM_NAME_TYPE1670>
+  <ITEM_NAME_TYPE1671>_Тушка|Тушка крысы (для Гурмана)</ITEM_NAME_TYPE1671>
+  <ITEM_NAME_TYPE1672>_Лапа|Лапа паука (для Гурмана)</ITEM_NAME_TYPE1672>
+  <ITEM_NAME_TYPE1673>_Голова|Голова собаки (для Гурмана)</ITEM_NAME_TYPE1673>
+  <ITEM_NAME_TYPE1674>_Филе|Филе кабана (для Гурмана)</ITEM_NAME_TYPE1674>
+  <ITEM_NAME_TYPE1675>_Крыло|Крыло Верлиоки (для Гурмана)</ITEM_NAME_TYPE1675>
+  <ITEM_NAME_TYPE1676>_Дипломат|Дипломат</ITEM_NAME_TYPE1676>
+  <ITEM_NAME_TYPE1677>_Игрушка|Дед мороз</ITEM_NAME_TYPE1677>
+  <ITEM_NAME_TYPE1678>_Игрушка|Стеклянный шар</ITEM_NAME_TYPE1678>
+  <ITEM_NAME_TYPE1679>_Игрушка|Стеклянная шишка</ITEM_NAME_TYPE1679>
+  <ITEM_NAME_TYPE1680>_Талон|Талон для с.Кожемяки</ITEM_NAME_TYPE1680>
+  <ITEM_NAME_TYPE1681>_Камень|Камень</ITEM_NAME_TYPE1681>
+  <ITEM_NAME_TYPE1682>_Охотничий нож|Охотничий нож</ITEM_NAME_TYPE1682>
+  <ITEM_NAME_TYPE1701>_Билет 1|Билет 1</ITEM_NAME_TYPE1701>
+  <ITEM_NAME_TYPE1702>_Билет 2|Билет 2</ITEM_NAME_TYPE1702>
+  <ITEM_NAME_TYPE1703>_Билет 3|Билет 3</ITEM_NAME_TYPE1703>
+  <ITEM_NAME_TYPE1704>_Билет 4|Билет 4</ITEM_NAME_TYPE1704>
+  <ITEM_NAME_TYPE1705>_Билет 5|Билет 5</ITEM_NAME_TYPE1705>
+  <ITEM_NAME_TYPE1706>_Билет 6|Билет 6</ITEM_NAME_TYPE1706>
+  <ITEM_NAME_TYPE1707>_Билет 7|Билет 7</ITEM_NAME_TYPE1707>
+  <ITEM_NAME_TYPE1708>_Билет 8|Билет 8</ITEM_NAME_TYPE1708>
+  <ITEM_NAME_TYPE1709>_Билет 9|Билет 9</ITEM_NAME_TYPE1709>
+  <ITEM_NAME_TYPE1710>_Билет 10|Билет 10</ITEM_NAME_TYPE1710>
+  <ITEM_NAME_TYPE1711>_Билет 11|Билет 11</ITEM_NAME_TYPE1711>
+  <ITEM_NAME_TYPE1712>_Билет 12|Билет 12</ITEM_NAME_TYPE1712>
+  <ITEM_NAME_TYPE1713>_Билет 13|Билет 13</ITEM_NAME_TYPE1713>
+  <ITEM_NAME_TYPE1714>_Билет 14|Билет 14</ITEM_NAME_TYPE1714>
+  <ITEM_NAME_TYPE1715>_Билет 15|Билет 15</ITEM_NAME_TYPE1715>
+  <ITEM_NAME_TYPE1716>_Билет 16|Билет 16</ITEM_NAME_TYPE1716>
+  <ITEM_NAME_TYPE1717>_Билет 17|Билет 17</ITEM_NAME_TYPE1717>
+  <ITEM_NAME_TYPE1718>_Билет 18|Билет 18</ITEM_NAME_TYPE1718>
+  <ITEM_NAME_TYPE1719>_Билет 19|Билет 19</ITEM_NAME_TYPE1719>
+  <ITEM_NAME_TYPE1720>_Билет 20|Билет 20</ITEM_NAME_TYPE1720>
+  <ITEM_NAME_TYPE10001>Colt-M16 стп.|Автомат Colt-M16 (степной кам.)</ITEM_NAME_TYPE10001>
+  <ITEM_NAME_TYPE10002>Colt-M16 зим.|Автомат Colt-M16 (зимний кам.)</ITEM_NAME_TYPE10002>
+  <ITEM_NAME_TYPE10003>Colt-M16 гор.|Автомат Colt-M16 (городской кам.)</ITEM_NAME_TYPE10003>
+  <ITEM_NAME_TYPE10004>Colt-M16 лес.|Автомат Colt-M16 (лесной кам.)</ITEM_NAME_TYPE10004>
+  <ITEM_NAME_TYPE10005>АК-74 стп.|Автомат АК-74 (степной кам.)</ITEM_NAME_TYPE10005>
+  <ITEM_NAME_TYPE10006>АК-74 зим.|Автомат АК-74 (зимний кам.)</ITEM_NAME_TYPE10006>
+  <ITEM_NAME_TYPE10007>АК-74 гор.|Автомат АК-74 (городской кам.)</ITEM_NAME_TYPE10007>
+  <ITEM_NAME_TYPE10008>АК-74 лес.|Автомат АК-74 (лесной кам.)</ITEM_NAME_TYPE10008>
+  <ITEM_NAME_TYPE10009>M82 стп.|Barrett-M82A3 (степной кам.)</ITEM_NAME_TYPE10009>
+  <ITEM_NAME_TYPE10010>M82 зим.|Barrett-M82A3 (зимний кам.)</ITEM_NAME_TYPE10010>
+  <ITEM_NAME_TYPE10011>M82 гор.|Barrett-M82A3 (городской кам.)</ITEM_NAME_TYPE10011>
+  <ITEM_NAME_TYPE10012>M82 лес.|Barrett-M82A3 (лесной кам.)</ITEM_NAME_TYPE10012>
+  <ITEM_NAME_TYPE10013>TEST_BFG</ITEM_NAME_TYPE10013>
+  <ITEM_NAME_TYPE10014>TEST_PISTOL</ITEM_NAME_TYPE10014>
+  <ITEM_NAME_TYPE10015>WA-2000|Walter WA-2000 (на один день)</ITEM_NAME_TYPE10015>
+  <ITEM_NAME_TYPE10016>WA-2000|Walter WA-2000 (на 30 дней)</ITEM_NAME_TYPE10016>
+  <ITEM_NAME_TYPE10017>WA-2000|Walter WA-2000 (на 90 дней)</ITEM_NAME_TYPE10017>
+  <ITEM_NAME_TYPE10018>WA-2000|Walter WA-2000 (на 180 дней)</ITEM_NAME_TYPE10018>
+  <ITEM_NAME_TYPE10019>WA-2000|Walter WA-2000 (на 360 дней)</ITEM_NAME_TYPE10019>
+  <ITEM_NAME_TYPE10020>WA-2000|Walter WA-2000 (степной кам.) (на один день)</ITEM_NAME_TYPE10020>
+  <ITEM_NAME_TYPE10021>WA-2000|Walter WA-2000 (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10021>
+  <ITEM_NAME_TYPE10022>WA-2000|Walter WA-2000 (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10022>
+  <ITEM_NAME_TYPE10023>WA-2000|Walter WA-2000 (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10023>
+  <ITEM_NAME_TYPE10024>WA-2000|Walter WA-2000 (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10024>
+  <ITEM_NAME_TYPE10025>WA-2000|Walter WA-2000 (зимний кам.) (на один день)</ITEM_NAME_TYPE10025>
+  <ITEM_NAME_TYPE10026>WA-2000|Walter WA-2000 (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10026>
+  <ITEM_NAME_TYPE10027>WA-2000|Walter WA-2000 (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10027>
+  <ITEM_NAME_TYPE10028>WA-2000|Walter WA-2000 (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10028>
+  <ITEM_NAME_TYPE10029>WA-2000|Walter WA-2000 (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10029>
+  <ITEM_NAME_TYPE10030>WA-2000|Walter WA-2000 (городской кам.) (на один день)</ITEM_NAME_TYPE10030>
+  <ITEM_NAME_TYPE10031>WA-2000|Walter WA-2000 (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10031>
+  <ITEM_NAME_TYPE10032>WA-2000|Walter WA-2000 (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10032>
+  <ITEM_NAME_TYPE10033>WA-2000|Walter WA-2000 (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10033>
+  <ITEM_NAME_TYPE10034>WA-2000|Walter WA-2000 (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10034>
+  <ITEM_NAME_TYPE10035>WA-2000|Walter WA-2000 (лесной кам.) (на один день)</ITEM_NAME_TYPE10035>
+  <ITEM_NAME_TYPE10036>WA-2000|Walter WA-2000 (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10036>
+  <ITEM_NAME_TYPE10037>WA-2000|Walter WA-2000 (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10037>
+  <ITEM_NAME_TYPE10038>WA-2000|Walter WA-2000 (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10038>
+  <ITEM_NAME_TYPE10039>WA-2000|Walter WA-2000 (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10039>
+  <ITEM_NAME_TYPE10040>СВД|СВД (степной кам.) (на один день)</ITEM_NAME_TYPE10040>
+  <ITEM_NAME_TYPE10041>СВД|СВД (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10041>
+  <ITEM_NAME_TYPE10042>СВД|СВД (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10042>
+  <ITEM_NAME_TYPE10043>СВД|СВД (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10043>
+  <ITEM_NAME_TYPE10044>СВД|СВД (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10044>
+  <ITEM_NAME_TYPE10045>СВД|СВД (зимний кам.) (на один день)</ITEM_NAME_TYPE10045>
+  <ITEM_NAME_TYPE10046>СВД|СВД (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10046>
+  <ITEM_NAME_TYPE10047>СВД|СВД (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10047>
+  <ITEM_NAME_TYPE10048>СВД|СВД (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10048>
+  <ITEM_NAME_TYPE10049>СВД|СВД (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10049>
+  <ITEM_NAME_TYPE10050>СВД|СВД (городской кам.) (на один день)</ITEM_NAME_TYPE10050>
+  <ITEM_NAME_TYPE10051>СВД|СВД (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10051>
+  <ITEM_NAME_TYPE10052>СВД|СВД (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10052>
+  <ITEM_NAME_TYPE10053>СВД|СВД (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10053>
+  <ITEM_NAME_TYPE10054>СВД|СВД (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10054>
+  <ITEM_NAME_TYPE10055>СВД|СВД (лесной кам.) (на один день)</ITEM_NAME_TYPE10055>
+  <ITEM_NAME_TYPE10056>СВД|СВД (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10056>
+  <ITEM_NAME_TYPE10057>СВД|СВД (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10057>
+  <ITEM_NAME_TYPE10058>СВД|СВД (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10058>
+  <ITEM_NAME_TYPE10059>СВД|СВД (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10059>
+  <ITEM_NAME_TYPE10060>СВД|СВД (осенний кам.) (на один день)</ITEM_NAME_TYPE10060>
+  <ITEM_NAME_TYPE10061>СВД|СВД (осенний кам.) (на 30 дней)</ITEM_NAME_TYPE10061>
+  <ITEM_NAME_TYPE10062>СВД|СВД (осенний кам.) (на 90 дней)</ITEM_NAME_TYPE10062>
+  <ITEM_NAME_TYPE10063>СВД|СВД (осенний кам.) (на 180 дней)</ITEM_NAME_TYPE10063>
+  <ITEM_NAME_TYPE10064>СВД|СВД (осенний кам.) (на 360 дней)</ITEM_NAME_TYPE10064>
+  <ITEM_NAME_TYPE10065>FN-FAL|Автомат FN-FAL (степной кам.) (на один день)</ITEM_NAME_TYPE10065>
+  <ITEM_NAME_TYPE10066>FN-FAL|Автомат FN-FAL (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10066>
+  <ITEM_NAME_TYPE10067>FN-FAL|Автомат FN-FAL (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10067>
+  <ITEM_NAME_TYPE10068>FN-FAL|Автомат FN-FAL (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10068>
+  <ITEM_NAME_TYPE10069>FN-FAL|Автомат FN-FAL (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10069>
+  <ITEM_NAME_TYPE10070>FN-FAL|Автомат FN-FAL (зимний кам.) (на один день)</ITEM_NAME_TYPE10070>
+  <ITEM_NAME_TYPE10071>FN-FAL|Автомат FN-FAL (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10071>
+  <ITEM_NAME_TYPE10072>FN-FAL|Автомат FN-FAL (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10072>
+  <ITEM_NAME_TYPE10073>FN-FAL|Автомат FN-FAL (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10073>
+  <ITEM_NAME_TYPE10074>FN-FAL|Автомат FN-FAL (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10074>
+  <ITEM_NAME_TYPE10075>FN-FAL|Автомат FN-FAL (городской кам.) (на один день)</ITEM_NAME_TYPE10075>
+  <ITEM_NAME_TYPE10076>FN-FAL|Автомат FN-FAL (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10076>
+  <ITEM_NAME_TYPE10077>FN-FAL|Автомат FN-FAL (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10077>
+  <ITEM_NAME_TYPE10078>FN-FAL|Автомат FN-FAL (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10078>
+  <ITEM_NAME_TYPE10079>FN-FAL|Автомат FN-FAL (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10079>
+  <ITEM_NAME_TYPE10080>FN-FAL|Автомат FN-FAL (лесной кам.) (на один день)</ITEM_NAME_TYPE10080>
+  <ITEM_NAME_TYPE10081>FN-FAL|Автомат FN-FAL (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10081>
+  <ITEM_NAME_TYPE10082>FN-FAL|Автомат FN-FAL (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10082>
+  <ITEM_NAME_TYPE10083>FN-FAL|Автомат FN-FAL (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10083>
+  <ITEM_NAME_TYPE10084>FN-FAL|Автомат FN-FAL (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10084>
+  <ITEM_NAME_TYPE10085>АС-ВАЛ|Автомат АС-ВАЛ (степной кам.) (на один день)</ITEM_NAME_TYPE10085>
+  <ITEM_NAME_TYPE10086>АС-ВАЛ|Автомат АС-ВАЛ (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10086>
+  <ITEM_NAME_TYPE10087>АС-ВАЛ|Автомат АС-ВАЛ (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10087>
+  <ITEM_NAME_TYPE10088>АС-ВАЛ|Автомат АС-ВАЛ (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10088>
+  <ITEM_NAME_TYPE10089>АС-ВАЛ|Автомат АС-ВАЛ (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10089>
+  <ITEM_NAME_TYPE10090>АС-ВАЛ|Автомат АС-ВАЛ (зимний кам.) (на один день)</ITEM_NAME_TYPE10090>
+  <ITEM_NAME_TYPE10091>АС-ВАЛ|Автомат АС-ВАЛ (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10091>
+  <ITEM_NAME_TYPE10092>АС-ВАЛ|Автомат АС-ВАЛ (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10092>
+  <ITEM_NAME_TYPE10093>АС-ВАЛ|Автомат АС-ВАЛ (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10093>
+  <ITEM_NAME_TYPE10094>АС-ВАЛ|Автомат АС-ВАЛ (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10094>
+  <ITEM_NAME_TYPE10095>АС-ВАЛ|Автомат АС-ВАЛ (городской кам.) (на один день)</ITEM_NAME_TYPE10095>
+  <ITEM_NAME_TYPE10096>АС-ВАЛ|Автомат АС-ВАЛ (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10096>
+  <ITEM_NAME_TYPE10097>АС-ВАЛ|Автомат АС-ВАЛ (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10097>
+  <ITEM_NAME_TYPE10098>АС-ВАЛ|Автомат АС-ВАЛ (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10098>
+  <ITEM_NAME_TYPE10099>АС-ВАЛ|Автомат АС-ВАЛ (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10099>
+  <ITEM_NAME_TYPE10100>АС-ВАЛ|Автомат АС-ВАЛ (лесной кам.) (на один день)</ITEM_NAME_TYPE10100>
+  <ITEM_NAME_TYPE10101>АС-ВАЛ|Автомат АС-ВАЛ (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10101>
+  <ITEM_NAME_TYPE10102>АС-ВАЛ|Автомат АС-ВАЛ (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10102>
+  <ITEM_NAME_TYPE10103>АС-ВАЛ|Автомат АС-ВАЛ (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10103>
+  <ITEM_NAME_TYPE10104>АС-ВАЛ|Автомат АС-ВАЛ (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10104>
+  <ITEM_NAME_TYPE10105>ВСС|ВСС "Винторез" (степной кам.) (на один день)</ITEM_NAME_TYPE10105>
+  <ITEM_NAME_TYPE10106>ВСС|ВСС "Винторез" (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10106>
+  <ITEM_NAME_TYPE10107>ВСС|ВСС "Винторез" (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10107>
+  <ITEM_NAME_TYPE10108>ВСС|ВСС "Винторез" (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10108>
+  <ITEM_NAME_TYPE10109>ВСС|ВСС "Винторез" (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10109>
+  <ITEM_NAME_TYPE10110>ВСС|ВСС "Винторез" (зимний кам.) (на один день)</ITEM_NAME_TYPE10110>
+  <ITEM_NAME_TYPE10111>ВСС|ВСС "Винторез" (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10111>
+  <ITEM_NAME_TYPE10112>ВСС|ВСС "Винторез" (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10112>
+  <ITEM_NAME_TYPE10113>ВСС|ВСС "Винторез" (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10113>
+  <ITEM_NAME_TYPE10114>ВСС|ВСС "Винторез" (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10114>
+  <ITEM_NAME_TYPE10115>ВСС|ВСС "Винторез" (городской кам.) (на один день)</ITEM_NAME_TYPE10115>
+  <ITEM_NAME_TYPE10116>ВСС|ВСС "Винторез" (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10116>
+  <ITEM_NAME_TYPE10117>ВСС|ВСС "Винторез" (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10117>
+  <ITEM_NAME_TYPE10118>ВСС|ВСС "Винторез" (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10118>
+  <ITEM_NAME_TYPE10119>ВСС|ВСС "Винторез" (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10119>
+  <ITEM_NAME_TYPE10120>ВСС|ВСС "Винторез" (лесной кам.) (на один день)</ITEM_NAME_TYPE10120>
+  <ITEM_NAME_TYPE10121>ВСС|ВСС "Винторез" (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10121>
+  <ITEM_NAME_TYPE10122>ВСС|ВСС "Винторез" (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10122>
+  <ITEM_NAME_TYPE10123>ВСС|ВСС "Винторез" (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10123>
+  <ITEM_NAME_TYPE10124>ВСС|ВСС "Винторез" (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10124>
+  <ITEM_NAME_TYPE10125>АК-47|Автомат АК-47 (степной кам.) (на один день)</ITEM_NAME_TYPE10125>
+  <ITEM_NAME_TYPE10126>АК-47|Автомат АК-47 (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10126>
+  <ITEM_NAME_TYPE10127>АК-47|Автомат АК-47 (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10127>
+  <ITEM_NAME_TYPE10128>АК-47|Автомат АК-47 (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10128>
+  <ITEM_NAME_TYPE10129>АК-47|Автомат АК-47 (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10129>
+  <ITEM_NAME_TYPE10130>АК-47|Автомат АК-47 (зимний кам.) (на один день)</ITEM_NAME_TYPE10130>
+  <ITEM_NAME_TYPE10131>АК-47|Автомат АК-47 (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10131>
+  <ITEM_NAME_TYPE10132>АК-47|Автомат АК-47 (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10132>
+  <ITEM_NAME_TYPE10133>АК-47|Автомат АК-47 (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10133>
+  <ITEM_NAME_TYPE10134>АК-47|Автомат АК-47 (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10134>
+  <ITEM_NAME_TYPE10135>АК-47|Автомат АК-47 (городской кам.) (на один день)</ITEM_NAME_TYPE10135>
+  <ITEM_NAME_TYPE10136>АК-47|Автомат АК-47 (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10136>
+  <ITEM_NAME_TYPE10137>АК-47|Автомат АК-47 (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10137>
+  <ITEM_NAME_TYPE10138>АК-47|Автомат АК-47 (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10138>
+  <ITEM_NAME_TYPE10139>АК-47|Автомат АК-47 (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10139>
+  <ITEM_NAME_TYPE10140>АК-47|Автомат АК-47 (лесной кам.) (на один день)</ITEM_NAME_TYPE10140>
+  <ITEM_NAME_TYPE10141>АК-47|Автомат АК-47 (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10141>
+  <ITEM_NAME_TYPE10142>АК-47|Автомат АК-47 (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10142>
+  <ITEM_NAME_TYPE10143>АК-47|Автомат АК-47 (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10143>
+  <ITEM_NAME_TYPE10144>АК-47|Автомат АК-47 (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10144>
+  <ITEM_NAME_TYPE10145>MK48|Пулемет MK48 (городской кам.) (на один день)</ITEM_NAME_TYPE10145>
+  <ITEM_NAME_TYPE10146>MK48|Пулемет MK48 (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10146>
+  <ITEM_NAME_TYPE10147>MK48|Пулемет MK48 (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10147>
+  <ITEM_NAME_TYPE10148>MK48|Пулемет MK48 (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10148>
+  <ITEM_NAME_TYPE10149>MK48|Пулемет MK48 (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10149>
+  <ITEM_NAME_TYPE10150>MK48|Пулемет MK48 (лесной кам.) (на один день)</ITEM_NAME_TYPE10150>
+  <ITEM_NAME_TYPE10151>MK48|Пулемет MK48 (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10151>
+  <ITEM_NAME_TYPE10152>MK48|Пулемет MK48 (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10152>
+  <ITEM_NAME_TYPE10153>MK48|Пулемет MK48 (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10153>
+  <ITEM_NAME_TYPE10154>MK48|Пулемет MK48 (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10154>
+  <ITEM_NAME_TYPE10155>MK12-SPR|MK12-SPR (степной кам.) (на один день)</ITEM_NAME_TYPE10155>
+  <ITEM_NAME_TYPE10156>MK12-SPR|MK12-SPR (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10156>
+  <ITEM_NAME_TYPE10157>MK12-SPR|MK12-SPR (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10157>
+  <ITEM_NAME_TYPE10158>MK12-SPR|MK12-SPR (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10158>
+  <ITEM_NAME_TYPE10159>MK12-SPR|MK12-SPR (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10159>
+  <ITEM_NAME_TYPE10160>MK12-SPR|MK12-SPR (зимний кам.) (на один день)</ITEM_NAME_TYPE10160>
+  <ITEM_NAME_TYPE10161>MK12-SPR|MK12-SPR (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10161>
+  <ITEM_NAME_TYPE10162>MK12-SPR|MK12-SPR (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10162>
+  <ITEM_NAME_TYPE10163>MK12-SPR|MK12-SPR (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10163>
+  <ITEM_NAME_TYPE10164>MK12-SPR|MK12-SPR (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10164>
+  <ITEM_NAME_TYPE10165>MK12-SPR|MK12-SPR (городской кам.) (на один день)</ITEM_NAME_TYPE10165>
+  <ITEM_NAME_TYPE10166>MK12-SPR|MK12-SPR (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10166>
+  <ITEM_NAME_TYPE10167>MK12-SPR|MK12-SPR (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10167>
+  <ITEM_NAME_TYPE10168>MK12-SPR|MK12-SPR (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10168>
+  <ITEM_NAME_TYPE10169>MK12-SPR|MK12-SPR (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10169>
+  <ITEM_NAME_TYPE10170>MK12-SPR|MK12-SPR (лесной кам.) (на один день)</ITEM_NAME_TYPE10170>
+  <ITEM_NAME_TYPE10171>MK12-SPR|MK12-SPR (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10171>
+  <ITEM_NAME_TYPE10172>MK12-SPR|MK12-SPR (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10172>
+  <ITEM_NAME_TYPE10173>MK12-SPR|MK12-SPR (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10173>
+  <ITEM_NAME_TYPE10174>MK12-SPR|MK12-SPR (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10174>
+  <ITEM_NAME_TYPE10175>SIG 751|Автомат SIG SG 751 LB(на один день)</ITEM_NAME_TYPE10175>
+  <ITEM_NAME_TYPE10176>SIG 751|Автомат SIG SG 751 LB (на 30 дней)</ITEM_NAME_TYPE10176>
+  <ITEM_NAME_TYPE10177>SIG 751|Автомат SIG SG 751 LB (на 90 дней)</ITEM_NAME_TYPE10177>
+  <ITEM_NAME_TYPE10178>SIG 751|Автомат SIG SG 751 LB (на 180 дней)</ITEM_NAME_TYPE10178>
+  <ITEM_NAME_TYPE10179>SIG 751|Автомат SIG SG 751 LB (на 360 дней)</ITEM_NAME_TYPE10179>
+  <ITEM_NAME_TYPE10180>Печенег м|Пулемет "Печенег" модифицированный штурмовой</ITEM_NAME_TYPE10180>
+  <ITEM_NAME_TYPE10181>HK-417|Автомат HK-417 (на 90 дней)</ITEM_NAME_TYPE10181>
+  <ITEM_NAME_TYPE10182>HK-417|Автомат HK-417 (на 180 дней)</ITEM_NAME_TYPE10182>
+  <ITEM_NAME_TYPE10183>HK-417|Автомат HK-417 (на 360 дней)</ITEM_NAME_TYPE10183>
+  <ITEM_NAME_TYPE10184>SIG 716|Автомат SIG 716 (на 90 дней)</ITEM_NAME_TYPE10184>
+  <ITEM_NAME_TYPE10185>SIG 716|Автомат SIG 716 (на 180 дней)</ITEM_NAME_TYPE10185>
+  <ITEM_NAME_TYPE10186>SIG 716|Автомат SIG 716 (на 360 дней)</ITEM_NAME_TYPE10186>
+  <ITEM_NAME_TYPE10187>SIG 751 G|Автомат SIG SG 751 LB G (на 90 дней)</ITEM_NAME_TYPE10187>
+  <ITEM_NAME_TYPE10188>SIG 751 G|Автомат SIG SG 751 LB G (на 180 дней)</ITEM_NAME_TYPE10188>
+  <ITEM_NAME_TYPE10189>SIG 751 G|Автомат SIG SG 751 LB G (на 360 дней)</ITEM_NAME_TYPE10189>
+  <ITEM_NAME_TYPE10190>SCAR-H|Автомат FN mk.17 SCAR-H (на 90 дней)</ITEM_NAME_TYPE10190>
+  <ITEM_NAME_TYPE10191>SCAR-H|Автомат FN mk.17 SCAR-H (на 180 дней)</ITEM_NAME_TYPE10191>
+  <ITEM_NAME_TYPE10192>SCAR-H|Автомат FN mk.17 SCAR-H (на 360 дней)</ITEM_NAME_TYPE10192>
+  <ITEM_NAME_TYPE10193>HK-G3a|Автомат HK-G3a (на 90 дней)</ITEM_NAME_TYPE10193>
+  <ITEM_NAME_TYPE10194>HK-G3a|Автомат HK-G3a (на 180 дней)</ITEM_NAME_TYPE10194>
+  <ITEM_NAME_TYPE10195>HK-G3a|Автомат HK-G3a (на 360 дней)</ITEM_NAME_TYPE10195>
+  <ITEM_NAME_TYPE10196>HK-G3a mk2|Автомат HK-G3a mk2 (на 90 дней)</ITEM_NAME_TYPE10196>
+  <ITEM_NAME_TYPE10197>HK-G3a mk2|Автомат HK-G3a mk2 (на 180 дней)</ITEM_NAME_TYPE10197>
+  <ITEM_NAME_TYPE10198>HK-G3a mk2|Автомат HK-G3a mk2 (на 360 дней)</ITEM_NAME_TYPE10198>
+  <ITEM_NAME_TYPE10199>CZ-805|Автомат CZ-805 (на 90 дней)</ITEM_NAME_TYPE10199>
+  <ITEM_NAME_TYPE10200>CZ-805|Автомат CZ-805 (на 180 дней)</ITEM_NAME_TYPE10200>
+  <ITEM_NAME_TYPE10201>CZ-805|Автомат CZ-805 (на 360 дней)</ITEM_NAME_TYPE10201>
+  <ITEM_NAME_TYPE10202>СВУ|Снайперская Винтовка Укороченная (ОЦ-3) (на 90 дней)</ITEM_NAME_TYPE10202>
+  <ITEM_NAME_TYPE10203>СВУ|Снайперская Винтовка Укороченная (ОЦ-3) (на 180 дней)</ITEM_NAME_TYPE10203>
+  <ITEM_NAME_TYPE10204>СВУ|Снайперская Винтовка Укороченная (ОЦ-3) (на 360 дней)</ITEM_NAME_TYPE10204>
+  <ITEM_NAME_TYPE10205>СВУ-А|Снайперская Винтовка Укороченная (ОЦ-3А) (на 90 дней)</ITEM_NAME_TYPE10205>
+  <ITEM_NAME_TYPE10206>СВУ-А|Снайперская Винтовка Укороченная (ОЦ-3А) (на 180 дней)</ITEM_NAME_TYPE10206>
+  <ITEM_NAME_TYPE10207>СВУ-А|Снайперская Винтовка Укороченная (ОЦ-3А) (на 360 дней)</ITEM_NAME_TYPE10207>
+  <ITEM_NAME_TYPE10208>Печенег|Пулемет "Печенег" (на 90 дней)</ITEM_NAME_TYPE10208>
+  <ITEM_NAME_TYPE10209>Печенег|Пулемет "Печенег" (на 180 дней)</ITEM_NAME_TYPE10209>
+  <ITEM_NAME_TYPE10210>Печенег|Пулемет "Печенег" (на 360 дней)</ITEM_NAME_TYPE10210>
+  <ITEM_NAME_TYPE10211>Печенег м|Пулемет "Печенег" модифицированный штурмовой (на 90 дней)</ITEM_NAME_TYPE10211>
+  <ITEM_NAME_TYPE10212>Печенег м|Пулемет "Печенег" модифицированный штурмовой (на 180 дней)</ITEM_NAME_TYPE10212>
+  <ITEM_NAME_TYPE10213>Печенег м|Пулемет "Печенег" модифицированный штурмовой (на 360 дней)</ITEM_NAME_TYPE10213>
+  <ITEM_NAME_TYPE10215>АШ-12 спец.|Штурмовая винтовка АШ-12 (7.62х51) специальная (на 90 дней)</ITEM_NAME_TYPE10215>
+  <ITEM_NAME_TYPE10216>АШ-12 спец.|Штурмовая винтовка АШ-12 (7.62х51) специальная (на 180 дней)</ITEM_NAME_TYPE10216>
+  <ITEM_NAME_TYPE10217>АШ-12 спец.|Штурмовая винтовка АШ-12 (7.62х51) специальная (на 360 дней)</ITEM_NAME_TYPE10217>
+  <ITEM_NAME_TYPE10219>Сайга-12К|Дробовик Сайга-12К (степной кам.)</ITEM_NAME_TYPE10219>
+  <ITEM_NAME_TYPE10220>Сайга-12К|Дробовик Сайга-12К (зимний кам.)</ITEM_NAME_TYPE10220>
+  <ITEM_NAME_TYPE10221>Сайга-12К|Дробовик Сайга-12К (городской кам.)</ITEM_NAME_TYPE10221>
+  <ITEM_NAME_TYPE10222>Сайга-12К|Дробовик Сайга-12К (лесной кам.)</ITEM_NAME_TYPE10222>
+  <ITEM_NAME_TYPE10223>Jackhammer|Дробовик Jackhammer MK3A1 (степной кам.)</ITEM_NAME_TYPE10223>
+  <ITEM_NAME_TYPE10224>Jackhammer|Дробовик Jackhammer MK3A1 (зимний кам.)</ITEM_NAME_TYPE10224>
+  <ITEM_NAME_TYPE10225>Jackhammer|Дробовик Jackhammer MK3A1 (городской кам.)</ITEM_NAME_TYPE10225>
+  <ITEM_NAME_TYPE10226>Jackhammer|Дробовик Jackhammer MK3A1 (лесной кам.)</ITEM_NAME_TYPE10226>
+  <ITEM_NAME_TYPE10227>Сайга-12К|Дробовик Сайга-12К (степной кам.) (на один день)</ITEM_NAME_TYPE10227>
+  <ITEM_NAME_TYPE10228>Сайга-12К|Дробовик Сайга-12К (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10228>
+  <ITEM_NAME_TYPE10229>Сайга-12К|Дробовик Сайга-12К (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10229>
+  <ITEM_NAME_TYPE10230>Сайга-12К|Дробовик Сайга-12К (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10230>
+  <ITEM_NAME_TYPE10231>Сайга-12К|Дробовик Сайга-12К (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10231>
+  <ITEM_NAME_TYPE10232>Сайга-12К|Дробовик Сайга-12К (зимний кам.) (на один день)</ITEM_NAME_TYPE10232>
+  <ITEM_NAME_TYPE10233>Сайга-12К|Дробовик Сайга-12К (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10233>
+  <ITEM_NAME_TYPE10234>Сайга-12К|Дробовик Сайга-12К (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10234>
+  <ITEM_NAME_TYPE10235>Сайга-12К|Дробовик Сайга-12К (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10235>
+  <ITEM_NAME_TYPE10236>Сайга-12К|Дробовик Сайга-12К (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10236>
+  <ITEM_NAME_TYPE10237>Сайга-12К|Дробовик Сайга-12К (городской кам.) (на один день)</ITEM_NAME_TYPE10237>
+  <ITEM_NAME_TYPE10238>Сайга-12К|Дробовик Сайга-12К (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10238>
+  <ITEM_NAME_TYPE10239>Сайга-12К|Дробовик Сайга-12К (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10239>
+  <ITEM_NAME_TYPE10240>Сайга-12К|Дробовик Сайга-12К (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10240>
+  <ITEM_NAME_TYPE10241>Сайга-12К|Дробовик Сайга-12К (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10241>
+  <ITEM_NAME_TYPE10242>Сайга-12К|Дробовик Сайга-12К (лесной кам.) (на один день)</ITEM_NAME_TYPE10242>
+  <ITEM_NAME_TYPE10243>Сайга-12К|Дробовик Сайга-12К (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10243>
+  <ITEM_NAME_TYPE10244>Сайга-12К|Дробовик Сайга-12К (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10244>
+  <ITEM_NAME_TYPE10245>Сайга-12К|Дробовик Сайга-12К (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10245>
+  <ITEM_NAME_TYPE10246>Сайга-12К|Дробовик Сайга-12К (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10246>
+  <ITEM_NAME_TYPE10247>Jackhammer|Дробовик Jackhammer MK3A1 (степной кам.) (на один день)</ITEM_NAME_TYPE10247>
+  <ITEM_NAME_TYPE10248>Jackhammer|Дробовик Jackhammer MK3A1 (степной кам.) (на 30 дней)</ITEM_NAME_TYPE10248>
+  <ITEM_NAME_TYPE10249>Jackhammer|Дробовик Jackhammer MK3A1 (степной кам.) (на 90 дней)</ITEM_NAME_TYPE10249>
+  <ITEM_NAME_TYPE10250>Jackhammer|Дробовик Jackhammer MK3A1 (степной кам.) (на 180 дней)</ITEM_NAME_TYPE10250>
+  <ITEM_NAME_TYPE10251>Jackhammer|Дробовик Jackhammer MK3A1 (степной кам.) (на 360 дней)</ITEM_NAME_TYPE10251>
+  <ITEM_NAME_TYPE10252>Jackhammer|Дробовик Jackhammer MK3A1 (зимний кам.) (на один день)</ITEM_NAME_TYPE10252>
+  <ITEM_NAME_TYPE10253>Jackhammer|Дробовик Jackhammer MK3A1 (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE10253>
+  <ITEM_NAME_TYPE10254>Jackhammer|Дробовик Jackhammer MK3A1 (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE10254>
+  <ITEM_NAME_TYPE10255>Jackhammer|Дробовик Jackhammer MK3A1 (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE10255>
+  <ITEM_NAME_TYPE10256>Jackhammer|Дробовик Jackhammer MK3A1 (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE10256>
+  <ITEM_NAME_TYPE10257>Jackhammer|Дробовик Jackhammer MK3A1 (городской кам.) (на один день)</ITEM_NAME_TYPE10257>
+  <ITEM_NAME_TYPE10258>Jackhammer|Дробовик Jackhammer MK3A1 (городской кам.) (на 30 дней)</ITEM_NAME_TYPE10258>
+  <ITEM_NAME_TYPE10259>Jackhammer|Дробовик Jackhammer MK3A1 (городской кам.) (на 90 дней)</ITEM_NAME_TYPE10259>
+  <ITEM_NAME_TYPE10260>Jackhammer|Дробовик Jackhammer MK3A1 (городской кам.) (на 180 дней)</ITEM_NAME_TYPE10260>
+  <ITEM_NAME_TYPE10261>Jackhammer|Дробовик Jackhammer MK3A1 (городской кам.) (на 360 дней)</ITEM_NAME_TYPE10261>
+  <ITEM_NAME_TYPE10262>Jackhammer|Дробовик Jackhammer MK3A1 (лесной кам.) (на один день)</ITEM_NAME_TYPE10262>
+  <ITEM_NAME_TYPE10263>Jackhammer|Дробовик Jackhammer MK3A1 (лесной кам.) (на 30 дней)</ITEM_NAME_TYPE10263>
+  <ITEM_NAME_TYPE10264>Jackhammer|Дробовик Jackhammer MK3A1 (лесной кам.) (на 90 дней)</ITEM_NAME_TYPE10264>
+  <ITEM_NAME_TYPE10265>Jackhammer|Дробовик Jackhammer MK3A1 (лесной кам.) (на 180 дней)</ITEM_NAME_TYPE10265>
+  <ITEM_NAME_TYPE10266>Jackhammer|Дробовик Jackhammer MK3A1 (лесной кам.) (на 360 дней)</ITEM_NAME_TYPE10266>
+  <ITEM_NAME_TYPE10218>Ржавый ПМ|Ржавый пистолет ПМ</ITEM_NAME_TYPE10218>
+  <ITEM_NAME_TYPE110245>Рв.Чак|Рваные штаны "Чак"</ITEM_NAME_TYPE110245>
+  <ITEM_NAME_TYPE110246>Рв.Штормовка|Рваная куртка "Штормовка"</ITEM_NAME_TYPE110246>
+  <ITEM_NAME_TYPE110001>Очки темн.|Круглые темные очки</ITEM_NAME_TYPE110001>
+  <ITEM_NAME_TYPE110002>Очки круг.|Круглые очки</ITEM_NAME_TYPE110002>
+  <ITEM_NAME_TYPE110003>Очки темн.|Квадратные темные очки</ITEM_NAME_TYPE110003>
+  <ITEM_NAME_TYPE110004>Очки квадр.|Квадратные очки</ITEM_NAME_TYPE110004>
+  <ITEM_NAME_TYPE110005>Харват|Куртка "Харват"</ITEM_NAME_TYPE110005>
+  <ITEM_NAME_TYPE110006>Жаба|Маска "Жаба"</ITEM_NAME_TYPE110006>
+  <ITEM_NAME_TYPE110007>Цербер|Маска "Цербер"</ITEM_NAME_TYPE110007>
+  <ITEM_NAME_TYPE110008>Военстал М2|Костюм "Военстал" М2</ITEM_NAME_TYPE110008>
+  <ITEM_NAME_TYPE110009>Сигма М2|Костюм "Сигма" М2</ITEM_NAME_TYPE110009>
+  <ITEM_NAME_TYPE110010>Шторм М2|Костюм "Шторм" М2</ITEM_NAME_TYPE110010>
+  <ITEM_NAME_TYPE110011>Маскиров.М2|Костюм маскировочный М2</ITEM_NAME_TYPE110011>
+  <ITEM_NAME_TYPE110012>Страж М2 гр.|Костюм "Страж" М2</ITEM_NAME_TYPE110012>
+  <ITEM_NAME_TYPE110013>Инквизитор М2|Костюм "Инквизитор" М2</ITEM_NAME_TYPE110013>
+  <ITEM_NAME_TYPE110014>Хищник М2|Костюм "Хищник" М2</ITEM_NAME_TYPE110014>
+  <ITEM_NAME_TYPE110015>Тишина М2|Костюм "Тишина" М2</ITEM_NAME_TYPE110015>
+  <ITEM_NAME_TYPE110016>Химера М2|Костюм "Химера" М2</ITEM_NAME_TYPE110016>
+  <ITEM_NAME_TYPE110017>STELS М2|Костюм "STELS" М2</ITEM_NAME_TYPE110017>
+  <ITEM_NAME_TYPE110018>Одиночка М2|Костюм "Одиночка" М2</ITEM_NAME_TYPE110018>
+  <ITEM_NAME_TYPE110020>Берет|Военный Берет (на 30 дней)</ITEM_NAME_TYPE110020>
+  <ITEM_NAME_TYPE110021>Берет|Военный Берет (на 90 дней)</ITEM_NAME_TYPE110021>
+  <ITEM_NAME_TYPE110022>Берет|Военный Берет (на 180 дней)</ITEM_NAME_TYPE110022>
+  <ITEM_NAME_TYPE110023>Берет|Военный Берет (на 360 дней)</ITEM_NAME_TYPE110023>
+  <ITEM_NAME_TYPE110025>Партизан|Телогрейка "Партизан" (на 30 дней)</ITEM_NAME_TYPE110025>
+  <ITEM_NAME_TYPE110026>Партизан|Телогрейка "Партизан" (на 90 дней)</ITEM_NAME_TYPE110026>
+  <ITEM_NAME_TYPE110027>Партизан|Телогрейка "Партизан" (на 180 дней)</ITEM_NAME_TYPE110027>
+  <ITEM_NAME_TYPE110028>Партизан|Телогрейка "Партизан" (на 360 дней)</ITEM_NAME_TYPE110028>
+  <ITEM_NAME_TYPE110029>Ученый|Халат "Ученый" (на один день)</ITEM_NAME_TYPE110029>
+  <ITEM_NAME_TYPE110030>Ученый|Халат "Ученый" (на 30 дней)</ITEM_NAME_TYPE110030>
+  <ITEM_NAME_TYPE110031>Ученый|Халат "Ученый" (на 90 дней)</ITEM_NAME_TYPE110031>
+  <ITEM_NAME_TYPE110032>Ученый|Халат "Ученый" (на 180 дней)</ITEM_NAME_TYPE110032>
+  <ITEM_NAME_TYPE110033>Ученый|Халат "Ученый" (на 360 дней)</ITEM_NAME_TYPE110033>
+  <ITEM_NAME_TYPE110034>Техник|Халат "Техник" (на один день)</ITEM_NAME_TYPE110034>
+  <ITEM_NAME_TYPE110035>Техник|Халат "Техник" (на 30 дней)</ITEM_NAME_TYPE110035>
+  <ITEM_NAME_TYPE110036>Техник|Халат "Техник" (на 90 дней)</ITEM_NAME_TYPE110036>
+  <ITEM_NAME_TYPE110037>Техник|Халат "Техник" (на 180 дней)</ITEM_NAME_TYPE110037>
+  <ITEM_NAME_TYPE110038>Техник|Халат "Техник" (на 360 дней)</ITEM_NAME_TYPE110038>
+  <ITEM_NAME_TYPE110039>Санитар|Медицинский халат "Санитар" (на один день)</ITEM_NAME_TYPE110039>
+  <ITEM_NAME_TYPE110040>Санитар|Медицинский халат "Санитар" (на 30 дней)</ITEM_NAME_TYPE110040>
+  <ITEM_NAME_TYPE110041>Санитар|Медицинский халат "Санитар" (на 90 дней)</ITEM_NAME_TYPE110041>
+  <ITEM_NAME_TYPE110042>Санитар|Медицинский халат "Санитар" (на 180 дней)</ITEM_NAME_TYPE110042>
+  <ITEM_NAME_TYPE110043>Санитар|Медицинский халат "Санитар" (на 360 дней)</ITEM_NAME_TYPE110043>
+  <ITEM_NAME_TYPE110044>Партизан 12кг|Рюкзак "Партизан" (на один день)</ITEM_NAME_TYPE110044>
+  <ITEM_NAME_TYPE110046>Партизан 12кг|Рюкзак "Партизан" (на 90 дней)</ITEM_NAME_TYPE110046>
+  <ITEM_NAME_TYPE110047>Партизан 12кг|Рюкзак "Партизан" (на 180 дней)</ITEM_NAME_TYPE110047>
+  <ITEM_NAME_TYPE110048>Партизан 12кг|Рюкзак "Партизан" (на 360 дней)</ITEM_NAME_TYPE110048>
+  <ITEM_NAME_TYPE110049>Партизан зим.|Рюкзак "Партизан" (зимний кам.) (на один день)</ITEM_NAME_TYPE110049>
+  <ITEM_NAME_TYPE110051>Партизан зим.|Рюкзак "Партизан" (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE110051>
+  <ITEM_NAME_TYPE110052>Партизан зим.|Рюкзак "Партизан" (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE110052>
+  <ITEM_NAME_TYPE110053>Партизан зим.|Рюкзак "Партизан" (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE110053>
+  <ITEM_NAME_TYPE110054>Шакал|Броня "Шакал" (на один день)</ITEM_NAME_TYPE110054>
+  <ITEM_NAME_TYPE110055>Шакал|Броня "Шакал" (на 30 дней)</ITEM_NAME_TYPE110055>
+  <ITEM_NAME_TYPE110056>Шакал|Броня "Шакал" (на 90 дней)</ITEM_NAME_TYPE110056>
+  <ITEM_NAME_TYPE110057>Шакал|Броня "Шакал" (на 180 дней)</ITEM_NAME_TYPE110057>
+  <ITEM_NAME_TYPE110058>Шакал|Броня "Шакал" (на 360 дней)</ITEM_NAME_TYPE110058>
+  <ITEM_NAME_TYPE110059>Шакал|Куртка "Шакал" (на один день)</ITEM_NAME_TYPE110059>
+  <ITEM_NAME_TYPE110060>Шакал|Куртка "Шакал" (на 30 дней)</ITEM_NAME_TYPE110060>
+  <ITEM_NAME_TYPE110061>Шакал|Куртка "Шакал" (на 90 дней)</ITEM_NAME_TYPE110061>
+  <ITEM_NAME_TYPE110062>Шакал|Куртка "Шакал" (на 180 дней)</ITEM_NAME_TYPE110062>
+  <ITEM_NAME_TYPE110063>Шакал|Куртка "Шакал" (на 360 дней)</ITEM_NAME_TYPE110063>
+  <ITEM_NAME_TYPE110064>Шакал|Штаны "Шакал" (на один день)</ITEM_NAME_TYPE110064>
+  <ITEM_NAME_TYPE110065>Шакал|Штаны "Шакал" (на 30 дней)</ITEM_NAME_TYPE110065>
+  <ITEM_NAME_TYPE110066>Шакал|Штаны "Шакал" (на 90 дней)</ITEM_NAME_TYPE110066>
+  <ITEM_NAME_TYPE110067>Шакал|Штаны "Шакал" (на 180 дней)</ITEM_NAME_TYPE110067>
+  <ITEM_NAME_TYPE110068>Шакал|Штаны "Шакал" (на 360 дней)</ITEM_NAME_TYPE110068>
+  <ITEM_NAME_TYPE110069>Вороний лес|Шлем "Вороний лес" (на один день)</ITEM_NAME_TYPE110069>
+  <ITEM_NAME_TYPE110070>Вороний лес|Шлем "Вороний лес" (на 30 дней)</ITEM_NAME_TYPE110070>
+  <ITEM_NAME_TYPE110071>Вороний лес|Шлем "Вороний лес" (на 90 дней)</ITEM_NAME_TYPE110071>
+  <ITEM_NAME_TYPE110072>Вороний лес|Шлем "Вороний лес" (на 180 дней)</ITEM_NAME_TYPE110072>
+  <ITEM_NAME_TYPE110073>Вороний лес|Шлем "Вороний лес" (на 360 дней)</ITEM_NAME_TYPE110073>
+  <ITEM_NAME_TYPE110074>Вороний лес|Бронежилет "Вороний лес" (на один день)</ITEM_NAME_TYPE110074>
+  <ITEM_NAME_TYPE110075>Вороний лес|Бронежилет "Вороний лес" (на 30 дней)</ITEM_NAME_TYPE110075>
+  <ITEM_NAME_TYPE110076>Вороний лес|Бронежилет "Вороний лес" (на 90 дней)</ITEM_NAME_TYPE110076>
+  <ITEM_NAME_TYPE110077>Вороний лес|Бронежилет "Вороний лес" (на 180 дней)</ITEM_NAME_TYPE110077>
+  <ITEM_NAME_TYPE110078>Вороний лес|Бронежилет "Вороний лес" (на 360 дней)</ITEM_NAME_TYPE110078>
+  <ITEM_NAME_TYPE110079>Вороний лес|Штаны "Вороний лес" (на один день)</ITEM_NAME_TYPE110079>
+  <ITEM_NAME_TYPE110080>Вороний лес|Штаны "Вороний лес" (на 30 дней)</ITEM_NAME_TYPE110080>
+  <ITEM_NAME_TYPE110081>Вороний лес|Штаны "Вороний лес" (на 90 дней)</ITEM_NAME_TYPE110081>
+  <ITEM_NAME_TYPE110082>Вороний лес|Штаны "Вороний лес" (на 180 дней)</ITEM_NAME_TYPE110082>
+  <ITEM_NAME_TYPE110083>Вороний лес|Штаны "Вороний лес" (на 360 дней)</ITEM_NAME_TYPE110083>
+  <ITEM_NAME_TYPE110084>КК|Костюм "Красный Крест" (на один день)</ITEM_NAME_TYPE110084>
+  <ITEM_NAME_TYPE110085>КК|Костюм "Красный Крест" (на 30 дней)</ITEM_NAME_TYPE110085>
+  <ITEM_NAME_TYPE110086>КК|Костюм "Красный Крест" (на 90 дней)</ITEM_NAME_TYPE110086>
+  <ITEM_NAME_TYPE110087>КК|Костюм "Красный Крест" (на 180 дней)</ITEM_NAME_TYPE110087>
+  <ITEM_NAME_TYPE110088>КК|Костюм "Красный Крест" (на 360 дней)</ITEM_NAME_TYPE110088>
+  <ITEM_NAME_TYPE110089>Военстал|Костюм "Военстал" (на 90 дней)</ITEM_NAME_TYPE110089>
+  <ITEM_NAME_TYPE110090>Военстал|Костюм "Военстал" (на 180 дней)</ITEM_NAME_TYPE110090>
+  <ITEM_NAME_TYPE110091>Военстал|Костюм "Военстал" (на 360 дней)</ITEM_NAME_TYPE110091>
+  <ITEM_NAME_TYPE110092>Военстал М2|Костюм "Военстал" М2 (на 90 дней)</ITEM_NAME_TYPE110092>
+  <ITEM_NAME_TYPE110093>Военстал М2|Костюм "Военстал" М2 (на 180 дней)</ITEM_NAME_TYPE110093>
+  <ITEM_NAME_TYPE110094>Военстал М2|Костюм "Военстал" М2 (на 360 дней)</ITEM_NAME_TYPE110094>
+  <ITEM_NAME_TYPE110095>Сигма|Костюм "Сигма" (на 90 дней)</ITEM_NAME_TYPE110095>
+  <ITEM_NAME_TYPE110096>Сигма|Костюм "Сигма" (на 180 дней)</ITEM_NAME_TYPE110096>
+  <ITEM_NAME_TYPE110097>Сигма|Костюм "Сигма" (на 360 дней)</ITEM_NAME_TYPE110097>
+  <ITEM_NAME_TYPE110098>Сигма М2|Костюм "Сигма" М2 (на 90 дней)</ITEM_NAME_TYPE110098>
+  <ITEM_NAME_TYPE110099>Сигма М2|Костюм "Сигма" М2 (на 180 дней)</ITEM_NAME_TYPE110099>
+  <ITEM_NAME_TYPE110100>Сигма М2|Костюм "Сигма" М2 (на 360 дней)</ITEM_NAME_TYPE110100>
+  <ITEM_NAME_TYPE110101>Шторм|Костюм "Шторм" (на 90 дней)</ITEM_NAME_TYPE110101>
+  <ITEM_NAME_TYPE110102>Шторм|Костюм "Шторм" (на 180 дней)</ITEM_NAME_TYPE110102>
+  <ITEM_NAME_TYPE110103>Шторм|Костюм "Шторм" (на 360 дней)</ITEM_NAME_TYPE110103>
+  <ITEM_NAME_TYPE110104>Шторм М2|Костюм "Шторм" М2 (на 90 дней)</ITEM_NAME_TYPE110104>
+  <ITEM_NAME_TYPE110105>Шторм М2|Костюм "Шторм" М2 (на 180 дней)</ITEM_NAME_TYPE110105>
+  <ITEM_NAME_TYPE110106>Шторм М2|Костюм "Шторм" М2 (на 360 дней)</ITEM_NAME_TYPE110106>
+  <ITEM_NAME_TYPE110107>Маскиров.|Костюм маскировочный (на 90 дней)</ITEM_NAME_TYPE110107>
+  <ITEM_NAME_TYPE110108>Маскиров.|Костюм маскировочный (на 180 дней)</ITEM_NAME_TYPE110108>
+  <ITEM_NAME_TYPE110109>Маскиров.|Костюм маскировочный (на 360 дней)</ITEM_NAME_TYPE110109>
+  <ITEM_NAME_TYPE110110>Маскиров.М2|Костюм маскировочный М2 (на 90 дней)</ITEM_NAME_TYPE110110>
+  <ITEM_NAME_TYPE110111>Маскиров.М2|Костюм маскировочный М2 (на 180 дней)</ITEM_NAME_TYPE110111>
+  <ITEM_NAME_TYPE110112>Маскиров.М2|Костюм маскировочный М2 (на 360 дней)</ITEM_NAME_TYPE110112>
+  <ITEM_NAME_TYPE110113>Страж|Костюм "Страж" (на 90 дней)</ITEM_NAME_TYPE110113>
+  <ITEM_NAME_TYPE110114>Страж|Костюм "Страж" (на 180 дней)</ITEM_NAME_TYPE110114>
+  <ITEM_NAME_TYPE110115>Страж|Костюм "Страж" (на 360 дней)</ITEM_NAME_TYPE110115>
+  <ITEM_NAME_TYPE110116>Страж М2|Костюм "Страж" М2 (на 90 дней)</ITEM_NAME_TYPE110116>
+  <ITEM_NAME_TYPE110117>Страж М2|Костюм "Страж" М2 (на 180 дней)</ITEM_NAME_TYPE110117>
+  <ITEM_NAME_TYPE110118>Страж М2|Костюм "Страж" М2 (на 360 дней)</ITEM_NAME_TYPE110118>
+  <ITEM_NAME_TYPE110119>Тень|Костюм "Тень" (на 90 дней)</ITEM_NAME_TYPE110119>
+  <ITEM_NAME_TYPE110120>Тень|Костюм "Тень" (на 180 дней)</ITEM_NAME_TYPE110120>
+  <ITEM_NAME_TYPE110121>Тень|Костюм "Тень" (на 360 дней)</ITEM_NAME_TYPE110121>
+  <ITEM_NAME_TYPE110122>Инквизитор|Костюм "Инквизитор" (на 90 дней)</ITEM_NAME_TYPE110122>
+  <ITEM_NAME_TYPE110123>Инквизитор|Костюм "Инквизитор" (на 180 дней)</ITEM_NAME_TYPE110123>
+  <ITEM_NAME_TYPE110124>Инквизитор|Костюм "Инквизитор" (на 360 дней)</ITEM_NAME_TYPE110124>
+  <ITEM_NAME_TYPE110125>Инквизитор М2|Костюм "Инквизитор" М2 (на 90 дней)</ITEM_NAME_TYPE110125>
+  <ITEM_NAME_TYPE110126>Инквизитор М2|Костюм "Инквизитор" М2 (на 180 дней)</ITEM_NAME_TYPE110126>
+  <ITEM_NAME_TYPE110127>Инквизитор М2|Костюм "Инквизитор" М2 (на 360 дней)</ITEM_NAME_TYPE110127>
+  <ITEM_NAME_TYPE110128>Хищник|Костюм "Хищник" (на 90 дней)</ITEM_NAME_TYPE110128>
+  <ITEM_NAME_TYPE110129>Хищник|Костюм "Хищник" (на 180 дней)</ITEM_NAME_TYPE110129>
+  <ITEM_NAME_TYPE110130>Хищник|Костюм "Хищник" (на 360 дней)</ITEM_NAME_TYPE110130>
+  <ITEM_NAME_TYPE110131>Хищник М2|Костюм "Хищник" М2 (на 90 дней)</ITEM_NAME_TYPE110131>
+  <ITEM_NAME_TYPE110132>Хищник М2|Костюм "Хищник" М2 (на 180 дней)</ITEM_NAME_TYPE110132>
+  <ITEM_NAME_TYPE110133>Хищник М2|Костюм "Хищник" М2 (на 360 дней)</ITEM_NAME_TYPE110133>
+  <ITEM_NAME_TYPE110134>Тишина|Костюм "Тишина" (на 90 дней)</ITEM_NAME_TYPE110134>
+  <ITEM_NAME_TYPE110135>Тишина|Костюм "Тишина" (на 180 дней)</ITEM_NAME_TYPE110135>
+  <ITEM_NAME_TYPE110136>Тишина|Костюм "Тишина" (на 360 дней)</ITEM_NAME_TYPE110136>
+  <ITEM_NAME_TYPE110137>Тишина М2|Костюм "Тишина" М2 (на 90 дней)</ITEM_NAME_TYPE110137>
+  <ITEM_NAME_TYPE110138>Тишина М2|Костюм "Тишина" М2 (на 180 дней)</ITEM_NAME_TYPE110138>
+  <ITEM_NAME_TYPE110139>Тишина М2|Костюм "Тишина" М2 (на 360 дней)</ITEM_NAME_TYPE110139>
+  <ITEM_NAME_TYPE110140>Химера|Костюм "Химера" (на 90 дней)</ITEM_NAME_TYPE110140>
+  <ITEM_NAME_TYPE110141>Химера|Костюм "Химера" (на 180 дней)</ITEM_NAME_TYPE110141>
+  <ITEM_NAME_TYPE110142>Химера|Костюм "Химера" (на 360 дней)</ITEM_NAME_TYPE110142>
+  <ITEM_NAME_TYPE110143>Химера М2|Костюм "Химера" М2 (на 90 дней)</ITEM_NAME_TYPE110143>
+  <ITEM_NAME_TYPE110144>Химера М2|Костюм "Химера" М2 (на 180 дней)</ITEM_NAME_TYPE110144>
+  <ITEM_NAME_TYPE110145>Химера М2|Костюм "Химера" М2 (на 360 дней)</ITEM_NAME_TYPE110145>
+  <ITEM_NAME_TYPE110146>STELS|Костюм "STELS" (на 90 дней)</ITEM_NAME_TYPE110146>
+  <ITEM_NAME_TYPE110147>STELS|Костюм "STELS" (на 180 дней)</ITEM_NAME_TYPE110147>
+  <ITEM_NAME_TYPE110148>STELS|Костюм "STELS" (на 360 дней)</ITEM_NAME_TYPE110148>
+  <ITEM_NAME_TYPE110149>STELS М2|Костюм "STELS" М2 (на 90 дней)</ITEM_NAME_TYPE110149>
+  <ITEM_NAME_TYPE110150>STELS М2|Костюм "STELS" М2 (на 180 дней)</ITEM_NAME_TYPE110150>
+  <ITEM_NAME_TYPE110151>STELS М2|Костюм "STELS" М2 (на 360 дней)</ITEM_NAME_TYPE110151>
+  <ITEM_NAME_TYPE110152>Химера|Рюкзак "Химера" (на 90 дней)</ITEM_NAME_TYPE110152>
+  <ITEM_NAME_TYPE110153>Химера|Рюкзак "Химера" (на 180 дней)</ITEM_NAME_TYPE110153>
+  <ITEM_NAME_TYPE110154>Химера|Рюкзак "Химера" (на 360 дней)</ITEM_NAME_TYPE110154>
+  <ITEM_NAME_TYPE110155>Шпинат зим.|Бронежилет "Шпинат" (зимний кам.) (на один день)</ITEM_NAME_TYPE110155>
+  <ITEM_NAME_TYPE110156>Шпинат зим.|Бронежилет "Шпинат" (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE110156>
+  <ITEM_NAME_TYPE110157>Шпинат зим.|Бронежилет "Шпинат" (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE110157>
+  <ITEM_NAME_TYPE110158>Шпинат зим.|Бронежилет "Шпинат" (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE110158>
+  <ITEM_NAME_TYPE110159>Шпинат зим.|Бронежилет "Шпинат" (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE110159>
+  <ITEM_NAME_TYPE110160>ТАШ зим.|Бронежилет ТАШ (зимний кам.) (на один день)</ITEM_NAME_TYPE110160>
+  <ITEM_NAME_TYPE110161>ТАШ зим.|Бронежилет ТАШ (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE110161>
+  <ITEM_NAME_TYPE110162>ТАШ зим.|Бронежилет ТАШ (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE110162>
+  <ITEM_NAME_TYPE110163>ТАШ зим.|Бронежилет ТАШ (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE110163>
+  <ITEM_NAME_TYPE110164>ТАШ зим.|Бронежилет ТАШ (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE110164>
+  <ITEM_NAME_TYPE110165>Хаки зим.|Куртка "Хаки" (зимний кам.) (на один день)</ITEM_NAME_TYPE110165>
+  <ITEM_NAME_TYPE110166>Хаки зим.|Куртка "Хаки" (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE110166>
+  <ITEM_NAME_TYPE110167>Хаки зим.|Куртка "Хаки" (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE110167>
+  <ITEM_NAME_TYPE110168>Хаки зим.|Куртка "Хаки" (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE110168>
+  <ITEM_NAME_TYPE110169>Хаки зим.|Куртка "Хаки" (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE110169>
+  <ITEM_NAME_TYPE110170>Хаки зим.|Штаны "Хаки" (зимний кам.) (на один день)</ITEM_NAME_TYPE110170>
+  <ITEM_NAME_TYPE110171>Хаки зим.|Штаны "Хаки" (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE110171>
+  <ITEM_NAME_TYPE110172>Хаки зим.|Штаны "Хаки" (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE110172>
+  <ITEM_NAME_TYPE110173>Хаки зим.|Штаны "Хаки" (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE110173>
+  <ITEM_NAME_TYPE110174>Хаки зим.|Штаны "Хаки" (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE110174>
+  <ITEM_NAME_TYPE110175>Викинг зим.|Шлем "Викинг" (зимний кам.) (на один день)</ITEM_NAME_TYPE110175>
+  <ITEM_NAME_TYPE110176>Викинг зим.|Шлем "Викинг" (зимний кам.) (на 30 дней)</ITEM_NAME_TYPE110176>
+  <ITEM_NAME_TYPE110177>Викинг зим.|Шлем "Викинг" (зимний кам.) (на 90 дней)</ITEM_NAME_TYPE110177>
+  <ITEM_NAME_TYPE110178>Викинг зим.|Шлем "Викинг" (зимний кам.) (на 180 дней)</ITEM_NAME_TYPE110178>
+  <ITEM_NAME_TYPE110179>Викинг зим.|Шлем "Викинг" (зимний кам.) (на 360 дней)</ITEM_NAME_TYPE110179>
+  <ITEM_NAME_TYPE110180>Очки темн.|Круглые темные очки (на один день)</ITEM_NAME_TYPE110180>
+  <ITEM_NAME_TYPE110181>Очки темн.|Круглые темные очки (на 30 дней)</ITEM_NAME_TYPE110181>
+  <ITEM_NAME_TYPE110182>Очки темн.|Круглые темные очки (на 90 дней)</ITEM_NAME_TYPE110182>
+  <ITEM_NAME_TYPE110183>Очки темн.|Круглые темные очки (на 180 дней)</ITEM_NAME_TYPE110183>
+  <ITEM_NAME_TYPE110184>Очки темн.|Круглые темные очки (на 360 дней)</ITEM_NAME_TYPE110184>
+  <ITEM_NAME_TYPE110185>Очки круг.|Круглые очки (на один день)</ITEM_NAME_TYPE110185>
+  <ITEM_NAME_TYPE110186>Очки круг.|Круглые очки (на 30 дней)</ITEM_NAME_TYPE110186>
+  <ITEM_NAME_TYPE110187>Очки круг.|Круглые очки (на 90 дней)</ITEM_NAME_TYPE110187>
+  <ITEM_NAME_TYPE110188>Очки круг.|Круглые очки (на 180 дней)</ITEM_NAME_TYPE110188>
+  <ITEM_NAME_TYPE110189>Очки круг.|Круглые очки (на 360 дней)</ITEM_NAME_TYPE110189>
+  <ITEM_NAME_TYPE110190>Очки темн.|Квадратные темные очки (на один день)</ITEM_NAME_TYPE110190>
+  <ITEM_NAME_TYPE110191>Очки темн.|Квадратные темные очки (на 30 дней)</ITEM_NAME_TYPE110191>
+  <ITEM_NAME_TYPE110192>Очки темн.|Квадратные темные очки (на 90 дней)</ITEM_NAME_TYPE110192>
+  <ITEM_NAME_TYPE110193>Очки темн.|Квадратные темные очки (на 180 дней)</ITEM_NAME_TYPE110193>
+  <ITEM_NAME_TYPE110194>Очки темн.|Квадратные темные очки (на 360 дней)</ITEM_NAME_TYPE110194>
+  <ITEM_NAME_TYPE110195>Очки квадр.|Квадратные очки (на один день)</ITEM_NAME_TYPE110195>
+  <ITEM_NAME_TYPE110196>Очки квадр.|Квадратные очки (на 30 дней)</ITEM_NAME_TYPE110196>
+  <ITEM_NAME_TYPE110197>Очки квадр.|Квадратные очки (на 90 дней)</ITEM_NAME_TYPE110197>
+  <ITEM_NAME_TYPE110198>Очки квадр.|Квадратные очки (на 180 дней)</ITEM_NAME_TYPE110198>
+  <ITEM_NAME_TYPE110199>Очки квадр.|Квадратные очки (на 360 дней)</ITEM_NAME_TYPE110199>
+  <ITEM_NAME_TYPE110200>Очки Кобра|Очки "Кобра" (на один день)</ITEM_NAME_TYPE110200>
+  <ITEM_NAME_TYPE110201>Очки Кобра|Очки "Кобра" (на 30 дней)</ITEM_NAME_TYPE110201>
+  <ITEM_NAME_TYPE110202>Очки Кобра|Очки "Кобра" (на 90 дней)</ITEM_NAME_TYPE110202>
+  <ITEM_NAME_TYPE110203>Очки Кобра|Очки "Кобра" (на 180 дней)</ITEM_NAME_TYPE110203>
+  <ITEM_NAME_TYPE110204>Очки Кобра|Очки "Кобра" (на 360 дней)</ITEM_NAME_TYPE110204>
+  <ITEM_NAME_TYPE110205>Берет(кр)|Военный Берет красный (на один день)</ITEM_NAME_TYPE110205>
+  <ITEM_NAME_TYPE110206>Берет(кр)|Военный Берет красный (на 30 дней)</ITEM_NAME_TYPE110206>
+  <ITEM_NAME_TYPE110207>Берет(кр)|Военный Берет красный (на 90 дней)</ITEM_NAME_TYPE110207>
+  <ITEM_NAME_TYPE110208>Берет(кр)|Военный Берет красный (на 180 дней)</ITEM_NAME_TYPE110208>
+  <ITEM_NAME_TYPE110209>Берет(кр)|Военный Берет красный (на 360 дней)</ITEM_NAME_TYPE110209>
+  <ITEM_NAME_TYPE110210>Берет(син)|Военный Берет синий (на один день)</ITEM_NAME_TYPE110210>
+  <ITEM_NAME_TYPE110211>Берет(син)|Военный Берет синий (на 30 дней)</ITEM_NAME_TYPE110211>
+  <ITEM_NAME_TYPE110212>Берет(син)|Военный Берет синий (на 90 дней)</ITEM_NAME_TYPE110212>
+  <ITEM_NAME_TYPE110213>Берет(син)|Военный Берет синий (на 180 дней)</ITEM_NAME_TYPE110213>
+  <ITEM_NAME_TYPE110214>Берет(син)|Военный Берет синий (на 360 дней)</ITEM_NAME_TYPE110214>
+  <ITEM_NAME_TYPE110215>Одиночки|Костюм "Одиночки" (на один день)</ITEM_NAME_TYPE110215>
+  <ITEM_NAME_TYPE110216>Одиночки|Костюм "Одиночки" (на 30 дней)</ITEM_NAME_TYPE110216>
+  <ITEM_NAME_TYPE110217>Одиночки|Костюм "Одиночки" (на 90 дней)</ITEM_NAME_TYPE110217>
+  <ITEM_NAME_TYPE110218>Одиночки|Костюм "Одиночки" (на 180 дней)</ITEM_NAME_TYPE110218>
+  <ITEM_NAME_TYPE110219>Одиночки|Костюм "Одиночки" (на 360 дней)</ITEM_NAME_TYPE110219>
+  <ITEM_NAME_TYPE110220>Одиночки 15кг|Рюкзак "Одиночки" (на один день)</ITEM_NAME_TYPE110220>
+  <ITEM_NAME_TYPE110221>Одиночки 15кг|Рюкзак "Одиночки" (на 30 дней)</ITEM_NAME_TYPE110221>
+  <ITEM_NAME_TYPE110222>Одиночки 15кг|Рюкзак "Одиночки" (на 90 дней)</ITEM_NAME_TYPE110222>
+  <ITEM_NAME_TYPE110223>Одиночки 15кг|Рюкзак "Одиночки" (на 180 дней)</ITEM_NAME_TYPE110223>
+  <ITEM_NAME_TYPE110224>Одиночки 15кг|Рюкзак "Одиночки" (на 360 дней)</ITEM_NAME_TYPE110224>
+  <ITEM_NAME_TYPE110225>ШИЗ|Бронежилет ШИЗ (на один день)</ITEM_NAME_TYPE110225>
+  <ITEM_NAME_TYPE110226>ШИЗ|Бронежилет ШИЗ (на 30 дней)</ITEM_NAME_TYPE110226>
+  <ITEM_NAME_TYPE110227>ШИЗ|Бронежилет ШИЗ (на 90 дней)</ITEM_NAME_TYPE110227>
+  <ITEM_NAME_TYPE110228>ШИЗ|Бронежилет ШИЗ (на 180 дней)</ITEM_NAME_TYPE110228>
+  <ITEM_NAME_TYPE110229>ШИЗ|Бронежилет ШИЗ (на 360 дней)</ITEM_NAME_TYPE110229>
+  <ITEM_NAME_TYPE110230>ШИЗ|Штаны ШИЗ (на один день)</ITEM_NAME_TYPE110230>
+  <ITEM_NAME_TYPE110231>ШИЗ|Штаны ШИЗ (на 30 дней)</ITEM_NAME_TYPE110231>
+  <ITEM_NAME_TYPE110232>ШИЗ|Штаны ШИЗ (на 90 дней)</ITEM_NAME_TYPE110232>
+  <ITEM_NAME_TYPE110233>ШИЗ|Штаны ШИЗ (на 180 дней)</ITEM_NAME_TYPE110233>
+  <ITEM_NAME_TYPE110234>ШИЗ|Штаны ШИЗ (на 360 дней)</ITEM_NAME_TYPE110234>
+  <ITEM_NAME_TYPE110235>Очкарик|Шлем ШИЗ "Очкарик" (на один день)</ITEM_NAME_TYPE110235>
+  <ITEM_NAME_TYPE110236>Очкарик|Шлем ШИЗ "Очкарик" (на 30 дней)</ITEM_NAME_TYPE110236>
+  <ITEM_NAME_TYPE110237>Очкарик|Шлем ШИЗ "Очкарик" (на 90 дней)</ITEM_NAME_TYPE110237>
+  <ITEM_NAME_TYPE110238>Очкарик|Шлем ШИЗ "Очкарик" (на 180 дней)</ITEM_NAME_TYPE110238>
+  <ITEM_NAME_TYPE110239>Очкарик|Шлем ШИЗ "Очкарик" (на 360 дней)</ITEM_NAME_TYPE110239>
+  <ITEM_NAME_TYPE110240>Прорезь|Шлем ШИЗ "Прорезь" (на один день)</ITEM_NAME_TYPE110240>
+  <ITEM_NAME_TYPE110241>Прорезь|Шлем ШИЗ "Прорезь" (на 30 дней)</ITEM_NAME_TYPE110241>
+  <ITEM_NAME_TYPE110242>Прорезь|Шлем ШИЗ "Прорезь" (на 90 дней)</ITEM_NAME_TYPE110242>
+  <ITEM_NAME_TYPE110243>Прорезь|Шлем ШИЗ "Прорезь" (на 180 дней)</ITEM_NAME_TYPE110243>
+  <ITEM_NAME_TYPE110244>Прорезь|Шлем ШИЗ "Прорезь" (на 360 дней)</ITEM_NAME_TYPE110244>
+  <ITEM_NAME_TYPE110247>GLOVES_HANDS</ITEM_NAME_TYPE110247>
+  <ITEM_NAME_TYPE110248>GLOVES_HALF1_HANDS</ITEM_NAME_TYPE110248>
+  <ITEM_NAME_TYPE110249>GLOVES_HALF2_HANDS</ITEM_NAME_TYPE110249>
+  <ITEM_NAME_TYPE110250>GLOVES_HALF3_HANDS</ITEM_NAME_TYPE110250>
+  <ITEM_NAME_TYPE110251>BERTCI_M1_BOOTS</ITEM_NAME_TYPE110251>
+  <ITEM_NAME_TYPE110252>BERTCI_M2_BOOTS</ITEM_NAME_TYPE110252>
+  <ITEM_NAME_TYPE110253>BERTCI_M3_BOOTS</ITEM_NAME_TYPE110253>
+  <ITEM_NAME_TYPE110254>BERTCI_M4_BOOTS</ITEM_NAME_TYPE110254>
+  <ITEM_NAME_TYPE110255>BOTINKI_BOOTS</ITEM_NAME_TYPE110255>
+  <ITEM_NAME_TYPE110256>JEANS_BLUE_PANTS</ITEM_NAME_TYPE110256>
+  <ITEM_NAME_TYPE110257>JEANS_BROWN_PANTS</ITEM_NAME_TYPE110257>
+  <ITEM_NAME_TYPE110258>JEANS_BLACK_PANTS</ITEM_NAME_TYPE110258>
+  <ITEM_NAME_TYPE110259>JEANS_GREEN_PANTS</ITEM_NAME_TYPE110259>
+  <ITEM_NAME_TYPE110261>Кинолог|Костюм "Кинолог" (на один день)</ITEM_NAME_TYPE110261>
+  <ITEM_NAME_TYPE110262>Кинолог|Костюм "Кинолог" (на 30 дней)</ITEM_NAME_TYPE110262>
+  <ITEM_NAME_TYPE110263>Кинолог|Костюм "Кинолог" (на 90 дней)</ITEM_NAME_TYPE110263>
+  <ITEM_NAME_TYPE110264>Кинолог|Костюм "Кинолог" (на 180 дней)</ITEM_NAME_TYPE110264>
+  <ITEM_NAME_TYPE110265>Кинолог|Костюм "Кинолог" (на 360 дней)</ITEM_NAME_TYPE110265>
+  <ITEM_NAME_TYPE110268>Одиночка М2|Костюм "Одиночка" М2 (на 90 дней)</ITEM_NAME_TYPE110268>
+  <ITEM_NAME_TYPE110269>Одиночка М2|Костюм "Одиночка" М2 (на 180 дней)</ITEM_NAME_TYPE110269>
+  <ITEM_NAME_TYPE110270>Одиночка М2|Костюм "Одиночка" М2 (на 360 дней)</ITEM_NAME_TYPE110270>
+  <ITEM_NAME_TYPE110276>Халат|Белый халат.</ITEM_NAME_TYPE110276>
+  <ITEM_NAME_TYPE110277>Халат м.|Белый халат медика.</ITEM_NAME_TYPE110277>
+  <ITEM_NAME_TYPE110278>Халат у.|Белый халат учёного.</ITEM_NAME_TYPE110278>
+  <ITEM_NAME_TYPE110279>Халат т.|Белый халат техника.</ITEM_NAME_TYPE110279>
+  <ITEM_NAME_TYPE110271>Комб. ICSA|Комбинезон учёных из ICSA</ITEM_NAME_TYPE110271>
+  <ITEM_NAME_TYPE110272>Рюкзак ICSA|Рюкзак учёных из ICSA</ITEM_NAME_TYPE110272>
+  <ITEM_NAME_TYPE110273>Шлем ICSA|Шлем учёных из ICSA c непрозрачным стеклом</ITEM_NAME_TYPE110273>
+  <ITEM_NAME_TYPE110274>Шлем ICSA|Шлем учёных из ICSA c прозрачным синим стеклом</ITEM_NAME_TYPE110274>
+  <ITEM_NAME_TYPE110275>Шлем ICSA|Шлем учёных из ICSA c прозрачным белым стеклом</ITEM_NAME_TYPE110275>
+  <ITEM_NAME_TYPE110280>О.Куртка|Куртка охотника.</ITEM_NAME_TYPE110280>
+  <ITEM_NAME_TYPE110281>О.Штаны лес.|Штаны охотника.</ITEM_NAME_TYPE110281>
+  <ITEM_NAME_TYPE110282>О.Штаны болот.|Штаны охотника с болотниками.</ITEM_NAME_TYPE110282>
+  <ITEM_NAME_TYPE110283>О.Шапка|Шапка охотника.</ITEM_NAME_TYPE110283>
+  <ITEM_NAME_TYPE110284>О.Шапка с коз.|Шапка охотника с козырьком.</ITEM_NAME_TYPE110284>
+  <ITEM_NAME_TYPE110285>О.Жилет|Жилет охотника.</ITEM_NAME_TYPE110285>
+  <ITEM_NAME_TYPE110286>О.Сумка|Сумка охотника.</ITEM_NAME_TYPE110286>
+  <ITEM_NAME_TYPE110287>О.Перчатки|Перчатки охотника.</ITEM_NAME_TYPE110287>
+  <ITEM_NAME_TYPE110288>Мастерка|Бандитская мастерка.</ITEM_NAME_TYPE110288>
+  <ITEM_NAME_TYPE110289>Свитер|Свитер красный.</ITEM_NAME_TYPE110289>
+  <ITEM_NAME_TYPE110290>Свитер|Свитер зелёный.</ITEM_NAME_TYPE110290>
+  <ITEM_NAME_TYPE110291>Свитер|Свитер серый.</ITEM_NAME_TYPE110291>
+  <ITEM_NAME_TYPE110295>Штаны|Штаны бандитов.</ITEM_NAME_TYPE110295>
+  <ITEM_NAME_TYPE110296>Жилет|Разгрузочный жилет бандитов.</ITEM_NAME_TYPE110296>
+  <ITEM_NAME_TYPE110297>Перчатки|Перчатки бандитов.</ITEM_NAME_TYPE110297>
+  <ITEM_NAME_TYPE110298>Кепка|Кепка с козырьком.</ITEM_NAME_TYPE110298>
+  <ITEM_NAME_TYPE110299>Шапка|Вязаная шапка бандитов.</ITEM_NAME_TYPE110299>
+  <ITEM_NAME_TYPE110300>Бандана|Бандана бандитов.</ITEM_NAME_TYPE110300>
+  <ITEM_NAME_TYPE110301>Бабка|Бабка.</ITEM_NAME_TYPE110301>
+  <ITEM_NAME_TYPE110302>Б.очки|Бабкины очки.</ITEM_NAME_TYPE110302>
+  <ITEM_NAME_TYPE110303>Пилот 1|Пилот 1.</ITEM_NAME_TYPE110303>
+  <ITEM_NAME_TYPE110304>Пилот 2|Пилот 2.</ITEM_NAME_TYPE110304>
+  <ITEM_NAME_TYPE110305>Мастер ЛВЗ|Мастер ЛВЗ.</ITEM_NAME_TYPE110305>
+  <ITEM_NAME_TYPE110306>Подмастерье|Подмастерье.</ITEM_NAME_TYPE110306>
+  <ITEM_NAME_TYPE110307>Отшельник|Отшельник.</ITEM_NAME_TYPE110307>
+  <ITEM_NAME_TYPE110308>Торговец|Торговец.</ITEM_NAME_TYPE110308>
+  <ITEM_NAME_TYPE110309>НГ.шапка</ITEM_NAME_TYPE110309>
+  <ITEM_NAME_TYPE110310>Фуражка Боцмана</ITEM_NAME_TYPE110310>
+  <ITEM_NAME_TYPE110311>Форма военного</ITEM_NAME_TYPE110311>
+  <ITEM_NAME_TYPE110312>Военный 1</ITEM_NAME_TYPE110312>
+  <ITEM_NAME_TYPE110313>Военный в маске</ITEM_NAME_TYPE110313>
+  <ITEM_NAME_TYPE110314>Араб охранник</ITEM_NAME_TYPE110314>
+  <ITEM_NAME_TYPE110315>Жилет араба охранника</ITEM_NAME_TYPE110315>
+  <ITEM_NAME_TYPE110316>Куртка араба охранника</ITEM_NAME_TYPE110316>
+  <ITEM_NAME_TYPE110317>Тюрбан 1</ITEM_NAME_TYPE110317>
+  <ITEM_NAME_TYPE110318>Тюрбан 2</ITEM_NAME_TYPE110318>
+  <ITEM_NAME_TYPE110319>Тюрбан 3</ITEM_NAME_TYPE110319>
+  <ITEM_NAME_TYPE110320>Тюрбан 4</ITEM_NAME_TYPE110320>
+  <ITEM_NAME_TYPE110321>Бек</ITEM_NAME_TYPE110321>
+  <ITEM_NAME_TYPE110322>Бизнесмэн</ITEM_NAME_TYPE110322>
+  <ITEM_NAME_TYPE110323>Механик</ITEM_NAME_TYPE110323>
+  <ITEM_NAME_TYPE110324>iSuite</ITEM_NAME_TYPE110324>
+  <ITEM_NAME_TYPE110325>К.Боцмана</ITEM_NAME_TYPE110325>
+  <ITEM_NAME_TYPE110326>Б.Боцмана</ITEM_NAME_TYPE110326>
+  <ITEM_NAME_TYPE110327>Ф.Боцмана</ITEM_NAME_TYPE110327>
+  <ITEM_NAME_TYPE111001>TEST_CLAN_ARMOR</ITEM_NAME_TYPE111001>
+  <ITEM_NAME_TYPE200000>Рубашка|Рубашка</ITEM_NAME_TYPE200000>
+  <ITEM_NAME_TYPE200001>Рубашка ЦВЕТ 1|Рубашка ЦВЕТ 1</ITEM_NAME_TYPE200001>
+  <ITEM_NAME_TYPE200002>Рубашка ЦВЕТ 2|Рубашка ЦВЕТ 2</ITEM_NAME_TYPE200002>
+  <ITEM_NAME_TYPE200003>Рубашка ЦВЕТ 3|Рубашка ЦВЕТ 3</ITEM_NAME_TYPE200003>
+  <ITEM_NAME_TYPE200004>Рубашка ЦВЕТ 4|Рубашка ЦВЕТ 4</ITEM_NAME_TYPE200004>
+  <ITEM_NAME_TYPE200005>Толстовка|Толстовка</ITEM_NAME_TYPE200005>
+  <ITEM_NAME_TYPE200006>Толстовка синяя|Толстовка синяя</ITEM_NAME_TYPE200006>
+  <ITEM_NAME_TYPE200007>Толстовка зелёная|Толстовка зелёная</ITEM_NAME_TYPE200007>
+  <ITEM_NAME_TYPE200008>Толстовка красная|Толстовка красная</ITEM_NAME_TYPE200008>
+  <ITEM_NAME_TYPE200009>Толстовка жёлтая|Толстовка жёлтая</ITEM_NAME_TYPE200009>
+  <ITEM_NAME_TYPE200010>Свитер|Свитер</ITEM_NAME_TYPE200010>
+  <ITEM_NAME_TYPE200011>Свитер синий|Свитер синий</ITEM_NAME_TYPE200011>
+  <ITEM_NAME_TYPE200012>Свитер зелёный|Свитер зелёный</ITEM_NAME_TYPE200012>
+  <ITEM_NAME_TYPE200013>Свитер красный|Свитер красный</ITEM_NAME_TYPE200013>
+  <ITEM_NAME_TYPE200014>Свитер жёлтый|Свитер жёлтый</ITEM_NAME_TYPE200014>
+  <ITEM_NAME_TYPE200200>Штаны с карманами|Штаны с карманами</ITEM_NAME_TYPE200200>
+  <ITEM_NAME_TYPE200201>Штаны с карманами серые|Штаны с карманами серые</ITEM_NAME_TYPE200201>
+  <ITEM_NAME_TYPE200202>Штаны с карманами ЦВЕТ 2|Штаны с карманами ЦВЕТ 2</ITEM_NAME_TYPE200202>
+  <ITEM_NAME_TYPE200203>Штаны с карманами ЦВЕТ 3|Штаны с карманами ЦВЕТ 3</ITEM_NAME_TYPE200203>
+  <ITEM_NAME_TYPE200204>Штаны с карманами ЦВЕТ 4|Штаны с карманами ЦВЕТ 4</ITEM_NAME_TYPE200204>
+  <ITEM_NAME_TYPE200205>Джинсы|Джинсы</ITEM_NAME_TYPE200205>
+  <ITEM_NAME_TYPE200206>Джинсы серые|Джинсы серые</ITEM_NAME_TYPE200206>
+  <ITEM_NAME_TYPE200207>Джинсы ЦВЕТ 2|Джинсы ЦВЕТ 2</ITEM_NAME_TYPE200207>
+  <ITEM_NAME_TYPE200208>Джинсы ЦВЕТ 3|Джинсы ЦВЕТ 3</ITEM_NAME_TYPE200208>
+  <ITEM_NAME_TYPE200209>Джинсы ЦВЕТ 4|Джинсы ЦВЕТ 4</ITEM_NAME_TYPE200209>
+  <ITEM_NAME_TYPE200210>Штаны|Штаны</ITEM_NAME_TYPE200210>
+  <ITEM_NAME_TYPE200211>Штаны серые|Штаны серые</ITEM_NAME_TYPE200211>
+  <ITEM_NAME_TYPE200212>Штаны ЦВЕТ 2|Штаны ЦВЕТ 2</ITEM_NAME_TYPE200212>
+  <ITEM_NAME_TYPE200213>Штаны ЦВЕТ 3|Штаны ЦВЕТ 3</ITEM_NAME_TYPE200213>
+  <ITEM_NAME_TYPE200214>Штаны ЦВЕТ 4|Штаны ЦВЕТ 4</ITEM_NAME_TYPE200214>
+  <ITEM_NAME_TYPE200400>Тактический жилет|Тактический жилет</ITEM_NAME_TYPE200400>
+  <ITEM_NAME_TYPE200401>Плащ-палатка</ITEM_NAME_TYPE200401>
+  <ITEM_NAME_TYPE200600>Руки|Руки</ITEM_NAME_TYPE200600>
+  <ITEM_NAME_TYPE200650>Ботинки|Ботинки</ITEM_NAME_TYPE200650>
+  <ITEM_NAME_TYPE210001>Экран α|Артефакт "Экран α"</ITEM_NAME_TYPE210001>
+  <ITEM_NAME_TYPE210002>Экран β|Артефакт "Экран β"</ITEM_NAME_TYPE210002>
+  <ITEM_NAME_TYPE210003>Экран γ|Артефакт "Экран γ"</ITEM_NAME_TYPE210003>
+  <ITEM_NAME_TYPE210004>Экран δ|Артефакт "Экран δ"</ITEM_NAME_TYPE210004>
+  <ITEM_NAME_TYPE210005>Экран ε|Артефакт "Экран ε"</ITEM_NAME_TYPE210005>
+  <ITEM_NAME_TYPE210006>Подушка α|Артефакт "Подушка α"</ITEM_NAME_TYPE210006>
+  <ITEM_NAME_TYPE210007>Подушка β|Артефакт "Подушка β"</ITEM_NAME_TYPE210007>
+  <ITEM_NAME_TYPE210008>Подушка γ|Артефакт "Подушка γ"</ITEM_NAME_TYPE210008>
+  <ITEM_NAME_TYPE210009>Подушка δ|Артефакт "Подушка δ"</ITEM_NAME_TYPE210009>
+  <ITEM_NAME_TYPE210010>Подушка ε|Артефакт "Подушка ε"</ITEM_NAME_TYPE210010>
+  <ITEM_NAME_TYPE210011>Щит α|Артефакт "Щит α"</ITEM_NAME_TYPE210011>
+  <ITEM_NAME_TYPE210012>Щит β|Артефакт "Щит β"</ITEM_NAME_TYPE210012>
+  <ITEM_NAME_TYPE210013>Щит γ|Артефакт "Щит γ"</ITEM_NAME_TYPE210013>
+  <ITEM_NAME_TYPE210014>Щит δ|Артефакт "Щит δ"</ITEM_NAME_TYPE210014>
+  <ITEM_NAME_TYPE210015>Щит ε|Артефакт "Щит ε"</ITEM_NAME_TYPE210015>
+  <ITEM_NAME_TYPE210016>Резина α|Артефакт "Резина α"</ITEM_NAME_TYPE210016>
+  <ITEM_NAME_TYPE210017>Резина β|Артефакт "Резина β"</ITEM_NAME_TYPE210017>
+  <ITEM_NAME_TYPE210018>Резина γ|Артефакт "Резина γ"</ITEM_NAME_TYPE210018>
+  <ITEM_NAME_TYPE210019>Резина δ|Артефакт "Резина δ"</ITEM_NAME_TYPE210019>
+  <ITEM_NAME_TYPE210020>Резина ε|Артефакт "Резина ε"</ITEM_NAME_TYPE210020>
+  <ITEM_NAME_TYPE210021>Антиграв α|Артефакт "Антиграв α"</ITEM_NAME_TYPE210021>
+  <ITEM_NAME_TYPE210022>Антиграв β|Артефакт "Антиграв β"</ITEM_NAME_TYPE210022>
+  <ITEM_NAME_TYPE210023>Антиграв γ|Артефакт "Антиграв γ"</ITEM_NAME_TYPE210023>
+  <ITEM_NAME_TYPE210024>Антиграв δ|Артефакт "Антиграв δ"</ITEM_NAME_TYPE210024>
+  <ITEM_NAME_TYPE210025>Антиграв ε|Артефакт "Антиграв ε"</ITEM_NAME_TYPE210025>
+  <ITEM_NAME_TYPE210026>ARTIFACT_RILL_ALPHA</ITEM_NAME_TYPE210026>
+  <ITEM_NAME_TYPE210027>ARTIFACT_RILL_BETA</ITEM_NAME_TYPE210027>
+  <ITEM_NAME_TYPE210028>ARTIFACT_RILL_GAMMA</ITEM_NAME_TYPE210028>
+  <ITEM_NAME_TYPE210029>ARTIFACT_RILL_DELTA</ITEM_NAME_TYPE210029>
+  <ITEM_NAME_TYPE210030>ARTIFACT_RILL_EPSILON</ITEM_NAME_TYPE210030>
+  <ITEM_NAME_TYPE210031>ARTIFACT_ELECTRIC_ALPHA</ITEM_NAME_TYPE210031>
+  <ITEM_NAME_TYPE210032>ARTIFACT_ELECTRIC_BETA</ITEM_NAME_TYPE210032>
+  <ITEM_NAME_TYPE210033>ARTIFACT_ELECTRIC_GAMMA</ITEM_NAME_TYPE210033>
+  <ITEM_NAME_TYPE210034>ARTIFACT_ELECTRIC_DELTA</ITEM_NAME_TYPE210034>
+  <ITEM_NAME_TYPE210035>ARTIFACT_ELECTRIC_EPSILON</ITEM_NAME_TYPE210035>
+  <ITEM_NAME_TYPE210036>ARTIFACT_EVIL_ALPHA</ITEM_NAME_TYPE210036>
+  <ITEM_NAME_TYPE210037>ARTIFACT_EVIL_BETA</ITEM_NAME_TYPE210037>
+  <ITEM_NAME_TYPE210038>ARTIFACT_EVIL_GAMMA</ITEM_NAME_TYPE210038>
+  <ITEM_NAME_TYPE210039>ARTIFACT_EVIL_DELTA</ITEM_NAME_TYPE210039>
+  <ITEM_NAME_TYPE210040>ARTIFACT_EVIL_EPSILON</ITEM_NAME_TYPE210040>
+  <ITEM_NAME_TYPE210041>ARTIFACT_SHELL_ALPHA</ITEM_NAME_TYPE210041>
+  <ITEM_NAME_TYPE210042>ARTIFACT_SHELL_BETA</ITEM_NAME_TYPE210042>
+  <ITEM_NAME_TYPE210043>ARTIFACT_SHELL_GAMMA</ITEM_NAME_TYPE210043>
+  <ITEM_NAME_TYPE210044>ARTIFACT_SHELL_DELTA</ITEM_NAME_TYPE210044>
+  <ITEM_NAME_TYPE210045>ARTIFACT_SHELL_EPSILON</ITEM_NAME_TYPE210045>
+  <ITEM_NAME_TYPE210046>ARTIFACT_BONELET_ALPHA</ITEM_NAME_TYPE210046>
+  <ITEM_NAME_TYPE210047>ARTIFACT_BONELET_BETA</ITEM_NAME_TYPE210047>
+  <ITEM_NAME_TYPE210048>ARTIFACT_BONELET_GAMMA</ITEM_NAME_TYPE210048>
+  <ITEM_NAME_TYPE210049>ARTIFACT_BONELET_DELTA</ITEM_NAME_TYPE210049>
+  <ITEM_NAME_TYPE210050>ARTIFACT_BONELET_EPSILON</ITEM_NAME_TYPE210050>
+  <ITEM_NAME_TYPE210051>ARTIFACT_ANTHILL_ALPHA</ITEM_NAME_TYPE210051>
+  <ITEM_NAME_TYPE210052>ARTIFACT_ANTHILL_BETA</ITEM_NAME_TYPE210052>
+  <ITEM_NAME_TYPE210053>ARTIFACT_ANTHILL_GAMMA</ITEM_NAME_TYPE210053>
+  <ITEM_NAME_TYPE210054>ARTIFACT_ANTHILL_DELTA</ITEM_NAME_TYPE210054>
+  <ITEM_NAME_TYPE210055>ARTIFACT_ANTHILL_EPSILON</ITEM_NAME_TYPE210055>
+  <ITEM_NAME_TYPE210056>ARTIFACT_BULLSEYE_ALPHA</ITEM_NAME_TYPE210056>
+  <ITEM_NAME_TYPE210057>ARTIFACT_BULLSEYE_BETA</ITEM_NAME_TYPE210057>
+  <ITEM_NAME_TYPE210058>ARTIFACT_BULLSEYE_GAMMA</ITEM_NAME_TYPE210058>
+  <ITEM_NAME_TYPE210059>ARTIFACT_BULLSEYE_DELTA</ITEM_NAME_TYPE210059>
+  <ITEM_NAME_TYPE210060>ARTIFACT_BULLSEYE_EPSILON</ITEM_NAME_TYPE210060>
+  <ITEM_NAME_TYPE210061>ARTIFACT_COAL_ALPHA</ITEM_NAME_TYPE210061>
+  <ITEM_NAME_TYPE210062>ARTIFACT_COAL_BETA</ITEM_NAME_TYPE210062>
+  <ITEM_NAME_TYPE210063>ARTIFACT_COAL_GAMMA</ITEM_NAME_TYPE210063>
+  <ITEM_NAME_TYPE210064>ARTIFACT_COAL_DELTA</ITEM_NAME_TYPE210064>
+  <ITEM_NAME_TYPE210065>ARTIFACT_COAL_EPSILON</ITEM_NAME_TYPE210065>
+  <ITEM_NAME_TYPE210066>ARTIFACT_COALFIRE_ALPHA</ITEM_NAME_TYPE210066>
+  <ITEM_NAME_TYPE210067>ARTIFACT_COALFIRE_BETA</ITEM_NAME_TYPE210067>
+  <ITEM_NAME_TYPE210068>ARTIFACT_COALFIRE_GAMMA</ITEM_NAME_TYPE210068>
+  <ITEM_NAME_TYPE210069>ARTIFACT_COALFIRE_DELTA</ITEM_NAME_TYPE210069>
+  <ITEM_NAME_TYPE210070>ARTIFACT_COALFIRE_EPSILON</ITEM_NAME_TYPE210070>
+  <ITEM_NAME_TYPE210071>Стаб. α|Артефакт "Стабилизатор α"</ITEM_NAME_TYPE210071>
+  <ITEM_NAME_TYPE210072>Стаб. β|Артефакт "Стабилизатор β"</ITEM_NAME_TYPE210072>
+  <ITEM_NAME_TYPE210073>Стаб. γ|Артефакт "Стабилизатор γ"</ITEM_NAME_TYPE210073>
+  <ITEM_NAME_TYPE210074>Стаб. δ|Артефакт "Стабилизатор δ"</ITEM_NAME_TYPE210074>
+  <ITEM_NAME_TYPE210075>Стаб. ε|Артефакт "Стабилизатор ε"</ITEM_NAME_TYPE210075>
+  <ITEM_NAME_TYPE310001>МЗА модул.|Магнитный (модульный) захват (на 7 дней)</ITEM_NAME_TYPE310001>
+  <ITEM_NAME_TYPE310002>МЗА модул.|Магнитный (модульный) захват (на 90 дней)</ITEM_NAME_TYPE310002>
+  <ITEM_NAME_TYPE410001>"12x70 пуля"|Инcтрукция по созданию патрона 12x70 с пулей</ITEM_NAME_TYPE410001>
+  <ITEM_NAME_TYPE410002>"12x70 карт"|Инcтрукция по созданию патрона 12x70 с картечью</ITEM_NAME_TYPE410002>
+  <ITEM_NAME_TYPE410003>"12x76 пуля"|Инcтрукция по созданию патрона патрона 12x76 с пулей</ITEM_NAME_TYPE410003>
+  <ITEM_NAME_TYPE410004>"12x76 карт"|Инcтрукция по созданию патрона 12x76 с картечью</ITEM_NAME_TYPE410004>
+  <ITEM_NAME_TYPE410005>"Заточка"|Методика производства заточек из металла</ITEM_NAME_TYPE410005>
+  <ITEM_NAME_TYPE410006>"Заточка мягк"|Методика производства заточек из мягкого металла</ITEM_NAME_TYPE410006>
+  <ITEM_NAME_TYPE410007>"Скальпель"|Методика производства скальпеля</ITEM_NAME_TYPE410007>
+  <ITEM_NAME_TYPE410008>"Скальпель хир."|Методика производства медицинского скальпеля</ITEM_NAME_TYPE410008>
+  <ITEM_NAME_TYPE410009>Рябиновка|Настойка "Рябиновка"</ITEM_NAME_TYPE410009>
+  <ITEM_NAME_TYPE410010>Брусниковка|Настойка "Брусниковка"</ITEM_NAME_TYPE410010>
+  <ITEM_NAME_TYPE410011>Чертовка|Настойка "Чертовка"</ITEM_NAME_TYPE410011>
+  <ITEM_NAME_TYPE410012>в."Химера"|Чертеж восстановления брони "Химера"</ITEM_NAME_TYPE410012>
+  <ITEM_NAME_TYPE410013>в."STELS"|Чертеж восстановления брони "STELS"</ITEM_NAME_TYPE410013>
+  <ITEM_NAME_TYPE410014>в."HK G3a"|Чертеж ремонта HK G3a</ITEM_NAME_TYPE410014>
+  <ITEM_NAME_TYPE410015>в."HK G3a mk2"|Чертеж ремонта HK G3a mk2</ITEM_NAME_TYPE410015>
+  <ITEM_NAME_TYPE410016>в."CZ-805"|Чертеж ремонта CZ-805</ITEM_NAME_TYPE410016>
+  <ITEM_NAME_TYPE410017>Малый паек|Малый сухой паек</ITEM_NAME_TYPE410017>
+  <ITEM_NAME_TYPE410018>Сред.паек|Средний сухой паек</ITEM_NAME_TYPE410018>
+  <ITEM_NAME_TYPE410019>Бол.паек|Большой сухой паек</ITEM_NAME_TYPE410019>
+  <ITEM_NAME_TYPE410042>с."Ф-1"|Чертеж сборки гранаты Ф-1</ITEM_NAME_TYPE410042>
+  <ITEM_NAME_TYPE410043>с."РГД-5"|Чертеж сборки гранаты РГД-5</ITEM_NAME_TYPE410043>
+  <ITEM_NAME_TYPE410044>с."Ф-1 учеб"|Чертеж сборки учебной гранаты Ф-1</ITEM_NAME_TYPE410044>
+  <ITEM_NAME_TYPE410045>с."Макаров"|Чертеж сборки пистолета Макаров</ITEM_NAME_TYPE410045>
+  <ITEM_NAME_TYPE410046>с."Colt-1911"|Чертеж сборки пистолета Colt-1911</ITEM_NAME_TYPE410046>
+  <ITEM_NAME_TYPE410047>с."Eagle"|Чертеж сборки пистолета Desert Eagle</ITEM_NAME_TYPE410047>
+  <ITEM_NAME_TYPE410048>с."Токарев-ТТ"|Чертеж сборки пистолета Токарев-ТТ</ITEM_NAME_TYPE410048>
+  <ITEM_NAME_TYPE410049>с."Glock-17"|Чертеж сборки пистолета Glock-17</ITEM_NAME_TYPE410049>
+  <ITEM_NAME_TYPE410050>с."Glock-18"|Чертеж сборки пистолета Glock-18</ITEM_NAME_TYPE410050>
+  <ITEM_NAME_TYPE410051>с."АС-ВАЛ"|Чертеж сборки автомата АС-ВАЛ</ITEM_NAME_TYPE410051>
+  <ITEM_NAME_TYPE410052>с."ВСС"|Чертеж сборки ВСС "Винторез"</ITEM_NAME_TYPE410052>
+  <ITEM_NAME_TYPE410053>с."АК-47"|Чертеж сборки автомата АК-47</ITEM_NAME_TYPE410053>
+  <ITEM_NAME_TYPE410054>с."АК-74"|Чертеж сборки автомата АК-74</ITEM_NAME_TYPE410054>
+  <ITEM_NAME_TYPE410055>Стим мал.|Стимулятор (половина)</ITEM_NAME_TYPE410055>
+  <ITEM_NAME_TYPE410056>Стим бол.|Стимулятор (полный)</ITEM_NAME_TYPE410056>
+  <ITEM_NAME_TYPE410057>Очищ.Чертовка|Инъектор с очищенной "Чертовкой"</ITEM_NAME_TYPE410057>
+  <ITEM_NAME_TYPE410058>Ус.Чертовка|Инъектор с усиленной "Чертовки"</ITEM_NAME_TYPE410058>
+  <ITEM_NAME_TYPE410059>Антитокс.ВОФ|Антитоксичное средство ВОФ</ITEM_NAME_TYPE410059>
+  <ITEM_NAME_TYPE410060>Антирад.ВОФ|Антирадиационное средство ВОФ</ITEM_NAME_TYPE410060>
+  <ITEM_NAME_TYPE410061>Нерв-Стим|Инъектор с "Нервным Стимулятором"</ITEM_NAME_TYPE410061>
+  <ITEM_NAME_TYPE410062>Энергетик|Инъектор с "Энергетиком"</ITEM_NAME_TYPE410062>
+  <ITEM_NAME_TYPE410063>Очищ.Рябиновка|Инъектор с очищенной "Рябиновкой"</ITEM_NAME_TYPE410063>
+  <ITEM_NAME_TYPE410064>Ус.Рябиновка|Инъектор с усиленной "Рябиновкой"</ITEM_NAME_TYPE410064>
+  <ITEM_NAME_TYPE410065>Очищ.Брусниковка|Инъектор с очищенной "Брусниковкой"</ITEM_NAME_TYPE410065>
+  <ITEM_NAME_TYPE410066>Ус.Брусниковка|Инъектор с усиленной "Брусниковкой"</ITEM_NAME_TYPE410066>
+  <ITEM_NAME_TYPE410067>З."Чертовка"|Рецепт заправки инъектора "Чертовкой"</ITEM_NAME_TYPE410067>
+  <ITEM_NAME_TYPE410068>З."Рябиновка"|Рецепт заправки инъектора "Рябиновкой"</ITEM_NAME_TYPE410068>
+  <ITEM_NAME_TYPE410069>З."Брусниковка"|Рецепт заправки инъектора "Брусниковкой"</ITEM_NAME_TYPE410069>
+  <ITEM_NAME_TYPE410070>З."Энергетик"|Рецепт заправки инъектора "Энергетиком"</ITEM_NAME_TYPE410070>
+  <ITEM_NAME_TYPE410071>З."Стимул"|Рецепт заправки инъектора нервным стимулятором</ITEM_NAME_TYPE410071>
+  <ITEM_NAME_TYPE410072>с.РГО|Чертеж сборки гранаты РГО</ITEM_NAME_TYPE410072>
+  <ITEM_NAME_TYPE410073>с.РГН|Чертеж сборки гранаты РГН</ITEM_NAME_TYPE410073>
+  <ITEM_NAME_TYPE410074>|ASSEMBLY_HOMEMADE_ACID_GRENADE_RECIPE</ITEM_NAME_TYPE410074>
+  <ITEM_NAME_TYPE410075>_Тушенка|Банка тушенки</ITEM_NAME_TYPE410075>
+  <ITEM_NAME_TYPE410076>Хлеб|Буханка ржаного хлеба</ITEM_NAME_TYPE410076>
+  <ITEM_NAME_TYPE410077>Сухари|Пшеничные сухари</ITEM_NAME_TYPE410077>
+  <ITEM_NAME_TYPE410078>Колбаса сырокопченая|Колбаса сырокопченая "Любительская"</ITEM_NAME_TYPE410078>
+  <ITEM_NAME_TYPE410079>Колбаса полукопченая|Колбаса полукопченая "Минская"</ITEM_NAME_TYPE410079>
+  <ITEM_NAME_TYPE410080>Колбаса вареная|Колбаса вареная "Любительская"</ITEM_NAME_TYPE410080>
+  <ITEM_NAME_TYPE410081>Колбаса вареная|Колбаса вареная "Диетическая"</ITEM_NAME_TYPE410081>
+  <ITEM_NAME_TYPE410082>З."Костер"|Разжечь костёр</ITEM_NAME_TYPE410082>
+  <ITEM_NAME_TYPE410083>"9х18 FMJ"|Инcтрукция по созданию патрона 9х18 FMJ</ITEM_NAME_TYPE410083>
+  <ITEM_NAME_TYPE410084>"9х18 яд"|Инcтрукция по созданию патрона 9х18 FMJ с паучьим ядом</ITEM_NAME_TYPE410084>
+  <ITEM_NAME_TYPE410085>Рецепт|Рецепт концентрированного паучьего яда</ITEM_NAME_TYPE410085>
+  <ITEM_NAME_TYPE410086>"12х70 пуля"|Инcтрукция по созданию патрона 12х70 с пулей</ITEM_NAME_TYPE410086>
+  <ITEM_NAME_TYPE410087>Орехи|Кедровые орехи</ITEM_NAME_TYPE410087>
+  <ITEM_NAME_TYPE410088>"9х19 FMJ"|Инcтрукция по созданию патрона 9х19 FMJ</ITEM_NAME_TYPE410088>
+  <ITEM_NAME_TYPE410096>"9х19 FMJ"|Инcтрукция по созданию патрона 9х19 FMJ с паучьим ядом</ITEM_NAME_TYPE410096>
+  <ITEM_NAME_TYPE410097>"Печенег ш."|Чертеж ремонта штурмового пулемета "Печенег"</ITEM_NAME_TYPE410097>
+  <ITEM_NAME_TYPE410098>в."Mk48"|Чертеж восстановления MK48</ITEM_NAME_TYPE410098>
+  <ITEM_NAME_TYPE410089>"762х54"| Инcтрукция по созданию патрона 762х54</ITEM_NAME_TYPE410089>
+  <ITEM_NAME_TYPE410090>"Молотов"|Рецепт коктейля молотова</ITEM_NAME_TYPE410090>
+  <ITEM_NAME_TYPE410091>Дымовая граната|Чертёж самодельной дымовой гранаты</ITEM_NAME_TYPE410091>
+  <ITEM_NAME_TYPE410092>Осколочная граната|Чертёж самодельной осколочной гранаты</ITEM_NAME_TYPE410092>
+  <ITEM_NAME_TYPE410093>Осколочная яд.|Чертёж самодельной осколочной гранаты с ядом</ITEM_NAME_TYPE410093>
+  <ITEM_NAME_TYPE410094>"12х70 карт"|Инcтрукция по созданию патрона 12х70 с картечью</ITEM_NAME_TYPE410094>
+  <ITEM_NAME_TYPE410122>Контейнер|Инструкция по сборке малого контейнера для артефактов</ITEM_NAME_TYPE410122>
+  <ITEM_NAME_TYPE410327>Б.Контейнер|Инструкция по сборке большого контейнера для артефактов</ITEM_NAME_TYPE410327>
+  <ITEM_NAME_TYPE810194>Криогенная камера|Корпус от старой криогенной камеры охладителя инсулина</ITEM_NAME_TYPE810194>
+  <ITEM_NAME_TYPE810198>Шприц 5мл|Одноразовый шприц объёмом 5мл</ITEM_NAME_TYPE810198>
+  <ITEM_NAME_TYPE810199>Шприц 10мл|Одноразовый шприц объёмом 10мл</ITEM_NAME_TYPE810199>
+  <ITEM_NAME_TYPE810200>Шприц 20мл|Одноразовый шприц объёмом 20мл</ITEM_NAME_TYPE810200>
+  <ITEM_NAME_TYPE410328>Сл.психомоторный стимулятор|Рецепт создания психомоторного стимулятора кратковременного действия</ITEM_NAME_TYPE410328>
+  <ITEM_NAME_TYPE410329>Ср.психомоторный стимулятор|Рецепт создания психомоторного стимулятора среднего срока действия</ITEM_NAME_TYPE410329>
+  <ITEM_NAME_TYPE410330>Сил.психомоторный стимулятор|Рецепт создания психомоторного стимулятора максимального срока действия</ITEM_NAME_TYPE410330>
+  <ITEM_NAME_TYPE410323>Сл.психомоторный стимулятор|Психомоторный стимулятор кратковременного действия</ITEM_NAME_TYPE410323>
+  <ITEM_NAME_TYPE410324>Ср.психомоторный стимулятор|Психомоторный стимулятор среднего срока действия</ITEM_NAME_TYPE410324>
+  <ITEM_NAME_TYPE410325>Сил.психомоторный стимулятор|Психомоторный стимулятор максимального срока действия</ITEM_NAME_TYPE410325>
+  <ITEM_NAME_TYPE410100>в.мас.Бандитов|Чертеж восстановления бандитской мастерки.</ITEM_NAME_TYPE410100>
+  <ITEM_NAME_TYPE410101>в.к.с.Бандитов|Чертеж восстановления красного свитера.</ITEM_NAME_TYPE410101>
+  <ITEM_NAME_TYPE410102>в.з.с.Бандитов|Чертеж восстановления зелёного свитера.</ITEM_NAME_TYPE410102>
+  <ITEM_NAME_TYPE410103>в.с.с.Бандитов|Чертеж восстановления серого свитера.</ITEM_NAME_TYPE410103>
+  <ITEM_NAME_TYPE410104>в.штаныБандитов|Чертеж восстановления штанов бандитов.</ITEM_NAME_TYPE410104>
+  <ITEM_NAME_TYPE410105>в.брон.Бандитов|Чертеж восстановления разгрузочного жилет бандитов.</ITEM_NAME_TYPE410105>
+  <ITEM_NAME_TYPE410106>в.перч.Бандитов|Чертеж восстановления перчаток бандитов.</ITEM_NAME_TYPE410106>
+  <ITEM_NAME_TYPE410107>в.кеп.Бандитов|Чертеж восстановления кепки с козырьком.</ITEM_NAME_TYPE410107>
+  <ITEM_NAME_TYPE410108>в.шап.Бандитов|Чертеж восстановления вязаной шапки бандитов.</ITEM_NAME_TYPE410108>
+  <ITEM_NAME_TYPE410109>в.банд.Бандитов|Чертеж восстановления банданы бандитов.</ITEM_NAME_TYPE410109>
+  <ITEM_NAME_TYPE410110>Икра красная</ITEM_NAME_TYPE410110>
+  <ITEM_NAME_TYPE410111>Икра чёрная</ITEM_NAME_TYPE410111>
+  <ITEM_NAME_TYPE410112>Мандарины</ITEM_NAME_TYPE410112>
+  <ITEM_NAME_TYPE410113>Шоколад</ITEM_NAME_TYPE410113>
+  <ITEM_NAME_TYPE410114>Водка</ITEM_NAME_TYPE410114>
+  <ITEM_NAME_TYPE410115>Шампанское</ITEM_NAME_TYPE410115>
+  <ITEM_NAME_TYPE410117>Конф.трость</ITEM_NAME_TYPE410117>
+  <ITEM_NAME_TYPE410118>Конф.Трюфель</ITEM_NAME_TYPE410118>
+  <ITEM_NAME_TYPE410119>Конф.Белочка</ITEM_NAME_TYPE410119>
+  <ITEM_NAME_TYPE410120>Конф.Ананас</ITEM_NAME_TYPE410120>
+  <ITEM_NAME_TYPE410121>Рецепт нестабильного раствора.</ITEM_NAME_TYPE410121>
+  <ITEM_NAME_TYPE410200>в.Сайга 12к|Чертеж восстановления Сайга 12к</ITEM_NAME_TYPE410200>
+  <ITEM_NAME_TYPE410201>Сайга 12к (пус)|Чертеж восстановления Сайга 12к с пустынным камуфляжем</ITEM_NAME_TYPE410201>
+  <ITEM_NAME_TYPE410202>Сайга 12к (зим)|Чертеж восстановления Сайга 12к с зимним камуфляжем</ITEM_NAME_TYPE410202>
+  <ITEM_NAME_TYPE410203>Сайга 12к (гор)|Чертеж восстановления Сайга 12к с городским камуфляжем</ITEM_NAME_TYPE410203>
+  <ITEM_NAME_TYPE410204>Сайга 12к (лес)|Чертеж восстановления Сайга 12к с лесным камуфляжем</ITEM_NAME_TYPE410204>
+  <ITEM_NAME_TYPE410205>в."Jackhammer"|Чертеж восстановления Jackhammer</ITEM_NAME_TYPE410205>
+  <ITEM_NAME_TYPE410206>Jackhammer (пус)|Чертеж восстановления Jackhammer с пустынным камуфляжем</ITEM_NAME_TYPE410206>
+  <ITEM_NAME_TYPE410207>Jackhammer (зим)|Чертеж восстановления Jackhammer с зимним камуфляжем</ITEM_NAME_TYPE410207>
+  <ITEM_NAME_TYPE410208>Jackhammer (гор)|Чертеж восстановления Jackhammer с городским камуфляжем</ITEM_NAME_TYPE410208>
+  <ITEM_NAME_TYPE410209>Jackhammer (лес)|Чертеж восстановления Jackhammer с лесным камуфляжем</ITEM_NAME_TYPE410209>
+  <ITEM_NAME_TYPE410210>в."АС ВАЛ"|Чертеж восстановления АС ВАЛ</ITEM_NAME_TYPE410210>
+  <ITEM_NAME_TYPE410211>АС ВАЛ (пус)|Чертеж восстановления АС ВАЛ с пустынным камуфляжем</ITEM_NAME_TYPE410211>
+  <ITEM_NAME_TYPE410212>АС ВАЛ (зим)|Чертеж восстановления АС ВАЛ с зимним камуфляжем</ITEM_NAME_TYPE410212>
+  <ITEM_NAME_TYPE410213>АС ВАЛ (гор)|Чертеж восстановления АС ВАЛ с городским камуфляжем</ITEM_NAME_TYPE410213>
+  <ITEM_NAME_TYPE410214>АС ВАЛ (лес)|Чертеж восстановления АС ВАЛ с лесным камуфляжем</ITEM_NAME_TYPE410214>
+  <ITEM_NAME_TYPE410215>в."FN FAL"|Чертеж восстановления FN FAL</ITEM_NAME_TYPE410215>
+  <ITEM_NAME_TYPE410216>FN FAL (пус)|Чертеж восстановления FN FAL с пустынным камуфляжем</ITEM_NAME_TYPE410216>
+  <ITEM_NAME_TYPE410217>FN FAL (зим)|Чертеж восстановления FN FAL с зимним камуфляжем</ITEM_NAME_TYPE410217>
+  <ITEM_NAME_TYPE410218>FN FAL (гор)|Чертеж восстановления FN FAL с городским камуфляжем</ITEM_NAME_TYPE410218>
+  <ITEM_NAME_TYPE410219>FN FAL (лес)|Чертеж восстановления FN FAL с лесным камуфляжем</ITEM_NAME_TYPE410219>
+  <ITEM_NAME_TYPE410220>в."M16A1"|Чертеж восстановления M16</ITEM_NAME_TYPE410220>
+  <ITEM_NAME_TYPE410221>M16 (пус)|Чертеж восстановления M16 с пустынным камуфляжем</ITEM_NAME_TYPE410221>
+  <ITEM_NAME_TYPE410222>M16 (зим)|Чертеж восстановления M16 с зимним камуфляжем</ITEM_NAME_TYPE410222>
+  <ITEM_NAME_TYPE410223>M16 (гор)|Чертеж восстановления M16 с городским камуфляжем</ITEM_NAME_TYPE410223>
+  <ITEM_NAME_TYPE410224>M16 (лес)|Чертеж восстановления M16 с лесным камуфляжем</ITEM_NAME_TYPE410224>
+  <ITEM_NAME_TYPE410225>в."АК-74"|Чертеж восстановления АК-74</ITEM_NAME_TYPE410225>
+  <ITEM_NAME_TYPE410226>АК-74 (пус)|Чертеж восстановления АК-74 с пустынным камуфляжем</ITEM_NAME_TYPE410226>
+  <ITEM_NAME_TYPE410227>АК-74 (зим)|Чертеж восстановления АК-74 с зимним камуфляжем</ITEM_NAME_TYPE410227>
+  <ITEM_NAME_TYPE410228>АК-74 (гор)|Чертеж восстановления АК-74 с городским камуфляжем</ITEM_NAME_TYPE410228>
+  <ITEM_NAME_TYPE410229>АК-74 (лес)|Чертеж восстановления АК-74 с лесным камуфляжем</ITEM_NAME_TYPE410229>
+  <ITEM_NAME_TYPE410230>в."АК-47"|Чертеж восстановления АК-47</ITEM_NAME_TYPE410230>
+  <ITEM_NAME_TYPE410231>АК-47 (пус)|Чертеж восстановления АК-47 с пустынным камуфляжем</ITEM_NAME_TYPE410231>
+  <ITEM_NAME_TYPE410232>АК-47 (зим)|Чертеж восстановления АК-47 с зимним камуфляжем</ITEM_NAME_TYPE410232>
+  <ITEM_NAME_TYPE410233>АК-47 (гор)|Чертеж восстановления АК-47 с городским камуфляжем</ITEM_NAME_TYPE410233>
+  <ITEM_NAME_TYPE410234>АК-47 (лес)|Чертеж восстановления АК-47 с лесным камуфляжем</ITEM_NAME_TYPE410234>
+  <ITEM_NAME_TYPE410236>в."ВСС"|Чертеж восстановления ВСС Винторез</ITEM_NAME_TYPE410236>
+  <ITEM_NAME_TYPE410237>ВСС (пус)|Чертеж восстановления ВСС Винторез с пустынным камуфляжем</ITEM_NAME_TYPE410237>
+  <ITEM_NAME_TYPE410238>ВСС (зим)|Чертеж восстановления ВСС Винторез с зимним камуфляжем</ITEM_NAME_TYPE410238>
+  <ITEM_NAME_TYPE410239>ВСС (гор)|Чертеж восстановления ВСС Винторез с городским камуфляжем</ITEM_NAME_TYPE410239>
+  <ITEM_NAME_TYPE410240>ВСС (лес)|Чертеж восстановления ВСС Винторез с лесным камуфляжем</ITEM_NAME_TYPE410240>
+  <ITEM_NAME_TYPE410241>в."СВД"|Чертеж восстановления СВД</ITEM_NAME_TYPE410241>
+  <ITEM_NAME_TYPE410242>СВД (пус)|Чертеж восстановления СВД с пустынным камуфляжем</ITEM_NAME_TYPE410242>
+  <ITEM_NAME_TYPE410243>СВД (зим)|Чертеж восстановления СВД с зимним камуфляжем</ITEM_NAME_TYPE410243>
+  <ITEM_NAME_TYPE410244>СВД (гор)|Чертеж восстановления СВД с городским камуфляжем</ITEM_NAME_TYPE410244>
+  <ITEM_NAME_TYPE410245>СВД (лес)|Чертеж восстановления СВД с лесным камуфляжем</ITEM_NAME_TYPE410245>
+  <ITEM_NAME_TYPE410246>СВД (ос)|Чертеж восстановления СВД с осенним камуфляжем</ITEM_NAME_TYPE410246>
+  <ITEM_NAME_TYPE410252>в."Barret M82A3"|Чертеж восстановления Barret M82A3</ITEM_NAME_TYPE410252>
+  <ITEM_NAME_TYPE410253>Barret M82A3 (пус)|Чертеж восстановления Barret M82A3 с пустынным камуфляжем</ITEM_NAME_TYPE410253>
+  <ITEM_NAME_TYPE410254>Barret M82A3 (зим)|Чертеж восстановления Barret M82A3 с зимним камуфляжем</ITEM_NAME_TYPE410254>
+  <ITEM_NAME_TYPE410255>Barret M82A3 (гор)|Чертеж восстановления Barret M82A3 с городским камуфляжем</ITEM_NAME_TYPE410255>
+  <ITEM_NAME_TYPE410256>Barret M82A3 (лес)|Чертеж восстановления Barret M82A3 с лесным камуфляжем</ITEM_NAME_TYPE410256>
+  <ITEM_NAME_TYPE410257>в."MK12 SPR"|Чертеж восстановления MK12 SPR</ITEM_NAME_TYPE410257>
+  <ITEM_NAME_TYPE410258>MK12 SPR (пус)|Чертеж восстановления MK12 SPR с пустынным камуфляжем</ITEM_NAME_TYPE410258>
+  <ITEM_NAME_TYPE410259>MK12 SPR (зим)|Чертеж восстановления MK12 SPR с зимним камуфляжем</ITEM_NAME_TYPE410259>
+  <ITEM_NAME_TYPE410260>MK12 SPR (гор)|Чертеж восстановления MK12 SPR с городским камуфляжем</ITEM_NAME_TYPE410260>
+  <ITEM_NAME_TYPE410261>MK12 SPR (лес)|Чертеж восстановления MK12 SPR с лесным камуфляжем</ITEM_NAME_TYPE410261>
+  <ITEM_NAME_TYPE410247>в.К.хаки|Чертеж восстановления куртки хаки</ITEM_NAME_TYPE410247>
+  <ITEM_NAME_TYPE410248>в.К.хаки(кап)|Чертеж восстановления куртки хаки с капюшоном</ITEM_NAME_TYPE410248>
+  <ITEM_NAME_TYPE410249>в.К.хаки зим.|Чертеж восстановления куртки хаки с зимним камуфляжем</ITEM_NAME_TYPE410249>
+  <ITEM_NAME_TYPE410250>Контейнер|Контейнер для хранения артефактов</ITEM_NAME_TYPE410250>
+  <ITEM_NAME_TYPE410251>Б.контейнер|Большой контейнер для артефактов</ITEM_NAME_TYPE410251>
+  <ITEM_NAME_TYPE410326>Б.контейнер|Большой контейнер для артефактов, увеличенной ёмкости</ITEM_NAME_TYPE410326>
+  <ITEM_NAME_TYPE410235>в.К.Партизан|Чертеж восстановления куртки Партизан</ITEM_NAME_TYPE410235>
+  <ITEM_NAME_TYPE410262>в.Науч.Халат|Чертеж восстановления научного халата</ITEM_NAME_TYPE410262>
+  <ITEM_NAME_TYPE410263>в.Тех.Халат|Чертеж восстановления технического халата</ITEM_NAME_TYPE410263>
+  <ITEM_NAME_TYPE410264>в.Мед.Халат|Чертеж восстановления медицинского халата</ITEM_NAME_TYPE410264>
+  <ITEM_NAME_TYPE410265>в.Шл.Викинг|Чертеж восстановления шлема Викинг</ITEM_NAME_TYPE410265>
+  <ITEM_NAME_TYPE410266>в.Берет|Чертеж восстановления берета</ITEM_NAME_TYPE410266>
+  <ITEM_NAME_TYPE410267>в.кр.Берет|Чертеж восстановления красного берета</ITEM_NAME_TYPE410267>
+  <ITEM_NAME_TYPE410268>в.син.Берет|Чертеж восстановления синего берета</ITEM_NAME_TYPE410268>
+  <ITEM_NAME_TYPE410269>в.кр.тёмн.оч.|Чертеж восстановления круглых тёмных очков</ITEM_NAME_TYPE410269>
+  <ITEM_NAME_TYPE410270>в.кр.проз.оч.|Чертеж восстановления круглых прозрачных очков</ITEM_NAME_TYPE410270>
+  <ITEM_NAME_TYPE410271>в.квд.тёмн.оч.|Чертеж восстановления квадратных тёмных очков</ITEM_NAME_TYPE410271>
+  <ITEM_NAME_TYPE410272>в.квд.проз.оч.|Чертеж восстановления квадратных прозрачных очков</ITEM_NAME_TYPE410272>
+  <ITEM_NAME_TYPE410273>в.оч."Кобра"|Чертеж восстановления очков "Кобра"</ITEM_NAME_TYPE410273>
+  <ITEM_NAME_TYPE410274>в.Кинолог|Чертеж восстановления костюм Кинолог</ITEM_NAME_TYPE410274>
+  <ITEM_NAME_TYPE410275>в."ТОЗ-34"|Чертеж восстановления ТОЗ-34</ITEM_NAME_TYPE410275>
+  <ITEM_NAME_TYPE410276>в."Mossberg-500"|Чертеж восстановления Mossberg-500</ITEM_NAME_TYPE410276>
+  <ITEM_NAME_TYPE410277>в."M1014-JSCS"|Чертеж восстановления M1014-JSCS</ITEM_NAME_TYPE410277>
+  <ITEM_NAME_TYPE410278>в."SPAS-12"|Чертеж восстановления SPAS-12</ITEM_NAME_TYPE410278>
+  <ITEM_NAME_TYPE410279>в."АК-74М"|Чертеж восстановления АК-74М</ITEM_NAME_TYPE410279>
+  <ITEM_NAME_TYPE410280>в."АК-74МСТ"|Чертеж восстановления АК-74М ст.</ITEM_NAME_TYPE410280>
+  <ITEM_NAME_TYPE410281>в."FAMAS"|Чертеж восстановления FAMAS</ITEM_NAME_TYPE410281>
+  <ITEM_NAME_TYPE410282>в."HK-G36C"|Чертеж восстановления HK-G36C</ITEM_NAME_TYPE410282>
+  <ITEM_NAME_TYPE410283>в."АК-102"|Чертеж восстановления АК-102</ITEM_NAME_TYPE410283>
+  <ITEM_NAME_TYPE410284>в."АК-107"|Чертеж восстановления АК-107</ITEM_NAME_TYPE410284>
+  <ITEM_NAME_TYPE410285>в."AUG-A3"|Чертеж восстановления AUG-A3</ITEM_NAME_TYPE410285>
+  <ITEM_NAME_TYPE410286>в."HK-416"|Чертеж восстановления HK-416</ITEM_NAME_TYPE410286>
+  <ITEM_NAME_TYPE410287>в."M4A1"|Чертеж восстановления Colt-M4A1</ITEM_NAME_TYPE410287>
+  <ITEM_NAME_TYPE410288>в."Гроза-4"|Чертеж восстановления ОЦ-14 под 9х39</ITEM_NAME_TYPE410288>
+  <ITEM_NAME_TYPE410289>в."Гроза-1"|Чертеж восстановления ОЦ-14 под 7.62х39</ITEM_NAME_TYPE410289>
+  <ITEM_NAME_TYPE410290>в."SIG 552"|Чертеж восстановления SIG SG 552 SB Commando</ITEM_NAME_TYPE410290>
+  <ITEM_NAME_TYPE410291>в."Ruger-M14"|Чертеж восстановления Ruger Mini-14</ITEM_NAME_TYPE410291>
+  <ITEM_NAME_TYPE410292>в."M1-Garand"|Чертеж восстановления M1-Garand</ITEM_NAME_TYPE410292>
+  <ITEM_NAME_TYPE410293>в."AUG-HBar"|Чертеж восстановления AUG-HBar</ITEM_NAME_TYPE410293>
+  <ITEM_NAME_TYPE410294>в."MP5-SD3"|Чертеж восстановления HK MP5-SD3</ITEM_NAME_TYPE410294>
+  <ITEM_NAME_TYPE410295>в."MP5-K"|Чертеж восстановления HK MP5-K</ITEM_NAME_TYPE410295>
+  <ITEM_NAME_TYPE410296>в."ППШ-41"|Чертеж восстановления ППШ-41</ITEM_NAME_TYPE410296>
+  <ITEM_NAME_TYPE410297>в."Scorpion-VZ61"|Чертеж восстановления Scorpion VZ61</ITEM_NAME_TYPE410297>
+  <ITEM_NAME_TYPE410298>в."MAC-10"|Чертеж восстановления MAC-10</ITEM_NAME_TYPE410298>
+  <ITEM_NAME_TYPE410299>в."SS-M4"|Чертеж восстановления Sites Spectre M4</ITEM_NAME_TYPE410299>
+  <ITEM_NAME_TYPE410300>в."UZI"|Чертеж восстановления UZI</ITEM_NAME_TYPE410300>
+  <ITEM_NAME_TYPE410301>в."ПМ"|Чертеж восстановления ПМ</ITEM_NAME_TYPE410301>
+  <ITEM_NAME_TYPE410302>в."Colt-1911"|Чертеж восстановления Colt-1911</ITEM_NAME_TYPE410302>
+  <ITEM_NAME_TYPE410303>в."Eagle"|Чертеж восстановления Desert Eagle</ITEM_NAME_TYPE410303>
+  <ITEM_NAME_TYPE410304>в."ТТ"|Чертеж восстановления Токарев-ТТ</ITEM_NAME_TYPE410304>
+  <ITEM_NAME_TYPE410305>в."Glock-17"|Чертеж восстановления Glock-17</ITEM_NAME_TYPE410305>
+  <ITEM_NAME_TYPE410306>в."Glock-18"|Чертеж восстановления Glock-18</ITEM_NAME_TYPE410306>
+  <ITEM_NAME_TYPE410331>в."Обрез"|Чертеж восстановления обреза.</ITEM_NAME_TYPE410331>
+  <ITEM_NAME_TYPE410332>в.О.Куртка|Чертеж восстановления куртки охотника.</ITEM_NAME_TYPE410332>
+  <ITEM_NAME_TYPE410333>в.О.Штаны лес.|Чертеж восстановления штанов охотника.</ITEM_NAME_TYPE410333>
+  <ITEM_NAME_TYPE410334>в.О.Штаны болот.|Чертеж восстановления штанов охотника с болотниками.</ITEM_NAME_TYPE410334>
+  <ITEM_NAME_TYPE410335>в.О.Жилет|Чертеж восстановления жилета охотника.</ITEM_NAME_TYPE410335>
+  <ITEM_NAME_TYPE410336>в.О.Перчатки|Чертеж восстановления перчаток охотника.</ITEM_NAME_TYPE410336>
+  <ITEM_NAME_TYPE410337>в.О.Шапка|Чертеж восстановления шапки охотника.</ITEM_NAME_TYPE410337>
+  <ITEM_NAME_TYPE410338>в.О.Шапка с коз.|Чертеж восстановления шапки охотника с козырьком.</ITEM_NAME_TYPE410338>
+  <ITEM_NAME_TYPE410360>в."СР-3"|Чертеж восстановления автомата СР-3.</ITEM_NAME_TYPE410360>
+  <ITEM_NAME_TYPE410361>в."СР-3М"|Чертеж восстановления автомата СР-3М.</ITEM_NAME_TYPE410361>
+  <ITEM_NAME_TYPE510001>Приц.Ш.Сов|Штурмовой прицел 2-4х "ласточкин хвост" (на 1 день)</ITEM_NAME_TYPE510001>
+  <ITEM_NAME_TYPE510002>Приц.Ш.Сов|Штурмовой прицел 2-4х "ласточкин хвост" (на 30 дней)</ITEM_NAME_TYPE510002>
+  <ITEM_NAME_TYPE510003>Приц.Ш.Сов|Штурмовой прицел 2-4х "ласточкин хвост" (на 90 дней)</ITEM_NAME_TYPE510003>
+  <ITEM_NAME_TYPE510004>Приц.Ш.Сов|Штурмовой прицел 2-4х "ласточкин хвост" (на 180 дней)</ITEM_NAME_TYPE510004>
+  <ITEM_NAME_TYPE510005>Приц.Ш.Сов|Штурмовой прицел 2-4х "ласточкин хвост" (на 360 дней)</ITEM_NAME_TYPE510005>
+  <ITEM_NAME_TYPE510006>Приц.Ш.НАТО|Штурмовой прицел 2-4х НАТО (на 1 день)</ITEM_NAME_TYPE510006>
+  <ITEM_NAME_TYPE510007>Приц.Ш.НАТО|Штурмовой прицел 2-4х НАТО (на 30 дней)</ITEM_NAME_TYPE510007>
+  <ITEM_NAME_TYPE510008>Приц.Ш.НАТО|Штурмовой прицел 2-4х НАТО (на 90 дней)</ITEM_NAME_TYPE510008>
+  <ITEM_NAME_TYPE510009>Приц.Ш.НАТО|Штурмовой прицел 2-4х НАТО (на 180 дней)</ITEM_NAME_TYPE510009>
+  <ITEM_NAME_TYPE510010>Приц.Ш.НАТО|Штурмовой прицел 2-4х НАТО (на 360 дней)</ITEM_NAME_TYPE510010>
+  <ITEM_NAME_TYPE510011>Приц.С.Сов|Снайперский прицел 4-6-8х "ласточкин хвост" (на 1 день)</ITEM_NAME_TYPE510011>
+  <ITEM_NAME_TYPE510012>Приц.С.Сов|Снайперский прицел 4-6-8х "ласточкин хвост" (на 30 дней)</ITEM_NAME_TYPE510012>
+  <ITEM_NAME_TYPE510013>Приц.С.Сов|Снайперский прицел 4-6-8х "ласточкин хвост" (на 90 дней)</ITEM_NAME_TYPE510013>
+  <ITEM_NAME_TYPE510014>Приц.С.Сов|Снайперский прицел 4-6-8х "ласточкин хвост" (на 180 дней)</ITEM_NAME_TYPE510014>
+  <ITEM_NAME_TYPE510015>Приц.С.Сов|Снайперский прицел 4-6-8х "ласточкин хвост" (на 360 дней)</ITEM_NAME_TYPE510015>
+  <ITEM_NAME_TYPE510016>Приц.С.НАТО|Снайперский прицел 4-6-8х НАТО (на 1 день)</ITEM_NAME_TYPE510016>
+  <ITEM_NAME_TYPE510017>Приц.С.НАТО|Снайперский прицел 4-6-8х НАТО (на 30 дней)</ITEM_NAME_TYPE510017>
+  <ITEM_NAME_TYPE510018>Приц.С.НАТО|Снайперский прицел 4-6-8х НАТО (на 90 дней)</ITEM_NAME_TYPE510018>
+  <ITEM_NAME_TYPE510019>Приц.С.НАТО|Снайперский прицел 4-6-8х НАТО (на 180 дней)</ITEM_NAME_TYPE510019>
+  <ITEM_NAME_TYPE510020>Приц.С.НАТО|Снайперский прицел 4-6-8х НАТО (на 360 дней)</ITEM_NAME_TYPE510020>
+  <ITEM_NAME_TYPE510021>Глуш.А.5|Автоматный глушитель 5.45 или 5.56 (на 1 день)</ITEM_NAME_TYPE510021>
+  <ITEM_NAME_TYPE510022>Глуш.А.5|Автоматный глушитель 5.45 или 5.56 (на 30 дней)</ITEM_NAME_TYPE510022>
+  <ITEM_NAME_TYPE510023>Глуш.А.5|Автоматный глушитель 5.45 или 5.56 (на 90 дней)</ITEM_NAME_TYPE510023>
+  <ITEM_NAME_TYPE510024>Глуш.А.5|Автоматный глушитель 5.45 или 5.56 (на 180 дней)</ITEM_NAME_TYPE510024>
+  <ITEM_NAME_TYPE510025>Глуш.А.5|Автоматный глушитель 5.45 или 5.56 (на 360 дней)</ITEM_NAME_TYPE510025>
+  <ITEM_NAME_TYPE510026>Глуш.А.7|Автоматный глушитель 7.62х51 или 7.62х54 (на 1 день)</ITEM_NAME_TYPE510026>
+  <ITEM_NAME_TYPE510027>Глуш.А.7|Автоматный глушитель 7.62х51 или 7.62х54 (на 30 дней)</ITEM_NAME_TYPE510027>
+  <ITEM_NAME_TYPE510028>Глуш.А.7|Автоматный глушитель 7.62х51 или 7.62х54 (на 90 дней)</ITEM_NAME_TYPE510028>
+  <ITEM_NAME_TYPE510029>Глуш.А.7|Автоматный глушитель 7.62х51 или 7.62х54 (на 180 дней)</ITEM_NAME_TYPE510029>
+  <ITEM_NAME_TYPE510030>Глуш.А.7|Автоматный глушитель 7.62х51 или 7.62х54 (на 360 дней)</ITEM_NAME_TYPE510030>
+  <ITEM_NAME_TYPE510031>Глуш.С.5|Снайперский глушитель 5.45 или 5.56 (на 1 день)</ITEM_NAME_TYPE510031>
+  <ITEM_NAME_TYPE510032>Глуш.С.5|Снайперский глушитель 5.45 или 5.56 (на 30 дней)</ITEM_NAME_TYPE510032>
+  <ITEM_NAME_TYPE510033>Глуш.С.5|Снайперский глушитель 5.45 или 5.56 (на 90 дней)</ITEM_NAME_TYPE510033>
+  <ITEM_NAME_TYPE510034>Глуш.С.5|Снайперский глушитель 5.45 или 5.56 (на 180 дней)</ITEM_NAME_TYPE510034>
+  <ITEM_NAME_TYPE510035>Глуш.С.5|Снайперский глушитель 5.45 или 5.56 (на 360 дней)</ITEM_NAME_TYPE510035>
+  <ITEM_NAME_TYPE510036>Глуш.С.7|Снайперский глушитель 7.62х51 или 7.62х54 (на 1 день)</ITEM_NAME_TYPE510036>
+  <ITEM_NAME_TYPE510037>Глуш.С.7|Снайперский глушитель 7.62х51 или 7.62х54 (на 30 дней)</ITEM_NAME_TYPE510037>
+  <ITEM_NAME_TYPE510038>Глуш.С.7|Снайперский глушитель 7.62х51 или 7.62х54 (на 90 дней)</ITEM_NAME_TYPE510038>
+  <ITEM_NAME_TYPE510039>Глуш.С.7|Снайперский глушитель 7.62х51 или 7.62х54 (на 180 дней)</ITEM_NAME_TYPE510039>
+  <ITEM_NAME_TYPE510040>Глуш.С.7|Снайперский глушитель 7.62х51 или 7.62х54 (на 360 дней)</ITEM_NAME_TYPE510040>
+  <ITEM_NAME_TYPE802000>Самогон|Самогон</ITEM_NAME_TYPE802000>
+  <ITEM_NAME_TYPE810001>Аир|Аир болотный</ITEM_NAME_TYPE810001>
+  <ITEM_NAME_TYPE810003>Кокушник|Кокушник</ITEM_NAME_TYPE810003>
+  <ITEM_NAME_TYPE810002>Пижма|Пижма</ITEM_NAME_TYPE810002>
+  <ITEM_NAME_TYPE810004>Спирт|Спирт (токсичен)</ITEM_NAME_TYPE810004>
+  <ITEM_NAME_TYPE810005>Модкомп|Модкомплект экипировки</ITEM_NAME_TYPE810005>
+  <ITEM_NAME_TYPE810006>Спецмод|Модкомплект спец. экипировки</ITEM_NAME_TYPE810006>
+  <ITEM_NAME_TYPE810007>Масленка|Оружейная масленка</ITEM_NAME_TYPE810007>
+  <ITEM_NAME_TYPE810008>Запчасти|Набор запасных частей для пистолетов</ITEM_NAME_TYPE810008>
+  <ITEM_NAME_TYPE810009>Корпус Ф-1|Корпус гранаты Ф-1</ITEM_NAME_TYPE810009>
+  <ITEM_NAME_TYPE810010>Муляж Ф-1|Муляж корпуса гранаты Ф-1</ITEM_NAME_TYPE810010>
+  <ITEM_NAME_TYPE810011>Запал|Запал УЗРГМ</ITEM_NAME_TYPE810011>
+  <ITEM_NAME_TYPE810012>Корпус РГД-5|Корпус гранаты РГД-5</ITEM_NAME_TYPE810012>
+  <ITEM_NAME_TYPE810013>Рамка ПМ|Пистолетная рамка от ПМ</ITEM_NAME_TYPE810013>
+  <ITEM_NAME_TYPE810014>Затвор ПМ|Затвор от ПМ</ITEM_NAME_TYPE810014>
+  <ITEM_NAME_TYPE810015>Магазин ПМ|Магазин от ПМ</ITEM_NAME_TYPE810015>
+  <ITEM_NAME_TYPE810016>Рамк.Colt|Пистолетная рамка от пистолета Colt-1911</ITEM_NAME_TYPE810016>
+  <ITEM_NAME_TYPE810017>Затв.Colt|Затвор от пистолета Colt-1911</ITEM_NAME_TYPE810017>
+  <ITEM_NAME_TYPE810018>Магаз.Colt|Магазин от пистолета Colt-1911</ITEM_NAME_TYPE810018>
+  <ITEM_NAME_TYPE810019>Рамк.Eagle|Пистолетная рамка от пистолета Desert Eagle</ITEM_NAME_TYPE810019>
+  <ITEM_NAME_TYPE810020>Затв.Eagle|Затвор от пистолета Desert Eagle</ITEM_NAME_TYPE810020>
+  <ITEM_NAME_TYPE810021>Магаз.Eagle|Магазин от пистолета Desert Eagle</ITEM_NAME_TYPE810021>
+  <ITEM_NAME_TYPE810022>Рамк.ТТ|Пистолетная рамка от пистолета Токарев-ТТ</ITEM_NAME_TYPE810022>
+  <ITEM_NAME_TYPE810023>Затв.ТТ|Затвор от пистолета Токарев-ТТ</ITEM_NAME_TYPE810023>
+  <ITEM_NAME_TYPE810024>Магаз.ТТ|Магазин от пистолета Токарев-ТТ</ITEM_NAME_TYPE810024>
+  <ITEM_NAME_TYPE810025>Рам.Glock-17|Пистолетная рамка от пистолета Glock-17</ITEM_NAME_TYPE810025>
+  <ITEM_NAME_TYPE810026>Зат.Glock-17|Затвор от пистолета Glock-17</ITEM_NAME_TYPE810026>
+  <ITEM_NAME_TYPE810027>Маг.Glock-17|Магазин от пистолета Glock-17</ITEM_NAME_TYPE810027>
+  <ITEM_NAME_TYPE810028>Рам.Glock-18|Пистолетная рамка от пистолета Glock-18</ITEM_NAME_TYPE810028>
+  <ITEM_NAME_TYPE810029>Рам.ПМ(исп)|Испорченная пистолетная рамка от ПМ</ITEM_NAME_TYPE810029>
+  <ITEM_NAME_TYPE810030>Зат.ПМ(исп)|Испорченный затвор от ПМ</ITEM_NAME_TYPE810030>
+  <ITEM_NAME_TYPE810031>Рам.Colt(исп)|Испорченная пистолетная рамка от Colt-1911</ITEM_NAME_TYPE810031>
+  <ITEM_NAME_TYPE810032>Зат.Colt(исп)|Испорченный затвор от пистолета Colt-1911</ITEM_NAME_TYPE810032>
+  <ITEM_NAME_TYPE810033>Рам.Eagle(исп)|Испорченная пистолетная рамка от Desert Eagle</ITEM_NAME_TYPE810033>
+  <ITEM_NAME_TYPE810034>Зат.Eagle(исп)|Испорченный затвор от пистолета Desert Eagle</ITEM_NAME_TYPE810034>
+  <ITEM_NAME_TYPE810035>Рам.ТТ(исп)|Испорченная пистолетная рамка от Токарев-ТТ</ITEM_NAME_TYPE810035>
+  <ITEM_NAME_TYPE810036>Зат.ТТ(исп)|Испорченный затвор от пистолета Токарев-ТТ</ITEM_NAME_TYPE810036>
+  <ITEM_NAME_TYPE810037>Р.Glock-17(исп)|Испорченная пистолетная рамка от Glock-17</ITEM_NAME_TYPE810037>
+  <ITEM_NAME_TYPE810038>З.Glock-17(исп)|Испорченный затвор от пистолета Glock-17</ITEM_NAME_TYPE810038>
+  <ITEM_NAME_TYPE810039>Р.Glock-18(исп)|Испорченная пистолетная рамка от Glock-18</ITEM_NAME_TYPE810039>
+  <ITEM_NAME_TYPE810040>Запчасти|Набор запасных частей для винтовок</ITEM_NAME_TYPE810040>
+  <ITEM_NAME_TYPE810041>Глушит.АС-ВАЛ|Глушитель автомата АС-ВАЛ</ITEM_NAME_TYPE810041>
+  <ITEM_NAME_TYPE810042>Корп.АС-ВАЛ|Корпус автомата АС-ВАЛ</ITEM_NAME_TYPE810042>
+  <ITEM_NAME_TYPE810043>Прикл.АС-ВАЛ|Приклад автомата АС-ВАЛ</ITEM_NAME_TYPE810043>
+  <ITEM_NAME_TYPE810044>Магаз.АС-ВАЛ|Магазин автомата АС-ВАЛ</ITEM_NAME_TYPE810044>
+  <ITEM_NAME_TYPE810045>Глушит.ВСС|Глушитель ВСС "Винторез"</ITEM_NAME_TYPE810045>
+  <ITEM_NAME_TYPE810046>Корп.ВСС|Корпус ВСС "Винторез"</ITEM_NAME_TYPE810046>
+  <ITEM_NAME_TYPE810047>Прикл.ВСС|Приклад ВСС "Винторез"</ITEM_NAME_TYPE810047>
+  <ITEM_NAME_TYPE810048>Магаз.ВСС|Магазин ВСС "Винторез"</ITEM_NAME_TYPE810048>
+  <ITEM_NAME_TYPE810049>Ствол АК-47|Ствол автомата АК-47</ITEM_NAME_TYPE810049>
+  <ITEM_NAME_TYPE810050>Корп.АК-47|Корпус автомата АК-47</ITEM_NAME_TYPE810050>
+  <ITEM_NAME_TYPE810051>Затв.АК-47|Части затвора автомата АК-47</ITEM_NAME_TYPE810051>
+  <ITEM_NAME_TYPE810052>Магаз.АК-47|Магазин автомата АК-47</ITEM_NAME_TYPE810052>
+  <ITEM_NAME_TYPE810053>Ствол АК-74|Ствол автомата АК-74</ITEM_NAME_TYPE810053>
+  <ITEM_NAME_TYPE810054>Корп.АК-74|Корпус автомата АК-74</ITEM_NAME_TYPE810054>
+  <ITEM_NAME_TYPE810055>Затв.АК-74|Части затвора автомата АК-74</ITEM_NAME_TYPE810055>
+  <ITEM_NAME_TYPE810056>Магаз.АК-74|Магазин автомата АК-74</ITEM_NAME_TYPE810056>
+  <ITEM_NAME_TYPE810057>Ств.ВАЛ(исп)|Испорченный ствол автомата АС-ВАЛ</ITEM_NAME_TYPE810057>
+  <ITEM_NAME_TYPE810058>Корп.ВАЛ(исп)|Испорченный корпус автомата АС-ВАЛ</ITEM_NAME_TYPE810058>
+  <ITEM_NAME_TYPE810059>Ств.ВСС(исп)|Испорченный ствол ВСС "Винторез"</ITEM_NAME_TYPE810059>
+  <ITEM_NAME_TYPE810060>Корп.ВСС(исп)|Испорченный корпус ВСС "Винторез"</ITEM_NAME_TYPE810060>
+  <ITEM_NAME_TYPE810061>Ств.АК-47(исп)|Испорченный ствол автомата АК-47</ITEM_NAME_TYPE810061>
+  <ITEM_NAME_TYPE810062>Корп.АК-47(исп)|Испорченный корпус автомата АК-47</ITEM_NAME_TYPE810062>
+  <ITEM_NAME_TYPE810063>Затв.АК-47(исп)|Испорченные части затвора АК-47</ITEM_NAME_TYPE810063>
+  <ITEM_NAME_TYPE810064>Ств.АК-74(исп)|Испорченный ствол автомата АК-74</ITEM_NAME_TYPE810064>
+  <ITEM_NAME_TYPE810065>Корп.АК-74(исп)|Испорченный корпус автомата АК-74</ITEM_NAME_TYPE810065>
+  <ITEM_NAME_TYPE810066>Затв.АК-74(исп)|Испорченные части затвора АК-74</ITEM_NAME_TYPE810066>
+  <ITEM_NAME_TYPE810067>Гильзы|Пустые гильзы</ITEM_NAME_TYPE810067>
+  <ITEM_NAME_TYPE810068>Экстрактор|Экстрактор биологических материалов</ITEM_NAME_TYPE810068>
+  <ITEM_NAME_TYPE810069>Краска эм.|Банка эмалевой краски</ITEM_NAME_TYPE810069>
+  <ITEM_NAME_TYPE810070>Краска масл.|Банка масляной краски</ITEM_NAME_TYPE810070>
+  <ITEM_NAME_TYPE810071>Краска алк.|Банка алкидной краски</ITEM_NAME_TYPE810071>
+  <ITEM_NAME_TYPE810072>Краска акр.|Банка акриловой краски</ITEM_NAME_TYPE810072>
+  <ITEM_NAME_TYPE810073>Клей|Тюбик универсального клея</ITEM_NAME_TYPE810073>
+  <ITEM_NAME_TYPE810074>Крем|Тюбик крема</ITEM_NAME_TYPE810074>
+  <ITEM_NAME_TYPE810075>Вазелин|Банка с вазелином</ITEM_NAME_TYPE810075>
+  <ITEM_NAME_TYPE810076>Гуталин|Банка с гуталином</ITEM_NAME_TYPE810076>
+  <ITEM_NAME_TYPE810077>Масленка|Большая масленка</ITEM_NAME_TYPE810077>
+  <ITEM_NAME_TYPE810078>Кора|Древесная кора</ITEM_NAME_TYPE810078>
+  <ITEM_NAME_TYPE810079>Мел|Кусок мела</ITEM_NAME_TYPE810079>
+  <ITEM_NAME_TYPE810080>Глина|Шмат серой глины</ITEM_NAME_TYPE810080>
+  <ITEM_NAME_TYPE810081>Уголь древ.|Кусок древесного угля</ITEM_NAME_TYPE810081>
+  <ITEM_NAME_TYPE810082>Уголь кам.|Кусок каменного угля</ITEM_NAME_TYPE810082>
+  <ITEM_NAME_TYPE810083>Торф|Кусок торфа</ITEM_NAME_TYPE810083>
+  <ITEM_NAME_TYPE810084>Соль|Кусок каменной соли</ITEM_NAME_TYPE810084>
+  <ITEM_NAME_TYPE810085>Почки|Березовые почки</ITEM_NAME_TYPE810085>
+  <ITEM_NAME_TYPE810086>Голубика|Ягоды Голубики</ITEM_NAME_TYPE810086>
+  <ITEM_NAME_TYPE810087>Шиповник(п)|Плоды Шиповника</ITEM_NAME_TYPE810087>
+  <ITEM_NAME_TYPE810088>Шиповник(с)|Соцветия Шиповника</ITEM_NAME_TYPE810088>
+  <ITEM_NAME_TYPE810089>Черемуха|Ягоды Черемухи</ITEM_NAME_TYPE810089>
+  <ITEM_NAME_TYPE810090>Шишки|Сосновые шишки</ITEM_NAME_TYPE810090>
+  <ITEM_NAME_TYPE810091>Земляника|Ягоды Земляники</ITEM_NAME_TYPE810091>
+  <ITEM_NAME_TYPE810092>Ромашка|Соцветия Ромашки</ITEM_NAME_TYPE810092>
+  <ITEM_NAME_TYPE810093>Морошка|Ягоды Морошки</ITEM_NAME_TYPE810093>
+  <ITEM_NAME_TYPE810094>Мох|Мох сфагнум</ITEM_NAME_TYPE810094>
+  <ITEM_NAME_TYPE810095>Подорожник|Лист Подорожника</ITEM_NAME_TYPE810095>
+  <ITEM_NAME_TYPE810096>Зверобой|Соцветия Зверобоя</ITEM_NAME_TYPE810096>
+  <ITEM_NAME_TYPE810097>Валериана|Соцветия Валерианы</ITEM_NAME_TYPE810097>
+  <ITEM_NAME_TYPE810098>Мухомор|Гриб Мухомор</ITEM_NAME_TYPE810098>
+  <ITEM_NAME_TYPE810099>Поганка|Гриб Бледная поганка</ITEM_NAME_TYPE810099>
+  <ITEM_NAME_TYPE810100>Древесн.гр.|Древесный гриб</ITEM_NAME_TYPE810100>
+  <ITEM_NAME_TYPE810101>Головач|Головач продолговатый</ITEM_NAME_TYPE810101>
+  <ITEM_NAME_TYPE810102>Дождевик|Дождевик грушевидный</ITEM_NAME_TYPE810102>
+  <ITEM_NAME_TYPE810103>Рогатик|Рогатик дудчатый</ITEM_NAME_TYPE810103>
+  <ITEM_NAME_TYPE810104>Звездовик|Звездовик тройной</ITEM_NAME_TYPE810104>
+  <ITEM_NAME_TYPE810105>Одуванчик|Корень одуванчика</ITEM_NAME_TYPE810105>
+  <ITEM_NAME_TYPE810106>Солодка|Корень солодки</ITEM_NAME_TYPE810106>
+  <ITEM_NAME_TYPE810107>Аир(к)|Корень Аира</ITEM_NAME_TYPE810107>
+  <ITEM_NAME_TYPE810108>Затв.Glock-18|Затвор от пистолета Glock-18</ITEM_NAME_TYPE810108>
+  <ITEM_NAME_TYPE810109>Йод|Ампулы с Йодом</ITEM_NAME_TYPE810109>
+  <ITEM_NAME_TYPE810110>Новокаин|Ампулы с Новокаином</ITEM_NAME_TYPE810110>
+  <ITEM_NAME_TYPE810111>Кислород|Балончик сжатого кислорода</ITEM_NAME_TYPE810111>
+  <ITEM_NAME_TYPE810112>Бронх.|Бронхолитическое средство</ITEM_NAME_TYPE810112>
+  <ITEM_NAME_TYPE810113>Шприц|Шприц пустой</ITEM_NAME_TYPE810113>
+  <ITEM_NAME_TYPE810114>Шприц(сл)|Шприц сломанный</ITEM_NAME_TYPE810114>
+  <ITEM_NAME_TYPE810115>Аспирин|Таблетки "Аспирин"</ITEM_NAME_TYPE810115>
+  <ITEM_NAME_TYPE810116>Анальгин|Таблетки "Анальгин"</ITEM_NAME_TYPE810116>
+  <ITEM_NAME_TYPE810117>Колдакт|Таблетки "Колдакт"</ITEM_NAME_TYPE810117>
+  <ITEM_NAME_TYPE810118>Креон|Таблетки "Креон"</ITEM_NAME_TYPE810118>
+  <ITEM_NAME_TYPE810119>Панангин|Таблетки "Панангин"</ITEM_NAME_TYPE810119>
+  <ITEM_NAME_TYPE810120>Капотен|Таблетки "Капотен"</ITEM_NAME_TYPE810120>
+  <ITEM_NAME_TYPE810121>Ношпа|Таблетки "Ношпа"</ITEM_NAME_TYPE810121>
+  <ITEM_NAME_TYPE810122>Левомецитин|Таблетки "Левомецитин"</ITEM_NAME_TYPE810122>
+  <ITEM_NAME_TYPE810123>Люголь|Наружное средство "Люголь"</ITEM_NAME_TYPE810123>
+  <ITEM_NAME_TYPE810124>Левометицин|Наружное средство "Левометицин"</ITEM_NAME_TYPE810124>
+  <ITEM_NAME_TYPE810125>НСООН|Наружное средство "Муравьиная кислота"</ITEM_NAME_TYPE810125>
+  <ITEM_NAME_TYPE810126>Ихтиол.Мазь|Ихтиоловая мазь</ITEM_NAME_TYPE810126>
+  <ITEM_NAME_TYPE810127>Оксид цинка|Мазь "Оксид цинка"</ITEM_NAME_TYPE810127>
+  <ITEM_NAME_TYPE810128>Ношпа|Баночка таблеток "Ношпа"</ITEM_NAME_TYPE810128>
+  <ITEM_NAME_TYPE810144>Инъектор|Инъектор пустой</ITEM_NAME_TYPE810144>
+  <ITEM_NAME_TYPE810145>Энергетик|Энергетик</ITEM_NAME_TYPE810145>
+  <ITEM_NAME_TYPE810146>Стимулятор|Нервный стимулятор</ITEM_NAME_TYPE810146>
+  <ITEM_NAME_TYPE810147>Нитроглицерин|Нитроглицерин</ITEM_NAME_TYPE810147>
+  <ITEM_NAME_TYPE810148>Рад.конт.|Крупный контейнер для радиоактивных материалов</ITEM_NAME_TYPE810148>
+  <ITEM_NAME_TYPE810149>Рад.конт.|Небольшой контейнер для радиоактивных материалов</ITEM_NAME_TYPE810149>
+  <ITEM_NAME_TYPE810150>Корпус РГН|Корпус гранаты РГН</ITEM_NAME_TYPE810150>
+  <ITEM_NAME_TYPE810151>Корпус РГО|Корпус гранаты РГО</ITEM_NAME_TYPE810151>
+  <ITEM_NAME_TYPE810152>Запал|Запал гранаты РГН/РГО</ITEM_NAME_TYPE810152>
+  <ITEM_NAME_TYPE810153>Череп|Череп крысы</ITEM_NAME_TYPE810153>
+  <ITEM_NAME_TYPE810154>Хвост|Хвост лысой крысы</ITEM_NAME_TYPE810154>
+  <ITEM_NAME_TYPE810155>Волос л.|Волос лешего</ITEM_NAME_TYPE810155>
+  <ITEM_NAME_TYPE810156>Черника|Ягоды черники</ITEM_NAME_TYPE810156>
+  <ITEM_NAME_TYPE810157>Сыроежка|Гриб сыроежка</ITEM_NAME_TYPE810157>
+  <ITEM_NAME_TYPE810158>Белый гриб|Белый гриб</ITEM_NAME_TYPE810158>
+  <ITEM_NAME_TYPE810159>Опята|Грибы опята</ITEM_NAME_TYPE810159>
+  <ITEM_NAME_TYPE810160>Лисички|Грибы лисички</ITEM_NAME_TYPE810160>
+  <ITEM_NAME_TYPE810161>Подосиновик|Подосиновик</ITEM_NAME_TYPE810161>
+  <ITEM_NAME_TYPE810162>Масленок|Гриб масленок</ITEM_NAME_TYPE810162>
+  <ITEM_NAME_TYPE810163>Спички|Спички</ITEM_NAME_TYPE810163>
+  <ITEM_NAME_TYPE810165>Морошка|Ягоды морошки</ITEM_NAME_TYPE810165>
+  <ITEM_NAME_TYPE810166>Клюква|Ягоды клюквы</ITEM_NAME_TYPE810166>
+  <ITEM_NAME_TYPE810167>Брусника|Ягоды брусники</ITEM_NAME_TYPE810167>
+  <ITEM_NAME_TYPE810169>Голубика|Ягоды голубики</ITEM_NAME_TYPE810169>
+  <ITEM_NAME_TYPE810168>Отсыревшие спички|Отсыревшие спички</ITEM_NAME_TYPE810168>
+  <ITEM_NAME_TYPE810170>Древесина|Древесина</ITEM_NAME_TYPE810170>
+  <ITEM_NAME_TYPE810171>Жареный гриб|Жареный гриб</ITEM_NAME_TYPE810171>
+  <ITEM_NAME_TYPE810172>Жареный гриб|Несъедобный жареный гриб</ITEM_NAME_TYPE810172>
+  <ITEM_NAME_TYPE810173>Мясо|Мясо</ITEM_NAME_TYPE810173>
+  <ITEM_NAME_TYPE810174>Жареное мясо|Жареное мясо</ITEM_NAME_TYPE810174>
+  <ITEM_NAME_TYPE810175>Порох|Порох</ITEM_NAME_TYPE810175>
+  <ITEM_NAME_TYPE810176>Пистолетный капсюль|Пистолетный капсюль</ITEM_NAME_TYPE810176>
+  <ITEM_NAME_TYPE810177>Пистолетные гильзы|Пустые пистолетные гильзы</ITEM_NAME_TYPE810177>
+  <ITEM_NAME_TYPE810178>Свинец|Свинец</ITEM_NAME_TYPE810178>
+  <ITEM_NAME_TYPE810179>Железа|Ядовитая железа паука</ITEM_NAME_TYPE810179>
+  <ITEM_NAME_TYPE810180>Пробирка|Пустая пробирка</ITEM_NAME_TYPE810180>
+  <ITEM_NAME_TYPE810181>Оружейный капсюль|Оружейный капсюль</ITEM_NAME_TYPE810181>
+  <ITEM_NAME_TYPE810182>Гильза гл.|Пустая гильза для патрона от гладкоствольного оружия</ITEM_NAME_TYPE810182>
+  <ITEM_NAME_TYPE810183>Гильза|Пустая оружейная гильза</ITEM_NAME_TYPE810183>
+  <ITEM_NAME_TYPE810184>Лапа верлиоки|Вареная лапа верлиоки</ITEM_NAME_TYPE810184>
+  <ITEM_NAME_TYPE810185>Ткань|Лоскут старой грязной ткани</ITEM_NAME_TYPE810185>
+  <ITEM_NAME_TYPE810186>Скипидар|Бутылка со скипидаром</ITEM_NAME_TYPE810186>
+  <ITEM_NAME_TYPE810187>Раствор|Нестабильный раствор</ITEM_NAME_TYPE810187>
+  <ITEM_NAME_TYPE810188>Стабраствор|Стабилизированный раствор</ITEM_NAME_TYPE810188>
+  <ITEM_NAME_TYPE810189>Стакан|Граненый стакан</ITEM_NAME_TYPE810189>
+  <ITEM_NAME_TYPE810190>Банка|Пустая банка из под краски</ITEM_NAME_TYPE810190>
+  <ITEM_NAME_TYPE810191>Контейнер|Контейнер для хранения артефактов</ITEM_NAME_TYPE810191>
+  <ITEM_NAME_TYPE810192>Батарейка АА|Батарейка АА 1,5 вольт</ITEM_NAME_TYPE810192>
+  <ITEM_NAME_TYPE810193>Батарейка 4,5|Батарейка квадратная 4,5 вольт</ITEM_NAME_TYPE810193>
+  <ITEM_NAME_TYPE410099>"п. SIG 751"|Набор запасных частей для SIG SG 751 LB</ITEM_NAME_TYPE410099>
+  <ITEM_NAME_TYPE410116>"МК-48"|Набор запасных частей для МК-48</ITEM_NAME_TYPE410116>
+  <ITEM_NAME_TYPE410123>"п. МК-48"|Премиум набор запасных частей для МК-48</ITEM_NAME_TYPE410123>
+  <ITEM_NAME_TYPE410124>"Сайга-12К"|Набор запасных частей для Сайга-12К</ITEM_NAME_TYPE410124>
+  <ITEM_NAME_TYPE410125>"п. Сайга-12К"|Премиум набор запасных частей для Сайга-12К</ITEM_NAME_TYPE410125>
+  <ITEM_NAME_TYPE410126>"п. Jackhammer"|Премиум набор запасных частей для Jackhammer</ITEM_NAME_TYPE410126>
+  <ITEM_NAME_TYPE410127>"СВД"|Набор запасных частей для СВД</ITEM_NAME_TYPE410127>
+  <ITEM_NAME_TYPE410128>"п. СВД"|Премиум набор запасных частей для СВД</ITEM_NAME_TYPE410128>
+  <ITEM_NAME_TYPE410129>"п. WA-2000"|Премиум набор запасных частей для WA-2000</ITEM_NAME_TYPE410129>
+  <ITEM_NAME_TYPE410130>"FN-FAL"|Набор запасных частей для FN-FAL</ITEM_NAME_TYPE410130>
+  <ITEM_NAME_TYPE410131>"п. FN-FAL"|Премиум набор запасных частей для FN-FAL</ITEM_NAME_TYPE410131>
+  <ITEM_NAME_TYPE410132>"АС-ВАЛ"|Набор запасных частей для АС-ВАЛ</ITEM_NAME_TYPE410132>
+  <ITEM_NAME_TYPE410133>"п. АС-ВАЛ"|Премиум набор запасных частей для АС-ВАЛ</ITEM_NAME_TYPE410133>
+  <ITEM_NAME_TYPE410317>"п. Печенег AS"|Премиум набор запасных частей для Печенег AS</ITEM_NAME_TYPE410317>
+  <ITEM_NAME_TYPE410321>"п. SIG 716"|Премиум набор запасных частей для SIG 716</ITEM_NAME_TYPE410321>
+  <ITEM_NAME_TYPE410320>"п. SIG 751 LB G"|Премиум набор запасных частей для SIG SG 751 LB G</ITEM_NAME_TYPE410320>
+  <ITEM_NAME_TYPE410319>"п. FN-SCAR-H"|Премиум набор запасных частей для FN-SCAR-H</ITEM_NAME_TYPE410319>
+  <ITEM_NAME_TYPE410134>"ВСС"|Набор запасных частей для ВСС</ITEM_NAME_TYPE410134>
+  <ITEM_NAME_TYPE410135>"п. ВСС"|Премиум набор запасных частей для ВСС</ITEM_NAME_TYPE410135>
+  <ITEM_NAME_TYPE410136>"АК-47"|Набор запасных частей для АК-47</ITEM_NAME_TYPE410136>
+  <ITEM_NAME_TYPE410137>"п. АК-47"|Премиум набор запасных частей для АК-47</ITEM_NAME_TYPE410137>
+  <ITEM_NAME_TYPE410138>"ПМ"|Набор запасных частей для ПМ</ITEM_NAME_TYPE410138>
+  <ITEM_NAME_TYPE410139>"АК-74"|Набор запасных частей для АК-74</ITEM_NAME_TYPE410139>
+  <ITEM_NAME_TYPE410140>"MP5"|Набор запасных частей для MP5</ITEM_NAME_TYPE410140>
+  <ITEM_NAME_TYPE410141>"ТОЗ-34"|Набор запасных частей для ТОЗ-34</ITEM_NAME_TYPE410141>
+  <ITEM_NAME_TYPE410142>"Ruger-M14"|Набор запасных частей для Ruger-M14</ITEM_NAME_TYPE410142>
+  <ITEM_NAME_TYPE410143>"Desert-Eagle"|Набор запасных частей для Desert-Eagle</ITEM_NAME_TYPE410143>
+  <ITEM_NAME_TYPE410144>"Famas"|Набор запасных частей для Famas</ITEM_NAME_TYPE410144>
+  <ITEM_NAME_TYPE410145>"Colt-M16"|Набор запасных частей для Colt-M16</ITEM_NAME_TYPE410145>
+  <ITEM_NAME_TYPE410146>"HK-G36C"|Набор запасных частей для HK-G36C</ITEM_NAME_TYPE410146>
+  <ITEM_NAME_TYPE410147>"Colt-1911"|Набор запасных частей для Colt-1911</ITEM_NAME_TYPE410147>
+  <ITEM_NAME_TYPE410148>"ППШ"|Набор запасных частей для ППШ</ITEM_NAME_TYPE410148>
+  <ITEM_NAME_TYPE410149>"Scorpion VZ61"|Набор запасных частей для Scorpion VZ61</ITEM_NAME_TYPE410149>
+  <ITEM_NAME_TYPE410150>"Mossberg 500"|Набор запасных частей для Mossberg 500</ITEM_NAME_TYPE410150>
+  <ITEM_NAME_TYPE410151>"ТТ"|Набор запасных частей для Токарев ТТ</ITEM_NAME_TYPE410151>
+  <ITEM_NAME_TYPE410152>"Glock-17"|Набор запасных частей для Glock-17</ITEM_NAME_TYPE410152>
+  <ITEM_NAME_TYPE410153>"MAC-10"|Набор запасных частей для MAC-10</ITEM_NAME_TYPE410153>
+  <ITEM_NAME_TYPE410154>"SS-M4"|Набор запасных частей для SS-M4</ITEM_NAME_TYPE410154>
+  <ITEM_NAME_TYPE410155>"UZI"|Набор запасных частей для UZI</ITEM_NAME_TYPE410155>
+  <ITEM_NAME_TYPE410156>"SPAS-12"|Набор запасных частей для SPAS-12</ITEM_NAME_TYPE410156>
+  <ITEM_NAME_TYPE410157>"M1014 Shotgun"|Набор запасных частей для M1014 Shotgun</ITEM_NAME_TYPE410157>
+  <ITEM_NAME_TYPE410158>"АК-74М"|Набор запасных частей для АК-74М</ITEM_NAME_TYPE410158>
+  <ITEM_NAME_TYPE410159>"АК-102"|Набор запасных частей для АК-102</ITEM_NAME_TYPE410159>
+  <ITEM_NAME_TYPE410160>"АК-107"|Набор запасных частей для АК-107</ITEM_NAME_TYPE410160>
+  <ITEM_NAME_TYPE410161>"AUG-A3"|Набор запасных частей для AUG-A3</ITEM_NAME_TYPE410161>
+  <ITEM_NAME_TYPE410162>"HK-416"|Набор запасных частей для HK-416</ITEM_NAME_TYPE410162>
+  <ITEM_NAME_TYPE410163>"Colt-M4A1"|Набор запасных частей для Colt-M4A1</ITEM_NAME_TYPE410163>
+  <ITEM_NAME_TYPE410164>"Гроза-4"|Набор запасных частей для Гроза-4 под 9х39</ITEM_NAME_TYPE410164>
+  <ITEM_NAME_TYPE410165>"SIG 552"|Набор запасных частей для SIG SG 552 SB Commando</ITEM_NAME_TYPE410165>
+  <ITEM_NAME_TYPE410166>"M1-Garand"|Набор запасных частей для M1-Garand</ITEM_NAME_TYPE410166>
+  <ITEM_NAME_TYPE410167>"Glock-18"|Набор запасных частей для Glock-18</ITEM_NAME_TYPE410167>
+  <ITEM_NAME_TYPE410168>"Гроза-1"|Набор запасных частей для Гроза-1 под 7.62х39</ITEM_NAME_TYPE410168>
+  <ITEM_NAME_TYPE410307>"MP5-SD3"|Набор запасных частей для MP5-SD3</ITEM_NAME_TYPE410307>
+  <ITEM_NAME_TYPE410308>"д. MP5-SD3"|Набор запасных частей усиленной прочности для MP5-SD3</ITEM_NAME_TYPE410308>
+  <ITEM_NAME_TYPE410309>"АК-74М"|Набор запасных частей для АК-74М</ITEM_NAME_TYPE410309>
+  <ITEM_NAME_TYPE410310>"п. АК-74М"|Набор запасных частей усиленной прочности для АК-74М</ITEM_NAME_TYPE410310>
+  <ITEM_NAME_TYPE410311>"п. CZ-805"|Набор запасных частей частей для CZ-805</ITEM_NAME_TYPE410311>
+  <ITEM_NAME_TYPE410312>"п. HK-G3a"|Набор запасных частей частей для HK-G3a</ITEM_NAME_TYPE410312>
+  <ITEM_NAME_TYPE410313>"п. HK-G3a mk2"|Набор запасных частей частей для HK-G3a mk2</ITEM_NAME_TYPE410313>
+  <ITEM_NAME_TYPE410314>"п. СВУ(ОЦ-3)"|Набор запасных частей частей для СВУ(ОЦ-3)</ITEM_NAME_TYPE410314>
+  <ITEM_NAME_TYPE410315>"п. СВУ-А(ОЦ-3А)"|Набор запасных частей частей для СВУ-А(ОЦ-3А)</ITEM_NAME_TYPE410315>
+  <ITEM_NAME_TYPE410316>"п. Печенег"|Набор запасных частей частей для пулемета Печенег</ITEM_NAME_TYPE410316>
+  <ITEM_NAME_TYPE410169>"п. ПМ"|Набор запасных частей усиленной прочности для ПМ</ITEM_NAME_TYPE410169>
+  <ITEM_NAME_TYPE410170>"п. АК-74М"|Набор запасных частей усиленной прочности для АК-74М</ITEM_NAME_TYPE410170>
+  <ITEM_NAME_TYPE410171>"п. MP5-K"|Набор запасных частей усиленной прочности для MP5-K</ITEM_NAME_TYPE410171>
+  <ITEM_NAME_TYPE410172>"п. ТОЗ-34"|Набор запасных частей усиленной прочности для ТОЗ-34</ITEM_NAME_TYPE410172>
+  <ITEM_NAME_TYPE410173>"п. Ruger-M14"|Набор запасных частей усиленной прочности для Ruger-M14</ITEM_NAME_TYPE410173>
+  <ITEM_NAME_TYPE410174>"п. Desert Eagle"|Набор запасных частей усиленной прочности для Desert Eagle</ITEM_NAME_TYPE410174>
+  <ITEM_NAME_TYPE410175>"п. Famas"|Набор запасных частей усиленной прочности для Famas</ITEM_NAME_TYPE410175>
+  <ITEM_NAME_TYPE410176>"п. Colt-M16"|Набор запасных частей усиленной прочности для Colt-M16</ITEM_NAME_TYPE410176>
+  <ITEM_NAME_TYPE410177>"п. HK-G36C"|Набор запасных частей усиленной прочности для HK-G36C</ITEM_NAME_TYPE410177>
+  <ITEM_NAME_TYPE410178>"п. Colt-1911"|Набор запасных частей усиленной прочности для Colt-1911</ITEM_NAME_TYPE410178>
+  <ITEM_NAME_TYPE410179>"п. ППШ"|Набор запасных частей усиленной прочности для ППШ</ITEM_NAME_TYPE410179>
+  <ITEM_NAME_TYPE410180>"п. Scorpion VZ61"|Набор запасных частей усиленной прочности для Scorpion VZ61</ITEM_NAME_TYPE410180>
+  <ITEM_NAME_TYPE410181>"п. Mossberg 500"|Набор запасных частей усиленной прочности для Scorpion Mossberg 500</ITEM_NAME_TYPE410181>
+  <ITEM_NAME_TYPE410182>"п. ТТ"|Набор запасных частей усиленной прочности для ТТ</ITEM_NAME_TYPE410182>
+  <ITEM_NAME_TYPE410183>"п. Glock-17"|Набор запасных частей усиленной прочности для Glock-17</ITEM_NAME_TYPE410183>
+  <ITEM_NAME_TYPE410184>"п. MAC-10"|Набор запасных частей усиленной прочности для MAC-10</ITEM_NAME_TYPE410184>
+  <ITEM_NAME_TYPE410185>"п. SS-M4"|Набор запасных частей усиленной прочности для SS-M4</ITEM_NAME_TYPE410185>
+  <ITEM_NAME_TYPE410186>"п. UZI"|Набор запасных частей усиленной прочности для UZI</ITEM_NAME_TYPE410186>
+  <ITEM_NAME_TYPE410187>"п. SPAS-12"|Набор запасных частей усиленной прочности для SPAS-12</ITEM_NAME_TYPE410187>
+  <ITEM_NAME_TYPE410188>"п. M1014 Shotgun"|Набор запасных частей усиленной прочности для M1014 Shotgun</ITEM_NAME_TYPE410188>
+  <ITEM_NAME_TYPE410189>"п. АК-74М"|Набор запасных частей усиленной прочности для АК-74М</ITEM_NAME_TYPE410189>
+  <ITEM_NAME_TYPE410190>"п. АК-102"|Набор запасных частей усиленной прочности для АК-102</ITEM_NAME_TYPE410190>
+  <ITEM_NAME_TYPE410191>"п. АК-107"|Набор запасных частей усиленной прочности для АК-107</ITEM_NAME_TYPE410191>
+  <ITEM_NAME_TYPE410192>"п. AUG-A3"|Набор запасных частей усиленной прочности для AUG-A3</ITEM_NAME_TYPE410192>
+  <ITEM_NAME_TYPE410193>"п. HK-416"|Набор запасных частей усиленной прочности для HK-416</ITEM_NAME_TYPE410193>
+  <ITEM_NAME_TYPE410194>"п. Colt-M4A1"|Набор запасных частей усиленной прочности для Colt-M4A1</ITEM_NAME_TYPE410194>
+  <ITEM_NAME_TYPE410195>"п. Гроза-4"|Набор запасных частей усиленной прочности для Гроза-4</ITEM_NAME_TYPE410195>
+  <ITEM_NAME_TYPE410196>"п. SIG 552"|Набор запасных частей усиленной прочности для SIG SG 552 SB Commando</ITEM_NAME_TYPE410196>
+  <ITEM_NAME_TYPE410197>"п. M1-Garand"|Набор запасных частей усиленной прочности для M1-Garand</ITEM_NAME_TYPE410197>
+  <ITEM_NAME_TYPE410198>"п. M1-Glock-18"|Набор запасных частей усиленной прочности для Glock-18</ITEM_NAME_TYPE410198>
+  <ITEM_NAME_TYPE410199>"п. Гроза-1"|Набор запасных частей усиленной прочности для Гроза-1</ITEM_NAME_TYPE410199>
+  <ITEM_NAME_TYPE410339>"Сверток"|Рюкзак пропавшего сталкера</ITEM_NAME_TYPE410339>
+  <ITEM_NAME_TYPE410340>"Сверток"|Рюкзак пропавшего сталкера с Тунгуски</ITEM_NAME_TYPE410340>
+  <ITEM_NAME_TYPE410341>Снятие кам.|Средство для удаления камуфляжа</ITEM_NAME_TYPE410341>
+  <ITEM_NAME_TYPE410342>Лес. кам.|Набор для нанесения "лесного" камуфляжа</ITEM_NAME_TYPE410342>
+  <ITEM_NAME_TYPE410343>Осен. кам.|Набор для нанесения "осеннего" камуфляжа</ITEM_NAME_TYPE410343>
+  <ITEM_NAME_TYPE410344>Зим кам.|Набор для нанесения "зимнего" камуфляжа</ITEM_NAME_TYPE410344>
+  <ITEM_NAME_TYPE410345>Гор кам.|Набор для нанесения "городского" камуфляжа</ITEM_NAME_TYPE410345>
+  <ITEM_NAME_TYPE410346>Пус кам.|Набор для нанесения "пустынного" камуфляжа</ITEM_NAME_TYPE410346>
+  <ITEM_NAME_TYPE410347>SIG G кам.|Набор для нанесения "SIG G" камуфляжа</ITEM_NAME_TYPE410347>
+  <ITEM_NAME_TYPE410349>"Сверток"|Рюкзак лесника</ITEM_NAME_TYPE410349>
+  <ITEM_NAME_TYPE410350>"Сверток"|Рюкзак пропавшего сталкера №4</ITEM_NAME_TYPE410350>
+  <ITEM_NAME_TYPE410351>"Сверток"|Рюкзак пропавшего сталкера №5</ITEM_NAME_TYPE410351>
+  <ITEM_NAME_TYPE410352>"Сверток"|Рюкзак пропавшего сталкера №6</ITEM_NAME_TYPE410352>
+  <ITEM_NAME_TYPE410353>"Сверток"|Рюкзак пропавшего сталкера №7</ITEM_NAME_TYPE410353>
+  <ITEM_NAME_TYPE410354>"Сверток"|Рюкзак пропавшего сталкера №8</ITEM_NAME_TYPE410354>
+  <ITEM_NAME_TYPE410355>"Сверток"|Рюкзак пропавшего сталкера №9</ITEM_NAME_TYPE410355>
+  <ITEM_NAME_TYPE410356>"Сверток"|Рюкзак пропавшего сталкера №10</ITEM_NAME_TYPE410356>
+  <ITEM_NAME_TYPE410021>Награда|Награда за квест</ITEM_NAME_TYPE410021>
+  <ITEM_NAME_TYPE410022>Награда|Награда за квест</ITEM_NAME_TYPE410022>
+  <ITEM_NAME_TYPE410023>Награда|Награда за квест</ITEM_NAME_TYPE410023>
+  <ITEM_NAME_TYPE1683>Чип|Микрочип Непробиваемого</ITEM_NAME_TYPE1683>
+  <ITEM_NAME_TYPE1684>Бальзам|Целебный бальзам от Зинаиды Фадеевны</ITEM_NAME_TYPE1684>
+  <ITEM_NAME_TYPE471>Фейерв.1|Фейерверк из 1 залпов</ITEM_NAME_TYPE471>
+  <ITEM_NAME_TYPE495>Фейерв.5|Фейерверк из 5 залпов</ITEM_NAME_TYPE495>
+  <ITEM_NAME_TYPE497>Фейерв.20|Фейерверк из 20 залпов</ITEM_NAME_TYPE497>
+  <ITEM_NAME_TYPE498>Фейерв.50|Фейерверк из 50 залпов</ITEM_NAME_TYPE498>
+  <ITEM_NAME_TYPE470>Фейерв.100|Фейерверк из 100 залпов</ITEM_NAME_TYPE470>
+  <ITEM_NAME_TYPE410357>"Jackhammer"|Набор запасных частей для Jackhammer</ITEM_NAME_TYPE410357>
+  <ITEM_NAME_TYPE410362>"9x39 яд."|Инcтрукция по созданию патрона 9х39 с паучьим ядом</ITEM_NAME_TYPE410362>
+</root>

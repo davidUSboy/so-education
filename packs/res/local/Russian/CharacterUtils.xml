@@ -1,0 +1,21 @@
+<root>
+  <common>
+    <LIGHT_WEAPON>Легкое оружие</LIGHT_WEAPON>
+    <ASSAULT_RIFLES>Штурмовые винтовки</ASSAULT_RIFLES>
+    <HEAVY_WEAPON>Тяжелое оружие</HEAVY_WEAPON>
+    <RIFLES>Винтовки и ружья</RIFLES>
+    <THROWING>Метание</THROWING>
+    <SHOOT_ON_MOVE>Стрельба в движении</SHOOT_ON_MOVE>
+    <SPORTMANSHIP>Физподготовка</SPORTMANSHIP>
+    <METHABOLISM>Метаболизм</METHABOLISM>
+    <CAMOUFLAGE>Маскировка</CAMOUFLAGE>
+    <SPOTTING>Обнаружение</SPOTTING>
+    <ANOMALY_SPOTTING>Обнаружение аномалий</ANOMALY_SPOTTING>
+    <MEDECINE>Медицина</MEDECINE>
+    <REPAIR>Починка</REPAIR>
+    <MODIFICATION>Модификация</MODIFICATION>
+    <LUCK>Удача</LUCK>
+    <NEATNESS>Аккуратность</NEATNESS>
+    <PACKING>Упаковка</PACKING>
+  </common>
+</root>

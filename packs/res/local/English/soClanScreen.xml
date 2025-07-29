@@ -1,0 +1,22 @@
+<root>
+  <soGUI>
+    <STRING_134_19>Name</STRING_134_19>
+    <STRING_158_19>Rank</STRING_158_19>
+    <STRING_181_19>Online</STRING_181_19>
+    <STRING_307_18>No clan</STRING_307_18>
+    <STRING_1540_13>PvP period:</STRING_1540_13>
+    <STRING_1553_13>Time left:</STRING_1553_13>
+    <STRING_1611_19>Change</STRING_1611_19>
+    <STRING_1634_19>Kick</STRING_1634_19>
+    <STRING_1657_19>Hire</STRING_1657_19>
+    <STRING_1772_128>Set % from base price</STRING_1772_128>
+    <STRING_1789_39>Test item 1</STRING_1789_39>
+    <STRING_1790_42>Test item 2</STRING_1790_42>
+    <STRING_1791_39>Test item 3</STRING_1791_39>
+    <STRING_1924_37>PvP period:</STRING_1924_37>
+    <STRING_1936_34>Change price:</STRING_1936_34>
+    <STRING_2300_15>Time left:</STRING_2300_15>
+    <STRING_2312_15>Till the end of the shift:</STRING_2312_15>
+    <STRING_2315_34>Not hired</STRING_2315_34>
+  </soGUI>
+</root>

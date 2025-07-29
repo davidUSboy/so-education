@@ -1,0 +1,2164 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch/>
+	</Volatile>
+	
+
+	<Implements>
+		<Interface> AvatarItemHolder </Interface>
+		<Interface> AvatarInterface </Interface>
+		<Interface> Mailable </Interface>
+		<Interface> Teleportable </Interface>
+		<Interface> Character </Interface>
+		<Interface> MobSpawner </Interface>
+		<Interface> Manipulator </Interface>
+		<Interface> Quester	</Interface>
+		<Interface> ClanMember </Interface>
+		<Interface> GroupMember </Interface>
+		<Interface> MapNotesHolder </Interface>
+		<Interface> SpatialFieldVisitor </Interface>
+		<Interface> Characteristics </Interface>
+		<Interface> AcClient </Interface>
+		<Interface> MgrModule </Interface>
+		<Interface> TimerManagerBase </Interface>
+		<Interface> TimerManagerCell </Interface>
+		<Interface> PackManagerCell </Interface>
+		<Interface> QCell </Interface>
+		<Interface> EventSystem_cell </Interface>
+		<Interface> CsPlayer </Interface>
+
+	</Implements>
+	
+	<Properties>
+		<parentAccountDBID_cell>
+			<Type> DBID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</parentAccountDBID_cell>
+
+
+		<proximity_id>
+			<Type> INT32 </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Persistent> false </Persistent>
+			
+		</proximity_id>
+		
+
+		<teamID>
+			<Type> INT8 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default>		0		</Default>
+		</teamID>
+
+
+		<inPVPinstance>
+			<Type> INT8 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Default>		0		</Default>
+		</inPVPinstance>
+
+
+		<csRoom>
+			<Type> MAILBOX </Type>
+			<Flags> BASE </Flags>
+		</csRoom>
+
+
+		<csRoomCell>
+			<Type> MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</csRoomCell>
+
+		<premiumExpCoef>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Persistent> false </Persistent>
+			<Default>		1		</Default>
+		</premiumExpCoef>
+		
+		<endPremium>
+			<Type> FLOAT32 </Type>
+			<Flags> BASE_AND_CLIENT </Flags>
+			<Persistent> false </Persistent>
+			<Default>		0		</Default>
+		</endPremium>
+		
+		<donateBase>
+			<Type> SALED_DONATE_BASE_ENTRY </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+		</donateBase>
+
+	
+		<ninjaMode>
+			<Type> INT8 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Default>		0		</Default>
+			<Persistent> false </Persistent>
+		</ninjaMode>
+
+		<donateBaseDeposit>
+			<Type> INT64 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> false </Persistent>
+		</donateBaseDeposit>
+		
+		<isAdrenaline>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</isAdrenaline>
+
+
+
+
+
+		<clVelocityVertical>
+			<Type>			FLOAT64 	</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+		</clVelocityVertical>
+
+		<clVelocityVerticalJump>
+			<Type>			FLOAT64 	</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+		</clVelocityVerticalJump>
+
+		<clScheduleFall02>
+			<Type>			FLOAT64 	</Type>
+			<Flags>			OWN_CLIENT	</Flags>			
+		</clScheduleFall02>
+
+
+
+
+
+
+
+		
+		<!-- FRIEND LIST PROPERTIES -->
+		
+		<ListInvite>
+			<Type>			PYTHON	</Type>
+			<Flags>			BASE	</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	false 	</Persistent>
+		</ListInvite>
+		
+		<friendsList>
+			<!-- List of tuples : (string, DBID) -->
+			<Type>			PYTHON	</Type>
+			<Flags>			BASE	</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	true 	</Persistent>
+		</friendsList>
+		<blackList> 
+			<Type>			ARRAY <of>STRING</of>	</Type>
+			<Flags>			BASE	</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	true 	</Persistent>
+		</blackList> 
+		<admirersList>
+			<Type>			ARRAY <of> DBID </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Default>		[]						</Default>
+			<Persistent>	true 					</Persistent>
+		</admirersList>
+		
+		<AgrFlag>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</AgrFlag>
+		<!-- tuple (pvp, pk)-->
+		<pvppkstat>
+			<Type>			PYTHON	</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+			<Default>		[]		</Default>
+		</pvppkstat>
+		
+		<!-- HUNTER Properties -->
+		
+		<HUNTER_killerName>
+			<Type>	UNICODE_STRING		</Type>
+			<Flags>	CELL_PUBLIC_AND_OWN	</Flags>
+		</HUNTER_killerName>
+
+		<HUNTER_killerWanted>
+			<Type>	INT8		</Type>
+			<Flags>	CELL_PUBLIC_AND_OWN	</Flags>
+		</HUNTER_killerWanted>
+		
+		<HUNTER_iWanted>
+			<Type>	INT8		</Type>
+			<Flags>	CELL_PUBLIC_AND_OWN	</Flags>
+		</HUNTER_iWanted>
+		
+		<HUNTER_iFiledHunting>
+			<Type>	INT8		</Type>
+			<Flags>	CELL_PUBLIC_AND_OWN	</Flags>
+		</HUNTER_iFiledHunting>
+		
+		
+		<HUNTER_listOfWanted>
+			<Type> ARRAY	<of> UNICODE_STRING </of>		</Type>
+			<Flags>	CELL_PUBLIC_AND_OWN	</Flags>
+			<Persistent> true </Persistent>
+		</HUNTER_listOfWanted>
+		
+		<HUNTER_lostListOfWanted>
+			<Type> ARRAY	<of> UNICODE_STRING </of>		</Type>
+			<Flags>	CELL_PUBLIC_AND_OWN	</Flags>
+		</HUNTER_lostListOfWanted>
+		
+
+		
+		<!-- /HUNTER Properties -->
+	
+	
+	
+	
+	
+		<isClanLeader>
+			<Type>	INT8		</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+		</isClanLeader>
+		<isCanBuyInClanShop>
+			<Type>	INT8		</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+		</isCanBuyInClanShop>
+		<BulletinBoardData>
+			<Type> ARRAY
+				<of> FIXED_DICT
+                    <Properties>
+
+                        <key>
+                            <Type> STRING  </Type>
+                        </key>
+                        <text>
+                            <Type> UNICODE_STRING   </Type>
+                        </text>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+        </BulletinBoardData>
+
+	 
+	 
+		<hungryValuePrivate>
+			<Type>	FLOAT32		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+			<Persistent> true 	</Persistent>
+			<Default> 1.0 </Default>
+		</hungryValuePrivate>	
+
+		<thirstValuePrivate>
+			<Type>	FLOAT32		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Persistent> true </Persistent>
+			<Default> 1.0 </Default>
+		</thirstValuePrivate>
+		
+		
+		<hungry>
+			<Type>	FLOAT32		</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Default> 1.0 </Default>
+		</hungry>	
+
+		<thirst>
+			<Type>	FLOAT32		</Type>
+			<Flags>	OWN_CLIENT </Flags>
+		<Default> 1.0 </Default>
+		</thirst>	
+		
+		
+		<isThirstEffect>
+			<Type>	BOOL		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</isThirstEffect>
+		
+		
+		<isHungryEffect>
+			<Type>	BOOL		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</isHungryEffect>
+		
+		
+	    <position_history>
+	        <Type> FIXED_DICT
+                <implementedBy> server_utils.bwdeque </implementedBy>
+                <Properties>
+                    <array><Type>ARRAY <of>FIXED_DICT
+                        <Properties>
+                            <position><Type>VECTOR3</Type></position>
+                            <timestamp><Type>FLOAT32</Type></timestamp>
+                            <spaceID><Type>INT32</Type></spaceID>
+                        </Properties></of></Type></array>
+                    <maxlen><Type>UINT16</Type></maxlen>
+                </Properties> </Type>
+            <Flags> CELL_PRIVATE </Flags>
+            <Default><array></array><maxlen>100</maxlen></Default>
+        </position_history>
+
+        <height_history>
+            <Type> DEQUEUE_FLOAT </Type>
+            <Flags> CELL_PRIVATE </Flags>
+            <Default><array></array><maxlen>100</maxlen></Default>
+        </height_history>
+
+		<last_shot>
+			<Type> FIXED_DICT
+				<Properties>
+					<too_frequent><Type> BOOL </Type></too_frequent>
+					<time><Type> FLOAT32 </Type></time>
+				</Properties>
+				<Default>
+					<value>0</value>
+					<time>0</time>
+				</Default>
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</last_shot>
+		<lastTempAccuracy>
+			<Type> FIXED_DICT
+				<Properties>
+					<value><Type> FLOAT32 </Type></value>
+					<time><Type> FLOAT32 </Type></time>
+				</Properties>
+				<Default>
+					<value>0</value>
+					<time>0</time>
+				</Default>
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</lastTempAccuracy>
+		<shootFairness>
+			<Type> FIXED_DICT
+				<Properties>
+					<value><Type> FLOAT32 </Type></value>
+					<time><Type> FLOAT32 </Type></time>
+				</Properties>
+				<Default>
+					<value>0</value>
+					<time>0</time>
+				</Default>
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</shootFairness>
+
+
+		<restrictions>
+			<Type>	ARRAY <of>FLOAT64</of></Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</restrictions>
+		<debugRadius>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>		
+			<Default> 0 </Default>		
+		</debugRadius>		
+		<!-- /end of DEBUG props -->
+		<dbID_on_cell> <!-- Because the freakin' logger, that's why -->
+			<Type>	INT64	</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</dbID_on_cell>
+		
+		<last_cwp_checksums>
+			<Type>		ARRAY <of>INT32</of>	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</last_cwp_checksums>
+
+		<corrupted_packs>
+			<Type>		ARRAY <of>STRING</of>	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</corrupted_packs>
+
+		<outdated_packs>
+			<Type>		ARRAY <of>STRING</of>	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</outdated_packs>
+
+		<mapNotes>
+			<Type>	ARRAY <of>MAP_NOTE_ENTRY</of>		</Type>
+			<Flags>	BASE_AND_CLIENT	</Flags>
+			<Persistent>	True	</Persistent>
+		</mapNotes>
+		<visitedSpaces>
+			<Type>	ARRAY <of>STRING</of></Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent>	True	</Persistent>
+		</visitedSpaces>
+		<crit_counter>
+			<Type>	INT32	</Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</crit_counter>
+
+		<chat_off_until>
+			<Type>	INT64	</Type>
+			<Flags> BASE </Flags>
+			<Persistent>	true	</Persistent>
+			<Default> 0 </Default>
+		</chat_off_until>
+		<chat_off>
+			<Type>	BOOL	</Type>
+			<Flags> BASE </Flags>
+			<Persistent>	true	</Persistent>
+			<Default> 0 </Default>
+		</chat_off>
+
+		<cell_chat_off>
+			<Type>	BOOL	</Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</cell_chat_off>
+		<cell_chat_off_until>
+			<Type>	INT64	</Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</cell_chat_off_until>
+
+		<haveWebClient>
+			<Type>	BOOL		</Type>
+			<Flags>	BASE		</Flags>
+			<Default> 0 </Default>
+			<Persistent>	false	</Persistent>
+		</haveWebClient>
+
+		<validWeaponParamControl>
+			<Type> INT64 </Type>
+			<Flags> BASE </Flags>
+			<Default> 0 </Default>
+		</validWeaponParamControl>
+
+		<validWeaponParamChangeTime>
+			<Type> FLOAT </Type>
+			<Flags> BASE </Flags>
+			<Default> 0.0 </Default>
+			<Persistent> false </Persistent>
+		</validWeaponParamChangeTime>
+
+		<fixposLastUse>
+			<Type>	FLOAT64		</Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent>	true	</Persistent>
+			<Default> 0.0 </Default>
+		</fixposLastUse>
+		
+		<userCommandLastUse>
+			<Type>	FLOAT64		</Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent>	true	</Persistent>
+			<Default> 0.0 </Default>
+		</userCommandLastUse>
+		
+		<fPlayerWiped>
+			<Type> INT64 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent>	true	</Persistent>
+			<Default> 11 </Default>
+		</fPlayerWiped>
+		<parentAccountDBID>
+			<Type>			DBID		</Type>
+			<Flags> BASE </Flags>
+			<Persistent>	true	</Persistent>
+			<Default> 0 </Default>
+		</parentAccountDBID>
+		<nameOnBase>
+			<Type> UNICODE_STRING </Type>
+			<Flags> BASE </Flags>
+			<Persistent>	false	</Persistent>
+		</nameOnBase>
+		
+		<parentAccount>
+			<Type>	MAILBOX		</Type>
+			<Flags>	BASE		</Flags>
+		</parentAccount>
+
+		<cellParentAccount>
+			<Type>	MAILBOX		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+		</cellParentAccount>
+		
+		<logoutTimer>
+			<Type>	INT32		</Type>
+			<Flags>	BASE		</Flags>
+			<Default> 0 </Default>
+		</logoutTimer>
+		
+		<defaultModels>
+			<Type>			PACKED_AVATAR_MODEL		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true	</Persistent>
+		</defaultModels>
+		
+		<defaultModels_initialized>
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default> 		0			</Default>
+		</defaultModels_initialized>
+		
+		<baseAccessLevel>
+			<Type>	ACCESS_LEVEL	</Type>
+			<Flags>	BASE			</Flags>
+			<Default> 0 </Default>
+		</baseAccessLevel>
+		
+		<cellAccessLevel>
+			<Type>	ACCESS_LEVEL	</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</cellAccessLevel>
+
+		<clientAccessLevel>
+			<Type>	ACCESS_LEVEL	</Type>
+			<Flags>	OWN_CLIENT		</Flags>
+			<Default> 0 </Default>
+		</clientAccessLevel>
+					
+		<visible>
+			<Type>	ARRAY <of>ENTITY_ID</of>		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</visible>
+		
+		<binoculing>
+			<Type>	BOOL		</Type>
+			<Flags>	OTHER_CLIENTS	</Flags>
+			<Persistent>	false	</Persistent>
+			<Default> 0 </Default>
+		</binoculing>
+
+		<sit_id>
+			<Type>	INT32		</Type>
+			<Flags>	OTHER_CLIENTS	</Flags>
+			<Persistent>	false	</Persistent>
+			<Default> 0 </Default>
+		</sit_id>
+		
+		<heartMode>
+			<Type>	INT8		</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Default> 0 </Default>
+		</heartMode>
+
+		<sprinting>
+			<Type>	BOOL		</Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Default> 0 </Default>
+		</sprinting>
+		
+		<pvpFlag>
+			<Type>	INT8		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+		</pvpFlag>
+		
+		<inventoryPositionList>
+			<Type>	ARRAY <of>INT32</of></Type>
+			<Flags>	OWN_CLIENT	</Flags>
+			<Default> </Default>
+			<Persistent>	true	</Persistent>
+		</inventoryPositionList>
+		
+		<fallStartPos>
+			<Type>	VECTOR3		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</fallStartPos>
+		
+		<pvpFree>
+			<Type>	BOOL		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+            <Default>   1       </Default>
+		</pvpFree>
+		
+		<pvpCounter>
+			<Type>	INT32		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>true</Persistent>
+		</pvpCounter>
+		
+		<pkKarma>
+			<Type>	INT32		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>true</Persistent>
+			<Default>500</Default>
+		</pkKarma>
+
+		<pkCounter>
+			<Type>	INT32		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>true</Persistent>
+			<Default>0</Default>
+		</pkCounter>
+		
+		<karma>
+			<Type>	INT32		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>true</Persistent>
+			<Default>0</Default>
+		</karma>
+		
+		
+		<goToNamedTP><!--renamed from <goToPrison>-->
+			<Type>	INT8		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>true</Persistent>
+			<Default>0</Default>
+		</goToNamedTP>
+		<worldLoadTimoutTimer>
+			<Type>	INT32		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Default>0</Default>
+		</worldLoadTimoutTimer>
+		
+		<title>
+			<Type>	STRING		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>	true	</Persistent>
+		</title>
+		
+		<titles>
+			<Type>	ARRAY <of>STRING</of>		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</titles>
+		
+		<worldLoad>
+			<Type>	INT32		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Default> 1 </Default>
+			<Persistent>	false	</Persistent>
+		</worldLoad>
+		
+		<detectorTypes>
+			<Type>	ARRAY <of>INT32</of> </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	True	</Persistent>
+		</detectorTypes>
+		
+		<detectorValue>
+			<Type>	FLOAT32 </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	False	</Persistent>
+		</detectorValue>
+		
+		<instances>
+			<Type>	ARRAY <of>INSTANCE_ENTRY</of> </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	True	</Persistent>
+		</instances>
+		
+		<lastSpace>
+			<Type>	STRING </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	True	</Persistent>
+		</lastSpace>
+		
+		<groupID>
+			<Type>	INT64		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+			<Persistent>	true	</Persistent>
+		</groupID>
+		
+		<in_combat>
+			<Type>	BOOL </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Default> 0 </Default>
+			<Persistent>	false	</Persistent>
+		</in_combat>
+		
+		<waterHeight>
+			<Type>	FLOAT		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Default> -1000000 </Default>
+			<Persistent>	false	</Persistent>
+		</waterHeight>
+		
+		<visitedSpawnAreas>
+			<!--Type>	ARRAY <of>SPAWN_POSITION</of>	</Type-->
+			<Type>	ARRAY <of>	SPAWN_AREA_INFORMATION</of>	</Type>
+			<Flags>	CELL_PRIVATE							</Flags>
+			<Persistent>	true							</Persistent>
+		</visitedSpawnAreas>
+		
+		<mainSpawnArea>
+			<Type>	STRING			</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</mainSpawnArea>
+		
+		<prevSpawnArea>
+			<Type>	STRING			</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</prevSpawnArea>
+
+		<artifactVisionControllerID>
+			<Type>	INT32			</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	false	</Persistent>
+			<Default> 0 </Default>
+		</artifactVisionControllerID>
+		
+		<!--visitedSpawnAreaNames>
+			<Type>	ARRAY <of>STRING</of>	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</visitedSpawnAreaNames-->
+		
+		<!--lastSpawnArea>
+			<Type>	SPAWN_POSITION	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</lastSpawnArea>
+
+		<lastSpawnAreaName>
+			<Type>	STRING	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</lastSpawnAreaName-->
+
+		<flashLightLit>
+			<Type>	INT8	</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Default> 0 </Default>
+		</flashLightLit>
+
+		<!-- unchangeble stats - used as base for all stat changes -->
+
+		<relationsWithFractions>
+				<Type>		ARRAY <of>FRACTION_RELATIONSHIP</of>	</Type>
+				<Flags>	CELL_PUBLIC_AND_OWN	</Flags>
+				
+				<Persistent>	true	</Persistent>
+			</relationsWithFractions>
+			
+		<Possibilities>
+			<Type>	ARRAY	<of>	POSSIBILITY	</of>	</Type>
+			<Flags>	BASE	</Flags>
+			<Persistent>	true	</Persistent>
+		</Possibilities>
+		
+		<quickSlotBar>
+			<Type>ARRAY<of> QUICK_BAR_LINE</of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Default> </Default>
+			<Persistent>	true	</Persistent>
+		</quickSlotBar>
+		
+		<quickSlotActiveLineNumber>
+			<Type> INT32 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Default> 1 </Default>
+			<Persistent>	true	</Persistent>
+		</quickSlotActiveLineNumber>
+		
+		<!--<numStaminaUsed>-->
+			<!--<Type> FLOAT </Type>-->
+			<!--<Flags> CELL_PRIVATE </Flags>-->
+			<!--<Default> 0 </Default>-->
+		<!--</numStaminaUsed>-->
+
+		<gps_teleport_info>
+			<Type>	GPS_TELEPORT_INFO		    </Type>
+			<Flags>	CELL_PRIVATE	            </Flags>
+		</gps_teleport_info>
+
+        <isTutorialPassed>
+            <Type>	INT8		                </Type>
+            <Flags>	BASE	                    </Flags>
+            <Default> 0                         </Default>
+            <Persistent>	true	            </Persistent>
+        </isTutorialPassed>
+
+<!--begin respawn system-->
+		<!--<respawn_timer_id>-->
+            <!--<Type>	INT64                       </Type>-->
+            <!--<Flags> OWN_CLIENT                  </Flags>-->
+			<!--<Default> 0                         </Default>-->
+		<!--</respawn_timer_id>-->
+
+		<respawn_timer_type>
+            <Type>	INT64                       </Type>
+            <Flags> ALL_CLIENTS                 </Flags>
+			<Default> 0                         </Default>
+			<Persistent>	true	            </Persistent>  <!-- save new system dead -->
+		</respawn_timer_type>
+<!--end respawn system-->
+
+<!--begin weather system-->
+		<weather_stack_value>
+            <Type>	ARRAY <of> STRING </of>     </Type>
+            <Flags> CELL_PRIVATE                </Flags>
+			<Default> 0                         </Default>
+		</weather_stack_value>
+
+		<weather_stack_id>
+            <Type>	ARRAY <of> ENTITY_ID </of>  </Type>
+            <Flags> CELL_PRIVATE                </Flags>
+		</weather_stack_id>
+<!--end weather system-->
+
+<!--begin respawn system-->
+		<lie_down_counter>
+			<Type>	INT8		                </Type>
+			<Flags>	OWN_CLIENT	                </Flags>
+			<Default> 0                         </Default>
+			<!--<Persistent>	true	            </Persistent>-->
+		</lie_down_counter>
+<!--end respawn system-->
+
+<!--safe zone-->
+		<safe_exit_time>
+            <Type>
+	            FLOAT64
+            </Type>
+            <Flags> CELL_PRIVATE       </Flags>
+			<Default> 0.0              </Default>
+		</safe_exit_time>
+
+		<current_safe_info>
+            <Type> ARRAY <of> FIXED_DICT
+	            <Properties>
+		            <name>
+			            <Type>      STRING   </Type>
+				    </name>
+		            <mail>
+			            <Type>      MAILBOX   </Type>
+				    </mail>
+		            <!--<count>-->
+			            <!--<Type>      INT8   </Type>-->
+				    <!--</count>-->
+			    </Properties> </of>
+            </Type>
+            <Flags> CELL_PRIVATE       </Flags>
+		</current_safe_info>
+
+<!--end safe zone-->
+
+<!--avatar filters-->
+		<filters>
+			<Type>	INT64                       </Type>
+			<Flags> CELL_PUBLIC                </Flags>
+			<Persistent>	true	            </Persistent>
+			<Default>            1              </Default>
+		</filters>
+
+		<use_heal_item>
+			<Type>	FIXED_DICT
+				<Properties>
+					<user>
+						<Type>      ENTITY_ID      </Type>
+					</user>
+					<item_id>
+						<Type>      ITEM_ID      </Type>
+					</item_id>
+				</Properties>
+			</Type>
+			<Flags> CELL_PUBLIC                 </Flags>
+			<Persistent>	false	            </Persistent>
+			<Default>            1              </Default>
+		</use_heal_item>
+<!--avatar filters-->
+
+	<savedPositionSpawn>
+		<Flags> BASE</Flags>
+		<Type>	FIXED_DICT
+				<Properties>
+					<position>
+						<Type>      VECTOR3      </Type>
+					</position>
+					<direction>
+						<Type>      VECTOR3      </Type>
+					</direction>
+					<teamID>
+						<Type>      INT8      </Type>
+					</teamID>
+					
+				</Properties>
+		</Type>
+	</savedPositionSpawn>
+
+	</Properties>
+
+	<TempProperties>
+	</TempProperties>
+
+	<ClientMethods>
+    <setscale>
+      <Arg>		FLOAT32		</Arg>
+      <Flags> ALL_CLIENTS </Flags>
+    </setscale>
+    
+		<roomEvent>
+			<Arg>		INT32		</Arg> 
+			<Arg>		INT32		</Arg> 
+			<Arg>		UNICODE_STRING		</Arg> 
+		</roomEvent>
+
+		<askChoiceTeam>
+		</askChoiceTeam>
+
+		<on_AllRoomData>
+			<Arg>ROOMINFO</Arg>
+			<Arg>ARRAY <of>ENTITY_ID</of></Arg>
+		</on_AllRoomData>
+
+		<on_AllRoomID>
+			<Arg>ARRAY <of>ENTITY_ID</of></Arg>
+		</on_AllRoomID>
+
+		<on_roomDamage>
+			<Arg>		INT32		</Arg> 
+			<Arg>		INT32		</Arg> 
+			<Arg>		INT32		</Arg> 
+			<Arg>		UNICODE_STRING		</Arg> 
+			<Arg>		UNICODE_STRING		</Arg> 
+			<Arg>		INT32		</Arg> 
+			<Arg>	ARRAY <of> INT16 </of>	</Arg>
+		</on_roomDamage>
+
+		<on_roomData>
+			<Arg>ROOMDETAILINFO</Arg>
+		</on_roomData>
+
+		<setClanLeader>
+			<Arg>		INT8		</Arg> 
+		</setClanLeader>
+		
+		<addBboxData>
+			<Arg>   ARRAY <of> COLLEDeDATA </of>	</Arg> 
+		</addBboxData>
+
+	
+		<iscanBuyInClanShop>
+			<Arg>		INT8		</Arg> 
+		</iscanBuyInClanShop>
+		
+		<hm_message>
+			<Arg>		INT32		</Arg> <!-- msgID -->
+			<Arg>		PYTHON		</Arg> <!-- data -->
+		</hm_message>
+		
+		<inviteFriendToClan>
+			<Arg>        STRING    </Arg>
+		</inviteFriendToClan>
+		
+		<delFromBlackList>
+			<Arg>        STRING    </Arg>
+		</delFromBlackList>
+		
+		<hm_positions>
+			<Arg>		PYTHON		</Arg> <!-- data -->
+		</hm_positions>	
+		
+		<hm_CatalogResponseFiltered>
+			<Arg>		PYTHON				</Arg> <!-- data -->
+			<Arg>		INT32				</Arg> <!-- page_start -->
+			<Arg>		INT32				</Arg> <!-- last_index_item -->
+			<Arg>		INT32				</Arg> <!-- all_index_item -->
+		</hm_CatalogResponseFiltered>
+	
+
+		<getPvPPKstat>
+		</getPvPPKstat>
+		
+		<setPvpPkStat>
+			<Arg>		PYTHON				</Arg> <!-- data -->
+		</setPvpPkStat>
+		
+	<!-- methods for friend and black lists -->
+		
+		<startTrade>
+			<Exposed/>
+		</startTrade>
+		
+		<onAddedBlackList>
+			<Exposed/>
+			<Arg>        STRING    </Arg>   
+		</onAddedBlackList>
+		
+		<newFriendsList>
+            <Arg>        ARRAY <of> STRING </of> </Arg> <!-- array of friend names -->
+		</newFriendsList>
+		
+		<newBlackList>
+            <Arg>        ARRAY <of> STRING </of> </Arg> 
+		</newBlackList>
+		
+        <onAddedFriend>
+            <Arg>        STRING    </Arg>  
+            <Arg>        BOOL      </Arg>   
+        </onAddedFriend>
+        <onReceiveMessageFromFriend>
+            <Arg>        STRING    </Arg>    <!-- friend's name -->
+            <Arg>        STRING    </Arg>    <!-- message -->
+        </onReceiveMessageFromFriend>
+		
+		<friendStatusChanged>
+			<Exposed/>
+			<Arg>        STRING    </Arg>    <!-- friend's name -->
+            <Arg>        BOOL      </Arg>    <!-- is friend online? -->
+		</friendStatusChanged>
+		
+		<updateFriendList>
+			<Exposed/>
+			<Arg>        STRING    </Arg>    <!-- friend's name -->
+            <Arg>        BOOL      </Arg>    <!-- is friend online? -->
+		</updateFriendList>
+		
+		<getFriendList>
+		</getFriendList>
+		
+		<!-- end friend list -->
+	
+	
+		<fireRocket>
+			<Exposed/>
+			<ReturnValues>
+				<Arg> VECTOR3 </Arg>
+			</ReturnValues>
+		</fireRocket>
+		
+		<fireRocketM202>
+			<Exposed/>
+			<ReturnValues>
+				<Arg> VECTOR3 </Arg>
+			</ReturnValues>
+		</fireRocketM202>
+		
+
+		<Burn>
+			<Arg> BOOL </Arg>
+		</Burn>
+		
+		<Poison>
+			<Arg> BOOL </Arg> <!-- status -->
+		</Poison>
+		
+		<stoneAnomalyHit>
+			<Arg> INT64 </Arg>	<!-- localStoneID -->
+			<Arg> INT64 </Arg>	<!-- anomalyEntityID -->
+			<Arg> VECTOR3 </Arg> 	<!-- anomalyPos -->
+			<Arg> FLOAT </Arg>	<!-- anomalyRadius -->
+		</stoneAnomalyHit>
+		
+		<InformExchangeTimer>
+			<Arg> INT32 </Arg>
+		</InformExchangeTimer>
+
+		<ProceedCreateUserFire>
+			<Arg> FLOAT </Arg> <!-- вгкф -->
+		</ProceedCreateUserFire>
+		
+		<ServerRestrict>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</ServerRestrict>
+		<restartClient/>
+
+		<makeMapNotes>
+			<Arg>	ARRAY	<of>	MAP_NOTE_ENTRY	</of>	</Arg>
+		</makeMapNotes>
+		
+		<updateOnline>
+			<Arg> INT32 </Arg>
+		</updateOnline>
+
+
+		<systemMessage>
+		<Arg> STRING </Arg>
+		<Arg> UINT32 </Arg> <!-- color -->
+		</systemMessage>
+		
+		<setControlLockByEffect>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</setControlLockByEffect>
+
+		<removeControlLockByEffect>
+			<Arg> INT32 </Arg>
+		</removeControlLockByEffect>
+		
+		<detectorReading>
+			<Arg> FLOAT </Arg> <!-- power -->
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</detectorReading>
+		
+		<forceMusic>
+			<Arg> INT32 </Arg> <!-- id -->
+			<Arg> BOOL </Arg> <!-- looped or not; it not looped it reverts to old music settings once finished -->
+		</forceMusic>
+		
+		<WeaponChanged>
+		
+		</WeaponChanged>
+		
+		
+		<UpdateSinipng>
+		</UpdateSinipng>
+		
+		<SitGround>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL </Arg>
+			<Arg> BOOL </Arg>
+			<Arg> BOOL </Arg>
+		</SitGround>
+		
+		<startBurst>
+		</startBurst>
+		
+		<endBurst>
+		</endBurst>
+		
+		<UnJammWeapon>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</UnJammWeapon>
+		<InFormWeponJammed>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</InFormWeponJammed>
+		
+		
+		<pong/>
+		
+		<pvpDefenceDataUpdate>
+			<Arg> ARRAY <of>CAPTURE_POINT_ENTRY</of> </Arg>
+			<Arg> INT32 </Arg> <!-- captured points -->
+			<Arg> INT32 </Arg> <!-- total points -->
+			<Arg> FLOAT64 </Arg> <!-- time remaining, seconds -->
+			<Arg> INT8 </Arg> <!-- time remaining type (wait till pvp end, wait till pvp begins) -->
+		</pvpDefenceDataUpdate>
+		
+		<baseAreaStatusUpdate>
+			<Arg> ARRAY <of>AREA_NPC_ENTRY</of> </Arg>
+			<Arg> FLOAT64 </Arg> <!-- current time -->
+		</baseAreaStatusUpdate>
+		
+		<onReputationChanged>
+			<Arg> UNICODE_STRING </Arg>
+		</onReputationChanged>
+		
+		<showConfirmNotice>
+			<Arg> INT64 </Arg> <!-- notice type id -->
+			<Arg> INT64 </Arg> <!-- notice reply id -->
+			<Arg> ARRAY <of>STRING</of> </Arg> <!-- notice string data array (names, objects etc) -->
+		</showConfirmNotice>
+
+		<setTradeState>
+			<Arg> BOOL </Arg>
+		</setTradeState>
+
+		<onSwitchSpotLight>
+			<Arg> INT8 </Arg>
+		</onSwitchSpotLight>
+
+
+		<UpdateCrouch>
+		</UpdateCrouch>
+
+		<DrawItemPutOn>
+			<Arg> FLOAT </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</DrawItemPutOn>
+		
+		<!-- DEBUG -->
+		<debug_sendCreatureInfo>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> PYTHON </Arg>
+		</debug_sendCreatureInfo>
+		<!-- /DEBUG -->
+
+		<onWeatherChanged>
+			<Arg>   STRING            </Arg>
+		</onWeatherChanged>
+
+		<show_safe_timer>
+			<Arg>   FLOAT             </Arg>
+		</show_safe_timer>
+
+		<askUseItemOnTarget>
+			<Arg> ENTITY_ID     </Arg>
+			<Arg> ITEM_ID       </Arg>
+		</askUseItemOnTarget>
+		
+		<show_iwannadie_timer>
+			<Arg> INT8 	</Arg>
+		</show_iwannadie_timer>
+		
+   		<updateHungryAndThirstBar>
+			<Arg> FLOAT 	</Arg> 
+			<Arg> FLOAT 	</Arg> 
+		</updateHungryAndThirstBar> 
+		 
+		<showRequestToFriend>
+			<Arg>	STRING 	</Arg>
+		</showRequestToFriend> 
+		
+		
+	
+		<MsgError>
+			<Exposed/>
+			<Arg>	STRING 	</Arg>
+		</MsgError>
+		
+		<showInfoTradeBase/>
+
+		<setTimeDiff>
+			<Arg> FLOAT64 	</Arg> 
+		</setTimeDiff>
+		
+		<setDonateBaseList>
+			<Arg>	ARRAY <of> FIXED_DICT
+				<Properties>
+					<name>
+						<Type> STRING </Type>
+					</name>
+					
+					<clanID>
+						<Type>			INT64			</Type>
+					</clanID>
+					
+					<clanName>
+						<Type> STRING </Type>
+					</clanName>
+					
+					<location>
+						<Type> STRING </Type>
+					</location>
+					
+					<timeToSell>
+						<Type> FLOAT64 </Type>
+					</timeToSell>
+					
+					<timeToBuy>
+						<Type> FLOAT64 </Type>
+					</timeToBuy>
+					
+					<lastStake>
+						<Type> INT32 </Type>
+					</lastStake>
+				</Properties>
+			</of> 	</Arg>
+		</setDonateBaseList>
+			
+		<getWarehouseData>
+			<Arg> INT64 </Arg>
+		</getWarehouseData>
+		
+		<showBaseMessage>
+			<Arg> INT8 </Arg>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</showBaseMessage>
+	</ClientMethods>
+	
+	
+	<CellMethods>
+
+		<TransferItems>
+			<Exposed/>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</TransferItems>
+		
+		<Adrenaline>
+			<Arg> BOOL </Arg>
+		</Adrenaline>
+		
+		<getKarmaPerPlayerKill>
+			<Arg>	INT32	</Arg>
+		</getKarmaPerPlayerKill>
+		
+		<getPvPPKstat>
+			<Exposed/>
+		</getPvPPKstat>
+		
+		<newTimerAgr>
+		</newTimerAgr>
+		
+		<baseTradeinfo>
+			<Exposed/>
+		</baseTradeinfo>
+		
+		<onCellKillerAskPosition/>
+		
+		<onCellWantedtTimeIsOver/>
+		
+		<youKilledAndImprisoned>
+			<Arg>		UNICODE_STRING		</Arg> <!-- hunterName -->	
+		</youKilledAndImprisoned>
+		
+		<getCatalogFiltered>
+			<Exposed/>
+			<Arg>		INT8				</Arg> <!-- sortFlag -->
+			<Arg>		INT8				</Arg> <!-- forward -->
+			<Arg>		INT32				</Arg> <!-- page_start -->
+			<Arg>		INT32				</Arg> <!-- page_len -->		
+
+		</getCatalogFiltered>	
+	
+
+		
+		<getWantedPosition>
+			<Exposed/>
+		</getWantedPosition>
+		
+		<subscriptionWanted>
+			<Exposed/>
+			<Arg>		UNICODE_STRING		</Arg> <!-- killerName -->	
+		</subscriptionWanted>
+		
+		<removeOffender>
+			<Exposed/>
+			<Arg>		UNICODE_STRING		</Arg> <!-- killerName -->	
+		</removeOffender>
+		
+		<submitOffender>
+			<Exposed/>
+			<Arg>		INT64		</Arg> <!-- killerName -->	
+		</submitOffender>
+		
+		<callreportPosition/>
+		<callgetMyWanted/>
+		
+		
+		<cellOffenderRemove>
+			<Arg>		UNICODE_STRING		</Arg> <!-- hunterName -->	
+			<Arg>		UNICODE_STRING		</Arg> <!-- victimName -->	
+		</cellOffenderRemove>
+		
+		<cellWantedRemove>
+			<Arg>		UNICODE_STRING		</Arg> <!-- hunterName -->	
+			<Arg>		UNICODE_STRING		</Arg> <!-- wantedName -->	
+		</cellWantedRemove>
+		
+		<hm_message>
+			<Arg>		INT32		</Arg> <!-- msgID -->	
+			<Arg>		PYTHON		</Arg> <!-- data -->	
+		</hm_message>
+			
+		<hm_CatalogResponseFiltered>
+			<Arg>		PYTHON				</Arg> <!-- data -->
+			<Arg>		INT32				</Arg> <!-- page_start -->
+			<Arg>		INT32				</Arg> <!-- last_index_item -->
+			<Arg>		INT32				</Arg> <!-- all_index_item -->
+		</hm_CatalogResponseFiltered>
+		
+		
+		
+	
+	
+	
+	
+	
+		<SendSpaceIDandPos>
+			<Arg> MAILBOX </Arg> <!-- roper cell -->
+		</SendSpaceIDandPos>
+		
+		<AnsverTeleport>
+			<Arg> VECTOR3 </Arg> <!-- pos -->
+			<Arg> INT32 </Arg> <!-- spaceID -->
+		</AnsverTeleport>
+	
+		<onCreateRocket>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg>
+		</onCreateRocket>
+		<Burn>
+			<Arg> BOOL </Arg>
+		</Burn>
+		
+		<Poison>
+			<Arg> BOOL </Arg> <!-- status -->
+		</Poison>
+		
+		<updateAccessLevel>
+			<Arg> INT32 </Arg>
+		</updateAccessLevel>
+		
+		<withhold_entity>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> BOOL </Arg>
+		</withhold_entity>		
+
+		<ConfirmRestriction>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</ConfirmRestriction>
+
+		<addStabToArtefactContainer>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</addStabToArtefactContainer>
+
+
+		<useDueTintWeapon>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</useDueTintWeapon>
+
+		<AttachItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</AttachItem>
+
+		<DetachItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</DetachItem>
+
+		<StoreItem>
+			<Exposed/>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> INT32 </Arg>
+		</StoreItem>
+		<RestoreItem>
+			<Exposed/>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> INT32 </Arg>
+		</RestoreItem>
+
+		<GetItemFromHolderClient>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</GetItemFromHolderClient>
+
+		<SaveQuickBar>
+			<Exposed/>
+			<Arg> ARRAY<of> QUICK_BAR_LINE</of> </Arg>
+			<Arg> INT32 </Arg>
+		</SaveQuickBar>
+
+		<UpdateCrouch>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</UpdateCrouch>
+	
+		<onArtifactAdded>
+			<Arg> INT32 </Arg>
+		</onArtifactAdded>
+
+		<respawn>
+			<Exposed/>
+		</respawn>
+
+		<rise>
+			<Exposed/>
+		</rise>
+
+		<lie_down>
+			<Exposed/>
+		</lie_down>
+
+		<spoilFractionRelationship>
+			<Arg> INT32 </Arg><!-- fractionID -->
+			<Arg> INT32 </Arg><!-- value -->
+		</spoilFractionRelationship>
+		
+		<improveFractionRelationship>
+			<Arg> INT32 </Arg> <!-- fractionID -->
+			<Arg> INT32 </Arg><!-- value -->
+		</improveFractionRelationship>
+		
+		<chaton>
+		</chaton>
+		
+		<chatoff>
+			<Arg> INT64 </Arg> <!-- until -->
+		</chatoff>
+		
+		<rope>
+			<Arg> STRING </Arg> <!-- roper name -->
+			<Arg> INT32 </Arg> <!-- roper access level -->
+			<Arg> MAILBOX </Arg> <!-- roper cell -->
+			<Arg> VECTOR3 </Arg> <!-- pos -->
+			<Arg> INT32 </Arg> <!-- spaceID -->
+		</rope>
+		
+		
+		<setLocalBaseClanID>
+			<Arg> INT64 </Arg>
+		</setLocalBaseClanID>
+	
+		<ScanAreaAndAdd>
+			<Exposed/>
+		</ScanAreaAndAdd>		
+	
+		<PickUpItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</PickUpItem>
+	
+	
+		<StartCraft>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg>ARRAY<of>INT32</of></Arg>
+		</StartCraft>
+		
+			
+		<StartNPCBarter>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg>ARRAY<of>INT32</of></Arg>
+		</StartNPCBarter>
+		
+		<onItemRepair>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</onItemRepair>
+
+		<SetBinoculing>
+			<Exposed/>
+			<Arg>INT8</Arg>
+		</SetBinoculing>
+	
+
+		<!--<ControlHeartMode>-->
+			<!--<Exposed/>-->
+			<!--<Arg> BOOL </Arg>-->
+		<!--</ControlHeartMode>-->
+
+		<SetSprinting>
+			<Exposed/>
+			<Arg> BOOL </Arg>
+		</SetSprinting>
+		
+		<TeleportTo>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg> <!-- where -->
+		</TeleportTo>
+		
+		<addSpawnAreaVisit>
+			<Arg> STRING </Arg>
+		</addSpawnAreaVisit>
+		
+		<getPlayerInfoBaseRequest>
+		</getPlayerInfoBaseRequest>
+		
+		<beginFall>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg><!-- position -->
+		</beginFall>
+		
+		<endFall>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg><!-- position -->
+		</endFall>
+		
+		<!--rename>
+			// New player name. 
+			<Arg>		STRING				</Arg>
+		</rename-->
+		
+		<worldLoadStatus>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</worldLoadStatus>
+
+		<notify>
+			<Exposed/>
+			<Arg> INT64 </Arg> <!-- notify id -->
+			<Arg> ARRAY <of>STRING</of> </Arg> <!-- notify string data -->
+		</notify>
+		
+		<remoteSpotCheck>
+			<Arg> MAILBOX </Arg> <!-- caller -->
+			<Arg> VECTOR3 </Arg> <!-- his position -->
+			<Arg> FLOAT </Arg> <!-- spot value (analyzed vs Camuflage) -->
+		</remoteSpotCheck>
+		<remoteSpotCheckResult>
+			<Arg> ENTITY_ID </Arg> <!-- caller -->
+			<Arg> BOOL </Arg> <!-- show(true)/hide(false) -->
+		</remoteSpotCheckResult>
+		
+		<startBurst>
+			<Exposed/>
+		</startBurst>
+		
+		<endBurst>
+			<Exposed/>
+		</endBurst>
+
+		<exposed_fire>
+			<Exposed/>
+			<Arg>
+				ARRAY <of> VICTIM_HIT</of>
+			</Arg>
+			<Arg>
+				ENTITY_ID
+			</Arg>
+
+		</exposed_fire>
+		<burstFire>
+			<Exposed/>
+			<Arg> 
+				ARRAY <of> VICTIM_HIT</of> 
+			</Arg>
+			<Arg>
+				ENTITY_ID
+			</Arg>
+		</burstFire>
+		
+				
+		<LoadAmmoInCurrentWeapon>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</LoadAmmoInCurrentWeapon>
+		
+				
+		<InformNeedToConfirm>
+		</InformNeedToConfirm>	
+		
+		<DivideItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</DivideItem>	
+		
+		<confirmNoticeResponse>
+			<Exposed/>
+			<Arg> INT64 </Arg> <!-- notice type id -->
+			<Arg> INT64 </Arg> <!-- notice reply id -->
+			<Arg> INT32 </Arg> <!-- notice response (0 - reject, 1 - accept) -->
+		</confirmNoticeResponse>
+			
+		<QuestItemAction>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Exposed/>
+		</QuestItemAction>	
+		
+		
+		<UniteItems>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</UniteItems>	
+		
+		<switchSpotLight>
+			<Exposed/>
+			<Arg> INT8 </Arg>
+		</switchSpotLight>
+
+        <setPVPFree>
+            <Arg> BOOL </Arg>
+            <Arg> INT8 </Arg>
+        </setPVPFree>
+
+        <teleportFromGPS>
+            <Exposed/>
+            <Arg>   VECTOR2            </Arg>
+            <Arg>   STRING            </Arg>
+        </teleportFromGPS>
+
+		<finishDead>
+			<Arg>   ENTITY_ID            </Arg>
+			<Exposed/>
+		</finishDead>
+
+		<onGetCell/>
+
+		<onWeatherChanged>
+			<Arg>   ENTITY_ID                </Arg>
+			<Arg>   STRING            </Arg>
+		</onWeatherChanged>
+
+		<suicide/>
+
+		<setWeather>
+			<Exposed/>
+		</setWeather>
+
+		<onAvatarEnterSafe>
+				<Arg> MAILBOX   </Arg>
+				<Arg> STRING    </Arg>
+		</onAvatarEnterSafe>
+
+		<onAvatarExitSafe>
+				<Arg> STRING    </Arg>
+		</onAvatarExitSafe>
+
+<!--Avatar filters-->
+		<filter_ask_heal>
+			<Arg> INT8   </Arg>
+		</filter_ask_heal>
+
+		<continueUseItemOnTarget>
+			<Arg> ENTITY_ID   </Arg>
+			<Arg> ITEM_ID   </Arg>
+		</continueUseItemOnTarget>
+
+		<askOnUseItemOnTarget>
+			<Arg> ENTITY_ID   </Arg>
+			<Arg> ITEM_ID   </Arg>
+			<Arg> ITEM_TYPE   </Arg>
+		</askOnUseItemOnTarget>
+
+		<answerOnUseItemOnTarget>
+			<Arg> INT8      </Arg>
+			<Exposed/>
+		</answerOnUseItemOnTarget>
+		
+		<applyFood>
+			<Arg> FLOAT      </Arg>
+			<Exposed/>  <!-- work? -->
+		</applyFood>
+		
+		<drinkTheWater>
+			<Arg> FLOAT      </Arg>
+			<Exposed/>
+		</drinkTheWater>
+		
+		
+		<startCreateUserFire>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg>	<!-- position -->
+			<Arg> INT32 </Arg>	<!--  itemID -->
+			<Arg> INT32 </Arg>	<!--  item_type -->
+		</startCreateUserFire>
+		
+		<startCreateFireWork>
+			<Exposed/>
+			<Arg> INT32 </Arg>	<!--  itemID -->
+			<Arg> INT32 </Arg>	<!--  item_type -->
+		</startCreateFireWork>
+			
+			
+		<createFireWork>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg>	<!-- position -->
+			<Arg> FLOAT </Arg>	
+			<Arg> FLOAT </Arg>	
+			<Arg> FLOAT </Arg>	
+			<Arg> FLOAT </Arg>	
+			<Arg> INT32 </Arg>	
+			<Arg> INT32 </Arg>	
+		</createFireWork>
+
+		<getDonateBaseByName>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</getDonateBaseByName>
+		
+		<guards_activate>
+			<Exposed/>
+		</guards_activate>
+		
+		<showDonateBasesList>
+			<Arg> ARRAY <of> DONATE_BASE_ENTRY </of>  </Arg>
+			<Arg> ARRAY <of> FLOAT64 </of>  </Arg>
+		</showDonateBasesList>
+		
+		<check_clan_stake>
+			<Arg> INT8 </Arg>
+			<Arg> INT64 </Arg>
+		</check_clan_stake>
+		
+		<showDonateBaseInfo>
+			<Arg> SALED_DONATE_BASE_ENTRY </Arg>
+		</showDonateBaseInfo>
+		
+		<teleportToDonateBase>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</teleportToDonateBase>
+		
+		<cashback>
+			<Exposed/>
+		</cashback>
+		
+		<pay>
+			<Exposed/>
+			<Arg> INT64 </Arg>
+		</pay>
+
+		<depositBack>
+			<Exposed/>
+		</depositBack>
+		
+		<setNewPrice>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</setNewPrice>
+		
+		<clearBonateBaseInfo>
+			<Exposed/>
+		</clearBonateBaseInfo>
+		
+		<getDeposit>
+			<Exposed/>
+		</getDeposit>
+		
+		<deposit>
+			<Arg> INT64 </Arg>
+		</deposit>
+		
+		<onAvatarEnter>
+			<Arg> MAILBOX </Arg>
+		</onAvatarEnter>
+		
+		<getWarehouseData>
+			<Exposed/>
+			<Arg> INT64 </Arg>
+		</getWarehouseData>
+		
+		<goldSell>
+			<Exposed/>
+			<Arg> INT64 </Arg>
+		</goldSell>
+		
+		<goldBuy>
+			<Exposed/>
+			<Arg> INT64 </Arg>
+		</goldBuy>
+		
+		<moneyBack>
+			<Arg> INT64 </Arg>
+		</moneyBack>
+	</CellMethods>
+	
+	<BaseMethods>
+
+		<responceCanBuyInClanShop>
+			<Arg>        INT8    </Arg>  
+		</responceCanBuyInClanShop>
+		<!-- methods for friend and black lists-->
+		<onBlackList>
+			<Arg>        STRING    </Arg>  
+		</onBlackList>
+				
+		<findToBlackList>
+			<Exposed/>
+			<Arg>        STRING    </Arg>   
+		</findToBlackList>
+				
+		
+		<startTrade>
+			<Exposed/>
+		</startTrade>
+		
+		<isBlackList>
+			<Exposed/>
+			<Arg>        STRING    </Arg>
+		</isBlackList>
+	
+		<delFrmBlackList>
+			<Exposed/>
+			<Arg>        STRING    </Arg>
+		</delFrmBlackList>
+	
+		<addBlackList>
+			<Exposed/>
+			<Arg>        STRING    </Arg>
+		</addBlackList>
+		
+		<inviteFriendToClan>
+			<Exposed/>
+			<Arg>        STRING    </Arg>
+		</inviteFriendToClan>
+		
+		<sendMsgError>
+			<Arg>        STRING    </Arg>
+		</sendMsgError>
+		
+		<updateFriendListStatus>
+			<Exposed/>
+			<Arg>        BOOL    </Arg>    <!-- friend status -->
+		</updateFriendListStatus>
+		
+		<addFriend>
+            <Exposed/>
+            <Arg>        STRING    </Arg>    <!-- friend's name -->
+        </addFriend>
+		<delFriend>
+            <Exposed/>
+            <Arg>        STRING </Arg>    <!-- friend's list index -->
+        </delFriend>
+
+		
+		<FriendRequest>
+			<Arg>        STRING   </Arg>    
+		</FriendRequest>		
+		
+		<friendConfirmedRequest>
+			<Exposed/>
+			<Arg>        STRING   </Arg>    
+		</friendConfirmedRequest>
+		<addToDataBase>
+			<Arg>		STRING 	  </Arg>
+		</addToDataBase>
+		
+		<friendStatusChanged>
+			<Arg>        STRING    </Arg>    <!-- friend's name -->
+            <Arg>        BOOL      </Arg>    <!-- is friend online? -->
+		</friendStatusChanged>
+		<!-- end friend list-->
+	
+	
+		<updateAvatarToAccountGold>
+			<Arg>		INT64				</Arg> <!-- goldvalue -->		
+			<Arg>		INT64				</Arg> <!-- diferent -->		
+			<Arg>		INT32				</Arg> <!-- withEntity -->		
+		</updateAvatarToAccountGold>
+		
+		<updateAccountToAvatarGold>
+			<Arg>		INT64				</Arg> <!-- goldvalue -->		
+		</updateAccountToAvatarGold>	
+		
+		
+		<callUpdateGold/>
+
+	
+	
+		<onBaseKillerAskPosition/>
+		
+		<onBaseWantedtTimeIsOver/>
+		
+		<BaseOffenderRemove>		
+			<Arg>		UNICODE_STRING				</Arg> <!-- hunterName -->			
+			<Arg>		UNICODE_STRING				</Arg> <!-- victimName -->			
+		</BaseOffenderRemove>	
+		
+		<BaseWantedRemove>		
+			<Arg>		UNICODE_STRING				</Arg> <!-- hunterName -->			
+			<Arg>		UNICODE_STRING				</Arg> <!-- wantedName -->			
+		</BaseWantedRemove>	
+	
+	
+	
+		
+		<!-- Retrieves the player name and other player info. -->
+		<ping>
+			<Exposed/>
+		</ping>
+		
+		<BaseShopOutOfTime/>
+		
+		<BaseShopSaleApprove>
+			<Arg>		INT32				</Arg> <!-- complexItemID -->
+			<Arg>		INT64				</Arg> <!-- price -->			
+			<Arg>		STRING				</Arg> <!-- BankName -->			
+			<Arg>		STRING				</Arg> <!-- buyerName -->			
+		</BaseShopSaleApprove>	
+		
+		<console_char_account>
+			<Arg>	MAILBOX	</Arg> 	<!-- customer entity's mailbox -->
+		</console_char_account>
+		
+		<updateAccessLevel>
+			<Arg> INT32 </Arg>
+		</updateAccessLevel>
+
+		<chaton>
+			<Arg> STRING </Arg> <!-- unbanner name -->
+			<Arg> INT32 </Arg> <!-- unbanner access level -->
+			<Arg> BOOL </Arg> <!-- destroy entity after ban -->
+		</chaton>
+
+		<chatoff>
+			<Arg> STRING </Arg> <!-- banner name -->
+			<Arg> INT32 </Arg> <!-- banner access level -->
+			<Arg> INT32 </Arg> <!-- minutes -->
+			<Arg> BOOL </Arg> <!-- destroy entity after ban -->
+		</chatoff>
+
+		<banByUser>
+			<Arg> UNICODE_STRING </Arg> <!-- reason -->
+			<Arg> STRING </Arg> <!-- banner name -->
+			<Arg> ACCESS_LEVEL </Arg> <!-- banner access level -->
+			<Arg> INT32 </Arg> <!-- minutes -->
+			<Arg> BOOL </Arg> <!-- destroy entity after ban -->
+		</banByUser>
+
+		<unbanByUser>
+			<Arg> STRING </Arg> <!-- banner name -->
+			<Arg> ACCESS_LEVEL </Arg> <!-- banner access level -->
+			<Arg> BOOL </Arg> <!-- destroy entity after ban -->
+		</unbanByUser>
+		
+		<updateCharStats>
+			<Arg>		STATS_VALUES	</Arg>
+		</updateCharStats>
+
+		<webGetPlayerInfo>
+			<ReturnValues>
+				<databaseID>	DBID	</databaseID>
+				<playerName> 	STRING 	</playerName>
+
+				<!-- 	Character class (this is derived from the model name)
+				<charClass> 	STRING 	</charClass>
+				-->
+
+				<!-- 	Are they currently playing in-game? -->
+				<online>		BOOL	</online>
+
+				<!-- 	The player's position, as a list of floats (x, y, z) -->
+				<position>		ARRAY<of>FLOAT</of>	</position>
+
+				<!-- 	The player's direction, as a list of floats
+						(roll, pitch, yaw).
+				-->
+				<direction>		ARRAY<of>FLOAT</of>	</direction>
+
+				<health>		INT32	</health>
+				<maxHealth>		INT32	</maxHealth>
+
+				<stats>		PYTHON	</stats>
+				<items>		ARRAY<of>PYTHON</of>	</items>
+				
+				<!-- The player's max num of items. -->
+				<max_item_num>		INT32				</max_item_num>
+					
+				<!-- The player's num of items. -->
+				<item_num>		INT32				</item_num>
+				
+				<!-- The player's weight of items. -->
+				<items_weight>		FLOAT				</items_weight>
+				
+				<!-- The player's max weight. -->
+				<max_item_weight>		FLOAT				</max_item_weight>
+			
+			</ReturnValues>
+		</webGetPlayerInfo>
+		
+		<onPlayerInfo>
+			<!-- The player name. -->
+			<Arg>	UNICODE_STRING				</Arg>
+
+			<!-- The player's position. -->
+			<Arg>		ARRAY<of>FLOAT</of>	</Arg>
+
+			<!-- The player's direction. -->
+			<Arg>		ARRAY<of>FLOAT</of>	</Arg>
+
+			<!-- The player's health. -->
+			<Arg>		INT32				</Arg>
+
+			<!-- The player's maximum health. -->
+			<Arg>		INT32				</Arg>
+
+			<!-- The player's kill count. -->
+			<Arg>		INT32				</Arg>
+			<!-- The player's death count. -->
+			<Arg>		INT32				</Arg>
+			
+			<!-- Items -->
+			<Arg>		ARRAY<of>PYTHON</of>				</Arg>
+			
+			<!-- The player's num of items. -->
+			<Arg>		INT32				</Arg>
+			
+			<!-- The player's weight of items. -->
+			<Arg>		FLOAT				</Arg>
+			
+			<!-- The player's max weight. -->
+			<Arg>		FLOAT				</Arg>
+			
+			
+		</onPlayerInfo>
+		
+		<serverKick/>
+		<timedKick/>
+
+		<notify>
+			<Arg> INT64 </Arg> <!-- notify id -->
+			<Arg> ARRAY <of>STRING</of> </Arg> <!-- notify string data -->
+		</notify>
+
+		<requestClanRoster>
+			<Exposed/>
+		</requestClanRoster>
+		
+		<makeMapNote>
+			<Arg> STRING </Arg> <!-- spaceName -->
+			<Arg> VECTOR3 </Arg> <!-- position -->
+			<Arg> UNICODE_STRING </Arg> <!-- notes -->
+			<Arg> INT64 </Arg> <!-- flags -->
+			<Exposed/>
+		</makeMapNote>
+		
+		<reportBug>
+			<Arg> VECTOR3 </Arg> <!-- position -->
+			<Arg> UNICODE_STRING </Arg> <!-- notes -->
+			<Exposed/>
+		</reportBug>
+		
+		<DeleteGPSMarks>
+			<Arg> INT64 </Arg> <!-- flags -->
+			<Exposed/>
+		</DeleteGPSMarks>
+		
+		<SavePlayerKit>
+			<Exposed/>
+			<Arg> ARRAY <of> STRING </of> </Arg>
+			<Arg> ARRAY <of> INT32 </of> </Arg>
+		</SavePlayerKit>
+		
+		<onGeometryMapped>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</onGeometryMapped>
+		<onNewGeometryMapped>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</onNewGeometryMapped>
+		
+
+		<onLoseWintess>
+			<Arg> INT64 </Arg>
+		</onLoseWintess>
+		
+		<onGetWitness>
+		</onGetWitness>
+		
+		<confirmNoticeResponse>
+			<Arg> INT64 </Arg> <!-- notice type id -->
+			<Arg> INT64 </Arg> <!-- notice reply id -->
+			<Arg> INT32 </Arg> <!-- notice response (0 - reject, 1 - accept) -->
+			<Exposed/>
+		</confirmNoticeResponse>
+		
+		<showConfirmNotice>
+			<Arg> INT64 </Arg> <!-- notice type id -->
+			<Arg> INT64 </Arg> <!-- notice reply id -->
+			<Arg> ARRAY <of>STRING</of> </Arg> <!-- notice string data array (names, objects etc) -->
+		</showConfirmNotice>
+
+		<onReturnToMainMenu>
+			<Exposed/>
+		</onReturnToMainMenu>
+
+		<suicide/>
+
+		<createUserFire>
+			<Arg> INT64 </Arg>	<!-- entityID -->
+			<Arg> INT64 </Arg>	<!-- spaceID -->
+			<Arg> VECTOR3 </Arg>	<!-- position -->
+			
+		</createUserFire>
+			
+		<responseIsClanLeader>
+			<Arg> INT8 </Arg>
+		</responseIsClanLeader>
+	</BaseMethods>
+
+</root>

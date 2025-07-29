@@ -1,0 +1,199 @@
+{
+	"name" : "Creatures.common.IMPENETRABLE1",
+	"model" : "impenetrable/impenetrable_lod1.model",
+	"model_scale, bylevel" : {
+		"default" : 1.9,
+		"1" : 2
+	},
+	"coefLevel, bylevel": {
+		"default" : 99,
+		"1" : 99,
+		"2" : 99,
+		"3" : 99
+	},
+
+	"tints" : [{}],
+	"experience, bylevel" : {
+		"default" : 800,
+		"1" : 3920
+	},
+	"health, bylevel" : {
+		"default" : 13.777,
+		"1" : 25.900
+	},	
+	"agro_range, bylevel" : {
+		"default" : 20
+	},
+	"lose_agro_range, bylevel" : {
+		"default" : 30
+	},
+	"global_cooldown" : 3,
+	"karma": 99,
+	"defence, bylevel" : {
+		"default" : {
+			"MELEE" : 700.0,
+			"BULLET" : 500.0,
+			"EXPLOSION" : 700.0,
+			"BIO" : 700.0
+		},
+		"1" : {
+			"BULLET" : 700.0
+		}
+	},
+	"height, bylevel" : {
+		"default" : 1.0,
+		"1" : 1.5
+	},	
+	"width" : 0.8,
+	"decompose_time" : [60,120],
+	"loot, bylevel" : {
+		"default" : {},
+		"1" : {
+			"1683" : "1.0",
+			"824" : "0.1"
+		}
+	},
+	"footsteps_sound" : "mob/Impenetrable/footsteps",
+	"melee_distance, bylevel" : {
+		"default" : 2,
+		"1" : 2.4
+	},
+	"melee_height, bylevel" : {
+		"default" : 1.5,
+		"1" : 2
+	},	
+	"actions, bylevel" : {
+		"default" : {
+			"Idle" : {				
+				"sounds" : ["mob/Impenetrable/idle"]
+			},
+			"Eat" : {				
+				"model_actions" : ["Eat"],
+				"sounds" : ["mob/Impenetrable/idle"]
+			},
+			"Attack1Hand" : {
+				"model_actions" : ["AttackTooth"],
+				"sounds" : ["mob/Impenetrable/attack"]
+			},
+			"Attack2Hand" : {
+				"model_actions" : ["AttackPaws"],
+				"sounds" : ["mob/Impenetrable/attack"]
+			},
+			"AttackSpeck" : {
+				"model_actions" : ["AttackSpecial"],
+				"sounds" : ["mob/Impenetrable/attack"]
+			},
+			"Threat" : {
+				"model_actions" : ["Threatening"],
+				"sounds" : ["mob/Impenetrable/attack"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/Impenetrable/death"]
+			},
+			"Dead" : {
+				"model_actions" : ["Dead"]	
+			},				
+			"Pain" : {
+				"model_actions" : ["Pain"],
+				"sounds" : ["mob/Impenetrable/pain"]
+			}				
+		},
+		"2" : {}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"default_state" : "walk_around",
+	"common_conditions,parent=default_common_conditions" : [],	
+	"states" : {
+		"walk_around, parent=default_walk_around" : {
+			"persistent_actions" : ["Idle"],			
+			"speed" : {
+				"walk_around" : [0.6, 1.4]
+			}
+		},		
+		"attacking, parent=default_attacking" : {
+			"skills" : {
+				"BLYAK_MELEE" : 4, 
+				"BLYAK_MELEE2" : 3
+			},
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed" : {
+				"follow_target" : 7.7,
+				"walk_around" : [0.8, 1.8]
+			}	
+		},
+		"dead" : {		
+			"persistent_actions" : ["Dead"],
+			"entering_actions" : {"actions" : ["Die"], "time" : 1.6},
+			"conditions" : [
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			]
+		},
+		"before_recover, parent=default_before_recover" : {
+			"speed" : {
+				"walk_around" : [0.6, 1.4]
+			}
+		},
+		"recover, parent=default_recover" : {			
+			"persistent_actions" : ["Eat"]
+		}
+	},
+	"skills" : {
+		"BLYAK_MELEE": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["TORSO"],
+					"type" : "MELEE",
+					"value" : [0.128, 0.192],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.128, 0.192]
+				}
+			},			 
+			"actions": ["Attack1Hand"]
+		},
+		"BLYAK_MELEE2": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["HEAD"],
+					"type" : "MELEE",
+					"value" : [0.128, 0.192],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.128, 0.192]
+				}
+			},			 
+			"actions": ["Attack2Hand"]
+		},
+		"BLYAK_MELEE3": {
+			"type": "MELEE",
+			"cooldown": 5.0,
+			"aoe_radius": 5,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["TORSO"],
+					"type" : "MELEE",
+					"value" : [0.128, 0.192],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.228, 0.292]
+				}
+			},			 
+			"actions": ["AttackSpeck"]
+		}
+	}
+}

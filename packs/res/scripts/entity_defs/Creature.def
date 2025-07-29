@@ -1,0 +1,164 @@
+<root>
+	<Implements>
+		<Interface> Victim </Interface>
+		<Interface> Damager </Interface>
+		<Interface> Skills </Interface>
+		<Interface> Effects </Interface>
+		<!--<Interface> AnomalyVisitor </Interface>-->
+		<Interface> Bot </Interface>
+		<Interface> AreaVisitor </Interface>
+		<Interface> Teleportable </Interface>
+		<Interface> Characteristics </Interface>
+		
+		<!-- for Brain -->		
+		<Interface> Brain_TargeterInterface </Interface>
+		<Interface> Brain_AggressiveInterface </Interface>		
+		<Interface> Brain_FollowerInterface </Interface>
+		<Interface> Brain_PromenadeInterface </Interface>				
+		<Interface> Brain_WaypointInterface </Interface>				
+		<Interface> Brain_ThinkerInterface </Interface>				
+		<Interface> Brain_FearInterface </Interface>
+
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch/>
+	</Volatile>
+
+	<Properties>
+	
+		<isAgressive>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>		
+			<Default> 0 </Default>		
+		</isAgressive>
+	
+		<!-- DEBUG props. Ask mon -->		
+		<brainStates>
+			<Type> ARRAY <of> UINT8 </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</brainStates>
+		<brainThinks>
+			<Type> UINT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>		
+			<Default> 0 </Default>		
+		</brainThinks>
+		<!-- /end of DEBUG props -->
+		
+		<creatureType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</creatureType>
+		
+		<level>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 1 </Default>
+		</level>	
+		
+		<creatureSubType>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</creatureSubType>
+		
+		<!-- is using for quests, and to assign unique names to particular mobs -->
+		<uniq_id>
+			<Type> STRING </Type>
+			<Flags>	ALL_CLIENTS </Flags>
+		</uniq_id>
+
+		<tint_id>
+			<Type> UINT8 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</tint_id>		
+		
+		<state>
+			<Type> BOT_STATE </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</state>
+		
+		<prev_state>
+			<Type> BOT_STATE </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</prev_state>
+		
+		<use_cached_waypoints>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</use_cached_waypoints>		
+		
+		<current_skill>
+			<Type> BOT_SKILL_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</current_skill>
+		
+		<spawnerBase>
+			<Type> MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</spawnerBase>
+		
+		<spawnTimeMin>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 10 </Default>
+		</spawnTimeMin>
+		
+		<spawnTimeMax>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 100 </Default>
+		</spawnTimeMax>
+		
+		<decomposedTime>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</decomposedTime>
+	</Properties>
+
+	<ClientMethods>
+		<beginAnimation>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</beginAnimation>
+
+		<endAnimation>
+			<Arg> INT32 </Arg>
+		</endAnimation>
+		
+		<change_state>
+			<Arg> BOT_STATE </Arg> <!-- state_from  -->
+			<Arg> BOT_STATE </Arg> <!-- state_to  -->
+		</change_state>
+	</ClientMethods>
+
+	<CellMethods>
+		<scheduleRecompose>
+			<Arg> FLOAT32 </Arg>
+			<Arg> BOOL </Arg>
+		</scheduleRecompose>
+
+		<get_karma_per_kill>
+			<Arg> FLOAT </Arg> 		
+		</get_karma_per_kill>
+		
+		<get_experience>
+			<Arg> FLOAT </Arg> 		
+		</get_experience>
+		
+		<decompose/>
+		<recompose/>
+		
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

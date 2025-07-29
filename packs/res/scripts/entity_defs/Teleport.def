@@ -1,0 +1,40 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		
+		<teleportToName>			
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</teleportToName>
+
+		<radius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		5.000000			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	0.000000 255.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+
+	</BaseMethods>
+	
+</root>
+

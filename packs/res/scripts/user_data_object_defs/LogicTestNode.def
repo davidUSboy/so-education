@@ -1,0 +1,22 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+	
+	<Implements>
+		<Interface> LogicNodeUDO </Interface>
+	</Implements>	
+
+	<Properties>
+ 		<signal_first>
+			<Type>	ARRAY <of> UDO_REF </of> </Type>
+			<Editable> true </Editable>
+		</signal_first>	
+		
+		<signal_second>
+			<Type>	ARRAY <of> UDO_REF </of> </Type>
+			<Editable> true </Editable>
+		</signal_second>
+		
+	</Properties>
+	
+</root>
+

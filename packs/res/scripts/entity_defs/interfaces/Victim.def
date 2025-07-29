@@ -1,0 +1,84 @@
+<root>
+	<Properties>
+		<dead>
+			<Type> BOOL </Type>
+			<Persistent> true </Persistent>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</dead>
+		<canTakeDamage>
+			<Type> BOOL </Type>
+			<Persistent> true </Persistent>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 1 </Default>
+		</canTakeDamage>
+		<invulnerable>
+			<Type> BOOL </Type>
+			<Persistent> true </Persistent>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>True</Editable>
+			<Default> 0 </Default>
+		</invulnerable>
+		<mobNoAggr>
+			<Type> BOOL </Type>
+			<Persistent> true </Persistent>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>True</Editable>
+			<Default> 0 </Default>
+		</mobNoAggr>
+
+		<allowedDamagers>
+			<Type>			ARRAY <of> ENTITY_ID </of> 	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</allowedDamagers>
+		<damage_restrictions>
+			<Type>			ARRAY <of> UINT16 </of> </Type> <!-- restrictions ids -->
+			<Flags>			CELL_PRIVATE		</Flags>
+		</damage_restrictions>
+	</Properties>
+	<CellMethods>
+		<damage>
+			<Arg> DAMAGE_SRC_DATA </Arg>
+			<Arg> DAMAGE_DATA </Arg>
+			<Arg> UINT8 </Arg> <!-- body zone -->
+		</damage>
+
+		<heal>
+			<Arg> FLOAT </Arg>
+		</heal>
+
+		<heal_to_max/>
+
+
+
+		<set_can_take_damage>
+			<Arg> BOOL </Arg>
+		</set_can_take_damage>
+
+		<set_allowed_damagers> <!-- they can ignore invulnerable flag -->
+			<Arg> ARRAY <of> ENTITY_ID </of>  </Arg>
+		</set_allowed_damagers>
+
+		<set_allowed_damager>
+			<Arg> ENTITY_ID </Arg>
+		</set_allowed_damager>
+
+		<rem_allowed_damager>
+			<Arg> ENTITY_ID </Arg>
+		</rem_allowed_damager>
+
+	</CellMethods>
+	
+	<ClientMethods>
+		<on_death>
+			<Arg> DAMAGE_SRC_DATA_CLIENT </Arg>
+		</on_death>
+		
+		<on_damaged>
+			<Arg> DAMAGE_SRC_DATA_CLIENT </Arg>
+			<Arg> DAMAGETAKEN_DATA </Arg>
+		</on_damaged>
+
+		<on_revive/>
+	</ClientMethods>
+</root>

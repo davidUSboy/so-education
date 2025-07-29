@@ -1,0 +1,177 @@
+<root>
+  <TO_BACKPACK>To backpack</TO_BACKPACK>
+  <INFO>Info</INFO>
+  <ITEM_DROP>Drop item</ITEM_DROP>
+  <RLY_DROP>Are you sure?</RLY_DROP>
+  <ITEM_DELETE>Item deletion</ITEM_DELETE>
+  <RLY_DELETE>Are you sure you want to destroy the item?</RLY_DELETE>
+  <ADD_MARK>Add mark</ADD_MARK>
+  <MARK_NOTES>Mark notes</MARK_NOTES>
+  <BUG_REPORT>Bug report</BUG_REPORT>
+  <DELETE_MARK>Delete mark</DELETE_MARK>
+  <DO_TELEPORT>Teleport</DO_TELEPORT>
+  <BUY_IT>Buy</BUY_IT>
+  <FAIL_CANUSEDYETINT>Cammand failed</FAIL_CANUSEDYETINT>
+  <ASK_USE_TINT>Do you really want to use {0} on {1}?</ASK_USE_TINT>
+  <FAIL_USE_TINT_OLD_TINT>Remove old paint first.</FAIL_USE_TINT_OLD_TINT>
+  <client>
+    <FireWood>The fire will burn for {0} more</FireWood>
+    <CookingTime>Cooking Time: {0}</CookingTime>
+    <CookingTo>Cooking into: {0}</CookingTo>
+    <ARTIFACT_UNEQUIP_TEXT>There is {0:.2%} chance to lose the artefact. Still wish to unequip it?</ARTIFACT_UNEQUIP_TEXT>
+    <ARTIFACT_UNEQUIP>Warning!</ARTIFACT_UNEQUIP>
+    <ARTIFACT_UNLOCK>Artefact's Slots
+		To unlock a slot, meet one of conditions:
+		a) Combat: lv 9
+		b) Survival: lv 8
+		c) Support: lv 7</ARTIFACT_UNLOCK>
+    <ItemStorage>Storage</ItemStorage>
+    <HAND_TO_HAND>Hand-to-hand</HAND_TO_HAND>
+    <FIREARMS>Bullet</FIREARMS>
+    <EXPLOSION>Explosion</EXPLOSION>
+    <FALLING>Falling</FALLING>
+    <ARMOR_PIERCING>Armor-Piercing</ARMOR_PIERCING>
+    <BLEEDING>Bleeding</BLEEDING>
+    <MAGNETIC>Magnetic</MAGNETIC>
+    <COLD>Freezing</COLD>
+    <GRAVITY>Gravity</GRAVITY>
+    <ELECTRICITY>Electricity</ELECTRICITY>
+    <INFRARED>Infrared</INFRARED>
+    <RADIATION>Radiation</RADIATION>
+    <PSY>Psi</PSY>
+    <BIO>Bio</BIO>
+    <ACOUSTIC>Acoustic</ACOUSTIC>
+    <SELF_ACOUSTIC>Self-acoustic</SELF_ACOUSTIC>
+    <NOTHING>Nothing</NOTHING>
+    <VERY_LOW>Very low</VERY_LOW>
+    <LOW>Low</LOW>
+    <AVARAGE>Average</AVARAGE>
+    <MEDIUM>Medium</MEDIUM>
+    <HIGH>High</HIGH>
+    <MAXIMUM>Max</MAXIMUM>
+    <STRONG>Strong</STRONG>
+    <FAST>Fast</FAST>
+    <MODERATE>Speed-up</MODERATE>
+    <SLOW>Slow</SLOW>
+    <HEAD>Head</HEAD>
+    <TORSO>Torso</TORSO>
+    <LEFT_UP_LEG>Left hip</LEFT_UP_LEG>
+    <RIGHT_UP_LEG>Right hip</RIGHT_UP_LEG>
+    <LEFT_LEG>Left shin</LEFT_LEG>
+    <RIGHT_LEG>Right shin</RIGHT_LEG>
+    <LEG_UPPER>Hip</LEG_UPPER>
+    <LEG_LOWER>Shin</LEG_LOWER>
+    <FACE>Face</FACE>
+    <FOREARM_LEFT>Left forearm</FOREARM_LEFT>
+    <FOREARM_RIGHT>Right forearm</FOREARM_RIGHT>
+    <FOREARM>Forearm</FOREARM>
+    <ARM_LEFT>Left shoulder</ARM_LEFT>
+    <ARM_RIGHT>Right shoulder</ARM_RIGHT>
+    <ARM>Arm</ARM>
+    <HEART>Heart</HEART>
+    <GROIN>Groin</GROIN>
+    <COMMON>Common</COMMON>
+    <RARE>Advanced</RARE>
+    <EXPERT>Expert</EXPERT>
+    <COST>Cost: {0}</COST>
+    <SKILL_LEVEL_CAP>Skill level needed: {0}</SKILL_LEVEL_CAP>
+    <REQUIRENMENTS>Requires: %s</REQUIRENMENTS>
+    <ADAPTATION>Adaptation: {0}</ADAPTATION>
+    <STATE>State: {0}</STATE>
+    <NUM_ARMED>Armed: {0}</NUM_ARMED>
+    <APPROXIMATE_COST>Approximate cost: {0}</APPROXIMATE_COST>
+    <ROUBLES>Rub.</ROUBLES>
+    <WEAPON_JAMMED>Weapon jammed</WEAPON_JAMMED>
+    <ITEM_BROKEN>Broken item</ITEM_BROKEN>
+    <NUMBER>Number: {0}</NUMBER>
+    <NUM_USES>Charges: {0}</NUM_USES>
+    <NUM_USES_ARTEF_CONTAINER>Using: {0} out of {1}</NUM_USES_ARTEF_CONTAINER>
+    <DAY>d</DAY>
+    <HOURS>h</HOURS>
+    <MINUTES>m</MINUTES>
+    <SECONDS>s</SECONDS>
+    <ARTIFACT_CHARGE_FULL>Artefact charge is full</ARTIFACT_CHARGE_FULL>
+    <ARTIFACT_CHARGE_DEPLEETED>Artefact charge is depleted</ARTIFACT_CHARGE_DEPLEETED>
+    <ARTIFACT_CHARGE_REMAINING>Artefact charge remain: %s</ARTIFACT_CHARGE_REMAINING>
+    <BELONGS_TO_QUEST>Belongs to quest: %s</BELONGS_TO_QUEST>
+    <QUEST_ITEM>Quest item</QUEST_ITEM>
+    <NUMBER_INFIFNITY>Number: unlimited</NUMBER_INFIFNITY>
+    <TRADER_NUM_MONEY>Trader's money: {0}</TRADER_NUM_MONEY>
+    <TRADER_NUM_MONEYINFIFNITY>Trader's money: unlimited</TRADER_NUM_MONEYINFIFNITY>
+    <GOLD>g.r.</GOLD>
+    <ROUBLES_FULL>rubles</ROUBLES_FULL>
+    <GOLD_FULL>golden rubles.</GOLD_FULL>
+    <REPAIR_COST>Repair cost: {0}</REPAIR_COST>
+    <MAY_BE_REAPIRED>Can be repaired</MAY_BE_REAPIRED>
+    <REPAIR_NOT_NEEDED>Repair not needed</REPAIR_NOT_NEEDED>
+    <DROP>Drop</DROP>
+    <INFO>Info</INFO>
+    <EQUIP>Equip</EQUIP>
+    <REPAIR>Repair</REPAIR>
+    <EXTRACT>Extract</EXTRACT>
+    <REMOVE>Remove</REMOVE>
+    <USE>Use</USE>
+    <USE_ON_TARGET>Use on target</USE_ON_TARGET>
+    <LOAD_AMMO>Load ammo</LOAD_AMMO>
+    <DIVIDE>Divide</DIVIDE>
+    <LEVEL>Level:</LEVEL>
+    <PENETRATION_SUM>Penetration: {0} {1:s}</PENETRATION_SUM>
+    <PENETRATION>Penetration modifier: {0} {1:s}</PENETRATION>
+    <PENETRATION_100>(target's protection doesn't change)</PENETRATION_100>
+    <PENETRATION_LESS_100>(target's protection will be {0}% less effective)</PENETRATION_LESS_100>
+    <PENETRATION_MORE_100>(target's protection will be {0}% more effective)</PENETRATION_MORE_100>
+    <MAIN_DAMAGE>Main damage: {0}</MAIN_DAMAGE>
+    <FROM_TO>from {0} to {0}</FROM_TO>
+    <ADDITIONAL_DAMAGE>Additional damage: {0}</ADDITIONAL_DAMAGE>
+    <RANGE>Range: {0}</RANGE>
+    <WEIGHT>Weight: {0}</WEIGHT>
+    <ACCURACY>Accuracy: {0}</ACCURACY>
+    <FIRE_RATE>Fire rate: {0}</FIRE_RATE>
+    <FAIL_TOLERANCE>Fail tolerance: %s</FAIL_TOLERANCE>
+    <ACCURACY_BORDER>Accuracy: %s</ACCURACY_BORDER>
+    <MOVE_ACCURACY_LOST>Aim decay: %s</MOVE_ACCURACY_LOST>
+    <KICKBACK>Kickback: %s</KICKBACK>
+    <ACURACY_RECOIL>Accuracy recoil: %s</ACURACY_RECOIL>
+    <SKILL_LEVEL>Skill level: %s</SKILL_LEVEL>
+    <AMMO_USES>Uses ammo:</AMMO_USES>
+    <CAN_INSTALL>Can be installed:</CAN_INSTALL>
+    <DEFENCE>Defence:</DEFENCE>
+    <NUM_AMMO_IN_PACK>Ammo pack quantity: {0}</NUM_AMMO_IN_PACK>
+    <MAY_BE_USED_BY>May be used with: {0}</MAY_BE_USED_BY>
+    <NUM_PIECES>Number of pieces: {0}</NUM_PIECES>
+    <WAVE_RADIUS>Wave radius: {0}</WAVE_RADIUS>
+    <NEEDED_RESOURCES>Neccecary items: {0}</NEEDED_RESOURCES>
+    <needWorkbenchType>You need work equipment: {0}</needWorkbenchType>
+    <NEEDED_SKILLS>Needed skills: {0}</NEEDED_SKILLS>
+    <SUCCES_CHANCE>Success chance: {0}</SUCCES_CHANCE>
+    <DIVIDE_PROCESS>Divide process</DIVIDE_PROCESS>
+    <HOW_MUCH_ITEMS_DEVIDE>How much items you wish to divide?</HOW_MUCH_ITEMS_DEVIDE>
+    <ITEM_ADDED>Item added: {0}</ITEM_ADDED>
+    <NUM_ITEMS_CLOSE_BRACKET>pcs.)</NUM_ITEMS_CLOSE_BRACKET>
+    <ITEM_LOST>Item lost: {0}</ITEM_LOST>
+    <SPENDED>Spent {0} {1}</SPENDED>
+    <SUFFIXES_1>rouble</SUFFIXES_1>
+    <SUFFIXES_2>rouble</SUFFIXES_2>
+    <SUFFIXES_3>roubles</SUFFIXES_3>
+    <GAINED_FROM>Получено {0} {1} от {2}</GAINED_FROM>
+    <GAINED>gained {0} {1}</GAINED>
+    <SUFFIXES_4>golden coin</SUFFIXES_4>
+    <SUFFIXES_5>golden coins</SUFFIXES_5>
+    <SUFFIXES_6>golden coins</SUFFIXES_6>
+    <COMBAT_EXPIRIENCE>combat experience</COMBAT_EXPIRIENCE>
+    <SURVIVAL_EXPIRIENCE>survival experience</SURVIVAL_EXPIRIENCE>
+    <OTHER_EXPIRIENCE>support experience</OTHER_EXPIRIENCE>
+    <SUFFIXES_7>unit</SUFFIXES_7>
+    <SUFFIXES_8>units</SUFFIXES_8>
+    <SUFFIXES_9>units</SUFFIXES_9>
+    <NO>empty</NO>
+    <PERSONAL_ITEM>This item have an owner</PERSONAL_ITEM>
+    <ITEM_TIME_TO_LIVE>The item will be disappeared in: {0}</ITEM_TIME_TO_LIVE>
+    <NUM_AMMO_IN_MAGAZINE>Magazine capacity: {0}</NUM_AMMO_IN_MAGAZINE>
+    <RECIPE>Recipe: {0}</RECIPE>
+    <REFRESH>Refresh: {0}</REFRESH>
+    <UPGRADE>Upgrade: {0} Level {1}</UPGRADE>
+    <ARTEFACT_IN_CONTAINER>Artefacts:</ARTEFACT_IN_CONTAINER>
+    <ARTEFACT_IN_CONTAINER_EMPTY>Container is empty</ARTEFACT_IN_CONTAINER_EMPTY>
+  </client>
+</root>

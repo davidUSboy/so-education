@@ -1,0 +1,488 @@
+<weather.xml>
+	<Clear>
+		<windSpeed>	0.100000 0.100000	</windSpeed>
+		<rain>	0.000000	</rain>
+		<sfx>	</sfx>
+		<fog>	0.494118 0.549020 0.701961 2.000000	</fog>
+		<fogFactor>	0.150000	</fogFactor>
+		<bloom>
+			<numPasses>	3	</numPasses>
+			<power>	8.000000	</power>
+			<width>	1	</width>
+			<attenuation>	1.000000 0.937255 1.000000 1.000000	</attenuation>
+		</bloom>
+		<sun>	1.000000 1.000000 1.000000 1.000000	</sun>
+		<ambient>	1.000000 1.000000 1.000000 1.000000	</ambient>
+	</Clear>
+	<Day_Cloudy1>
+		<windSpeed>	1.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<bloom>	Standard
+			<power>	8.000000	</power>
+			<width>	2	</width>
+			<numPasses>	2	</numPasses>
+			<attenuation>	0.501961 0.639216 0.784314 2.000000	</attenuation>
+		</bloom>
+		<sfx>	</sfx>
+		<skyBox>	weather/models/horizon_ring_cloud.model	</skyBox>
+		<ambient>	0.709804 0.784314 0.874510 1.000000	</ambient>
+		<sun>	0.968627 0.878431 0.784314 1.000000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+	</Day_Cloudy1>
+	<Day_Cloudy2>
+		<windSpeed>	1.500000 0.000000	</windSpeed>
+		<windGustiness>	1.300000	</windGustiness>
+		<skyBox>	weather/models/overhead02.model	</skyBox>
+		<sun>	1.000000 0.831373 0.749020 1.000000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<sfx>	</sfx>
+		<ambient>	0.709804 0.784314 0.874510 1.000000	</ambient>
+		<fogFactor>	0.300000	</fogFactor>
+		<bloom>
+			<numPasses>	2	</numPasses>
+			<power>	8.000000	</power>
+			<attenuation>	0.709804 0.784314 0.874510 3.000000	</attenuation>
+			<width>	2	</width>
+		</bloom>
+	</Day_Cloudy2>
+	<Day_Cloudy3>
+		<skyBox>	weather/models/overhead03.model	</skyBox>
+		<windSpeed>	2.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<default>	spaces/desert	</default>
+		<default>	spaces/minspec	</default>
+		<sfx>	</sfx>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<fogFactor>	0.150000	</fogFactor>
+		<bloom>
+			<attenuation>	0.709804 0.788235 0.874510 3.000000	</attenuation>
+			<numPasses>	2	</numPasses>
+			<power>	8.000000	</power>
+			<width>	2	</width>
+		</bloom>
+		<ambient>	0.709804 0.784314 0.874510 1.000000	</ambient>
+		<sun>	1.000000 0.831373 0.749020 1.000000	</sun>
+	</Day_Cloudy3>
+	<Night_Cloudy1>
+		<windSpeed>	1.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<bloom>	Standard
+			<power>	3.000000	</power>
+			<width>	1	</width>
+			<numPasses>	2	</numPasses>
+			<attenuation>	1.000000 0.501961 0.000000 1.500000	</attenuation>
+		</bloom>
+		<sfx>	sfx/weather/night_cicadas.xml	</sfx>
+		<skyBox>	weather/models/horizon_ring_cloud.model	</skyBox>
+		<ambient>	0.466667 0.537255 0.600000 1.000000	</ambient>
+		<sun>	0.811765 0.909804 0.992157 1.400000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+	</Night_Cloudy1>
+	<Night_Cloudy2>
+		<windSpeed>	1.500000 0.000000	</windSpeed>
+		<windGustiness>	1.300000	</windGustiness>
+		<skyBox>	weather/models/overhead02.model	</skyBox>
+		<sun>	0.811765 0.909804 0.992157 1.000000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<sfx>	sfx/weather/night_cicadas.xml	</sfx>
+		<ambient>	1.000000 1.000000 1.000000 1.000000	</ambient>
+		<fogFactor>	0.300000	</fogFactor>
+		<bloom>
+			<numPasses>	2	</numPasses>
+			<power>	4.000000	</power>
+			<attenuation>	1.000000 0.501961 0.000000 1.500000	</attenuation>
+		</bloom>
+	</Night_Cloudy2>
+	<Night_Cloudy3>
+		<skyBox>	weather/models/overhead03.model	</skyBox>
+		<windSpeed>	2.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<default>	spaces/desert	</default>
+		<default>	spaces/minspec	</default>
+		<sfx>	sfx/weather/night_cicadas.xml	</sfx>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<fogFactor>	0.150000	</fogFactor>
+		<bloom>
+			<attenuation>	1.000000 0.501961 0.000000 1.500000	</attenuation>
+			<numPasses>	2	</numPasses>
+			<power>	4.000000	</power>
+		</bloom>
+		<sun>	0.811765 0.909804 0.992157 1.400000	</sun>
+		<ambient>	0.466667 0.537255 0.600000 1.000000	</ambient>
+	</Night_Cloudy3>
+	<MEsun_Cloudy1>
+		<windSpeed>	1.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<bloom>	Standard
+			<power>	3.000000	</power>
+			<width>	1	</width>
+			<numPasses>	2	</numPasses>
+			<attenuation>	1.000000 0.501961 0.000000 2.000000	</attenuation>
+		</bloom>
+		<sfx>	sfx/weather/fog.xml	</sfx>
+		<skyBox>	weather/models/horizon_ring_cloud.model	</skyBox>
+		<ambient>	1.000000 0.925490 0.882353 1.000000	</ambient>
+		<sun>	1.000000 0.839216 0.803922 0.200000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+	</MEsun_Cloudy1>
+	<MEsun_Cloudy2>
+		<windSpeed>	1.500000 0.000000	</windSpeed>
+		<windGustiness>	1.300000	</windGustiness>
+		<skyBox>	weather/models/overhead02.model	</skyBox>
+		<sun>	1.000000 0.839216 0.803922 0.200000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<sfx>	sfx/weather/fog.xml	</sfx>
+		<ambient>	1.000000 0.921569 0.882353 1.000000	</ambient>
+		<fogFactor>	0.300000	</fogFactor>
+		<bloom>
+			<numPasses>	2	</numPasses>
+			<power>	3.000000	</power>
+			<attenuation>	1.000000 0.501961 0.000000 2.000000	</attenuation>
+		</bloom>
+	</MEsun_Cloudy2>
+	<MEsun_Cloudy3>
+		<skyBox>	weather/models/overhead03.model	</skyBox>
+		<windSpeed>	2.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<default>	spaces/desert	</default>
+		<default>	spaces/minspec	</default>
+		<sfx>	sfx/weather/fog.xml	</sfx>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<fogFactor>	0.150000	</fogFactor>
+		<bloom>
+			<attenuation>	1.000000 0.501961 0.000000 3.000000	</attenuation>
+			<numPasses>	2	</numPasses>
+			<power>	5.000000	</power>
+		</bloom>
+		<sun>	1.000000 0.839216 0.803922 0.200000	</sun>
+		<ambient>	1.000000 0.921569 0.882353 1.000000	</ambient>
+	</MEsun_Cloudy3>
+	<MEmoon_Cloudy1>
+		<windSpeed>	1.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<bloom>	Standard
+			<power>	3.000000	</power>
+			<width>	1	</width>
+			<numPasses>	2	</numPasses>
+			<attenuation>	0.686275 0.839216 1.000000 3.000000	</attenuation>
+		</bloom>
+		<sfx>	</sfx>
+		<skyBox>	weather/models/horizon_ring_cloud.model	</skyBox>
+		<ambient>	0.803922 0.929412 0.984314 1.000000	</ambient>
+		<sun>	1.000000 1.000000 1.000000 0.000000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+	</MEmoon_Cloudy1>
+	<MEmoon_Cloudy2>
+		<windSpeed>	1.500000 0.000000	</windSpeed>
+		<windGustiness>	1.300000	</windGustiness>
+		<skyBox>	weather/models/overhead02.model	</skyBox>
+		<sun>	1.000000 1.000000 1.000000 0.000000	</sun>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<sfx>	</sfx>
+		<ambient>	0.803922 0.929412 0.984314 1.000000	</ambient>
+		<fogFactor>	0.300000	</fogFactor>
+		<bloom>
+			<numPasses>	1	</numPasses>
+			<power>	2.500000	</power>
+			<attenuation>	0.686275 0.839216 1.000000 3.000000	</attenuation>
+		</bloom>
+	</MEmoon_Cloudy2>
+	<MEmoon_Cloudy3>
+		<skyBox>	weather/models/overhead03.model	</skyBox>
+		<windSpeed>	2.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<default>	spaces/desert	</default>
+		<default>	spaces/minspec	</default>
+		<sfx>	</sfx>
+		<fog>	0.686275 0.839216 1.000000 1.000000	</fog>
+		<fogFactor>	0.150000	</fogFactor>
+		<bloom>
+			<attenuation>	0.686275 0.839216 1.000000 3.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	2.500000	</power>
+		</bloom>
+		<sun>	1.000000 1.000000 1.000000 0.000000	</sun>
+		<ambient>	0.803922 0.929412 0.984314 1.000000	</ambient>
+	</MEmoon_Cloudy3>
+	<Cloudy_shadows>
+		<bloom>
+			<attenuation>	0.501961 0.639216 0.784314 2.000000	</attenuation>
+			<numPasses>	2	</numPasses>
+			<power>	3.000000	</power>
+			<width>	1	</width>
+		</bloom>
+		<default>	spaces/dm_outlands_village	</default>
+		<skyBox>	weather/models/horizon_ring_cloud03.model	</skyBox>
+		<sun>	1.000000 0.882353 0.819608 1.500000	</sun>
+		<ambient>	0.384314 0.462745 0.556863 1.000000	</ambient>
+		<default>	spaces/dm_rocks	</default>
+		<fog>	1.000000 1.000000 1.000000 1.200000	</fog>
+	</Cloudy_shadows>
+	<ME_Stormy>
+		<skyBox>	weather/models/storm_overhead.model	</skyBox>
+		<skyBox>	weather/models/horizon_ring_storm.model	</skyBox>
+		<sun>	0.992157 0.901961 0.803922 0.500000	</sun>
+		<ambient>	0.411765 0.411765 0.411765 1.300000	</ambient>
+		<fog>	0.803922 0.803922 0.721569 2.000000	</fog>
+		<sfx>	sfx/weather/fog.xml	</sfx>
+		<windSpeed>	1.000000 -0.500000	</windSpeed>
+		<windGustiness>	0.000000	</windGustiness>
+		<bloom>
+			<attenuation>	0.992157 0.639216 0.250980 3.000000	</attenuation>
+			<numPasses>	2	</numPasses>
+			<power>	2.500000	</power>
+			<width>	1	</width>
+		</bloom>
+		<fogFactor>	0.150000	</fogFactor>
+	</ME_Stormy>
+	<DN_Stormy>
+		<skyBox>	weather/models/storm_overhead.model	</skyBox>
+		<skyBox>	weather/models/horizon_ring_storm.model	</skyBox>
+		<sun>	0.976471 0.831373 0.874510 1.300000	</sun>
+		<ambient>	0.411765 0.411765 0.411765 1.300000	</ambient>
+		<fog>	0.803922 0.803922 0.721569 2.000000	</fog>
+		<sfx>	</sfx>
+		<windSpeed>	1.000000 -0.500000	</windSpeed>
+		<windGustiness>	0.000000	</windGustiness>
+		<bloom>
+			<attenuation>	0.984314 0.694118 0.266667 3.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	2.500000	</power>
+			<width>	2	</width>
+		</bloom>
+		<fogFactor>	0.150000	</fogFactor>
+		<default>	spaces/10x2km	</default>
+		<default>	spaces/outlands_caravan	</default>
+		<default>	spaces/tunguska	</default>
+		<default>	spaces/outlands_airport	</default>
+		<default>	spaces/dm_ryabinushka	</default>
+		<default>	spaces/pripyat	</default>
+		<default>	spaces/outlands	</default>
+		<default>	spaces/city_lubech	</default>
+	</DN_Stormy>
+	<Rainy>
+		<rain>	0.200000	</rain>
+		<sun>	0.501961 0.501961 0.501961 0.000000	</sun>
+		<ambient>	1.000000 1.000000 1.000000 1.300000	</ambient>
+		<fog>	1.000000 1.000000 1.000000 3.000000	</fog>
+		<sfx>	sfx/weather/rain.xml	</sfx>
+		<windSpeed>	2.000000 0.000000	</windSpeed>
+		<windGustiness>	15.000000	</windGustiness>
+		<bloom>
+			<attenuation>	0.592157 0.803922 0.874510 3.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	2.400000	</power>
+			<width>	1	</width>
+		</bloom>
+		<fogFactor>	0.500000	</fogFactor>
+		<skyBox>	weather/models/storm_overhead.model	</skyBox>
+	</Rainy>
+	<DN_DustStorm>
+		<skyBox>	weather/models/storm_overhead.model	</skyBox>
+		<skyBox>	weather/models/horizon_ring_storm.model	</skyBox>
+		<sun>	1.000000 0.819608 0.729412 1.000000	</sun>
+		<ambient>	0.447059 0.447059 0.447059 1.000000	</ambient>
+		<fog>	1.000000 0.803922 0.603922 2.000000	</fog>
+		<sfx>	sfx/weather/dust_storm.xml	</sfx>
+		<windSpeed>	0.500000 0.500000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<bloom>
+			<attenuation>	1.000000 0.501961 0.000000 3.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	2.000000	</power>
+			<width>	1	</width>
+		</bloom>
+		<fogFactor>	1.000000	</fogFactor>
+	</DN_DustStorm>
+	<ME_DustStorm>
+		<skyBox>	weather/models/storm_overhead.model	</skyBox>
+		<skyBox>	weather/models/horizon_ring_storm.model	</skyBox>
+		<sun>	1.000000 0.819608 0.729412 0.000000	</sun>
+		<ambient>	0.447059 0.447059 0.447059 1.000000	</ambient>
+		<fog>	1.000000 0.756863 0.517647 3.000000	</fog>
+		<sfx>	sfx/weather/dust_storm.xml	</sfx>
+		<windSpeed>	0.100000 0.100000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<bloom>
+			<attenuation>	1.000000 0.701961 0.400000 3.000000	</attenuation>
+			<numPasses>	2	</numPasses>
+			<power>	2.500000	</power>
+			<width>	1	</width>
+		</bloom>
+		<fogFactor>	0.620000	</fogFactor>
+		<default>	spaces/vesuvius	</default>
+		<default>	spaces/volcano	</default>
+	</ME_DustStorm>
+	<Snow>
+		<skyBox>	weather/models/storm_overhead.model	</skyBox>
+		<skyBox>	weather/models/horizon_ring_storm.model	</skyBox>
+		<sun>	0.462745 0.686275 0.937255 1.000000	</sun>
+		<ambient>	1.100000 1.100000 1.100000 1.000000	</ambient>
+		<fog>	0.066667 0.654902 0.737255 2.500000	</fog>
+		<sfx>	sfx/weather/snow.xml	</sfx>
+		<windSpeed>	5.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<exclude>	spaces/desert	</exclude>
+		<bloom>
+			<attenuation>	1.010000 0.990000 0.980000 1.005000	</attenuation>
+			<numPasses>	10	</numPasses>
+			<power>	8.000000	</power>
+			<width>	2	</width>
+		</bloom>
+		<default>	spaces/arctic	</default>
+		<fogFactor>	0.660000	</fogFactor>
+		<exclude>	spaces/city_lubech	</exclude>
+		<default>	spaces/pk_prison01	</default>
+	</Snow>
+	<Blizzard>
+		<sun>	1.100000 1.300000 1.700000 1.000000	</sun>
+		<ambient>	0.643137 0.858824 0.858824 1.000000	</ambient>
+		<fog>	0.066667 0.654902 0.737255 2.500000	</fog>
+		<sfx>	sfx/weather/blizzard_nz.xml	</sfx>
+		<fogFactor>	0.660000	</fogFactor>
+		<windSpeed>	9.000000 0.000000	</windSpeed>
+		<windGustiness>	1.000000	</windGustiness>
+		<exclude>	spaces/desert	</exclude>
+		<bloom>
+			<attenuation>	0.458824 0.839216 0.592157 5.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	2.500000	</power>
+			<width>	1	</width>
+		</bloom>
+		<default>	spaces/novaya	</default>
+		<skyBox>	weather/models/storm_overhead1.model	</skyBox>
+		<default>	spaces/dm_snowland	</default>
+	</Blizzard>
+	<Fog>
+		<sun>	0.501961 0.501961 0.501961 0.000000	</sun>
+		<ambient>	1.000000 1.000000 1.000000 1.000000	</ambient>
+		<fog>	1.000000 1.000000 1.000000 2.000000	</fog>
+		<sfx>	sfx/weather/fog.xml	</sfx>
+		<fogFactor>	1.000000	</fogFactor>
+		<windSpeed>	0.100000 0.000000	</windSpeed>
+		<windGustiness>	0.000000	</windGustiness>
+		<default>	spaces/personages_select	</default>
+		<bloom>
+			<attenuation>	0.596078 0.807843 0.878431 3.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	2.400000	</power>
+			<width>	1	</width>
+		</bloom>
+		<skyBox>	weather/models/storm_overhead.model	</skyBox>
+		<default>	spaces/so_origins	</default>
+	</Fog>
+	<Steppe>
+		<fog>	0.549020 0.682353 0.741176 2.000000	</fog>
+		<sfx>	</sfx>
+		<bloom>
+			<power>	26.100000	</power>
+		</bloom>
+		<skyBox>	weather/models/horizon_ring_cloud.model	</skyBox>
+		<skyBox>	weather/models/steppe_mountain_back.model	</skyBox>
+		<default>	spaces/road_to_airport	</default>
+	</Steppe>
+	<Steppe_dustwind>
+		<sfx>	sfx/weather/steppe_dust_storm.xml	</sfx>
+		<sun>	0.996078 0.705882 0.560784 1.000000	</sun>
+		<ambient>	0.552941 0.552941 0.552941 1.000000	</ambient>
+		<fogFactor>	0.690000	</fogFactor>
+		<windSpeed>	0.500000 0.500000	</windSpeed>
+		<windGustiness>	1.200000	</windGustiness>
+		<fog>	0.000000 0.458824 0.909804 1.100000	</fog>
+		<bloom>
+			<numPasses>	1	</numPasses>
+			<power>	2.000000	</power>
+			<attenuation>	0.286275 0.529412 0.937255 2.000000	</attenuation>
+		</bloom>
+		<default>	spaces/steppe_dust	</default>
+		<skyBox>	weather/models/steppe_mountain_back.model	</skyBox>
+		<default>	spaces/steppe	</default>
+	</Steppe_dustwind>
+	<Night_Quasar>
+		<sfx>	sfx/weather/night_cicadas.xml	</sfx>
+		<sun>	1.000000 1.000000 1.000000 1.000000	</sun>
+		<bloom>
+			<numPasses>	1	</numPasses>
+			<power>	1.000000	</power>
+			<attenuation>	1.000000 0.501961 0.247059 1.980000	</attenuation>
+		</bloom>
+		<fog>	1.000000 1.000000 1.000000 1.000000	</fog>
+		<skyBox>	weather/models/overhead02.model	</skyBox>
+		<skyBox>	weather/models/backgrounds/bg_quasar.model	</skyBox>
+		<windSpeed>	0.000000 0.000000	</windSpeed>
+		<windGustiness>	5.000000	</windGustiness>
+		<ambient>	1.000000 1.000000 1.000000 1.000000	</ambient>
+	</Night_Quasar>
+	<Night_BlueClouds>
+		<skyBox>	weather/models/backgrounds/blue_clouds.model	</skyBox>
+		<sfx>	sfx/weather/night_cicadas.xml	</sfx>
+		<bloom>
+			<numPasses>	1	</numPasses>
+			<power>	1.500000	</power>
+			<attenuation>	0.219608 0.521569 0.792157 5.000000	</attenuation>
+		</bloom>
+		<fog>	0.207843 0.380392 0.592157 2.000000	</fog>
+		<ambient>	0.203922 0.376471 0.592157 1.100000	</ambient>
+		<sun>	1.000000 1.000000 1.000000 0.800000	</sun>
+	</Night_BlueClouds>
+	<Night_BordoNebula>
+		<skyBox>	weather/models/backgrounds/dead_sky_bordo.model	</skyBox>
+		<rain>	0.000000	</rain>
+		<sun>	0.937255 0.427451 0.796078 1.300000	</sun>
+		<sfx>	sfx/weather/night_cicadas.xml	</sfx>
+		<bloom>
+			<attenuation>	1.000000 0.501961 0.250980 3.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	1.500000	</power>
+			<width>	1	</width>
+		</bloom>
+		<ambient>	1.000000 1.000000 1.000000 1.000000	</ambient>
+		<fog>	0.984314 0.776471 0.894118 1.200000	</fog>
+	</Night_BordoNebula>
+	<Night_BlueRed>
+		<skyBox>	weather/models/backgrounds/blue_red_galaxy.model	</skyBox>
+		<sfx>	sfx/weather/night_cicadas.xml	</sfx>
+		<sun>	0.576471 0.752941 0.976471 1.000000	</sun>
+		<bloom>
+			<attenuation>	0.219608 0.521569 0.792157 5.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	1.500000	</power>
+			<width>	1	</width>
+		</bloom>
+		<ambient>	0.992157 0.913725 0.858824 1.000000	</ambient>
+		<fog>	0.686275 0.796078 0.980392 1.500000	</fog>
+	</Night_BlueRed>
+	<Nz_aurora>
+		<ambient>	0.639216 0.858824 0.858824 1.000000	</ambient>
+		<sun>	1.098039 1.298039 1.698039 1.000000	</sun>
+		<fog>	0.066667 0.654902 0.737255 3.000000	</fog>
+		<fogFactor>	0.660000	</fogFactor>
+		<windGustiness>	0.000000	</windGustiness>
+		<sfx>	sfx/weather/snow.xml	</sfx>
+		<bloom>
+			<attenuation>	0.458824 0.839216 0.592157 5.000000	</attenuation>
+			<power>	4.000000	</power>
+			<numPasses>	1	</numPasses>
+		</bloom>
+		<skyBox>	weather/models/backgrounds/bg_aurora.model	</skyBox>
+	</Nz_aurora>
+	<Lubech_Underground>
+		<fog>	0.407843 0.666667 0.250980 5.000000	</fog>
+		<bloom>
+			<attenuation>	1.000000 0.501961 0.000000 3.000000	</attenuation>
+			<power>	1.400000	</power>
+			<numPasses>	1	</numPasses>
+		</bloom>
+		<default>	spaces/lubech_uderground	</default>
+		<default>	spaces/laboratory	</default>
+		<default>	spaces/donate_base_small	</default>
+	</Lubech_Underground>
+	<Paukan_Dungeon>
+		<fog>	0.239216 0.470588 0.678431 5.000000	</fog>
+		<bloom>
+			<attenuation>	1.000000 0.501961 0.000000 3.000000	</attenuation>
+			<numPasses>	1	</numPasses>
+			<power>	1.400000	</power>
+		</bloom>
+	</Paukan_Dungeon>
+</weather.xml>

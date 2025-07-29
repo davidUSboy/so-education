@@ -1,0 +1,264 @@
+<root>
+	<Implements>
+        <Interface> Teleporter </Interface>
+        <Interface> TimerManagerBase </Interface>
+		<Interface> TimerManagerCell </Interface>
+		<!--<Interface> IEventListener </Interface>-->
+	</Implements>
+
+	<Properties>
+
+
+		<timePeriods>
+			<Type> ARRAY <of>
+				FIXED_DICT
+				<Properties>
+					<time>
+						<Type>      INT64       </Type>
+					</time>
+					<name>
+						<Type>      STRING      </Type>
+					</name>
+				</Properties> </of>
+			  </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</timePeriods>
+
+
+		<isRound>
+			<Type> INT8 </Type>
+			<Flags> BASE </Flags>
+		</isRound>
+
+
+		<spaceDir>
+
+			<Type> STRING </Type>
+			<Flags> BASE </Flags>
+			<!-- <Persistent>	true			</Persistent> -->
+		</spaceDir>		
+
+		<ownersNames>
+			<Type> ARRAY <of> UNICODE_STRING </of> </Type>
+			<Flags> BASE </Flags>
+		</ownersNames>
+
+		<connectStaus>
+			<Type> INT32 </Type>
+			<Flags> BASE </Flags>
+		</connectStaus>
+
+
+		<spawnAreas>
+			<Type> ARRAY <of> FIXED_DICT
+								<Properties>
+										<teamID>
+											<Type> INT8 </Type>
+										</teamID>
+										<pos>
+											<Type> VECTOR3 </Type>
+										</pos>
+								</Properties>		
+
+						 </of> </Type>
+			<Flags> BASE </Flags>
+		</spawnAreas>
+
+
+		<playersChangeTeamNextRound>
+			<Type> ARRAY <of> NAMEANDTEAM </of> </Type>
+			<Flags> BASE </Flags>
+		</playersChangeTeamNextRound>
+
+
+		<owner>
+			<Type> MAILBOX </Type>
+			<Flags> BASE </Flags>
+		</owner>
+
+		<geometry>
+			<Type> STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<!-- <Persistent>	true			</Persistent> -->
+		</geometry>
+
+		<startTime>
+			<Type> FLOAT64 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<!-- <Persistent>	false			</Persistent> -->
+		</startTime>
+
+		<!-- 	<isDefault>
+			<Type> INT8 </Type>
+			<Flags> BASE </Flags>
+		</isDefault>
+		 -->
+
+		 <gameInfo>
+		 	<Flags> BASE </Flags>
+		 	<Type>	CSGAMEINFO	</Type>
+
+		 </gameInfo>
+
+
+		<notifyBaseOnLoad>
+			<Type> MAILBOX  </Type>
+			<Flags> BASE</Flags>
+		</notifyBaseOnLoad>
+
+
+		<spawnPoints>
+			<Type> ARRAY <of> MAILBOX  </of> </Type>
+			<Flags> BASE</Flags>
+		</spawnPoints>
+
+
+		<players>
+			<Type> ARRAY <of> CSPLAYER  </of> </Type>
+			<Flags> BASE</Flags>
+		</players>
+
+
+		<invitations>
+			<Type> ARRAY <of> STRING  </of> </Type>
+			<Flags> BASE</Flags>
+		</invitations>
+
+
+		<maxplayers>
+			<Type> INT16   </Type>
+			<Flags> BASE</Flags>
+		</maxplayers>
+
+
+
+		<timeOfDay>
+			<Type> INT32   </Type>
+			<Flags> BASE</Flags>
+		</timeOfDay>
+		
+
+		<weather>
+			<Type> STRING  </Type>
+			<Flags> BASE</Flags>
+		</weather>
+
+		<!--<registeredEntities>-->
+			<!--<Type> ARRAY <of> MAILBOX </of>  </Type>-->
+			<!--<Flags> CELL_PRIVATE </Flags>-->
+		<!--</registeredEntities>-->
+
+		
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<gotSpaceID>
+			<Arg> INT32 </Arg>
+		</gotSpaceID>
+		
+		<destroySpace>
+		</destroySpace>
+
+		<kickAllPlayersAndDestroy>
+		</kickAllPlayersAndDestroy>
+
+
+
+
+		<playerConnect>
+			<Arg>UNICODE_STRING</Arg>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+		</playerConnect>
+
+
+		<roomsInfo>
+			<Arg>MAILBOX</Arg>
+			<Arg>ARRAY <of>ENTITY_ID</of></Arg>
+		</roomsInfo>
+		
+		
+		
+		
+		
+		
+		<playerDisconnect>
+			<Arg>	UNICODE_STRING	</Arg>
+		</playerDisconnect>
+		
+		
+		
+		<onEnterSpace>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+		</onEnterSpace>
+		
+			
+		
+		<changeTeam>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32	</Arg>
+		</changeTeam>
+		
+		
+		<kickPlayer>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	UNICODE_STRING	</Arg>
+		</kickPlayer>
+
+
+		<addOwner>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32	</Arg>
+		</addOwner>
+
+		<delOwner>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32	</Arg>
+		</delOwner>
+
+
+		<inviteToRoom>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	MAILBOX	</Arg>
+			<Arg>	INT32	</Arg>
+		</inviteToRoom>
+
+
+		<on_death>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	ARRAY <of> INT16 </of>	</Arg>
+
+		</on_death>
+
+
+
+	</BaseMethods>
+
+	<CellMethods>
+		<destroySpace>
+		</destroySpace>
+		
+
+		<!--<registerOnEvent>-->
+			<!--<Arg>   MAILBOX  </Arg>-->
+		<!--</registerOnEvent>-->
+
+		<!--<deregisterOnEvent>-->
+			<!--<Arg>   MAILBOX  </Arg>-->
+		<!--</deregisterOnEvent>-->
+	</CellMethods>
+</root>

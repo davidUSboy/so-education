@@ -1,0 +1,223 @@
+<root>
+	<Properties>
+		<Group>
+			<Type> INT64 	</Type>
+			<Default>	0	</Default>
+			<Flags>	BASE 	</Flags>
+		</Group>
+
+		<active_invites>
+			<Type> ARRAY <of> ENTITY_ID </of> 	</Type>
+			<Flags>	BASE 	</Flags>
+		</active_invites>
+
+        <CellGroupInfo>
+			<Type> 	CELL_GROUP_NFO </Type>
+			<Flags>	CELL_PRIVATE 	</Flags>
+		</CellGroupInfo>
+
+		<ClientGroupInfo>
+			<Type> 	CLIENT_GROUP_NFO </Type>
+			<Flags>	OWN_CLIENT 	</Flags>
+		</ClientGroupInfo>
+
+        <!--<gm_effect_timer_id>-->
+			<!--<Type> 	INT16 </Type>-->
+			<!--<Flags>	CELL_PRIVATE 	</Flags>-->
+	        <!--<Default> 0 </Default>-->
+		<!--</gm_effect_timer_id>-->
+
+        <!--<gm_pbar_timer_id>-->
+			<!--<Type> 	INT16 </Type>-->
+			<!--<Flags>	CELL_PRIVATE 	</Flags>-->
+	        <!--<Default> 0 </Default>-->
+		<!--</gm_pbar_timer_id>-->
+
+
+	</Properties>
+
+	<CellMethods>
+		<transPotential>
+			<Arg>	DBID	 		</Arg>
+			<Arg>	GROUPID	 		</Arg>
+		</transPotential>
+
+		<takeMainGroupInfo>
+			<!--<Arg>	ARRAY	<of>	INT64	</of>	</Arg>-->
+			<Arg>	GROUPID							</Arg>
+            <Arg>	INT16							</Arg>
+		</takeMainGroupInfo>
+
+		<setCommand>
+			<Arg>	INT8							</Arg>
+		</setCommand>
+
+		<setStatus>
+			<Arg>	INT16							</Arg>
+		</setStatus>
+
+		<setReferee>
+			<Arg>	MAILBOX							</Arg>
+		</setReferee>
+
+        <setMemberPBarInfo>
+            <Arg>	ENTITY_ID						</Arg>
+            <Arg>	FLOAT32							</Arg> <!-- health -->
+            <Arg>	FLOAT32							</Arg> <!-- stamina -->
+            <Arg>	FLOAT32							</Arg> <!-- survive -->
+        </setMemberPBarInfo>
+
+        <setMemberHealthBar>
+            <Arg>	ENTITY_ID						</Arg>
+            <Arg>	FLOAT32							</Arg> <!-- health -->
+        </setMemberHealthBar>
+
+        <takeGroupInformation>
+            <Arg>	ARRAY	<of>	UNICODE_STRING	</of>	</Arg><!-- names -->
+            <Arg>	ARRAY	<of>	INT8	        </of>	</Arg><!-- roles -->
+            <Arg>	ARRAY	<of>	ENTITY_ID	    </of>	</Arg><!-- mboxes -->
+            <Arg>	ARRAY	<of>	INT16	        </of>	</Arg><!-- flags -->
+		</takeGroupInformation>
+
+        <delMemberInformation>
+            <Arg>	ENTITY_ID						</Arg>
+        </delMemberInformation>
+
+        <addMemberInformation>
+            <Arg>	UNICODE_STRING	</Arg><!-- names -->
+            <Arg>	INT8	        </Arg><!-- roles -->
+            <Arg>	ENTITY_ID	    </Arg><!-- mboxes -->
+        </addMemberInformation>
+
+        <memberEffectAdded>
+            <Arg>	ENTITY_ID	    </Arg>
+            <Arg>	BASE_EFFECT_ID	    </Arg>
+        </memberEffectAdded>
+
+        <memberEffectRemoved>
+            <Arg>	ENTITY_ID	    </Arg>
+            <Arg>	BASE_EFFECT_ID	    </Arg>
+        </memberEffectRemoved>
+
+        <memberEffectUpdate>
+            <Arg>	ENTITY_ID	                        </Arg>
+            <Arg>	ARRAY <of> BASE_EFFECT_ID </of>     </Arg>
+        </memberEffectUpdate>
+
+
+        <setFlags>
+            <Arg>	INT16	                            </Arg>
+        </setFlags>
+
+        <onRecommendInvite>
+			<Arg>ARRAY <of>UNICODE_STRING </of> 		</Arg>
+			<Exposed/>
+        </onRecommendInvite>
+
+        <recommendInvite>
+            <Arg>ARRAY <of>UNICODE_STRING </of> 		</Arg>
+            <Arg>           ENTITY_ID              </Arg>
+        </recommendInvite>
+
+		<tellAboutPartyStatus>
+			<Arg>	ARRAY		<of>		INT64		</of>		</Arg>
+			<Arg>	ARRAY		<of>		UNICODE_STRING		</of>		</Arg>
+			<Arg>	INT8		</Arg>
+		</tellAboutPartyStatus>
+    </CellMethods>
+
+	<BaseMethods>
+		<clearCurrentInviteInformation>
+			<Arg>	INT8		</Arg>
+			<Exposed/>
+		</clearCurrentInviteInformation>
+
+		<onTryCreateGroup>
+			<Arg>ARRAY <of>UNICODE_STRING </of> 		</Arg>
+			<Exposed/>
+		</onTryCreateGroup>
+
+		<askOnJoinToGroup>
+			<Arg> MAILBOX 					</Arg>
+			<Arg> UNICODE_STRING 			</Arg>
+			<Arg> DBID 						</Arg>
+		</askOnJoinToGroup>
+        
+		<joinInGroup>
+			<Exposed/>
+		</joinInGroup>
+
+		<setGroup>
+			<Arg>	INT64						</Arg>
+		</setGroup>
+
+		<!--<showParticipant>-->
+			<!--<Exposed/>-->
+		<!--</showParticipant>-->
+
+		<leaveGroup>
+			<Exposed/>
+		</leaveGroup>
+
+		<kickFromGroup>
+			<Arg> UNICODE_STRING	</Arg>
+			<Exposed/>
+		</kickFromGroup>
+
+		<destroyGroup>
+			<Exposed/>
+		</destroyGroup>
+
+        <updateGroupFlags>
+            <Arg>	ENTITY_ID	                        </Arg>
+            <Exposed/>
+        </updateGroupFlags>
+
+        <tryChangeOwner>
+			<Arg> UNICODE_STRING	</Arg>
+			<Exposed/>
+        </tryChangeOwner>
+
+        <takedAnswer>
+            <Arg> ENTITY_ID	</Arg>
+        </takedAnswer>
+	</BaseMethods>
+
+	<ClientMethods>
+        <updateJournal>
+		    <Arg>	ARRAY		<of>		QUESTID		</of>		</Arg>
+	    </updateJournal>
+
+		<updateGroupScreen>
+		</updateGroupScreen>
+
+
+        <!--<setMemberHealthInfo>-->
+            <!--<Arg>	INT64							</Arg>-->
+            <!--<Arg>	FLOAT32							</Arg>-->
+        <!--</setMemberHealthInfo>-->
+
+        <memberEffectUpdate>
+            <Arg>	ENTITY_ID	                        </Arg>
+            <Arg>	ARRAY <of> BASE_EFFECT_ID </of>    </Arg>
+        </memberEffectUpdate>
+
+        <delMember>
+            <Arg>	ENTITY_ID	                        </Arg>  
+        </delMember>
+
+        <onGroupSettingsChanged>
+        </onGroupSettingsChanged>
+
+        <recommendInvite>
+            <Arg>UNICODE_STRING                     </Arg>
+            <Arg>         ENTITY_ID                 </Arg>
+        </recommendInvite>
+
+		<tellAboutPartyStatus>
+			<Arg>	ARRAY		<of>		INT64		</of>		</Arg>
+			<Arg>	ARRAY		<of>		UNICODE_STRING		</of>		</Arg>
+			<Arg>	INT8		</Arg>
+		</tellAboutPartyStatus>
+	</ClientMethods>
+</root>

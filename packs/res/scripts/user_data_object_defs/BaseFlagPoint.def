@@ -1,0 +1,38 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+
+	<Properties>
+        <npcUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+            <Editable>      True                     </Editable>
+		</npcUDO>
+        <time>
+			<Type>			FLOAT               </Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+            <Editable>      True                     </Editable>
+		</time>
+
+		<level>
+			<Type>			FLAG_LEVEL		    </Type>
+	        <Default>           0               </Default>
+			<Editable>      True                </Editable>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</level>
+
+		 <radius> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		50.000000 			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+	</Properties>
+
+</root>
+

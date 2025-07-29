@@ -1,0 +1,28 @@
+<root>
+  <data>
+    <STRING_13_25>Open quest log</STRING_13_25>
+    <STRING_14_23>Open GPS map</STRING_14_23>
+    <STRING_15_23>Open PDA</STRING_15_23>
+    <STRING_16_29>Examine equipment</STRING_16_29>
+    <STRING_17_29>Open backpack</STRING_17_29>
+    <STRING_18_24>Increase rank</STRING_18_24>
+    <STRING_19_26>Decrease rank</STRING_19_26>
+    <STRING_20_25>Add rank</STRING_20_25>
+    <STRING_21_28>Delete rank</STRING_21_28>
+    <STRING_22_26>Change privileges</STRING_22_26>
+    <STRING_23_31>Hide buffs</STRING_23_31>
+    <STRING_24_31>Show buffs</STRING_24_31>
+    <STRING_25_37>Big frame</STRING_25_37>
+    <STRING_26_37>Small frame</STRING_26_37>
+    <STRING_27_36>Squad settings</STRING_27_36>
+    <STRING_28_29>Enter sum</STRING_28_29>
+    <STRING_29_31>Send message</STRING_29_31>
+    <STRING_30_34>Channel settings</STRING_30_34>
+    <STRING_31_39>Spend experience points</STRING_31_39>
+    <button_premium>Premium account allows you to increase the incoming experience twice. It costs 300 roubles for a month subscription.</button_premium>
+    <push_gold>Put gold coins in a bank</push_gold>
+    <push_money>Put money in a bank</push_money>
+    <give_gold>Take gold doins from a bank</give_gold>
+    <give_money>Take money from a bank</give_money>
+  </data>
+</root>

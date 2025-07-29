@@ -1,0 +1,74 @@
+<Impenetrable.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm</nodeName>
+      <boxName>Bip01 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.075000 -0.085000</minBounds>
+      <maxBounds>0.460000 0.075000 0.085000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L UpperArm</nodeName>
+      <boxName>Bip01 L UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.000353 -0.125034 -0.129486</minBounds>
+      <maxBounds>0.324647 0.074966 0.100514</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm</nodeName>
+      <boxName>Bip01 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.075000 -0.085000</minBounds>
+      <maxBounds>0.460000 0.075000 0.085000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R UpperArm</nodeName>
+      <boxName>Bip01 R UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.000353 -0.074966 -0.129487</minBounds>
+      <maxBounds>0.324647 0.125034 0.100514</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>Bip01 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.015211 -0.092944 -0.102093</minBounds>
+      <maxBounds>0.240680 0.092944 0.141374</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Calf</nodeName>
+      <boxName>Bip01 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.095000 -0.105000</minBounds>
+      <maxBounds>0.500000 0.095000 0.105000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Thigh</nodeName>
+      <boxName>Bip01 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.120000 -0.130000</minBounds>
+      <maxBounds>0.370000 0.120000 0.130000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Calf</nodeName>
+      <boxName>Bip01 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.095000 -0.105000</minBounds>
+      <maxBounds>0.500000 0.095000 0.105000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Thigh</nodeName>
+      <boxName>Bip01 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.122500 -0.130000</minBounds>
+      <maxBounds>0.370000 0.122500 0.130000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine</nodeName>
+      <boxName>Bip01 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.116734 -0.211100 -0.218271</minBounds>
+      <maxBounds>0.607403 0.211100 0.200928</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Impenetrable.xml>

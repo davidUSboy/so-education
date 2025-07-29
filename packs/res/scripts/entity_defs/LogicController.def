@@ -1,0 +1,35 @@
+<root>
+
+	<Implements>
+		<Interface> BaseAndCell     </Interface>
+		<Interface> TimerManagerCell </Interface>
+		<Interface> IEventListener  </Interface>
+	</Implements>
+
+	<Properties>
+		<logic_nodes>
+			<Type>			ARRAY <of> UDO_REF </of>	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Editable> true </Editable>
+		</logic_nodes>
+	
+		<entities>
+			<Type>			ARRAY <of> MAILBOX </of>	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</entities>
+		
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

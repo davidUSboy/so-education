@@ -1,0 +1,268 @@
+<root>
+	<Implements>
+                <Interface> BaseAndCell </Interface>
+				<Interface> TimerManagerCell </Interface>
+        		<!--<Interface>Manipulator</Interface>-->
+	</Implements>
+
+    <Properties>
+
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE	        </Flags>
+			<Editable>      True                     </Editable>
+		</name>
+		<!--<name_on_cell>-->
+			<!--<Type>			STRING			</Type>-->
+			<!--<Flags>			CELL_PRIVATE	        </Flags>-->
+		<!--</name_on_cell>-->
+        <flagsUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                     </Editable>
+		</flagsUDO>
+        <tradersUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                     </Editable>
+		</tradersUDO>
+        <volumesUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                     </Editable>
+		</volumesUDO>
+        <leagersUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                     </Editable>
+		</leagersUDO>
+		<UDOExceptionsCount>
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0 				</Default>
+		</UDOExceptionsCount>
+        <!--<safeUDO>-->
+			<!--<Type>			ARRAY <of> UDO_REF </of> </Type>-->
+			<!--<Flags>			CELL_PRIVATE		</Flags>-->
+            <!--<Editable>      True                     </Editable>-->
+		<!--</safeUDO>-->
+        <safeAndRaspUDO>
+			<Type>			UDO_REF             </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                </Editable>
+		</safeAndRaspUDO>
+
+        <clanID>
+			<Type>			INT64			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Editable>      False            </Editable>
+	        <Default>		0 			    </Default>
+        </clanID>
+
+        <trapped>
+			<Type> ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <mail>
+                            <Type> MAILBOX </Type>
+                        </mail>
+                        <clanID>
+                            <Type> INT64 </Type>
+                        </clanID>
+	                    <count>
+		                    <Type> INT8 </Type>
+	                    </count>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </trapped>
+
+        <flags>
+			<Type> ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <mail>
+                            <Type> MAILBOX </Type>
+                        </mail>
+                        <id>
+                            <Type>  ENTITY_ID  </Type>
+                        </id>
+						<permission>
+							<Type>  ARRAY <of> ENTITY_ID </of>  </Type>
+						</permission>
+                        <state>
+                            <Type>  INT8  </Type>
+                        </state>
+                        <clanID>
+                            <Type>  INT64  </Type>
+                        </clanID>
+                        <winning_clanID>
+                            <Type>  INT64  </Type>
+                        </winning_clanID>
+                        <level>
+                            <Type>  INT8  </Type>
+                        </level>
+                        <progress>
+                            <Type>  INT8  </Type>
+                        </progress>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </flags>
+
+		<radius> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		5.000000 			</Default>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+        <state>
+			<Type>			INT8                    </Type>
+			<Flags>			CELL_PRIVATE		    </Flags>
+		</state>
+
+        <winning_clan>
+			<Type>			INT64			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </winning_clan>
+
+
+	    <t_weekdays>
+			<Type>			ARRAY <of>	INT8 </of>		</Type>
+			<Flags>			CELL_PRIVATE	            </Flags>
+	        <Editable>      True                        </Editable>
+		</t_weekdays>
+
+	    <t_starttime>
+			<Type>			STRING		                </Type>
+			<Flags>			CELL_PRIVATE	            </Flags>
+	        <Editable>      True                        </Editable>
+		    <Default>       00:00                       </Default>
+		</t_starttime>
+
+	    <t_period>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Editable>      True            </Editable>
+	        <Default>		90.0		    </Default>
+        </t_period>
+
+	    <!--<period_timer>-->
+			<!--<Type>			INT64			</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+	        <!--<Default>		0		    </Default>-->
+        <!--</period_timer>-->
+
+	    <duration_timer>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Default>		0		    </Default>
+        </duration_timer>
+
+	    <start_timer_time>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Default>		0		    </Default>
+        </start_timer_time>
+
+	    <neutral_point_name>
+			<Type>			STRING		                </Type>
+			<Flags>			CELL_PRIVATE	            </Flags>
+	        <Editable>      True                        </Editable>
+		</neutral_point_name>
+
+		<clanName>
+			<Type>			UNICODE_STRING		                </Type>
+			<Flags>			CELL_PRIVATE	            </Flags>
+		</clanName>
+
+        <safe_zone>
+			<Type>          MAILBOX         </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </safe_zone>
+	    
+        <neutral_safe_zone>
+			<Type>          MAILBOX         </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </neutral_safe_zone>
+
+	    <enemy_clans>
+            <Type>          ARRAY <of> INT64 </of>           </Type>
+			<Flags>			CELL_PRIVATE	                 </Flags>
+	    </enemy_clans>
+
+        <npcs>
+			<Type> ARRAY <of> MAILBOX
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </npcs>
+    </Properties>
+
+    <ClientMethods>
+    </ClientMethods>
+
+    <CellMethods>
+        <onEnterArea>
+            <Arg>           MAILBOX           </Arg>
+            <Arg>           INT64               </Arg>
+        </onEnterArea>
+
+        <onLeaveArea>
+            <Arg>           ENTITY_ID           </Arg>
+        </onLeaveArea>
+
+        <registerFlag>
+            <Arg>           MAILBOX             </Arg>
+            <Arg>           INT8                </Arg>
+            <Arg>           INT64                </Arg>
+	        <Arg>           INT8                </Arg>
+        </registerFlag>
+
+	    <setState>
+            <Arg>           INT8                </Arg>
+        </setState>
+        <!--<registerNPC>-->
+            <!--<Arg>   ENTITY_ID   </Arg>-->
+            <!--<Arg>   MAILBOX     </Arg>-->
+            <!--<Arg>   INT64       </Arg>-->
+        <!--</registerNPC>-->
+	    <!--<printDebugInfo>-->
+		    <!--<Arg>           UNICODE_STRING                  </Arg>-->
+		    <!--<Arg>           MAILBOX                         </Arg>-->
+	    <!--</printDebugInfo>-->
+
+	    <setClanID>
+		    <Arg>           INT64                          </Arg>
+		</setClanID>
+
+		<registerSafeZone>
+            <Arg>   MAILBOX </Arg>
+			<Arg>   STRING  </Arg>
+	    </registerSafeZone>
+	    
+        <registerNPC>
+            <Arg>   MAILBOX </Arg>
+            <Arg>   INT64 </Arg>
+        </registerNPC>
+
+	    <updateCaptureProgress>
+		    <Arg>   ENTITY_ID </Arg>
+		    <Arg>   FLOAT   </Arg>
+		    <Arg>   INT64 </Arg>
+	    </updateCaptureProgress>
+
+	    <updateEnemyClans>
+		    <Arg> ARRAY <of> INT64 </of> </Arg>
+		    <Arg>   INT64 </Arg>
+	    </updateEnemyClans>
+    </CellMethods>
+
+    <BaseMethods>
+    </BaseMethods>
+</root>

@@ -1,0 +1,35 @@
+{
+	"difficultyMin" : 1,
+	"difficultyMax" : 1000,
+	"lifetime": 288.0,
+	
+	"artifact_spawn_chance": 0.0,
+	"default_state": "main",
+	"states": {
+		"main": {
+			"radius": 23.0,
+			"radiusOut": 30.0,
+			"damage": {
+				"type": "ARMOR_PIERCING",
+				"distribution":  "RADIAL",
+				"frequency": 2.0,
+				"value": 150.0,
+				"penetration": 100.0,
+				"body_zone": "HEAD"
+			},
+			"effects": [
+				["Anomaly_Noob_visible", 1]
+			],
+			"invisible": 0,
+			"nudge_type": "NONE",
+			"nudge_interval": 1,
+			"particles": "particles/green_fog_wall.xml",
+			"particlesOut": "particles/anomaly_OFF.xml",
+			
+			
+			"sfx_self_interval": [3,6],
+			"sfx_target": "sfx/default.xml",
+			"sound": "anomaly/water"
+		}
+	}
+}

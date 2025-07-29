@@ -1,0 +1,36 @@
+{
+	"difficultyMin" : 10,
+	"difficultyMax" : 20,
+	"lifetime": 0.4,
+	
+	"artifact_spawn_chance": 0.0,
+	"height_up": 3,
+	"height_down": 0.1,
+	"default_state": "main",
+	"states": {
+		"main": {
+			"radius": 5.0,
+			"radiusOut": 10.0,
+			"damage": {
+				"type": "BLEED",
+				"distribution":  "RADIAL",
+				"frequency": 1.5,
+				"value": 400.0,
+				"penetration": 100.0,
+				"body_zone": "LEG_LOWER"
+			},
+			"effects": [
+				["Anomaly_Noob_visible", 1]
+			],
+			"invisible": 0,
+			"nudge_type": "NONE",
+			"nudge_interval": 1,
+			"particles": "particles/anomaly_web.xml",
+			"particlesOut": "particles/anomaly_OFF.xml",
+			
+			"sfx_self_interval": [3,6],
+			
+			"sound": "anomaly/gravi"
+		}
+	}
+}

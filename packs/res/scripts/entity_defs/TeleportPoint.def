@@ -1,0 +1,43 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+        <Interface> Teleporter </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	
+	<!-- TeleportPoint registers itself in GlobalDataManager by name-key -->
+	
+	<Properties>
+		<name>			
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</name>
+
+		<radius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		5.000000			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	0.000000 255.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+</root>
+

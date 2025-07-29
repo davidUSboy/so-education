@@ -1,0 +1,24 @@
+<root>
+  <chat>
+    <CLAN_CHANNEL_MARK>CL</CLAN_CHANNEL_MARK>
+    <PARTY_CHANNEL_MARK>S</PARTY_CHANNEL_MARK>
+    <TRADE_CHANNEL_MARK>TR</TRADE_CHANNEL_MARK>
+    <PRIVATE_CHANNEL_MARK>PM</PRIVATE_CHANNEL_MARK>
+    <MESSAGE_FROM_DELIMETER>from</MESSAGE_FROM_DELIMETER>
+    <MESSAGE_FROM_ME_NAME>I</MESSAGE_FROM_ME_NAME>
+    <INVITE_PLAYER_PARTY>Invite {invited_nick} to the squad</INVITE_PLAYER_PARTY>
+    <INVITE_PLAYER_CLAN>Invite {invited_nick} to the clan</INVITE_PLAYER_CLAN>
+    <CONTEXT_ADD_TO_FRIEND>Add {Nick} to friendlist</CONTEXT_ADD_TO_FRIEND>
+    <CONTEXT_ADD_TO_IGNORE>Add {Nick} to blacklist</CONTEXT_ADD_TO_IGNORE>
+  </chat>
+  <Messages>
+    <OKAY>OK</OKAY>
+    <INPUT_MONEY_FOR_TRADE>Exchange money amount</INPUT_MONEY_FOR_TRADE>
+    <EXCHANGE_WILL_START_IN>Exchange starts in {0} seconds</EXCHANGE_WILL_START_IN>
+    <OPPONENT_ACCEPT>Exchange accepted</OPPONENT_ACCEPT>
+    <GOLD_SELL_TITLE>Sell</GOLD_SELL_TITLE>
+    <GOLD_SELL_MESSAGE>WARNING! You're about to sell the unique item, which was bought with gold coins. The gold coins and sold items will NOT be refunded. Do you really want to trade the unique item for in-game money?</GOLD_SELL_MESSAGE>
+    <WEIGHT_STATE_HEAVY>You move slowly because of the weight of your equipment</WEIGHT_STATE_HEAVY>
+    <WEIGHT_STATE_STOP>You can't move, your equipment is too heavy</WEIGHT_STATE_STOP>
+  </Messages>
+</root>

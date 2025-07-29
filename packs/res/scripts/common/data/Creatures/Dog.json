@@ -1,0 +1,483 @@
+{
+	"name, bylevel" : {
+		"default" : "Creatures.common.DOG1",
+		"1" : "Creatures.common.DOG1",
+		"2" : "Creatures.common.DOG2",
+		"3" : "Creatures.common.DOG3",
+		
+		"lvl1_all" : "Creatures.common.DOG_lv1",
+		"lvl3_all" : "Creatures.common.DOG_lv3",
+		"lvl6_all" : "Creatures.common.DOG_lv6",
+		"lvl9_all" : "Creatures.common.DOG_lv9",
+		"lvl12_all" : "Creatures.common.DOG_lv12",
+		"lvl15_all" : "Creatures.common.DOG_lv15",
+		"lvl18_all" : "Creatures.common.DOG_lv18",
+		"lvl21_all" : "Creatures.common.DOG_lv21",
+		"lvl24_all" : "Creatures.common.DOG_lv24",
+		"lvl27_all" : "Creatures.common.DOG_lv27",
+		"lvl30_all" : "Creatures.common.DOG_lv30"
+	},
+	"model, bylevel" : {
+		"default" : "dog-mutant/dog-mutant.model",
+		"3" : "dog-mutant/dog-mutant_snow.model"
+	},
+	"coefLevel, bylevel": {
+		"default" : 1,
+		"1" : 2.0,
+		"2" : 10.0,
+		"3" : 99.0
+	},
+
+	"karma": 99,
+	"model_scale, bylevel" : {
+		"default" : 1,
+		"1" : 1,
+		"2" : 1.5,
+		"3" : 2.0,
+		
+		"lvl1_all" : 1,
+		"lvl3_all" : 1.05,
+		"lvl6_all" : 1.1,
+		"lvl9_all" : 1.15,
+		"lvl12_all" : 1.2,
+		"lvl15_all" : 1.25,
+		"lvl18_all" : 1.3,
+		"lvl21_all" : 1.35,
+		"lvl24_all" : 1.4,
+		"lvl27_all" : 1.45,
+		"lvl30_all" : 1.5
+	},
+	"tints, bylevel" : {
+		"default" : [{"body":"default", "wool":"default", "wool_blood":"default"}, {"body":"labrador", "wool":"labrador", "wool_blood":"labrador"}, {"body":"ovcharka", "wool":"ovcharka", "wool_blood":"ovcharka"}, {"body":"pyatna", "wool":"pyatna", "wool_blood":"pyatna"}],
+		"3" : [{}]
+	},
+	"experience, bylevel" : {
+		"default" : 40,
+		"1" : 24,
+		"2" : 54,
+		"3" : 200,
+		
+		"lvl1_all" : 24,
+		"lvl3_all" : 25,
+		"lvl6_all" : 26,
+		"lvl9_all" : 27,
+		"lvl12_all" : 28,
+		"lvl15_all" : 29,
+		"lvl18_all" : 30,
+		"lvl21_all" : 31,
+		"lvl24_all" : 32,
+		"lvl27_all" : 33,
+		"lvl30_all" : 34
+	},
+	"health, bylevel" : {
+		"default" : 0.12,
+		"1" : 0.09,
+		"2" : 0.3,
+		"3" : 0.48,
+		
+		"lvl1_all" : 0.09,
+		"lvl3_all" : 0.11,
+		"lvl6_all" : 0.13,
+		"lvl9_all" : 0.15,
+		"lvl12_all" : 0.18,
+		"lvl15_all" : 0.2,
+		"lvl18_all" : 0.22,
+		"lvl21_all" : 0.24,
+		"lvl24_all" : 0.26,
+		"lvl27_all" : 0.28,
+		"lvl30_all" : 0.3
+	},	
+	"agro_range" : 20,
+	"lose_agro_range" : 40,
+	"global_cooldown" : 3,
+	"defence, bylevel" : {
+		"default" : {
+			"MELEE" : 700.0,
+			"BULLET" : 1.0,
+			"EXPLOSION" : 30.0,
+			"BIO" : 700.0
+		},
+		"1" : {
+			"BULLET" : 0.0
+		},
+		"2" : {
+			"BULLET" : 30.0
+		},
+		"3" : {
+			"BULLET" : 60.0,
+			"COLD" : 1000.0
+		},
+		"[lvl1_all,lvl3_all,lvl4_all_agr3,lvl5_all_agr6,lvl6_all,lvl6_all_agr9,lvl9_all,lvl12_all,lvl15_all,lvl18_all,lvl21_all,lvl24_all,lvl27_all,lvl30_all]" : {
+			"BULLET" : 0.0
+		}
+	},
+	
+
+
+	"height" : 1.0,	
+	"width" : 1.0,
+	"decompose_time" : [20,60],
+	"loot, bylevel" : {
+		"default" : {},
+		"1, override" : {
+			"803" : "0.95, 1",
+			"810173" : "0.5"
+		},
+		"2, override" : {
+			"810" :	" 0.5, 1",
+			"810173" : "0.5"
+		},
+		"3, override" : {
+			"811" : "0.5, 1",
+			"810173" : "0.5"
+		},
+		
+		"lvl1_all" : {
+			"810" :	" 0.5, 1",
+			"810173" : "0.5"
+		},
+		"lvl3_all" : {
+			"810" :	" 0.5, 1",
+			"810173" : "0.5"
+		},
+		"lvl6_all" : {
+			"810" :	" 0.5, 1",
+			"810173" : "0.5"
+		},
+		"lvl9_all" : {
+			"810" :	" 0.5, 1",
+			"810173" : "0.5"
+		},
+		"lvl12_all" : {
+			"810" :	" 0.7, 1",
+			"810173" : "0.5"
+		},
+		"lvl15_all" : {
+			"803" : " 0.7, 1",
+			"810173" : "0.5"
+		},
+		"lvl18_all" : {
+			"803" : " 0.7, 1",
+			"810173" : "0.5"
+		},
+		"lvl21_all" : {
+			"803" : " 0.7, 1",
+			"810173" : "0.5"
+		},
+		"lvl24_all" : {
+			"803" : " 0.7, 1",
+			"810173" : "0.5"
+		},
+		"lvl27_all" : {
+			"803" :" 0.7, 1",
+			"810173" : "0.5"
+		},
+		"lvl30_all" : {
+			"803" : " 0.7, 1",
+			"810173" : "0.5"
+		}
+	},
+	"foot_nodes" : ["Bip01 L Foot", "Bip01 R Foot"],
+	"footsteps_sound" : "mob/dog/footsteps",
+	"melee_distance, bylevel" : {
+		"default" : 2.1,
+		"1" : 2.5,
+		"2" : 2.9,
+		"3" : 3.1
+	},	
+	"melee_height, bylevel" : {
+		"default" : 2.1,
+		"1" : 2,		
+		"3" : 2
+	},		
+	"actions, bylevel" : {
+		"default" : {
+			"Idle" : {				
+				"sounds" : ["mob/dog/idle"]
+			},
+			"Idle1" : {
+				"model_actions" : ["Idle1"],
+				"sounds" : ["mob/dog/idle"]
+			},
+			"AttackPaws" : {
+				"model_actions" : ["AttackPaws"],
+				"sounds" : ["mob/dog/attack"]
+			},
+			"AttackTooth" : {
+				"model_actions" : ["AttackTooth"],
+				"sounds" : ["mob/dog/attack"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/dog/death"]
+			},
+			"Dead" : {
+				"model_actions" : ["Dead"]	
+			},				
+			"Pain" : {
+				"sounds" : ["mob/dog/pain"]
+			},				
+			"Attacking" : {
+				"sounds" : ["mob/dog/angry"]
+			}
+		},
+		"2" : {}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"default_state" : "walk_around",
+	"common_conditions,parent=default_common_conditions" : [],	
+	"states" : {
+		"walk_around, parent=default_walk_around" : {
+			"persistent_actions" : ["Idle"],			
+			"speed, bylevel" : {
+				"default" : {
+					"walk_around" : [1, 3]
+				},
+				"2" : {
+					"walk_around" : [1, 3.1]
+				},
+				"3" : {
+					"walk_around" : [1, 3.2]
+				}
+			}
+		},		
+		"attacking, parent=default_attacking" : {
+			"skills" : {
+				"DOG_BLEED" : 2,
+				"DOG_MELEE_DOWN" : 3,
+				"DOG_MELEE_UP" : 1
+			},
+			"persistent_actions" : ["Attacking"],
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed, bylevel" : {
+				"default" : {
+					"follow_target" : 8,
+					"walk_around" : [2, 4]
+				},
+				"2" : {
+					"follow_target" : 9,
+					"walk_around" : [2, 4]
+				},
+				"3" : {
+					"follow_target" : 10,
+					"walk_around" : [2, 4]
+				}
+			}	
+		},
+		"dead" : {		
+			"persistent_actions" : ["Dead"],
+			"entering_actions" : {"actions" : ["Die"], "time" : 1.1},
+			"conditions" : [
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			]
+		},
+		"before_recover, parent=default_before_recover" : {
+			"speed, bylevel" : {
+				"default" : {
+					"walk_around" : [1, 3]
+				},
+				"2" : {
+					"walk_around" : [1, 3.1]
+				},
+				"3" : {
+					"walk_around" : [1, 3.2]
+				}
+			}
+		},
+		"recover, parent=default_recover" : {			
+			"persistent_actions" : ["Idle"]
+		}
+	},
+	"skills" : {
+		"DOG_BLEED": {
+			"type": "MELEE",
+			"cooldown": 5.0,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["HEAD", "TORSO", "FOREARM", "ARM"],
+					"type" : "MELEE",
+					"value" : [0.015, 0.030],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.010, 0.023]
+				},
+				"2": {
+					"value" : [0.038, 0.052]
+				},
+				"3": {
+					"value" : [0.063, 0.104]
+				},
+				
+				"lvl1_all" : {
+					"value" : [0.010, 0.022]
+				},
+				"lvl3_all" : {
+					"value" : [0.012, 0.024]
+				},
+				"lvl6_all" : {
+					"value" : [0.014, 0.026]
+				},
+				"lvl9_all" : {
+					"value" : [0.016, 0.028]
+				},
+				"lvl12_all" : {
+					"value" : [0.018, 0.03]
+				},
+				"lvl15_all" : {
+					"value" : [0.02, 0.032]
+				},
+				"lvl18_all" : {
+					"value" : [0.022, 0.034]
+				},
+				"lvl21_all" : {
+					"value" : [0.024, 0.036]
+				},
+				"lvl24_all" : {
+					"value" : [0.026, 0.038]
+				},
+				"lvl27_all" : {
+					"value" : [0.028, 0.04]
+				},
+				"lvl30_all" : {
+					"value" : [0.03, 0.042]
+				}
+			},
+			"effects, bylevel": {
+				"default" : [["Bleed", 1]],
+				"lvl1_all" : [["Bleed", 1]],
+				"lvl3_all" : [["Bleed", 1]],
+				"lvl6_all" : [["Bleed", 1]],
+				"lvl9_all" : [["Bleed", 2]],
+				"lvl12_all" : [["Bleed", 2]],
+				"lvl15_all" : [["Bleed", 2]],
+				"lvl18_all" : [["Bleed", 3]],
+				"lvl21_all" : [["Bleed", 3]],
+				"lvl24_all" : [["Bleed", 3]],
+				"lvl27_all" : [["Bleed", 4]],
+				"lvl30_all" : [["Bleed", 4]]
+			},
+			"actions": ["AttackTooth"]
+		},
+		"DOG_MELEE_DOWN": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["LEG_UPPER", "TORSO", "LEG_LOWER"],
+					"type" : "MELEE",
+					"value" : [0.015, 0.030],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.010, 0.023]
+				},
+				"2": {
+					"value" : [0.038, 0.052]
+				},
+				"3": {
+					"value" : [0.063, 0.104]
+				},
+				
+				"lvl1_all" : {
+					"value" : [0.010, 0.022]
+				},
+				"lvl3_all" : {
+					"value" : [0.012, 0.024]
+				},
+				"lvl6_all" : {
+					"value" : [0.014, 0.026]
+				},
+				"lvl9_all" : {
+					"value" : [0.016, 0.028]
+				},
+				"lvl12_all" : {
+					"value" : [0.018, 0.03]
+				},
+				"lvl15_all" : {
+					"value" : [0.02, 0.032]
+				},
+				"lvl18_all" : {
+					"value" : [0.022, 0.034]
+				},
+				"lvl21_all" : {
+					"value" : [0.024, 0.036]
+				},
+				"lvl24_all" : {
+					"value" : [0.026, 0.038]
+				},
+				"lvl27_all" : {
+					"value" : [0.028, 0.04]
+				},
+				"lvl30_all" : {
+					"value" : [0.03, 0.042]
+				}
+			},			 
+			"actions": ["AttackTooth"]
+		},
+		"DOG_MELEE_UP": {
+			"type": "MELEE",
+			"cooldown": 2.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["HEAD", "TORSO", "FOREARM", "ARM"],
+					"type" : "MELEE",
+					"value" : [0.025, 0.060],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.024, 0.046]
+				},
+				"2": {
+					"value" : [0.06, 0.084]
+				},
+				"3": {
+					"value" : [0.098, 0.126]
+				},
+				
+				"lvl1_all" : {
+					"value" : [0.024, 0.046]
+				},
+				"lvl3_all" : {
+					"value" : [0.026, 0.048]
+				},
+				"lvl6_all" : {
+					"value" : [0.028, 0.05]
+				},
+				"lvl9_all" : {
+					"value" : [0.03, 0.052]
+				},
+				"lvl12_all" : {
+					"value" : [0.032, 0.054]
+				},
+				"lvl15_all" : {
+					"value" : [0.034, 0.056]
+				},
+				"lvl18_all" : {
+					"value" : [0.036, 0.058]
+				},
+				"lvl21_all" : {
+					"value" : [0.038, 0.06]
+				},
+				"lvl24_all" : {
+					"value" : [0.04, 0.062]
+				},
+				"lvl27_all" : {
+					"value" : [0.042, 0.064]
+				},
+				"lvl30_all" : {
+					"value" : [0.044, 0.066]
+				}
+			},			 
+			"actions": ["AttackPaws"]
+		}
+	}
+}

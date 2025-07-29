@@ -1,0 +1,23 @@
+{
+	"list1" : [
+		["mushroom1", "group1"]	
+	],
+	"list2" : [
+		["snowfield01", "group1"],
+		["mushroom1", "group1"]
+	],
+	"mushroom_random" : [
+		["mushroom1", "group1"],
+		["mushroom2", "group1"],
+		["mushroom3", "group1"]	
+	],
+	"snowfield_random" : [
+		["snowfield01", "group1"],
+		["snowfield02", "group1"]	
+	],
+	"mushroom3_prize" : [
+		["mushroom3_prize", "group1"],
+		["mushroom3_prize", "group2"],
+		["moss1", "group1"]	
+	]
+}

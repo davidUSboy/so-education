@@ -1,0 +1,110 @@
+<root>
+  <TriggerObject>
+    <quest_10067>Скамейка</quest_10067>
+    <quest_10066>Скамейка</quest_10066>
+    <quest_10065>Скамейка</quest_10065>
+    <quest_10064>Скамейка</quest_10064>
+    <quest_10063>Скамейка</quest_10063>
+    <quest_10062>Скамейка</quest_10062>
+    <quest_10061>Скамейка</quest_10061>
+    <quest_10060>Скамейка</quest_10060>
+    <quest_10005>Оружейный ящик</quest_10005>
+    <quest_10004>Телевизор</quest_10004>
+    <quest_10021>Радиостанция</quest_10021>
+    <quest_10020>Радиостанция</quest_10020>
+    <quest_10001>Холодильник</quest_10001>
+    <quest_10029>Ящик</quest_10029>
+    <quest_10003>Телевизор</quest_10003>
+    <quest_10068>Скамейка</quest_10068>
+    <quest_10028>Ящик</quest_10028>
+    <quest_10039>Коконы</quest_10039>
+    <quest_10009>Оружейный ящик</quest_10009>
+    <guid_D02782ED4FC15B91B6F4EEBA016BEAB3>Тело</guid_D02782ED4FC15B91B6F4EEBA016BEAB3>
+    <guid_Kamni_01>Куча камней</guid_Kamni_01>
+    <guid_Kamni_02>Куча камней</guid_Kamni_02>
+    <guid_TestBoxTest>Тестовый Бокс</guid_TestBoxTest>
+    <quest_10031>Ящик</quest_10031>
+    <quest_10008>Оружейный ящик</quest_10008>
+    <quest_10022>Радиостанция</quest_10022>
+    <guid_E75A31E74A453707C80351AA0F16B323>Кодовый замок</guid_E75A31E74A453707C80351AA0F16B323>
+    <guid_896400914A6D53937F497FB30AE72AC1>Ящик</guid_896400914A6D53937F497FB30AE72AC1>
+    <quest_10026>Канистра</quest_10026>
+    <guid_C053A7844594F55A29BFBD9EAF491FDE>Терминал доступа</guid_C053A7844594F55A29BFBD9EAF491FDE>
+    <quest_10023>Канистра</quest_10023>
+    <guid_ECEFF6AB44B78057CDF7B4B0D6230F91>КПК</guid_ECEFF6AB44B78057CDF7B4B0D6230F91>
+    <quest_10058>Мусорный бак</quest_10058>
+    <quest_10059>Скамейка</quest_10059>
+    <quest_10056>Мусорный бак</quest_10056>
+    <quest_10057>Мусорный бак</quest_10057>
+    <quest_10054>Будка</quest_10054>
+    <quest_10055>Будка</quest_10055>
+    <quest_10052>Коробка</quest_10052>
+    <quest_10007>Оружейный ящик</quest_10007>
+    <quest_10050>Холодильник</quest_10050>
+    <quest_10051>Схрон</quest_10051>
+    <quest_10012>Чемодан</quest_10012>
+    <quest_10013>Чемодан</quest_10013>
+    <quest_10010>Чемодан</quest_10010>
+    <quest_10011>Чемодан</quest_10011>
+    <quest_10016>Шкаф</quest_10016>
+    <quest_10017>Шкаф</quest_10017>
+    <quest_10014>Шкаф</quest_10014>
+    <quest_10015>Шкаф</quest_10015>
+    <quest_10030>Ящик</quest_10030>
+    <quest_10027>Холодильник</quest_10027>
+    <quest_10018>Шкаф</quest_10018>
+    <quest_10019>Шкаф</quest_10019>
+    <quest_10034>Коробка</quest_10034>
+    <quest_10035>Коробка</quest_10035>
+    <quest_10036>Коробка</quest_10036>
+    <quest_10037>Коробка</quest_10037>
+    <quest_10032>Коробка</quest_10032>
+    <quest_10006>Оружейный ящик</quest_10006>
+    <quest_10024>Канистра</quest_10024>
+    <quest_10025>Канистра</quest_10025>
+    <quest_10002>Телевизор</quest_10002>
+    <guid_ABAD402843FDF39A2C3DFB8B5A1844A0>Харон</guid_ABAD402843FDF39A2C3DFB8B5A1844A0>
+    <guid_EC5010D249FA6B87ABFB679A4E9489F7>КПК</guid_EC5010D249FA6B87ABFB679A4E9489F7>
+    <guid_6C5558224693EE5150D10A9B41552199>Рюкзак</guid_6C5558224693EE5150D10A9B41552199>
+    <quest_10033>Коробка</quest_10033>
+    <quest_10053>Будка</quest_10053>
+    <quest_10049>Холодильник</quest_10049>
+    <quest_10048>Медикаменты</quest_10048>
+    <quest_10041>Кокон</quest_10041>
+    <quest_10040>Кокон</quest_10040>
+    <quest_10043>Коконы</quest_10043>
+    <quest_10042>Коконы</quest_10042>
+    <quest_10045>Шкаф</quest_10045>
+    <quest_10044>Холодильник</quest_10044>
+    <quest_10047>Армейский фонарь</quest_10047>
+    <quest_10046>Армейский фонарь</quest_10046>
+    <quest_20001>Анализатор</quest_20001>
+    <quest_20002>Шкаф</quest_20002>
+    <quest_20006>Труп пилота</quest_20006>
+    <quest_20007>Костер</quest_20007>
+    <quest_20008>Труп</quest_20008>
+    <quest_20009>Журнал Сталкера</quest_20009>
+    <quest_40001>Труп пилота</quest_40001>
+    <quest_50001>Костер</quest_50001>
+    <NZ_lab_terminal1>Терминал</NZ_lab_terminal1>
+    <NZ_lab_terminal2>Терминал</NZ_lab_terminal2>
+    <NZ_lab_trup>Труп падшего</NZ_lab_trup>
+    <mutant_doc1>Документы</mutant_doc1>
+    <mutant_doc2>Документы</mutant_doc2>
+    <echo_doc1>Документы</echo_doc1>
+    <box_moroz>Посылка</box_moroz>
+    <deadkurier1>Мертвый курьер</deadkurier1>
+    <rifle>Схрон</rifle>
+    <Skorohod>Труп сталкера</Skorohod>
+    <DisplayPowerLineRepair1>Электрощиток ЛЭП 1-ая вышка</DisplayPowerLineRepair1>
+    <DisplayPowerLineRepair2>Электрощиток ЛЭП 2-ая вышка</DisplayPowerLineRepair2>
+    <DisplayPowerLineRepair3>Электрощиток ЛЭП 3-я вышка</DisplayPowerLineRepair3>
+    <DisplayPowerLineRepair4>Электрощиток ЛЭП 4-ая вышка</DisplayPowerLineRepair4>
+    <DisplayPowerLineRepair5>Электрощиток ЛЭП 5-ая вышка</DisplayPowerLineRepair5>
+    <DisplayPowerLineRepair6>Электрощиток ЛЭП 6-ая вышка</DisplayPowerLineRepair6>
+    <DisplayPowerLineRepair7>Электрощиток ЛЭП 7-ая вышка</DisplayPowerLineRepair7>
+    <DisplayPowerLineRepair8>Электрощиток ЛЭП 8-ая вышка</DisplayPowerLineRepair8>
+    <DisplayPowerLineRepair9>Электрощиток ЛЭП 9-ая вышка</DisplayPowerLineRepair9>
+    <DisplayPowerLineRepair10>Электрощиток ЛЭП 10-ая вышка</DisplayPowerLineRepair10>
+  </TriggerObject>
+</root>

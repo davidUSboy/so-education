@@ -1,0 +1,17 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onEventHappened>
+			<Arg>   INT16      </Arg>
+			<Arg>   STRING     </Arg>
+		</onEventHappened>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

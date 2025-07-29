@@ -1,0 +1,117 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+
+	<Properties>
+       <name>
+			<Type>			STRING		                </Type>
+			<Flags>			ALL_CLIENTS	            </Flags>
+	        <Default>       clan_psyho_trader           </Default>
+	        <Editable>		true			            </Editable>
+		</name>
+
+		<pMarginBuy>
+			<Type>			FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent> true </Persistent>
+			<Default> 0.310000 </Default>
+			<Editable> true </Editable>
+		</pMarginBuy>
+
+		<pMarginSell>
+			<Type>			FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent> true </Persistent>
+			<Default> 0.310000 </Default>
+			<Editable> true </Editable>
+		</pMarginSell>
+
+		<TradeListNames>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</TradeListNames>
+
+		<BarterListNames>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</BarterListNames>
+
+		<pMoney>
+			<Type> INT64  </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default> -100 </Default>
+			<Editable> true </Editable>
+		</pMoney>
+
+		<pTraderType>
+			<Type> INT8  </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</pTraderType>
+
+		<npcHead>
+			<Type> NPC_HEAD </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcHead>
+		<npcHands>
+			<Type> NPC_HANDS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcHands>
+		<npcBoots>
+			<Type> NPC_BOOTS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcBoots>
+		<npcBody>
+			<Type> NPC_BODY </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcBody>
+		<npcArmor>
+			<Type> NPC_ARMOR </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcArmor>
+		<npcLegs>
+			<Type> NPC_LEGS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcLegs>
+		<npcCap>
+			<Type> NPC_CAP </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcCap>
+		<npcMask>
+			<Type> NPC_MASK </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcMask>
+		<npcBackpack>
+			<Type> NPC_BACK </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcBackpack>
+	</Properties>
+
+</root>
+

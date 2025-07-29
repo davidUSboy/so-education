@@ -1,0 +1,36 @@
+<root>
+
+	<Properties>
+		<activeAreas>
+			<Type> ARRAY <of>STRING</of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</activeAreas>
+	</Properties>
+
+	<ClientMethods>
+
+	</ClientMethods>
+
+	<CellMethods>
+		
+		<onEnterArea>
+			<Arg> STRING </Arg> <!-- Area Name -->
+			<Arg> ENTITY_ID </Arg> <!-- Area entity ID -->
+		</onEnterArea>
+		
+		<onLeaveArea>
+			<Arg> STRING </Arg> <!-- Area Name -->
+			<Arg> ENTITY_ID </Arg> <!-- Area entity ID -->
+		</onLeaveArea>
+
+	</CellMethods>
+
+	<BaseMethods>
+	<!--
+		<onPositionChanged>
+			<Arg>		UINT32				</Arg>	<!** spaceID **>
+			<Arg>		VECTOR3				</Arg>	<!** position **>
+		</onPositionChanged>
+	-->
+	</BaseMethods>
+</root>

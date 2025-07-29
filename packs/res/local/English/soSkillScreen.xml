@@ -1,0 +1,41 @@
+<root>
+  <soGUI>
+    <STRING_66_16>Combat</STRING_66_16>
+    <STRING_67_15>Explorative</STRING_67_15>
+    <STRING_71_21>Light weapon</STRING_71_21>
+    <STRING_72_23>Assault rifles</STRING_72_23>
+    <STRING_73_21>Heavy weapon</STRING_73_21>
+    <STRING_74_16>Rifles</STRING_74_16>
+    <STRING_75_18>Throwing</STRING_75_18>
+    <STRING_76_24>Shoot-in-motion</STRING_76_24>
+    <STRING_77_20>Metabolism</STRING_77_20>
+    <STRING_78_18>Medicine</STRING_78_18>
+    <STRING_79_16>Repair</STRING_79_16>
+    <STRING_80_22>Craft</STRING_80_22>
+    <STRING_81_14>Luck</STRING_81_14>
+    <STRING_82_18>Neatness</STRING_82_18>
+    <STRING_83_17>Packing</STRING_83_17>
+    <STRING_84_23>Physical training</STRING_84_23>
+    <STRING_228_19>educability</STRING_228_19>
+    <STRING_248_19>educability</STRING_248_19>
+    <STRING_287_15>Level: 0</STRING_287_15>
+    <STRING_301_13>XP: 5000/70000</STRING_301_13>
+    <STRING_315_21>Skillpoints: 200</STRING_315_21>
+    <STRING_329_20>Perkpoints: 20</STRING_329_20>
+    <STRING_443_30>Level:</STRING_443_30>
+    <STRING_444_28>XP:</STRING_444_28>
+    <STRING_445_36>Skill points :</STRING_445_36>
+    <STRING_446_35>Perk points:</STRING_446_35>
+    <STRING_638_16>Combat</STRING_638_16>
+    <STRING_639_18>Survival</STRING_639_18>
+    <STRING_640_17>Support</STRING_640_17>
+    <STRING_772_16>Free skill points: 0</STRING_772_16>
+    <STRING_790_14>XP: 0</STRING_790_14>
+    <STRING_805_13>Perk points: 0</STRING_805_13>
+    <STRING_1767_29>XP:</STRING_1767_29>
+    <STRING_1768_31>Free skill points:</STRING_1768_31>
+    <STRING_1769_28>Free perk points:</STRING_1769_28>
+    <STRING_2820_13>0 days 0 hours</STRING_2820_13>
+    <STRING_3303_9>{0} days  {1} hours</STRING_3303_9>
+  </soGUI>
+</root>

@@ -1,0 +1,150 @@
+{
+	"name" :  "Creatures.common.PUPPY1",
+	"model" : "dog-mutant/dog-mutant.model",	
+	"model_scale" : 1.0,
+	"tints" : [{"body":"dvorterier", "wool":"dvorterier", "wool_blood":"dvorterier"}],
+	"experience" : 12,
+	"health" : 0.096,	
+	"agro_range" : 7,
+	"lose_agro_range" : 14,
+	"karma": 99,
+	"global_cooldown" : 3,
+	"coefLevel, bylevel": {
+		"default" : 99,
+		"1" : 99,
+		"2" : 99,
+		"3" : 99
+	},
+	"defence" : {
+			"MELEE" : 700.0,
+			"BULLET" : 1.0,
+			"EXPLOSION" : 30.0,
+			"BIO" : 700.0
+			},
+	"height" : 1.0,	
+	"width" : 1.0,
+	"decompose_time" : [20,60],
+	"loot" : {
+		"833" : "1.0"
+	},
+	"foot_nodes" : ["Bip01 L Foot", "Bip01 R Foot"],
+	"footsteps_sound" : "mob/dog/footsteps",
+	"melee_distance" : 1.9,
+	"melee_height" : 1.5,
+	"skills" : {
+				"DOG_BLEED" : 1,
+				"DOG_MELEE" : 9
+			},
+	"actions, bylevel" : {
+		"default" : {
+			"Idle" : {				
+				"sounds" : ["mob/dog/idle"]
+			},
+			"AttackPaws" : {
+				"model_actions" : ["AttackPaws"],
+				"sounds" : ["mob/dog/attack"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/dog/death"]
+			},
+			"Dead" : {
+				"model_actions" : ["Dead"]	
+			},				
+			"Pain" : {
+				"sounds" : ["mob/dog/pain"]
+			},				
+			"Attacking" : {
+				"sounds" : ["mob/dog/angry"]
+			}
+		},
+		"2" : {}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"default_state" : "walk_around",
+	"common_conditions,parent=default_common_conditions" : [],	
+	"states" : {
+		"walk_around, parent=default_walk_around" : {
+			"persistent_actions" : ["Idle"],			
+			"speed, bylevel" : {
+				"default" : {
+					"walk_around" : [1, 3]
+				},
+				"2" : {}
+			}
+		},		
+		"attacking, parent=default_attacking" : {
+			"skills" : {
+				"NOOBDOG_MELEE" : 9,
+				"NOOBDOG_BLEED" : 1
+				
+			},
+			"persistent_actions" : ["Attacking"],
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed, bylevel" : {
+				"default" : {
+					"follow_target" : 6.9,
+					"walk_around" : [2, 4]
+				},
+				"2" : {}
+			}	
+		},
+		"dead" : {		
+			"persistent_actions" : ["Dead"],
+			"entering_actions" : {"actions" : ["Die"], "time" : 1.1},
+			"conditions" : [
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			]
+		},
+		"before_recover, parent=default_before_recover" : {
+			"speed" : {
+				"walk_around" : [1, 3]
+			}
+		},
+		"recover, parent=default_recover" : {			
+			"persistent_actions" : ["Idle"]
+		}
+	},
+	"skills" : {
+		"NOOBDOG_BLEED": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["LEG_UPPER", "TORSO", "LEG_LOWER"],
+					"type" : "MELEE",
+					"value" : [0.005, 0.012],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.005, 0.012]
+				}
+			},
+			"effects": [["Bleed", 1]],
+			"actions": ["AttackPaws"]
+		},
+		"NOOBDOG_MELEE": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["LEG_UPPER", "TORSO", "LEG_LOWER"],
+					"type" : "MELEE",
+					"value" : [0.005, 0.012],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.005, 0.012]
+				}
+			},			 
+			"actions": ["AttackPaws"]
+		}
+	}
+}

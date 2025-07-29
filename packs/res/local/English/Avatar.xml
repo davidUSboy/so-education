@@ -1,0 +1,39 @@
+<root>
+  <base>
+    <STRING_73_28>Your client needs update.</STRING_73_28>
+    <YOU_CAN_TRY_SUICIDE_LATER>You can use the command /iwannadie in {0} hours {1} min {2} sec.</YOU_CAN_TRY_SUICIDE_LATER>
+  </base>
+  <OWNER_OF_BASE>Base owners: Clan '</OWNER_OF_BASE>
+  <ENTER_TO_START_WAR>'. To start a war enter command /basewar</ENTER_TO_START_WAR>
+  <YOU_HAVE_LEAVED_PVP_ZONE>You have left PvP safe zone</YOU_HAVE_LEAVED_PVP_ZONE>
+  <YOU_HAVE_ENTER_PVP_ZONE>You've entered PvP safe zone</YOU_HAVE_ENTER_PVP_ZONE>
+  <cell>
+    <STRING_447_36>You've been dragged to the safe zone</STRING_447_36>
+    <STRING_453_35>You've been patched up, {0} tries left</STRING_453_35>
+    <STRING_455_35>You've been patched up.</STRING_455_35>
+    <STRING_472_39>You've been dragged to the safe zone.</STRING_472_39>
+    <STRING_478_38>You've been patched up, {0} tries left</STRING_478_38>
+    <STRING_480_38>You've been patched up.</STRING_480_38>
+    <STRING_1012_33>Your PK status has been increased (%s)</STRING_1012_33>
+    <STRING_1017_33>Your PK status has been decreased (%s)</STRING_1017_33>
+    <STRING_1417_34>Base owners: Clan '</STRING_1417_34>
+    <STRING_1417_116>'. To start a war enter command /basewar</STRING_1417_116>
+    <STRING_1446_13>Your fraction status in {0} has been increased on {1} points. Total: {2}.</STRING_1446_13>
+    <STRING_1476_13>Your fraction status in {0} has been decreased on {1} points. Total: {2}.</STRING_1476_13>
+    <STRING_1486_8>Reputation:</STRING_1486_8>
+    <STRING_1529_43>You've joined PvP attack event.</STRING_1529_43>
+    <STRING_1531_43>You've joined PvP defence event.</STRING_1531_43>
+    <STRING_1535_43>You've joined PvP event.</STRING_1535_43>
+    <STRING_1537_42>PvP event is over.</STRING_1537_42>
+    <STRING_1784_18>to an unknown person.</STRING_1784_18>
+    <STRING_1785_10>You can't take this stuff, it belongs to</STRING_1785_10>
+    <STRING_1898_34>Respawn point has been changed.</STRING_1898_34>
+    <STRING_2032_33>You can reset characteristics in</STRING_2032_33>
+    <STRING_2032_152>minutes.</STRING_2032_152>
+    <STRING_2046_34>You can't use chat for: %s minutes.</STRING_2046_34>
+    <STRING_2292_34>You have left PvP safe zone.</STRING_2292_34>
+    <STRING_2294_34>You've entered PvP safe zone.</STRING_2294_34>
+    <STRING_2295_33>eat %s units.</STRING_2295_33>
+    <USE_HEAL_LATER>You can't heal this character now. Try again later.</USE_HEAL_LATER>
+  </cell>
+</root>

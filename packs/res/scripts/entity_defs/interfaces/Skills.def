@@ -1,0 +1,24 @@
+<root>
+	<Properties>
+		<skills_used_at>
+			<Type> ARRAY <of> FLOAT </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</skills_used_at>	
+	</Properties>
+	
+	<TempProperties>
+		<_Skills__skills_cache/>
+	</TempProperties>	
+
+	<ClientMethods>
+		<use_skill>
+			<Arg> BOT_SKILL_ID </Arg>
+			<Arg> ENTITY_ID </Arg>
+		</use_skill>
+		
+		<skill_throwGrenade>
+			<Arg> BOT_SKILL_ID </Arg>
+			<Arg> ENTITY_ID </Arg>
+		</skill_throwGrenade>
+	</ClientMethods>
+</root>

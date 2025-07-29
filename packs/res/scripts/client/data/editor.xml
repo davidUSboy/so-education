@@ -1,0 +1,347 @@
+<root>
+  <enum>
+    <value>0</value>
+    <display> sfera.model </display>
+    <path>models/bolvan/box_trigger_05x05x05_inv.model</path>
+  </enum>
+  <enum>
+    <value>1</value>
+    <display> bag_01.model </display>
+    <path>models/misc/containers/bag_01.model</path>
+  </enum>
+  <enum>
+    <value>2</value>
+    <display> box_ammunition_01.model</display>
+    <path>models/misc/containers/box_ammunition_01.model</path>
+  </enum>
+  <enum>
+    <value>3</value>
+    <display> box_ammunition_02.model</display>
+    <path>models/misc/containers/box_ammunition_02.model</path>
+  </enum>
+  <enum>
+    <value>4</value>
+    <display> box_weapons_01.model</display>
+    <path>models/misc/containers/box_weapons_01.model</path>
+  </enum>
+  <enum>
+    <value>5</value>
+    <display> chemodan_01.model</display>
+    <path>models/misc/containers/chemodan_01.model</path>
+  </enum>
+  <enum>
+    <value>6</value>
+    <display> diplomat_01.model</display>
+    <path>models/misc/containers/diplomat_01.model</path>
+  </enum>
+  <enum>
+    <value>7</value>
+    <display> documents_01.model</display>
+    <path>models/misc/containers/documents_01.model</path>
+  </enum>
+  <enum>
+    <value>8</value>
+    <display> kanistra_01.model</display>
+    <path>models/misc/containers/kanistra_01.model</path>
+  </enum>
+  <enum>
+    <value>9</value>
+    <display> med_box_01.model</display>
+    <path>models/misc/containers/med_box_01.model</path>
+  </enum>
+  <enum>
+    <value>10</value>
+    <display> raciya_01.model</display>
+    <path>models/misc/containers/raciya_01.model</path>
+  </enum>
+  <enum>
+    <value>11</value>
+    <display> radio_01.model</display>
+    <path>models/misc/containers/radio_01.model</path>
+  </enum>
+  <enum>
+    <value>12</value>
+    <display> red_container_lod1.model</display>
+    <path>models/misc/containers/red_container_lod1.model</path>
+  </enum>
+  <enum>
+    <value>13</value>
+    <display> refrigerator_01.model</display>
+    <path>models/misc/containers/refrigerator_01.model</path>
+  </enum>
+  <enum>
+    <value>14</value>
+    <display> safe_01.model</display>
+    <path>models/misc/containers/safe_01.model</path>
+  </enum>
+  <enum>
+    <value>15</value>
+    <display> shkaf_01.model</display>
+    <path>models/misc/containers/shkaf_01.model</path>
+  </enum>
+  <enum>
+    <value>16</value>
+    <display> tv_01.model</display>
+    <path>models/misc/containers/tv_01.model</path>
+  </enum>
+  <enum>
+    <value>17</value>
+    <display> white_container_lod1.model</display>
+    <path>models/misc/containers/white_container_lod1.model</path>
+  </enum>
+  <enum>
+    <value>50</value>
+    <display> flag_clan.model</display>
+    <path>models/misc/signs/flag_clan.model</path>
+  </enum>
+  <enum>
+    <value>21</value>
+    <display> 0.5 x 0.5 x 0.5 m </display>
+    <path>models/bolvan/box_trigger_05x05x05_inv.model</path>
+  </enum>
+  <enum>
+    <value>22</value>
+    <display> 0.5 x 0.5 x 1.0 m </display>
+    <path>models/bolvan/box_trigger_05x05x10_inv.model</path>
+  </enum>
+  <enum>
+    <value>23</value>
+    <display> 1.0 x 1.0 x 2.0 m </display>
+    <path>models/bolvan/box_trigger_10x10x20_inv.model</path>
+  </enum>
+  <enum>
+    <value>24</value>
+    <display> 2.0 x 2.0 x 2.0 m </display>
+    <path>models/bolvan/box_trigger_20x20x20_inv.model</path>
+  </enum>
+  <enum>
+    <value>31</value>
+    <display> door01 </display>
+    <path>models/buildings/doors/door01.model</path>
+  </enum>
+  <enum>
+    <value>32</value>
+    <display> door02 </display>
+    <path>models/buildings/doors/door02.model</path>
+  </enum>
+  <enum>
+    <value>33</value>
+    <display> bochka_01 </display>
+    <path>models/misc/barrels/bochka_01_lod1.model</path>
+  </enum>
+  <enum>
+    <value>34</value>
+    <display> bochka_01a </display>
+    <path>models/misc/barrels/bochka_01a_lod1.model</path>
+  </enum>
+  <enum>
+    <value>35</value>
+    <display> bochka_01b </display>
+    <path>models/misc/barrels/bochka_01b_lod1.model</path>
+  </enum>
+  <enum>
+    <value>36</value>
+    <display> elektro_shelf01 </display>
+    <path>models/misc/containers/elektro_shelf01.model</path>
+  </enum>
+  <enum>
+    <value>37</value>
+    <display> elektro_shelf02 </display>
+    <path>models/misc/containers/elektro_shelf02.model</path>
+  </enum>
+  <enum>
+    <value>38</value>
+    <display> generator01 </display>
+    <path>models/props/volkano/generator01_lod1.model</path>
+  </enum>
+  <enum>
+    <value>39</value>
+    <display> generator02 </display>
+    <path>models/props/volkano/generator02_lod1.model</path>
+  </enum>
+  <enum>
+    <value>52</value>
+    <display> telephone </display>
+    <path>models/misc/furniture/hospital/telephone.model</path>
+  </enum>
+  <enum>
+    <value>53</value>
+    <display> stack_of_papers </display>
+    <path>models/misc/furniture/hospital/stack_of_papers.model</path>
+  </enum>
+  <enum>
+    <value>54</value>
+    <display> med_box </display>
+    <path>models/misc/furniture/hospital/med_box.model</path>
+  </enum>
+  <enum>
+    <value>55</value>
+    <display> chest_wood </display>
+    <path>models/misc/furniture/village/chest_wood.model</path>
+  </enum>
+  <enum>
+    <value>56</value>
+    <display> bidon </display>
+    <path>models/misc/garbage/bidon.model</path>
+  </enum>
+  <enum>
+    <value>57</value>
+    <display> Kanistra </display>
+    <path>models/misc/garbage/Kanistra.model</path>
+  </enum>
+  <enum>
+    <value>58</value>
+    <display> garbage_paper_01 </display>
+    <path>models/misc/stuffs/garbage_paper_01.model</path>
+  </enum>
+  <enum>
+    <value>59</value>
+    <display> transformer_01 </display>
+    <path>models/props/electric/transformer_01.model</path>
+  </enum>
+  <enum>
+    <value>60</value>
+    <display> transformer_02 </display>
+    <path>models/props/electric/transformer_02.model</path>
+  </enum>
+  <enum>
+    <value>61</value>
+    <display> egg </display>
+    <path>models/props/secrets/egg.model</path>
+  </enum>
+  <enum>
+    <value>62</value>
+    <display> eggs_ground </display>
+    <path>models/props/secrets/eggs_ground.model</path>
+  </enum>
+  <enum>
+    <value>63</value>
+    <display> eggs_wall </display>
+    <path>models/props/secrets/eggs_wall.model</path>
+  </enum>
+  <enum>
+    <value>64</value>
+    <display> secret01 </display>
+    <path>models/props/secrets/secret01.model</path>
+  </enum>
+  <enum>
+    <value>65</value>
+    <display> secret02 </display>
+    <path>models/props/secrets/secret02.model</path>
+  </enum>
+  <enum>
+    <value>66</value>
+    <display> stump </display>
+    <path>models/props/secrets/stump.model</path>
+  </enum>
+  <enum>
+    <value>67</value>
+    <display> wheel_scrap </display>
+    <path>models/props/secrets/wheel_scrap.model</path>
+  </enum>
+  <enum>
+    <value>68</value>
+    <display> wood_box </display>
+    <path>models/props/secrets/wood_box.model</path>
+  </enum>
+  <enum>
+    <value>69</value>
+    <display> med_box_05 </display>
+    <path>models/misc/containers/med_box_05.model</path>
+  </enum>
+  <enum>
+    <value>70</value>
+    <display> med_box_04 </display>
+    <path>models/misc/containers/med_box_04.model</path>
+  </enum>
+  <enum>
+    <value>71</value>
+    <display> med_box_03 </display>
+    <path>models/misc/containers/med_box_03.model</path>
+  </enum>
+  <enum>
+    <value>72</value>
+    <display> med_box_02 </display>
+    <path>models/misc/containers/med_box_02.model</path>
+  </enum>
+  <enum>
+    <value>73</value>
+    <display> locker01 </display>
+    <path>models/misc/containers/locker01.model</path>
+  </enum>
+  <enum>
+    <value>18</value>
+    <display>bridge</display>
+    <path>models/buildings/bridges/bridge.model</path>
+  </enum>
+  <enum>
+    <value>19</value>
+    <display>box_electric</display>
+    <path>models/props/pos_radius/box_electric_lod1.model</path>
+  </enum>
+  <enum>
+    <value>20</value>
+    <display>dog_house</display>
+    <path>models/props/villageobjects/budka.model</path>
+  </enum>
+  <enum>
+    <value>51</value>
+    <display>flag_clan_flagshtok</display>
+    <path>models/misc/signs/flag_clan_flagshtok.model</path>
+  </enum>
+  <enum>
+    <value>25</value>
+    <display>knopka_v_labu</display>
+    <path>models/misc/buttons/code_lock_01.model</path>
+  </enum>
+  <enum>
+    <value>26</value>
+    <display>Elochniy_Sharek</display>
+    <path>models/props/ng/shareg.model</path>
+  </enum>
+  <enum>
+    <value>27</value>
+    <display>Meshok_Podarkov</display>
+    <path>models/props/ng/bag.model</path>
+  </enum>
+  <enum>
+    <value>28</value>
+    <display>Flag_and_flagshtok</display>
+    <path>models/misc/signs/flag_anim.model</path>
+  </enum>
+  <enum>
+    <value>29</value>
+    <display>sign_star_1</display>
+    <path>models/misc/signs/flag_star_1.model</path>
+  </enum>
+  <enum>
+    <value>30</value>
+    <display>sign_star_2</display>
+    <path>models/misc/signs/flag_star_2.model</path>
+  </enum>
+  <enum>
+    <value>40</value>
+    <display>sign_star_3</display>
+    <path>models/misc/signs/flag_star_3.model</path>
+  </enum>
+  <enum>
+    <value>41</value>
+    <display>skeleton_03</display>
+    <path>models/misc/corpse/skeleton03_lod1.model</path>
+  </enum>
+  <enum>
+    <value>42</value>
+    <display>stalker_dead_01</display>
+    <path>models/props/corpse/dead_stalker_1_anim1.model</path>
+  </enum>
+  <enum>
+    <value>73</value>
+    <display>kolokol</display>
+    <path>models/props/pos_radius/kolokol_lod1.model</path>
+  </enum>
+  <enum>
+    <value>75</value>
+    <display>repairman_stol</display>
+	<path>models/misc/containers/repairman_stol_lod1.model</path>
+  </enum>
+</root>

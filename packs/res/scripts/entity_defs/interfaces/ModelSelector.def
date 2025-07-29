@@ -1,0 +1,303 @@
+<root>
+	<Properties>
+			<modelSelect>
+			<Type>			ENUM			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Default> 0 </Default>
+<Widget>ENUM
+  <enum>
+    <value>0</value>
+    <display> sfera.model </display>
+  </enum>
+  <enum>
+    <value>1</value>
+    <display> bag_01.model </display>
+  </enum>
+  <enum>
+    <value>2</value>
+    <display> box_ammunition_01.model</display>
+  </enum>
+  <enum>
+    <value>3</value>
+    <display> box_ammunition_02.model</display>
+  </enum>
+  <enum>
+    <value>4</value>
+    <display> box_weapons_01.model</display>
+  </enum>
+  <enum>
+    <value>5</value>
+    <display> chemodan_01.model</display>
+  </enum>
+  <enum>
+    <value>6</value>
+    <display> diplomat_01.model</display>
+  </enum>
+  <enum>
+    <value>7</value>
+    <display> documents_01.model</display>
+  </enum>
+  <enum>
+    <value>8</value>
+    <display> kanistra_01.model</display>
+  </enum>
+  <enum>
+    <value>9</value>
+    <display> med_box_01.model</display>
+  </enum>
+  <enum>
+    <value>10</value>
+    <display> raciya_01.model</display>
+  </enum>
+  <enum>
+    <value>11</value>
+    <display> radio_01.model</display>
+  </enum>
+  <enum>
+    <value>12</value>
+    <display> red_container_lod1.model</display>
+  </enum>
+  <enum>
+    <value>13</value>
+    <display> refrigerator_01.model</display>
+  </enum>
+  <enum>
+    <value>14</value>
+    <display> safe_01.model</display>
+  </enum>
+  <enum>
+    <value>75</value>
+    <display> repairman_stol_lod1.model</display>
+  </enum>
+  <enum>
+    <value>15</value>
+    <display> shkaf_01.model</display>
+  </enum>
+  <enum>
+    <value>16</value>
+    <display> tv_01.model</display>
+  </enum>
+  <enum>
+    <value>17</value>
+    <display> white_container_lod1.model</display>
+  </enum>
+  <enum>
+    <value>50</value>
+    <display> flag_clan.model</display>
+  </enum>
+  <enum>
+    <value>21</value>
+    <display> 0.5 x 0.5 x 0.5 m </display>
+  </enum>
+  <enum>
+    <value>22</value>
+    <display> 0.5 x 0.5 x 1.0 m </display>
+  </enum>
+  <enum>
+    <value>23</value>
+    <display> 1.0 x 1.0 x 2.0 m </display>
+  </enum>
+  <enum>
+    <value>24</value>
+    <display> 2.0 x 2.0 x 2.0 m </display>
+  </enum>
+  <enum>
+    <value>31</value>
+    <display> door01 </display>
+  </enum>
+  <enum>
+    <value>32</value>
+    <display> door02 </display>
+  </enum>
+  <enum>
+    <value>33</value>
+    <display> bochka_01 </display>
+  </enum>
+  <enum>
+    <value>34</value>
+    <display> bochka_01a </display>
+  </enum>
+  <enum>
+    <value>35</value>
+    <display> bochka_01b </display>
+  </enum>
+  <enum>
+    <value>36</value>
+    <display> elektro_shelf01 </display>
+  </enum>
+  <enum>
+    <value>37</value>
+    <display> elektro_shelf02 </display>
+  </enum>
+  <enum>
+    <value>38</value>
+    <display> generator01 </display>
+  </enum>
+  <enum>
+    <value>39</value>
+    <display> generator02 </display>
+  </enum>
+  <enum>
+    <value>52</value>
+    <display> telephone </display>
+  </enum>
+  <enum>
+    <value>53</value>
+    <display> stack_of_papers </display>
+  </enum>
+  <enum>
+    <value>54</value>
+    <display> med_box </display>
+  </enum>
+  <enum>
+    <value>55</value>
+    <display> chest_wood </display>
+  </enum>
+  <enum>
+    <value>56</value>
+    <display> bidon </display>
+  </enum>
+  <enum>
+    <value>57</value>
+    <display> Kanistra </display>
+  </enum>
+  <enum>
+    <value>58</value>
+    <display> garbage_paper_01 </display>
+  </enum>
+  <enum>
+    <value>59</value>
+    <display> transformer_01 </display>
+  </enum>
+  <enum>
+    <value>60</value>
+    <display> transformer_02 </display>
+  </enum>
+  <enum>
+    <value>61</value>
+    <display> egg </display>
+  </enum>
+  <enum>
+    <value>62</value>
+    <display> eggs_ground </display>
+  </enum>
+  <enum>
+    <value>63</value>
+    <display> eggs_wall </display>
+  </enum>
+  <enum>
+    <value>64</value>
+    <display> secret01 </display>
+  </enum>
+  <enum>
+    <value>65</value>
+    <display> secret02 </display>
+  </enum>
+  <enum>
+    <value>66</value>
+    <display> stump </display>
+  </enum>
+  <enum>
+    <value>67</value>
+    <display> wheel_scrap </display>
+  </enum>
+  <enum>
+    <value>68</value>
+    <display> wood_box </display>
+  </enum>
+  <enum>
+    <value>69</value>
+    <display> med_box_05 </display>
+  </enum>
+  <enum>
+    <value>70</value>
+    <display> med_box_04 </display>
+  </enum>
+  <enum>
+    <value>71</value>
+    <display> med_box_03 </display>
+  </enum>
+  <enum>
+    <value>72</value>
+    <display> med_box_02 </display>
+  </enum>
+  <enum>
+    <value>73</value>
+    <display> locker01 </display>
+  </enum>
+  <enum>
+    <value>18</value>
+    <display>bridge</display>
+  </enum>
+  <enum>
+    <value>19</value>
+    <display>box_electric</display>
+  </enum>
+  <enum>
+    <value>20</value>
+    <display>dog_house</display>
+  </enum>
+  <enum>
+    <value>51</value>
+    <display>flag_clan_flagshtok</display>
+  </enum>
+  <enum>
+    <value>25</value>
+    <display>knopka_v_labu</display>
+  </enum>
+  <enum>
+    <value>26</value>
+    <display>Elochniy_Sharek</display>
+  </enum>
+  <enum>
+    <value>27</value>
+    <display>Meshok_Podarkov</display>
+  </enum>
+  <enum>
+    <value>28</value>
+    <display>Flag_and_flagshtok</display>
+  </enum>
+  <enum>
+    <value>29</value>
+    <display>sign_star_1</display>
+  </enum>
+  <enum>
+    <value>30</value>
+    <display>sign_star_2</display>
+  </enum>
+  <enum>
+    <value>40</value>
+    <display>sign_star_3</display>
+  </enum>
+  <enum>
+    <value>41</value>
+    <display>skeleton_03</display>
+  </enum>
+  <enum>
+    <value>42</value>
+    <display>stalker_dead_01</display>
+  </enum>
+  <enum>
+    <value>73</value>
+    <display>kolokol</display>
+  </enum>
+</Widget>
+		</modelSelect>
+	</Properties>
+</root>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

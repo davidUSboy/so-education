@@ -1,0 +1,34 @@
+<root>
+	<Properties>		
+		<targetingRadius>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> -1 </Default>
+		</targetingRadius>
+		
+		<targetingRadius_ProxID>
+			<Type> CONTROLLER_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</targetingRadius_ProxID>		
+		
+		<losingTargetRadius>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> -1 </Default>
+		</losingTargetRadius>
+
+		<losingTargetRadius_ProxID>
+			<Type> CONTROLLER_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</losingTargetRadius_ProxID>
+		
+		<refreshTargetsInterval>
+			<Type> FLOAT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 1 </Default>
+		</refreshTargetsInterval>
+	</Properties>
+	
+</root>

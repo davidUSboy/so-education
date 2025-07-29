@@ -1,0 +1,137 @@
+<VivertFemale.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip01 L Hand</nodeName>
+      <boxName>Bip01 L Hand_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>-0.010864 -0.141981 -0.060328</minBounds>
+      <maxBounds>0.309796 0.124795 0.078882</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm</nodeName>
+      <boxName>Bip01 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.095000 -0.100000</minBounds>
+      <maxBounds>0.551831 0.095000 0.100000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L UpperArm</nodeName>
+      <boxName>Bip01 L UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.078316 -0.078315</minBounds>
+      <maxBounds>0.391577 0.078315 0.078316</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Hand</nodeName>
+      <boxName>Bip01 R Hand_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>-0.010864 -0.124795 -0.060328</minBounds>
+      <maxBounds>0.319760 0.142554 0.079500</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm</nodeName>
+      <boxName>Bip01 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.095000 -0.100000</minBounds>
+      <maxBounds>0.551832 0.095000 0.100000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R UpperArm</nodeName>
+      <boxName>Bip01 R UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.078316 -0.078315</minBounds>
+      <maxBounds>0.391577 0.078315 0.078316</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>Bip01 Head_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>0.000000 -0.094064 -0.127564</minBounds>
+      <maxBounds>0.228623 0.094064 0.127564</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bone03</nodeName>
+      <boxName>Bone03_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>0.000000 -0.094427 -0.094427</minBounds>
+      <maxBounds>0.472135 0.094427 0.094427</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bone02</nodeName>
+      <boxName>Bone02_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>0.000000 -0.059073 -0.059073</minBounds>
+      <maxBounds>0.295367 0.059073 0.059073</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bone01</nodeName>
+      <boxName>Bone01_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>0.000000 -0.079839 -0.079839</minBounds>
+      <maxBounds>0.399194 0.079839 0.079839</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine2</nodeName>
+      <boxName>Bip01 Spine2_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.012631 -0.197039 -0.109794</minBounds>
+      <maxBounds>0.297931 0.197039 0.142616</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine1</nodeName>
+      <boxName>Bip01 Spine1_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.000128 -0.176254 -0.135526</minBounds>
+      <maxBounds>0.225855 0.176254 0.135313</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Foot</nodeName>
+      <boxName>Bip01 L Foot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.056651 -0.115000 -0.020775</minBounds>
+      <maxBounds>0.160526 0.115000 0.304029</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Calf</nodeName>
+      <boxName>Bip01 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.100000 -0.075000</minBounds>
+      <maxBounds>0.627271 0.100000 0.075000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Thigh</nodeName>
+      <boxName>Bip01 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.095570 -0.095570</minBounds>
+      <maxBounds>0.477848 0.095570 0.095570</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Foot</nodeName>
+      <boxName>Bip01 R Foot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.053818 -0.115000 -0.019736</minBounds>
+      <maxBounds>0.157693 0.115000 0.302991</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Calf</nodeName>
+      <boxName>Bip01 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.100000 -0.075000</minBounds>
+      <maxBounds>0.627271 0.100000 0.075000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Thigh</nodeName>
+      <boxName>Bip01 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.095570 -0.095570</minBounds>
+      <maxBounds>0.477848 0.095570 0.095570</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Pelvis</nodeName>
+      <boxName>Bip01 Pelvis_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.096533 -0.166070 -0.273868</minBounds>
+      <maxBounds>0.275185 0.166071 0.098137</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</VivertFemale.xml>

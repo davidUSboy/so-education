@@ -1,0 +1,70 @@
+<Root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+
+	<Properties>
+		<!--	Globally registered name. -->
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		Shop			</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+
+		
+		<rooms>
+			<Type> ARRAY <of> MAILBOX  </of> </Type>
+			<Flags> BASE</Flags>
+		</rooms>
+	
+	
+	
+	
+	</Properties>
+
+	<BaseMethods>
+	
+		<cleanup/>
+		
+		
+		<createRoom>
+			<Arg>	CSGAMEINFO		</Arg>	
+			<Arg>	UNICODE_STRING			</Arg>	
+			<Arg>	MAILBOX			</Arg>	
+			<Arg>	INT32			</Arg>	
+		</createRoom>	
+
+		<on_roomDestroy>
+			<Arg> INT32 </Arg>
+		</on_roomDestroy>
+
+
+		<deleteRoom>
+			<Arg> INT32 </Arg>
+			<Arg> UNICODE_STRING </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> MAILBOX </Arg>
+		</deleteRoom>
+
+		<connectToRoom>
+			<Arg> INT32 </Arg>
+			<Arg> UNICODE_STRING </Arg>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+		</connectToRoom>
+
+		<roomsInfo>
+			<Arg> MAILBOX </Arg>
+		</roomsInfo>
+	
+		
+	</BaseMethods>
+	
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

@@ -1,0 +1,30 @@
+<root>
+	<Properties>
+		<cellPackHistory>
+			<Type>	PACKHISTORY</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</cellPackHistory>
+		<qtasks>
+			<Type>	ARRAY <of> PYTHON </of></Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</qtasks>
+		<mgr_started>
+			<Type>	FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</mgr_started>
+		<cell_module_installed>
+			<Type>	BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</cell_module_installed>
+		<cell_ac_reason>
+			<Type>	STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</cell_ac_reason>
+	</Properties>
+	<CellMethods>
+		<validatePack><Exposed/><Arg> UINT32 </Arg></validatePack>
+		<returnResult><Exposed/><Arg> UINT32 </Arg><Arg> STRING </Arg></returnResult>
+		<on_module_init><Exposed/><Arg> STRING </Arg></on_module_init>
+	</CellMethods>
+</root>

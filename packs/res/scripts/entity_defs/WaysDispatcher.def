@@ -1,0 +1,36 @@
+<root>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+	
+	<Properties>
+		<Ways>
+			<Type>ARRAY <of> NAMED_WAY </of> </Type>
+			<Flags> BASE </Flags>
+		</Ways>
+		
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		WaysDispatcher	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+	
+	<BaseMethods>
+		<registerWay>
+			<Arg>		STRING	</Arg>
+			<Arg>		WAY		</Arg>
+		</registerWay>
+		
+		<getWays>
+			<Arg>		MAILBOX							</Arg>
+			<Arg>		ARRAY	<of>	STRING	</of>	</Arg>
+		</getWays>
+	</BaseMethods>
+</root>

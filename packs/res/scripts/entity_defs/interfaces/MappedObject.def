@@ -1,0 +1,41 @@
+<root>
+	<Properties>
+		<notes>
+			<Type>	STRING	</Type>
+			<Flags> BASE </Flags>
+			<Editable> TRUE </Editable>
+		</notes>
+		
+		<quests>
+			<Type>	ARRAY	<of>	QUESTID	</of>	</Type>
+			<Flags> BASE </Flags>
+			<Editable> TRUE </Editable>
+		</quests>
+		
+		<mapNoteFlag>
+			<Type>	MAP_NOTE_FLAG				</Type>
+			<Flags> BASE 						</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+			<Editable> TRUE 					</Editable>
+		</mapNoteFlag>
+	</Properties>
+	
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<openNoteFor>
+			<Arg>	DBID	</Arg>
+		</openNoteFor>
+	</CellMethods>
+
+	<BaseMethods>
+		<initNote>
+			<Arg>	QUEST_MAP_NOTE_ENTRY	</Arg>
+		</initNote>
+		<openNoteFor>
+			<Arg>	DBID	</Arg>
+		</openNoteFor>
+	</BaseMethods>
+</root>

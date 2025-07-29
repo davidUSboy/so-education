@@ -1,0 +1,26 @@
+<!-- Stalker online Account definitions -->
+<root>
+	<Implements>
+		<Interface> SlaveOnlineManager </Interface>
+		<Interface> MasterOnlineManager </Interface>
+		<Interface> TimerManagerBase </Interface>
+		<Interface> EventSystem </Interface>
+
+	</Implements>
+
+	<Properties>
+
+		<isMaster>
+			<Type>			BOOL	</Type>
+			<Flags>			BASE	</Flags>
+			<Default>		0		</Default>
+		</isMaster>
+
+		<isSlave>
+			<Type>			BOOL	</Type>
+			<Flags>			BASE	</Flags>
+			<Default>		0		</Default>
+		</isSlave>
+
+	</Properties>
+</root>

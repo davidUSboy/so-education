@@ -1,0 +1,65 @@
+<root>
+	<Properties>
+		<throwingType>
+			<Type> UINT8 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</throwingType>
+		
+		<ownerID>
+			<Type> ENTITY_ID </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default>0</Default>
+		</ownerID>
+		
+		<ownerBase>
+			<Type> MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</ownerBase>
+		
+		<fromServer>
+			<Type> BOOL </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 1 </Default>
+		</fromServer>
+		
+		<clientEntityID>
+			<Type> ENTITY_ID </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</clientEntityID>
+		
+		<startPosition>
+			<Type> VECTOR3 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</startPosition>
+		
+		<finalPosition>
+			<Type> VECTOR3 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</finalPosition>
+		
+		<velocity>
+			<Type> VECTOR3 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</velocity>
+		
+		<timeOfFlying>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</timeOfFlying>		
+	</Properties>
+	
+	<CellMethods>
+		<initialize/> <!-- called in reset_params after teleport -> ghost-call  -->
+	</CellMethods>	
+	
+	<ClientMethods>
+		<throw>
+			<Arg> ENTITY_ID </Arg> <!-- thrower id -->
+			<Arg> VECTOR3 </Arg> <!-- velocity -->
+			<Arg> VECTOR3 </Arg> <!-- pos -->
+			<Arg> ENTITY_ID </Arg> <!-- client entity id -->
+		</throw>
+	</ClientMethods>		
+	
+</root>

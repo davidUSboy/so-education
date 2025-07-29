@@ -1,0 +1,69 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+
+	<Properties>
+       <npc_type>
+			<Type>			BASE_NPC_TYPE		        </Type>
+			<Flags>			ALL_CLIENTS	            </Flags>
+	        <Default>       7                           </Default>
+	        <Editable>		true			            </Editable>
+		</npc_type>
+
+		<npcHead>
+			<Type> NPC_HEAD </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcHead>
+		<npcHands>
+			<Type> NPC_HANDS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcHands>
+		<npcBoots>
+			<Type> NPC_BOOTS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcBoots>
+		<npcBody>
+			<Type> NPC_BODY </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcBody>
+		<npcArmor>
+			<Type> NPC_ARMOR </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcArmor>
+		<npcLegs>
+			<Type> NPC_LEGS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcLegs>
+		<npcCap>
+			<Type> NPC_CAP </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcCap>
+		<npcMask>
+			<Type> NPC_MASK </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcMask>
+		<npcBackpack>
+			<Type> NPC_BACK </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcBackpack>
+	</Properties>
+
+</root>
+

@@ -1,0 +1,24 @@
+<root>
+  <client>
+    <CHARACTER_CREATION_PROCESSING>Character creation application processing</CHARACTER_CREATION_PROCESSING>
+    <CHAR_RENAMED>Character renamed</CHAR_RENAMED>
+    <QUEUE_POS>Your queue position:</QUEUE_POS>
+    <QUEUE_POS_0>Your queue position: 0</QUEUE_POS_0>
+  </client>
+  <base>
+    <USER_AGREEMENT_VIOLATION_CODE>User agreement violation (%s)</USER_AGREEMENT_VIOLATION_CODE>
+    <PASSWORD_MISSMATCH>Wrong login or password</PASSWORD_MISSMATCH>
+    <REMAINING_HOURS>(%d hours remained)</REMAINING_HOURS>
+    <REMAINING_MINUTES>(%d minutes remained)</REMAINING_MINUTES>
+    <REMAINING_SECONDS>(%d seconds remained)</REMAINING_SECONDS>
+    <UNTIL_SPECIAL_ORDERS>(wait until special orders)</UNTIL_SPECIAL_ORDERS>
+    <YOU_ARE_BANNED_REASON>You've been banned. Reason:</YOU_ARE_BANNED_REASON>
+    <YOU_ARE_BANNED>You've been banned</YOU_ARE_BANNED>
+    <UNKNOWN>unknown</UNKNOWN>
+    <USER_AGREEMENT_VIOLATION>User agreement violation</USER_AGREEMENT_VIOLATION>
+    <PASSWORD_CHANGED>Your password has been changed.</PASSWORD_CHANGED>
+    <PASSWORD_NOT_CHANGED>Your password has not been changed.</PASSWORD_NOT_CHANGED>
+    <REGEX1>^[a-z0-9\_]*$</REGEX1>
+  </base>
+  <VALID_USERNAME_REGEX>(?:^[a-z]+[a-z0-9\_]{2,})|(?:^[a-z]+[a-z0-9\_]{2,})$</VALID_USERNAME_REGEX>
+</root>

@@ -1,0 +1,109 @@
+<root>
+
+	<Implements>
+		<Interface>BaseAndCell </Interface>
+		<Interface>ItemHolder </Interface>
+		<Interface> Disappearing </Interface>
+	</Implements>
+
+	<Properties>
+	
+		<containerName>
+			<Type> UNICODE_STRING  </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> </Default>
+			<Editable>		true			</Editable>
+		</containerName>
+
+		<modelSelect>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</modelSelect>
+
+		<CarryingItems>
+			<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> </Default>
+		</CarryingItems>
+	
+		<AppearedItems>
+			<Type> ARRAY <of> INT32 </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> </Default>
+		</AppearedItems>	
+		
+		<dictCounts>
+			<Type> ARRAY <of> FIXED_DICT
+						<Properties>
+							<itemType>
+								<Type> INT32</Type> 
+							</itemType>
+							<itemCount>
+								<Type> INT32</Type> 
+							</itemCount>
+						</Properties>	
+			</of> </Type>
+			
+			<Flags> CELL_PRIVATE </Flags>
+		</dictCounts>
+		
+		<ContainerListName>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true			</Editable>
+			<Default> </Default>
+		</ContainerListName>
+		
+		<MaxAppearedItems>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 10 </Default>
+			<Editable> true </Editable>
+		</MaxAppearedItems>
+		
+		
+		<MassUpdate>
+			<Type> INT8 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</MassUpdate>
+		
+		<DoRenew>
+			<Type> INT8 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</DoRenew>
+		
+		
+		<RenewTime>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+			<Default> 600 </Default>
+			<Editable> true </Editable>
+		</RenewTime>
+		
+		<loots>
+			<Type> PYTHON </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> false </Persistent>
+		</loots>
+		
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<GetItemFromHolderClient>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</GetItemFromHolderClient>
+	</CellMethods>
+
+  <BaseMethods>
+  </BaseMethods>
+</root>

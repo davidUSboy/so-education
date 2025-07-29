@@ -1,0 +1,240 @@
+<root>
+	<Implements>
+                <Interface> BaseAndCell </Interface>
+                <Interface> Manipulator </Interface>
+				<Interface> ModelSelector </Interface>
+				<Interface>TimerManagerCell</Interface>
+	</Implements>
+
+    <Properties>
+        <npcUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                     </Editable>
+		</npcUDO>
+
+		<UDOExceptionsCount>
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0 				</Default>
+		</UDOExceptionsCount>
+
+        <state>
+			<Type>			INT8                    </Type>
+			<Flags>			ALL_CLIENTS		    </Flags>
+	        <Default>			0		            </Default>
+		</state>
+
+        <level>
+			<Type>          FLAG_LEVEL              </Type>
+			<Flags>			ALL_CLIENTS		    </Flags>
+		</level>
+
+        <parent>
+			<Type>			ENTITY_ID                </Type>
+			<Flags>			CELL_PRIVATE		     </Flags>
+        </parent>
+
+        <isReinfPoint>
+			<Type>			ENTITY_ID                </Type>
+			<Flags>			ALL_CLIENTS		     </Flags>
+        </isReinfPoint>
+
+        <parentBase>
+			<Type>			MAILBOX                  </Type>
+			<Flags>			CELL_PRIVATE		     </Flags>
+        </parentBase>
+
+        <radius> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+	        <Default>			2.0			</Default>
+		</radius>
+
+	    <!--<name_timer>-->
+			<!--<Type>			INT32 			</Type>-->
+			<!--<Flags>			CELL_PRIVATE			</Flags>-->
+		<!--</name_timer>-->
+
+        <trapped_clans>
+			<Type> ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <clanID>
+                            <Type> INT64 </Type>
+                        </clanID>
+                        <users>
+                            <Type>  ARRAY <of> FIXED_DICT
+	                            <Properties>
+		                            <mail>
+			                            <Type> MAILBOX  </Type>
+				                    </mail>
+		                            <dead>
+			                            <Type> BOOL     </Type>
+				                    </dead>
+                                </Properties> </of>  </Type>
+                        </users>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </trapped_clans>
+
+        <npcs>
+			<Type> ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <mail>
+                            <Type> MAILBOX  </Type>
+                        </mail>
+                        <state>
+                            <Type> INT8     </Type>
+                        </state>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </npcs>
+
+        <safe_zone>
+			<Type>
+                   MAILBOX
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </safe_zone>
+
+        <clanID>
+			<Type>			INT64			</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+        </clanID>
+
+        <time>
+			<Type>			FLOAT			    </Type>
+			<Flags>			ALL_CLIENTS	    </Flags>
+	        <Default>			60.0            </Default>
+        </time>
+
+        <started_time>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </started_time>
+
+        <winning_clan>
+			<Type>			INT64			</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+        </winning_clan>
+
+	    <capture_progress>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS	    </Flags>
+		</capture_progress>
+
+	    <!--<frame_rate>-->
+			<!--<Type>			FLOAT			</Type>-->
+			<!--<Flags>			ALL_CLIENTS	    </Flags>-->
+		<!--</frame_rate>-->
+
+	    <!--<capture_speed>-->
+			<!--<Type>			FLOAT			</Type>-->
+			<!--<Flags>			ALL_CLIENTS	    </Flags>-->
+		<!--</capture_speed>-->
+        <!--<clients_started_time>-->
+			<!--<Type>			FLOAT			</Type>-->
+			<!--<Flags>			ALL_CLIENTS	    </Flags>-->
+        <!--</clients_started_time>-->
+
+        <!--<clients_time>-->
+			<!--<Type>			FLOAT			</Type>-->
+			<!--<Flags>			ALL_CLIENTS	    </Flags>-->
+        <!--</clients_time>-->
+
+	    <permission_to_capture>
+			<Type>			ARRAY <of> INT64 </of>			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </permission_to_capture>
+
+	    <!--<timer_tick_id>-->
+			<!--<Type>			INT64   		</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+	    <!--</timer_tick_id>-->
+
+	    <!--<period_timer>-->
+			<!--<Type>			INT64			</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+	        <!--<Default>		0		    </Default>-->
+        <!--</period_timer>-->
+
+		<clanName>
+			<Type>			UNICODE_STRING		        </Type>
+			<Flags>			CELL_PRIVATE	            </Flags>
+		</clanName>
+
+	    <enemies>
+			<Type>			ARRAY <of> INT64 </of>			</Type>
+			<Flags>			ALL_CLIENTS	                    </Flags>
+        </enemies>
+
+    </Properties>
+
+    <ClientMethods>
+	    <startCaptureProgress>
+	    </startCaptureProgress>
+    </ClientMethods>
+
+    <CellMethods>
+        <registerNPC>
+            <Arg>   MAILBOX </Arg>
+            <Arg>   INT64 </Arg>
+        </registerNPC>
+
+        <setState>
+            <Arg>   INT8 </Arg>
+        </setState>
+
+	    <registerSafeZone>
+            <Arg>   MAILBOX </Arg>
+		    <Arg>   STRING </Arg>
+	    </registerSafeZone>
+
+	    <setPermission>
+		    <Arg>   INT64   </Arg>
+	    </setPermission>
+
+	    <remPermission>
+		    <Arg>   INT64   </Arg>
+	    </remPermission>
+
+	    <setAllowedDamagers>
+		    <Arg>   ARRAY <of> ENTITY_ID </of>   </Arg>
+	    </setAllowedDamagers>
+
+	    <remAllowedDamagers>
+		    <Arg>   ARRAY <of> ENTITY_ID </of>   </Arg>
+	    </remAllowedDamagers>
+
+	    <setTargets>
+		    <Arg>   ARRAY <of> ENTITY_ID </of>   </Arg>
+	    </setTargets>
+
+	    <remTargets>
+		    <Arg>   ARRAY <of> ENTITY_ID </of>   </Arg>
+	    </remTargets>
+
+	    <reviveNPC>
+	    </reviveNPC>
+
+	    <clearTargets>
+	    </clearTargets>
+
+	    <clearDamagers>
+	    </clearDamagers>
+
+	    <setClanID>
+		    <Arg>   INT64                           </Arg>
+	    </setClanID>
+
+	    <updateEnemies/>
+
+    </CellMethods>
+
+    <BaseMethods>
+    </BaseMethods>
+</root>

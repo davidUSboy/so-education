@@ -1,0 +1,407 @@
+{
+	"name, bylevel" : {
+		"default" : "Creatures.common.BRUTOR1",
+		"1" : "Creatures.common.BRUTOR2",
+		"2" : "Creatures.common.BRUTOR1",
+		"202" : "Creatures.common.BRUTOR3",
+		"502" : "Creatures.common.BRUTOR4",
+		"lvl1_all" : "Creatures.common.BRUTOR_lv1",
+		"lvl3_all" : "Creatures.common.BRUTOR_lv3",
+		"lvl6_all" : "Creatures.common.BRUTOR_lv6",
+		"lvl9_all" : "Creatures.common.BRUTOR_lv9",
+		"lvl12_all" : "Creatures.common.BRUTOR_lv12",
+		"lvl15_all" : "Creatures.common.BRUTOR_lv15",
+		"lvl18_all" : "Creatures.common.BRUTOR_lv18",
+		"lvl21_all" : "Creatures.common.BRUTOR_lv21",
+		"lvl24_all" : "Creatures.common.BRUTOR_lv24",
+		"lvl27_all" : "Creatures.common.BRUTOR_lv27",
+		"lvl30_all" : "Creatures.common.BRUTOR_lv30",
+		
+		"lvl1_all_cave" : "Creatures.common.GNOM_lv1",
+		"lvl3_all_cave" : "Creatures.common.GNOM_lv3",
+		"lvl6_all_cave" : "Creatures.common.GNOM_lv6",
+		"lvl9_all_cave" : "Creatures.common.GNOM_lv9",
+		"lvl12_all_cave" : "Creatures.common.GNOM_lv12",
+		"lvl15_all_cave" : "Creatures.common.GNOM_lv15",
+		"lvl18_all_cave" : "Creatures.common.GNOM_lv18",
+		"lvl21_all_cave" : "Creatures.common.GNOM_lv21",
+		"lvl24_all_cave" : "Creatures.common.GNOM_lv24",
+		"lvl27_all_cave" : "Creatures.common.GNOM_lv27",
+		"lvl30_all_cave" : "Creatures.common.GNOM_lv30"
+	},
+	"coefLevel, bylevel": {
+		"default" : 99,
+		"1" : 99,
+		"2" : 99,
+		"3" : 99
+	},
+
+	"model" : "brutor/brutor_lod1.model",	
+	"karma": 99,
+	"model_scale, bylevel" : {
+		"default" : 1,
+		"1" : 1,
+		"2" : 1.2,
+		"202" : 0.5,
+		"502" : 0.9,
+		
+		"lvl1_all" : 0.9,
+		"lvl3_all" : 1.0,
+		"lvl6_all" : 1.05,
+		"lvl9_all" : 1.1,
+		"lvl12_all" : 1.15,
+		"lvl15_all" : 1.2,
+		"lvl18_all" : 1.25,
+		"lvl21_all" : 1.3,
+		"lvl24_all" : 1.35,
+		"lvl27_all" : 1.4,
+		"lvl30_all" : 1.45,
+		
+		"lvl1_all_cave" : 0.4,
+		"lvl3_all_cave" : 0.5,
+		"lvl6_all_cave" : 0.55,
+		"lvl9_all_cave" : 0.6,
+		"lvl12_all_cave" : 0.65,
+		"lvl15_all_cave" : 0.7,
+		"lvl18_all_cave" : 0.75,
+		"lvl21_all_cave" : 0.8,
+		"lvl24_all_cave" : 0.85,
+		"lvl27_all_cave" : 0.9,
+		"lvl30_all_cave" : 0.95
+	},
+	"tints, bylevel" : {
+		"default" : [{}],
+		"202" : [{"body":"cave"}],
+		"502" : [{"body":"cave"}],
+		"[lvl1_all_cave,lvl3_all_cave,lvl6_all_cave,lvl9_all_cave,lvl12_all_cave,lvl15_all_cave,lvl18_all_cave,lvl21_all_cave,lvl24_all_cave,lvl27_all_cave,lvl30_all_cave]" : [{"body":"cave"}]
+	},
+	"experience, bylevel" : {
+		"default" : 80,
+		"1" : 192,
+		"2" : 300,
+		"202" : 100,
+		"502" : 300,
+		
+		"lvl1_all" : 100,
+		"lvl3_all" : 101,
+		"lvl6_all" : 102,
+		"lvl9_all" : 103,
+		"lvl12_all" : 104,
+		"lvl15_all" : 105,
+		"lvl18_all" : 106,
+		"lvl21_all" : 107,
+		"lvl24_all" : 108,
+		"lvl27_all" : 109,
+		"lvl30_all" : 110,
+		
+		"lvl1_all_cave" : 105,
+		"lvl3_all_cave" : 110,
+		"lvl6_all_cave" : 115,
+		"lvl9_all_cave" : 120,
+		"lvl12_all_cave" : 125,
+		"lvl15_all_cave" : 130,
+		"lvl18_all_cave" : 135,
+		"lvl21_all_cave" : 140,
+		"lvl24_all_cave" : 145,
+		"lvl27_all_cave" : 150,
+		"lvl30_all_cave" : 155
+	},
+	"health, bylevel" : {
+		"default" : 0.777,
+		"1" : 1.5,
+		"2" : 3.75,
+		"202" : 0.3,
+		"502" : 3,
+		
+		"lvl1_all" : 1.5,
+		"lvl3_all" : 1.55,
+		"lvl6_all" : 1.6,
+		"lvl9_all" : 1.65,
+		"lvl12_all" : 1.7,
+		"lvl15_all" : 1.75,
+		"lvl18_all" : 1.8,
+		"lvl21_all" : 1.85,
+		"lvl24_all" : 1.9,
+		"lvl27_all" : 1.95,
+		"lvl30_all" : 2.0,
+		
+		"lvl1_all_cave" : 0.3,
+		"lvl3_all_cave" : 0.32,
+		"lvl6_all_cave" : 0.34,
+		"lvl9_all_cave" : 0.36,
+		"lvl12_all_cave" : 0.38,
+		"lvl15_all_cave" : 0.4,
+		"lvl18_all_cave" : 0.42,
+		"lvl21_all_cave" : 0.44,
+		"lvl24_all_cave" : 0.46,
+		"lvl27_all_cave" : 0.48,
+		"lvl30_all_cave" : 0.5
+	},	
+	"agro_range, bylevel" : { 
+		"default" : 40,
+		"202" : 7,
+		"502" : 7,
+		"[lvl1_all_cave,lvl3_all_cave,lvl6_all_cave,lvl9_all_cave,lvl12_all_cave,lvl15_all_cave,lvl18_all_cave,lvl21_all_cave,lvl24_all_cave,lvl27_all_cave,lvl30_all_cave]" : 7
+	},
+	"lose_agro_range, bylevel" : { 
+		"default" : 50,
+		"202" : 11,
+		"502" : 11,
+		"[lvl1_all_cave,lvl3_all_cave,lvl6_all_cave,lvl9_all_cave,lvl12_all_cave,lvl15_all_cave,lvl18_all_cave,lvl21_all_cave,lvl24_all_cave,lvl27_all_cave,lvl30_all_cave]" : 11
+	},
+	"global_cooldown" : 4,
+	"defence, bylevel" : {
+		"default" : {
+			"MELEE" : 700.0,
+			"BULLET" : 1.0,
+			"EXPLOSION" : 40.0,
+			"BIO" : 700.0
+		},
+		"1" : {
+			"BULLET" : 0.0
+		},
+		"2" : {
+			"BULLET" : 40.0
+		},
+		"202" : {
+			"BULLET" : 10.0
+		},
+		"502" : {
+			"BULLET" : 50.0
+		},
+		"[lvl1_all,lvl3_all,lvl6_all,lvl9_all,lvl12_all,lvl15_all,lvl18_all,lvl21_all,lvl24_all,lvl27_all,lvl30_all]" : {
+			"BULLET" : 10.0
+		},
+		"[lvl1_all_cave,lvl3_all_cave,lvl6_all_cave,lvl9_all_cave,lvl12_all_cave,lvl15_all_cave,lvl18_all_cave,lvl21_all_cave,lvl24_all_cave,lvl27_all_cave,lvl30_all_cave]" : {
+			"BULLET" : 50.0
+		}
+	},
+	"height" : 2.0,	
+	"width" : 1.0,
+	"decompose_time" : [60,120],
+	"loot, bylevel" : {
+		"default" : {},
+		"1" : {
+			"829" : "0.95",
+			"831" : "0.1"
+		},
+		"2" : {
+			"830" : "0.75",
+			"832" : "0.1"
+		},
+		"202" : {
+			"829" : "0.95",
+			"831" : "0.1"
+		},
+		"502" : {
+			"830" : "0.75",
+			"832" : "0.1"
+		},
+		"[lvl1_all,lvl3_all,lvl6_all,lvl9_all,lvl12_all,lvl15_all,lvl18_all,lvl21_all,lvl24_all,lvl27_all,lvl30_all]" : {
+			"829" : "0.95",
+			"831" : "0.1"
+		},
+		"[lvl1_all_cave,lvl3_all_cave,lvl6_all_cave,lvl9_all_cave,lvl12_all_cave,lvl15_all_cave,lvl18_all_cave,lvl21_all_cave,lvl24_all_cave,lvl27_all_cave,lvl30_all_cave]" : {
+			"830" : "0.75",
+			"832" : "0.1"
+		}
+	},
+	"foot_nodes" : ["Bip01 L Toe0", "Bip01 R Toe0"],
+	"footsteps_sound" : "mob/brutor/footsteps",
+	"melee_distance, bylevel" : {
+		"default" : 1.8,
+		"2" : 1.8,
+		"2" : 2,
+		"3" : 2.16,
+		"202" : 0.9,
+		"502" : 1.62
+	},
+	"melee_height, bylevel" : {
+		"default" : 1.5,
+		"2" : 2,		
+		"3" : 3
+	},
+	"actions, bylevel" : {
+		"default" : {
+			"Idle" : {				
+				"sounds" : ["mob/brutor/idle"]
+			},
+			"Idle1" : {				
+				"model_actions" : ["Idle1"],
+				"sounds" : ["mob/brutor/idle"]
+			},
+			"Eat" : {				
+				"model_actions" : ["Eat"]
+			},
+			"AttackTooth" : {
+				"model_actions" : ["AttackTooth"],
+				"sounds" : ["mob/brutor/attack"]
+			},
+			"AttackPaws" : {
+				"model_actions" : ["AttackPaws"],
+				"sounds" : ["mob/brutor/attack"]
+			},
+			"AttackSpecial" : {
+				"model_actions" : ["AttackSpecial"],
+				"sounds" : ["mob/brutor/attack"]
+			},
+			"Threat" : {
+				"model_actions" : ["Threatening"],
+				"sounds" : ["mob/brutor/attack"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/brutor/pain"]
+			},
+			"Dead" : {
+				"model_actions" : ["Dead"]	
+			},				
+			"Pain" : {
+				"model_actions" : ["Pain"],
+				"sounds" : ["mob/brutor/pain"]
+			},				
+			"Attacking" : {
+				"sounds" : ["mob/brutor/angry"]
+			}
+		},
+		"2" : {}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"default_state" : "walk_around",
+	"common_conditions,parent=default_common_conditions" : [],	
+	"states" : {
+		"walk_around, parent=default_walk_around" : {
+			"persistent_actions" : ["Idle"],			
+			"speed, bylevel" : {
+				"default" : {
+					"walk_around" : [0.9, 2.2]
+				},
+				"202" : {
+					"walk_around" : [0.6, 1.8]
+				},
+				"502" : {
+					"walk_around" : [0.7, 1.9]
+				}
+			}
+		},		
+		"attacking, parent=default_attacking" : {
+			"skills" : {
+				"BRUTOR_MELEE" : 9,
+				"BRUTOR_MELEE_HARD" : 1,
+				"BRUTOR_THREATENING" : 1
+			},
+			"persistent_actions" : ["Attacking"],
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed, bylevel" : {
+				"default" : {
+					"follow_target" : 4.4,
+					"walk_around" : [2, 2]
+				},
+				"202" : {
+					"follow_target" : 4,
+					"walk_around" : [1, 2]
+				},
+				"502" : {
+					"follow_target" : 4,
+					"walk_around" : [1, 2]
+				}
+			}	
+		},
+		"dead" : {		
+			"persistent_actions" : ["Dead"],
+			"entering_actions" : {"actions" : ["Die"], "time" : 1.1},
+			"conditions" : [
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			]
+		},
+		"before_recover, parent=default_before_recover" : {
+			"speed, bylevel" : {
+				"default" : {
+					"walk_around" : [0.9, 2.2]
+				},
+				"202" : {
+					"walk_around" : [0.6, 1.8]
+				},
+				"502" : {
+					"walk_around" : [0.7, 1.9]
+				}
+			}
+		},
+		"recover, parent=default_recover" : {			
+			"persistent_actions" : ["Eat"]
+		}
+	},
+	"skills" : {
+		"BRUTOR_MELEE": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["HEAD", "LEG_UPPER", "TORSO", "ARM"],
+					"type" : "MELEE",
+					"value" : [0.128, 0.192],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.128, 0.192]
+				},
+				"2": {
+					"value" : [0.179, 0.268]
+				},
+				"202": {
+					"value" : [0.05, 0.1]
+				},
+				"503": {
+					"value" : [0.1, 0.2]
+				}
+			},			 
+			"actions": ["AttackTooth"]
+		},
+		"BRUTOR_MELEE_HARD": {
+			"type": "MELEE",
+			"cooldown": 3.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["TORSO"],
+					"type" : "MELEE",
+					"value" : [0.128, 0.192],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.135, 0.25]
+				},
+				"2": {
+					"value" : [0.185, 0.275]
+				},
+				"202": {
+					"value" : [0.055, 0.15]
+				},
+				"503": {
+					"value" : [0.15, 0.25]
+				}
+			},			 
+			"actions": ["AttackPaws"]
+		},
+		"BRUTOR_THREATENING": {
+			"type": "MELEE",
+			"cooldown": 3.5,
+			"aoe_radius": 0,		 
+			"actions": ["Threat"],
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["TORSO"],
+					"type" : "MELEE",
+					"value" : [0.0, 0.0],
+					"penetration" : 10
+				}
+			}	
+		}
+	}
+}

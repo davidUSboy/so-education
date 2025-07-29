@@ -1,0 +1,67 @@
+<Outcast.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>leftforearm</nodeName>
+      <boxName>leftforearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.048298 -0.049284</minBounds>
+      <maxBounds>0.394272 0.048298 0.049284</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftarm</nodeName>
+      <boxName>leftarm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.082897 -0.064136 -0.058139</minBounds>
+      <maxBounds>0.283242 0.048574 0.063926</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>HP_head</nodeName>
+      <boxName>HP_head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.094145 -0.114551 -0.153261</minBounds>
+      <maxBounds>0.206379 0.106592 0.162264</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>spine</nodeName>
+      <boxName>spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.000417 -0.185401 -0.086858</minBounds>
+      <maxBounds>0.411672 0.119395 0.103335</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftleg</nodeName>
+      <boxName>leftleg_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.002179 -0.066096 -0.069788</minBounds>
+      <maxBounds>0.500795 0.071735 0.112069</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftupleg</nodeName>
+      <boxName>leftupleg_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.070000 -0.070000</minBounds>
+      <maxBounds>0.480000 0.070000 0.070000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightleg</nodeName>
+      <boxName>rightleg_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.005821 -0.069848 -0.084131</minBounds>
+      <maxBounds>0.497153 0.067983 0.097727</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightupleg</nodeName>
+      <boxName>rightupleg_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.070000 -0.070000</minBounds>
+      <maxBounds>0.480000 0.070000 0.070000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>hips</nodeName>
+      <boxName>hips_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.128940 -0.099343 -0.113894</minBounds>
+      <maxBounds>0.128940 0.121706 0.089027</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Outcast.xml>

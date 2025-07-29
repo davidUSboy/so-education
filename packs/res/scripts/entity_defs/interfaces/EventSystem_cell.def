@@ -1,0 +1,10 @@
+<root>
+	<CellMethod>
+		<async_request>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> PYTHON </Arg>
+			<Arg> REMOTEFUNC </Arg>
+		</async_request>
+	</CellMethod>
+</root>

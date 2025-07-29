@@ -1,0 +1,337 @@
+<root>
+  <common>
+    <NPC1>Tramp</NPC1>
+    <NPC2>Pvt. Osechkin</NPC2>
+    <NPC3>Station Sentry</NPC3>
+    <NPC4>Charon</NPC4>
+    <NPC5>Knacker</NPC5>
+    <NPC6>Misha Kochegarov</NPC6>
+    <NPC7>Stick</NPC7>
+    <NPC8>Crock</NPC8>
+    <NPC9>Robbed Stalker</NPC9>
+    <NPC10>Stockman [novaya zemlya]</NPC10>
+    <NPC11>Far Village Trader</NPC11>
+    <NPC12>Professor Schleimovich</NPC12>
+    <NPC13>Red Cross Doc</NPC13>
+    <NPC14>Guide</NPC14>
+    <NPC15>Fin</NPC15>
+    <NPC16>Veterinarian</NPC16>
+    <NPC17>Maslenkov</NPC17>
+    <NPC18>Stockman</NPC18>
+    <NPC19>Vitya's PDA</NPC19>
+    <NPC20>Prochor the Trackman</NPC20>
+    <NPC21>Gourmet</NPC21>
+    <NPC22>Battle Registrar</NPC22>
+    <NPC23>Thievish Warehouseman</NPC23>
+    <NPC24>Kolya Tesla</NPC24>
+    <NPC25>Doctor Home</NPC25>
+    <NPC26>Captain Feck-o</NPC26>
+    <NPC27>Sisyphus</NPC27>
+    <NPC28>Dr. Doolittle</NPC28>
+    <NPC29>Seriy</NPC29>
+    <NPC30>Local man</NPC30>
+    <NPC31>Local man</NPC31>
+    <NPC32>Guide</NPC32>
+    <NPC33>Local Man</NPC33>
+    <NPC34>Machinist</NPC34>
+    <NPC35>Repairman</NPC35>
+    <NPC36>Repairman</NPC36>
+    <NPC37>Captain Shperling</NPC37>
+    <NPC38>Kamil</NPC38>
+    <NPC39>Corporal Kvashina</NPC39>
+    <NPC40>Armor Trader</NPC40>
+    <NPC41>Boxy</NPC41>
+    <NPC42>Krol</NPC42>
+    <NPC43>Guide</NPC43>
+    <NPC44>Timokha the Hermit</NPC44>
+    <NPC45>Corporal Kazakov</NPC45>
+    <NPC46>Vasyatka</NPC46>
+    <NPC47>Pechkin</NPC47>
+    <NPC48>Guide</NPC48>
+    <NPC49>Merc</NPC49>
+    <NPC50>Mikulo</NPC50>
+    <NPC51>Trapper</NPC51>
+    <NPC52>Sanatorium Trader</NPC52>
+    <NPC53>Zuy</NPC53>
+    <NPC54>Guide</NPC54>
+    <NPC55>Bar Security</NPC55>
+    <NPC56>Foreman</NPC56>
+    <NPC57>Tackleberry</NPC57>
+    <NPC58>Military Warehouseman</NPC58>
+    <NPC59>Retired Colonel</NPC59>
+    <NPC60>Charon</NPC60>
+    <NPC61>Hatter</NPC61>
+    <NPC62>Patisson</NPC62>
+    <NPC63>Misha the Hunter</NPC63>
+    <NPC64>Sly</NPC64>
+    <NPC65>Hare</NPC65>
+    <NPC66>Mitka the Hunter</NPC66>
+    <NPC67>Kolya Kisliy</NPC67>
+    <NPC68>Lab Assistant</NPC68>
+    <NPC69>Bald</NPC69>
+    <NPC70>Apprentice</NPC70>
+    <NPC71>Greek</NPC71>
+    <NPC72>Dima</NPC72>
+    <NPC73>Courier</NPC73>
+    <NPC74>Doctor Zinoviev</NPC74>
+    <NPC75>Ivy the Bartender</NPC75>
+    <NPC76>Fedor</NPC76>
+    <NPC77>Yura Barabashka</NPC77>
+    <NPC78>Apothecary</NPC78>
+    <NPC79>Prof. Simonov</NPC79>
+    <NPC80>Pavel</NPC80>
+    <NPC81>Radiotower Base Trader</NPC81>
+    <NPC82>Basmach</NPC82>
+    <NPC83>Town Security</NPC83>
+    <NPC84>Repairman</NPC84>
+    <NPC85>Local Man</NPC85>
+    <NPC86>Jailer</NPC86>
+    <NPC87>Yashka</NPC87>
+    <NPC88>Clan Registrar</NPC88>
+    <NPC89>Scientist Warehouseman</NPC89>
+    <NPC90>Scar</NPC90>
+    <NPC91>Grishkovets</NPC91>
+    <NPC92>Whatman</NPC92>
+    <NPC93>Metrofan</NPC93>
+    <NPC94>Hillhouse Trader</NPC94>
+    <NPC95>Tyomich the Stalker</NPC95>
+    <NPC96>Trader</NPC96>
+    <NPC97>Timka</NPC97>
+    <NPC98>Muddy</NPC98>
+    <NPC99>Security</NPC99>
+    <NPC100>Blacksmith</NPC100>
+    <NPC101>Shaggy</NPC101>
+    <NPC102>Old Stalker</NPC102>
+    <NPC103>Rasheed</NPC103>
+    <NPC104>Bugor</NPC104>
+    <NPC105>Loot Buyer</NPC105>
+    <NPC106>Docent Krasnov</NPC106>
+    <NPC107>Voronin</NPC107>
+    <NPC108>Sanek the Old Coon</NPC108>
+    <NPC109>Stalker</NPC109>
+    <NPC110>Fifer</NPC110>
+    <NPC111>Toadstool</NPC111>
+    <NPC112>Pharmacist</NPC112>
+    <NPC113>Olg</NPC113>
+    <NPC114>Stepan the Tramp</NPC114>
+    <NPC115>Kolya's PDA</NPC115>
+    <NPC116>Pusher</NPC116>
+    <NPC117>Guide</NPC117>
+    <NPC118>Dirty Yuriy</NPC118>
+    <NPC119>Gun Trader</NPC119>
+    <NPC120>Ammo Trader</NPC120>
+    <NPC121>Station Security</NPC121>
+    <NPC122>Professor Chereshnikov</NPC122>
+    <NPC123>Swampman</NPC123>
+    <NPC124>Ensign Nechiporenko</NPC124>
+    <NPC125>Butch</NPC125>
+    <NPC126>Zhora the Crucian</NPC126>
+    <NPC127>Chestnut</NPC127>
+    <NPC128>Kich</NPC128>
+    <NPC129>Doctor Flayer</NPC129>
+    <NPC130>Quest item Cleaner</NPC130>
+    <NPC131>Fedya the Prophet</NPC131>
+    <NPC132>Sgt. Drachuk</NPC132>
+    <NPC133>The Tatar</NPC133>
+    <NPC134>Ahmed ibn Fah-Blahn</NPC134>
+    <NPC135>Corkscrew</NPC135>
+    <NPC136>Gleb Maslov</NPC136>
+    <NPC137>Doctor Eizeinshtein</NPC137>
+    <NPC138>Pusher</NPC138>
+    <NPC139>Bandit</NPC139>
+    <NPC140>Chemical base Trader</NPC140>
+    <NPC141>Valera</NPC141>
+    <NPC142>Yager</NPC142>
+    <NPC143>Sgt. Dibenko</NPC143>
+    <NPC144>Light Mentor Mikhail</NPC144>
+    <NPC145>Ymarek</NPC145>
+    <NPC146>Priest</NPC146>
+    <NPC147>Bono</NPC147>
+    <NPC148>Sgt. Kozhemyaka</NPC148>
+    <NPC149>Pretzel</NPC149>
+    <NPC150>Funny Farm Trader</NPC150>
+    <NPC151>Corporal Druz</NPC151>
+    <NPC152>Spit the Pusher</NPC152>
+    <NPC153>Spit the Pusher</NPC153>
+    <NPC154>Mokruch</NPC154>
+    <NPC155>Shtaket</NPC155>
+    <NPC156>Zelenkin</NPC156>
+    <NPC157>Rusk</NPC157>
+    <NPC158>Skinner</NPC158>
+    <NPC159>Ammo Trader</NPC159>
+    <NPC160>Armor Trader</NPC160>
+    <NPC161>Doctor</NPC161>
+    <NPC162>Repairman</NPC162>
+    <NPC163>Ex-Master of Distillery</NPC163>
+    <NPC164>Porter</NPC164>
+    <NPC165>Porter</NPC165>
+    <NPC166>Porter</NPC166>
+    <NPC167>Sentinel Back in.USSR</NPC167>
+    <NPC168>Sentinel Back in.USSR</NPC168>
+    <NPC169>Sentinel RDG the Ghoul</NPC169>
+    <NPC170>Sentinel RDG the Ghoul</NPC170>
+    <NPC171>STORM sentinel</NPC171>
+    <NPC172>STORM sentinel</NPC172>
+    <NPC173>Voenstal sentinel</NPC173>
+    <NPC174>Voenstal sentinel</NPC174>
+    <NPC175>Voenstal sentinel</NPC175>
+    <NPC176>Military Security</NPC176>
+    <NPC177>Special Goods</NPC177>
+    <NPC178>Kapustin</NPC178>
+    <NPC179>Security</NPC179>
+    <NPC180>Stalker the Bum</NPC180>
+    <NPC181>Hired Guard</NPC181>
+    <NPC182>Hired Guard</NPC182>
+    <NPC183>Mercenary</NPC183>
+    <NPC184>Private</NPC184>
+    <NPC185>Corporal</NPC185>
+    <NPC186>Sergeant</NPC186>
+    <NPC187>Base Trader</NPC187>
+    <NPC188>Loot Buyer</NPC188>
+    <NPC189>Stockman</NPC189>
+    <NPC190>Guide</NPC190>
+    <NPC191>Pusher</NPC191>
+    <NPC192>Red Cross sentinel</NPC192>
+    <NPC193>Red Cross sentinel</NPC193>
+    <NPC194>Guide</NPC194>
+    <NPC196>Stockman</NPC196>
+    <NPC197>SILENCE sentinel</NPC197>
+    <NPC198>SILENCE sentinel</NPC198>
+    <NPC199>DUTY sentinel</NPC199>
+    <NPC200>DUTY sentinel</NPC200>
+    <NPC201>Guide</NPC201>
+    <NPC202>Bandit</NPC202>
+    <NPC203>Thievish Warehouseman</NPC203>
+    <NPC204>Guide</NPC204>
+    <NPC205>Guide</NPC205>
+    <NPC206>Bartender</NPC206>
+    <NPC207>Hunter</NPC207>
+    <STRING_220_12>Test Stalker</STRING_220_12>
+    <STRING_221_18>Guard</STRING_221_18>
+    <NPC208>Souz_Mutaboev sentinel</NPC208>
+    <NPC209>-CITADEL- sentinel</NPC209>
+    <NPC210>Last_Day sentinel</NPC210>
+    <NPC211>Last_Day sentinel</NPC211>
+    <NPC212>Souz_Mutaboev sentinel</NPC212>
+    <NPC213>-CITADEL- sentinel</NPC213>
+    <NPC214>GRAN' sentinel</NPC214>
+    <NPC215>GRAN' sentinel</NPC215>
+    <NPC216>SYNDICATE sentinel</NPC216>
+    <NPC217>SYNDICATE sentinel</NPC217>
+    <NPC218>Stalker</NPC218>
+    <NPC219>Base's Former Warehouseman</NPC219>
+    <NPC220>ADOM sentinel</NPC220>
+    <NPC221>ADOM sentinel</NPC221>
+    <NPC222>Black_Angels sentinel</NPC222>
+    <NPC223>Black_Angels sentinel</NPC223>
+    <NPC224>Assembler</NPC224>
+    <NPC225>Dumpster</NPC225>
+    <NPC226>Base's Trader</NPC226>
+    <NPC227>Base's Trader</NPC227>
+    <NPC228>Guard</NPC228>
+    <NPC229>ZARIA sentinel</NPC229>
+    <NPC230>ZARIA sentinel</NPC230>
+    <NPC231>INQUISITION sentinel</NPC231>
+    <NPC232>INQUISITION sentinel</NPC232>
+    <NPC233>Note</NPC233>
+    <NPC234>Dead Pilot</NPC234>
+    <NPC235>Trader</NPC235>
+    <NPC236>Steel_Brothers sentinel</NPC236>
+    <NPC237>Steel_Brothers sentinel</NPC237>
+    <NPC238>VZVOD45 sentinel</NPC238>
+    <NPC239>VZVOD45 sentinel</NPC239>
+    <NPC240>Alex</NPC240>
+    <NPC241>Sentinel</NPC241>
+    <NPC242>Sentinel</NPC242>
+    <NPC243>Mercenary Warehouseman</NPC243>
+    <NPC244>Hunter Warehouseman</NPC244>
+    <NPC245>Sentinel</NPC245>
+    <NPC246>Sentinel</NPC246>
+    <NPC247>Old Stalker</NPC247>
+    <NPC248>Sentinel</NPC248>
+    <NPC249>Sentinel</NPC249>
+    <NPC250>Morse</NPC250>
+    <NPC251>Petrukh Dipole</NPC251>
+    <NPC252>Suspicious Warehouseman</NPC252>
+    <NPC253>Ammo Trader</NPC253>
+    <NPC254>Sentry</NPC254>
+    <NPC255>Sentry</NPC255>
+    <NPC256>Sentry</NPC256>
+    <NPC257>Sentry</NPC257>
+    <NPC258>Arthur</NPC258>
+    <NPC259>Dmitriy Sherstnov</NPC259>
+    <NPC260>Litan Selektevich</NPC260>
+    <NPC261>Morozov</NPC261>
+    <NPC262>Investigator</NPC262>
+    <NPC263>Guide</NPC263>
+    <NPC264>Guide</NPC264>
+    <NPC265>Guide</NPC265>
+    <NPC266>Guide</NPC266>
+    <NPC267>Guide</NPC267>
+    <NPC268>Guide</NPC268>
+    <NPC269>Guide</NPC269>
+    <NPC270>Guide</NPC270>
+    <NPC271>Guide</NPC271>
+    <NPC272>Guide</NPC272>
+    <NPC273>Sentry</NPC273>
+    <NPC274>Sentry</NPC274>
+    <NPC275>Palych</NPC275>
+    <NPC276>Base Manager</NPC276>
+    <NPC277>Soldier Serov</NPC277>
+    <NPC278>Khromtsov</NPC278>
+    <NPC279>Bidon</NPC279>
+    <NPC280>Senya Spaghetti</NPC280>
+    <NPC281>Grisha Farmer</NPC281>
+    <NPC282>Guide</NPC282>
+    <NPC283>Base Sentry</NPC283>
+    <NPC284>Guide</NPC284>
+    <NPC285>Guide</NPC285>
+    <NPC286>Guide</NPC286>
+    <NPC287>Guide</NPC287>
+    <NPC288>Guide</NPC288>
+    <NPC289>Guide</NPC289>
+    <NPC290>Guide</NPC290>
+    <NPC291>Guide</NPC291>
+    <NPC292>Vetrichenko</NPC292>
+    <NPC293>Shepelev</NPC293>
+    <NPC294>Menyala</NPC294>
+    <NPC295>Fedor Salnikov</NPC295>
+    <NPC296>Diogenes</NPC296>
+    <NPC297>Diplomat</NPC297>
+    <NPC298>Kolokol</NPC298>
+    <NPC299>Mitya Cool</NPC299>
+    <NPC300>Dispatcher</NPC300>
+    <NPC301>Arkasha Flybane</NPC301>
+    <NPC302>Guide</NPC302>
+    <NPC303>Guide</NPC303>
+    <NPC304>Local Man</NPC304>
+    <NPC305>Roma Siberian</NPC305>
+    <NPC306>Dead body</NPC306>
+    <NPC307>Base Seller</NPC307>
+    <NPC308>Guide PvP</NPC308>
+    <NPC309>Guide PvP</NPC309>
+    <NPC310>Guide PvP</NPC310>
+    <NPC311>Guide PvP</NPC311>
+    <NPC312>Guide PvP</NPC312>
+    <NPC313>Guide PvP</NPC313>
+    <NPC314>Guide PvP</NPC314>
+    <NPC315>Guide PvP</NPC315>
+    <NPC316>Guide PvP</NPC316>
+    <NPC317>Guide PvP</NPC317>
+    <NPC318>Guide PvP</NPC318>
+    <NPC319>Guide PvP</NPC319>
+    <NPC320>Universal tradesman</NPC320>
+    <NPC401>Jeshich</NPC401>
+    <NPC402>Reddy</NPC402>
+    <NPC403>Amir Hejazi</NPC403>
+    <NPC404>Pilot</NPC404>
+    <NPC405>Salakh</NPC405>
+    <NPC406>Farid</NPC406>
+    <NPC407>Max Vako</NPC407>
+    <NPC408>Obvinsky</NPC408>
+    <NPC409>Vadim Stupka</NPC409>
+    <NPC410>Sad Stalker</NPC410>
+    <NPC411>Manager</NPC411>
+    <NPC412>Praporshchik Osadchiy</NPC412>
+  </common>
+</root>

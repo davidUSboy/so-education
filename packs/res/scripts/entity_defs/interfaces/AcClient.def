@@ -1,0 +1,24 @@
+<root>
+	<ClientMethods>
+		<acOnValidated>
+			<Arg> UINT32 </Arg>
+			<Arg> BOOL </Arg>
+		</acOnValidated>
+		<acAddTask>
+			<Arg>STRING</Arg>
+			<Arg>STRING</Arg>
+		</acAddTask>
+		<acAddCellTask>
+			<Arg>STRING</Arg>
+			<Arg>STRING</Arg>
+		</acAddCellTask>
+
+		<onCorruptedPacks>
+			<Arg> ARRAY <of>STRING</of> </Arg>
+		</onCorruptedPacks>
+		<onCorruptedPack>
+			<Arg> STRING </Arg>
+		</onCorruptedPack>
+
+	</ClientMethods>
+</root>

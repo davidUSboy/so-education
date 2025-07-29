@@ -1,0 +1,15 @@
+<root>
+	<Properties>
+		<_cached>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</_cached>
+	</Properties>
+	
+	<CellMethods>
+		<set_cached>
+			<Arg> BOOL </Arg>
+		</set_cached>
+	</CellMethods>		
+</root>

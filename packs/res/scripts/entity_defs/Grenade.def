@@ -1,0 +1,104 @@
+<root>
+	<Implements>
+		<Interface> Explosive </Interface>
+		<Interface> Damager </Interface>
+		<Interface> Throwable </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	<Properties>
+		<timeBeforeExplode>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default>702</Default>
+		</timeBeforeExplode>
+
+		<radiusOfDamage>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default>0.000000</Default>
+		</radiusOfDamage>
+
+		<maxDamage>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default>0.000000</Default>
+		</maxDamage>
+
+		<explodeOnFlyingEnded>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</explodeOnFlyingEnded>
+
+		<effectsOnExplode>
+			<Type> ARRAY 
+				<of> FIXED_DICT 
+					<Properties>
+						<id> 		<Type> BASE_EFFECT_ID </Type> </id>			
+						<stacks>	<Type> INT16 </Type> </stacks>						
+					</Properties> 
+				</of> 
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>			
+		</effectsOnExplode>			
+
+		
+		
+		
+		
+		<!-- for Throwable.py -->
+		
+		<anomalyEntityID>
+			<Type> ENTITY_ID </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</anomalyEntityID>
+		
+		<posHitAnomaly>
+			<Type> VECTOR3 </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+		</posHitAnomaly>
+		
+		<radiusHitAnomaly>
+			<Type> FLOAT </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+		</radiusHitAnomaly>
+		
+		
+		
+		
+		<!-- damage -->
+		<penetration>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 1.0 </Default>
+		</penetration>		
+		<mainDamage>
+			<Type> ITEM_DAMAGE </Type>
+			<Flags> ALL_CLIENTS </Flags>			
+		</mainDamage>
+		<additionalDamage>
+			<Type> ITEM_DAMAGE </Type>
+			<Flags> ALL_CLIENTS </Flags>			
+		</additionalDamage>
+
+	</Properties>
+
+	<ClientMethods>
+		<explode>
+			<Arg> ARRAY <of> ENTITY_ID </of> </Arg> <!-- victims -->
+		</explode>
+		<updatePath>
+			<Arg> VECTOR3 </Arg><!-- serverPos -->
+			<Arg> VECTOR3 </Arg><!-- destPos -->
+		</updatePath>
+
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

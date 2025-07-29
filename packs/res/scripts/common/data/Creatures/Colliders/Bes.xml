@@ -1,0 +1,102 @@
+<Bes.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>rightfoot</nodeName>
+      <boxName>rightfoot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.065645 -0.065645</minBounds>
+      <maxBounds>0.439821 0.065645 0.065645</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightleg</nodeName>
+      <boxName>rightleg_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.061647 -0.061647</minBounds>
+      <maxBounds>0.350000 0.061647 0.061647</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightupleg</nodeName>
+      <boxName>rightupleg_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.096738 -0.096738</minBounds>
+      <maxBounds>0.500000 0.096738 0.096738</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>head</nodeName>
+      <boxName>head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>0.000000 -0.104524 -0.118776</minBounds>
+      <maxBounds>0.221122 0.104524 0.118776</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightforearm</nodeName>
+      <boxName>rightforearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.072284 -0.072284</minBounds>
+      <maxBounds>0.520442 0.072283 0.072284</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>rightarm</nodeName>
+      <boxName>rightarm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.090488 -0.090488</minBounds>
+      <maxBounds>0.452442 0.090489 0.090488</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>tentacle01</nodeName>
+      <boxName>tentacle01_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>-0.006093 -0.048614 -0.048231</minBounds>
+      <maxBounds>0.550773 0.049108 0.117506</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftforearm</nodeName>
+      <boxName>leftforearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.081986 -0.081986</minBounds>
+      <maxBounds>0.725983 0.081986 0.081986</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftarm</nodeName>
+      <boxName>leftarm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.090489 -0.090489</minBounds>
+      <maxBounds>0.452442 0.090488 0.090488</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>spine1</nodeName>
+      <boxName>spine1_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.012349 -0.256667 -0.095590</minBounds>
+      <maxBounds>0.405572 0.256667 0.191078</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>spine</nodeName>
+      <boxName>spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.097655 -0.176055 -0.126701</minBounds>
+      <maxBounds>0.323284 0.176055 0.126308</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftfoot</nodeName>
+      <boxName>leftfoot_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.065645 -0.065645</minBounds>
+      <maxBounds>0.440000 0.065645 0.065645</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftleg</nodeName>
+      <boxName>leftleg_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.061647 -0.061647</minBounds>
+      <maxBounds>0.350000 0.061647 0.061647</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>leftupleg</nodeName>
+      <boxName>leftupleg_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.096738 -0.096738</minBounds>
+      <maxBounds>0.500000 0.096738 0.096738</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Bes.xml>

@@ -1,0 +1,371 @@
+<keyBindings>
+	<action>
+		<name> LeftMouseButton </name>
+		<keys>	LEFTMOUSE </keys>
+	</action>
+	<action>
+		<name> RightMouseButton </name>
+		<keys>	RIGHTMOUSE </keys>
+	</action>
+	<action>
+		<name> MiddleMouseButton </name>
+		<keys>	MIDDLEMOUSE </keys>
+	</action>
+
+	<action>
+		<name> MoveForward </name>
+		<keys>	W </keys>
+		<keys>	UPARROW </keys>
+	</action>
+	<action>
+		<name> MoveBackward </name>
+		<keys>	S </keys>
+		<keys>	DOWNARROW </keys>
+	</action>
+	<action>
+		<name> StrafeLeft </name>
+		<keys>	A </keys>
+		<keys>	LEFTARROW </keys>
+	</action>
+	<action>
+		<name> StrafeRight </name>
+		<keys>	D </keys>
+		<keys>	RIGHTARROW </keys>
+	</action>
+	<action>
+		<name> ReloadWeapon </name>
+		<keys>	R </keys>
+	</action>
+	<action>
+		<name> ChangeAmmoType </name>
+		<keys>	ALT R </keys>
+	</action>
+	<action>
+		<name> PVPScoreBar </name>
+		<keys>	GRAVE </keys>
+	</action>
+	<action>
+		<name> SwitchNightVision </name>
+		<keys>	N </keys>
+	</action>
+	<action>
+		<name> FriendList </name>
+		<keys>	F11 </keys>
+	</action>
+	
+	<action>
+		<name> Binoculars </name>
+		<keys>	B </keys>
+	</action>
+	<action>
+		<name> ChangeViewShoulder </name>
+		<keys>	CAPSLOCK </keys>
+	</action>
+	<action>
+		<name> Jump </name>
+		<keys>	SPACE </keys>
+	</action>
+	<action>
+		<name> ThrowGrenade</name>
+		<keys>	G </keys>
+	</action>
+	<action>
+		<name> PickUpAll </name>
+		<keys>	Z </keys>
+	</action>
+		<action>
+		<name> InteractObject </name>
+		<keys>	F </keys>
+	</action>
+	<action>
+		<name> DisconnectFromServer </name>
+		<keys>	ESCAPE </keys>
+	</action> 
+
+	<action>
+		<name> Sprint </name>
+		<keys>	SHIFT </keys>
+	</action>
+		
+	<action>
+		<name> PrimaryWeapon </name>
+		<keys> SHIFT 1 </keys>
+	</action>
+	<action>
+		<name> SecondaryWeapon </name>
+		<keys> SHIFT 2 </keys>
+	</action>
+
+	<action>
+		<name> HolsterWeapon  </name>
+		<keys>	H </keys>
+	</action>
+
+	<action>
+		<name> Crouch  </name>
+		<keys> CONTROL </keys>
+	</action>
+	
+	<action>
+		<name> ToggleCrouch  </name>
+		<keys>	C </keys>
+	</action>
+	
+	<action>
+		<name> SitGround  </name>
+		<keys>	NUMPADMINUS </keys>
+	</action>
+
+	<action>
+		<name> SitBackpack  </name>
+		<keys>	NUMPADSTAR </keys>
+	</action>
+	
+	<action>
+		<name> SitGroundX  </name>
+		<keys>	ADD </keys>
+	</action>
+	
+	<action>
+		<name> SitLegs  </name>
+		<keys>	NUMPADSLASH </keys>
+	</action>
+		
+	<action>
+		<name> LookAround  </name>
+		<keys>	ALT </keys>
+	</action>
+	
+	<action>
+		<name> ThrowStone </name>
+		<keys> Q </keys>
+	</action>
+
+	<action>
+		<name> InventoryShow </name>
+		<keys> I </keys>
+	</action>
+
+	<action>
+		<name> ToggleCharacterGUI </name>
+		<keys> U </keys>
+	</action>
+
+	<action>
+		<name> QuestJournal </name>
+		<keys>	J </keys>
+	</action>
+	
+	<action>
+		<name> ShowHelp </name>
+		<keys>	F1 </keys>
+	</action>
+
+	<action>
+		<name> ToggleSkillGUI</name>
+		<keys> K </keys>
+	</action>
+
+	<action>
+		<name> ToggleClanGUI </name>
+		<keys> O </keys>
+	</action>
+
+	<action>
+		<name> showCraft </name>
+		<keys> P </keys>
+	</action>
+
+	<action>
+		<name> GlobalMap </name>
+		<keys> M </keys>
+	</action>
+
+	<action>
+		<name> SpotLight </name>
+		<keys> L </keys>
+	</action>
+
+	<action>
+		<name> ViewEntities </name>
+		<keys>	V </keys>
+	</action>
+
+	<action>
+		<name> toggleGUI </name>
+		<keys>	F9  </keys>
+	</action>
+
+<!-- 	<action>
+		<name> togglePrivateStore </name>
+		<keys>	ALT T  </keys>
+	</action> -->
+	
+	<action>
+		<name> ReleaseCursor </name>
+		<keys>	TAB  </keys>
+	</action>
+
+	<action>
+		<name> QuickSlot1 </name>
+		<keys>	1 </keys>
+	</action>
+	<action>
+		<name> QuickSlot2 </name>
+		<keys>  2 </keys>
+	</action>
+	<action>
+		<name> QuickSlot3 </name>
+		<keys>	3 </keys>
+	</action>
+	<action>
+		<name> QuickSlot4 </name>
+		<keys>	4 </keys>
+	</action>
+	<action>
+		<name> QuickSlot5 </name>
+		<keys>	5 </keys>
+	</action>
+	<action>
+		<name> QuickSlot6 </name>
+		<keys>	6 </keys>
+	</action>
+	<action>
+		<name> QuickSlot7 </name>
+		<keys>	7 </keys>
+	</action>
+	<action>
+		<name> QuickSlot8 </name>
+		<keys>	8 </keys>
+	</action>
+	<action>
+		<name> QuickSlot9 </name>
+		<keys>	9 </keys>
+	</action>
+	<action>
+		<name> QuickSlot10 </name>
+		<keys>	0 </keys>
+	</action>
+	
+	<action>
+		<name> QuickLine1 </name>
+		<keys> ALT	1 </keys>
+	</action>
+	<action>
+		<name> QuickLine2 </name>
+		<keys> ALT 2 </keys>
+	</action>
+	<action>
+		<name> QuickLine3 </name>
+		<keys> ALT	3 </keys>
+	</action>
+	<action>
+		<name> QuickLine4 </name>
+		<keys> ALT	4 </keys>
+	</action>
+	<action>
+		<name> QuickLine5 </name>
+		<keys> ALT	5 </keys>
+	</action>
+	<action>
+		<name> QuickLine6 </name>
+		<keys> ALT	6 </keys>
+	</action>
+	<action>
+		<name> QuickLine7 </name>
+		<keys> ALT	7 </keys>
+	</action>
+	<action>
+		<name> QuickLine8 </name>
+		<keys> ALT	8 </keys>
+	</action>
+	<action>
+		<name> QuickLine9 </name>
+		<keys> ALT	9 </keys>
+	</action>
+	<action>
+		<name> QuickLine10 </name>
+		<keys> ALT	0 </keys>
+	</action>
+
+	<!--action>
+		<name> TogglePythonConsole </name>
+		<keys>	ALT P </keys>
+	</action-->
+	<!--action>
+		<name> DropActiveItem</name>
+		<keys>	ALT H </keys>
+	</action-->
+	<!--action>
+		<name> TimeOfDayIncrease </name>
+		<keys>	F3  </keys>
+	</action>
+	<action>
+		<name> TimeOfDayDecrease </name>
+		<keys>	F4  </keys>
+	</action-->
+
+	<!--action>
+		<name> QB_Slot0 </name>
+		<keys>	3 </keys>
+	</action>
+	
+	<action>
+		<name> QB_Slot1 </name>
+		<keys>	4 </keys>
+	</action>
+	
+	<action>
+		<name> QB_Slot2 </name>
+		<keys>	5 </keys>
+	</action>
+	
+	<action>
+		<name> QB_Slot3 </name>
+		<keys>	6 </keys>
+	</action>
+	
+	<action>
+		<name> QB_Slot4 </name>
+		<keys>	7 </keys>
+	</action>
+	
+	<action>
+		<name> QB_Slot5 </name>
+		<keys>	8 </keys>
+	</action>
+	
+	<action>
+		<name> QB_Slot6 </name>
+		<keys>	9 </keys>
+	</action>
+	
+	<action>
+		<name> QB_Slot7 </name>
+		<keys>	0 </keys>
+	</action-->
+
+	<!--action>
+		<name> ReverseCamera </name>
+		<keys>	ALT U </keys>
+	</action-->
+	<!--action>
+		<name> Teleport </name>
+		<keys>	T </keys>
+	</action-->
+	<!--action>
+		<name> showPVPScreen </name>
+		<keys> TAB </keys>
+	</action-->
+
+	<!--action>
+		<name> fastLogin </name>
+		<keys> ALT L </keys>
+	</action-->
+	
+	<!--action>
+		<name> ToggleMemoryScreen </name>
+		<keys>	F12  </keys>
+	</action-->
+
+</keyBindings>

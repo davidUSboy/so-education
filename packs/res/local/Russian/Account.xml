@@ -1,0 +1,24 @@
+<root>
+  <client>
+    <CHARACTER_CREATION_PROCESSING>Заявка на создание персонажа обрабатывается</CHARACTER_CREATION_PROCESSING>
+    <CHAR_RENAMED>Персонаж переименован</CHAR_RENAMED>
+    <QUEUE_POS>Номер в очереди:</QUEUE_POS>
+    <QUEUE_POS_0>Номер в очереди: 0</QUEUE_POS_0>
+  </client>
+  <base>
+    <USER_AGREEMENT_VIOLATION_CODE>Нарушение пользовательского соглашения (%s)</USER_AGREEMENT_VIOLATION_CODE>
+    <PASSWORD_MISSMATCH>Неверный логин или пароль</PASSWORD_MISSMATCH>
+    <REMAINING_HOURS>(осталось %d часов)</REMAINING_HOURS>
+    <REMAINING_MINUTES>(осталось %d минут)</REMAINING_MINUTES>
+    <REMAINING_SECONDS>(осталось %d секунд)</REMAINING_SECONDS>
+    <UNTIL_SPECIAL_ORDERS>(до особых распоряжений)</UNTIL_SPECIAL_ORDERS>
+    <YOU_ARE_BANNED_REASON>Вы забанены:</YOU_ARE_BANNED_REASON>
+    <YOU_ARE_BANNED>Вы забанены</YOU_ARE_BANNED>
+    <UNKNOWN>неизвестно</UNKNOWN>
+    <USER_AGREEMENT_VIOLATION>Нарушение пользовательского соглашения</USER_AGREEMENT_VIOLATION>
+    <PASSWORD_CHANGED>Пароль на аккаунте изменен.</PASSWORD_CHANGED>
+    <PASSWORD_NOT_CHANGED>Пароль на аккаунте не изменен.</PASSWORD_NOT_CHANGED>
+    <REGEX1>^(([а-я0-9\_]*)|([a-z0-9\_]*))$</REGEX1>
+  </base>
+  <VALID_USERNAME_REGEX>(?:^[а-я]+[а-я0-9\_]{2,})|(?:^[a-z]+[a-z0-9\_]{2,})$</VALID_USERNAME_REGEX>
+</root>

@@ -1,0 +1,95 @@
+<root>
+  <soGUI>
+    <FULLSCREEN>На весь экран</FULLSCREEN>
+    <WINDOW>В окне</WINDOW>
+    <WINDOWED>Окно на весь экран</WINDOWED>
+    <STRING_80_13>Настройки</STRING_80_13>
+    <STRING_91_13>Разрешение</STRING_91_13>
+    <SMOOTHING_SETTINGS>Сглаживание</SMOOTHING_SETTINGS>
+    <STRING_102_13>Уровень детализации</STRING_102_13>
+    <STRING_113_13>Громкость эффектов</STRING_113_13>
+    <STRING_124_13>Громкость музыки</STRING_124_13>
+    <STRING_159_19>Отмена</STRING_159_19>
+    <STRING_180_19>Применить</STRING_180_19>
+    <STRING_240_73>Полноэкранный режим</STRING_240_73>
+    <STRING_359_19>НАЖМИТЕ КЛАВИШУ, КОТОРАЯ БУДЕТ ВЫЗЫВАТЬ ЭТО ДЕЙСТВИЕ (ESC ДЛЯ ОТМЕНЫ)</STRING_359_19>
+    <STRING_362_18>Клавиатура</STRING_362_18>
+    <STRING_363_15>Мышь</STRING_363_15>
+    <STRING_364_15>Аудио</STRING_364_15>
+    <STRING_365_15>Видео</STRING_365_15>
+    <STRING_MAIN_VIDEO_SETTINGS>Осн.настройки</STRING_MAIN_VIDEO_SETTINGS>
+    <ADDITIONL_VIDEO_SETTINGS>Доп.настройки</ADDITIONL_VIDEO_SETTINGS>
+    <CONTROL_SETTINGS>Управление</CONTROL_SETTINGS>
+    <BACK>Назад</BACK>
+    <STRING_369_26>Пользовательское</STRING_369_26>
+    <STRING_370_23>Низкое</STRING_370_23>
+    <STRING_371_26>Среднее</STRING_371_26>
+    <STRING_372_24>Высокое</STRING_372_24>
+    <STRING_373_25>Очень высокое</STRING_373_25>
+    <STRING_377_23>Низкое</STRING_377_23>
+    <STRING_378_23>Среднее</STRING_378_23>
+    <STRING_379_24>Высокое</STRING_379_24>
+    <STRING_488_19>Отмена</STRING_488_19>
+    <STRING_509_19>Применить</STRING_509_19>
+    <STRING_604_131>Действие</STRING_604_131>
+    <STRING_605_108>Клавиша 1</STRING_605_108>
+    <STRING_606_108>Клавиша 2</STRING_606_108>
+    <STRING_636_19>Стандартные</STRING_636_19>
+    <STRING_657_19>Изменить</STRING_657_19>
+    <STRING_678_19>Очистить</STRING_678_19>
+    <STRING_733_13>Чувствительность мыши</STRING_733_13>
+    <STRING_774_73>Инверсия мыши</STRING_774_73>
+    <STRING_785_73>Фильтр</STRING_785_73>
+    <STRING_804_13>Инвертирует движения мышки</STRING_804_13>
+    <STRING_815_13>Сглаживает движения мышки</STRING_815_13>
+    <STRING_864_13>Громкость музыки</STRING_864_13>
+    <STRING_908_13>Громкость эффектов</STRING_908_13>
+    <AllVolume>Общая громкость</AllVolume>
+    <STRING_971_29>Низкое</STRING_971_29>
+    <STRING_972_29>Среднее</STRING_972_29>
+    <STRING_973_30>Высокое</STRING_973_30>
+    <STRING_984_13>Качество звука</STRING_984_13>
+    <STRING_1038_29>Низкое</STRING_1038_29>
+    <STRING_1039_32>Среднее</STRING_1039_32>
+    <STRING_1040_30>Высокое</STRING_1040_30>
+    <STRING_1041_31>Очень высокое</STRING_1041_31>
+    <STRING_1042_31>Пользовательское</STRING_1042_31>
+    <STRING_1068_13>Разрешение экрана</STRING_1068_13>
+    <STRING_1080_13>Качество графики</STRING_1080_13>
+    <STRING_1081_13>Качество текстур</STRING_1081_13>
+    <STRING_1082_13>Качество теней</STRING_1082_13>
+    <STRING_1083_13>Фильтрация текстур</STRING_1083_13>
+    <STRING_1084_13>Качество деревьев</STRING_1084_13>
+    <STRING_1085_13>Качество воды</STRING_1085_13>
+    <STRING_1086_13>SSAO</STRING_1086_13>
+    <MIRROR>Отражение</MIRROR>
+    <isVISIBLE>Видимость</isVISIBLE>
+    <TEXTURE_BLUR>Размытие текстур</TEXTURE_BLUR>
+    <REALISTIC_WATER>Реалистичная вода</REALISTIC_WATER>
+    <VISIBLE_NPC>Видимость NPC</VISIBLE_NPC>
+    <SCHEIDER>Шейдер</SCHEIDER>
+    <TEXTURE_COMPRESS>Сжатие текстур</TEXTURE_COMPRESS>
+    <DETALIZATION_GROUND>Детализация земли</DETALIZATION_GROUND>
+    <POST_EFFECT>Пост эффект</POST_EFFECT>
+    <STRING_1087_13>Дальность видимости</STRING_1087_13>
+    <STRING_1088_13>Симуляция воды</STRING_1088_13>
+    <STRING_1089_13>Количество теней</STRING_1089_13>
+    <STRING_1093_13>Отображение следов</STRING_1093_13>
+    <STRING_1095_13>Лучи от солнца</STRING_1095_13>
+    <STRING_1094_13>Плотность флоры</STRING_1094_13>
+    <STRING_1091_13>Соотношение сторон</STRING_1091_13>
+    <STRING_1115_13>Гамма</STRING_1115_13>
+    <STRING_1159_73>Оконный режим</STRING_1159_73>
+    <STRING_1180_19>Больше</STRING_1180_19>
+    <STRING_509_20>Дополнительно</STRING_509_20>
+    <STRING_1216_13>Дополнительные опции</STRING_1216_13>
+    <STRING_1269_19>Отмена</STRING_1269_19>
+    <STRING_1532_131>Действие</STRING_1532_131>
+    <STRING_1533_108>Основное</STRING_1533_108>
+    <STRING_1534_108>Альтернативное</STRING_1534_108>
+    <STRING_1680_22>Назначьте клавишу для действия:</STRING_1680_22>
+    <STRING_1680_97>(Esc для отмены)</STRING_1680_97>
+    <STRING_1701_23>Назначьте клавишу для действия:</STRING_1701_23>
+    <STRING_1701_98>(Esc для отмены)</STRING_1701_98>
+  </soGUI>
+</root>

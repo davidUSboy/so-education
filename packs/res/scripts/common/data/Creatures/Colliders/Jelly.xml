@@ -1,0 +1,81 @@
+<Jelly.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip001 L Calf</nodeName>
+      <boxName>Bip001 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.068481 -0.068481</minBounds>
+      <maxBounds>0.390342 0.068481 0.068481</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Thigh</nodeName>
+      <boxName>Bip001 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.139200 -0.095406 -0.126535</minBounds>
+      <maxBounds>0.268172 0.107075 0.043806</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Calf</nodeName>
+      <boxName>Bip001 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.072258 -0.072258</minBounds>
+      <maxBounds>0.426320 0.072258 0.072258</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Thigh</nodeName>
+      <boxName>Bip001 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.075742 -0.074981 -0.087953</minBounds>
+      <maxBounds>0.349434 0.108663 0.079122</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Head</nodeName>
+      <boxName>Bip001 Head_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.082908 -0.142401 -0.158380</minBounds>
+      <maxBounds>0.206588 0.142401 0.159429</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Neck1</nodeName>
+      <boxName>Bip001 Neck1_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.154718 -0.239167 -0.263737</minBounds>
+      <maxBounds>0.095282 0.239168 0.330240</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Forearm</nodeName>
+      <boxName>Bip001 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.051188 -0.067353</minBounds>
+      <maxBounds>0.381758 0.051188 0.067353</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Forearm</nodeName>
+      <boxName>Bip001 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.048635 -0.050545</minBounds>
+      <maxBounds>0.356625 0.048635 0.050545</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Neck</nodeName>
+      <boxName>Bip001 Neck_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.218027 -0.322394 -0.313316</minBounds>
+      <maxBounds>-0.010506 0.322395 0.375638</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Spine</nodeName>
+      <boxName>center_Bip001 Spine_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.119526 -0.164390 -0.124150</minBounds>
+      <maxBounds>0.166370 0.164390 0.124110</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Spine</nodeName>
+      <boxName>body_Bip001 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>0.140289 -0.300690 -0.223378</minBounds>
+      <maxBounds>0.664680 0.300690 0.222732</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Jelly.xml>

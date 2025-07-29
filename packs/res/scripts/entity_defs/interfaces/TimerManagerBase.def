@@ -1,0 +1,16 @@
+<root>
+	<Properties>
+
+		<__base_timer_controllers__>
+			<Type> BWDICT_UINT32_UINT32 </Type>
+			<Flags> BASE </Flags>
+		</__base_timer_controllers__>
+
+		<__base_call_once_controllers__>
+			<Type> BWDICT_UINT32_UINT32 </Type>
+			<Flags> BASE </Flags>
+		</__base_call_once_controllers__>
+
+	</Properties>
+
+</root>

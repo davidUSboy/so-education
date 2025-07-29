@@ -1,0 +1,33 @@
+<root>
+
+	<Implements>
+			<Interface> ModelSelector </Interface>
+	</Implements>
+
+    <Properties>
+        <questID>
+			<Type> QUESTID </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>	True		 </Editable>
+		</questID>
+
+        <show_if>
+            <Type>
+                QOBJECT_WINIF
+            </Type>
+			<Flags> ALL_CLIENTS       </Flags>
+            <Default>  0             </Default>
+			<Editable>	True		 </Editable>
+        </show_if>
+
+    </Properties>
+
+    <ClientMethods>
+    </ClientMethods>
+
+    <CellMethods>
+    </CellMethods>
+
+    <BaseMethods>
+    </BaseMethods>
+</root>

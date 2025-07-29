@@ -1,0 +1,35 @@
+<root>
+	<Properties>
+		<canDamage>
+			<Type> BOOL </Type>
+			<Persistent> true </Persistent>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Default> 1 </Default>
+		</canDamage>
+	</Properties>
+
+	<CellMethods>
+		<set_can_damage>
+			<Arg> BOOL </Arg>
+		</set_can_damage>
+
+		<on_victim_damaged>
+			<Arg> MAILBOX </Arg>
+			<Arg> DAMAGETAKEN_DATA </Arg>
+		</on_victim_damaged>
+
+		<on_victim_death>
+			<Arg> MAILBOX </Arg>
+		</on_victim_death>
+	</CellMethods>
+	
+	<ClientMethods>
+		<on_victim_damaged>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> DAMAGETAKEN_DATA </Arg>
+		</on_victim_damaged>
+		<on_victim_death>
+			<Arg> ENTITY_ID </Arg> 
+		</on_victim_death>
+	</ClientMethods>
+</root>

@@ -1,0 +1,65 @@
+<root>
+
+	<Implements>
+		<Interface> ItemHolder </Interface>
+		<Interface> Disappearing </Interface>
+	</Implements>
+
+	<Properties>
+	
+
+		<pOwnerID>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</pOwnerID>
+		
+		<pItemTypeModel>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</pItemTypeModel>
+		
+		<itemID>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</itemID>
+
+
+		
+		<CreatorMB>
+			<Type>			MAILBOX		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</CreatorMB>
+
+
+		<CreatorCellMB>
+			<Type>			MAILBOX		</Type>
+			<Flags>			BASE		</Flags>
+		</CreatorCellMB>
+		
+	</Properties>
+	
+	<ClientMethods>
+	</ClientMethods>
+	
+	
+	<CellMethods>
+		<changeOwnerID>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</changeOwnerID>
+		
+	</CellMethods>
+	
+	
+	
+	
+	<BaseMethods>
+	
+	</BaseMethods>
+	
+
+	
+</root>
+

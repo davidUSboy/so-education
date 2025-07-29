@@ -1,0 +1,58 @@
+<root>
+	<Implements>
+		<Interface> Throwable </Interface>
+		<Interface> TimerManagerCell </Interface>
+		<Interface> Cacheable </Interface>
+	</Implements>
+	
+	<Properties>
+		<existenceTime>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 5 </Default>
+		</existenceTime>
+		
+		<anomalyEntityID>
+			<Type> ENTITY_ID </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</anomalyEntityID>
+		
+		<posHitAnomaly>
+			<Type> VECTOR3 </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+		</posHitAnomaly>
+		
+		<radiusHitAnomaly>
+			<Type> FLOAT </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+		</radiusHitAnomaly>
+		
+		
+	</Properties>
+	
+	<CellMethods>
+		<reset_params>
+			<Arg> STONE_RESET_PARAMS_DICT </Arg>
+			<Arg> TELEPORT_PARAMS </Arg>
+		</reset_params>
+		
+		<startAnomalyEffect>
+			<Arg> ENTITY_ID </Arg>
+			<Arg> VECTOR3 </Arg>
+			<Arg> FLOAT </Arg>
+		</startAnomalyEffect>
+		
+	</CellMethods>		
+
+	<ClientMethods>
+		<onExistenceOver/>
+		
+		<startAnomalyEffectHit>
+			<Arg> ENTITY_ID </Arg> <!-- anomaly ID -->
+			<Arg> VECTOR3 </Arg> 	<!-- anomalyPos -->
+			<Arg> FLOAT </Arg>	<!-- anomalyRadius -->
+		</startAnomalyEffectHit>
+		
+	</ClientMethods>
+</root>

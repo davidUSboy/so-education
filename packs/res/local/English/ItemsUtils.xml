@@ -1,0 +1,36 @@
+<root>
+  <common>
+    <NO_DESCRIPTION>No description</NO_DESCRIPTION>
+    <VOID_ITEM>Item</VOID_ITEM>
+    <LC_WEAPON>WEAPON</LC_WEAPON>
+    <LC_CLOTH>CLOTHING</LC_CLOTH>
+    <LC_ARTIFACT>Artifacts</LC_ARTIFACT>
+    <LC_GADGET>Gadjets</LC_GADGET>
+    <LC_BUFF>Substances</LC_BUFF>
+    <LC_PART>Parts</LC_PART>
+    <LC_AMMO>Rounds</LC_AMMO>
+    <LC_EXPLOSION>Explosives</LC_EXPLOSION>
+    <LC_LOOT>Trophies</LC_LOOT>
+    <LC_QUEST>Quests</LC_QUEST>
+    <LC_PISTOL>Pistols</LC_PISTOL>
+    <LC_REVOLVER>Revolvers</LC_REVOLVER>
+    <LC_SUB_MACHINE_GUN>Submachines</LC_SUB_MACHINE_GUN>
+    <LC_ASSAULT_RIFLE>Assault Rifles</LC_ASSAULT_RIFLE>
+    <LC_SNIPER_RIFLE>Sniper Rifles</LC_SNIPER_RIFLE>
+    <LC_RIFLE>Rifles</LC_RIFLE>
+    <LC_SHOTGUN>Shotguns</LC_SHOTGUN>
+    <LC_MACHINE_GUN>Machine Guns</LC_MACHINE_GUN>
+    <LC_GRENADE_LAUNCHER>Grenade Launchers</LC_GRENADE_LAUNCHER>
+    <LC_ROCKET_LAUNCHER>Flare Guns</LC_ROCKET_LAUNCHER>
+    <LC_GRENADE>Grenades</LC_GRENADE>
+    <LC_HEAD>Hats</LC_HEAD>
+    <LC_SHIRT>Shirts</LC_SHIRT>
+    <LC_HANDS>Gloves</LC_HANDS>
+    <LC_PANTS>Pants</LC_PANTS>
+    <LC_BOOTS>Boots</LC_BOOTS>
+    <LC_ARMOR>Armor</LC_ARMOR>
+    <LC_HAT>Hats</LC_HAT>
+    <LC_MASK>Masks</LC_MASK>
+    <LC_BACKPACK>Backpacks</LC_BACKPACK>
+  </common>
+</root>

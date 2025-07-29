@@ -1,0 +1,9 @@
+ps.1.1
+
+//c0 is texture factor.  must be output as alpha by prog.
+//c1 colour of output, set by prog.
+
+//calculate the fresnel edging on to the shimmer map
+mul r0.rgb, v0.a, c1
+//add output the alpha from the programmatic constant
++mov r0.a, c0.a

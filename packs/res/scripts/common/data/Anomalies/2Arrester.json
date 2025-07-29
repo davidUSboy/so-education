@@ -1,0 +1,35 @@
+{
+	"difficultyMin" : 20,
+	"difficultyMax" : 30,
+	"lifetime": 5.28,
+	"artifacts": [210002],
+	"artifact_spawn_chance": 0.75,
+	"default_state": "main",
+	"states": {
+		"main": {
+			"radius": 3.0,
+			"radiusOut": 10.0,
+			"damage": {
+				"type": "ELECTROSTATIC",
+				"distribution":  "DISTRIBUTED",
+				"frequency": 1.5,
+				"value": 150.0,
+				"penetration": 100.0,
+				"body_zone": "TORSO"
+			},
+			"effects": [
+				["Anomaly_Arrester", 1]
+			],
+			"invisible": 0,
+			"nudge_type": "NONE",
+			"nudge_interval": 3,
+			"particles": "particles/anomaly_electro.xml",
+			"particlesOut": "particles/anomaly_OFF.xml",
+			
+			"sfx_self": "sfx/anomaly_electro.xml",
+			"sfx_self_interval": [3,6],
+			
+			"sound": "anomaly/electro"
+		}
+	}
+}

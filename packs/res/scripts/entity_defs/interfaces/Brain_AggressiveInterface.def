@@ -1,0 +1,20 @@
+<root>
+	<Properties>
+		<attack_active_target_id>
+			<Type> ENTITY_ID</Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 1 </Default>
+		</attack_active_target_id>	
+	
+		<attack_cooldown>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 1 </Default>
+		</attack_cooldown>
+		
+		<attack_ability>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</attack_ability>		
+	</Properties>	
+</root>

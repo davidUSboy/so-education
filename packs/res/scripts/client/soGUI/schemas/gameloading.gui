@@ -1,0 +1,96 @@
+<gameloading.gui>
+	<WindowGUIComponent>	223357328 <!-- BackScreen -->
+		<crossFocus> false </crossFocus>
+		<position>	0.000000 0.000000 0.000000	</position>
+		<width>	2.000000	</width>
+		<height>	2.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	soGUI/maps/Misc/loading_screen.jpg	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;PyGUI.ChunkLoadingProgressBar&quot;
+			<phase1Ratio>	1.000000	</phase1Ratio>
+			<checkRate>	0.050000	</checkRate>
+			<timeout>	180	</timeout>
+		</script>
+		<children>
+			<bar>	223357329	</bar>
+		</children>
+		<shaders>
+			<fader>	222080408	</fader>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</WindowGUIComponent>
+	<!-- front panel -->
+	<WindowGUIComponent>	223357329
+		<crossFocus> false </crossFocus>
+		<position>	0.000000 -1.000000 0.000000	</position>
+		<width>	2.000000	</width>
+		<height>	0.500000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	soGUI/maps/loadingScreen/panel.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+		<children>
+			<fillbar>	221997344	</fillbar>
+		</children>
+	</WindowGUIComponent>
+
+	<SimpleGUIComponent>	221997344 <!-- progressBar front -->
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<position>	-0.078000 -0.059000 0.000000	</position>
+		<width>	 0.226000	</width>
+		<height>	0.280000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<verticalAnchor>	0	</verticalAnchor>
+		<horizontalPositionMode> 0 </horizontalPositionMode>
+		<verticalPositionMode> 0 </verticalPositionMode>
+		<textureName>	soGUI/maps/loadingScreen/fullbar.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<clipper>	220885320	</clipper>
+		</shaders>
+		<widthMode>	0	</widthMode>
+		<heightMode>	0	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<AlphaGUIShader>	222080408
+		<mode>	0	</mode>
+		<stop>	-1.000000	</stop>
+		<start>	1.000000	</start>
+		<alpha>	1.000000	</alpha>
+		<speed>	2.000000	</speed>
+	</AlphaGUIShader>
+	<ClipGUIShader>	220885320
+		<mode>	0	</mode>
+		<value>	0.000000	</value>
+		<speed>	1.500000		</speed>
+		<delay>	0.000000	</delay>
+		<slant>	0.000000	</slant>
+	</ClipGUIShader>
+</gameloading.gui>

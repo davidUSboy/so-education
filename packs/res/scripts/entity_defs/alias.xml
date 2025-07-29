@@ -1,0 +1,4205 @@
+<!-- Stalker Online custom types -->
+<root>
+	
+	<!-- for friends List-->
+	<DBID>	INT64	</DBID>
+	<FRIENDIDX>	 UINT8	</FRIENDIDX>
+	
+	<PREMIUMSETTINGS> FIXED_DICT
+		<Properties>
+			<ExpCoefficient>
+				<Type> FLOAT32 </Type>
+			</ExpCoefficient>
+			<price>
+				<Type> FLOAT32 </Type>
+			</price>
+			<DateEnd> 
+				<Type> INT64   </Type>
+			</DateEnd>
+			
+		</Properties>
+	</PREMIUMSETTINGS>
+	
+	<!-- baned -->
+	<HWIDBAN> FIXED_DICT
+		<Properties>
+			<HWID>
+				<Type> STRING </Type>
+			</HWID>
+
+			<reason>
+				<Type> STRING </Type>
+			</reason>
+			
+			<hiddenReason>
+				<Type> STRING </Type>
+			</hiddenReason>
+
+			<accountName>
+				<Type> STRING </Type>
+			</accountName>
+
+			<timeBan>
+				<Type> FLOAT64 </Type>
+			</timeBan>
+
+			
+		</Properties>
+	</HWIDBAN>	
+
+
+
+
+
+
+	<CSPLAYER> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> UNICODE_STRING </Type>
+			</name>
+			<mailBox>
+				<Type> MAILBOX </Type>
+			</mailBox>
+
+			<alive>
+				<Type> INT8 </Type>
+			</alive>
+
+			<teamID>
+				<Type> INT8 </Type>
+			</teamID>
+		
+			<kills>
+				<Type> INT32 </Type>
+			</kills>
+
+			<deaths>
+				<Type> INT32 </Type>
+			</deaths>
+		</Properties>	
+	</CSPLAYER>
+
+
+
+
+	<NAMEANDTEAM> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> UNICODE_STRING </Type>
+			</name>
+			
+			<teamID>
+				<Type> INT8 </Type>
+			</teamID>
+		
+		</Properties>	
+	</NAMEANDTEAM>
+
+
+	<CSGAMEINFO> FIXED_DICT
+		<Properties>
+			<connectType>
+				<Type> INT8 </Type>
+			</connectType>
+
+			<isUserType>
+				<Type> INT8 </Type>
+			</isUserType>
+
+			<title>
+				<Type> UNICODE_STRING </Type>
+			</title>
+
+			<gamePlay>
+				<Type> INT8 </Type>
+			</gamePlay>
+
+	
+			<friendlyfire> 
+				<Type> INT8 </Type>
+				<Default>	1	</Default>
+			</friendlyfire>
+
+
+			<geometry>
+				<Type> STRING </Type>
+			</geometry>
+
+			<winLimit>
+				<Type> INT32 </Type>
+			</winLimit>
+
+			<gameTimeLimit>
+				<Type> FLOAT64 </Type>
+			</gameTimeLimit>
+
+			<gameTimeStart>
+				<Type> FLOAT64 </Type>
+			</gameTimeStart>
+			
+			<roundTimeStart>
+				<Type> FLOAT64 </Type>
+			</roundTimeStart>
+
+			<roundTimeLimit>
+				<Type> FLOAT64 </Type>
+			</roundTimeLimit>
+
+			<teamBlueWins>
+				<Type> INT32 </Type>
+			</teamBlueWins>
+
+			<teamRedWins>
+				<Type> INT32 </Type>
+			</teamRedWins>
+
+			
+			<weather>
+				<Type> STRING </Type>
+			</weather>
+
+			<timeOfday>
+				<Type> INT32 </Type>
+			</timeOfday>
+
+			<maxPlayers>
+				<Type> INT16 </Type>
+			</maxPlayers>
+
+		</Properties>
+	</CSGAMEINFO>
+
+
+	<ROOMINFO>FIXED_DICT
+		<Properties>
+			<roomID>
+				<Type> INT32 </Type>
+			</roomID>
+			<countPlayers>
+				<Type> INT32 </Type>
+			</countPlayers>
+			<gameInfo>
+				<Type> CSGAMEINFO </Type>
+			</gameInfo>
+		</Properties>
+	</ROOMINFO>
+
+	<ROOMDETAILINFO>FIXED_DICT
+		<Properties>
+			<roomID>
+				<Type> INT32 </Type>
+			</roomID>
+			<players>
+				<Type>  ARRAY <of>CSPLAYER</of>   </Type>
+			</players>
+			<gameInfo>
+				<Type> CSGAMEINFO </Type>
+			</gameInfo>
+		</Properties>
+	</ROOMDETAILINFO>
+
+
+
+
+	<COLLEDeDATA> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> STRING </Type>
+			</name>
+
+			<bone>
+				<Type> STRING </Type>
+			</bone>
+
+			<boneid>
+				<Type> INT8 </Type>
+			</boneid>
+
+			<min>
+				<Type> VECTOR3 </Type>
+			</min>	
+
+			<max>
+				<Type> VECTOR3 </Type>
+			</max>
+
+			
+		</Properties>
+	</COLLEDeDATA>	
+
+
+
+	<HWIDERROR> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> STRING </Type>
+			</name>
+			<shash>
+				<Type> STRING </Type>
+			</shash>
+			<key>
+				<Type> STRING </Type>
+			</key>
+
+		</Properties>
+	</HWIDERROR>
+
+
+	<CONNECTINFO> FIXED_DICT
+		<Properties>
+			<HWID>
+				<Type> STRING </Type>
+			</HWID>
+			<Mac>
+				<Type> STRING </Type>
+			</Mac>
+			<CompName>
+				<Type> STRING </Type>
+			</CompName>
+			<status>
+				<Type> INT8 </Type>
+			</status>
+			<time>
+				<Type> FLOAT64 </Type>
+			</time>
+			<ip>
+				<Type> UINT32 </Type>
+			</ip>
+
+		</Properties>
+	</CONNECTINFO>
+
+			
+
+	<!-- stats -->
+	<HWIDX> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> STRING </Type>
+			</name>
+			<hardWareid>
+				<Type>  ARRAY <of>STRING</of>  </Type>
+			</hardWareid>
+		</Properties>
+	</HWIDX>
+	
+	<ACCDLLINFO> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> STRING </Type>
+			</name>
+			<HWID>
+				<Type>  STRING  </Type>
+			</HWID>
+			<time>
+				<Type>  FLOAT64  </Type>
+			</time>
+			<compName>
+				<Type>  STRING  </Type>
+			</compName>
+		</Properties>
+	</ACCDLLINFO>
+	
+	<ACC_CHEAT_INFO> FIXED_DICT
+		<Properties>
+			<cheat>
+				<Type> ARRAY <of> STRING </of></Type>
+			</cheat>
+			<name>
+				<Type> STRING </Type>
+			</name>
+			<HWID>
+				<Type>  STRING  </Type>
+			</HWID>
+			<time>
+				<Type>  FLOAT64  </Type>
+			</time>
+			<compName>
+				<Type>  STRING  </Type>
+			</compName>
+		</Properties>
+	</ACC_CHEAT_INFO>
+
+
+
+	
+	<HWIDForAcc> FIXED_DICT
+		<Properties>
+			<status>
+				<Type> INT8 </Type>
+			</status>
+			<HWIDacc>
+				<Type> STRING </Type>
+			</HWIDacc>
+		</Properties>
+	</HWIDForAcc>
+	
+	
+	
+	
+	
+	<ENUM>			INT8		</ENUM>
+	<BOOL>				UINT8
+		<!-- BOOL uses the ENUM widget to show True for 1 and False for 0	-->
+		<Widget>	ENUM
+			<enum>
+				<value>	0	</value>
+				<display>	False	</display>
+			</enum>
+			<enum>
+				<value>	1	</value>
+				<display>	True	</display>
+			</enum>
+		</Widget>
+	</BOOL>
+
+	<ITEM_ID>			INT32		</ITEM_ID>
+	<ITEM_TYPE>			INT32		</ITEM_TYPE>
+	<ITEMTYPE>			INT32		</ITEMTYPE>
+
+	<OBJECT_ID>			INT32		</OBJECT_ID>
+	<ENTITY_ID>			INT32		</ENTITY_ID>
+	<SPACE_ID>			INT32		</SPACE_ID>
+	<RESOURCE_ID>		STRING		</RESOURCE_ID>
+	<DBID>				INT64		</DBID>
+	<DATABASE_ID>		INT64		</DATABASE_ID>
+	<CONTROLLER_ID>		UINT32		</CONTROLLER_ID>
+	<LOGIC_ID>			UINT8		</LOGIC_ID>
+
+	<BASE_EFFECT_ID> UINT16 </BASE_EFFECT_ID>
+
+	<BOT_STATE>		UINT8		</BOT_STATE>
+	<BOT_SKILL_ID>	UINT8		</BOT_SKILL_ID>
+
+	<ACCESS_LEVEL>	UINT8		</ACCESS_LEVEL>
+
+	<TELEPORT_TYPE>	UINT8	</TELEPORT_TYPE>
+	<THROWING_TYPE>	UINT8	</THROWING_TYPE>
+
+	<BODY_ZONE>	UINT8 </BODY_ZONE>
+
+	<MODEL_AND_TINT> FIXED_DICT
+		<Properties>
+			<model>
+				<Type> INT32 </Type>
+			</model>
+			<tint>
+				<Type> INT32 </Type>
+			</tint>
+			<type_id>
+				<Type> INT32 </Type>
+			</type_id>
+		</Properties>
+	</MODEL_AND_TINT>
+
+	<ACTEST_RESULT> FIXED_DICT
+		<Properties>
+			<test_type>
+				<Type> INT32 </Type>
+			</test_type>
+			<last_fail_time>
+				<Type> FLOAT </Type>
+			</last_fail_time>
+			<last_success_time>
+				<Type> FLOAT </Type>
+			</last_success_time>
+		</Properties>
+	</ACTEST_RESULT>
+	<VICTIM_HIT> FIXED_DICT
+		<Properties>
+			<entity>
+				<Type> OBJECT_ID </Type>
+			</entity>
+			<bodyZone>
+				<Type> INT32 </Type>
+			</bodyZone>
+			<position>
+				<Type> VECTOR3 </Type>
+			</position>
+		</Properties>
+	</VICTIM_HIT>
+	
+	
+	<PACKED_AVATAR_MODEL> FIXED_DICT
+		<Properties>
+			<head>
+				<Type> MODEL_AND_TINT </Type>
+			</head>
+			<body>
+				<Type> MODEL_AND_TINT </Type>
+			</body>
+			<legs>
+				<Type> MODEL_AND_TINT </Type>
+			</legs>
+			<hands>
+				<Type> MODEL_AND_TINT </Type>
+			</hands>
+			<boots>
+				<Type> MODEL_AND_TINT </Type>
+			</boots>
+	<!-- ADD ANOTHER ATTRIBUTES HERE  -->
+		</Properties>
+	</PACKED_AVATAR_MODEL>
+	<SPACE_INFO> FIXED_DICT
+				<Properties>
+					<SpaceID>
+						<Type> SPACE_ID  </Type>
+					</SpaceID>
+
+					<SpaceName>
+						<Type> STRING </Type>
+					</SpaceName>
+				</Properties>
+	</SPACE_INFO>
+	<PACKED_PLAYER_KIT> FIXED_DICT
+				<Properties>
+					<KitKeys>
+						<Type>  ARRAY <of>INT32</of>  </Type>
+					</KitKeys>
+
+					<KitValues>
+						<Type> ARRAY <of>TUPLE <of>INT32</of>  </of> </Type>
+					</KitValues>	
+				</Properties>
+	</PACKED_PLAYER_KIT>
+
+	<BARTER_LIST_ENTRY>FIXED_DICT
+		<Properties>
+				<barterListName>
+					<Type> UNICODE_STRING </Type>
+				</barterListName>
+				<resultItems>
+					<Type> ARRAY <of> INT32 </of> </Type>
+				</resultItems>
+				<resourceItems>
+					<Type> ARRAY <of> INT32 </of> </Type>
+				</resourceItems>
+		</Properties>
+	</BARTER_LIST_ENTRY>
+	<PACKHISTORY> ARRAY
+		<of>
+			FIXED_DICT
+			<Properties>
+				<task_type>
+					<Type> INT32 </Type>
+				</task_type>
+				<last_test>
+					<Type> FLOAT </Type>
+				</last_test>
+			</Properties>
+		</of>
+	</PACKHISTORY>
+	<ITEM_DISPATCHER_ENTRY>	FIXED_DICT
+		<Properties>
+				<itemType>
+					<Type> INT32 </Type>
+				</itemType>
+				<ownerBaseID>
+					<Type> INT32 </Type>
+				</ownerBaseID>
+		</Properties>
+	</ITEM_DISPATCHER_ENTRY>
+
+
+	<WEAPON_UPGRADES> FIXED_DICT
+		<Properties>
+				<ButtType>
+					<Type> INT32 </Type>
+				</ButtType>
+				<MagazineType>
+					<Type> INT32 </Type>
+				</MagazineType>
+				<LauncherType>
+					<Type> INT32 </Type>
+				</LauncherType>
+				<LightType>
+					<Type> INT32 </Type>
+				</LightType>
+				<BayonetType>
+					<Type> INT32 </Type>
+				</BayonetType>
+				<SilencerType>
+					<Type> INT32 </Type>
+				</SilencerType>
+				<ScopeType>
+					<Type> INT32 </Type>
+				</ScopeType>
+				<AmmoType>
+					<Type> INT32 </Type>
+				</AmmoType>
+		</Properties>
+	</WEAPON_UPGRADES>
+
+	<STALKER_ITEM> FIXED_DICT
+		<Properties>
+				<itemType>
+					<Type> INT32 </Type>
+				</itemType>
+				<itemID>
+					<Type> INT32 </Type>
+				</itemID>
+				<creationTime>
+					<Type> FLOAT64</Type>
+				</creationTime>
+				<itemParametresKeys>
+					<Type> ARRAY <of> INT16 </of>  </Type>
+				</itemParametresKeys>
+				<itemParametresValues>
+					<Type> ARRAY <of> INT32 </of>  </Type>
+				</itemParametresValues>
+		</Properties>
+	</STALKER_ITEM>
+
+
+	<ARMORSET> FIXED_DICT
+		<Properties>
+				<HeadID>
+					<Type> INT32 </Type>
+				</HeadID>
+				<HeadType>
+					<Type> INT32 </Type>
+				</HeadType>
+				<ShirtID>
+					<Type> INT32 </Type>
+				</ShirtID>
+				<ShirtType>
+					<Type> INT32 </Type>
+				</ShirtType>
+				<HandsID>
+					<Type> INT32 </Type>
+				</HandsID>
+				<HandsType>
+					<Type> INT32 </Type>
+				</HandsType>
+				<BootsID>
+					<Type> INT32 </Type>
+				</BootsID>
+				<BootsType>
+					<Type> INT32 </Type>
+				</BootsType>
+				<ArmorID>
+					<Type> INT32 </Type>
+				</ArmorID>
+				<ArmorType>
+					<Type> INT32 </Type>
+				</ArmorType>
+				<PantsID>
+					<Type> INT32 </Type>
+				</PantsID>
+				<PantsType>
+					<Type> INT32 </Type>
+				</PantsType>
+				<HatID>
+					<Type> INT32 </Type>
+				</HatID>
+				<HatType>
+					<Type> INT32 </Type>
+				</HatType>
+				<MaskID>
+					<Type> INT32 </Type>
+				</MaskID>
+				<MaskType>
+					<Type> INT32 </Type>
+				</MaskType>
+				<BackPackID>
+					<Type> INT32 </Type>
+				</BackPackID>
+				<BackPackType>
+					<Type> INT32 </Type>
+				</BackPackType>
+		</Properties>
+	</ARMORSET>
+
+	<STATS_VALUES>	FIXED_DICT
+		<Properties>
+			<maxhp>
+				<Type>FLOAT</Type>
+			</maxhp>
+			<maxstamina>
+				<Type>FLOAT</Type>
+			</maxstamina>
+			<maxspeed>
+				<Type>FLOAT</Type>
+			</maxspeed>
+			<maxweight>
+				<Type>FLOAT</Type>
+			</maxweight>
+			<hp_regen>
+				<Type>FLOAT</Type>
+			</hp_regen>
+			<stamina_regen>
+				<Type>FLOAT</Type>
+			</stamina_regen>
+		</Properties>
+	</STATS_VALUES>
+
+	<CHARACTER_INFO> FIXED_DICT
+		<Properties>
+			<name>
+				<Type>			UNICODE_STRING		</Type>
+			</name>
+			<renamesAvailable>
+				<Type>			INT32		</Type>
+				<Default>		0		</Default>
+			</renamesAvailable>
+			<renameRequired>
+				<Type>			BOOL		</Type>
+				<Default>		0		</Default>
+			</renameRequired>
+			<defaultModels>
+				<Type>			PACKED_AVATAR_MODEL		</Type>
+			</defaultModels>
+			<playerKit>
+				<Type>			ARMORSET		</Type>
+			</playerKit>
+			<isTutorialPassed>
+				<Type>			INT8		    </Type>
+			</isTutorialPassed>
+			<charstats>
+				<Type>			STATS_VALUES		    </Type>
+			</charstats>
+			<goldCredit>
+				<Type>			INT32		    </Type>
+			</goldCredit>
+
+
+			<deletion_remaining_time>
+				<Type>FLOAT</Type><!--server's deletion_date_planned - time.time()  -->
+			</deletion_remaining_time>
+		</Properties>
+	</CHARACTER_INFO>
+
+	<PERSISTENT_CHARACTER_INFO> FIXED_DICT
+		<Properties>
+			<name>
+				<Type>			UNICODE_STRING		</Type>
+			</name>
+			<renamesAvailable>
+				<Type>			INT32		</Type>
+				<Default>		0		</Default>
+			</renamesAvailable>
+			<renameRequired>
+				<Type>			BOOL		</Type>
+				<Default>		0		</Default>
+			</renameRequired>
+			<databaseID>
+				<Type>			DBID		</Type>
+			</databaseID>
+			<isDeleted>
+				<Type>			BOOL		</Type>
+			</isDeleted>
+			<defaultModels>
+				<Type>			PACKED_AVATAR_MODEL		</Type>
+			</defaultModels>
+			<playerKit>
+				<Type>			ARMORSET			</Type>
+			</playerKit>
+			<isTutorialPassed>
+				<Type>			INT8				</Type>
+			</isTutorialPassed>
+			<charstats>
+				<Type>			STATS_VALUES		</Type>
+			</charstats>
+			<deletion_date_planned>
+				<Type>			FLOAT64				</Type><!--server's time.time()-->
+			</deletion_date_planned>
+		</Properties>
+	</PERSISTENT_CHARACTER_INFO>
+
+
+	<QIUCKWEAPONSET> FIXED_DICT
+		<Properties>
+				<MeleeSlotID>
+					<Type> INT32 </Type>
+				</MeleeSlotID>
+				<MeleeSlotType>
+					<Type> INT32 </Type>
+				</MeleeSlotType>		
+				<MeleeSlotTintID>
+					<Type> INT32 </Type>
+				</MeleeSlotTintID>	
+
+				<PrimarySlotID>
+					<Type> INT32 </Type>
+				</PrimarySlotID>
+				<PrimarySlotType>
+					<Type> INT32 </Type>
+				</PrimarySlotType>	
+				<PrimarySlotTintID>
+					<Type> INT32 </Type>
+				</PrimarySlotTintID>	
+
+				<SecondarySlotID>
+					<Type> INT32 </Type>
+				</SecondarySlotID>
+				<SecondarySlotType>
+					<Type> INT32 </Type>
+				</SecondarySlotType>	
+				<SecondarySlotTintID>
+					<Type> INT32 </Type>
+				</SecondarySlotTintID>	
+		</Properties>
+	</QIUCKWEAPONSET>
+
+
+	<CURRENT_WEAPON_ACTIVE_PARAMS> FIXED_DICT
+		<Properties>
+				<ItemID>
+					<Type> INT32 </Type>
+				</ItemID>
+				<ItemType>
+					<Type> INT32 </Type>
+				</ItemType>
+				<Accuracy>
+					<Type> FLOAT </Type>
+				</Accuracy>	
+				<Range>
+					<Type> FLOAT </Type>
+				</Range>	
+				<NumShots>
+					<Type> INT32 </Type>
+				</NumShots>
+				<RateOfFire>
+					<Type> FLOAT </Type>
+				</RateOfFire>	
+				<SFXParam>
+					<Type> INT32 </Type>
+				</SFXParam>
+				<FireType>
+					<Type> INT32 </Type>
+				</FireType>
+
+				<AccuracyBorder>
+					<Type> INT32 </Type>
+				</AccuracyBorder>
+				<Kickback>
+					<Type> INT32 </Type>
+				</Kickback>
+				<AccuracyRecoil>
+					<Type> INT32 </Type>
+				</AccuracyRecoil>
+				<MoveAccuracyLost>
+					<Type> INT32 </Type>
+				</MoveAccuracyLost>
+				<GunType>
+					<Type> INT32 </Type>
+				</GunType>
+				<SkillLevel>
+					<Type> INT32 </Type>
+				</SkillLevel>
+
+				<Penetration>
+					<Type> FLOAT </Type>
+				</Penetration>
+				<AccStandModsKeys>
+					<Type> ARRAY <of> INT32 </of> </Type>
+				</AccStandModsKeys>
+				<AccStandModsValues>
+					<Type> ARRAY <of> FLOAT </of> </Type>
+				</AccStandModsValues>
+				<DamageRangeMods>
+					<Type> ARRAY <of> FLOAT </of> </Type>
+				</DamageRangeMods>
+				<DamageMainKeys>
+					<Type> ARRAY <of> INT32 </of> </Type>
+				</DamageMainKeys>
+				<DamageMainValues>
+					<Type> ARRAY <of>  ARRAY <of> FLOAT </of>  </of> </Type>
+				</DamageMainValues>
+				<DamageAdditionalKeys>
+					<Type> ARRAY <of> INT32 </of> </Type>
+				</DamageAdditionalKeys>
+				<DamageAdditionalValues>
+					<Type> ARRAY <of>  ARRAY <of> FLOAT </of>  </of> </Type>
+				</DamageAdditionalValues>
+				<AmmoDamageMainKeys>
+					<Type> ARRAY <of> INT32 </of> </Type>
+				</AmmoDamageMainKeys>
+				<AmmoDamageMainValues>
+					<Type> ARRAY <of>  ARRAY <of> FLOAT </of>  </of> </Type>
+				</AmmoDamageMainValues>
+				<AmmoDamageAdditionalKeys>
+					<Type> ARRAY <of> INT32 </of> </Type>
+				</AmmoDamageAdditionalKeys>
+				<AmmoDamageAdditionalValues>
+					<Type> ARRAY <of>  ARRAY <of> FLOAT </of>  </of> </Type>
+				</AmmoDamageAdditionalValues>
+
+
+		</Properties>
+	</CURRENT_WEAPON_ACTIVE_PARAMS>
+
+
+	<QIUCKBUFFSET> FIXED_DICT
+		<Properties>
+				<FirstSlotID>
+					<Type> INT32 </Type>
+				</FirstSlotID>
+				<FirstSlotType>
+					<Type> INT32 </Type>
+				</FirstSlotType>	
+				<SecondSlotID>
+					<Type> INT32 </Type>
+				</SecondSlotID>
+				<SecondSlotType>
+					<Type> INT32 </Type>
+				</SecondSlotType>
+				<ThirdSlotID>
+					<Type> INT32 </Type>
+				</ThirdSlotID>
+				<ThirdSlotType>
+					<Type> INT32 </Type>
+				</ThirdSlotType>
+				<FourthSlotID>
+					<Type> INT32 </Type>
+				</FourthSlotID>
+				<FourthSlotType>
+					<Type> INT32 </Type>
+				</FourthSlotType>			
+		</Properties>
+	</QIUCKBUFFSET>
+
+	<GADJETSSET> FIXED_DICT
+		<Properties>
+				<GadjetID>
+					<Type> INT32 </Type>
+				</GadjetID>
+				<GadjetType>
+					<Type> INT32 </Type>
+				</GadjetType>	
+				<GadjetWork>
+					<Type> INT8 </Type>
+				</GadjetWork>					
+		</Properties>
+	</GADJETSSET>
+
+	<ACTIVE_ARTIFACT_ENTRY> FIXED_DICT
+		<Properties>
+			<ArtifactID>
+				<Type> INT32 </Type>
+			</ArtifactID>
+			<ArtifactType>
+				<Type> INT32 </Type>
+			</ArtifactType>
+		</Properties>
+	</ACTIVE_ARTIFACT_ENTRY>
+
+	<INVENTORY_ENTRY> FIXED_DICT
+		<Properties>
+			<slotNumber>
+					<Type> INT32 </Type>
+			</slotNumber>
+			<itemID>
+					<Type> INT32 </Type>
+			</itemID>
+		</Properties>
+	</INVENTORY_ENTRY>
+
+	<ARMOR_CONDITION_ENTRY> FIXED_DICT
+				<Properties>
+					<ArmorID>
+						<Type> ITEM_ID </Type>
+					</ArmorID>
+					<ArmorCondition>
+						<Type> INT32 </Type>
+					</ArmorCondition>
+					<ArmorRepairsNumber>
+						<Type> INT32 </Type>
+					</ArmorRepairsNumber>
+				</Properties>
+	</ARMOR_CONDITION_ENTRY>
+
+	<QUICK_BAR_LINE> ARRAY <of> ARRAY <of>ITEM_ID</of></of>
+	</QUICK_BAR_LINE>
+
+	<COMPLEX_ITEM> FIXED_DICT
+		<Properties>
+				<complexItemType>
+					<Type> ITEM_TYPE </Type>
+				</complexItemType>
+				<complexItemID>
+					<Type> ITEM_ID </Type>
+				</complexItemID>
+				<fromEntityID>
+					<Type> ENTITY_ID </Type>
+				</fromEntityID>
+				<creationTime>
+					<Type> FLOAT64</Type> 
+				</creationTime>
+				<complexItemParametresKeys>
+					<Type> ARRAY <of> INT16 </of>  </Type>
+				</complexItemParametresKeys>
+				<complexItemParametresValues>
+					<Type> ARRAY <of> INT32 </of>  </Type>
+				</complexItemParametresValues>
+				<itemList>
+					<Type>			ARRAY <of> STALKER_ITEM </of> </Type>
+				</itemList>
+		</Properties>
+	</COMPLEX_ITEM>
+	
+	
+	<!-- ShopItemSub -->
+	<SIS> FIXED_DICT   
+		<Properties>
+				<cm>
+					<Type> COMPLEX_ITEM </Type>
+					<!-- <Type> INT32 </Type> -->
+				</cm>
+				
+				<price>
+					<Type> INT64 </Type>
+				</price>
+				
+				<hoursLeft>
+					<Type> INT32 </Type>
+				</hoursLeft>
+					
+				<status>
+					<Type> INT8 </Type>
+				</status>
+				
+				<filterTags>
+					<Type> ARRAY <of>INT32</of> </Type>
+				</filterTags>
+				
+				<BankName>
+					<Type> STRING </Type>
+				</BankName>
+				
+		</Properties>
+	</SIS>
+	
+	
+	
+	<!-- UserShopItemsNew -->
+	<USI> FIXED_DICT
+		<Properties>
+				<username>
+					<Type> STRING </Type>
+				</username>
+				
+				<items>
+					<Type> ARRAY <of>SIS</of> </Type>
+					<!-- <Type> ShopItemSub </Type> -->
+				</items>
+		</Properties>
+	</USI>
+	
+	
+	
+	<DONATE_BASE_ENTRY> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> STRING </Type>
+			</name>
+			
+			<spaceName>
+				<Type>			STRING			</Type>
+			</spaceName>
+
+            <trade_time>
+				<Type>			INT64			</Type>
+			</trade_time>
+
+			<ownership_time>
+				<Type>			INT64			</Type>
+			</ownership_time>
+
+			<state>
+				<Type> INT8 </Type>
+				<Default> 0 </Default>
+			</state>
+			
+			<location>
+				<Type>			STRING			</Type>
+			</location>
+			
+			<spawnGuard>
+				<Type> INT8 </Type>
+				<Default> 0 </Default>
+			</spawnGuard>
+			
+			<clanName>
+				<Type> STRING </Type>
+			</clanName>
+			
+			<clanId>
+				<Type> INT64 </Type>
+				<Default> 0 </Default>
+			</clanId>
+			
+			<deposit>
+				<Type> INT64 </Type>
+				<Default> 0 </Default>
+			</deposit>
+			
+			<RP_war>
+				<Type> INT64 </Type>
+				<Default> 0 </Default>
+			</RP_war>
+			
+			<RP_price_gold>
+				<Type> INT64 </Type>
+				<Default> 0 </Default>
+			</RP_price_gold>
+			
+			<minPrice>
+				<Type> INT32 </Type>
+			</minPrice>
+
+			<extension_price>
+				<Type> INT32 </Type>
+			</extension_price>
+
+			<dataSellStart>
+				<Type> FLOAT64 </Type>
+				<Default> 0 </Default>
+			</dataSellStart>
+			
+			<dataBought>
+				<Type> FLOAT64 </Type>
+				<Default> 0 </Default>
+			</dataBought>
+			
+			<prices>
+				<Type> ARRAY <of> FIXED_DICT  
+					<Properties>
+						<clanName>
+							<Type> STRING </Type>
+						</clanName>
+						
+						<clanId>
+							<Type> INT64 </Type>
+						</clanId>
+						
+						<price>
+							<Type> INT32 </Type>
+						</price>
+						
+						<cashback>
+							<Type> INT8 </Type>
+							<Default> 0 </Default>
+						</cashback>
+					</Properties>
+				</of> </Type>
+				<Default> [] </Default>
+			</prices>
+		</Properties>
+	</DONATE_BASE_ENTRY>
+	
+	<SALED_DONATE_BASE_ENTRY> FIXED_DICT
+		<Properties>
+			<name>
+				<Type> STRING </Type>
+			</name>
+			
+			<clanID>
+				<Type> INT64 </Type>
+			</clanID>
+			
+			<location>
+				<Type>			STRING			</Type>
+			</location>
+			
+			<minPrice>
+				<Type> INT32 </Type>
+			</minPrice>
+			
+			<countMembers>
+				<Type> INT32 </Type>
+			</countMembers>
+			
+			<timeToSell>
+				<Type> FLOAT64 </Type>
+			</timeToSell>
+			
+			<maxPrice>
+				<Type> INT32 </Type>
+			</maxPrice>
+		</Properties>
+	</SALED_DONATE_BASE_ENTRY>
+
+	<BANK_ENTRY> FIXED_DICT
+		<Properties>
+			<Items>
+				<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>
+			</Items>
+			<TraderName>
+				<Type> STRING </Type>
+			</TraderName>
+		</Properties>		
+	</BANK_ENTRY>
+
+	<ADAPTATION_ENTRY> FIXED_DICT
+		<Properties>
+			<ItemType>
+				<Type> ITEM_TYPE </Type>
+			</ItemType>
+			<AdaptationPercent>
+				<Type> FLOAT </Type>
+			</AdaptationPercent>
+		</Properties>	
+	</ADAPTATION_ENTRY>
+
+	<SKILL_ENTRY>FIXED_DICT
+		<Properties>
+			<SkillValue>
+				<Type> INT32 </Type>
+			</SkillValue>	
+			<PerkList>
+				<Type> ARRAY <of> INT16 </of>  </Type>
+			</PerkList>
+		</Properties>
+	</SKILL_ENTRY>
+
+	<TRADER_ENTRY>FIXED_DICT
+		<Properties>
+			<Type>
+				<Type> ITEM_TYPE </Type>
+			</Type>	
+			<Number>
+				<Type> INT32 </Type>
+			</Number>		
+			<BuyOnly>
+				<Type> INT8 </Type>
+			</BuyOnly>
+			<SellOnly>
+				<Type> INT8 </Type>
+			</SellOnly>
+			<MarginSell>
+				<Type> FLOAT </Type>
+			</MarginSell>				
+			<MarginBuy>
+				<Type> FLOAT </Type>
+			</MarginBuy>
+			<ResupplyNumber>
+				<Type> INT32 </Type>
+			</ResupplyNumber>
+		</Properties>
+	</TRADER_ENTRY>
+
+	<COMBAT_SKILLS> FIXED_DICT
+		<Properties>
+			<LightWeapon>
+				<Type> SKILL_ENTRY </Type>
+			</LightWeapon>
+			<AssaultRifles>
+				<Type> SKILL_ENTRY </Type>
+			</AssaultRifles>
+			<HeavyWeapon>
+				<Type> SKILL_ENTRY </Type>
+			</HeavyWeapon>
+			<Rifles>
+				<Type> SKILL_ENTRY </Type>
+			</Rifles>
+			<MeleeWeapon>
+				<Type> SKILL_ENTRY </Type>
+			</MeleeWeapon>
+			<Throwing>
+				<Type> SKILL_ENTRY </Type>
+			</Throwing>
+			<Explosions>
+				<Type> SKILL_ENTRY </Type>
+			</Explosions>
+			<ShootingOnMove>
+				<Type> SKILL_ENTRY </Type>
+			</ShootingOnMove>
+			<CloseCombat>
+				<Type> SKILL_ENTRY </Type>
+			</CloseCombat>
+			<WeaponTransfer>
+				<Type> SKILL_ENTRY </Type>
+			</WeaponTransfer>
+		</Properties>
+	</COMBAT_SKILLS>
+
+	<EXCHANGE_LIST> FIXED_DICT
+		<Properties>
+			<ItemsToExchange>
+				<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>
+			</ItemsToExchange>
+			<CreditsToExchange>
+				<Type> INT32</Type> 
+			</CreditsToExchange>
+			<GoldToExchange>
+				<Type> INT32</Type> 
+			</GoldToExchange>
+			<TradingEntity>
+				<Type> ENTITY_ID</Type> 
+			</TradingEntity>
+			<fOffer>
+				<Type> INT8 </Type> 
+			</fOffer>
+			<fAccept>
+				<Type> INT8 </Type>
+			</fAccept>
+			<ExchangeID>
+				<Type> INT32</Type>
+			</ExchangeID>
+		</Properties>
+	</EXCHANGE_LIST>
+
+	<SURVIVAL_SKILLS> FIXED_DICT
+		<Properties>
+			<Camouflage>
+				<Type> SKILL_ENTRY </Type>
+			</Camouflage>
+			<StealthMoving>
+				<Type> SKILL_ENTRY </Type>
+			</StealthMoving>
+			<TracelessMoving>
+				<Type> SKILL_ENTRY </Type>
+			</TracelessMoving>
+			<Tracking>
+				<Type> SKILL_ENTRY </Type>
+			</Tracking>
+			<Spotting>
+				<Type> SKILL_ENTRY </Type>
+			</Spotting>
+			<Telepaty>
+				<Type> SKILL_ENTRY </Type>
+			</Telepaty>
+			<Reaction>
+				<Type> SKILL_ENTRY </Type>
+			</Reaction>
+			<Scouting>
+				<Type> SKILL_ENTRY </Type>
+			</Scouting>
+			<AnomalySpotting>
+				<Type> SKILL_ENTRY </Type>
+			</AnomalySpotting>
+			<Sportsmanship>
+				<Type> SKILL_ENTRY </Type>
+			</Sportsmanship>
+			<Metabolism>
+				<Type> SKILL_ENTRY </Type>
+			</Metabolism>
+		</Properties>
+	</SURVIVAL_SKILLS>
+
+	<OTHER_SKILLS> FIXED_DICT
+		<Properties>
+			<PickLockDisarm>
+				<Type> SKILL_ENTRY </Type>
+			</PickLockDisarm>
+			<Medicine>
+				<Type> SKILL_ENTRY </Type>
+			</Medicine>
+			<Repair>
+				<Type> SKILL_ENTRY </Type>
+			</Repair>
+			<Modification>
+				<Type> SKILL_ENTRY </Type>
+			</Modification>
+			<Luck>
+				<Type> SKILL_ENTRY </Type>
+			</Luck>
+			<Neatness>
+				<Type> SKILL_ENTRY </Type>
+			</Neatness>
+			<Packing>
+				<Type> SKILL_ENTRY </Type>
+			</Packing>
+			<LootHiding>
+				<Type> SKILL_ENTRY </Type>
+			</LootHiding>
+			<Identify>
+				<Type> SKILL_ENTRY </Type>
+			</Identify>
+		</Properties>
+	</OTHER_SKILLS>
+
+	<!-- <PERSISTENT_AVATAR_MODEL>	FIXED_DICT
+		<Properties>
+			<models>
+				<Type>	ARRAY <of> RESOURCE_ID </of> </Type>
+			</models>
+			<dyes>
+				<Type>	ARRAY
+					<of>	FIXED_DICT
+						<Properties>
+							<materialGroup>
+								<Type> STRING </Type>
+							</materialGroup>
+							<tint>
+								<Type> STRING </Type>
+							</tint>
+						</Properties>
+					</of>
+				</Type>
+			</dyes>
+			<sfx>
+				<Type>	ARRAY <of> RESOURCE_ID </of> </Type>
+			</sfx>
+		</Properties>
+	</PERSISTENT_AVATAR_MODEL> -->	
+
+	<ONLINENODE>	FIXED_DICT 
+		<Properties>
+			<Account>
+				<Type>STRING</Type> 
+			</Account>
+			<Avatar>
+				<Type>UNICODE_STRING</Type> 
+			</Avatar>
+			<AvatarId>
+				<Type>ENTITY_ID</Type> 
+			</AvatarId>
+			<AccountMailbox>
+				<Type>MAILBOX</Type> 
+			</AccountMailbox>
+			<AvatarMailbox>
+				<Type>MAILBOX</Type> 
+			</AvatarMailbox>
+			<Ip>
+				<Type>INT64</Type> 
+			</Ip>
+		</Properties>
+  </ONLINENODE>
+
+	<TERRAIN_TYPE>	UINT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> Forest		</display> </enum>
+			<enum> <value> 1 </value><display> Plain		</display> </enum>
+			<enum> <value> 2 </value><display> Mountains	</display> </enum>
+			<enum> <value> 3 </value><display> Urban		</display> </enum>
+			<enum> <value> 4 </value><display> Catacombs	</display> </enum>
+			<enum> <value> 5 </value><display> Underground	</display> </enum>
+			<enum> <value> 6 </value><display> Swamps	</display> </enum>
+			<enum> <value> 7 </value><display> NoobVisible</display> </enum>
+			<enum> <value> 8 </value><display> NoobInvisible</display> </enum>
+			<enum> <value> 9 </value><display> vesuviy_uniq </display> </enum>
+			<enum> <value> 10 </value><display> ARRESTER </display> </enum>
+			<enum> <value> 11 </value><display> MICROWAVE </display> </enum>
+			<enum> <value> 12 </value><display> PRESS </display> </enum>
+			<enum> <value> 13 </value><display> DROBILKA </display> </enum>
+			<enum> <value> 14 </value><display> KATAPULTA </display> </enum>
+			<enum> <value> 15 </value><display> RAZRYADNIK </display> </enum>
+			<enum> <value> 16 </value><display> MIKROVOLNOVKA </display> </enum>
+			<enum> <value> 17 </value><display> ZELENAYA_GNIL </display> </enum>
+			<enum> <value> 18 </value><display> RADIOACTIVE </display> </enum>
+			<enum> <value> 19 </value><display> PSYCHO </display> </enum>
+			<enum> <value> 20 </value><display> T_F_SMALL_1 </display> </enum>
+			<enum> <value> 21 </value><display> T_F_SMALL_2 </display> </enum>
+			<enum> <value> 22 </value><display> T_F_AVERAGE_1 </display> </enum>
+			<enum> <value> 23 </value><display> T_F_AVERAGE_2 </display> </enum>
+			<enum> <value> 24 </value><display> T_F_BIG_1 </display> </enum>
+			<enum> <value> 25 </value><display> T_F_BIG_2 </display> </enum>
+			<enum> <value> 26 </value><display> TERRAIN_ZABOR </display> </enum>
+			<enum> <value> 27 </value><display> TERRAIN_ITEMS_SPAWN </display> </enum>
+			<enum> <value> 28 </value><display> TERRAIN_SNOW </display> </enum>
+			<enum> <value> 29 </value><display> TERRAIN_LOST </display> </enum>
+			<enum> <value> 30 </value><display> TERRAIN_TELEPORT </display> </enum>
+			<enum> <value> 31 </value><display> TERRAIN_CAMPFIRE </display> </enum>
+			<enum> <value> 32 </value><display> TERRAIN_TEST_ANOMALY </display> </enum>
+			<enum> <value> 33 </value><display> TERRAIN_TWINS </display> </enum>
+			<enum> <value> 34 </value><display> TERRAIN_TWIN_POSITIVE </display> </enum>
+			<enum> <value> 35 </value><display> TERRAIN_TWIN_NEGATIVE </display> </enum>
+			<enum> <value> 36 </value><display> TERRAIN_GEYSER </display> </enum>
+			<enum> <value> 37 </value><display> TERRAIN_TREE </display> </enum>
+			<enum> <value> 38 </value><display> TERRAIN_SHRUB </display> </enum>
+			<enum> <value> 39 </value><display> TERRAIN_PROMINENCY </display> </enum>
+			<enum> <value> 40 </value><display> TERRAIN_CURSE </display> </enum>
+			<enum> <value> 41 </value><display> TERRAIN_WEB </display> </enum>
+			<enum> <value> 42 </value><display> TERRAIN_ASH </display> </enum>
+			<enum> <value> 43 </value><display> TERRAIN_WANDER_MAGENTA </display> </enum>
+			<enum> <value> 44 </value><display> TERRAIN_WANDER_BLUE </display> </enum>
+			<enum> <value> 45 </value><display> mix_all </display> </enum>
+			<enum> <value> 46 </value><display> visible_all </display> </enum>
+			<enum> <value> 47 </value><display> invisible_all </display> </enum>
+			<enum> <value> 48 </value><display> Electro_all </display> </enum>
+			<enum> <value> 49 </value><display> 0ARRESTER </display> </enum>
+			<enum> <value> 55 </value><display> TEMPANOMALY </display> </enum>
+			<enum> <value> 56 </value><display> SPIDERS_POISON </display> </enum>
+			<enum> <value> 57 </value><display> 0MICROWAVE </display> </enum>
+			<enum> <value> 58 </value><display> 0PRESS </display> </enum>
+			<enum> <value> 59 </value><display> 0DROBILKA </display> </enum>
+			<enum> <value> 60 </value><display> 0KATAPULTA </display> </enum>
+			<enum> <value> 61 </value><display> 0RAZRYADNIK </display> </enum>
+			<enum> <value> 62 </value><display> 0MIKROVOLNOVKA </display> </enum>
+			<enum> <value> 63 </value><display> 0ZELENAYA_GNIL </display> </enum>
+			<enum> <value> 64 </value><display> 2ARRESTER </display> </enum>
+			<enum> <value> 65 </value><display> 2MICROWAVE </display> </enum>
+			<enum> <value> 66 </value><display> 2PRESS </display> </enum>
+			<enum> <value> 67 </value><display> 2DROBILKA </display> </enum>
+			<enum> <value> 68 </value><display> 2KATAPULTA </display> </enum>
+			<enum> <value> 69 </value><display> 2RAZRYADNIK </display> </enum>
+			<enum> <value> 70 </value><display> 2MIKROVOLNOVKA </display> </enum>
+			<enum> <value> 71 </value><display> 2ZELENAYA_GNIL </display> </enum>
+			<enum> <value> 72 </value><display> NOOB_VISIBLE </display> </enum>
+			<enum> <value> 73 </value><display> NOOB_INVISIBLE </display> </enum>
+			<enum> <value> 74 </value><display> ZABOR </display> </enum>
+			<enum> <value> 75 </value><display> LOST </display> </enum>
+			<enum> <value> 76 </value><display> TWINS_POSITIVE </display> </enum>
+			<enum> <value> 77 </value><display> TWINS_NEGATIVE </display> </enum>
+			<enum> <value> 78 </value><display> GEYSER </display> </enum>
+			<enum> <value> 79 </value><display> TREE </display> </enum>
+			<enum> <value> 80 </value><display> SHRUB </display> </enum>
+			<enum> <value> 81 </value><display> PROMINENCY </display> </enum>
+			<enum> <value> 82 </value><display> CURSE </display> </enum>
+			<enum> <value> 83 </value><display> WEB </display> </enum>
+			<enum> <value> 84 </value><display> ASH </display> </enum>
+			<enum> <value> 85 </value><display> WANDER_MAGNETA </display> </enum>
+			<enum> <value> 86 </value><display> WANDER_BLUE </display> </enum>
+			<enum> <value> 87 </value><display> ARRESTER_ALL </display> </enum>
+			<enum> <value> 88 </value><display> MICROWAVE_ALL </display> </enum>
+			<enum> <value> 89 </value><display> PRESS_ALL </display> </enum>
+			<enum> <value> 90 </value><display> DROBILKA_ALL </display> </enum>
+			<enum> <value> 91 </value><display> KATAPULTA_ALL </display> </enum>
+			<enum> <value> 92 </value><display> RAZRYADNIK_ALL </display> </enum>
+			<enum> <value> 93 </value><display> MIKROVOLNOVKA_ALL </display> </enum>
+			<enum> <value> 94 </value><display> ZELENAYA_GNIL_ALL </display> </enum>
+			<enum> <value> 95 </value><display> RADIOACTIVE_ALL </display> </enum>
+			<!--<enum> <value> 49 </value><display> TERRAIN_TUTORIAL </display> </enum>-->
+			
+		</Widget>
+	</TERRAIN_TYPE>
+
+	<ANOMALY_TYPE>	UINT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> UNKNOWN		</display> </enum>
+			<enum> <value> 1 </value><display> ARRESTER		</display> </enum>
+			<enum> <value> 2 </value><display> MICROWAVE	</display> </enum>
+			<enum> <value> 3 </value><display> PRESS	</display> </enum>
+			<enum> <value> 4 </value><display> DROBILKA	</display> </enum>
+			<enum> <value> 5 </value><display> KATAPULTA	</display> </enum>
+			<enum> <value> 6 </value><display> RAZRYADNIK	</display> </enum>
+			<enum> <value> 7 </value><display> MIKROVOLNOVKA	</display> </enum>
+			<enum> <value> 8 </value><display> ZELENAYA_GNIL	</display> </enum>
+			<enum> <value> 9 </value><display> RADIOACTIVE	</display> </enum>
+			<enum> <value> 10 </value><display> PSYCHO	</display> </enum>
+			<enum> <value> 11 </value><display> NOOB_VISIBLE	</display> </enum>
+			<enum> <value> 12 </value><display> NOOB_INVISIBLE	</display> </enum>
+			<enum> <value> 13 </value><display> VEZUVIY_UNIQ	</display> </enum>
+			<enum> <value> 14 </value><display> FIELD_SMALL_1	</display> </enum>
+			<enum> <value> 15 </value><display> FIELD_SMALL_2	</display> </enum>
+			<enum> <value> 16 </value><display> FIELD_AVERAGE_1	</display> </enum>
+			<enum> <value> 17 </value><display> FIELD_AVERAGE_2	</display> </enum>
+			<enum> <value> 18 </value><display> FIELD_BIG_1	</display> </enum>
+			<enum> <value> 19 </value><display> FIELD_BIG_2	</display> </enum>
+			<enum> <value> 20 </value><display> ZABOR	</display> </enum>
+			<enum> <value> 21 </value><display> ITEMS_SPAWN_FAST	</display> </enum>
+			<enum> <value> 22 </value><display> ITEMS_SPAWN_AVERAGE	</display> </enum>
+			<enum> <value> 23 </value><display> ITEMS_SPAWN_SLOW	</display> </enum>
+			<enum> <value> 24 </value><display> LOST	</display> </enum>
+			<enum> <value> 25 </value><display> TELEPORT	</display> </enum>
+			<enum> <value> 26 </value><display> CAMPFIRE	</display> </enum>
+			<enum> <value> 27 </value><display> TEST_ANOMALY	</display> </enum>
+			<enum> <value> 28 </value><display> TEST_ANOMALY_2	</display> </enum>
+			<enum> <value> 29 </value><display> TEST_ANOMALY_3	</display> </enum>
+			<enum> <value> 30 </value><display> TWINS_POSITIVE	</display> </enum>
+			<enum> <value> 31 </value><display> TWINS_NEGATIVE	</display> </enum>
+			<enum> <value> 32 </value><display> GEYSER	</display> </enum>
+			<enum> <value> 33 </value><display> TREE	</display> </enum>
+			<enum> <value> 34 </value><display> SHRUB	</display> </enum>
+			<enum> <value> 35 </value><display> PROMINENCY	</display> </enum>
+			<enum> <value> 36 </value><display> CURSE	</display> </enum>
+			<enum> <value> 37 </value><display> WEB	</display> </enum>
+			<enum> <value> 38 </value><display> ASH	</display> </enum>
+			<enum> <value> 39 </value><display> WANDER_MAGENTA	</display> </enum>
+			<enum> <value> 40 </value><display> WANDER_BLUE	</display> </enum>
+			<enum> <value> 55 </value><display> TEMPANOMALY	</display> </enum>
+			<enum> <value> 56 </value><display> SPIDERS_POISON	</display> </enum>
+			
+			
+		</Widget>
+	</ANOMALY_TYPE>
+	
+	<TELEPORT_PARAMS> FIXED_DICT 
+		<Properties>
+			<nearMB> <Type> MAILBOX </Type> </nearMB>
+			<position> <Type> VECTOR3 </Type> </position>
+			<direction> <Type> VECTOR3 </Type> </direction>			
+		</Properties>
+	</TELEPORT_PARAMS>		
+
+	<ANOMALY_RESET_PARAMS_DICT> FIXED_DICT 
+		<Properties>
+			<anomalyType> <Type> ANOMALY_TYPE </Type> </anomalyType>
+			<position> <Type> VECTOR3 </Type> </position>
+			<direction> <Type> VECTOR3 </Type> </direction>
+			<ownerMB> <Type> MAILBOX </Type> </ownerMB>		
+			<ownerData> <Type> INT32 </Type> </ownerData>	
+			<movingVelocity> <Type> FLOAT </Type> </movingVelocity>
+			<movingRadius> <Type> FLOAT </Type>	</movingRadius>			
+			<teleport_points> <Type> ARRAY <of> UDO_REF </of></Type> </teleport_points>			
+			<height_up> <Type> FLOAT </Type> </height_up>			
+			<height_down> <Type> FLOAT </Type> </height_down>			
+		</Properties>
+	</ANOMALY_RESET_PARAMS_DICT>	
+		
+	<STONE_RESET_PARAMS_DICT> FIXED_DICT 
+		<Properties>
+			<throwingType> <Type> THROWING_TYPE </Type> </throwingType>
+			<ownerID> <Type> ENTITY_ID </Type>  </ownerID>
+			<ownerBase>	<Type> MAILBOX </Type> </ownerBase>
+			<fromServer> <Type> BOOL </Type> </fromServer>
+			<clientEntityID> <Type> ENTITY_ID </Type> </clientEntityID>		
+			<startPosition> <Type> VECTOR3 </Type> </startPosition>	
+			<finalPosition> <Type> VECTOR3 </Type> </finalPosition>
+			<velocity> <Type> VECTOR3 </Type> </velocity>			
+			<timeOfFlying> <Type> FLOAT </Type> </timeOfFlying>	
+			<existenceTime> <Type> FLOAT </Type> </existenceTime>			
+		</Properties>
+	</STONE_RESET_PARAMS_DICT>
+
+	<FRACTION>	INT32
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> NONE	</display> </enum>
+			<enum> <value> 5 </value><display> TRADERS	</display> </enum>
+			<enum> <value> 6 </value><display> BARTENERS	</display> </enum>
+			<enum> <value> 7 </value><display> BANDITS</display> </enum>
+			<enum> <value> 8 </value><display> MILITARYS</display> </enum>
+			<enum> <value> 9 </value><display> MERCENARYS </display> </enum>
+			<enum> <value> 10 </value><display> CLANS </display> </enum>
+			<enum> <value> 11 </value><display> HUNTERS </display> </enum>
+			<enum> <value> 12 </value><display> SCIENTISTS </display> </enum>
+			<enum> <value> 13 </value><display> OLD_STALKERS </display> </enum>
+			<enum> <value> 14 </value><display> MUTANTS	</display> </enum>
+		</Widget>
+	</FRACTION>
+	<UTF8STRING>	USER_TYPE 
+		<implementedBy> UTF8String.instance </implementedBy>
+	</UTF8STRING>
+
+	<WAYPOINT>	FIXED_DICT 
+		<implementedBy> Waypoint.converter </implementedBy>
+		<Properties>
+			<id>
+				<Type>INT32</Type> 
+			</id>
+			<position>
+				<Type>VECTOR3</Type> 	
+			</position>
+			<radius>
+				<Type>FLOAT</Type> 
+			</radius>
+		</Properties>
+	</WAYPOINT>
+	<WAY_TYPE>	INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> RANDOM	</display> </enum>
+			<enum> <value> 1 </value><display> CYCLED_FIRST_AFTER_LAST	</display> </enum>
+			<enum> <value> 2 </value><display> CYCLED_PREV_AFTER_LAST	</display> </enum>
+			<enum> <value> 3 </value><display> GO_ONCE	</display> </enum>
+			<enum> <value> 4 </value><display> EMPTY 	</display> </enum>
+		</Widget>
+	</WAY_TYPE>
+	<WAY_DIRECTION>	INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> FORWARD	</display> </enum>
+			<enum> <value> 1 </value><display> BACKWARD	</display> </enum>
+		</Widget>
+	</WAY_DIRECTION>
+	<WAY>	FIXED_DICT 
+		<implementedBy> Way.Converter </implementedBy>
+		<Properties>
+			<name>
+				<Type>			STRING				</Type>
+			</name>
+			<waypoints>
+				<Type>			ARRAY <of> WAYPOINT </of> </Type>
+			</waypoints>
+			<wayType>
+				<Type>			WAY_TYPE 			</Type>
+				<Default>       4                   </Default>
+			</wayType>
+			<wayDirection>
+				<Type>			WAY_DIRECTION		</Type>
+			</wayDirection>
+		</Properties>
+	</WAY>
+	<REMOTEFUNC>	FIXED_DICT
+		<Properties>
+			<func_id> <Type>INT32</Type></func_id>
+			<remotemgr> <Type> MAILBOX  </Type> </remotemgr>
+		</Properties>
+	</REMOTEFUNC>
+
+	<VERTICAL_PROXIMITY> FIXED_DICT
+		<Properties>
+			<controllerId>
+				<Type> UINT32 </Type>
+				<Default> 0 </Default>
+			</controllerId>	
+
+			<range>
+				<Type> FLOAT </Type>
+				<Default> 1000.0 </Default>
+			</range>
+
+			<upDistance>
+				<Type> FLOAT </Type>
+				<Default> 1000.0 </Default>
+			</upDistance>
+
+			<downDistance>
+				<Type> FLOAT </Type>
+				<Default> 1000.0 </Default>
+			</downDistance>	
+
+			<!-- holds all trapped entities, not only vertical-check matched -->
+			<trapped>
+				<Type>	ARRAY <of>ENTITY_ID</of>	</Type>
+			</trapped>
+
+		</Properties>
+	</VERTICAL_PROXIMITY>
+
+	<EFFECT_SOURCE_ENTRY>	FIXED_DICT 
+		<Properties>
+			<id> 		<Type> BASE_EFFECT_ID </Type> </id>			
+			<stacks>	<Type> INT32 </Type> </stacks>
+			<modifier>	<Type> FLOAT </Type> </modifier>
+		</Properties>  
+	</EFFECT_SOURCE_ENTRY>	
+
+	<ANOMALY_EFFECT_ENTRY>	FIXED_DICT 
+		<Properties>
+			<effectId> 	<Type> BASE_EFFECT_ID </Type> </effectId>
+			<frequency> <Type> FLOAT32 </Type> </frequency> <!-- time between applications -->
+			<stacks>	<Type> INT32 </Type> </stacks> <!-- stacks per application -->			
+		</Properties>  
+	</ANOMALY_EFFECT_ENTRY>
+
+	<VISIBLE_EFFECT_ENTRY> FIXED_DICT
+		<Properties> 
+			<id> 			<Type> BASE_EFFECT_ID </Type> </id>
+			<currentTime> 	<Type> FLOAT32 </Type> </currentTime>
+			<stacks> 		<Type> INT16 </Type> </stacks>			
+		</Properties>
+	</VISIBLE_EFFECT_ENTRY> 
+
+	<BASE_EFFECT_ENTRY>	FIXED_DICT
+		<Properties>
+			<id> 			<Type> BASE_EFFECT_ID </Type>	</id>			
+			<owner> 		<Type> ENTITY_ID </Type> </owner> <!-- for report-back on damage events -->
+			<duration> 		<Type> INT32 </Type> </duration>
+			<stacks> 		<Type> INT16 </Type> </stacks>
+			<stackDuration>	<Type> INT32 </Type> </stackDuration>			
+			<modifier>		<Type> FLOAT </Type> </modifier>
+		</Properties>
+	</BASE_EFFECT_ENTRY>
+
+	<!-- SpatialFieldVisitor holds its last spatial data -->
+	<SPATIAL_FIELD_VISITOR_INFO>	FIXED_DICT
+		<Properties>
+			<spaceID>	<Type> SPACE_ID </Type>	</spaceID>
+			<chunkX>	<Type> INT16 </Type>	</chunkX>
+			<chunkZ>	<Type> INT16 </Type>	</chunkZ>
+			<cellX>		<Type> UINT8 </Type>	</cellX>
+			<cellZ>		<Type> UINT8 </Type>	</cellZ>
+		</Properties>
+	</SPATIAL_FIELD_VISITOR_INFO>
+
+	<!-- SpatialFieldHandler holds data about visitors -->
+	<VISITOR_OF_SPATIAL_FIELD>	FIXED_DICT
+		<Properties>
+			<id> <Type> ENTITY_ID </Type> </id>
+			<cellX> <Type> UINT16 </Type> </cellX>
+			<cellZ> <Type> UINT16 </Type> </cellZ>
+		</Properties>
+	</VISITOR_OF_SPATIAL_FIELD>	
+
+
+	<MOBTYPE>	INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	SPIDER		</display> </enum>
+			<enum> <value> 1 </value>	<display>	BEAR		</display> </enum>
+			<enum> <value> 2 </value>	<display>	DOG			</display> </enum>
+			<enum> <value> 3 </value>	<display>	BOAR		</display> </enum>
+			<enum> <value> 4 </value>	<display>	RAT			</display> </enum>
+			<enum> <value> 5 </value>	<display>	VERLIOKA	</display> </enum>
+			<enum> <value> 6 </value>	<display>	BLYAK		</display> </enum>
+			<enum> <value> 7 </value>	<display>	BES			</display> </enum>
+			<enum> <value> 8 </value>	<display>	BRUTOR		</display> </enum>
+			<enum> <value> 9 </value>	<display>	OUTCAST		</display> </enum>
+			<enum> <value> 10 </value>	<display>	VEDUN		</display> </enum>
+			<enum> <value> 11 </value>	<display>	SILVAN		</display> </enum>
+			<enum> <value> 12 </value>	<display>	JELLY		</display> </enum>
+			<enum> <value> 13 </value>	<display>	NOOB_DOG	</display> </enum>
+			<enum> <value> 14 </value>	<display>	WORM_HULUD	</display> </enum>
+			<enum> <value> 15 </value>	<display>	IMPENETRABLE	</display> </enum>
+		</Widget>
+	</MOBTYPE>
+
+	<FRACTION_RELATIONSHIP>FIXED_DICT
+		<Properties>
+			<fractionID>
+					<Type>		INT32		</Type>
+			</fractionID>
+			<status>
+					<Type>		INT32	</Type>
+			</status>
+		</Properties>
+	</FRACTION_RELATIONSHIP>
+
+	<DIALOG_FRACTION_PRECONFITION>FIXED_DICT
+		<Properties>		
+			<fractionID>
+					<Type>		INT32		</Type>
+			</fractionID>
+			<min>
+					<Type>		FLOAT	</Type>
+			</min>
+			<max>
+					<Type>		FLOAT	</Type>
+			</max>
+			<type>
+					<Type>		INT8	</Type>
+			</type>
+		</Properties>
+	</DIALOG_FRACTION_PRECONFITION>	
+<!--BEGIN OF QUEST STRUCT-->	
+
+  <QUESTID> INT32 </QUESTID>
+  <QUEST_VERSION> INT64 </QUEST_VERSION>
+
+	<NPC_LOGGED>FIXED_DICT
+		<Properties>
+			<name>
+				<Type>	STRING	</Type>
+			</name>
+			<mailbox>
+				<Type>	ARRAY <of>	MAILBOX	</of>	</Type>
+			</mailbox>
+		</Properties>
+	</NPC_LOGGED>
+
+	<QUEST_TELEPORTTO>FIXED_DICT
+		<Properties>
+			<spaceName>
+				<Type>	STRING	</Type>
+			</spaceName>
+			<spaceID>
+				<Type>	INT64	</Type>
+			</spaceID>
+			<position>
+				<Type>	VECTOR3	</Type>
+			</position>
+		</Properties>
+	</QUEST_TELEPORTTO>	
+
+	<QUEST_ITEM_INFO>FIXED_DICT
+		<Properties>		
+			<title>
+					<Type>		UNICODE_STRING	</Type>
+			</title>
+			<description>
+					<Type>		UNICODE_STRING	</Type>
+			</description>
+			<itemID>
+					<Type>		INT64			</Type>
+			</itemID>
+			<activation>
+				<Type>		UNICODE_STRING			</Type>
+			</activation>
+		</Properties>
+	</QUEST_ITEM_INFO>
+
+	<SCENARIO_NPC_NAMES>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>	INT32	</Type>
+			</id>
+			<name>
+				<Type>	UNICODE_STRING	</Type>
+			</name>
+		</Properties>
+	</SCENARIO_NPC_NAMES>
+
+  <QUESTINFORMATION>FIXED_DICT
+	<Properties>
+		<Title>
+			<Type> UNICODE_STRING	</Type>
+		</Title>
+		<Description>
+			<Type> UNICODE_STRING	</Type>
+		</Description>
+		<Items>
+			<Type> ARRAY	<of>	QUEST_ITEM_INFO	</of>	</Type>
+		</Items>
+		<NPCs>
+			<Type> ARRAY	<of>	SCENARIO_NPC_NAMES	</of>	</Type>
+		</NPCs>
+		<onWin>
+			<Type> UNICODE_STRING	</Type>
+		</onWin>
+		<onFailed>
+			<Type> UNICODE_STRING	</Type>
+		</onFailed>
+	</Properties>
+  </QUESTINFORMATION>
+
+  <QUESTINFORMATION_CACHED>FIXED_DICT
+	<Properties>
+		<Items>
+			<Type> ARRAY	<of>	QUEST_ITEM_INFO	</of>	</Type>
+		</Items>
+		<NPCs>
+			<Type> ARRAY	<of>	SCENARIO_NPC_NAMES	</of>	</Type>
+		</NPCs>
+		<onWin>
+			<Type> UNICODE_STRING	</Type>
+		</onWin>
+		<onFailed>
+			<Type> UNICODE_STRING	</Type>
+		</onFailed>
+	</Properties>
+  </QUESTINFORMATION_CACHED>
+
+  <QUESTTARGET>FIXED_DICT
+	<Properties>
+		<onFin>
+			<Type> INT8	</Type>
+		</onFin>
+		<QuestType>
+			<Type> INT16	</Type>
+		</QuestType>
+		<ObjectType> 
+			<Type> INT32	</Type>
+		</ObjectType>
+		<NumOfObjects>
+			<Type> INT32	</Type>
+		</NumOfObjects>
+		<ObjectName>
+			<Type> STRING	</Type>
+		</ObjectName>
+		<ObjectAttr>
+			<Type> INT8		</Type>		
+		</ObjectAttr>
+		<AObjectAttrs>
+			<Type> ARRAY <of> QUESTID	</of>		</Type>		
+		</AObjectAttrs>
+		<AreaName>
+			<Type> STRING	</Type>
+		</AreaName>
+		<Time>
+			<Type>	FLOAT </Type>
+		</Time>
+		<IsClan>
+			<Type> INT8 	</Type>
+		</IsClan>
+		<IsGroup>
+			<Type> INT8 	</Type>
+		</IsGroup>
+	</Properties>
+  </QUESTTARGET>
+
+  <QUESTPRECONDITION>FIXED_DICT
+	<Properties>
+		<TakenPeriod> 
+			<Type> FLOAT32	</Type>
+		</TakenPeriod>
+		<Repeat> 
+			<Type> INT8 </Type>
+		</Repeat>
+	</Properties>
+  </QUESTPRECONDITION>
+
+  <QUESTRULES>FIXED_DICT
+	<Properties>
+		<Reputation>
+			<Type> INT16 </Type>
+		</Reputation>
+		<TypeOfItems> 
+			<Type> ARRAY <of>INT32 </of> 	</Type>
+		</TypeOfItems>
+		<NumOfItems> 
+			<Type> ARRAY <of>INT16 </of> 	</Type>
+		</NumOfItems>
+		<AttrOfItems> 
+			<Type> ARRAY <of>INT16 </of> 	</Type>
+		</AttrOfItems>
+		<TeleportTo>
+			<Type>	QUEST_TELEPORTTO		</Type>
+		</TeleportTo>
+		<Scenarios>
+			<Type>ARRAY <of> INT64 </of>	</Type>
+		</Scenarios>
+	</Properties>
+  </QUESTRULES>
+
+  <QUESTEFFECT>FIXED_DICT
+	<Properties>
+		<id>
+			<Type> BASE_EFFECT_ID 	</Type>
+		</id>
+		<stack> 
+			<Type> INT8 	</Type>
+		</stack>
+	</Properties>
+  </QUESTEFFECT>
+
+  <QUESTREWARD>FIXED_DICT
+	<Properties>
+		<Expirience> 
+			<Type> ARRAY <of> INT32 </of> 	</Type>
+		</Expirience>
+		<TypeOfItems> 
+			<Type> ARRAY <of>INT32 </of> 	</Type>
+		</TypeOfItems>
+		<NumOfItems> 
+			<Type> ARRAY <of>INT16 </of> 	</Type>
+		</NumOfItems>
+		<AttrOfItems> 
+			<Type> ARRAY <of>INT16 </of> 	</Type>
+		</AttrOfItems>
+		<Credits>
+			<Type> FLOAT32 </Type>
+		</Credits>
+		<EventCodes>
+			<Type> ARRAY <of> INT16 </of> 	</Type>
+		</EventCodes>
+		<TeleportTo>
+			<Type>QUEST_TELEPORTTO</Type>
+		</TeleportTo>
+		<Difficulty>
+			<Type> INT8 </Type>
+		</Difficulty>
+		<Unlimited>
+			<Type> INT8 </Type>
+		</Unlimited>
+		<Fractions>
+			<Type> ARRAY <of> FRACTION </of> </Type>
+		</Fractions>
+		<KarmaPK>
+			<Type> INT64 </Type>
+		</KarmaPK>
+		<Effects>
+			<Type> ARRAY <of> QUESTEFFECT </of> 	</Type>
+		</Effects>
+	</Properties>
+  </QUESTREWARD>
+
+  <QUESTADDITIONAL>FIXED_DICT
+	<Properties>
+			<IsSubQuest> 
+				<Type>QUESTID   </Type>
+			</IsSubQuest>
+			<ListOfSubQuest> 
+				<Type>ARRAY <of> QUESTID </of> </Type>
+			</ListOfSubQuest>
+			<ShowProgress>
+				<Type> INT8     </Type>
+			</ShowProgress>
+			<Holder>
+				<Type> STRING   </Type>
+			</Holder>
+	</Properties>
+  </QUESTADDITIONAL>
+
+
+  <QUESTPENALTY>FIXED_DICT
+	<Properties>
+		<Credits>
+			<Type> FLOAT32 </Type>
+		</Credits>
+		<Expirience> 
+			<Type> ARRAY <of> INT32 </of> 	</Type>
+		</Expirience>
+		<TypeOfItems> 
+			<Type> ARRAY <of>INT32 </of> 	</Type>
+		</TypeOfItems>
+		<NumOfItems> 
+			<Type> ARRAY <of>INT16 </of> 	</Type>
+		</NumOfItems>
+		<TeleportTo>
+			<Type>	QUEST_TELEPORTTO	</Type>
+		</TeleportTo>
+	</Properties>
+  </QUESTPENALTY>
+
+
+  <QUEST>FIXED_DICT
+	<Properties>
+		<QuestID>
+			<Type> QUESTID 				</Type>
+		</QuestID>
+		<Version>
+			<Type> QUEST_VERSION		</Type>
+		</Version>
+		<Information>
+			<Type> QUESTINFORMATION 	</Type>
+		</Information>
+		<Target>
+			<Type> QUESTTARGET 			</Type>
+		</Target>
+		<Precondition>
+			<Type>	QUESTPRECONDITION	</Type>
+		</Precondition>
+		<QuestRules>
+			<Type> QUESTRULES 			</Type>
+		</QuestRules>
+		<Reward>
+			<Type>	QUESTREWARD			</Type>
+		</Reward>
+		<Penalty>
+			<Type>	QUESTPENALTY		</Type>
+		</Penalty>
+		<Additional>
+			<Type>	QUESTADDITIONAL		</Type>
+		</Additional>
+	</Properties>
+  </QUEST>
+
+  <QUESTSTATISTIC>FIXED_DICT
+	<Properties>
+		<Initiator> 
+			<Type> INT64	</Type>
+		</Initiator> 
+		<Event> 
+			<Type> INT8		</Type>
+		</Event>
+		<Quest> 
+			<Type> QUESTID	</Type>
+		</Quest>
+		<Time> 
+			<Type> FLOAT32	</Type>
+		</Time>
+	</Properties>
+  </QUESTSTATISTIC>
+
+  <CLAN_QUEST>FIXED_DICT
+	<Properties>
+		<ClanID>
+			<Type> INT64 </Type>
+		</ClanID>
+
+		<Opened>
+			<Type> ARRAY <of> QUESTID </of> </Type>
+		</Opened>
+		<Closed>
+			<Type> ARRAY <of> QUESTID </of> </Type>
+		</Closed>
+	</Properties>
+  </CLAN_QUEST>
+
+  <QUESTONCELL>FIXED_DICT
+	<Properties>
+			<QuestID>
+				<Type> QUESTID 			</Type>
+			</QuestID>
+			<Target>
+				<Type> QUESTTARGET 		</Type>
+			</Target>
+			<Reward>
+				<Type> QUESTREWARD 		</Type>
+			</Reward>
+			<QuestRules>
+				<Type> QUESTRULES 		</Type>
+			</QuestRules>
+			<Penalty>
+				<Type> QUESTPENALTY 	</Type>
+			</Penalty>
+			<Additional>
+				<Type> QUESTADDITIONAL </Type>
+			</Additional>			
+	</Properties>
+  </QUESTONCELL>
+
+  <QUESTONCLIENT>FIXED_DICT
+	<Properties>
+		<QuestID>
+			<Type> QUESTID 			</Type>
+		</QuestID>
+		<Version>
+			<Type> QUEST_VERSION 			</Type>
+		</Version>
+		<Additional>
+			<Type> QUESTADDITIONAL 	</Type>
+		</Additional>
+		<QuestType>
+			<Type> INT16 			</Type>
+		</QuestType>
+		<Information>
+			<Type> QUESTINFORMATION </Type>
+		</Information>
+		<Target>
+			<Type> QUESTTARGET 		</Type>
+		</Target>
+		<State>
+			<Type> INT8 			</Type>
+		</State>
+	</Properties>
+  </QUESTONCLIENT>
+
+  <CACHED_QUESTONCLIENT>FIXED_DICT
+	<Properties>
+		<QuestID>
+			<Type> QUESTID 			</Type>
+		</QuestID>
+		<Version>
+			<Type> QUEST_VERSION 			</Type>
+		</Version>
+		<Additional>
+			<Type> QUESTADDITIONAL 	</Type>
+		</Additional>
+		<QuestType>
+			<Type> INT16 			</Type>
+		</QuestType>
+		<Information>
+			<Type> QUESTINFORMATION_CACHED </Type>
+		</Information>
+		<Target>
+			<Type> QUESTTARGET 		</Type>
+		</Target>
+		<State>
+			<Type> INT8 			</Type>
+		</State>
+	</Properties>
+  </CACHED_QUESTONCLIENT>
+
+  <!--QUESTONBASE>FIXED_DICT
+	<Properties>
+		<State>
+			<Type> INT8 	</Type>
+		</State>
+		<Quest>
+			<Type> QUEST 	</Type>
+		</Quest>
+	</Properties>
+  </QUESTONBASE-->
+
+
+  <QUEST_PERSIST_PROP>FIXED_DICT
+	<Properties>
+		<id>
+			<Type> QUESTID 	</Type>
+		</id>
+		<key>
+			<Type> INT8 	</Type>
+		</key>
+		<astr>
+			<Type> ARRAY	<of>	STRING	</of> 	</Type>
+		</astr>
+		<austr>
+			<Type> ARRAY	<of>	UNICODE_STRING	</of> 	</Type>
+		</austr>
+		<aint>
+			<Type> ARRAY	<of>	INT32	</of> 	</Type>
+		</aint>
+	</Properties>
+  </QUEST_PERSIST_PROP>
+
+  <LISTQUESTS>FIXED_DICT
+	<Properties>
+		<Opened>
+			<Type> ARRAY	<of>	QUESTID	</of> 	</Type>
+		</Opened>
+		<Closed>
+			<Type> ARRAY	<of>	QUESTID	</of> 	</Type>
+		</Closed>
+		<Failed>
+			<Type> ARRAY	<of>	QUESTID	</of> 	</Type>
+		</Failed>
+		<OnTest>
+			<Type> ARRAY	<of>	QUESTID	</of> 	</Type>
+		</OnTest>
+		<Freez>
+			<Type> ARRAY	<of>	QUESTID		</of> 	</Type>
+		</Freez>
+	</Properties>
+  </LISTQUESTS>
+
+  <QUESTER_COUNTER>FIXED_DICT
+	<Properties>
+		<QuestID>
+			<Type> QUESTID 	</Type>
+		</QuestID>
+		<Counter>
+			<Type> INT16 	</Type>
+		</Counter>
+	</Properties>
+  </QUESTER_COUNTER>
+
+  <!-- BEGIN OF QUEST NPC STRUCT-->	
+  <!-- BEGIN OF QUEST NPC STRUCT-->	
+  <QUEST_STATUS>FIXED_DICT
+	<Properties>
+		<QuestID>
+			<Type> QUESTID 	</Type>
+		</QuestID>
+		<QuestStatus>
+			<Type> INT8 	</Type>
+		</QuestStatus>
+	</Properties>
+  </QUEST_STATUS>
+
+  <NPC_QUEST_STATUS>FIXED_DICT
+	<Properties>
+		<UserDBID>
+			<Type> INT64 	</Type>
+		</UserDBID>
+		<Status>
+			<Type> ARRAY <of> QUEST_STATUS </of> </Type>
+		</Status>
+	</Properties>
+  </NPC_QUEST_STATUS>
+
+  <ALL_SKILLS>FIXED_DICT
+	<Properties>
+		<CombatSkills>
+			<Type>	COMBAT_SKILLS	</Type>
+		</CombatSkills>
+		<SurvivalSkills>
+			<Type>	SURVIVAL_SKILLS	</Type>
+		</SurvivalSkills>
+		<OtherSkills>
+			<Type>	OTHER_SKILLS	</Type>
+		</OtherSkills>
+	</Properties>
+  </ALL_SKILLS>
+
+  <!-- END OF QUEST NPC STRUCT-->	
+  <!-- END OF QUEST STRUCT-->	
+
+  <!-- BEGIN OF DIALOG STRUCT-->
+	<DIALOGID> INT64   </DIALOGID>
+	<DIALOG_VERSION> INT64   </DIALOG_VERSION>
+
+	<DIALOG_ACTIONS>FIXED_DICT
+		<Properties>
+			<Exit>
+				<Type>	INT8		</Type>
+			</Exit>
+			<ToDialog>
+				<Type>	DIALOGID	</Type>
+			</ToDialog>
+			<Event>
+				<Type>	INT8		</Type>
+			</Event>
+			<GetQuest>
+				<Type>ARRAY <of>QUESTID</of></Type>
+			</GetQuest>
+			<CompleteQuest>
+				<Type>ARRAY <of>QUESTID</of></Type>
+			</CompleteQuest>
+			<Data>
+				<Type> STRING 				</Type>
+			</Data>
+		</Properties>
+	</DIALOG_ACTIONS>
+	<DIALOG_QUEST_PRECONDITION>FIXED_DICT
+		<Properties>
+			<listOfCompletedQuests>
+				<Type> ARRAY <of> QUESTID </of>	</Type>
+			</listOfCompletedQuests>
+
+			<listOfOpenedQuests>
+				<Type> ARRAY <of> QUESTID </of>	</Type>
+			</listOfOpenedQuests>
+
+			<listOfOnTestQuests>
+				<Type> ARRAY <of> QUESTID </of>	</Type>
+			</listOfOnTestQuests>
+
+			<listOfFailedtQuests>
+				<Type> ARRAY <of> QUESTID </of>	</Type>
+			</listOfFailedtQuests>
+		</Properties>
+	</DIALOG_QUEST_PRECONDITION>
+
+	<DIALOG_PRECONDITION>FIXED_DICT
+		<Properties>
+			<ListOfNecessaryQuests>
+				<Type> DIALOG_QUEST_PRECONDITION </Type>
+			</ListOfNecessaryQuests>
+			<ListOfMustNoQuests>
+				<Type> DIALOG_QUEST_PRECONDITION </Type>
+			</ListOfMustNoQuests>
+			<tests>
+				<Type> ARRAY <of> INT8 </of> </Type>
+			</tests>
+			<!--<CheckClanID>-->
+				<!--<Type> INT8 </Type>-->
+			<!--</CheckClanID>-->
+			<!--<CheckClan>-->
+				<!--<Type> INT8 </Type>-->
+			<!--</CheckClan>-->
+			<Reputation>
+				<Type> ARRAY	<of> DIALOG_FRACTION_PRECONFITION </of> </Type>
+			</Reputation>
+			<KarmaPK>
+				<Type> ARRAY	<of> INT16 </of> </Type>
+			</KarmaPK>
+		</Properties>
+	</DIALOG_PRECONDITION>
+
+	<DIALOG>FIXED_DICT
+		<Properties>
+			<DialogID>
+				<Type> DIALOGID 				</Type>
+			</DialogID>
+			<Version>
+				<Type> DIALOG_VERSION			        </Type>
+			</Version>
+			<Holder>
+				<Type>ARRAY <of> STRING </of> 	</Type>
+			</Holder>
+			<Title>
+				<Type> UNICODE_STRING 			</Type>
+			</Title>
+			<Text>
+				<Type> UNICODE_STRING 			</Type>
+			</Text>
+			<Precondition>
+				<Type>	DIALOG_PRECONDITION		</Type>
+			</Precondition>
+			<Nodes>
+				<Type> ARRAY <of> INT64 </of> 	</Type>
+			</Nodes>
+			<Actions>
+				<Type> DIALOG_ACTIONS 			</Type>
+			</Actions>
+		</Properties>
+	</DIALOG>
+
+	<CACHED_DIALOG>FIXED_DICT
+		<Properties>
+			<DialogID>
+				<Type> DIALOGID 				</Type>
+			</DialogID>
+			<Version>
+				<Type> DIALOG_VERSION			        </Type>
+			</Version>
+			<Holder>
+				<Type>ARRAY <of> STRING </of> 	</Type>
+			</Holder>
+			<Precondition>
+				<Type>	DIALOG_PRECONDITION		</Type>
+			</Precondition>
+			<Nodes>
+				<Type> ARRAY <of> INT64 </of> 	</Type>
+			</Nodes>
+			<Actions>
+				<Type> DIALOG_ACTIONS 			</Type>
+			</Actions>
+		</Properties>
+	</CACHED_DIALOG>
+
+  <!-- END OF DIALOG STRUCT-->
+
+	<DEFENCE_ENTRY>	FIXED_DICT 
+		<Properties>
+			<DamageType>
+				<Type>	INT32	</Type> 
+			</DamageType>
+			<ModifierType>
+				<Type>	ENUM	</Type>  <!-- 0 for percentage, 1 for flat reduction -->
+			</ModifierType>
+			<Modifier>  
+				<Type>	FLOAT32	</Type> 
+			</Modifier>
+		</Properties>
+	</DEFENCE_ENTRY>
+
+	<AREA_STATS_ENTRY>	FIXED_DICT 
+		<Properties>
+			<kills>
+				<Type>	INT32	</Type> 
+			</kills>
+			<damage>
+				<Type>	FLOAT32	</Type> 
+			</damage>
+			<artifactsLost>
+				<Type>	INT32	</Type>
+			</artifactsLost>
+			<freePass>  
+				<Type>	INT32	</Type> 
+			</freePass>
+		</Properties>
+	</AREA_STATS_ENTRY>
+
+	<AREA_STATS_ENTRY>	FIXED_DICT 
+		<Properties>
+			<kills>
+				<Type>	INT32	</Type> 
+			</kills>
+			<damage>
+				<Type>	FLOAT32	</Type> 
+			</damage>
+			<artifactsLost>
+				<Type>	INT32	</Type>
+			</artifactsLost>
+			<freePass>  
+				<Type>	INT32	</Type> 
+			</freePass>
+		</Properties>
+	</AREA_STATS_ENTRY>
+
+	<AREA_STATS_SAVED_ENTRY>	FIXED_DICT 
+		<Properties>
+			<name>
+				<Type>STRING</Type> 
+			</name>
+			<timeStart>
+				<Type>FLOAT64</Type>
+			</timeStart>
+			<timeEnd>
+				<Type>FLOAT64</Type>
+			</timeEnd>
+			<stats>
+				<Type>AREA_STATS_ENTRY</Type>
+			</stats>
+		</Properties>
+	</AREA_STATS_SAVED_ENTRY>
+
+	<CLAN_RANK_ENTRY>FIXED_DICT
+		<Properties>
+			<order>
+				<Type>INT32</Type> 
+			</order>
+			<id>
+				<Type>INT32</Type> 
+			</id>
+			<name>
+				<Type>STRING</Type> 
+			</name>
+			<options>
+				<Type>INT64</Type> <!-- bitvector -->
+			</options>
+		</Properties>
+	</CLAN_RANK_ENTRY>
+	<CLAN_REWARD_ENTRY>FIXED_DICT
+		<Properties>
+			<lastChange>
+				<Type>FLOAT64</Type> 
+			</lastChange>
+			<type>
+				<Type>INT32</Type> 
+			</type>
+			<value>
+				<Type>INT64</Type> 
+			</value>
+
+		</Properties>
+	</CLAN_REWARD_ENTRY>
+
+	<CLAN_MEMBER_ENTRY>FIXED_DICT
+		<Properties>
+			<rank> <!-- rank id -->
+				<Type>INT32</Type> 
+			</rank>
+			<dbid>
+				<Type>DBID</Type> 
+			</dbid>
+			<lastLogin>
+				<Type>FLOAT64</Type> 
+			</lastLogin>
+			<name>
+				<Type>STRING</Type> 
+			</name>
+		</Properties>
+	</CLAN_MEMBER_ENTRY>
+
+	<CLAN_WAR_ENTRY>FIXED_DICT
+		<Properties>
+			<id> <!-- rank id -->
+				<Type>INT64</Type>
+			</id>
+			<name>
+				<Type>STRING</Type>
+			</name>
+		</Properties>
+	</CLAN_WAR_ENTRY>
+
+	<CLAN_LOG_ENTRY>FIXED_DICT
+		<Properties>
+			<time> <!-- rank id -->
+				<Type>FLOAT64</Type> 
+			</time>
+			<text>
+				<Type>UNICODE_STRING</Type> 
+			</text>
+		</Properties>
+	</CLAN_LOG_ENTRY>
+	
+	<CLANWAREHOUSE> FIXED_DICT
+		<Properties>
+			<owner>
+				<Type> STRING	</Type>
+			</owner>
+			
+			<clanID>
+				<Type> INT64	</Type>
+			</clanID>
+			
+			<storedItems>
+				<Type> ARRAY <of> COMPLEX_ITEM </of></Type>
+			</storedItems>
+			
+			<money>
+				<Type> INT64 </Type>
+			</money>
+			
+			<gold>
+				<Type> INT64 </Type>
+			</gold>
+		</Properties>
+	</CLANWAREHOUSE>
+
+	<CLAN_ENTRY>FIXED_DICT
+		<Properties>
+			<name>
+				<Type>STRING</Type> 
+			</name>
+			<id>
+				<Type>INT64</Type> 
+			</id>
+			<owner>  
+				<Type>DATABASE_ID</Type> 
+			</owner>
+			<active>
+				<Type> BOOL </Type>
+			</active>
+			<members>
+				<Type>ARRAY <of>CLAN_MEMBER_ENTRY</of></Type>
+			</members>
+			<wars>
+				<Type>ARRAY <of>INT64</of></Type>
+			</wars>
+			<warsBack>
+				<Type>ARRAY <of>INT64</of></Type>
+			</warsBack>
+			<ranks>
+				<Type>ARRAY <of>CLAN_RANK_ENTRY</of></Type>
+			</ranks>
+			<rewards>
+				<Type>ARRAY <of>CLAN_REWARD_ENTRY</of></Type>
+			</rewards>
+			<log>
+				<Type>ARRAY <of>CLAN_LOG_ENTRY</of></Type>
+			</log>
+			<motd>
+				<Type>STRING</Type> 
+			</motd>
+			<recruitment>
+				<Type>STRING</Type> 
+			</recruitment>
+			<counters>
+				<Type>ARRAY <of>
+					FIXED_DICT
+						<Properties>
+							<id>
+								<Type>INT8</Type>
+							</id>
+							<value>
+								<Type>INT8</Type>
+							</value>
+						</Properties>
+					</of></Type>
+			</counters>
+			<donatBase>
+				<Type>STRING</Type> 
+			</donatBase>
+		</Properties>
+	</CLAN_ENTRY>
+	
+	<BASE_TYPE>	INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> donate_base </display> </enum>
+			<enum> <value> 1 </value><display> captured_base </display> </enum>
+		</Widget>
+	</BASE_TYPE>	
+
+ <!--NPC ALIASES -->
+	<sNPC_TYPE>	INT8
+		<Widget>	ENUM
+			<enum> <value> 13 </value><display> donate_base_doorman </display> </enum>
+			<enum> <value> 14 </value><display> clan_warehouse </display> </enum>
+			<enum> <value> 15 </value><display> warehouse_transport </display> </enum>
+			<enum> <value> 16 </value><display> clan_trader </display> </enum>
+		</Widget>
+	</sNPC_TYPE>	
+
+	<NPC_TYPE>	INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> GUARDIAN	</display> </enum>
+			<enum> <value> 1 </value><display> STANDING_NPC	</display> </enum>
+			<enum> <value> 2 </value><display> STANDING_GUARDIAN	</display> </enum>
+			<!-- enum> <value> 3 </value><display> WALKER	</display> </enum-->
+			<enum> <value> 4 </value><display> FRACTION_HUNTER	</display> </enum>
+			<enum> <value> 5 </value><display> STANDING_FRACTION_HUNTER	</display> </enum>
+		</Widget>
+	</NPC_TYPE>
+
+	<RADIUS>	FLOAT
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  -->
+			<colour>	191.000000 213.000000 0.000000 255.000000	</colour>
+			<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+	</RADIUS>
+
+	<NPC_WEAPON>	INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> none </display> </enum>
+			<enum> <value> 1 </value><display> autogun_fanfal </display> </enum>
+			<enum> <value> 2 </value><display> autogun_ak47 </display> </enum>
+		</Widget>
+	</NPC_WEAPON>
+
+	<!-- generated -->
+
+	<NPC_HANDS> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+			<enum> <value> 1 </value>	<display>	koja		</display> </enum>
+			<enum> <value> 2 </value>	<display>	koja_m2_poluperchatki		</display> </enum>
+			<enum> <value> 3 </value>	<display>	koja_m3_poluperchatki2		</display> </enum>
+			<enum> <value> 4 </value>	<display>	koja_m4_usilennie		</display> </enum>
+			<enum> <value> 5 </value>	<display>	koja_m1_perch		</display> </enum>
+			<enum> <value> 6 </value>	<display>	hand_npc_hunter		</display> </enum>
+			<enum> <value> 7 </value>	<display>	hands_npc_bandit		</display> </enum>
+		</Widget>
+	</NPC_HANDS>
+	<NPC_BOOTS> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+			<enum> <value> 1 </value>	<display>	botinok		</display> </enum>
+			<enum> <value> 2 </value>	<display>	bertsi		</display> </enum>
+			<enum> <value> 3 </value>	<display>	bertsi_m2		</display> </enum>
+			<enum> <value> 4 </value>	<display>	bertsi_m3		</display> </enum>
+			<enum> <value> 5 </value>	<display>	bertsi_m4		</display> </enum>
+			<enum> <value> 6 </value>	<display>	bertsi_m1		</display> </enum>
+		</Widget>
+	</NPC_BOOTS>
+	<NPC_BODY> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	shtormovka		</display> </enum>
+			<enum> <value> 1 </value>	<display>	spetsovka		</display> </enum>
+			<enum> <value> 2 </value>	<display>	haki		</display> </enum>
+			<enum> <value> 3 </value>	<display>	pilot		</display> </enum>
+			<enum> <value> 4 </value>	<display>	chak		</display> </enum>
+			<enum> <value> 5 </value>	<display>	shtormovka_woh		</display> </enum>
+			<enum> <value> 6 </value>	<display>	shiz		</display> </enum>
+			<enum> <value> 7 </value>	<display>	haki_woh		</display> </enum>
+			<enum> <value> 8 </value>	<display>	harvat		</display> </enum>
+			<enum> <value> 9 </value>	<display>	kurtka		</display> </enum>
+			<enum> <value> 10 </value>	<display>	partizan		</display> </enum>
+			<enum> <value> 11 </value>	<display>	spetsovka_woh		</display> </enum>
+			<enum> <value> 12 </value>	<display>	uniform		</display> </enum>
+			<enum> <value> 13 </value>	<display>	uniform_science		</display> </enum>
+			<enum> <value> 14 </value>	<display>	uniform		</display> </enum>
+			<enum> <value> 15 </value>	<display>	uniform_technical		</display> </enum>
+			<enum> <value> 16 </value>	<display>	uniform		</display> </enum>
+			<enum> <value> 17 </value>	<display>	uniform_medical		</display> </enum>
+			<enum> <value> 18 </value>	<display>	pachka		</display> </enum>
+			<enum> <value> 19 </value>	<display>	mars		</display> </enum>
+			<enum> <value> 20 </value>	<display>	ugory		</display> </enum>
+			<enum> <value> 21 </value>	<display>	voenstal		</display> </enum>
+			<enum> <value> 22 </value>	<display>	sigma		</display> </enum>
+			<enum> <value> 23 </value>	<display>	dsc		</display> </enum>
+			<enum> <value> 24 </value>	<display>	red-cross		</display> </enum>
+			<enum> <value> 25 </value>	<display>	pps		</display> </enum>
+			<enum> <value> 26 </value>	<display>	mask_snipe		</display> </enum>
+			<enum> <value> 27 </value>	<display>	svoboda		</display> </enum>
+			<enum> <value> 28 </value>	<display>	clan_inquisitor		</display> </enum>
+			<enum> <value> 29 </value>	<display>	clan_predator		</display> </enum>
+			<enum> <value> 30 </value>	<display>	svoboda		</display> </enum>
+			<enum> <value> 31 </value>	<display>	clan_silence		</display> </enum>
+			<enum> <value> 32 </value>	<display>	single		</display> </enum>
+			<enum> <value> 33 </value>	<display>	npc_scientist		</display> </enum>
+			<enum> <value> 34 </value>	<display>	npc_alkash		</display> </enum>
+			<enum> <value> 35 </value>	<display>	npc_pomogalo		</display> </enum>
+			<enum> <value> 36 </value>	<display>	npc_otshelnik		</display> </enum>
+			<enum> <value> 37 </value>	<display>	npc_military_face		</display> </enum>
+			<enum> <value> 38 </value>	<display>	npc_military_mask		</display> </enum>
+			<enum> <value> 39 </value>	<display>	npc_military	</display> </enum>
+			<enum> <value> 40 </value>	<display>	body_npc_hunter		</display> </enum>
+			<enum> <value> 41 </value>	<display>	suite_npc_bandit_masterka	</display> </enum>
+			<enum> <value> 42 </value>	<display>	suite_npc_bandit_sw_red	</display> </enum>
+			<enum> <value> 43 </value>	<display>	suite_npc_bandit_sw_green	</display> </enum>
+			<enum> <value> 44 </value>	<display>	suite_npc_bandit_sw_gray	</display> </enum>
+			<enum> <value> 45 </value>	<display>	suite_npc_torgovez	</display> </enum>
+			<enum> <value> 46 </value>	<display>	suite_clan_stels	</display> </enum>
+			<enum> <value> 47 </value>	<display>	suite_robe_01	</display> </enum>
+			<enum> <value> 48 </value>	<display>	suite_robe_01_medic	</display> </enum>
+			<enum> <value> 49 </value>	<display>	suite_robe_01_scientist	</display> </enum>
+			<enum> <value> 50 </value>	<display>	suite_robe_01_technician	</display> </enum>
+			<enum> <value> 51 </value>	<display>	grandma_01	</display> </enum>
+			<enum> <value> 52 </value>	<display>	pilot_01	</display> </enum>
+			<enum> <value> 53 </value>	<display>	pilot_02	</display> </enum>
+			<enum> <value> 54 </value>	<display>	boatswain_body_01	</display> </enum>
+			<enum> <value> 55 </value>	<display>	arab_body	</display> </enum>
+			<enum> <value> 56 </value>	<display>	arab_bek	</display> </enum>
+		</Widget>
+	</NPC_BODY>
+	<NPC_ARMOR> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+			<enum> <value> 1 </value>	<display>	ninja		</display> </enum>
+			<enum> <value> 2 </value>	<display>	kaiser		</display> </enum>
+			<enum> <value> 3 </value>	<display>	dragoon		</display> </enum>
+			<enum> <value> 4 </value>	<display>	fauna		</display> </enum>
+			<enum> <value> 5 </value>	<display>	chak		</display> </enum>
+			<enum> <value> 6 </value>	<display>	flora		</display> </enum>
+			<enum> <value> 7 </value>	<display>	mayka		</display> </enum>
+			<enum> <value> 8 </value>	<display>	omelet		</display> </enum>
+			<enum> <value> 9 </value>	<display>	rat		</display> </enum>
+			<enum> <value> 10 </value>	<display>	sandal		</display> </enum>
+			<enum> <value> 11 </value>	<display>	shkurka		</display> </enum>
+			<enum> <value> 12 </value>	<display>	shpinat		</display> </enum>
+			<enum> <value> 13 </value>	<display>	suhar		</display> </enum>
+			<enum> <value> 14 </value>	<display>	tash		</display> </enum>
+			<enum> <value> 15 </value>	<display>	vorot		</display> </enum>
+			<enum> <value> 16 </value>	<display>	armor_npc_bandit		</display> </enum>
+			<enum> <value> 17 </value>	<display>	armor_npc_hunter		</display> </enum>
+			<enum> <value> 18 </value>	<display>	arab_jacket		</display> </enum>
+			<enum> <value> 19 </value>	<display>	arab_vest		</display> </enum>
+		</Widget>
+	</NPC_ARMOR>
+	<NPC_LEGS> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+			<enum> <value> 1 </value>	<display>	djinsy		</display> </enum>
+			<enum> <value> 2 </value>	<display>	longi		</display> </enum>
+			<enum> <value> 3 </value>	<display>	chak		</display> </enum>
+			<enum> <value> 4 </value>	<display>	shiz		</display> </enum>
+			<enum> <value> 5 </value>	<display>	haki		</display> </enum>
+			<enum> <value> 6 </value>	<display>	harvat		</display> </enum>
+			<enum> <value> 7 </value>	<display>	partizan		</display> </enum>
+			<enum> <value> 8 </value>	<display>	legs_npc_hunter_forest		</display> </enum>
+			<enum> <value> 9 </value>	<display>	legs_npc_hunter_swamp		</display> </enum>
+			<enum> <value> 10 </value>	<display>	legs_npc_bandit		</display> </enum>
+			<enum> <value> 11 </value>	<display>	boatswain_legs_01	</display> </enum>
+		</Widget>
+	</NPC_LEGS>
+	<NPC_CAP> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+			<enum> <value> 1 </value>	<display>	viking		</display> </enum>
+			<enum> <value> 2 </value>	<display>	pitorka		</display> </enum>
+			<enum> <value> 3 </value>	<display>	panama		</display> </enum>
+			<enum> <value> 4 </value>	<display>	beret		</display> </enum>
+			<enum> <value> 5 </value>	<display>	kozir		</display> </enum>
+			<enum> <value> 6 </value>	<display>	mazay_04		</display> </enum>
+			<enum> <value> 7 </value>	<display>	npc_sci_chrome		</display> </enum>
+			<enum> <value> 8 </value>	<display>	npc_sci_blue		</display> </enum>
+			<enum> <value> 9 </value>	<display>	npc_sci_white		</display> </enum>
+			<enum> <value> 10 </value>	<display>	head_m5_12_hair	</display> </enum>
+			<enum> <value> 11 </value>	<display>	head_m5_26_hair	</display> </enum>
+			<enum> <value> 12 </value>	<display>	cap_bandit_01(koz)		</display> </enum>
+			<enum> <value> 13 </value>	<display>	cap_bandit_02(shap)		</display> </enum>
+			<enum> <value> 14 </value>	<display>	cap_bandit_03(bandana)		</display> </enum>
+			<enum> <value> 15 </value>	<display>	cap_npc_hunter_koz		</display> </enum>
+			<enum> <value> 16 </value>	<display>	cap_npc_hunter_shap		</display> </enum>
+			<enum> <value> 17 </value>	<display>	boatswain_cap_01	</display> </enum>
+			<enum> <value> 18 </value>	<display>	turban01	</display> </enum>
+			<enum> <value> 19 </value>	<display>	turban02	</display> </enum>
+			<enum> <value> 20 </value>	<display>	turban03	</display> </enum>
+			<enum> <value> 21 </value>	<display>	turban04	</display> </enum>
+		</Widget>
+	</NPC_CAP>
+	<NPC_MASK> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+			<enum> <value> 1 </value>	<display>	jaba		</display> </enum>
+			<enum> <value> 2 </value>	<display>	grafity		</display> </enum>
+			<enum> <value> 3 </value>	<display>	bandito		</display> </enum>
+			<enum> <value> 4 </value>	<display>	inglish		</display> </enum>
+			<enum> <value> 5 </value>	<display>	slonik		</display> </enum>
+			<enum> <value> 6 </value>	<display>	vizir		</display> </enum>
+			<enum> <value> 7 </value>	<display>	head_m5_04_beard	</display> </enum>
+			<enum> <value> 8 </value>	<display>	head_m5_06_bandit_beard	</display> </enum>
+			<enum> <value> 9 </value>	<display>	head_m5_08_beard	</display> </enum>
+			<enum> <value> 10 </value>	<display>	head_m5_27_dreadlocks	</display> </enum>
+			<enum> <value> 11 </value>	<display>	glasses_circ_white		</display> </enum>
+			<enum> <value> 12 </value>	<display>	glasses_circ_black		</display> </enum>
+			<enum> <value> 13 </value>	<display>	glasses_rect_white		</display> </enum>
+			<enum> <value> 14 </value>	<display>	glasses_rect_black		</display> </enum>
+			<enum> <value> 15 </value>	<display>	glasses_kobra		</display> </enum>
+			<enum> <value> 16 </value>	<display>	grandma_01_glasses	</display> </enum>
+		</Widget>
+	</NPC_MASK>
+	<NPC_BACK> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+			<enum> <value> 1 </value>	<display>	sakvoyaj80		</display> </enum>
+			<enum> <value> 2 </value>	<display>	kolobok		</display> </enum>
+			<enum> <value> 3 </value>	<display>	army		</display> </enum>
+			<enum> <value> 4 </value>	<display>	partizan		</display> </enum>
+			<enum> <value> 5 </value>	<display>	scientist		</display> </enum>
+			<enum> <value> 6 </value>	<display>	hunter_sumka	</display> </enum>
+			<enum> <value> 7 </value>	<display>	clan_chimera	</display> </enum>
+			<enum> <value> 8 </value>	<display>	single	</display> </enum>
+		</Widget>
+	</NPC_BACK>
+	<NPC_HEAD> INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value>	<display>	none		</display> </enum>
+<!-- 
+			<enum> <value> 1 </value>	<display>	m1		</display> </enum>
+			<enum> <value> 2 </value>	<display>	m2_02		</display> </enum>
+			<enum> <value> 3 </value>	<display>	m2_03		</display> </enum>
+			<enum> <value> 4 </value>	<display>	m2_04		</display> </enum>
+			<enum> <value> 5 </value>	<display>	m2_05		</display> </enum>
+			<enum> <value> 6 </value>	<display>	m2_05_bristle_01		</display> </enum>
+			<enum> <value> 7 </value>	<display>	m2_05_bristle_02		</display> </enum>
+			<enum> <value> 8 </value>	<display>	m2_05_bristle_03		</display> </enum>
+			<enum> <value> 9 </value>	<display>	m2_05_bristle_04		</display> </enum>
+			<enum> <value> 10 </value>	<display>	m2_05_beard_01		</display> </enum>
+			<enum> <value> 11 </value>	<display>	m2_05_beard_02		</display> </enum>
+			<enum> <value> 12 </value>	<display>	m2_05_beard_03		</display> </enum>
+			<enum> <value> 13 </value>	<display>	m2_05_beard_04		</display> </enum>
+			<enum> <value> 14 </value>	<display>	m2_05_beard_05		</display> </enum>
+-->
+			<enum> <value> 1 </value>	<display>	don't touch this m1		</display> </enum>
+			<enum> <value> 2 </value>	<display>	don't touch this m2_02		</display> </enum>
+			<enum> <value> 3 </value>	<display>	don't touch this m2_03		</display> </enum>
+			<enum> <value> 4 </value>	<display>	don't touch this m2_04		</display> </enum>
+			<enum> <value> 5 </value>	<display>	don't touch this m2_05		</display> </enum>
+			<enum> <value> 6 </value>	<display>	don't touch this m2_05_bristle_01		</display> </enum>
+			<enum> <value> 7 </value>	<display>	don't touch this m2_05_bristle_02		</display> </enum>
+			<enum> <value> 8 </value>	<display>	don't touch this m2_05_bristle_03		</display> </enum>
+			<enum> <value> 9 </value>	<display>	don't touch this m2_05_bristle_04		</display> </enum>
+			<enum> <value> 10 </value>	<display>	don't touch this m2_05_beard_01		</display> </enum>
+			<enum> <value> 11 </value>	<display>	don't touch this m2_05_beard_02		</display> </enum>
+			<enum> <value> 12 </value>	<display>	don't touch this m2_05_beard_03		</display> </enum>
+			<enum> <value> 13 </value>	<display>	don't touch this m2_05_beard_04		</display> </enum>
+			<enum> <value> 14 </value>	<display>	don't touch this m2_05_beard_05		</display> </enum>
+			<enum> <value> 15 </value>	<display>	m2_06		</display> </enum>
+			<enum> <value> 16 </value>	<display>	m3		</display> </enum>
+			<enum> <value> 17 </value>	<display>	shiz_01		</display> </enum>
+			<enum> <value> 18 </value>	<display>	shiz_02		</display> </enum>
+			<enum> <value> 19 </value>	<display>	sci_1		</display> </enum>
+			<enum> <value> 20 </value>	<display>	sci_2		</display> </enum>
+			<enum> <value> 21 </value>	<display>	sci_3		</display> </enum>
+			<enum> <value> 22 </value>	<display>	head_m5_01	</display> </enum>
+			<enum> <value> 23 </value>	<display>	head_m5_02	</display> </enum>
+			<enum> <value> 24 </value>	<display>	head_m5_03_black	</display> </enum>
+			<enum> <value> 25 </value>	<display>	head_m5_04	</display> </enum>
+			<enum> <value> 26 </value>	<display>	head_m5_05	</display> </enum>
+			<enum> <value> 27 </value>	<display>	head_m5_06_bandit	</display> </enum>
+			<enum> <value> 28 </value>	<display>	head_m5_07	</display> </enum>
+			<enum> <value> 29 </value>	<display>	head_m5_08	</display> </enum>
+			<enum> <value> 30 </value>	<display>	head_m5_09	</display> </enum>
+			<enum> <value> 31 </value>	<display>	head_m5_10	</display> </enum>
+			<enum> <value> 32 </value>	<display>	head_m5_11	</display> </enum>
+			<enum> <value> 33 </value>	<display>	head_m5_12	</display> </enum>
+			<enum> <value> 34 </value>	<display>	head_m5_13	</display> </enum>
+			<enum> <value> 35 </value>	<display>	head_m5_14	</display> </enum>
+			<enum> <value> 36 </value>	<display>	head_m5_15	</display> </enum>
+			<enum> <value> 37 </value>	<display>	head_m5_16	</display> </enum>
+			<enum> <value> 38 </value>	<display>	head_m5_17	</display> </enum>
+			<enum> <value> 39 </value>	<display>	head_m5_18	</display> </enum>
+			<enum> <value> 40 </value>	<display>	head_m5_19	</display> </enum>
+			<enum> <value> 41 </value>	<display>	head_m5_20	</display> </enum>
+			<enum> <value> 42 </value>	<display>	head_m5_21	</display> </enum>
+			<enum> <value> 43 </value>	<display>	head_m5_22_bandit	</display> </enum>
+			<enum> <value> 44 </value>	<display>	head_m5_26	</display> </enum>
+			<enum> <value> 45 </value>	<display>	head_m5_27	</display> </enum>
+			<enum> <value> 46 </value>	<display>	head_m5_28	</display> </enum>
+			<enum> <value> 47 </value>	<display>	head_m5_29	</display> </enum>
+			<enum> <value> 48 </value>	<display>	head_m5_30	</display> </enum>
+			<enum> <value> 49 </value>	<display>	head_npc_military_1	</display> </enum><!-- test -->
+		</Widget>
+	</NPC_HEAD>
+
+
+
+
+	<!--NPC ALIASES END-->
+
+	<PVP_TYPE>	UINT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> None		</display> </enum>
+			<enum> <value> 1 </value><display> Capture		</display> </enum>
+			<enum> <value> 2 </value><display> Defence	</display> </enum>
+			<enum> <value> 3 </value><display> Free		</display> </enum>
+		</Widget>
+	</PVP_TYPE>
+
+	<PVP_DATA_ENTRY>FIXED_DICT
+		<Properties>
+					<clanID>
+						<Type>INT64</Type>
+					</clanID>
+					<influence>
+						<Type>FLOAT64</Type>
+					</influence>
+					<presence>
+						<Type>FLOAT64</Type>
+					</presence>
+					<time>
+						<Type>FLOAT64</Type>
+					</time>
+		</Properties>
+	</PVP_DATA_ENTRY>
+
+	<PVP_PARTICIPANT_ENTRY>FIXED_DICT
+		<Properties>
+					<clanID>
+						<Type>INT64</Type>
+					</clanID>
+					<id>
+						<Type>ENTITY_ID</Type>
+					</id>
+		</Properties>
+	</PVP_PARTICIPANT_ENTRY>
+
+	<INSTANCE_ENTRY>FIXED_DICT
+		<Properties>
+					<spaceID>
+						<Type>INT64</Type>
+					</spaceID>
+					<lastVisitTime>
+						<Type>FLOAT64</Type>
+					</lastVisitTime>
+		</Properties>
+	</INSTANCE_ENTRY>
+
+	<PVP_FRAGS_COUNTER>FIXED_DICT
+		<Properties>
+			<clanID>
+				<Type>INT64</Type>
+			</clanID>
+			<fragsCounter>
+				<Type>INT64</Type>
+			</fragsCounter>
+		</Properties>
+	</PVP_FRAGS_COUNTER>
+
+	<CLAN_INVITE_ENTRY>FIXED_DICT
+		<Properties>
+					<id>
+						<Type>INT64</Type>
+					</id>
+					<inviter>
+						<Type>MAILBOX</Type>
+					</inviter>
+					<invited>
+						<Type>MAILBOX</Type>
+					</invited>
+					<time>
+						<Type>FLOAT64</Type>
+					</time>
+					<clanID>
+						<Type>INT64</Type>
+					</clanID>
+		</Properties>
+	</CLAN_INVITE_ENTRY>
+
+<!--QUEST GROUPS BEGIN-->
+
+	<GROUPID>	INT64	</GROUPID>
+
+
+	<QUESTS_GROUP_MEMBER>FIXED_DICT
+		<Properties>
+			<dbid>
+				<Type>	DBID			</Type>
+			</dbid>
+			<role>
+				<Type> INT16 			</Type>
+			</role>
+			<ready>
+				<Type> INT8 			</Type>
+			</ready>
+			<pot>
+				<Type> INT32 			</Type>
+			</pot>
+			<name>
+				<Type> UNICODE_STRING	</Type>
+			</name>
+			<flags>
+				<Type> INT16	</Type>
+			</flags>
+		</Properties>
+	</QUESTS_GROUP_MEMBER>
+
+	<QUEST_ONGROUP>FIXED_DICT
+		<Properties>
+			<cell>
+				<Type>	QUESTONCELL		</Type>
+			</cell>
+			<state>
+				<Type>		INT8		</Type>
+			</state>
+			<members>
+				<Type>	ARRAY <of>	QUESTS_GROUP_MEMBER </of>	</Type>
+			</members>
+		</Properties>
+	</QUEST_ONGROUP>
+
+
+	<QUESTS_GROUP_ONBASE>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>	GROUPID	</Type>
+			</id>
+			<type>
+				<Type>	INT8	</Type>
+			</type>
+			<owner>
+				<Type>DBID		</Type>
+			</owner>
+			<members>
+				<Type>ARRAY<of>QUESTS_GROUP_MEMBER</of></Type>
+			</members>
+			<state>
+				<Type>INT8		</Type>
+			</state>
+			<flags>
+				<Type>INT16		</Type>
+			</flags>
+			<spaceID>
+				<Type>INT64		</Type>
+			</spaceID>
+			<qsts>
+				<Type>	ARRAY	<of>QUEST_ONGROUP	</of></Type>
+			</qsts>
+			<questcounters>
+				<Type>	ARRAY	<of>QUESTER_COUNTER	</of></Type>
+			</questcounters>
+			<command>
+				<Type>	INT8	</Type>
+			</command>
+		</Properties>
+	</QUESTS_GROUP_ONBASE>
+
+	<QUESTS_GROUP_LOGGED>FIXED_DICT
+		<Properties>
+			<dbid>
+				<Type>	DBID	</Type>
+			</dbid>
+			<mailbox> 
+				<Type>	MAILBOX	</Type>
+			</mailbox>
+		</Properties>
+	</QUESTS_GROUP_LOGGED>	
+
+	<PV_QUEUE>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>	GROUPID			</Type>
+			</id>
+			<idtype>
+				<Type>	INT8			</Type>
+			</idtype>
+<!--			<ownername>
+				<Type>	STRING			</Type>
+			</ownername>-->
+			<questid> 
+				<Type>	QUESTID			</Type>
+			</questid>
+<!--			<questtitle> 
+				<Type>	UNICODE_STRING	</Type>
+			</questtitle>-->
+			<partners> 
+				<Type>	ARRAY	<of>	GROUPID	</of></Type>
+			</partners>
+			<subpartnerof>
+				<Type>	GROUPID			</Type>
+			</subpartnerof>
+			<state>
+				<Type>	INT8			</Type>
+			</state>
+		</Properties>
+	</PV_QUEUE>
+
+	<CLIENT_MEMBER_GROUP_NFO>FIXED_DICT
+			<Properties>
+				<id>
+					<Type>		ENTITY_ID	</Type>
+				</id>
+				<name>
+					<Type>		UNICODE_STRING	</Type>
+				</name>
+				<role>
+					<Type>		INT8			</Type>
+				</role>
+				<health>
+					<Type>		FLOAT			</Type>
+				</health>
+				<stamina>
+					<Type>		FLOAT			</Type>
+				</stamina>
+				<survive>
+					<Type>		FLOAT			</Type>
+				</survive>
+				<flag>
+					<Type>		INT16			</Type>
+				</flag>
+			</Properties>
+	</CLIENT_MEMBER_GROUP_NFO>
+
+	<CLIENT_GROUP_NFO>FIXED_DICT
+		<Properties>
+				<members>
+					<Type>		ARRAY   <of>  CLIENT_MEMBER_GROUP_NFO	</of>		</Type>
+				</members>
+		</Properties>
+	</CLIENT_GROUP_NFO>
+
+	<!--<CELL_MEMBER_GROUP_NFO>FIXED_DICT-->
+			<!--<Properties>-->
+				<!--&lt;!&ndash;<command>&ndash;&gt;-->
+					<!--&lt;!&ndash;<Type>		INT8			</Type>&ndash;&gt;-->
+				<!--&lt;!&ndash;</command>&ndash;&gt;-->
+				<!--<mailbox>-->
+					<!--<Type>		MAILBOX			</Type>-->
+				<!--</mailbox>-->
+			<!--</Properties>-->
+	<!--</CELL_MEMBER_GROUP_NFO>-->
+
+	<CELL_GROUP_NFO>FIXED_DICT
+		<Properties>
+			<!--<members>-->
+				<!--<Type>		ARRAY   <of>  CELL_MEMBER_GROUP_NFO	</of>		</Type>-->
+			<!--</members>-->
+			<groupID>
+				<Type>		GROUPID			</Type>
+			</groupID>
+			<state>
+				<Type>		INT16			</Type>
+			</state>
+			<role>
+				<Type>		INT16			</Type>
+			</role>
+			<flags>
+				<Type>		INT16			</Type>
+			</flags>
+		</Properties>
+	</CELL_GROUP_NFO>
+
+	<!--PVPSTATISTIC>
+		<Properties>
+
+		</Properties>
+	</PVPSTATISTIC-->
+
+
+	<REFEREES>FIXED_DICT
+		<Properties>
+			<gIDs>
+				<Type>		ARRAY	<of>	GROUPID		</of>	</Type>
+			</gIDs>
+			<mailbox>
+				<Type>		MAILBOX	</Type>
+			</mailbox>
+		</Properties>		
+	</REFEREES>
+<!--QUEST GROUPS END-->
+  <!--SCENARIO  BEGIN -->
+
+	<SCENARIO_MOB_PROPERTIE>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>	INT64	</Type>
+			</id>
+			<type>
+				<Type>	INT8	</Type>
+			</type>
+			<level>
+				<Type>	INT8	</Type>
+			</level>
+		</Properties>
+	</SCENARIO_MOB_PROPERTIE>
+
+	<SCENARIO_NPC>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>	INT32	</Type>
+			</id>
+			<type>
+				<Type>	INT8	</Type>
+			</type>
+			<npcName>
+				<Type>	STRING	</Type>
+			</npcName>
+			<wayName>
+				<Type>	STRING	</Type>
+			</wayName>
+			<fractionID>
+				<Type>	INT16	</Type>
+			</fractionID>
+		</Properties>
+	</SCENARIO_NPC>
+
+	<SCENARIO_WAYPOINT>FIXED_DICT
+		<Properties>
+			<waypoint>
+				<Type>WAYPOINT	</Type>
+			</waypoint>
+			<type>
+				<Type> INT32 	</Type>
+			</type>
+			<id>
+				<Type>	INT64	</Type>
+			</id>
+		</Properties>
+	</SCENARIO_WAYPOINT>
+
+	<SCENARIO_MOBS>FIXED_DICT
+		<Properties>
+			<type>
+				<Type>	INT16	</Type>
+			</type>
+			<goto>
+				<Type>	INT8	</Type>
+			</goto>
+			<count>
+				<Type>	INT16	</Type>
+			</count>
+			<level>
+				<Type>	INT8	</Type>
+			</level>
+			<update>
+				<Type>	INT8	</Type>
+			</update>
+			<wayName>
+				<Type>	STRING	</Type>
+			</wayName>
+		</Properties>
+	</SCENARIO_MOBS>
+
+	<SCENARIO>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>	INT64	</Type>
+			</id>
+			<type>
+				<Type>	INT8	</Type>
+			</type>
+			<winif>
+				<Type>	ARRAY<of>INT8</of></Type>
+			</winif>
+			<mobs>
+				<Type>	ARRAY <of>SCENARIO_MOBS</of></Type>
+			</mobs>
+			<npcs>
+				<Type>	ARRAY <of>SCENARIO_NPC</of></Type>
+			</npcs>
+			<time>
+				<Type>	FLOAT32	</Type>
+			</time>
+		</Properties>
+	</SCENARIO>
+<!--SCENARIO  END -->
+<!-- REFEREE START-->
+	<REFEREE_COUNTER>FIXED_DICT
+		<Properties>
+			<groupID>
+				<Type>	GROUPID	</Type>
+			</groupID>
+			<counter>
+				<Type>	INT8	</Type>
+			</counter> 
+			<command>
+				<Type>	INT8	</Type>
+			</command>
+		</Properties>	
+	</REFEREE_COUNTER>
+
+	<PVP_USER_STATISTIC>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>	ENTITY_ID	</Type>
+			</id>
+			<name>
+				<Type>	UNICODE_STRING	</Type>
+			</name>
+			<counter>
+				<Type>	INT8	</Type>
+			</counter> 
+			<deaths>
+				<Type>	INT8	</Type>
+			</deaths>
+			<command>
+				<Type>	INT8	</Type>
+			</command>
+		</Properties>	
+	</PVP_USER_STATISTIC>
+
+	<PVP_COMMAND_STATISTIC>FIXED_DICT
+		<Properties>
+			<command>
+				<Type>	GROUPID	</Type>
+			</command>
+			<count>
+				<Type>	INT8	</Type>
+			</count>
+		</Properties>			
+	</PVP_COMMAND_STATISTIC>
+
+	<PVP_STATISTIC>FIXED_DICT
+		<Properties>
+			<commands>
+				<Type>	ARRAY	<of>	PVP_COMMAND_STATISTIC </of>	</Type>
+			</commands>
+			<users>
+				<Type>	ARRAY	<of>	PVP_USER_STATISTIC </of>	</Type>
+			</users>
+		</Properties>			
+	</PVP_STATISTIC>
+
+	<PVP_CLIENT_INFO>FIXED_DICT
+		<Properties>
+			<State>
+				<Type>	INT8	</Type>
+			</State>
+		</Properties>	
+	</PVP_CLIENT_INFO>
+
+	<PVP_REFEREE_STATISTIC>FIXED_DICT
+		<Properties>
+			<groupID>
+				<Type>	GROUPID	</Type>
+			</groupID>
+			<name>
+				<Type>	UNICODE_STRING	</Type>
+			</name>
+			<counter>
+				<Type>	INT8	</Type>
+			</counter> 
+			<deaths>
+				<Type>	INT8	</Type>
+			</deaths>
+			<command>
+				<Type>	INT8	</Type>
+			</command>
+			<mailbox>
+				<Type>	MAILBOX	</Type>
+			</mailbox>
+		</Properties>	
+	</PVP_REFEREE_STATISTIC>
+
+	<REFEREE_USER>FIXED_DICT
+		<Properties>
+			<dbid>
+				<Type>	DBID	</Type>
+			</dbid>
+			<mailbox> 
+				<Type>	MAILBOX	</Type>
+			</mailbox>
+			<name> 
+				<Type>	UNICODE_STRING	</Type>
+			</name>
+		</Properties>	
+	</REFEREE_USER>
+
+	<REFEREE_PERIODS>FIXED_DICT
+		<Properties>
+			<period>
+				<Type>	INT8	</Type>
+			</period>
+			<groupID> 
+				<Type>	GROUPID	</Type>
+			</groupID>
+			<counter> 
+				<Type>	INT8	</Type>
+			</counter>
+			<controllerID>
+				<Type>	INT64	</Type>
+			</controllerID>
+		</Properties>	
+	</REFEREE_PERIODS>
+
+<!-- REFEREE END-->
+	<MAP_NOTE_ENTRY>FIXED_DICT
+		<Properties>
+					<spaceName>
+						<Type> STRING 			</Type>
+					</spaceName>
+					<position>
+						<Type> VECTOR3 			</Type>
+					</position>
+					<notes>
+						<Type>	UNICODE_STRING 	</Type>
+					</notes>
+					<flags>
+						<Type>	INT64			</Type>
+					</flags>
+		</Properties>
+	</MAP_NOTE_ENTRY>
+
+	<QUEST_MAP_NOTE_ENTRY>FIXED_DICT
+		<Properties>
+			<mapnote>
+				<Type>	MAP_NOTE_ENTRY	</Type>
+			</mapnote>
+			<quests>
+				<Type>	ARRAY <of> QUESTID	</of></Type>
+			</quests>
+			<id>
+				<Type>	STRING	</Type>
+			</id>
+		</Properties>
+	</QUEST_MAP_NOTE_ENTRY>
+
+	<PLAYER_NOTES>FIXED_DICT
+		<Properties>
+			<dbid>
+				<Type>	DBID	</Type>
+			</dbid>
+			<notes>
+				<Type>	ARRAY <of> STRING	</of></Type>
+			</notes>
+		</Properties>
+	</PLAYER_NOTES>
+
+	<MAP_NOTE_FLAG>	INT8
+		<Widget>	ENUM
+			<enum> <value> 0 </value><display> NONE				</display> </enum>
+			<enum> <value> 1 </value><display> AUTO				</display> </enum>
+			<enum> <value> 2 </value><display> ON_PROCESS		</display> </enum>
+		</Widget>
+	</MAP_NOTE_FLAG>
+
+	<MOB_SKILL_ENTRY>FIXED_DICT
+		<Properties>
+			<readyAt>
+				<Type> FLOAT32	</Type>
+			</readyAt>	
+			<id>
+				<Type> BOT_SKILL_ID	</Type> <!-- damage, area, etc are taken by skill ID -->
+			</id>	
+		</Properties>
+	</MOB_SKILL_ENTRY>
+
+	<!--SPAWN_POSITION>FIXED_DICT
+		<Properties>
+			<spaceID>
+				<Type> INT32 </Type>
+			</spaceID>	
+			<position>
+				<Type> VECTOR3 </Type> 
+			/position>	
+		</Properties>
+	</SPAWN_POSITION-->
+
+	<SPAWN_AREA_INFORMATION>FIXED_DICT
+		<Properties>
+			<name>
+				<Type> STRING </Type>
+			</name>
+			<used>
+				<Type> INT32 </Type>
+			</used>
+			<!--max_uses>
+				<Type> INT8 </Type>
+			</max_uses-->
+			<weight>
+				<Type> INT8 </Type>
+			</weight>
+		</Properties>	
+	</SPAWN_AREA_INFORMATION>
+
+
+	<CLAN_ID_NAME_ENTRY>FIXED_DICT
+		<Properties>
+			<clanID>
+				<Type> INT32 </Type>
+			</clanID>	
+			<clanName>
+				<Type> STRING </Type>
+			</clanName>	
+		</Properties>
+	</CLAN_ID_NAME_ENTRY>
+
+	<CAPTURE_POINT_ENTRY>FIXED_DICT
+		<Properties>
+			<id>
+				<Type> ENTITY_ID </Type>
+			</id>	
+			<type>
+				<Type> INT32 </Type>
+			</type>	
+			<clanID>
+				<Type> INT64 </Type>
+			</clanID>	
+			<status>
+				<Type> FLOAT </Type>
+			</status>	
+		</Properties>
+	</CAPTURE_POINT_ENTRY>
+
+	<PVPOINTTYPE>	INT8
+		<Widget>	ENUM
+			<enum>
+				<value>	0	</value>
+				<display>	Mobs base		</display>
+			</enum>
+			<enum>
+				<value>	1	</value>
+				<display>	First command	</display>
+			</enum>
+			<enum>
+				<value>	2	</value>
+				<display>	Second command	</display>
+			</enum>
+			<enum>
+				<value>	3	</value>
+				<display>	Third command	</display>
+			</enum>
+			<enum>
+				<value>	4	</value>
+				<display>	True			</display>
+			</enum>
+		</Widget>
+	</PVPOINTTYPE>
+
+	<PVPOINT_DESCRIPTION>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>		ENTITY_ID		</Type>
+			</id>
+			<spaceID>
+				<Type>		SPACE_ID		</Type>
+			</spaceID>
+			<position>
+				<Type>		VECTOR3			</Type>
+			</position>
+			<type>
+				<Type>		PVPOINTTYPE			</Type>
+			</type>
+		</Properties>
+	</PVPOINT_DESCRIPTION>
+
+	<BASE_NPC_SOURCE_POINT>FIXED_DICT
+		<Properties>
+			<id>
+				<Type>		ENTITY_ID		</Type>
+			</id>
+			<name>
+				<Type>		STRING		</Type>
+			</name>
+			<type>
+				<Type>		INT32			</Type>
+			</type>
+			<maxLevel>
+				<Type>		INT32			</Type>
+			</maxLevel>
+			<position>
+				<Type>		VECTOR3			</Type>
+			</position>
+			<direction>
+				<Type>		VECTOR3			</Type>
+			</direction>
+			<spaceID>
+				<Type>		INT32			</Type>
+			</spaceID>
+
+		</Properties>
+	</BASE_NPC_SOURCE_POINT>
+
+
+	<BASE_NPC_STATUS>FIXED_DICT
+		<Properties>
+			<name>
+					<Type>		STRING		</Type>
+			</name>
+			<level>
+				<Type>		INT32			</Type>
+			</level>
+			<expiresAt>
+				<Type>		FLOAT64			</Type>
+			</expiresAt>
+
+		</Properties>
+	</BASE_NPC_STATUS>
+
+	<AREA_NPC_ENTRY>FIXED_DICT
+		<Properties>		
+		<name>
+				<Type>		STRING		</Type>
+		</name>
+		<npcPoints>
+				<Type>		ARRAY <of>BASE_NPC_SOURCE_POINT</of>	</Type>
+		</npcPoints>
+		<npcStates>
+				<Type>		ARRAY <of>BASE_NPC_STATUS</of>	</Type>
+		</npcStates>
+		</Properties>
+
+	</AREA_NPC_ENTRY>
+
+	<CLAN_AREA_ENTRY>FIXED_DICT
+		<Properties>		
+			<name>
+					<Type>		STRING		</Type>
+			</name>
+			<mbox>
+					<Type>		MAILBOX	</Type>
+			</mbox>
+			<clanID>
+					<Type>		INT32	</Type>
+			</clanID>
+		</Properties>
+
+	</CLAN_AREA_ENTRY>
+
+	<POSSIBILITY>FIXED_DICT
+		<Properties>		
+			<type>
+					<Type>		INT8	</Type>
+			</type>
+			<eventType>
+					<Type>		INT8	</Type>
+			</eventType>
+			<id>
+					<Type>		INT64	</Type>
+			</id>
+			<time>
+					<Type>		FLOAT64	</Type>
+			</time>
+			<period>
+					<Type>		FLOAT32	</Type>
+			</period>
+		</Properties>
+	</POSSIBILITY>
+
+	<AREA_PVP_DAY_TIME_SETTING>FIXED_DICT
+		<Properties>		
+			<startHour>
+					<Type>		INT8	</Type>
+			</startHour>
+		</Properties>
+	</AREA_PVP_DAY_TIME_SETTING>
+
+	<NAMED_WAY>FIXED_DICT
+		<Properties>		
+			<name>
+					<Type>		STRING	</Type>
+			</name>
+			<way>
+					<Type>		 WAY 	</Type>
+			</way>
+		</Properties>
+	</NAMED_WAY>
+
+	<NAMES_INT_PAIR>FIXED_DICT
+		<Properties>		
+			<name_id>
+					<Type>		INT32	</Type>
+			</name_id>
+			<surname_id>
+					<Type>		 INT32 	</Type>
+			</surname_id>
+			<id>
+					<Type>		 INT64 	</Type>
+			</id>
+		</Properties>
+	</NAMES_INT_PAIR>
+
+	<INSTANCE_PROP>FIXED_DICT
+		<Properties>		
+			<dir>
+				<Type>		 STRING 	</Type>
+			</dir>
+			<timer>
+				<Type>		 INT8 	</Type>
+			</timer>
+			<number>
+				<Type>		 INT16 	</Type>
+			</number>
+			<dbids>
+				<Type>	ARRAY	<of>	 DBID	</of> 	</Type>			
+			</dbids>
+			<id_timer>
+				<Type>		 FLOAT64 	</Type>
+			</id_timer>
+			<spaceID>
+				<Type>		 INT64 	</Type>	
+			</spaceID>
+			<tpIDs>
+				<Type>		 ARRAY	<of>	INT64	</of> 	</Type>	
+			</tpIDs>
+			<type>
+				<Type>		 INT8 	</Type>
+			</type>
+		</Properties>
+	</INSTANCE_PROP>
+
+	<SAVE_POINT>FIXED_DICT
+		<Properties>		
+			<position>
+				<Type>		 VECTOR3 	</Type>
+			</position>
+			<spaceID>
+				<Type>		 INT64 	</Type>
+			</spaceID>
+			<spaceName>
+				<Type>		 STRING 	</Type>
+			</spaceName>
+		</Properties>
+	</SAVE_POINT>
+
+	<KILL_ORDER>FIXED_DICT
+		<Properties>		
+			<id>
+				<Type>		 QUESTID 	</Type>
+			</id>
+			<name>
+				<Type>		 UNICODE_STRING 	</Type>
+			</name>
+		</Properties>
+	</KILL_ORDER>
+
+	<SCENARIO_EYE_REGISTER>FIXED_DICT
+		<Properties>		
+			<questID>
+				<Type>		 QUESTID 	</Type>
+			</questID>
+			<dbid>
+				<Type>		 DBID 	</Type>
+			</dbid>
+			<mail>
+				<Type>		 MAILBOX 	</Type>
+			</mail>
+		</Properties>
+	</SCENARIO_EYE_REGISTER>
+
+	<SCENARIO_EYE_USER>FIXED_DICT
+		<Properties>
+			<questID>
+				<Type>		 QUESTID 	</Type>
+			</questID>
+			<mail>
+				<Type>		 MAILBOX 	</Type>
+			</mail>
+		</Properties>
+	</SCENARIO_EYE_USER>
+
+	<QUEST_TIMER_BUFFER>FIXED_DICT
+		<Properties>		
+			<start_time>
+				<Type>		 FLOAT32 	</Type>
+			</start_time>
+			<questID>
+				<Type>		 QUESTID 	</Type>
+			</questID>
+		</Properties>		
+	</QUEST_TIMER_BUFFER>
+
+	<!--QuestObject-->
+	<QOBJECT_WINIF>
+				UINT8
+				<!-- BOOL uses the ENUM widget to show True for 1 and False for 0	-->
+				<Widget>	ENUM
+					<enum>
+						<value>	0	</value>
+						<display>	no_quest	</display>
+					</enum>
+					<enum>
+						<value>	1	</value>
+						<display>	has_quest	</display>
+					</enum>
+					<enum>
+						<value>	2	</value>
+						<display>	opened	</display>
+					</enum>
+					<enum>
+						<value>	3	</value>
+						<display>	closed	</display>
+					</enum>
+					<enum>
+						<value>	4	</value>
+						<display>	failed	</display>
+					</enum>
+					<enum>
+						<value>	5	</value>
+						<display>	on_test	</display>
+					</enum>
+				</Widget>
+	</QOBJECT_WINIF>
+
+	<GPS_TELEPORT_INFO>FIXED_DICT
+		<Properties>
+			<spaceID>
+				<Type>		 INT64 	</Type>
+			</spaceID>
+			<position>
+				<Type>		 VECTOR3 	</Type>
+			</position>
+			<prev_spaceID>
+				<Type>		 INT64 	</Type>
+			</prev_spaceID>
+			<prev_position>
+				<Type>		 VECTOR3 	</Type>
+			</prev_position>
+		</Properties>
+	</GPS_TELEPORT_INFO>
+
+
+	<COMPLEX_STAT_INDEX>
+		INT8
+	</COMPLEX_STAT_INDEX>
+
+	<ENTITY_CHARACTERISTIC_ENTRY>
+		FLOAT32
+	</ENTITY_CHARACTERISTIC_ENTRY>
+
+	<COMPLEX_CHARACTERISTIC_VALUE>FIXED_DICT
+		<Properties>
+			<CurrentValue>
+				<Type>		ENTITY_CHARACTERISTIC_ENTRY </Type>
+			</CurrentValue>
+			<TemporaryOffset>
+				<Type>		ENTITY_CHARACTERISTIC_ENTRY	</Type>
+			</TemporaryOffset>
+		</Properties>
+	</COMPLEX_CHARACTERISTIC_VALUE>
+
+	<ENTITY_CHARACTERISTIC>FIXED_DICT
+		<Properties>
+			<CurrentValue>
+				<Type>		ENTITY_CHARACTERISTIC_ENTRY </Type>
+			</CurrentValue>
+			<TemporaryOffset>
+				<Type>		ENTITY_CHARACTERISTIC_ENTRY	</Type>
+			</TemporaryOffset>
+			<Maximum>
+					<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Maximum>
+			<Minimum>
+					<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Minimum>
+		</Properties>
+	</ENTITY_CHARACTERISTIC>
+
+	<COMPLEX_ENTITY_CHARACTERISTIC>FIXED_DICT
+		<Properties>
+			<StatKeys>
+				<Type>	ARRAY <of> COMPLEX_STAT_INDEX </of>	</Type>
+			</StatKeys>
+			<StatValues>
+				<Type>	ARRAY <of> COMPLEX_CHARACTERISTIC_VALUE </of>	</Type>
+			</StatValues>
+		</Properties>
+	</COMPLEX_ENTITY_CHARACTERISTIC>
+
+
+	<COMPLEX_ENTITY_CHARACTERISTIC_LEVEL1>FIXED_DICT
+		<Properties>
+			<StatKeys>
+				<Type>	ARRAY <of> COMPLEX_STAT_INDEX </of>	</Type>
+			</StatKeys>
+			<StatValues>
+				<Type>	ARRAY <of> COMPLEX_CHARACTERISTIC_VALUE </of>	</Type>
+			</StatValues>
+
+			<Maximum>
+				<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Maximum>
+			<Minimum>
+				<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Minimum>
+			<Default>
+				<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Default>
+
+		</Properties>
+	</COMPLEX_ENTITY_CHARACTERISTIC_LEVEL1>
+
+	<COMPLEX_ENTITY_CHARACTERISTIC_LEVEL2>FIXED_DICT
+		<Properties>
+			<StatKeys>
+				<Type>	ARRAY <of> COMPLEX_STAT_INDEX </of>	</Type>
+			</StatKeys>
+			<StatValues>
+				<Type>	ARRAY <of> COMPLEX_ENTITY_CHARACTERISTIC </of>	</Type>
+			</StatValues>
+
+			<Maximum>
+				<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Maximum>
+			<Minimum>
+				<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Minimum>
+			<Default>
+				<Type>	ENTITY_CHARACTERISTIC_ENTRY 	</Type>
+			</Default>
+
+
+		</Properties>
+	</COMPLEX_ENTITY_CHARACTERISTIC_LEVEL2>
+
+	<DAMAGE_MINMAX> 
+		ARRAY <of> FLOAT </of>
+	</DAMAGE_MINMAX>
+
+	<ITEM_DAMAGE> FIXED_DICT
+		<Properties>
+			<keys>
+				<Type>  ARRAY <of> UINT8 </of>  </Type>
+			</keys>
+			<values>
+				<Type>  ARRAY <of> DAMAGE_MINMAX </of>  </Type>
+			</values>
+		</Properties>
+	</ITEM_DAMAGE>
+
+	<FLAG_LEVEL>INT8
+				<Widget>	ENUM
+					<enum>
+						<value>	0	            </value>
+						<display>	Sergeant	</display>
+					</enum>
+					<enum>
+						<value>	1	            </value>
+						<display>	Private	    </display>
+					</enum>
+					<enum>
+						<value>	2	            </value>
+						<display>	Corporal	</display>
+					</enum>
+				</Widget>
+	</FLAG_LEVEL>
+
+	<BASE_NPC_TYPE>INT8
+				<Widget>	ENUM
+					<enum>
+						<value>	11	</value>
+						<display>	Donat	</display>
+					</enum>
+					<enum>
+						<value>	10	</value>
+						<display>	Test	</display>
+					</enum>
+					<enum>
+						<value>	9	</value>
+						<display>	Sergeant_1	</display>
+					</enum>
+					<enum>
+						<value>	8	</value>
+						<display>	Corporal_1	</display>
+					</enum>
+					<enum>
+						<value>	7	</value>
+						<display>	Private_1	</display>
+					</enum>
+				</Widget>
+	</BASE_NPC_TYPE>
+
+	<VICTIM_DATA>	FIXED_DICT
+		<Properties>
+			<mailbox>
+				<Type>	MAILBOX </Type>
+			</mailbox>
+			<body_zone>
+				<Type>	BODY_ZONE	</Type>
+			</body_zone>
+		</Properties>
+	</VICTIM_DATA>
+
+	<DAMAGE_SRC_DATA>	FIXED_DICT
+		<Properties>
+			<mailbox>
+				<Type>	MAILBOX </Type>
+			</mailbox>
+			<type>
+				<Type>	UINT8	</Type>
+			</type>
+			<subtype>
+				<Type>	ARRAY <of> INT16 </of></Type>
+			</subtype>
+		</Properties>
+	</DAMAGE_SRC_DATA>
+
+	<DAMAGE_SRC_DATA_CLIENT>	FIXED_DICT
+		<Properties>
+			<entity_id>
+				<Type>	ENTITY_ID </Type>
+			</entity_id>
+			<type>
+				<Type>	UINT8	</Type>
+			</type>
+			<subtype>
+				<Type>	ARRAY <of> INT16 </of></Type>
+			</subtype>
+		</Properties>
+	</DAMAGE_SRC_DATA_CLIENT>
+
+	<DAMAGE_DATA>	FIXED_DICT
+		<Properties>
+			<type>
+				<Type>	UINT8	</Type>
+			</type>
+			<value>
+				<Type>	FLOAT32	</Type>
+			</value>
+			<penetration>
+				<Type>	FLOAT32	</Type>
+			</penetration>
+			<flags>
+				<Type>	UINT8	</Type>
+			</flags>
+		</Properties>
+	</DAMAGE_DATA>
+
+	<DAMAGETAKEN_DATA>	FIXED_DICT
+		<Properties>
+			<health_decrement>
+				<Type>	FLOAT32	</Type>
+			</health_decrement>
+			<body_zone>
+				<Type>	BODY_ZONE	</Type>
+			</body_zone>
+			<flags>
+				<Type>	UINT8	</Type>
+			</flags>
+		</Properties>
+	</DAMAGETAKEN_DATA>
+
+	<KEYVALUE8>	FIXED_DICT
+		<Properties>
+			<key>
+				<Type>	UINT8	</Type>
+			</key>
+			<value>
+				<Type>	UINT8	</Type>
+			</value>
+		</Properties>
+	</KEYVALUE8>
+	<ADD_TO_ASSORTMENT_ENTRY>FIXED_DICT
+		<Properties>
+			<itemType>
+				<Type>	ITEM_TYPE	</Type>
+			</itemType>
+			<delay>
+				<Type>	FLOAT32	</Type>
+			</delay>
+		</Properties>
+	</ADD_TO_ASSORTMENT_ENTRY>
+
+	<!-- BWDICT SECTION BEGIN-->
+	<BWDICT_UINT32_UINT32>	FIXED_DICT
+		<implementedBy> server_utils.bwdict </implementedBy>
+		<Properties>
+			<keys> <Type>ARRAY <of> UINT32 </of></Type></keys>
+			<values> <Type>ARRAY <of> UINT32 </of></Type></values>
+		</Properties>
+	</BWDICT_UINT32_UINT32>
+	<BWDICT_STRING_MAILBOX>	FIXED_DICT
+		<implementedBy> server_utils.bwdict </implementedBy>
+		<Properties>
+			<keys> <Type>ARRAY <of> STRING </of></Type></keys>
+			<values> <Type>ARRAY <of> MAILBOX </of></Type></values>
+		</Properties>
+	</BWDICT_STRING_MAILBOX>
+	<!-- BWDICT SECTION END -->
+	<!-- BWSET SECTION BEGIN-->
+	<BWSET_MAILBOX>	FIXED_DICT
+		<implementedBy> server_utils.bwset </implementedBy>
+		<Properties>
+			<values> <Type> ARRAY <of> MAILBOX </of> </Type> </values>
+		</Properties>
+	</BWSET_MAILBOX>
+	<!-- BWSET SECTION END -->	
+	<!-- BWDEQUE SECTION BEGIN-->
+    <ONLINEMGR_QUEUE>	FIXED_DICT
+        <implementedBy> server_utils.bwdeque </implementedBy>
+        <Properties>
+            <array>
+                <Type>ARRAY <of>
+                    FIXED_DICT
+                    <Properties>
+                        <slave>
+                            <Type> MAILBOX </Type>
+                        </slave>
+                        <account_name>
+                            <Type> STRING</Type>
+                        </account_name>
+                        <account>
+                            <Type> MAILBOX </Type>
+                        </account>
+                        <entered>
+                            <Type> FLOAT </Type>
+                        </entered>
+                        <entered_pos>
+                            <Type> UINT16 </Type>
+                        </entered_pos>
+                    </Properties>
+                </of></Type>
+            </array>
+            <maxlen><Type>UINT16</Type></maxlen>
+        </Properties>
+    </ONLINEMGR_QUEUE>
+
+    <QUEUE_WAIT_HISTORY>	FIXED_DICT
+        <implementedBy> server_utils.bwdeque </implementedBy>
+        <Properties>
+            <array>
+                <Type>ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <start><Type>UINT32</Type></start>
+                        <end><Type>UINT32</Type></end>
+                        <qsize><Type>UINT32</Type></qsize>
+                    </Properties>
+                </of></Type>
+            </array>
+            <maxlen><Type>UINT16</Type></maxlen>
+        </Properties>
+    </QUEUE_WAIT_HISTORY>
+
+    <DEQUEUE_FLOAT>	FIXED_DICT
+        <implementedBy> server_utils.bwdeque </implementedBy>
+        <Properties>
+            <array><Type>ARRAY <of>FLOAT32</of></Type></array>
+            <maxlen><Type>UINT16</Type></maxlen>
+        </Properties>
+    </DEQUEUE_FLOAT>
+
+    <DEQUEUE_VECTOR3>	FIXED_DICT
+        <implementedBy> server_utils.bwdeque </implementedBy>
+        <Properties>
+            <array><Type>ARRAY <of>VECTOR3</of></Type></array>
+            <maxlen><Type>UINT16</Type></maxlen>
+        </Properties>
+    </DEQUEUE_VECTOR3>
+
+	<!-- BWDEQUE SECTION END -->
+	
+	<ANOM_FIELD_PATTERN_CHANGE_TYPE> UINT8
+		<Widget> ENUM
+			<enum> <value> 0 </value><display> In order </display> </enum>	
+			<enum> <value> 1 </value><display> Random </display> </enum>	
+		</Widget>	
+	</ANOM_FIELD_PATTERN_CHANGE_TYPE>
+	
+	<LOGIC_EVENT> 
+		STRING
+		<!-- UINT8
+		<Widget> ENUM
+			<enum> <value> 0 </value><display> EVENT_1 </display> </enum>	
+			<enum> <value> 1 </value><display> EVENT_2 </display> </enum>	
+			<enum> <value> 2 </value><display> EVENT_3 </display> </enum>	
+		</Widget>	 --> 
+	</LOGIC_EVENT>	
+	
+	<LOGIC_REACTION> STRING </LOGIC_REACTION>
+	
+	
+	
+	<HUNTERDATA>
+		FIXED_DICT
+		<Properties>
+			<cost><Type>INT64</Type></cost>
+			<victimName><Type>UNICODE_STRING</Type></victimName>
+			<wantedName><Type>UNICODE_STRING</Type></wantedName>
+			<hoursLeft><Type>INT32</Type></hoursLeft>
+			
+			<hunters><Type> ARRAY <of> UNICODE_STRING </of> </Type></hunters>
+			
+        </Properties>
+		
+		
+	</HUNTERDATA>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</root>

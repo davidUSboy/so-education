@@ -1,0 +1,16 @@
+<root>
+  <base>
+    <STRING_1072_42>Подавать заявку на участие может только владелец группы.</STRING_1072_42>
+    <STRING_1093_43>Сейчас вы не можете подписаться на событие.</STRING_1093_43>
+    <STRING_1101_44>Сейчас вы не можете подписаться на событие.</STRING_1101_44>
+    <STRING_1115_50>Вы отказались от подписки на событие</STRING_1115_50>
+    <STRING_1117_44>Вы отказались от подписки на событие</STRING_1117_44>
+    <STRING_1132_51>Ваша группа подала заявку на участие:</STRING_1132_51>
+    <STRING_1134_42>Вы подали заявку на участие:</STRING_1134_42>
+  </base>
+  <YOU_CANT_ROLL_UP_YOU_ARE_NOT_LEADER>Подавать заявку на участие может только владелец группы.</YOU_CANT_ROLL_UP_YOU_ARE_NOT_LEADER>
+  <NOW_YOU_CANT_ROLL_UP_ON_EVENT>Сейчас вы не можете подписаться на событие.</NOW_YOU_CANT_ROLL_UP_ON_EVENT>
+  <YOU_DAVE_REFUSED_FROM_EVENT>Вы отказались от подписки на событие</YOU_DAVE_REFUSED_FROM_EVENT>
+  <YOUR_GROUP_HAS_ROLL_UP_ON_EVENT>Ваша группа подала заявку на участие:</YOUR_GROUP_HAS_ROLL_UP_ON_EVENT>
+  <YOU_HAVE_ROLL_UP_ON_EVENT>Вы подали заявку на участие:</YOU_HAVE_ROLL_UP_ON_EVENT>
+</root>

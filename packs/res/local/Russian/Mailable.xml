@@ -1,0 +1,16 @@
+<root>
+  <client>
+    <PRIVATE_TO_YOU>@%s вам: %s</PRIVATE_TO_YOU>
+    <PRIVATE_YOU_TO>Вы &gt; @%s: %s</PRIVATE_YOU_TO>
+    <COMMON_YOU>Вы: %s</COMMON_YOU>
+    <PRIVATE_FROM_YOU>Вы &gt; @%s: %s</PRIVATE_FROM_YOU>
+    <GENERAL_FROM_YOU>Вы: %s</GENERAL_FROM_YOU>
+    <REGEX>[a-zA-Zа-яА-Я0-9]+</REGEX>
+  </client>
+  <base>
+    <CHARS_NOT_FOUND>Персонажи не найдены:</CHARS_NOT_FOUND>
+    <CHAR_NOT_FOUND>Персонаж %s не найден</CHAR_NOT_FOUND>
+    <CHARS_OFFLINE>Персонажи не в игре:</CHARS_OFFLINE>
+    <CHAR_OFFLINE>Персонаж %s не в игре</CHAR_OFFLINE>
+  </base>
+</root>

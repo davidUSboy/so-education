@@ -1,0 +1,116 @@
+<root>
+	<graphicsPreferences>
+		<deviceGUID>	</deviceGUID>
+		<entry>
+			<label>	SKY_LIGHT_MAP	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	MRT_DEPTH	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADER_VERSION_CAP	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_COMPRESSION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_FILTERING	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	MORPH_VERTICES	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	7	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_COUNT	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	WEB_SETTINGS	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_LOD	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_MESH_RESOLUTION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_SIMULATION	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FOOT_PRINTS	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	CLASSIC_TERRAIN_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_DENSITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	POST_PROCESSING	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	BUMPED_RENDERING	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SKIN_RENDERING	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	REFLECTION_RENDERING	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	DYNAMIC_SHADOW	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+	</graphicsPreferences>
+	<devicePreferences>
+		<windowed>	true	</windowed>
+		<waitVSync>	false	</waitVSync>
+		<tripleBuffering>	true	</tripleBuffering>
+		<aspectRatio>	1,778	</aspectRatio>
+		<windowedWidth>	1366	</windowedWidth>
+		<windowedHeight>	768	</windowedHeight>
+		<fullscreenWidth>	1920	</fullscreenWidth>
+		<fullscreenHeight>	1080	</fullscreenHeight>
+	</devicePreferences>
+	<scriptsPreferences>	</scriptsPreferences>
+</root>

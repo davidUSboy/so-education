@@ -1,0 +1,18 @@
+<root>
+	<Properties>
+
+		<ES_effects>
+			<Type> ARRAY <of> EFFECT_SOURCE_ENTRY </of> </Type>
+			<Flags> CELL_PUBLIC </Flags>
+		</ES_effects>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

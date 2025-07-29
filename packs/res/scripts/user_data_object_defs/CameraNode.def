@@ -1,0 +1,26 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+	<Properties>
+	
+		<!-- Links to other CameraNode objects.
+		-->
+    <next>
+      <Type> UDO_REF </Type>
+      <Editable>	True	</Editable>
+    </next>
+		
+		<!-- Name of CameraNode.
+		-->
+    <name>
+      <Type> STRING </Type>
+      <Editable>	True	</Editable>
+    </name>
+
+	<fov>
+		<!-- The field of view that should be used with this camera node. (degrees) -->
+		<Type>		FLOAT	</Type>
+		<Editable>	True	</Editable>
+		<Default>	60.000000	</Default>
+	</fov>
+  </Properties>
+</root>

@@ -1,0 +1,45 @@
+<Root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		ActionManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+	
+		<currentAction>
+			<Type>			PYTHON		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>		0			</Default>
+		</currentAction>
+		
+	
+	</Properties>
+
+	<BaseMethods>
+		<cleanup/>
+		
+	<addExpRate>
+		<Arg>			PYTHON			</Arg>	<!-- mob types list -->
+		<Arg>			FLOAT			</Arg> <!-- coefficient -->
+		<Arg>			INT32			</Arg> <!-- count hour -->
+	</addExpRate>
+	
+	<rateOFF>
+		<Arg>			PYTHON			</Arg>	
+	</rateOFF>
+	
+	</BaseMethods>
+	
+	
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

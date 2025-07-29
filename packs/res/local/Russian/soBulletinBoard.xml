@@ -1,0 +1,11 @@
+<root>
+  <EntityName>Доска объявлений</EntityName>
+  <bulletin>ДОСКА ОБЪЯВЛЕНИЙ</bulletin>
+  <textNews>НОВОСТИ</textNews>
+  <textQuest>СЛУХИ</textQuest>
+  <sale>ПРОДАЖИ</sale>
+  <hunt>ОХОТА</hunt>
+  <worldso>КАРТА</worldso>
+  <news>Новости</news>
+  <next>Далее</next>
+</root>

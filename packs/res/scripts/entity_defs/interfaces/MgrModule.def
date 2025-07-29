@@ -1,0 +1,10 @@
+<root>
+	<ClientMethods>
+		<__init_module__>
+			<Arg> 	STRING	</Arg>
+			<Arg> 	STRING	</Arg>
+			<Arg> 	UINT32	</Arg>
+			<Arg> 	STRING	</Arg>
+		</__init_module__>
+	</ClientMethods>
+</root>

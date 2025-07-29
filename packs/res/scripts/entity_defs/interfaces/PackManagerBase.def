@@ -1,0 +1,26 @@
+<root>
+	<Properties>
+		<base_qtasks>
+			<Type>	ARRAY <of> PYTHON </of></Type>
+			<Flags> BASE </Flags>
+		</base_qtasks>
+		<packHistory>
+			<Type>	PACKHISTORY</Type>
+			<Flags> BASE </Flags>
+		</packHistory>
+		<module_installed>
+			<Type>	BOOL </Type>
+			<Flags> BASE </Flags>
+			<Default> 0 </Default>
+		</module_installed>
+		<cell_reason>
+			<Type>	STRING </Type>
+			<Flags> BASE </Flags>
+		</cell_reason>
+	</Properties>
+	<BaseMethods>
+		<validatePack><Exposed/><Arg> UINT32 </Arg></validatePack>
+		<returnResult><Exposed/><Arg> UINT32 </Arg><Arg> STRING </Arg></returnResult>
+		<on_module_init><Exposed/><Arg> STRING </Arg></on_module_init>
+	</BaseMethods>
+</root>

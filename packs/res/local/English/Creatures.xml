@@ -1,0 +1,304 @@
+<root>
+  <common>
+    <UNDEFINED_CREATURE>Creature</UNDEFINED_CREATURE>
+    <RAT1>Rat</RAT1>
+    <RAT2>Small Rat</RAT2>
+    <RAT3>Rat</RAT3>
+    <RAT4>Big Rat</RAT4>
+    <RAT5>White Rat</RAT5>
+    <SPIDER1>Spider</SPIDER1>
+    <SPIDER2>Small Spider</SPIDER2>
+    <SPIDER3>Big Spider</SPIDER3>
+    <SPIDER4>Royal Spider</SPIDER4>
+    <SPIDER5>Cave Spider</SPIDER5>
+    <SPIDER6>Spiderkhan</SPIDER6>
+    <PAUCHEK_lv1>Tiny Spidey</PAUCHEK_lv1>
+    <PAUCHEK_lv3>Small spidey</PAUCHEK_lv3>
+    <PAUCHEK_lv6>Small spikey</PAUCHEK_lv6>
+    <PAUCHEK_lv9>Inexperienced spidey</PAUCHEK_lv9>
+    <PAUCHEK_lv12>Immature spidey</PAUCHEK_lv12>
+    <PAUCHEK_lv15>Spidey</PAUCHEK_lv15>
+    <PAUCHEK_lv18>Adult spidey</PAUCHEK_lv18>
+    <PAUCHEK_lv21>Experienced spidey</PAUCHEK_lv21>
+    <PAUCHEK_lv24>Powerful spider</PAUCHEK_lv24>
+    <PAUCHEK_lv27>Monstrous spider</PAUCHEK_lv27>
+    <PAUCHEK_lv30>Killer spidey</PAUCHEK_lv30>
+    <SPIDER_lv1>Tiny Spider</SPIDER_lv1>
+    <SPIDER_lv3>Small spider</SPIDER_lv3>
+    <SPIDER_lv6>Small spider</SPIDER_lv6>
+    <SPIDER_lv9>Inexperienced spider</SPIDER_lv9>
+    <SPIDER_lv12>Immature spider</SPIDER_lv12>
+    <SPIDER_lv15>Spider</SPIDER_lv15>
+    <SPIDER_lv18>Adult spider</SPIDER_lv18>
+    <SPIDER_lv21>Experienced spider</SPIDER_lv21>
+    <SPIDER_lv24>Monstrous spider</SPIDER_lv24>
+    <SPIDER_lv27>Monstrous spider</SPIDER_lv27>
+    <SPIDER_lv30>Killer spider</SPIDER_lv30>
+    <GREYS_lv1>Tiny Grey Spider</GREYS_lv1>
+    <GREYS_lv3>Small grey spider</GREYS_lv3>
+    <GREYS_lv6>Small grey spider</GREYS_lv6>
+    <GREYS_lv9>Inexperienced grey spider</GREYS_lv9>
+    <GREYS_lv12>Immature grey spider</GREYS_lv12>
+    <GREYS_lv15>Grey spider</GREYS_lv15>
+    <GREYS_lv18>Grey adult spider</GREYS_lv18>
+    <GREYS_lv21>Experienced grey spider</GREYS_lv21>
+    <GREYS_lv24>Monstrous spider</GREYS_lv24>
+    <GREYS_lv27>Monstrous grey spider</GREYS_lv27>
+    <GREYS_lv30>Grey killer spider</GREYS_lv30>
+    <BIGS_lv1>Tiny Mutant Spider</BIGS_lv1>
+    <BIGS_lv3>Small mutant spider</BIGS_lv3>
+    <BIGS_lv6>Small mutant spider</BIGS_lv6>
+    <BIGS_lv9>Inexperienced mutant spider</BIGS_lv9>
+    <BIGS_lv12>Immature mutant spider</BIGS_lv12>
+    <BIGS_lv15>Mutant spider</BIGS_lv15>
+    <BIGS_lv18>Adult mutant spider</BIGS_lv18>
+    <BIGS_lv21>Experienced mutant spider</BIGS_lv21>
+    <BIGS_lv24>Monstrous mutant spider</BIGS_lv24>
+    <BIGS_lv27>Monstrous mutant spider</BIGS_lv27>
+    <BIGS_lv30>Killer mutant spider</BIGS_lv30>
+    <PIT_lv3>Big spider</PIT_lv3>
+    <PIT_lv6>Big spider</PIT_lv6>
+    <PIT_lv9>Big spider</PIT_lv9>
+    <DOG1>Dog Mutant</DOG1>
+    <DOG2>Feral Dog Mutant</DOG2>
+    <DOG3>Polar Dog Mutant</DOG3>
+    <PUPPY2>Puppy Mutant</PUPPY2>
+    <PUPPY1>Puppy Mutant</PUPPY1>
+    <DOG_lv1>Tiny Wild Вog</DOG_lv1>
+    <DOG_lv3>Small wild dog</DOG_lv3>
+    <DOG_lv6>Small wild dog</DOG_lv6>
+    <DOG_lv9>Inexperienced Wild Dog</DOG_lv9>
+    <DOG_lv12>Immature wild dog</DOG_lv12>
+    <DOG_lv15>Wild dog</DOG_lv15>
+    <DOG_lv18>Mature wild dog</DOG_lv18>
+    <DOG_lv21>Experienced wild dog</DOG_lv21>
+    <DOG_lv24>Strong wild dog</DOG_lv24>
+    <DOG_lv27>Monstrous wild dog</DOG_lv27>
+    <DOG_lv30>Killer dog</DOG_lv30>
+    <DOGMUT_lv1>Tiny Mutant Вog</DOGMUT_lv1>
+    <DOGMUT_lv3>Small mutant dog</DOGMUT_lv3>
+    <DOGMUT_lv6>Small mutant dog</DOGMUT_lv6>
+    <DOGMUT_lv9>Inexperienced mutant dog</DOGMUT_lv9>
+    <DOGMUT_lv12>Mutant dog</DOGMUT_lv12>
+    <DOGMUT_lv15>Mutant dog</DOGMUT_lv15>
+    <DOGMUT_lv18>Mature mutant dog</DOGMUT_lv18>
+    <DOGMUT_lv21>Experienced mutant dog</DOGMUT_lv21>
+    <DOGMUT_lv24>Strong mutant dog</DOGMUT_lv24>
+    <DOGMUT_lv27>Monstrous mutant dog</DOGMUT_lv27>
+    <DOGMUT_lv30>Killer mutant dog</DOGMUT_lv30>
+    <BOAR1>Boar Mutant</BOAR1>
+    <BOAR2>Young Boar</BOAR2>
+    <BOAR3>Boar Mutant</BOAR3>
+    <BOAR4>Hog Mutant</BOAR4>
+    <KABAN_lv1>Tiny Boar</KABAN_lv1>
+    <KABAN_lv3>Small boar</KABAN_lv3>
+    <KABAN_lv6>Skilled Little Boar</KABAN_lv6>
+    <KABAN_lv9>Inexperienced boar</KABAN_lv9>
+    <KABAN_lv12>Immature boar</KABAN_lv12>
+    <KABAN_lv15>Boar</KABAN_lv15>
+    <KABAN_lv18>Mature boar</KABAN_lv18>
+    <KABAN_lv21>Experienced boar</KABAN_lv21>
+    <KABAN_lv24>Strong boar</KABAN_lv24>
+    <KABAN_lv27>Monstrous boar</KABAN_lv27>
+    <KABAN_lv30>Killer boar</KABAN_lv30>
+    <BOAR_lv1>Small boar</BOAR_lv1>
+    <BOAR_lv3>Small boar</BOAR_lv3>
+    <BOAR_lv6>Full-Grown Boar</BOAR_lv6>
+    <BOAR_lv9>Inexperienced boar</BOAR_lv9>
+    <BOAR_lv12>Immature boar</BOAR_lv12>
+    <BOAR_lv15>Boar</BOAR_lv15>
+    <BOAR_lv18>Mature boar</BOAR_lv18>
+    <BOAR_lv21>Experienced boar</BOAR_lv21>
+    <BOAR_lv24>Big boar</BOAR_lv24>
+    <BOAR_lv27>Monstrous boar</BOAR_lv27>
+    <BOAR_lv30>Killer boar</BOAR_lv30>
+    <SEKACH_lv1>Tiny razorback</SEKACH_lv1>
+    <SEKACH_lv3>Small razorback</SEKACH_lv3>
+    <SEKACH_lv6>Small razorback</SEKACH_lv6>
+    <SEKACH_lv9>Inexperienced razorback</SEKACH_lv9>
+    <SEKACH_lv12>Immature razorback</SEKACH_lv12>
+    <SEKACH_lv15>Razorback</SEKACH_lv15>
+    <SEKACH_lv18>Mature razorback</SEKACH_lv18>
+    <SEKACH_lv21>Experienced razorback</SEKACH_lv21>
+    <SEKACH_lv24>Strong razorback</SEKACH_lv24>
+    <SEKACH_lv27>Monstrous razorback</SEKACH_lv27>
+    <SEKACH_lv30>Killer razorback</SEKACH_lv30>
+    <BOROV_PIT_lv3>Boar</BOROV_PIT_lv3>
+    <BEAR1>Bear</BEAR1>
+    <BEAR2>Brown Bear</BEAR2>
+    <BEAR3>Red Bear</BEAR3>
+    <BEAR4>White Bear</BEAR4>
+    <BLYAK1>Blyak</BLYAK1>
+    <BLYAK2>Stupid Blyak</BLYAK2>
+    <BLYAK3>Sly Blyak</BLYAK3>
+    <BLYAK4>Stupid Cave Blyak</BLYAK4>
+    <BLYAK5>Cave Blyak</BLYAK5>
+    <BLYAK6>Sly Cave Blyak</BLYAK6>
+    <IMP1>Fiend</IMP1>
+    <IMP2>Slow Fiend</IMP2>
+    <IMP3>Fast Fiend</IMP3>
+    <IMP4>Test Fiend</IMP4>
+    <IMP_lv1>Tiny Fiend</IMP_lv1>
+    <IMP_lv3>Small Fiend</IMP_lv3>
+    <IMP_lv6>Small Fiend</IMP_lv6>
+    <IMP_lv9>Inexperienced Fiend</IMP_lv9>
+    <IMP_lv12>Immature Fiend</IMP_lv12>
+    <IMP_lv15>Fiend</IMP_lv15>
+    <IMP_lv18>Mature Fiend</IMP_lv18>
+    <IMP_lv21>Experienced Fiend</IMP_lv21>
+    <IMP_lv24>Powerful Fiend</IMP_lv24>
+    <IMP_lv27>Monstrous Fiend</IMP_lv27>
+    <IMP_lv30>Killer Fiend</IMP_lv30>
+    <BRUTOR1>Brutor</BRUTOR1>
+    <BRUTOR2>Weaken Brutor</BRUTOR2>
+    <BRUTOR3>Mountain Brutor</BRUTOR3>
+    <BRUTOR4>Cave Brutor</BRUTOR4>
+    <BRUTOR_lv1>Tiny Brutor</BRUTOR_lv1>
+    <BRUTOR_lv3>Small brutor</BRUTOR_lv3>
+    <BRUTOR_lv6>Small brutor</BRUTOR_lv6>
+    <BRUTOR_lv9>Inexperienced brutor</BRUTOR_lv9>
+    <BRUTOR_lv12>Immature brutor</BRUTOR_lv12>
+    <BRUTOR_lv15>Brutor</BRUTOR_lv15>
+    <BRUTOR_lv18>Mature brutor</BRUTOR_lv18>
+    <BRUTOR_lv21>Experienced brutor</BRUTOR_lv21>
+    <BRUTOR_lv24>Strong brutor</BRUTOR_lv24>
+    <BRUTOR_lv27>Monstrous brutor</BRUTOR_lv27>
+    <BRUTOR_lv30>Killer brutor</BRUTOR_lv30>
+    <GNOM_lv1>Tiny Cave Brutor</GNOM_lv1>
+    <GNOM_lv3>Small cave brutor</GNOM_lv3>
+    <GNOM_lv6>Small cave brutor</GNOM_lv6>
+    <GNOM_lv9>Inexperienced vace brutor</GNOM_lv9>
+    <GNOM_lv12>Immature cave brutor</GNOM_lv12>
+    <GNOM_lv15>Cave brutor</GNOM_lv15>
+    <GNOM_lv18>Mature cave brutor</GNOM_lv18>
+    <GNOM_lv21>Experienced cave brutor</GNOM_lv21>
+    <GNOM_lv24>Strong cave brutor</GNOM_lv24>
+    <GNOM_lv27>Monstrous cave brutor</GNOM_lv27>
+    <GNOM_lv30>Killer cave brutor</GNOM_lv30>
+    <VERLIOKA1>Verliock</VERLIOKA1>
+    <VERLIOKA2>Young Verliock</VERLIOKA2>
+    <VERLIOKA3>Shelled Verliock</VERLIOKA3>
+    <VERLIOKA_lv1>Tiny Verliock</VERLIOKA_lv1>
+    <VERLIOKA_lv3>Small Verliock</VERLIOKA_lv3>
+    <VERLIOKA_lv6>Verliock</VERLIOKA_lv6>
+    <VERLIOKA_lv9>Inexperienced Verliock</VERLIOKA_lv9>
+    <VERLIOKA_lv12>Immature Verliock</VERLIOKA_lv12>
+    <VERLIOKA_lv15>Verliock</VERLIOKA_lv15>
+    <VERLIOKA_lv18>Mature Verliock</VERLIOKA_lv18>
+    <VERLIOKA_lv21>Experienced Verliock</VERLIOKA_lv21>
+    <VERLIOKA_lv24>Strong Verliock</VERLIOKA_lv24>
+    <VERLIOKA_lv27>Monstrous Verliock</VERLIOKA_lv27>
+    <VERLIOKA_lv30>Killer Verliock</VERLIOKA_lv30>
+    <PANCEROKA_lv1>Tiny Shelled Verliock</PANCEROKA_lv1>
+    <PANCEROKA_lv3>Small Shelled Verliock</PANCEROKA_lv3>
+    <PANCEROKA_lv6>Small Shelled Verliock</PANCEROKA_lv6>
+    <PANCEROKA_lv9>Inexperienced Shelled Verliock</PANCEROKA_lv9>
+    <PANCEROKA_lv12>Immature Shelled Verliock</PANCEROKA_lv12>
+    <PANCEROKA_lv15>Shelled Verliock</PANCEROKA_lv15>
+    <PANCEROKA_lv18>Mature Shelled Verliock</PANCEROKA_lv18>
+    <PANCEROKA_lv21>Experienced Shelled Verliock</PANCEROKA_lv21>
+    <PANCEROKA_lv24>Strong Shelled Verliock</PANCEROKA_lv24>
+    <PANCEROKA_lv27>Monstrous Shelled Verliock</PANCEROKA_lv27>
+    <PANCEROKA_lv30>Killer Shelled Verliock</PANCEROKA_lv30>
+    <VERLIOKA_PIT_lv3>Big Shelled Verliock</VERLIOKA_PIT_lv3>
+    <FORSAKEN1>Forsaken</FORSAKEN1>
+    <FORSAKEN_lv1>Tiny Forsaken</FORSAKEN_lv1>
+    <FORSAKEN_lv3>Small Forsaken</FORSAKEN_lv3>
+    <FORSAKEN_lv6>Small Forsaken</FORSAKEN_lv6>
+    <FORSAKEN_lv9>Inexperienced Forsaken</FORSAKEN_lv9>
+    <FORSAKEN_lv12>Immature Forsaken</FORSAKEN_lv12>
+    <FORSAKEN_lv15>Forsaken</FORSAKEN_lv15>
+    <FORSAKEN_lv18>Mature Forsaken</FORSAKEN_lv18>
+    <FORSAKEN_lv21>Experienced Forsaken</FORSAKEN_lv21>
+    <FORSAKEN_lv24>Strong Forsaken</FORSAKEN_lv24>
+    <FORSAKEN_lv27>Monstrous Forsaken</FORSAKEN_lv27>
+    <FORSAKEN_lv30>Killer Forsaken</FORSAKEN_lv30>
+    <SAGE1>Sage</SAGE1>
+    <SAGE2>Blind Sage</SAGE2>
+    <SAGE3>Seeing Sage</SAGE3>
+    <SAGE4>Sage Twin</SAGE4>
+    <SAGE_lv1>Tiny Sage</SAGE_lv1>
+    <SAGE_lv3>Small Sage</SAGE_lv3>
+    <SAGE_lv6>Small Sage</SAGE_lv6>
+    <SAGE_lv9>Ineperienced Sage</SAGE_lv9>
+    <SAGE_lv12>Immature Sage</SAGE_lv12>
+    <SAGE_lv15>Sage</SAGE_lv15>
+    <SAGE_lv18>Adult Sage</SAGE_lv18>
+    <SAGE_lv21>Experienced  Sage</SAGE_lv21>
+    <SAGE_lv24>Powerful Sage</SAGE_lv24>
+    <SAGE_lv27>Monstrous Sage</SAGE_lv27>
+    <SAGE_lv30>Killer Sage</SAGE_lv30>
+    <SILVAN1>Silvan</SILVAN1>
+    <SILVAN2>Young Silvan</SILVAN2>
+    <SILVAN3>Forest Master</SILVAN3>
+    <SILVAN4>Brownie</SILVAN4>
+    <YETI_lv3>Yeti</YETI_lv3>
+    <DOMOVOI_lv1>Tiny Domovoy</DOMOVOI_lv1>
+    <DOMOVOI_lv3>Small Domovoy</DOMOVOI_lv3>
+    <DOMOVOI_lv6>Small Domovoy</DOMOVOI_lv6>
+    <DOMOVOI_lv9>Inexperienced Domovoy</DOMOVOI_lv9>
+    <DOMOVOI_lv12>Immature Domovoy</DOMOVOI_lv12>
+    <DOMOVOI_lv15>Domovoy</DOMOVOI_lv15>
+    <DOMOVOI_lv18>Mature Domovoy</DOMOVOI_lv18>
+    <DOMOVOI_lv21>Experienced Domovoy</DOMOVOI_lv21>
+    <DOMOVOI_lv24>Powerful Domovoy</DOMOVOI_lv24>
+    <DOMOVOI_lv27>Monstrous Domovoy</DOMOVOI_lv27>
+    <DOMOVOI_lv30>Killer Domovoy</DOMOVOI_lv30>
+    <SILVAN_lv1>Tiny Silvan</SILVAN_lv1>
+    <SILVAN_lv3>Small Silvan</SILVAN_lv3>
+    <SILVAN_lv6>Skilled Silvan</SILVAN_lv6>
+    <SILVAN_lv9>Inexperienced Silvan</SILVAN_lv9>
+    <SILVAN_lv12>Immature Silvan</SILVAN_lv12>
+    <SILVAN_lv15>Silvan</SILVAN_lv15>
+    <SILVAN_lv18>Mature Silvan</SILVAN_lv18>
+    <SILVAN_lv21>Experienced Silvan</SILVAN_lv21>
+    <SILVAN_lv24>Strong Silvan</SILVAN_lv24>
+    <SILVAN_lv27>Monstrous Silvan</SILVAN_lv27>
+    <SILVAN_lv30>Killer Silvan</SILVAN_lv30>
+    <JELLY1>Jelly</JELLY1>
+    <JELLY2>Sloppy Jelly</JELLY2>
+    <JELLY3>Dense Jelly</JELLY3>
+    <JELLY_lv1>Tiny Jelly</JELLY_lv1>
+    <JELLY_lv3>Small Jelly</JELLY_lv3>
+    <JELLY_lv6>Small Jelly</JELLY_lv6>
+    <JELLY_lv9>Inexperienced Jelly</JELLY_lv9>
+    <JELLY_lv12>Immature Jelly</JELLY_lv12>
+    <JELLY_lv15>Jelly</JELLY_lv15>
+    <JELLY_lv18>Mature Jelly</JELLY_lv18>
+    <JELLY_lv21>Experienced Jelly</JELLY_lv21>
+    <JELLY_lv24>Monstrous Jelly</JELLY_lv24>
+    <JELLY_lv27>Monstrous Jelly</JELLY_lv27>
+    <JELLY_lv30>Killer Jelly</JELLY_lv30>
+    <VODYNOI_lv1>Tiny Vodyanoy</VODYNOI_lv1>
+    <VODYNOI_lv3>Small Vodyanoy</VODYNOI_lv3>
+    <VODYNOI_lv6>Small Vodyanoy</VODYNOI_lv6>
+    <VODYNOI_lv9>Inexperienced Vodyanoy</VODYNOI_lv9>
+    <VODYNOI_lv12>Immature Vodyanoy</VODYNOI_lv12>
+    <VODYNOI_lv15>Vodyanoy</VODYNOI_lv15>
+    <VODYNOI_lv18>Mature Vodyanoy</VODYNOI_lv18>
+    <VODYNOI_lv21>Experienced Vodyanoy</VODYNOI_lv21>
+    <VODYNOI_lv24>Strong Vodyanoy</VODYNOI_lv24>
+    <VODYNOI_lv27>Monstrous Vodyanoy</VODYNOI_lv27>
+    <VODYNOI_lv30>Killer Vodyanoy</VODYNOI_lv30>
+    <WORM1>Giant Worm</WORM1>
+    <WORM2>Small Caveworm</WORM2>
+    <WORM3>Caveworm</WORM3>
+    <WORM4>Big Caveworm</WORM4>
+    <IMPENETRABLE1>Impenetrable One</IMPENETRABLE1>
+  </common>
+  <unique>
+    <swamp_spider_3>Cany Spider</swamp_spider_3>
+    <arahno_02>Forest Spider</arahno_02>
+    <swamp_spider_1>Wood Spider</swamp_spider_1>
+    <Hryak>Pig</Hryak>
+    <RatKing>Rat King</RatKing>
+    <lab1_spider>Grey Spider</lab1_spider>
+    <poligon_bes>Lame Imp</poligon_bes>
+    <killer_rat>Killer Rat</killer_rat>
+    <kuzma_domovoy>Kuzma</kuzma_domovoy>
+    <puppy>Big mutant dog</puppy>
+    <arahno_01>Female Forest Spider</arahno_01>
+    <swamp_spider_2>Peat Spider</swamp_spider_2>
+    <nz_laba_mob>Monstrous Fiend</nz_laba_mob>
+  </unique>
+</root>

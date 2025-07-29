@@ -1,0 +1,36 @@
+{
+	"difficultyMin" : 10,
+	"difficultyMax" : 20,
+	"lifetime": 3.5,
+	"artifacts": [210001, 210006, 210011, 210071],
+	"artifact_spawn_chance": 0.75,
+	"height_up": 1,
+	"height_down": 1,
+	"default_state": "main",
+	"states": {
+		"main": {
+			"radius": 5.0,
+			"radiusOut": 10.0,
+			"damage": {
+				"type": "GRAVITATION",
+				"distribution":  "FLAT",
+				"frequency": 3.0,
+				"value": 100.0,
+				"penetration": 100.0,
+				"body_zone": "TORSO"
+			},
+			"effects": [
+				["Anomaly_Katapulta", 1]
+			],
+			"invisible": 0,
+			"nudge_type": "CATAPULT",
+			"nudge_interval": 0.7,
+			"particles": "particles/anomaliy_katapulta.xml",
+			"particlesOut": "particles/anomaly_OFF.xml",
+
+			"sfx_self_interval": [120,60],
+			"sfx_target": "sfx/default.xml",
+			"sound": "anomaly/gravi"
+		}
+	}
+}

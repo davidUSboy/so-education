@@ -1,0 +1,93 @@
+<Root>
+	<Properties>
+		<!--	Globally registered name. -->
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		AccountManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+
+		<!--	The map of IDs to objects.
+		-->
+		<areas> 
+			<Type>ARRAY <of>ENTITY_ID</of></Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</areas>
+		
+		<areasStats>
+			<Type>ARRAY <of>AREA_STATS_SAVED_ENTRY</of></Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	True			</Persistent>
+		</areasStats>
+		
+		<areasStatuses>
+			<Type>	PYTHON	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</areasStatuses>
+		
+	</Properties>
+
+	<BaseMethods>
+
+
+		<registerArea>
+			<Arg> 			ENTITY_ID 			</Arg> 
+		</registerArea>
+
+		<deregisterArea>
+			<Arg> 			ENTITY_ID 			</Arg> 
+		</deregisterArea>
+		
+		<saveStats>
+			<Arg> FLOAT </Arg> <!-- Stats Starting Time -->
+			<Arg> FLOAT </Arg> <!-- Stats Ending Time -->
+			<Arg> AREA_STATS_ENTRY </Arg> <!-- Area Stats -->
+			<Arg>			ENTITY_ID			</Arg> 
+			<Arg> STRING </Arg> <!-- Area Name -->
+		</saveStats>
+		
+		<saveStatsEntry>
+			<Arg>AREA_STATS_SAVED_ENTRY</Arg>
+		</saveStatsEntry>
+		
+		<getStats>
+			<Arg>			ENTITY_ID			</Arg> 
+			<Arg> STRING </Arg> <!-- Area Name -->
+			<Arg> INT16 </Arg> <!-- Count (how many entries should be retrieved; last x entries will be returned) -->
+			<Arg> MAILBOX </Arg> <!-- callback function that gets ARRAY<of>AREA_STATS_ENTRY</of> -->
+		</getStats>
+		
+		<cleanup>
+		</cleanup>
+		
+		<areaStatusUpdate>
+			<Arg>			ENTITY_ID			</Arg> 
+			<Arg> STRING </Arg> <!-- Area Name -->
+			<Arg> INT32 </Arg> <!-- spaceID -->
+			<Arg> VECTOR3 </Arg> <!-- position -->
+			<Arg> INT32 </Arg> <!-- terrain type -->
+			<Arg> INT32 </Arg> <!-- current anomaly count -->
+			<Arg> INT32 </Arg> <!-- min anomaly count -->
+			<Arg> INT32 </Arg> <!-- max anomaly count -->
+		</areaStatusUpdate>
+		
+		<webGetAreaStatus>
+			<ReturnValues>
+				<response>	PYTHON 	</response>
+				<success> 			BOOL 		</success>
+				<errMsg> 			STRING 		</errMsg>
+			</ReturnValues>
+		</webGetAreaStatus>
+		 		
+	</BaseMethods>
+
+	<!-- No cell methods. -->
+	<CellMethods/>
+
+	<!-- No client methods. (yet) -->
+	<ClientMethods/>
+</Root>

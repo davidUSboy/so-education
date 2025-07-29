@@ -1,0 +1,63 @@
+<root>
+	<Properties>
+	
+		<sounds>
+			<Type> ARRAY <of>STRING</of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable> true </Editable>
+		</sounds>
+		<playFrequency>
+			<Type> FLOAT </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable> true </Editable>
+			<Default>0.0</Default>
+		</playFrequency>
+		
+		<playOnce>
+			<Type> BOOL </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable> true </Editable>
+			<Default>0</Default>
+		</playOnce>
+		
+		<musicNode>
+			<Type> BOOL </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable> true </Editable>
+			<Default>0</Default>
+		</musicNode>
+		
+		<radius> 			
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.000000 			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  -->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+		<muteOnLeave>
+			<Type> BOOL </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable> true </Editable>
+			<Default>0</Default>
+		</muteOnLeave>
+
+	</Properties>
+
+	<ClientMethods>
+		<playRandom/>
+		<play>
+			<Arg> INT32 </Arg><!-- sound index in sounds array -->
+		</play>
+	</ClientMethods>
+	
+	<CellMethods>
+	</CellMethods>
+	
+	<BaseMethods>
+	</BaseMethods>
+</root>

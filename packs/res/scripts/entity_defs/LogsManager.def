@@ -1,0 +1,89 @@
+<Root>	
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		LogsManager		</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+		
+		<enableWrite>
+			<Type>			INT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+			<Persistent>	false			</Persistent>
+		</enableWrite>
+	
+	</Properties>
+
+	<BaseMethods>
+		<cleanup/>
+		
+		<setStateConnection>
+			<Arg>	INT32			</Arg>
+		</setStateConnection>
+		
+		<itemGained>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</itemGained>
+		
+		<itemLost>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</itemLost>
+		
+		<moneyChanged>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	INT64 			</Arg>
+			<Arg> 	INT64 			</Arg>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	STRING			</Arg>
+		</moneyChanged>
+
+		<historyVisit>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	STRING			</Arg>
+			<Arg> 	STRING			</Arg>
+		
+		</historyVisit>
+		<goldTransaction>
+			<Arg>	INT64			</Arg>	<!-- DBID -->
+			<Arg>	STRING			</Arg>	<!-- command -->
+			<Arg>	INT64			</Arg>	<!-- allgold -->
+			<Arg>	INT64			</Arg>	<!-- difgold -->
+			<Arg>	UNICODE_STRING	</Arg>	<!-- charname -->
+			<Arg>	STRING			</Arg>	<!-- targetID -->
+			<Arg>	STRING			</Arg>	<!-- sTransaction -->
+			<Arg>	STRING			</Arg>
+		</goldTransaction>
+		
+	</BaseMethods>
+	
+	
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

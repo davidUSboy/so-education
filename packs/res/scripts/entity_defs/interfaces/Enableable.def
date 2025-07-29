@@ -1,0 +1,9 @@
+<root>
+	<Properties>
+		<_enabled>
+			<Type> BOOL </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Default> 1 </Default>
+		</_enabled>
+	</Properties>
+</root>

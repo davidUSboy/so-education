@@ -1,0 +1,23 @@
+<root>
+	<Properties>
+		<entitiesInField>
+			<Type>	ARRAY <of> VISITOR_OF_SPATIAL_FIELD </of> </Type>
+			<Flags>	CELL_PUBLIC </Flags>
+		</entitiesInField>
+	</Properties>
+
+	<CellMethods>
+		<entityMoved>			
+			<Arg>	MAILBOX		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	UINT16		</Arg>
+		</entityMoved>	
+		
+		<entityLeaved>
+			<Arg>	MAILBOX		</Arg>		
+		</entityLeaved>		
+	</CellMethods>
+</root>
+
+
+

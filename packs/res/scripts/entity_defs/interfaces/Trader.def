@@ -1,0 +1,164 @@
+<root>
+	<Implements>
+<!--
+		<Interface> BaseAndCell </Interface>
+		<Interface>  AreaVisitor </Interface> -->
+		
+<!--		<Interface>  Speaker </Interface> -->
+	</Implements> 
+
+	<Properties>
+		
+		<pMarginBuy>
+			<Type>			FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent> true </Persistent>
+			<Default> 0.310000 </Default>
+			<Editable> true </Editable>
+		</pMarginBuy>
+		
+		<pMarginSell>
+			<Type>			FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent> true </Persistent>
+			<Default> 0.310000 </Default>
+			<Editable> true </Editable>
+		</pMarginSell>
+		
+		<Assortment>
+			<Type> ARRAY <of> TRADER_ENTRY  </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default> </Default>
+		</Assortment>
+		
+		<!-- TODO - remove property, read xml in client	 -->
+		<clanAssortment>
+			<Type> ARRAY <of> FIXED_DICT
+				<Properties>
+					<ClanID>
+						<Type> INT32 </Type>
+					</ClanID>	
+					<Assortments>
+						<Type>  ARRAY <of> TRADER_ENTRY </of> </Type>
+					</Assortments>
+				</Properties>
+			</of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+		</clanAssortment>
+
+		<!-- TODO - remove property, read xml in client	 -->
+		<donateAssortment>
+			<Type> ARRAY <of> TRADER_ENTRY  </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default> </Default>
+		</donateAssortment>
+			
+		<!-- TODO - remove property, read xml in client	 -->
+		<for_gold_item_list>
+			<Type> ARRAY <of> INT32  </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+		</for_gold_item_list>
+		
+		<BarterAssortment>
+			<Type> ARRAY <of> BARTER_LIST_ENTRY  </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> false </Persistent>
+			<Default> </Default>
+		</BarterAssortment>
+		
+		
+		<pTraderType>
+			<Type> INT8  </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</pTraderType>
+		
+		
+		<TraderLevel>
+			<Type> INT8  </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</TraderLevel>
+		
+		
+		<TradeListNames>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</TradeListNames>
+		
+		<BarterListNames>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</BarterListNames>
+
+
+		<ItemsToAddToAssortment>
+			<Type> ARRAY <of> ADD_TO_ASSORTMENT_ENTRY </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</ItemsToAddToAssortment>
+
+		<pMoney>
+			<Type> INT32  </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default> -100 </Default>
+			<Editable> true </Editable>
+		</pMoney>
+
+	</Properties>
+	
+	<ClientMethods>
+	</ClientMethods>
+	
+	<CellMethods>
+		<SetTraderAsClanTrader>
+		</SetTraderAsClanTrader>
+	
+		<SellItem>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT8 </Arg> <!-- forGold -->
+		</SellItem>
+		
+		<SellItemByClan>
+			<Arg> INT32 </Arg> <!-- ietm_type -->
+			<Arg> INT32 </Arg> <!-- customer_id -->
+			<Arg> INT32 </Arg>   <!-- ClanID -->
+		</SellItemByClan>
+		
+		
+		
+		<BuyItem>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> ARRAY <of> INT32 </of> </Arg>
+			<Arg> INT32 </Arg>
+		</BuyItem>
+		
+		<SelfChangeTraderMoney>
+			<Arg> INT64 </Arg>
+		</SelfChangeTraderMoney>
+		
+	</CellMethods>
+	
+	<BaseMethods>
+	</BaseMethods>
+	
+
+	
+</root>

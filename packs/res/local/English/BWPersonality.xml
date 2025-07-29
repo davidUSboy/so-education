@@ -1,0 +1,76 @@
+<root>
+  <client>
+    <STRING_389_20>You exceeded the maximum allowed number of login attempts. Please try again in 5 minutes.</STRING_389_20>
+    <STRING_409_20>Your character should be renamed, according to new rules.</STRING_409_20>
+    <STRING_417_20>You need to create a character before you enter the game.</STRING_417_20>
+    <STRING_419_20>Choose your character</STRING_419_20>
+    <STRING_432_20>Your character should be renamed, according to new rules.</STRING_432_20>
+    <STRING_439_21>Wrong name</STRING_439_21>
+    <STRING_441_12>Delete character</STRING_441_12>
+    <Restore>Restore character</Restore>
+    <PremiumTitle>Premium account</PremiumTitle>
+    <ActivatePremium>Double your experience points for 300 gold rubles. Would you like to upgrate your account to premium?</ActivatePremium>
+    <notEnoughMoneyTitle>Activation failed</notEnoughMoneyTitle>
+    <notEnoughMoneyText>Not enough money</notEnoughMoneyText>
+    <premiumAlreadyActivatedTitle>Activation error</premiumAlreadyActivatedTitle>
+    <premiumAlreadyActivatedText>Premium account has already been activated</premiumAlreadyActivatedText>
+    <STRING_439_255>Use the launcher to start the client</STRING_439_255>
+    <STRING_441_84>WARNING!
+This action can't be cancelled!
+Enter character name.</STRING_441_84>
+    <STRING_443_19>Choose a character to delete</STRING_443_19>
+    <STRING_458_20>Max number of characters!</STRING_458_20>
+    <STRING_460_20>You can't create another character!</STRING_460_20>
+    <STRING_468_23>Creating a character...</STRING_468_23>
+    <STRING_470_19>You can't create another character!</STRING_470_19>
+    <STRING_476_12>Rename character</STRING_476_12>
+    <STRING_476_63>The name can only contain Russian or Latin characters and one underscore.</STRING_476_63>
+    <STRING_478_19>Chose character to rename.</STRING_478_19>
+    <STRING_490_19>Character creation is cancelled.</STRING_490_19>
+    <STRING_1309_23>Access to the anomaly Zone granted</STRING_1309_23>
+    <STRING_1310_29>Connection error 1: Failed to connect to server</STRING_1310_29>
+    <STRING_1311_29>Connection error 2: Failed to connect to server (2)</STRING_1311_29>
+    <STRING_1312_26>Connection error 3: Uknown local error</STRING_1312_26>
+    <STRING_1313_23>Connection error 4: Connection cancelled</STRING_1313_23>
+    <STRING_1314_32>Connection error 5: You're already in the Zone</STRING_1314_32>
+    <STRING_1315_34>Connection error 6: Access key not found</STRING_1315_34>
+    <STRING_1316_33>Connection error 7: Bad enter data</STRING_1316_33>
+    <STRING_1317_35>Connection error 8: Protocol error</STRING_1317_35>
+    <STRING_1318_36>Connection error 11: Wrong login or/and password</STRING_1318_36>
+    <STRING_1319_39>Connection error 12: Wrong login or/and password</STRING_1319_39>
+    <STRING_1320_40>Connection error 13: Server connection error</STRING_1320_40>
+    <STRING_1321_35>Connection error 14: Old version, please update</STRING_1321_35>
+    <STRING_1322_41>Connection error 15: Data base error</STRING_1322_41>
+    <STRING_1323_36>Connection error 16: Server isn't ready (2)</STRING_1323_36>
+    <STRING_1324_41>Connection error 17: Forbidden character</STRING_1324_41>
+    <STRING_1325_39>Connection error 18: Server isn't ready</STRING_1325_39>
+    <STRING_1326_40>Connection error 19: Updates unavailable</STRING_1326_40>
+    <STRING_1327_35>Connection error 20: Server is overloaded</STRING_1327_35>
+    <STRING_1328_39>Connection error 21: Server is overloaded (2)</STRING_1328_39>
+    <STRING_1329_39>Connection error 22: Server is overloaded (3)</STRING_1329_39>
+    <STRING_1330_38>Connection error 23: Server is overloaded (4)</STRING_1330_38>
+    <STRING_1331_41>Connection error 24: Server is overloaded (5)</STRING_1331_41>
+    <STRING_1332_38>Connection error 25: Server is overloaded (6)</STRING_1332_38>
+    <STRING_1333_41>Connection error 26: Access temporarily blocked</STRING_1333_41>
+    <STRING_1352_20>Error</STRING_1352_20>
+    <STRING_1364_18>Network is unavailable or you are already online.</STRING_1364_18>
+    <STRING_1367_18>You have left the Zone</STRING_1367_18>
+    <disconnect_1>The old version of the client, please update through the Stalker-Online launcher</disconnect_1>
+    <disconnect_2>Maintenance works are carried out on the game server, please try again later</disconnect_2>
+    <createChar>Creating a new character...</createChar>
+    <nameAvailableForRegistration>The nickname is available</nameAvailableForRegistration>
+    <nameNotAvailableForRegistration>The nickname is not available</nameNotAvailableForRegistration>
+    <checkAvailabilityName>Checking name availability</checkAvailabilityName>
+    <writeCharName>Enter character name</writeCharName>
+    <requiresRenaming>Please rename your character</requiresRenaming>
+    <STRING_1667_21>Error</STRING_1667_21>
+    <STRING_1676_19>Network is unavailable or you're already online.</STRING_1676_19>
+    <STRING_1678_19>You have left the Zone</STRING_1678_19>
+    <ASK_TUTORIAL_HEADER>Tutorial</ASK_TUTORIAL_HEADER>
+    <ASK_TUTORIAL_QUESTION>Do you want to go through the tutorial?</ASK_TUTORIAL_QUESTION>
+    <EXIT_OF_GAME_HEADER>Exit</EXIT_OF_GAME_HEADER>
+    <EXIT_OF_GAME_QUESTION>Do you really want to leave the game?</EXIT_OF_GAME_QUESTION>
+  </client>
+  <not_email_confirmed>Please confirm your email before entering the game</not_email_confirmed>
+  <not_phone_confirmed>Please confirm your phone number before entering the game</not_phone_confirmed>
+</root>

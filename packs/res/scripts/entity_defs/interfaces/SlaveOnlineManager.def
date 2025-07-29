@@ -1,0 +1,101 @@
+<root>
+	<Properties>
+		<accounts_online>
+			<Type>	ARRAY <of> FIXED_DICT
+				<Properties>
+					<account_name>
+						<Type> STRING</Type>
+					</account_name>
+					<account>
+						<Type> MAILBOX </Type>
+					</account>
+					<avatar_name>
+						<Type> STRING</Type>
+					</avatar_name>
+					<avatar>
+						<Type> MAILBOX </Type>
+					</avatar>
+				</Properties></of>	</Type>
+			<Flags>		BASE	</Flags>
+		</accounts_online>
+
+		<accounts_in_personage_select>
+			<Type>	ARRAY <of> FIXED_DICT
+				<Properties>
+					<account_name>
+						<Type> STRING</Type>
+					</account_name>
+					<account>
+						<Type> MAILBOX </Type>
+					</account>
+				</Properties></of>	</Type>
+			<Flags>		BASE	</Flags>
+		</accounts_in_personage_select>
+
+		<counter_av_online>
+			<Type> 		INT32 </Type>
+			<Flags>		BASE	</Flags>
+		</counter_av_online>
+
+		<counter_acc_in_pers_select>
+			<Type> 		INT32 </Type>
+			<Flags>		BASE	</Flags>
+		</counter_acc_in_pers_select>
+
+		<slave_total_online>
+			<Type> 		INT32 </Type>
+			<Flags>		BASE	</Flags>
+		</slave_total_online>
+
+		<onlineViaQueue>
+			<Type> 		BOOL </Type>
+			<Flags>		BASE	</Flags>
+		</onlineViaQueue>
+	</Properties>
+
+	<BaseMethods>
+		<onAccountLogin>
+			<Arg> STRING </Arg>
+			<Arg> MAILBOX </Arg>
+			<Arg> UINT8 </Arg>
+		</onAccountLogin>
+
+		<onAccountLogout>
+			<Arg> STRING </Arg>
+		</onAccountLogout>
+
+		<allowAccountsOnline>
+			<Arg> ARRAY <of> FIXED_DICT
+				<Properties>
+					<account_name>
+						<Type> STRING</Type>
+					</account_name>
+					<account>
+						<Type> MAILBOX </Type>
+					</account>
+				</Properties></of>	 </Arg>
+		</allowAccountsOnline>
+
+		<allowAccountOnline>
+			<Arg> STRING </Arg>
+			<Arg> MAILBOX </Arg>
+		</allowAccountOnline>
+
+		<onAvatarOnline>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+			<Arg> INT32 </Arg>
+		</onAvatarOnline>
+
+		<onAccountEntersPersonageSelect>
+			<Arg> STRING </Arg>
+			<Arg> MAILBOX </Arg>
+		</onAccountEntersPersonageSelect>
+
+		<setOnlineViaQueueStatus>
+			<Arg> BOOL </Arg>
+		</setOnlineViaQueueStatus>
+	</BaseMethods>
+
+
+</root>

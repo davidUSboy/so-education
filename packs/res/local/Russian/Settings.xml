@@ -1,0 +1,7 @@
+<root>
+  <client>
+    <RESTART_REQUIRED>Необходим перезапуск клиента</RESTART_REQUIRED>
+    <SETTINGS_APPLIED_AFTER_RESTART>Графические настройки будут применены после перезапуска клиента. Перезапустить сейчас?</SETTINGS_APPLIED_AFTER_RESTART>
+    <SETTINGS_LANGUAGE_RESTART>Языковые настройки будут применены после перезапуска клиента. Перезапустить сейчас?</SETTINGS_LANGUAGE_RESTART>
+  </client>
+</root>

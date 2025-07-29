@@ -1,0 +1,31 @@
+<root>
+	<Implements>
+		<Interface> Brain_AggressiveInterface </Interface>
+	</Implements>	
+	
+	<Properties>		
+		<bullets_in_magazine>
+			<Type> UINT16 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</bullets_in_magazine>
+		
+		<max_bullets_in_magazine>
+			<Type> UINT16 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</max_bullets_in_magazine>		
+		
+		<shoot_range>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</shoot_range>		
+		
+		<time_to_reload>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</time_to_reload>		
+	</Properties>	
+</root>

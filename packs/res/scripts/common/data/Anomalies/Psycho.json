@@ -1,0 +1,35 @@
+{
+	"difficultyMin" : 1,
+	"difficultyMax" : 1000,
+	"lifetime": 5.0,
+	
+	"artifact_spawn_chance": 0.0,
+	"default_state": "main",
+	"states": {
+		"main": {
+			"radius": 15.0,
+			"radiusOut": 20.0,
+			"damage": {
+				"type": "PSY",
+				"distribution":  "RADIAL",
+				"frequency": 0.0,
+				"value": 5.0,
+				"penetration": 100.0,
+				"body_zone": "HEAD"
+			},
+			"effects": [
+				["Anomaly_Psycho", 1]
+			],
+			"invisible": 0,
+			"nudge_type": "NONE",
+			"nudge_interval": 1,
+			"particles": "particles/anomaly_OFF.xml",
+			"particlesOut": "particles/anomaly_OFF.xml",
+			
+			
+			"sfx_self_interval": [3,6],
+			
+			"sound": "ambient/pads/breathing"
+		}
+	}
+}

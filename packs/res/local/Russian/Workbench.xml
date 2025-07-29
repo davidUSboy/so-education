@@ -1,0 +1,8 @@
+<root>
+  <names>
+    <TYPE_WORKBENCH_NOOB>Верстак</TYPE_WORKBENCH_NOOB>
+    <TYPE_WORKBENCH_CHEMICAL>Химический верстак</TYPE_WORKBENCH_CHEMICAL>
+    <TYPE_WORKBENCH_PRO>Станок</TYPE_WORKBENCH_PRO>
+    <TYPE_WORKBENCH_ELECTRICAL>Верстак электро</TYPE_WORKBENCH_ELECTRICAL>
+  </names>
+</root>

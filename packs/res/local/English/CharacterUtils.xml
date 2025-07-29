@@ -1,0 +1,21 @@
+<root>
+  <common>
+    <LIGHT_WEAPON>Light weapon</LIGHT_WEAPON>
+    <ASSAULT_RIFLES>Assault rifles</ASSAULT_RIFLES>
+    <HEAVY_WEAPON>Heavy weapon</HEAVY_WEAPON>
+    <RIFLES>Rifles</RIFLES>
+    <THROWING>Throwing</THROWING>
+    <SHOOT_ON_MOVE>Shoot-on-move</SHOOT_ON_MOVE>
+    <SPORTMANSHIP>Sportmanship</SPORTMANSHIP>
+    <METHABOLISM>Methabolism</METHABOLISM>
+    <CAMOUFLAGE>Camouflage</CAMOUFLAGE>
+    <SPOTTING>Spotting</SPOTTING>
+    <ANOMALY_SPOTTING>Anomaly spotting</ANOMALY_SPOTTING>
+    <MEDECINE>Medicine</MEDECINE>
+    <REPAIR>Repair</REPAIR>
+    <MODIFICATION>Modification</MODIFICATION>
+    <LUCK>Luck</LUCK>
+    <NEATNESS>Neatness</NEATNESS>
+    <PACKING>Packing</PACKING>
+  </common>
+</root>

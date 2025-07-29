@@ -1,0 +1,45 @@
+<root>
+	<!-- Cell-Only entity -->
+	<Properties>
+
+		<radius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		50.000000			</Default>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</radius>
+		
+		<parent> 			
+			<Type>			ENTITY_ID 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0 			</Default>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</parent>
+
+		<parent_type>
+			<Type>			INT8 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</parent_type>
+
+		<parentBase> 			
+			<Type>			MAILBOX 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</parentBase>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+</root>
+

@@ -1,0 +1,106 @@
+<root>
+	<Implements>
+		<Interface> MobSpawner </Interface>
+		<Interface> BaseAndCell </Interface>
+		<Interface> Manipulator </Interface>
+		<Interface> Timetable </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+	
+	<Properties>
+		<mob_uniq_id>
+			<Type> STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>
+		</mob_uniq_id>
+	
+		<mobsCountTarget>
+			<Type> INT32 </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Default> 1 </Default>
+			<Persistent> true </Persistent>
+			<Editable> true </Editable>
+		</mobsCountTarget>
+		
+		<radius>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Default> 20.000000 </Default>
+			<Persistent> true </Persistent>
+			<Editable> true </Editable>
+			<Widget> RADIUS <!--  Draw sphere in world editor  --->
+				<colour> 255.000000 0.000000 0.000000 255.000000 </colour>
+				<gizmoRadius> 2 </gizmoRadius>
+			</Widget>
+		</radius>
+		
+		<spawnTimed>
+			<Type> INT32 </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Default> 0 </Default>
+		</spawnTimed>
+		<spawnTimeMin>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>
+			<Default> 60.000000  </Default>
+		</spawnTimeMin>
+		<spawnTimeMax>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>
+			<Default> 300.000000  </Default>
+		</spawnTimeMax>
+		
+		<huntPoints>
+			<Type> ARRAY <of> UDO_REF </of>   </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+			<Editable> true </Editable>
+		</huntPoints>
+		<spawnAtHuntPoints>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+			<Editable> true </Editable>
+		</spawnAtHuntPoints>
+
+		<!-- Properties for timteable work-->
+<!-- 		<mobsDecomposed>
+			<Type> UINT16 </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Default> 0 </Default>
+		</mobsDecomposed> -->
+		<TT_nextTriggerTime>
+			<Type> UINT16 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</TT_nextTriggerTime>
+		<TT_isEnabled>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</TT_isEnabled>
+	</Properties>
+
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>		
+		<onTimetableRespawn>
+			<Arg> INT16 </Arg>   <!-- next trigger time  -->
+		</onTimetableRespawn>
+		
+		<setTimetableEnabled>
+			<Arg> BOOL </Arg>
+		</setTimetableEnabled>
+		
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

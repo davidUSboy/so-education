@@ -1,0 +1,28 @@
+<root>
+  <soGUI>
+    <STRING_639_24>Характеристики персонажа:</STRING_639_24>
+    <HP>Здоровье:</HP>
+    <speed>Скорость:</speed>
+    <creditNumber>Рубли:</creditNumber>
+    <GoldCreditNumber>Мой баланс (Gold):</GoldCreditNumber>
+    <Exp>Текущий множитель опыта:</Exp>
+    <endPremium>До окончания премиум:</endPremium>
+    <notActive>-</notActive>
+    <capacity>Грузоподъемность</capacity>
+    <STRING_693_13>Сила:</STRING_693_13>
+    <STRING_694_13>Интеллект:</STRING_694_13>
+    <STRING_695_13>Ловкость:</STRING_695_13>
+    <STRING_696_13>Выносливость:</STRING_696_13>
+    <STRING_697_13>Восприятие:</STRING_697_13>
+    <STRING_698_13>Пси:</STRING_698_13>
+    <STRING_775_12>Сила:</STRING_775_12>
+    <STRING_776_12>Интеллект:</STRING_776_12>
+    <STRING_777_12>Ловкость:</STRING_777_12>
+    <STRING_778_12>Выносливость:</STRING_778_12>
+    <STRING_779_12>Восприятие:</STRING_779_12>
+    <STRING_780_12>Пси:</STRING_780_12>
+    <killedInPVP>Убито в PvP</killedInPVP>
+    <killedInPK>Убито в PK</killedInPK>
+    <karma>Карма</karma>
+  </soGUI>
+</root>

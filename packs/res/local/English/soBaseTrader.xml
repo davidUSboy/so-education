@@ -1,0 +1,12 @@
+<root>
+  <EntityName>Donate base trader</EntityName>
+  <CLAN_NAME>Clan name:</CLAN_NAME>
+  <CURRENT>Сurrent base tenant:</CURRENT>
+  <lastPrice>Last bid:</lastPrice>
+  <STEP>Auction step</STEP>
+  <COUNT>Number of participants:</COUNT>
+  <END_RENT_DATE>Ending date of the current lease:</END_RENT_DATE>
+  <END_DATE>End date of the auction:</END_DATE>
+  <NEXT_RENT>Further rent:</NEXT_RENT>
+  <END_DATA>Increase last bid (based on the auction step):</END_DATA>
+</root>

@@ -1,0 +1,85 @@
+<root>
+	<Implements>
+		<Interface> Damager </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+	
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch/>
+	</Volatile>
+	<Properties>
+		<itemType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default>0</Default>
+		</itemType>
+		
+		<ownerBase>
+			<Type> MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</ownerBase>
+		
+		<lastMove>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default>0</Default>
+		</lastMove>
+		
+		<position0>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</position0>
+		
+		<velocity0>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</velocity0>
+		
+		<time0>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</time0>
+		
+		<acceleration>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</acceleration>
+		
+		<hitTrapController>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default>0</Default>
+		</hitTrapController>
+		
+		<initOwnerID>  
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</initOwnerID>	
+
+		<pOwnerID>  
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default> 0 </Default>
+		</pOwnerID>
+
+	</Properties>
+
+	<ClientMethods>
+		<explode>
+			<Arg> VECTOR3 </Arg> <!-- explosion position - can be different from entity position for fast-moving rocket -->
+		</explode>
+		<launch/> <!-- enables fire/smoke trail -->
+	</ClientMethods>
+	
+	<CellMethods>
+		<go>
+			<Exposed/>
+		</go>
+	</CellMethods>
+	
+	<BaseMethods>
+	</BaseMethods>
+</root>

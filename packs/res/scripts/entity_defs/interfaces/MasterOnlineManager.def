@@ -1,0 +1,70 @@
+<root>
+	<Properties>
+
+		<slave_online_counters>
+			<Type>			ARRAY <of> INT32</of></Type>
+			<Flags>			BASE	</Flags>
+		</slave_online_counters>
+
+		<slaves>
+			<Type> 			ARRAY <of> MAILBOX </of></Type>
+			<Flags>			BASE	</Flags>
+		</slaves>
+
+		<slaves_waiting>
+			<Type> 			ARRAY <of> ENTITY_ID </of></Type>
+			<Flags>			BASE	</Flags>
+		</slaves_waiting>
+
+		<queue>
+			<Type>	ONLINEMGR_QUEUE	</Type>
+			<Flags>		BASE	</Flags>
+		</queue>
+
+		<queue_wait_history>
+			<Type>	QUEUE_WAIT_HISTORY	</Type>
+			<Flags>		BASE	</Flags>
+		</queue_wait_history>
+
+		<queue_mode>
+			<Type>	BOOL	</Type>
+			<Flags>		BASE	</Flags>
+		</queue_mode>
+
+		<total_online>
+			<Type> 		INT32 </Type>
+			<Flags>		BASE	</Flags>
+		</total_online>
+	</Properties>
+
+	<BaseMethods>
+
+		<registerSlave>
+			<Arg> MAILBOX </Arg>
+		</registerSlave>
+
+		<onAccountEntersQueue>
+			<Arg> MAILBOX </Arg>
+			<Arg> STRING </Arg>
+			<Arg> MAILBOX </Arg>
+		</onAccountEntersQueue>
+
+		<onAccountLeavesQueue>
+			<Arg> STRING </Arg>
+		</onAccountLeavesQueue>
+
+		<onSlaveWaitingResponse>
+			<Arg> MAILBOX </Arg>
+		</onSlaveWaitingResponse>
+
+		<onSlaveCounterUpdated>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+		</onSlaveCounterUpdated>
+		<setOnlineLimit>
+			<Arg> INT32 </Arg>
+		</setOnlineLimit>
+	</BaseMethods>
+
+
+</root>

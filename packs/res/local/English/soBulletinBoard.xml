@@ -1,0 +1,11 @@
+<root>
+  <EntityName>Billbaord</EntityName>
+  <bulletin>BILLBOARD</bulletin>
+  <textNews>NEWS</textNews>
+  <textQuest>RUMORS</textQuest>
+  <sale>SALES</sale>
+  <hunt>HUNTING</hunt>
+  <worldso>MAP</worldso>
+  <news>News</news>
+  <next>Next</next>
+</root>

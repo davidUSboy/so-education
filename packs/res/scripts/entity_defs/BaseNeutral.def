@@ -1,0 +1,52 @@
+<root>
+	<Implements>
+                <Interface> BaseAndCell </Interface>
+	</Implements>
+
+    <Properties>
+		<name>
+			<Type>	STRING	        </Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Editable>		true			</Editable>
+		</name>
+	    
+		<safeRadius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0.000000			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+			<colour>	255.000000 255.000000 0.000000 255.000000	</colour>
+			<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+		</safeRadius>
+
+		<type>
+			<Type>			INT8	</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		true			</Editable>
+			<Default>        0               </Default>
+			<Widget>	ENUM
+			<enum>
+				<value>	0	</value>
+				<display>	SAFE_AND_RESPAWN	</display>
+			</enum>
+			<enum>
+				<value>	2	</value>
+				<display>	RESPAWN_ONLY	</display>
+			</enum>
+			</Widget>
+		</type>
+    </Properties>
+
+    <ClientMethods>
+    </ClientMethods>
+
+    <CellMethods>
+    </CellMethods>
+
+    <BaseMethods>
+    </BaseMethods>
+</root>

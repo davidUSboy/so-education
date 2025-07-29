@@ -1,0 +1,581 @@
+{
+    "actions, bylevel": {
+        "2": {}, 
+        "default": {
+            "AttackMeleeAoe_ROAR": {
+                "model_actions": [
+                    "AttackPaws"
+                ], 
+                "sounds": [
+                    "mob/bear/attack"
+                ]
+            }, 
+            "AttackMelee_JAWS": {
+                "model_actions": [
+                    "AttackTooth"
+                ], 
+                "sounds": [
+                    "mob/bear/attack"
+                ]
+            }, 
+            "Attacking": {
+                "sounds": [
+                    "mob/bear/angry"
+                ]
+            }, 
+            "Dead": {
+                "model_actions": [
+                    "Dead"
+                ]
+            }, 
+            "Die": {
+                "model_actions": [
+                    "Die"
+                ], 
+                "sounds": [
+                    "mob/bear/death"
+                ]
+            }, 
+            "Eat": {
+                "model_actions": [
+                    "Eat"
+                ]
+            }, 
+            "Idle": {
+                "sounds": [
+                    "mob/bear/idle"
+                ]
+            }, 
+            "Idle1": {
+                "model_actions": [
+                    "Idle1"
+                ], 
+                "sounds": [
+                    "mob/bear/idle"
+                ]
+            }, 
+            "Pain": {
+                "model_actions": [
+                    "Pain"
+                ], 
+                "sounds": [
+                    "mob/bear/pain"
+                ]
+            }
+        }
+    }, 
+    "agro_range": 40, 
+    "coefLevel, bylevel": {
+        "1": 99, 
+        "2": 99, 
+        "default": 99
+    }, 
+    "common_conditions,parent=default_common_conditions": [], 
+    "decompose_time, bylevel": {
+        "3": [
+            240, 
+            360
+        ], 
+        "default": [
+            120, 
+            240
+        ]
+    }, 
+    "default_state": "walk_around", 
+    "defence, bylevel": {
+        "1": {
+            "BULLET": 150.0
+        }, 
+        "2": {
+            "BULLET": 300.0
+        }, 
+        "3": {
+            "BULLET": 450.0, 
+            "COLD": 1000.0
+        }, 
+        "default": {
+            "BIO": 700.0, 
+            "EXPLOSION": 300.0, 
+            "MELEE": 700.0
+        }
+    }, 
+    "events": {
+        "onTakeDamage": [
+            "Pain"
+        ]
+    }, 
+    "experience, bylevel": {
+        "1": 192, 
+        "2": 300, 
+        "3": 432, 
+        "default": 100
+    }, 
+    "foot_nodes": [
+        "Bip01 L Toe0", 
+        "Bip01 R Toe0"
+    ], 
+    "footsteps_sound": "mob/bear/footsteps", 
+    "global_cooldown": 3, 
+    "health, bylevel": {
+        "1": 2, 
+        "2": 5, 
+        "3": 12, 
+        "default": 1.8
+    }, 
+    "height, bylevel": {
+        "2": 2, 
+        "3": 3, 
+        "default": 1.5
+    }, 
+    "karma": 99, 
+    "loot, bylevel": {
+        "1": {
+            "810173": "1.0, 4", 
+            "814": "0.25"
+        }, 
+        "2": {
+            "810173": "1.0, 4", 
+            "814": "0.25"
+        }, 
+        "3": {
+            "810173": "1.0, 4", 
+            "814": "0.25"
+        }, 
+        "default": {}
+    }, 
+    "lose_agro_range": 50, 
+    "melee_distance, bylevel": {
+        "2": 3.7, 
+        "3": 4.5, 
+        "default": 3
+    }, 
+    "melee_height, bylevel": {
+        "2": 2, 
+        "3": 3, 
+        "default": 1.5
+    }, 
+    "model, bylevel": {
+        "2": "bear-mutant/bear-mutant_red.model", 
+        "3": "bear-mutant/bear-mutant_snow.model", 
+        "default": "bear-mutant/bear-mutant.model"
+    }, 
+    "model_scale, bylevel": {
+        "1": 1, 
+        "2": 1.3, 
+        "3": 1.6, 
+        "default": 1
+    }, 
+    "name, bylevel": {
+        "1": "Creatures.common.BEAR2", 
+        "2": "Creatures.common.BEAR3", 
+        "3": "Creatures.common.BEAR4", 
+        "default": "Creatures.common.BEAR1"
+    }, 
+    "randomLoot": {
+        "0": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [], 
+                    "type": "Loot"
+                }
+            ]
+        }, 
+        "1": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [
+                        {
+                            "dropChance": 100.0, 
+                            "itemID": "810173", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 4
+                        }, 
+                        {
+                            "dropChance": 25.0, 
+                            "itemID": "814", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }
+                    ], 
+                    "type": "Loot"
+                }
+            ]
+        }, 
+        "2": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [
+                        {
+                            "dropChance": 100.0, 
+                            "itemID": "810173", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 4
+                        }, 
+                        {
+                            "dropChance": 25.0, 
+                            "itemID": "814", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }
+                    ], 
+                    "type": "Loot"
+                }
+            ]
+        }, 
+        "3": {
+            "groups": [
+                {
+                    "chance": 100.0, 
+                    "items": [
+                        {
+                            "dropChance": 100.0, 
+                            "itemID": "810173", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 4
+                        }, 
+                        {
+                            "dropChance": 25.0, 
+                            "itemID": "814", 
+                            "rangeFrom": 1, 
+                            "rangeTo": 1
+                        }
+                    ], 
+                    "type": "Loot"
+                }
+            ]
+        }
+    }, 
+    "skills": {
+        "BEAR_MELEE": {
+            "actions": [
+                "AttackMelee_JAWS"
+            ], 
+            "aoe_radius": 0, 
+            "cooldown": 1.5, 
+            "damage, bylevel": {
+                "1": {
+                    "value": [
+                        0.062, 
+                        0.143
+                    ]
+                }, 
+                "2": {
+                    "value": [
+                        0.099, 
+                        0.198
+                    ]
+                }, 
+                "3": {
+                    "value": [
+                        0.236, 
+                        0.404
+                    ]
+                }, 
+                "default": {
+                    "body_zones": [
+                        "TORSO", 
+                        "LEG_UPPER", 
+                        "ARM"
+                    ], 
+                    "penetration": 100, 
+                    "type": "MELEE", 
+                    "value": [
+                        0.1, 
+                        0.13
+                    ]
+                }
+            }, 
+            "effects": [
+                [
+                    "Bleed", 
+                    1
+                ]
+            ], 
+            "type": "MELEE"
+        }, 
+        "BEAR_MELEE_AOE": {
+            "actions": [
+                "AttackMeleeAoe_ROAR"
+            ], 
+            "aoe_radius": 5, 
+            "cooldown": 5.0, 
+            "damage, bylevel": {
+                "1": {
+                    "value": [
+                        0.01, 
+                        0.02
+                    ]
+                }, 
+                "2": {
+                    "value": [
+                        0.02, 
+                        0.04
+                    ]
+                }, 
+                "3": {
+                    "value": [
+                        0.03, 
+                        0.06
+                    ]
+                }, 
+                "default": {
+                    "body_zones": [
+                        "TORSO"
+                    ], 
+                    "penetration": 100, 
+                    "type": "EXPLOSION", 
+                    "value": [
+                        0.01, 
+                        0.02
+                    ]
+                }
+            }, 
+            "effects": [
+                [
+                    "Stun", 
+                    2
+                ]
+            ], 
+            "type": "MELEE"
+        }, 
+        "BEAR_MELEE_WEAK": {
+            "actions": [
+                "AttackMelee_JAWS"
+            ], 
+            "aoe_radius": 0, 
+            "cooldown": 1.5, 
+            "damage": {
+                "body_zones": [
+                    "TORSO"
+                ], 
+                "penetration": 100, 
+                "type": "MELEE", 
+                "value": [
+                    0.01, 
+                    0.05
+                ]
+            }, 
+            "type": "MELEE"
+        }
+    }, 
+    "states": {
+        "attacking": {
+            "conditions": [
+                {
+                    "predicate": [
+                        "and", 
+                        [
+                            [
+                                "targets_count", 
+                                "equal", 
+                                "0"
+                            ], 
+                            [
+                                "health_percent", 
+                                "less", 
+                                "100"
+                            ]
+                        ]
+                    ], 
+                    "to_state": "before_recover"
+                }, 
+                {
+                    "predicate": [
+                        "targets_count", 
+                        "equal", 
+                        0
+                    ], 
+                    "to_state": "walk_around"
+                }
+            ], 
+            "movement_types": [
+                "follow_target", 
+                "walk_around"
+            ], 
+            "persistent_actions": [
+                "Attacking"
+            ], 
+            "skills": {
+                "BEAR_MELEE": 4, 
+                "BEAR_MELEE_AOE": 1, 
+                "BEAR_MELEE_WEAK": 1
+            }, 
+            "speed, bylevel": {
+                "2": {
+                    "follow_target": 9, 
+                    "walk_around": [
+                        2, 
+                        6.7
+                    ]
+                }, 
+                "3": {
+                    "follow_target": 10, 
+                    "walk_around": [
+                        2.5, 
+                        7.7
+                    ]
+                }, 
+                "default": {
+                    "follow_target": 8, 
+                    "walk_around": [
+                        1.5, 
+                        5.7
+                    ]
+                }
+            }
+        }, 
+        "before_recover": {
+            "change_state_timer": [
+                10, 
+                "recover"
+            ], 
+            "conditions": [
+                {
+                    "predicate": [
+                        "targets_count", 
+                        "more", 
+                        0
+                    ], 
+                    "to_state": "attacking"
+                }
+            ], 
+            "entering_actions": {
+                "actions": [
+                    "Idle1"
+                ], 
+                "time": 0.9
+            }, 
+            "movement_types": [
+                "walk_around"
+            ], 
+            "persistent_actions": [
+                "Idle"
+            ], 
+            "speed, bylevel": {
+                "2": {
+                    "walk_around": [
+                        2, 
+                        6.7
+                    ]
+                }, 
+                "3": {
+                    "walk_around": [
+                        2.5, 
+                        7.7
+                    ]
+                }, 
+                "default": {
+                    "walk_around": [
+                        1.5, 
+                        5.7
+                    ]
+                }
+            }
+        }, 
+        "dead": {
+            "conditions": [
+                {
+                    "predicate": [
+                        "is_dead", 
+                        "equal", 
+                        0
+                    ], 
+                    "to_state": "walk_around"
+                }
+            ], 
+            "entering_actions": {
+                "actions": [
+                    "Die"
+                ], 
+                "time": 1
+            }, 
+            "persistent_actions": [
+                "Dead"
+            ]
+        }, 
+        "hide_ambush": {
+            "agro_range, bylevel": {
+                "10m": 10, 
+                "15m": 15, 
+                "20m": 20, 
+                "5m": 5, 
+                "default": 20
+            }, 
+            "conditions": [
+                {
+                    "predicate": [
+                        "targets_count", 
+                        "more", 
+                        0
+                    ], 
+                    "to_state": "attacking"
+                }
+            ], 
+            "entering_actions": {
+                "actions": [
+                    "Idle1"
+                ], 
+                "time": 0.9
+            }, 
+            "persistent_actions": [
+                "Idle"
+            ]
+        }, 
+        "recover, parent=default_recover": {
+            "persistent_actions": [
+                "Eat"
+            ]
+        }, 
+        "walk_around": {
+            "conditions": [
+                {
+                    "predicate": [
+                        "targets_count", 
+                        "more", 
+                        0
+                    ], 
+                    "to_state": "attacking"
+                }
+            ], 
+            "entering_actions": {
+                "actions": [
+                    "Idle1"
+                ], 
+                "time": 0.9
+            }, 
+            "movement_types": [
+                "walk_around"
+            ], 
+            "persistent_actions": [
+                "Idle"
+            ], 
+            "speed, bylevel": {
+                "2": {
+                    "walk_around": [
+                        2, 
+                        6.7
+                    ]
+                }, 
+                "3": {
+                    "walk_around": [
+                        2.5, 
+                        7.7
+                    ]
+                }, 
+                "default": {
+                    "walk_around": [
+                        1.5, 
+                        5.7
+                    ]
+                }
+            }
+        }
+    }, 
+    "tints": [
+        {}
+    ], 
+    "width": 1.2
+}

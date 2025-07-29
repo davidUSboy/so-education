@@ -1,0 +1,213 @@
+<root>
+  <UNDEFINED_EFFECT>Неизвестное воздействие</UNDEFINED_EFFECT>
+  <Safe_Area_name>Безопасность</Safe_Area_name>
+  <Safe_Area_tooltip>Безупречно охраняемая территория</Safe_Area_tooltip>
+  <Safe_PvP_name>Безопасность от сталкеров</Safe_PvP_name>
+  <Safe_PvP_tooltip>Безупречно охраняемая территория от сталкеров</Safe_PvP_tooltip>
+  <Safe_Respawn_name>Безопасность (2 сек)</Safe_Respawn_name>
+  <Safe_Respawn_tooltip>Безупречно охраняемая территория (временная)</Safe_Respawn_tooltip>
+  <Normal_Load_name>Нормальный вес</Normal_Load_name>
+  <Heavy_Load_name>Большой вес</Heavy_Load_name>
+  <Heavy_Load_tooltip>Замедление от большой нагрузки</Heavy_Load_tooltip>
+  <Stop_Load_name>Перегруз</Stop_Load_name>
+  <Stop_Load_tooltip>Неподвижность от перегруза</Stop_Load_tooltip>
+  <Crouch_name>Полуприсед</Crouch_name>
+  <Crouch_tooltip>Замедление от полуприседа</Crouch_tooltip>
+  <Sitting_name>Положение сидя</Sitting_name>
+  <Sitting_tooltip>Отдых в положении сидя</Sitting_tooltip>
+  <Sniping_name>Прицеливание</Sniping_name>
+  <Sniping_tooltip>Замедление в режиме прицеливания</Sniping_tooltip>
+  <Cover_name>Укрытие</Cover_name>
+  <Cover_tooltip>Пулевая защита от укрытия</Cover_tooltip>
+  <Slow_Regeneration_name>Пассивная регенерация здоровья</Slow_Regeneration_name>
+  <Regeneration_Average_name>Регенерация здоровья</Regeneration_Average_name>
+  <Regeneration_Average_tooltip>Заживление ран</Regeneration_Average_tooltip>
+  <Regeneration_Fast_name>Быстрая регенерация здоровья</Regeneration_Fast_name>
+  <Regeneration_Fast_tooltip>Регенерация тканей</Regeneration_Fast_tooltip>
+  <Stun_name>Оглушение</Stun_name>
+  <Stun_tooltip>Оглушение</Stun_tooltip>
+  <Poison_name>Яд</Poison_name>
+  <Poison_tooltip>Отравление ядом</Poison_tooltip>
+  <DrugTripFood_name>Наркотические грибы</DrugTripFood_name>
+  <DrugTripFood_tooltip>Наркотическое опьянение</DrugTripFood_tooltip>
+  <Bleed_name>Кровотечение</Bleed_name>
+  <Bleed_tooltip>Кровотечение</Bleed_tooltip>
+  <RadioactivitySource_name>Радиация</RadioactivitySource_name>
+  <RadioactivitySource_tooltip>Радиоактивное излучение Бэр/сек</RadioactivitySource_tooltip>
+  <Radioactivity_name>Облучение</Radioactivity_name>
+  <Radioactivity_tooltip>Лучевая болезнь:
+ 100-200 - легкая
+ 200-400 - средней тяжести
+ 400-600 - тяжелая
+ 600-800 - крайне тяжёлая
+ больше 800 - смертельная</Radioactivity_tooltip>
+  <Water_name>Вода</Water_name>
+  <Water_tooltip>Очень холодная вода</Water_tooltip>
+  <ColdSource_name>Источник холода</ColdSource_name>
+  <ColdSource_tooltip>Обмораживающий ветер</ColdSource_tooltip>
+  <Cold_name>Обморожение</Cold_name>
+  <Cold_tooltip>Обморожение:
+ 25-50 - легкое
+ 50-75 - средней тяжести
+ 75-90 - тяжелое</Cold_tooltip>
+  <WarmSource_name>Источник тепла</WarmSource_name>
+  <WarmSource_tooltip>Источник тепла</WarmSource_tooltip>
+  <Warm_name>Согревание от источника тепла</Warm_name>
+  <Warm_tooltip>Грелка:
+ показывает время действия грелки в минутах, снижает обморожение.</Warm_tooltip>
+  <TwinsPositiveSource_name>Источник Позитивного Близнеца</TwinsPositiveSource_name>
+  <TwinsPositiveSource_tooltip>Накладывает эффект "Позитивный Близнец"</TwinsPositiveSource_tooltip>
+  <TwinsPositive_name>Позитивный Близнец</TwinsPositive_name>
+  <TwinsPositive_tooltip>(+) Позитивная защита Близнецов:
+ меньше 10 - защита от воздействия негативных Близнецов
+ больше 10 - урон от перебора</TwinsPositive_tooltip>
+  <TwinsNegative_name>Негативный Близнец</TwinsNegative_name>
+  <TwinsNegative_tooltip>(-) Негативное воздействие Близнецов</TwinsNegative_tooltip>
+  <Light_Armor_name>Легкая броня</Light_Armor_name>
+  <Light_Armor_tooltip>Легкая броня
+		Скорость передвижения снижается на 3,5% за каждый дебаф</Light_Armor_tooltip>
+  <Medium_Armor_name>Средняя броня</Medium_Armor_name>
+  <Medium_Armor_tooltip>Средняя броня
+		Скорость передвижения снижается на 5,6% за каждый дебаф</Medium_Armor_tooltip>
+  <Heavy_Armor_name>Тяжелая броня</Heavy_Armor_name>
+  <Heavy_Armor_tooltip>Тяжелая броня
+		Скорость передвижения снижается на 8,7% за каждый дебаф</Heavy_Armor_tooltip>
+  <Mixed_Armor_name>Средняя и тяжелая броня</Mixed_Armor_name>
+  <Mixed_Armor_tooltip>Скорость передвижения снижается на 14,2% за каждый дебаф</Mixed_Armor_tooltip>
+  <Antigrav_name>Артефакт Антиграв</Antigrav_name>
+  <Antigrav_tooltip>А.Антиграв: (+) Увеличение скорости; (-) уязвимость к пулевому урону</Antigrav_tooltip>
+  <Screen_name>Артефакт Экран</Screen_name>
+  <Screen_tooltip>А.Экран: (+) защ. взрыва; (-) защ. ближнего</Screen_tooltip>
+  <Pillow_name>Артефакт Подушка</Pillow_name>
+  <Pillow_tooltip>А.Подушка: (+) защ. ближнего, падения; (-) защ. пулевого</Pillow_tooltip>
+  <Shield_name>Артефакт Щит</Shield_name>
+  <Shield_tooltip>А.Щит: (+) защ. пулевого; (-) защ. взрыва</Shield_tooltip>
+  <Rezina_name>Артефакт Резина</Rezina_name>
+  <Rezina_tooltip>А.Резина: (+) вывод радиации; (-) наносит урон</Rezina_tooltip>
+  <Stabilizer_name>Артефакт Стабилизатор</Stabilizer_name>
+  <Stabilizer_tooltip>А.Стабилизатор: (+) Вдвое меньше урон от падений, (-) снижение скорости</Stabilizer_tooltip>
+  <Food_Small_name>Еда - перекус</Food_Small_name>
+  <Food_Small_tooltip>Перекус.</Food_Small_tooltip>
+  <Food_Average_name>Еда - Обед</Food_Average_name>
+  <Food_Average_tooltip>Обед.</Food_Average_tooltip>
+  <Food_Big_name>Еда - сытная</Food_Big_name>
+  <Food_Big_tooltip>Сытная еда.</Food_Big_tooltip>
+  <AntiPoison_name>Противоядие</AntiPoison_name>
+  <AntiPoison_tooltip>Выведение яда</AntiPoison_tooltip>
+  <AntiRadin_name>Антирадиационное</AntiRadin_name>
+  <AntiRadin_tooltip>Вывод радиации</AntiRadin_tooltip>
+  <AntiBleed_name>Против кровотечений</AntiBleed_name>
+  <AntiBleed_tooltip>Снижение кровотечения и эффективности дальнейшего лечения</AntiBleed_tooltip>
+  <StimPack_name>Аптечка</StimPack_name>
+  <StimPack_tooltip>2% здоровья \ сек;
+		-5 кровотечения при наложении.</StimPack_tooltip>
+  <Flask_bullet_name>Настойка против пуль</Flask_bullet_name>
+  <Flask_bullet_tooltip>Снижение восприимчивости к пулевому урону:
+		+4% защиты от пулевого урона на 20 минут</Flask_bullet_tooltip>
+  <Flask_Ryabinovka_name>Настойка Рябиновка</Flask_Ryabinovka_name>
+  <Flask_Ryabinovka_tooltip>Настойка Рябиновка: Омолаживает и снимает эффект облученной воды
+		-1 холода каждые 15 секунд (действует 10 мин за 1 дозировку);
+		-5 холода при применении.</Flask_Ryabinovka_tooltip>
+  <Rested_phys_name>Бодрость физическая</Rested_phys_name>
+  <Rested_phys_tooltip>Слегка восстанавливает запас сил.
+		Некоторое время вы устаёте в два раза медленее.</Rested_phys_tooltip>
+  <RegenArea_Slow_name>Область регенерации здоровья слабая</RegenArea_Slow_name>
+  <RegenArea_Slow_tooltip>Восполнение боеспособности</RegenArea_Slow_tooltip>
+  <CampFire_name>Костер</CampFire_name>
+  <CampFire_tooltip>Тепло костра согревает, помогает восстановить силы</CampFire_tooltip>
+  <CampFireOnArea_name>Костер для большой области</CampFireOnArea_name>
+  <CampFireOnArea_tooltip>Повышение бодрости и восполнение здоровья</CampFireOnArea_tooltip>
+  <Pain_name>Боль</Pain_name>
+  <Pain_tooltip>Сильная боль, сковывающая движения</Pain_tooltip>
+  <onBlock_name>Попадание пули в броню</onBlock_name>
+  <onBlock_tooltip>Запреградное воздействие попадания</onBlock_tooltip>
+  <handsShake_name>Дрожание рук</handsShake_name>
+  <handsShake_tooltip>Снижение меткости от дрожания в руках</handsShake_tooltip>
+  <BioSpore_name>Споры</BioSpore_name>
+  <BioSpore_tooltip>Споры грибов, проникающие через дыхательные пути</BioSpore_tooltip>
+  <Anomaly_Katapulta_Dmg_name>Катапульта</Anomaly_Katapulta_Dmg_name>
+  <Hungry_name>Голод</Hungry_name>
+  <Hungry_tooltip>Вы голодны, вы не можете бегать, выносливость значительно снижена.</Hungry_tooltip>
+  <Anomaly_Arrester_name>Действие аномалии Arrester</Anomaly_Arrester_name>
+  <Anomaly_Microwave_name>Действие аномалии Microwave</Anomaly_Microwave_name>
+  <Anomaly_Press_name>Действие аномалии Press</Anomaly_Press_name>
+  <Anomaly_Drobilka_name>Действие аномалии Drobilka</Anomaly_Drobilka_name>
+  <Anomaly_Katapulta_name>Действие аномалии Katapulta</Anomaly_Katapulta_name>
+  <Anomaly_Razryadnik_name>Действие аномалии Razryadnik</Anomaly_Razryadnik_name>
+  <Anomaly_Mikrovolnovka_name>Действие аномалии Mikrovolnovka</Anomaly_Mikrovolnovka_name>
+  <Anomaly_Zelenaya_gnil_name>Действие аномалии Zelenaya_gnil</Anomaly_Zelenaya_gnil_name>
+  <Anomaly_Psycho_name>Действие аномалии Psycho</Anomaly_Psycho_name>
+  <Anomaly_Noob_visible_name>Действие аномалии Noob_visible</Anomaly_Noob_visible_name>
+  <Anomaly_Noob_invisible_name>Действие аномалии Noob_invisible</Anomaly_Noob_invisible_name>
+  <Anomaly_Vezuviy_uniq_name>Действие аномалии Vezuviy_uniq</Anomaly_Vezuviy_uniq_name>
+  <Worm_Regeneration_name>Регенерация</Worm_Regeneration_name>
+  <Creature_Regeneration_name>Регенерация здоровья мутанта</Creature_Regeneration_name>
+  <test_constant_speed_name>Тест: скорость</test_constant_speed_name>
+  <test_constant_speed_tooltip>Тестовый эффект скорости tooltip</test_constant_speed_tooltip>
+  <test_stama_regen_name>Тест: регенерация стамины</test_stama_regen_name>
+  <test_stama_regen_tooltip>Тестовый эффект регенерации стамины tooltip</test_stama_regen_tooltip>
+  <test_forbid_safe_area_name>Тест: защита от Safe_Area</test_forbid_safe_area_name>
+  <test_forbid_safe_area_tooltip>Тестовый эффект, запрещающий Safe_Area</test_forbid_safe_area_tooltip>
+  <test_forbid_stun_name>Тест: защита от Stun</test_forbid_stun_name>
+  <test_forbid_stun_tooltip>Тестовый эффект, запрещающий Stun</test_forbid_stun_tooltip>
+  <test_heal_name>Тест: хил</test_heal_name>
+  <test_heal_tooltip>Тестовый эффект, хилит раз в секунду</test_heal_tooltip>
+  <SevereInjury_name>Тяжелая рана</SevereInjury_name>
+  <SevereInjury_tooltip>Здоровье не может превысить 1\3 от максимального. Рану можно залечить отдыхая у костра: 1 единицу за каждые 15 секунд.</SevereInjury_tooltip>
+  <Contusion_name>Контузия</Contusion_name>
+  <Contusion_tooltip>Не дает прыгать и убегать от врагов</Contusion_tooltip>
+  <MedKitSource_name>Аптечка</MedKitSource_name>
+  <MedKitSource_tooltip>Постепенное лечение от аптечки</MedKitSource_tooltip>
+  <Intoxication_name>Интоксикация</Intoxication_name>
+  <Intoxication_tooltip>Интоксикация от применения лекарств</Intoxication_tooltip>
+  <AntiRadinVof_name>Противорадиационное</AntiRadinVof_name>
+  <AntiRadinVof_tooltip>Увеличивает стойкость организма к радиоактивному излучению 
+	(+30% защиты к воздействию радиацией, действует 6 часов)</AntiRadinVof_tooltip>
+  <AntiPoisonVof_name>Сопротивляемость ядам</AntiPoisonVof_name>
+  <AntiPoisonVof_tooltip>Повышенный метаболизм выводит яды 
+	(-2 яда \ 5 сек, действует 3 часов)</AntiPoisonVof_tooltip>
+  <AntiStun_name>Нервный стимулятор</AntiStun_name>
+  <AntiStun_tooltip>Иммунитет к оглушению</AntiStun_tooltip>
+  <InfraredSource_name>Огненный урон</InfraredSource_name>
+  <InfraredSource_tooltip>Ожог от горячей поверхности</InfraredSource_tooltip>
+  <ArtifactScreenAlpha_name>Артефакт α-Экран</ArtifactScreenAlpha_name>
+  <ArtifactScreenAlpha_tooltip>А.α-Экран: (+) защ. взрыва; (-) защ. ближнего</ArtifactScreenAlpha_tooltip>
+  <ArtifactScreenBeta_name>β</ArtifactScreenBeta_name>
+  <ArtifactScreenGamma_name>γ</ArtifactScreenGamma_name>
+  <ArtifactScreenDelta_name>δ</ArtifactScreenDelta_name>
+  <ArtifactScreenEpsilon_name>ε</ArtifactScreenEpsilon_name>
+  <ArtifactPillowAlpha_name>Артефакт α-Подушка</ArtifactPillowAlpha_name>
+  <ArtifactPillowAlpha_tooltip>А.α-Подушка: (+) защ. ближнего, падения; (-) защ. пулевого</ArtifactPillowAlpha_tooltip>
+  <ArtifactPillowBeta_name>Артефакт β-Подушка</ArtifactPillowBeta_name>
+  <ArtifactPillowBeta_tooltip>А.β-Подушка: (+) защ. ближнего, падения; (-) защ. пулевого; \n(действие на 20% мощнее α-артефакта)</ArtifactPillowBeta_tooltip>
+  <ArtifactPillowGamma_name>γ</ArtifactPillowGamma_name>
+  <ArtifactPillowDelta_name>δ</ArtifactPillowDelta_name>
+  <ArtifactPillowEpsilon_name>ε</ArtifactPillowEpsilon_name>
+  <ArtifactShieldAlpha_name>Артефакт α-Щит</ArtifactShieldAlpha_name>
+  <ArtifactShieldAlpha_tooltip>А.α-Щит: (+) защ. пулевого; (-) защ. взрыва</ArtifactShieldAlpha_tooltip>
+  <ArtifactShieldBeta_name>Артефакт β-Щит</ArtifactShieldBeta_name>
+  <ArtifactShieldBeta_tooltip>А.β-Щит: (+) защ. пулевого; (-) защ. взрыва; \n(действие на 20% мощнее α-артефакта)</ArtifactShieldBeta_tooltip>
+  <ArtifactRubberAlpha_name>Артефакт α-Резина</ArtifactRubberAlpha_name>
+  <ArtifactRubberAlpha_tooltip>А.α-Резина: (+) вывод радиации; (-) наносит урон</ArtifactRubberAlpha_tooltip>
+  <ArtifactRubberBeta_name>Артефакт β-Резина</ArtifactRubberBeta_name>
+  <ArtifactRubberBeta_tooltip>А.β-Резина: (+) вывод радиации; (-) наносит урон; \n(действие на 100% мощнее α-артефакта)</ArtifactRubberBeta_tooltip>
+  <ArtifactAntigravAlpha_name>Артефакт α-Антиграв</ArtifactAntigravAlpha_name>
+  <ArtifactAntigravAlpha_tooltip>А.α-Антиграв: (+) Увеличение скорости; (-) уязвимость к пулевому урону</ArtifactAntigravAlpha_tooltip>
+  <ArtifactAntigravBeta_name>Артефакт β-Антиграв</ArtifactAntigravBeta_name>
+  <ArtifactAntigravBeta_tooltip>А.β-Антиграв: (+) Увеличение скорости; (-) уязвимость к пулевому урону; \n(действие на 20% мощнее α-артефакта)</ArtifactAntigravBeta_tooltip>
+  <ArtifactStabilizerAlpha_name>Артефакт α-Стабилизатор</ArtifactStabilizerAlpha_name>
+  <ArtifactStabilizerAlpha_tooltip>А.α-Стабилизатор: (+) Вдвое меньше урон от падений, (-) снижение скорости</ArtifactStabilizerAlpha_tooltip>
+  <ArtifactStabilizerBeta_name>Артефакт β-Стабилизатор</ArtifactStabilizerBeta_name>
+  <ArtifactStabilizerBeta_tooltip>А.β-Стабилизатор: (+) Вдвое меньше урон от падений, (-) снижение скорости; \n(действие на 20% мощнее α-артефакта)</ArtifactStabilizerBeta_tooltip>
+  <Slow_Web_name>Прочная паутина</Slow_Web_name>
+  <Slow_Glue_name>Клейкая субстанция</Slow_Glue_name>
+  <Acid_name>Кислота</Acid_name>
+  <BioSporeMoss_name>Жгучий мох</BioSporeMoss_name>
+  <Senseless_name>В отключке!</Senseless_name>
+  <Senseless_tooltip>Передвижение невозможно.</Senseless_tooltip>
+  <Burn_name>Огонь</Burn_name>
+  <Burn_tooltip>Одежда горит!</Burn_tooltip>
+  <Adrenaline_name>Психомоторный стимулятор</Adrenaline_name>
+  <Adrenaline_tooltip>Психомоторный стимулятор, повышает выживание</Adrenaline_tooltip>
+  <Adrenaline_msgBox>Психомоторный стимулятор подействует через {0} сек</Adrenaline_msgBox>
+</root>

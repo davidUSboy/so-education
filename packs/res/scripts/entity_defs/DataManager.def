@@ -1,0 +1,141 @@
+<Root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		DataManager		</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+	
+	
+		<data2>
+			<Type>			ARRAY <of> HWIDX </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</data2>	
+
+		<originalD3D9DLLcrc32>
+			<Type>			ARRAY <of> UINT64 </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</originalD3D9DLLcrc32>	
+
+
+		<cheatscrc32>
+			<Type>			ARRAY <of> UINT64 </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</cheatscrc32>	
+
+		
+
+		<dataDll>
+			<Type>			ARRAY <of> ACCDLLINFO </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dataDll>	
+
+		<accountForBan>
+			<Type>			ARRAY <of> STRING </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</accountForBan>	
+
+
+		<dataCheat>
+			<Type>			ARRAY <of> ACC_CHEAT_INFO </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dataCheat>	
+
+		<dataCompName>
+			<Type>			ARRAY <of> HWIDX </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dataCompName>
+
+		<dataMac>
+			<Type>			ARRAY <of> HWIDX </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dataMac>
+		
+		
+		<banned>
+			<Type>			ARRAY <of> HWIDBAN </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</banned>	
+
+		<bannedTest>
+			<Type>			ARRAY <of> HWIDBAN </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</bannedTest>		
+
+		<dataErrors>
+			<Type>			ARRAY <of> HWIDERROR </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dataErrors>
+		
+	</Properties>
+
+	<BaseMethods>
+		<cleanup/>
+		
+		
+		<checkHWID>
+			<Arg>	MAILBOX			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg> ARRAY <of>STRING</of>	 </Arg>
+		</checkHWID>
+
+		<searchByAcc>
+			<Arg>	STRING			</Arg>
+		</searchByAcc>
+		
+		<sendSms>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</sendSms>
+			
+		<sendCassa>
+			<Arg>	STRING			</Arg>
+		</sendCassa>
+		
+		<sendEmail>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</sendEmail>
+
+		<save2file/>
+
+		<HistoryVisitReapsone>
+			<Arg>	STRING			</Arg>
+			<Arg>	 	ARRAY <of>CONNECTINFO</of>		</Arg>
+		</HistoryVisitReapsone>
+
+
+		
+	</BaseMethods>
+	
+	
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

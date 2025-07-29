@@ -1,0 +1,14 @@
+<soEditField_default.xml> &quot;soGUI.soEditFieldVisualState&quot;
+	<active>
+		<icon>
+			<textureName>	soGUI/maps/Controls/input_normal.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</active>
+	<passive>
+		<icon>
+			<textureName>	soGUI/maps/Controls/input_lock.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</passive>
+</soEditField_default.xml>

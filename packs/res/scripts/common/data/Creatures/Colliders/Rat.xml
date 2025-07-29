@@ -1,0 +1,88 @@
+<Rat.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip001 Head</nodeName>
+      <boxName>Bip001 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.023388 -0.082573 -0.075832</minBounds>
+      <maxBounds>0.224477 0.082573 0.080840</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Forearm</nodeName>
+      <boxName>Bip001 L Forearm_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.025277 -0.025278</minBounds>
+      <maxBounds>0.203484 0.025277 0.025277</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L UpperArm</nodeName>
+      <boxName>Bip001 L UpperArm_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.035000 -0.035000</minBounds>
+      <maxBounds>0.110000 0.035000 0.035000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Forearm</nodeName>
+      <boxName>Bip001 R Forearm_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.025277 -0.025277</minBounds>
+      <maxBounds>0.185789 0.025277 0.025277</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R UpperArm</nodeName>
+      <boxName>Bip001 R UpperArm_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.035000 -0.035000</minBounds>
+      <maxBounds>0.109668 0.035000 0.035000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L HorseLink</nodeName>
+      <boxName>Bip001 L HorseLink_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.020850 -0.020850</minBounds>
+      <maxBounds>0.180000 0.020850 0.020850</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 L Thigh</nodeName>
+      <boxName>Bip001 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.050000 -0.065000</minBounds>
+      <maxBounds>0.290000 0.050000 0.065000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R HorseLink</nodeName>
+      <boxName>Bip001 R HorseLink_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.020850 -0.020850</minBounds>
+      <maxBounds>0.180000 0.020850 0.020850</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 R Thigh</nodeName>
+      <boxName>Bip001 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.050000 -0.065000</minBounds>
+      <maxBounds>0.290000 0.050000 0.065000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip001 Spine</nodeName>
+      <boxName>Bip001 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.035999 -0.123213 -0.119121</minBounds>
+      <maxBounds>0.472825 0.123213 0.131487</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>bone_tail02</nodeName>
+      <boxName>bone_tail02_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.226684 -0.035000 -0.020311</minBounds>
+      <maxBounds>0.248598 0.035000 0.049689</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>bone_tail00</nodeName>
+      <boxName>bone_tail00_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.045000 -0.045000</minBounds>
+      <maxBounds>0.280000 0.045000 0.045000</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Rat.xml>

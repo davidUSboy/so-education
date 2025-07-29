@@ -1,0 +1,38 @@
+<root>
+  <client>
+    <VOID_CONTAINER>Контейнер</VOID_CONTAINER>
+  </client>
+  <Names>
+    <TYPE_1>Боеприпасы</TYPE_1>
+    <TYPE_2>Боеприпасы</TYPE_2>
+    <TYPE_3>Ящик</TYPE_3>
+    <TYPE_4>Ящик</TYPE_4>
+    <TYPE_5>Боеприпасы</TYPE_5>
+    <TYPE_6>Боеприпасы</TYPE_6>
+    <TYPE_7>Пробирки</TYPE_7>
+    <TYPE_8>Химикаты</TYPE_8>
+    <TYPE_9>Хлам</TYPE_9>
+    <TYPE_10>Ящик</TYPE_10>
+    <TYPE_11>Радио</TYPE_11>
+    <TYPE_12>Микросхемы</TYPE_12>
+    <TYPE_13>Хлам</TYPE_13>
+    <TYPE_14>Хлам</TYPE_14>
+    <TYPE_15>Ящик</TYPE_15>
+    <TYPE_16>Чемодан</TYPE_16>
+    <TYPE_17>Саквояж</TYPE_17>
+    <TYPE_18>Ящик</TYPE_18>
+    <TYPE_19>Ящик</TYPE_19>
+    <TYPE_20>Шиповник</TYPE_20>
+    <TYPE_21>Кокон</TYPE_21>
+    <TYPE_22>Схрон</TYPE_22>
+    <TYPE_23>Схрон</TYPE_23>
+    <TYPE_24>Схрон</TYPE_24>
+    <TYPE_25>Схрон</TYPE_25>
+    <TYPE_26>Пень</TYPE_26>
+    <TYPE_27>Валун</TYPE_27>
+    <TYPE_28>Валун</TYPE_28>
+    <TYPE_29>Бревно</TYPE_29>
+    <TYPE_30>Хабар</TYPE_30>
+    <TYPE_31>Мешок с подарками</TYPE_31>
+  </Names>
+</root>

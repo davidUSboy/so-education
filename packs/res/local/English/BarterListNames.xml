@@ -1,0 +1,726 @@
+<root>
+  <PMcombine_Vokzal_repairman_Barter>Assemble PM                  1_1</PMcombine_Vokzal_repairman_Barter>
+  <KolobokBag_Shtaket_Barter>"Kolobock" Backpack                  2_1</KolobokBag_Shtaket_Barter>
+  <MK48_BanditCave_Barter>Mk 48                               3_1</MK48_BanditCave_Barter>
+  <Glock18_BanditCave_Barter>Glock-18 Pistol                  3_2</Glock18_BanditCave_Barter>
+  <ArmyBag_BanditCave_Barter>Army Backpack                  3_3</ArmyBag_BanditCave_Barter>
+  <Ammo357APx5_NZ_Art_Ammo>.357 AP (x6)                     4_1</Ammo357APx5_NZ_Art_Ammo>
+  <Ammo9x39SP6x10_NZ_Art_Ammo>9x39 SP-6 (x10)                 4_2</Ammo9x39SP6x10_NZ_Art_Ammo>
+  <Ammo9x39SP6x5_NZ_Art_Ammo>9x39 SP-6 (x5)                 4_3</Ammo9x39SP6x5_NZ_Art_Ammo>
+  <Ammo545BSVOLFRx10_NZ_Art_Ammo>5.45x39 AP-T (x10)                               4_4</Ammo545BSVOLFRx10_NZ_Art_Ammo>
+  <Ammo545BSVOLFRx5_NZ_Art_Ammo>5.45x39 AP-T (x5)                               4_5</Ammo545BSVOLFRx5_NZ_Art_Ammo>
+  <Ammo762BP_APx10_NZ_Art_Ammo>7.62x39 AP (x10)                               4_6</Ammo762BP_APx10_NZ_Art_Ammo>
+  <Ammo762BP_APx5_NZ_Art_Ammo>7.62x39 AP (x5)                               4_7</Ammo762BP_APx5_NZ_Art_Ammo>
+  <AmmoM993APx10_NZ_Art_Ammo>7.62x51 M993 AP (x10)                 4_8</AmmoM993APx10_NZ_Art_Ammo>
+  <AmmoM993APx5_NZ_Art_Ammo>7.62x51 M993 AP (x5)                 4_9</AmmoM993APx5_NZ_Art_Ammo>
+  <Ammo762x54BP_APx10_NZ_Art_Ammo>7.62x54 AP (x10)                 4_10</Ammo762x54BP_APx10_NZ_Art_Ammo>
+  <Ammo762x54BP_APx5_NZ_Art_Ammo>7.62x54 AP (x5)                  4_11</Ammo762x54BP_APx5_NZ_Art_Ammo>
+  <Ammo12_70x10_NZ_Art_Ammo>12/70 Buckshot (x10)                  4_12</Ammo12_70x10_NZ_Art_Ammo>
+  <Ammo12_70x5_NZ_Art_Ammo>12/70 Buckshot (x5)                  4_13</Ammo12_70x5_NZ_Art_Ammo>
+  <Ammo12_76x10_NZ_Art_Ammo>12/76 Buckshot (x10)                  4_14</Ammo12_76x10_NZ_Art_Ammo>
+  <Ammo12_76x5_NZ_Art_Ammo>12/76 Buckshot (x5)                  4_15</Ammo12_76x5_NZ_Art_Ammo>
+  <GrenadeF1x14_NZ_Art_Ammo>F1 Frag Grenade (x14)                 4_16</GrenadeF1x14_NZ_Art_Ammo>
+  <GrenadeF1x10_NZ_Art_Ammo>F1 Frag Grenade (x10)                 4_17</GrenadeF1x10_NZ_Art_Ammo>
+  <AK74Combine_NZ_repairman_Barter>Assemble AK-47                   5_1</AK74Combine_NZ_repairman_Barter>
+  <Weapon_AK107_Swamp_barter>AK 107 Assault Rifle                  6_1</Weapon_AK107_Swamp_barter>
+  <ArmorNindja_Swamp_barter>"Ninja" Armored Vest                  6_2</ArmorNindja_Swamp_barter>
+  <ArmorIronRat_Swamp_barter>"Iron Rat" Vest                  6_3</ArmorIronRat_Swamp_barter>
+  <Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_V>5.45x39 AP-T "BS" (x2)                  7_1</Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_V>
+  <Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_P>5.45x39 AP-T "BS" (x2)                  7_2</Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_P>
+  <Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_V>7.62x51 AP-T (x4)                  7_3</Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_V>
+  <Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_P>7.62x51 AP-T (x4)                  7_4</Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_P>
+  <Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_V>7.62x54 AP-T (x4)                  7_5</Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_V>
+  <Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_P>7.62x54 AP-T (x4)                  7_6</Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_P>
+  <Weapon_SigSauer751_Hitrec_barter>SIG Sauer 751                    8_1</Weapon_SigSauer751_Hitrec_barter>
+  <Weapon_WA2000_Hitrec_barter>WA-2000 Sniper Rifle                 8_2</Weapon_WA2000_Hitrec_barter>
+  <ArmorSHIZpants_Shtopor_barter>SHIZ Pants                   9_1</ArmorSHIZpants_Shtopor_barter>
+  <ArmorSHIZbody_Shtopor_barter>SHIZ Armor Vest                 9_2</ArmorSHIZbody_Shtopor_barter>
+  <ArmorSHIZhelm_round_Shtopor_barter>"Four-eyes" Helmet                 9_3</ArmorSHIZhelm_round_Shtopor_barter>
+  <ArmorSHIZhelm_line_Shtopor_barter>"Slit" Helmet                9_4</ArmorSHIZhelm_line_Shtopor_barter>
+  <AmmoPG_7VM_ExPolkovnik_barter>PG-7VM HEAT Warhead              10_1</AmmoPG_7VM_ExPolkovnik_barter>
+  <AmmoPG_7VL_AP_ExPolkovnik_barter>PG-7VL "Beam" Warhead              10_2</AmmoPG_7VL_AP_ExPolkovnik_barter>
+  <AmmoTBG_7V_tanin_ExPolkovnik_barter>TBG-7VL "Tanin" Warhead              10_3</AmmoTBG_7V_tanin_ExPolkovnik_barter>
+  <AmmoOG_7V_EXP_ExPolkovnik_barter>OG-7V Warhead                                10_4</AmmoOG_7V_EXP_ExPolkovnik_barter>
+  <GrenadeF1x12_ExPolkovnik_barter>F1 Frag Grenade (x12)                            10_5</GrenadeF1x12_ExPolkovnik_barter>
+  <GrenadeF1x8_ExPolkovnik_barter>F1 Frag Grenade (x8)                            10_6</GrenadeF1x8_ExPolkovnik_barter>
+  <GrenadeF1x6_ExPolkovnik_barter>F1 Frag Grenade (x6)                            10_7</GrenadeF1x6_ExPolkovnik_barter>
+  <Weapon_RPG7_ExPolkovnik_barter>RPG-7                                       10_8</Weapon_RPG7_ExPolkovnik_barter>
+  <ArmyBag_ExPolkovnik_barter>Army Backpack                             10_9</ArmyBag_ExPolkovnik_barter>
+  <MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_VEZ>Equipment Mod Set              10_10</MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_VEZ>
+  <MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_PROVODNIK>Equipment Mod Set              10_11</MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_PROVODNIK>
+  <HEALTH_RYABINOVKA_Otshelnik_Timoha_barter>Ryabinovka           				 11_1</HEALTH_RYABINOVKA_Otshelnik_Timoha_barter>
+  <HEALTH_BRUSNIKOVKA_Otshelnik_Timoha_barter>Brusnikovka          				    11_2</HEALTH_BRUSNIKOVKA_Otshelnik_Timoha_barter>
+  <HEALTH_CHERTOVKA_Otshelnik_Timoha_barter>Hell-Of-A-Ride     					         11_3</HEALTH_CHERTOVKA_Otshelnik_Timoha_barter>
+  <ArmorDragun_MineCamp_Meniala_barter>Dragoon Armored Vest                        12_1</ArmorDragun_MineCamp_Meniala_barter>
+  <ArmorVikingHelm_MineCamp_Meniala_barter>Viking Helmet                        12_2</ArmorVikingHelm_MineCamp_Meniala_barter>
+  <ArmyBag_MineCamp_Meniala_barter>Army Backpack                             12_3</ArmyBag_MineCamp_Meniala_barter>
+  <ArmorHARVATpants_MineCamp_Meniala_barter>Croat Pants                          12_4</ArmorHARVATpants_MineCamp_Meniala_barter>
+  <ArmorTASHbody_MineCamp_Meniala_barter>TASH Armored Vest                         12_5</ArmorTASHbody_MineCamp_Meniala_barter>
+  <ArmorTASHpants_MineCamp_Meniala_barter>TASH Pants                            12_6</ArmorTASHpants_MineCamp_Meniala_barter>
+  <ArmorMAZAYhat_MineCamp_Meniala_barter>Mazay Hat                         12_7</ArmorMAZAYhat_MineCamp_Meniala_barter>
+  <ArmorINGLISHmask_MineCamp_Meniala_barter>Respirator                          12_8</ArmorINGLISHmask_MineCamp_Meniala_barter>
+  <ArmorSLONIKmask_MineCamp_Meniala_barter>Elephant Gas Mask                         12_9</ArmorSLONIKmask_MineCamp_Meniala_barter>
+  <Ammo357APx5_ClanBaza_All_barter>.357 AP (x5)                          13_1</Ammo357APx5_ClanBaza_All_barter>
+  <Ammo9x39SP6x10_ClanBaza_All_barter>9x39 SP-6 (x10)                         13_2</Ammo9x39SP6x10_ClanBaza_All_barter>
+  <Ammo9x39SP6x5_ClanBaza_All_barter>9x39 SP-6 (x5)                         13_3</Ammo9x39SP6x5_ClanBaza_All_barter>
+  <Ammo762BP_APx10_ClanBaza_All_barter>7.62x39 AP (x10)                         13_4</Ammo762BP_APx10_ClanBaza_All_barter>
+  <Ammo762BP_APx5_ClanBaza_All_barter>7.62x39 AP (x5)                         13_5</Ammo762BP_APx5_ClanBaza_All_barter>
+  <AmmoM993APx10_ClanBaza_All_barter>7.62x51 M993 AP (x10)                          13_6</AmmoM993APx10_ClanBaza_All_barter>
+  <AmmoM993APx5_ClanBaza_All_barter>7.62x51 M993 AP (x5)                         13_7</AmmoM993APx5_ClanBaza_All_barter>
+  <Ammo762_54BP_APx10_ClanBaza_All_barter>7.62x54 AP (x10)                         13_8</Ammo762_54BP_APx10_ClanBaza_All_barter>
+  <Ammo762_54BP_APx5_ClanBaza_All_barter>7.62x54 AP (x5)                         13_9</Ammo762_54BP_APx5_ClanBaza_All_barter>
+  <Ammo12_70x12_ClanBaza_All_barter>12/70 00 (x10)                              13_10</Ammo12_70x12_ClanBaza_All_barter>
+  <Ammo12_70x5_ClanBaza_All_barter>12/70 00 (x5)                                13_11</Ammo12_70x5_ClanBaza_All_barter>
+  <Ammo12_76x10_ClanBaza_All_barter>12/76 00 (x10)                              13_12</Ammo12_76x10_ClanBaza_All_barter>
+  <Ammo12_76x5_ClanBaza_All_barter>12/76 00 (x5)                                13_13</Ammo12_76x5_ClanBaza_All_barter>
+  <Weapon_VSS_ClanBaza_All_barter>VSS "Vintorez"                                13_14</Weapon_VSS_ClanBaza_All_barter>
+  <Weapon_MK3A1_ClanBaza_All_barter>Jackhammer MK3A1                            13_15</Weapon_MK3A1_ClanBaza_All_barter>
+  <Weapon_DRAGUNOVA_ClanBaza_All_barter>SVD                                     13_16</Weapon_DRAGUNOVA_ClanBaza_All_barter>
+  <Weapon_UZI_ClanBaza_All_barter>IMI UZI SMG                                   13_17</Weapon_UZI_ClanBaza_All_barter>
+  <Weapon_OC14_939_ClanBaza_All_barter>OTs-14 Groza-4 9х39                             13_18</Weapon_OC14_939_ClanBaza_All_barter>
+  <Weapon_MK48_ClanBaza_All_barter>Mk48 Machine Gun                          13_19</Weapon_MK48_ClanBaza_All_barter>
+  <Weapon_OC14_762_ClanBaza_All_barter>Groza-1 7.62х39                           13_20</Weapon_OC14_762_ClanBaza_All_barter>
+  <ArmorDRAGUNbody_ClanBaza_All_barter>Dragoon Armored Vest                         13_21</ArmorDRAGUNbody_ClanBaza_All_barter>
+  <ArmorVikingHelm_ClanBaza_All_barter>Viking Helmet                         13_22</ArmorVikingHelm_ClanBaza_All_barter>
+  <ArmyBag_ClanBaza_All_barter>Army Backpack                         13_23</ArmyBag_ClanBaza_All_barter>
+  <ArmorHARVATpants_ClanBaza_All_barter>Croat Pants                         13_24</ArmorHARVATpants_ClanBaza_All_barter>
+  <ArmorTASHbody_ClanBaza_All_barter>TASH Armored Vest                         13_25</ArmorTASHbody_ClanBaza_All_barter>
+  <ArmorTASHpants_ClanBaza_All_barter>TASH Pants                         13_26</ArmorTASHpants_ClanBaza_All_barter>
+  <ArmorMAZAYhat_ClanBaza_All_barter>Mazay Hat                         13_27</ArmorMAZAYhat_ClanBaza_All_barter>
+  <ArmorINGLISHmask_ClanBaza_All_barter>Respirator                         13_28</ArmorINGLISHmask_ClanBaza_All_barter>
+  <ArmorSLONIKmask_ClanBaza_All_barter>Elephant Gas Mask                        13_29</ArmorSLONIKmask_ClanBaza_All_barter>
+  <Ammo357APx7_ClanBaza_Donat_barter>.357 AP (x7)                            14_1</Ammo357APx7_ClanBaza_Donat_barter>
+  <Ammo9x39SP6x15_ClanBaza_Donat_barter>9x39 SP-6 (x15)                         14_2</Ammo9x39SP6x15_ClanBaza_Donat_barter>
+  <Ammo9x39SP6x7_ClanBaza_Donat_barter>9x39 SP-6 (x7)                           14_3</Ammo9x39SP6x7_ClanBaza_Donat_barter>
+  <Ammo762BP_APx15_ClanBaza_Donat_barter>7.62x39 AP (x15)                          14_4</Ammo762BP_APx15_ClanBaza_Donat_barter>
+  <Ammo762BP_APx7_ClanBaza_Donat_barter>7.62x39 AP (x7)                            14_5</Ammo762BP_APx7_ClanBaza_Donat_barter>
+  <AmmoM993APx15_ClanBaza_Donat_barter>7.62x51 M993 AP (x15)                         14_6</AmmoM993APx15_ClanBaza_Donat_barter>
+  <AmmoM993APx7_ClanBaza_Donat_barter>7.62x51 M993 AP (x7)                         14_7</AmmoM993APx7_ClanBaza_Donat_barter>
+  <Ammo762_54_BP_APx15_ClanBaza_Donat_barter>7.62x54 AP (x15)                         14_8</Ammo762_54_BP_APx15_ClanBaza_Donat_barter>
+  <Ammo762_54_BP_APx7_ClanBaza_Donat_barter>7.62x54 AP (x7)                           14_9</Ammo762_54_BP_APx7_ClanBaza_Donat_barter>
+  <Ammo12_70x15_ClanBaza_Donat_barter>12/70 00 (x15)                         14_10</Ammo12_70x15_ClanBaza_Donat_barter>
+  <Ammo12_70x7_ClanBaza_Donat_barter>12/70 00 (x7)                         14_11</Ammo12_70x7_ClanBaza_Donat_barter>
+  <Ammo12_76x15_ClanBaza_Donat_barter>12/76 00 (x15)                         14_12</Ammo12_76x15_ClanBaza_Donat_barter>
+  <Ammo12_76x7_ClanBaza_Donat_barter>12/76 00 (x7)                         14_13</Ammo12_76x7_ClanBaza_Donat_barter>
+  <Weapon_PECHENEG_VOENSTAL_ClanBaza_VOENSTAL_barter>PKP "Pecheneg" M                         15_1</Weapon_PECHENEG_VOENSTAL_ClanBaza_VOENSTAL_barter>
+  <HEALTH_CHERTOVKA_INJECTED_Medic_All_barter>Injector "Pure HOAR"                         16_1</HEALTH_CHERTOVKA_INJECTED_Medic_All_barter>
+  <HEALTH_BRUSNIKOVKA_INJECTED_Medic_All_barter>Pure "Brusnikovka"                         16_2</HEALTH_BRUSNIKOVKA_INJECTED_Medic_All_barter>
+  <HEALTH_RYABINOVKA_INJECTED_Medic_All_barter>Pure "Ryabinovka"                         16_3</HEALTH_RYABINOVKA_INJECTED_Medic_All_barter>
+  <HEALTH_ENERGETIC_Medic_All_barter>Energetic                                16_4</HEALTH_ENERGETIC_Medic_All_barter>
+  <HEALTH_ANTISTUN_Medic_All_barter>Nerve Stimulator                          16_5</HEALTH_ANTISTUN_Medic_All_barter>
+  <KUPOROS_vez_laborant_barter>Copper Sulfate                                 17_1</KUPOROS_vez_laborant_barter>
+  <SPIDER_POISONx1_vez_laborant_barter>Spider Venom (x1)                          17_2</SPIDER_POISONx1_vez_laborant_barter>
+  <SPIDER_POISONx2_vez_laborant_barter>Spider Venom (x2)                          17_3</SPIDER_POISONx2_vez_laborant_barter>
+  <SPIDER_POISONx3_vez_laborant_barter>Spider Venom (x3)                          17_4</SPIDER_POISONx3_vez_laborant_barter>
+  <VERLIOKA_BLOODx1_vez_laborant_barter>V-Blood (x1)                               17_5</VERLIOKA_BLOODx1_vez_laborant_barter>
+  <VERLIOKA_BLOODx2_vez_laborant_barter>V-Blood (x2)                               17_6</VERLIOKA_BLOODx2_vez_laborant_barter>
+  <VERLIOKA_BLOODx3_vez_laborant_barter>V-Blood (x3)                               17_7</VERLIOKA_BLOODx3_vez_laborant_barter>
+  <BEAR_BLOODx3_vez_laborant_barter>Bear's Blood (x3)                          17_8</BEAR_BLOODx3_vez_laborant_barter>
+  <BEAR_BLOODx5_vez_laborant_barter>Bear's Blood (x5)                          17_9</BEAR_BLOODx5_vez_laborant_barter>
+  <BEAR_BLOODx9_vez_laborant_barter>Bear's Blood (x9)                          17_10</BEAR_BLOODx9_vez_laborant_barter>
+  <MARGANEC_vez_laborant_barter>Condy's Crystals                               17_11</MARGANEC_vez_laborant_barter>
+  <All_Ammo_919BB_Barter>9x19 AP (x10)                                         18_1</All_Ammo_919BB_Barter>
+  <SAIGA_12K_vez_fin_barter>Saiga 12K                                       19_1</SAIGA_12K_vez_fin_barter>
+  <JACKHAMMER_MK3A1_vez_fin_barter>Jackhammer MK3A1                            19_2</JACKHAMMER_MK3A1_vez_fin_barter>
+  <KINOLOG_SUIT_vez_fin_barter>Cynologist Suit                                 19_3</KINOLOG_SUIT_vez_fin_barter>
+  <Prisone_Trade_Tushonka>Can of Stewed Meat                            19_4</Prisone_Trade_Tushonka>
+  <Prisone_Trade_Masterka>Bandit Zip Front Blouson                            19_5</Prisone_Trade_Masterka>
+  <Prisone_Trade_Sviter_01>Bandit Sweater                            19_6</Prisone_Trade_Sviter_01>
+  <Prisone_Trade_Sviter_02>Bandit Sweater                            19_7</Prisone_Trade_Sviter_02>
+  <Prisone_Trade_Sviter_03>Bandit Sweater                            19_8</Prisone_Trade_Sviter_03>
+  <Prisone_Trade_Shtani>Bandit Pants                            19_9</Prisone_Trade_Shtani>
+  <Prisone_Trade_RG>Bandit Tactical Vest                           19_10</Prisone_Trade_RG>
+  <Prisone_Trade_Kepka>Bandit Cap                          20_1</Prisone_Trade_Kepka>
+  <Prisone_Trade_Shapka>Knitted Bandit Hat                         20_2</Prisone_Trade_Shapka>
+  <Prisone_Trade_Bandana>Bandit Bandana                     20_3</Prisone_Trade_Bandana>
+  <Prisone_Trade_Perchatki>Bandit Gloves                         20_4</Prisone_Trade_Perchatki>
+  <Prisone_REPAIR_BODY_BANDIT>r.Bandit Zip Front Blouson</Prisone_REPAIR_BODY_BANDIT>
+  <Prisone_REPAIR_BODY_BANDIT_RED>r. Red Bandit Sweater                         20_6</Prisone_REPAIR_BODY_BANDIT_RED>
+  <Prisone_REPAIR_BODY_BANDIT_GREEN>r. Green Bandit Sweater                        20_7</Prisone_REPAIR_BODY_BANDIT_GREEN>
+  <Prisone_REPAIR_BODY_BANDIT_GRAY>r. Grey Bandit Sweater                        20_8</Prisone_REPAIR_BODY_BANDIT_GRAY>
+  <Prisone_REPAIR_LEGS_BANDIT>r. Bandit Pants                        20_9</Prisone_REPAIR_LEGS_BANDIT>
+  <Prisone_REPAIR_ARMOR_BANDIT>r.Bandit Tactical Vest                         20_10</Prisone_REPAIR_ARMOR_BANDIT>
+  <Prisone_REPAIR_HANDS_BANDIT>r. Bandit Gloves                         20_11</Prisone_REPAIR_HANDS_BANDIT>
+  <Prisone_REPAIR_CAP_BANDIT_01>r. Bandit Cap                        20_12</Prisone_REPAIR_CAP_BANDIT_01>
+  <Prisone_REPAIR_CAP_BANDIT_02>r. Knitted Bandit Hat                        20_13</Prisone_REPAIR_CAP_BANDIT_02>
+  <Prisone_REPAIR_CAP_BANDIT_03>r.Bandit Bandana                       20_14</Prisone_REPAIR_CAP_BANDIT_03>
+  <Item_converter_HK_417_90>HK 417 (90 days)                        21_1</Item_converter_HK_417_90>
+  <Item_converter_HK_417_180>HK 417 (180 days)                        21_2</Item_converter_HK_417_180>
+  <Item_converter_HK_417_360>HK 417 (360 days)                        21_3</Item_converter_HK_417_360>
+  <Item_converter_SIG_716_90>Sig 716 (90 days)                        21_4</Item_converter_SIG_716_90>
+  <Item_converter_SIG_716_180>Sig 716 (180 days)                        21_5</Item_converter_SIG_716_180>
+  <Item_converter_SIG_716_360>Sig 716 (360 days)                        21_6</Item_converter_SIG_716_360>
+  <Item_converter_SIG_751G_90>Sig 751G (90  days)                        21_7</Item_converter_SIG_751G_90>
+  <Item_converter_SIG_751G_180>Sig 751G (180 days)                        21_8</Item_converter_SIG_751G_180>
+  <Item_converter_SIG_751G_360>Sig 751G (360 days)                        21_9</Item_converter_SIG_751G_360>
+  <Item_converter_FN_SCAR_H_90>FN SCAR (90 days)                        21_10</Item_converter_FN_SCAR_H_90>
+  <Item_converter_FN_SCAR_H_180>FN SCAR (180 days)                        21_11</Item_converter_FN_SCAR_H_180>
+  <Item_converter_FN_SCAR_H_360>FN SCAR (360 days)                        21_12</Item_converter_FN_SCAR_H_360>
+  <Item_converter_HK_G3A_90>HK G3A (90 days)                        21_13</Item_converter_HK_G3A_90>
+  <Item_converter_HK_G3A_180>HK G3A (180 days)                        21_14</Item_converter_HK_G3A_180>
+  <Item_converter_HK_G3A_360>HK G3A (360 days)                        21_15</Item_converter_HK_G3A_360>
+  <Item_converter_HK_G3A_LAU_90>H&amp;K G3A mk2 (90 days)                        21_16</Item_converter_HK_G3A_LAU_90>
+  <Item_converter_HK_G3A_LAU_180>HK G3A mk2 (180 days)                        21_17</Item_converter_HK_G3A_LAU_180>
+  <Item_converter_HK_G3A_LAU_360>HK G3A mk2 (360 days)                        21_18</Item_converter_HK_G3A_LAU_360>
+  <Item_converter_CZ_805_90>CZ 805 (90 days)                        21_19</Item_converter_CZ_805_90>
+  <Item_converter_CZ_805_180>CZ 805 (180 days)                        21_20</Item_converter_CZ_805_180>
+  <Item_converter_CZ_805_360>CZ 805 (360 days)                        21_21</Item_converter_CZ_805_360>
+  <Item_converter_PECHENEG_90>PKP 6P41 "Pecheneg" (90 days)                        21_22</Item_converter_PECHENEG_90>
+  <Item_converter_PECHENEG_180>PKP 6P41 "Pecheneg" (180 days)                        21_23</Item_converter_PECHENEG_180>
+  <Item_converter_PECHENEG_360>PKP 6P41 "Pecheneg" (360 days)                        21_24</Item_converter_PECHENEG_360>
+  <Item_converter_PECHENEG_AS_90>PKP 6P41 "Pecheneg" (90 days)                        21_25</Item_converter_PECHENEG_AS_90>
+  <Item_converter_PECHENEG_AS_180>PKP 6P41 "Pecheneg" (180 days)                        21_26</Item_converter_PECHENEG_AS_180>
+  <Item_converter_PECHENEG_AS_360>PKP 6P41 "Pecheneg" (360 days)                        21_27</Item_converter_PECHENEG_AS_360>
+  <Item_converter_SVU_90>OTs-03 SVU (90 days)                        21_28</Item_converter_SVU_90>
+  <Item_converter_SVU_180>OTs-03 SVU (180 days)                        21_29</Item_converter_SVU_180>
+  <Item_converter_SVU_360>OTs-03 SVU (360 days)                        21_30</Item_converter_SVU_360>
+  <Item_converter_SVU_A_90>OTs-03 SVU</Item_converter_SVU_A_90>
+  <Item_converter_SVU_A_180>OTs-03 SVU</Item_converter_SVU_A_180>
+  <Item_converter_SVU_A_360>OTs-03 SVU</Item_converter_SVU_A_360>
+  <Item_converter_VOENSTAL_90>Voenstal Suit (90 days)                        21_34</Item_converter_VOENSTAL_90>
+  <Item_converter_VOENSTAL_180>Voenstal Suit (180 days)                        21_35</Item_converter_VOENSTAL_180>
+  <Item_converter_VOENSTAL_360>Voenstal Suit (360 days)                        21_36</Item_converter_VOENSTAL_360>
+  <Item_converter_VOENSTAL_M2_90>Voenstal Suit М2 (90 days)                        21_37</Item_converter_VOENSTAL_M2_90>
+  <Item_converter_VOENSTAL_M2_180>Voenstal Suit М2 (180 days)                        21_38</Item_converter_VOENSTAL_M2_180>
+  <Item_converter_VOENSTAL_M2_360>Voenstal Suit М2 (360 days)                        21_39</Item_converter_VOENSTAL_M2_360>
+  <Item_converter_SIGMA_90>Sigma Suit (90 days)                        21_40</Item_converter_SIGMA_90>
+  <Item_converter_SIGMA_180>Sigma Suit (180 days)                        21_41</Item_converter_SIGMA_180>
+  <Item_converter_SIGMA_360>Sigma Suit (360 days)                        21_42</Item_converter_SIGMA_360>
+  <Item_converter_SIGMA_M2_90>Sigma Suit М2 (90 days)                        21_43</Item_converter_SIGMA_M2_90>
+  <Item_converter_SIGMA_M2_180>Sigma Suit М2 (180 days)                        21_44</Item_converter_SIGMA_M2_180>
+  <Item_converter_SIGMA_M2_360>Sigma Suit М2 (360 days)                        21_45</Item_converter_SIGMA_M2_360>
+  <Item_converter_DSC_90>Storm Suit (90 days)                        21_46</Item_converter_DSC_90>
+  <Item_converter_DSC_180>Storm Suit (180 days)                        21_47</Item_converter_DSC_180>
+  <Item_converter_DSC_360>Storm Suit (360 days)                        21_48</Item_converter_DSC_360>
+  <Item_converter_DSC_M2_90>Storm Suit М2 (90 days)                        21_49</Item_converter_DSC_M2_90>
+  <Item_converter_DSC_M2_180>Storm Suit М2 (180 days)                        21_50</Item_converter_DSC_M2_180>
+  <Item_converter_DSC_M2_360>Storm Suit М2 (360 days)                        21_51</Item_converter_DSC_M2_360>
+  <Item_converter_KK_90>R.C. Suit (90 days)                        21_52</Item_converter_KK_90>
+  <Item_converter_KK_180>R.C. Suit (180 days)                        21_53</Item_converter_KK_180>
+  <Item_converter_KK_360>R.C. Suit (360 days)                        21_54</Item_converter_KK_360>
+  <Item_converter_PPS_90>PPS Suit (90 days)                        21_55</Item_converter_PPS_90>
+  <Item_converter_PPS_180>PPS Suit (180 days)                        21_56</Item_converter_PPS_180>
+  <Item_converter_PPS_360>PPS Suit (360 days)                        21_57</Item_converter_PPS_360>
+  <Item_converter_MASK_SNIPE_90>Shelter Suit (90 days)                        21_58</Item_converter_MASK_SNIPE_90>
+  <Item_converter_MASK_SNIPE_180>Shelter Suit (180 days)                        21_59</Item_converter_MASK_SNIPE_180>
+  <Item_converter_MASK_SNIPE_360>Shelter Suit (360 days)                        21_60</Item_converter_MASK_SNIPE_360>
+  <Item_converter_MASK_SNIPE_M2_90>Shelter Suit М2 (90 days)                        21_61</Item_converter_MASK_SNIPE_M2_90>
+  <Item_converter_MASK_SNIPE_M2_180>Shelter Suit М2 (180 days)                        21_62</Item_converter_MASK_SNIPE_M2_180>
+  <Item_converter_MASK_SNIPE_M2_360>Shelter Suit М2 (360 days)                        21_63</Item_converter_MASK_SNIPE_M2_360>
+  <Item_converter_SVOBODA_GUARD_90>"Freedom" Suit (90 days)                        21_64</Item_converter_SVOBODA_GUARD_90>
+  <Item_converter_SVOBODA_GUARD_180>"Freedom" Suit (180 days)                        21_65</Item_converter_SVOBODA_GUARD_180>
+  <Item_converter_SVOBODA_GUARD_360>"Freedom" Suit (360 days)                        21_66</Item_converter_SVOBODA_GUARD_360>
+  <Item_converter_SVOBODA_GUARD_M2_90>"Freedom" Suit M2 (90 days)                        21_67</Item_converter_SVOBODA_GUARD_M2_90>
+  <Item_converter_SVOBODA_GUARD_M2_180>"Freedom" Suit M2 (180 days)                        21_68</Item_converter_SVOBODA_GUARD_M2_180>
+  <Item_converter_SVOBODA_GUARD_M2_360>"Freedom" Suit M2 (360 days)                        21_69</Item_converter_SVOBODA_GUARD_M2_360>
+  <Item_converter_SVOBODA_SHADOW_90>"Freedom" Suit (90 days)                        21_70</Item_converter_SVOBODA_SHADOW_90>
+  <Item_converter_SVOBODA_SHADOW_180>"Freedom" Suit (180 days)                        21_71</Item_converter_SVOBODA_SHADOW_180>
+  <Item_converter_SVOBODA_SHADOW_360>"Freedom" Suit (360 days)                        21_72</Item_converter_SVOBODA_SHADOW_360>
+  <Item_converter_INQUISITOR_90>Inquisitor Suit (90 days)                        21_73</Item_converter_INQUISITOR_90>
+  <Item_converter_INQUISITOR_180>Inquisitor Suit (180 days)                        21_74</Item_converter_INQUISITOR_180>
+  <Item_converter_INQUISITOR_360>Inquisitor Suit (360 days)                        21_75</Item_converter_INQUISITOR_360>
+  <Item_converter_INQUISITOR_M2_90>Inquisitor Suit М2 (90 days)                        21_76</Item_converter_INQUISITOR_M2_90>
+  <Item_converter_INQUISITOR_M2_180>Inquisitor Suit М2 (180 days)                        21_77</Item_converter_INQUISITOR_M2_180>
+  <Item_converter_INQUISITOR_M2_360>Inquisitor Suit М2 (360 days)                        21_78</Item_converter_INQUISITOR_M2_360>
+  <Item_converter_PREDATOR_90>Predator Suit (90 days)                        21_79</Item_converter_PREDATOR_90>
+  <Item_converter_PREDATOR_180>Predator Suit (180 days)                        21_80</Item_converter_PREDATOR_180>
+  <Item_converter_PREDATOR_360>Predator Suit (360 days)                        21_81</Item_converter_PREDATOR_360>
+  <Item_converter_PREDATOR_M2_90>Predator Suit М2 (90 days)                        21_82</Item_converter_PREDATOR_M2_90>
+  <Item_converter_PREDATOR_M2_180>Predator Suit М2 (180 days)                        21_83</Item_converter_PREDATOR_M2_180>
+  <Item_converter_PREDATOR_M2_360>Predator Suit М2 (360 days)                        21_84</Item_converter_PREDATOR_M2_360>
+  <Item_converter_SILENCE_90>"Silence" Suit (90 days)                        21_85</Item_converter_SILENCE_90>
+  <Item_converter_SILENCE_180>"Silence" Suit (180 days)                        21_86</Item_converter_SILENCE_180>
+  <Item_converter_SILENCE_360>"Silence" Suit (360 days)                        21_87</Item_converter_SILENCE_360>
+  <Item_converter_SILENCE_M2_90>"Silence" Suit M2 (90 days)                        21_88</Item_converter_SILENCE_M2_90>
+  <Item_converter_SILENCE_M2_180>"Silence" Suit                       21_89</Item_converter_SILENCE_M2_180>
+  <Item_converter_SILENCE_M2_360>"Silence" Suit                       21_90</Item_converter_SILENCE_M2_360>
+  <Item_converter_CHIMERA_90>Chimera Suit (90 days)                        21_91</Item_converter_CHIMERA_90>
+  <Item_converter_CHIMERA_180>Chimera Suit (180 days)                        21_92</Item_converter_CHIMERA_180>
+  <Item_converter_CHIMERA_360>Chimera Suit (360 days)                        21_93</Item_converter_CHIMERA_360>
+  <Item_converter_CHIMERA_M2_90>Chimera Suit М2 (90 days)                        21_94</Item_converter_CHIMERA_M2_90>
+  <Item_converter_CHIMERA_M2_180>Chimera Suit М2 (180 days)                        21_95</Item_converter_CHIMERA_M2_180>
+  <Item_converter_CHIMERA_M2_360>Chimera Suit М2 (360 days)                        21_96</Item_converter_CHIMERA_M2_360>
+  <Item_converter_STELS_90>STELS Suit (90 days)                        21_97</Item_converter_STELS_90>
+  <Item_converter_STELS_180>STELS Suit (180 days)                        21_98</Item_converter_STELS_180>
+  <Item_converter_STELS_360>STELS Suit (360 days)                        21_99</Item_converter_STELS_360>
+  <Item_converter_STELS_M2_90>STELS Suit М2 (90 days)                        21_100</Item_converter_STELS_M2_90>
+  <Item_converter_STELS_M2_180>STELS Suit М2 (180 days)                        21_101</Item_converter_STELS_M2_180>
+  <Item_converter_STELS_M2_360>STELS Suit М2 (360 days)                        21_102</Item_converter_STELS_M2_360>
+  <Item_converter_SINGLE_M2_90>"Loner's" Suit                        21_103</Item_converter_SINGLE_M2_90>
+  <Item_converter_SINGLE_M2_180>"Loner's" Suit                        21_104</Item_converter_SINGLE_M2_180>
+  <Item_converter_SINGLE_M2_360>"Loner's" Suit                        21_105</Item_converter_SINGLE_M2_360>
+  <Item_converter_HK_417>HK 417                	             	     21_106</Item_converter_HK_417>
+  <Item_converter_SIG_716>Sig 716                	             	     21_107</Item_converter_SIG_716>
+  <Item_converter_SIG_751G>Sig 751G                	             	     21_108</Item_converter_SIG_751G>
+  <Item_converter_FN_SCAR_H>FN SCAR                	             	     21_109</Item_converter_FN_SCAR_H>
+  <Item_converter_HK_G3A>HK G3A                	             	     21_110</Item_converter_HK_G3A>
+  <Item_converter_HK_G3A_LAU>HK G3A mk2                	             	     21_111</Item_converter_HK_G3A_LAU>
+  <Item_converter_CZ_805>CZ 805                	             	     21_112</Item_converter_CZ_805>
+  <Item_converter_PECHENEG>PKP 6P41 "Pecheneg"                	             	     21_113</Item_converter_PECHENEG>
+  <Item_converter_PECHENEG_AS>"Pecheneg"              	             	     21_114</Item_converter_PECHENEG_AS>
+  <Item_converter_SVU>SVU                	             	     21_115</Item_converter_SVU>
+  <Item_converter_SVU_A>SVU Assault Rifle                	             	     21_116</Item_converter_SVU_A>
+  <Item_converter_VOENSTAL>Voenstal Suit                	   	     21_117</Item_converter_VOENSTAL>
+  <Item_converter_SIGMA>Sigma Suit                	   	     21_118</Item_converter_SIGMA>
+  <Item_converter_DSC>Storm Suit               	   	     21_119</Item_converter_DSC>
+  <Item_converter_KK>Red Cross Suit               	   	     21_120</Item_converter_KK>
+  <Item_converter_PPS>PPS Suit</Item_converter_PPS>
+  <Item_converter_MASK_SNIPE>Shelter Suit                	   	     21_122</Item_converter_MASK_SNIPE>
+  <Item_converter_SVOBODA_GUARD>Freedom Suit                	   	     21_123</Item_converter_SVOBODA_GUARD>
+  <Item_converter_SVOBODA_SHADOW>Freedom Suit                	   	     21_124</Item_converter_SVOBODA_SHADOW>
+  <Item_converter_INQUISITOR>Inquisitor Suit                	   	     21_125</Item_converter_INQUISITOR>
+  <Item_converter_PREDATOR>Predator Suit                	   	     21_126</Item_converter_PREDATOR>
+  <Item_converter_SILENCE>Silence Suit                	   	     21_127</Item_converter_SILENCE>
+  <Item_converter_CHIMERA>Chimera Suit               	   	     21_128</Item_converter_CHIMERA>
+  <Item_converter_CHIMERA_CLAN_BACKPACK>"Chimera" Backpack             	   	     21_129</Item_converter_CHIMERA_CLAN_BACKPACK>
+  <Item_converter_STELS>STELS Suit                	   	     21_130</Item_converter_STELS>
+  <Item_converter_SINGLE_M2>"Loner" Suit               	   	     21_131</Item_converter_SINGLE_M2>
+  <Item_converter_A_5_SILENCER_D1>Silencer 5 (1 day)21_132</Item_converter_A_5_SILENCER_D1>
+  <Item_converter_A_5_SILENCER_D30>Silencer 5 (30 days)21_133</Item_converter_A_5_SILENCER_D30>
+  <Item_converter_A_5_SILENCER_D90>Silencer 5 (90 days)21_134</Item_converter_A_5_SILENCER_D90>
+  <Item_converter_A_5_SILENCER_D180>Silencer 5 (180 days)21_135</Item_converter_A_5_SILENCER_D180>
+  <Item_converter_A_5_SILENCER_D360>Silencer 5 (360 days)21_136</Item_converter_A_5_SILENCER_D360>
+  <Item_converter_A_7_SILENCER_D1>Silencer 7 (1 day)21_137</Item_converter_A_7_SILENCER_D1>
+  <Item_converter_A_7_SILENCER_D30>Silencer 7 (30 days)21_138</Item_converter_A_7_SILENCER_D30>
+  <Item_converter_A_7_SILENCER_D90>Silencer 7 (90 days)21_139</Item_converter_A_7_SILENCER_D90>
+  <Item_converter_A_7_SILENCER_D180>Silencer 7 (180 days)21_140</Item_converter_A_7_SILENCER_D180>
+  <Item_converter_A_7_SILENCER_D360>Silencer 7 (360 days)21_141</Item_converter_A_7_SILENCER_D360>
+  <Item_converter_S_5_SILENCER_D1>Sniper Rifle Silencer 5 (1 day)21_142</Item_converter_S_5_SILENCER_D1>
+  <Item_converter_S_5_SILENCER_D30>Sniper Rifle Silencer 5 (30 days)21_143</Item_converter_S_5_SILENCER_D30>
+  <Item_converter_S_5_SILENCER_D90>Sniper Rifle Silencer 5 (90 days)21_144</Item_converter_S_5_SILENCER_D90>
+  <Item_converter_S_5_SILENCER_D180>Sniper Rifle Silencer 5 (180 days)21_145</Item_converter_S_5_SILENCER_D180>
+  <Item_converter_S_5_SILENCER_D360>Sniper Rifle Silencer 5 (360 days)21_146</Item_converter_S_5_SILENCER_D360>
+  <Item_converter_S_7_SILENCER_D1>Sniper Rifle Silencer 7 (1 day)21_147</Item_converter_S_7_SILENCER_D1>
+  <Item_converter_S_7_SILENCER_D30>Sniper Rifle Silencer 7 (30 days)21_148</Item_converter_S_7_SILENCER_D30>
+  <Item_converter_S_7_SILENCER_D90>Sniper Rifle Silencer 7 (90 days)21_149</Item_converter_S_7_SILENCER_D90>
+  <Item_converter_S_7_SILENCER_D180>Sniper Rifle Silencer 7 (180 days)21_150</Item_converter_S_7_SILENCER_D180>
+  <Item_converter_S_7_SILENCER_D360>Sniper Rifle Silencer 7 (360 days)21_151</Item_converter_S_7_SILENCER_D360>
+  <Item_converter_A_VAR_USSR_SCOPE_D1>S.A. Scope 										21_152</Item_converter_A_VAR_USSR_SCOPE_D1>
+  <Item_converter_A_VAR_USSR_SCOPE_D30>S.A. Scope 									21_153</Item_converter_A_VAR_USSR_SCOPE_D30>
+  <Item_converter_A_VAR_USSR_SCOPE_D90>S.A. Scope 									21_154</Item_converter_A_VAR_USSR_SCOPE_D90>
+  <Item_converter_A_VAR_USSR_SCOPE_D180>S.A. Scope 									21_155</Item_converter_A_VAR_USSR_SCOPE_D180>
+  <Item_converter_A_VAR_USSR_SCOPE_D360>S.A. Scope 									21_156</Item_converter_A_VAR_USSR_SCOPE_D360>
+  <Item_converter_A_VAR_NATO_SCOPE_D1>A.N. Scope 									21_157</Item_converter_A_VAR_NATO_SCOPE_D1>
+  <Item_converter_A_VAR_NATO_SCOPE_D30>A.N. Scope 									21_158</Item_converter_A_VAR_NATO_SCOPE_D30>
+  <Item_converter_A_VAR_NATO_SCOPE_D90>A.N. Scope 									21_159</Item_converter_A_VAR_NATO_SCOPE_D90>
+  <Item_converter_A_VAR_NATO_SCOPE_D180>A.N. Scope 									21_160</Item_converter_A_VAR_NATO_SCOPE_D180>
+  <Item_converter_A_VAR_NATO_SCOPE_D360>A.N. Scope 									21_161</Item_converter_A_VAR_NATO_SCOPE_D360>
+  <Item_converter_S_VAR_USSR_SCOPE_D1>S.S. Scope 										21_162</Item_converter_S_VAR_USSR_SCOPE_D1>
+  <Item_converter_S_VAR_USSR_SCOPE_D30>S.S. Scope 										21_163</Item_converter_S_VAR_USSR_SCOPE_D30>
+  <Item_converter_S_VAR_USSR_SCOPE_D90>S.S. Scope 										21_164</Item_converter_S_VAR_USSR_SCOPE_D90>
+  <Item_converter_S_VAR_USSR_SCOPE_D180>S.S. Scope 										21_165</Item_converter_S_VAR_USSR_SCOPE_D180>
+  <Item_converter_S_VAR_USSR_SCOPE_D360>S.S. Scope 										21_166</Item_converter_S_VAR_USSR_SCOPE_D360>
+  <Item_converter_S_VAR_NATO_SCOPE_D1>S.N. Scope 									21_167</Item_converter_S_VAR_NATO_SCOPE_D1>
+  <Item_converter_S_VAR_NATO_SCOPE_D30>S.N. Scope 									21_168</Item_converter_S_VAR_NATO_SCOPE_D30>
+  <Item_converter_S_VAR_NATO_SCOPE_D90>S.N. Scope 									21_169</Item_converter_S_VAR_NATO_SCOPE_D90>
+  <Item_converter_S_VAR_NATO_SCOPE_D180>S.N. Scope 									21_170</Item_converter_S_VAR_NATO_SCOPE_D180>
+  <Item_converter_S_VAR_NATO_SCOPE_D360>S.N. Scope 									21_171</Item_converter_S_VAR_NATO_SCOPE_D360>
+  <Item_converter_SAIGA_12K_DESERT_D1>Saiga-12 (prairie camo) (1 day)21_172</Item_converter_SAIGA_12K_DESERT_D1>
+  <Item_converter_SAIGA_12K_DESERT_D30>Saiga-12 (prairie camo) (30 days)21_173</Item_converter_SAIGA_12K_DESERT_D30>
+  <Item_converter_SAIGA_12K_DESERT_D90>Saiga-12 (prairie camo) (90 days)21_174</Item_converter_SAIGA_12K_DESERT_D90>
+  <Item_converter_SAIGA_12K_DESERT_D180>Saiga-12 (prairie camo) (180 days)21_175</Item_converter_SAIGA_12K_DESERT_D180>
+  <Item_converter_SAIGA_12K_DESERT_D360>Saiga-12 (prairie camo) (360 days)21_176</Item_converter_SAIGA_12K_DESERT_D360>
+  <Item_converter_SAIGA_12K_SNOW_D1>Saiga-12 (winter camo) (1 day)21_177</Item_converter_SAIGA_12K_SNOW_D1>
+  <Item_converter_SAIGA_12K_SNOW_D30>Saiga-12 (winter camo) (30 days)21_178</Item_converter_SAIGA_12K_SNOW_D30>
+  <Item_converter_SAIGA_12K_SNOW_D90>Saiga-12 (winter camo) (90 days)21_179</Item_converter_SAIGA_12K_SNOW_D90>
+  <Item_converter_SAIGA_12K_SNOW_D180>Saiga-12 (winter camo) (180 days)21_180</Item_converter_SAIGA_12K_SNOW_D180>
+  <Item_converter_SAIGA_12K_SNOW_D360>Saiga-12 (winter camo) (360 days)21_181</Item_converter_SAIGA_12K_SNOW_D360>
+  <Item_converter_SAIGA_12K_TOWN_D1>Saiga-12 (urban camo) (1 day)21_182</Item_converter_SAIGA_12K_TOWN_D1>
+  <Item_converter_SAIGA_12K_TOWN_D30>Saiga-12 (urban camo) (30 days)21_183</Item_converter_SAIGA_12K_TOWN_D30>
+  <Item_converter_SAIGA_12K_TOWN_D90>Saiga-12 (urban camo) (90 days)21_184</Item_converter_SAIGA_12K_TOWN_D90>
+  <Item_converter_SAIGA_12K_TOWN_D180>Saiga-12 (urban camo) (180 days)21_185</Item_converter_SAIGA_12K_TOWN_D180>
+  <Item_converter_SAIGA_12K_TOWN_D360>Saiga-12 (urban camo) (360 days)21_186</Item_converter_SAIGA_12K_TOWN_D360>
+  <Item_converter_SAIGA_12K_WOOD_D1>Saiga-12 (forest camo) (1 day)21_187</Item_converter_SAIGA_12K_WOOD_D1>
+  <Item_converter_SAIGA_12K_WOOD_D30>Saiga-12 (forest camo) (30 days)21_188</Item_converter_SAIGA_12K_WOOD_D30>
+  <Item_converter_SAIGA_12K_WOOD_D90>Saiga-12 (forest camo) (1 day)21_189</Item_converter_SAIGA_12K_WOOD_D90>
+  <Item_converter_SAIGA_12K_WOOD_D180>Saiga-12 (forest camo) (1 day)21_190</Item_converter_SAIGA_12K_WOOD_D180>
+  <Item_converter_SAIGA_12K_WOOD_D360>Saiga-12 (forest camo) (1 day)21_191</Item_converter_SAIGA_12K_WOOD_D360>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D1>Jackham (prairie camo) (1 day)21_192</Item_converter_JACKHAMMER_MK3A1_DESERT_D1>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D30>Jackham (prairie camo) (30 days)21_193</Item_converter_JACKHAMMER_MK3A1_DESERT_D30>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D90>Jackham (prairie camo) (90 days)21_194</Item_converter_JACKHAMMER_MK3A1_DESERT_D90>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D180>Jackham (prairie camo) (180 days)21_195</Item_converter_JACKHAMMER_MK3A1_DESERT_D180>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D360>Jackham (prairie camo) (360 days)21_196</Item_converter_JACKHAMMER_MK3A1_DESERT_D360>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D1>Jackham (winter camo) (1 day)21_197</Item_converter_JACKHAMMER_MK3A1_SNOW_D1>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D30>Jackham (winter camo) (30 days)21_198</Item_converter_JACKHAMMER_MK3A1_SNOW_D30>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D90>Jackham (winter camo) (90 days)21_199</Item_converter_JACKHAMMER_MK3A1_SNOW_D90>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D180>Jackham (winter camo) (180 days)21_200</Item_converter_JACKHAMMER_MK3A1_SNOW_D180>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D360>Jackham (winter camo) (360 days)21_201</Item_converter_JACKHAMMER_MK3A1_SNOW_D360>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D1>Jackham (urban camo) (1 day)21_202</Item_converter_JACKHAMMER_MK3A1_TOWN_D1>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D30>Jackham (urban camo) (30 days)21_203</Item_converter_JACKHAMMER_MK3A1_TOWN_D30>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D90>Jackham (urban camo) (90 days)21_204</Item_converter_JACKHAMMER_MK3A1_TOWN_D90>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D180>Jackham (urban camo) (180 days)21_205</Item_converter_JACKHAMMER_MK3A1_TOWN_D180>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D360>Jackham (urban camo) (360 days)21_206</Item_converter_JACKHAMMER_MK3A1_TOWN_D360>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D1>Jackham (forest camo) (1 day)21_207</Item_converter_JACKHAMMER_MK3A1_WOOD_D1>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D30>Jackham (forest camo) (30 days)21_208</Item_converter_JACKHAMMER_MK3A1_WOOD_D30>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D90>Jackham (forest camo) (90 days)21)209</Item_converter_JACKHAMMER_MK3A1_WOOD_D90>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D180>Jackham (forest camo) (180 days)21_210</Item_converter_JACKHAMMER_MK3A1_WOOD_D180>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D360>Jackham (forest camo) (360 days)21_211</Item_converter_JACKHAMMER_MK3A1_WOOD_D360>
+  <Item_converter_VAL_DESERT_D1>As Val (prairie camo) (1 day)21_212</Item_converter_VAL_DESERT_D1>
+  <Item_converter_VAL_DESERT_D30>As Val (prairie camo) (30 days)21_213</Item_converter_VAL_DESERT_D30>
+  <Item_converter_VAL_DESERT_D90>As Val (prairie camo) (90 days)21_214</Item_converter_VAL_DESERT_D90>
+  <Item_converter_VAL_DESERT_D180>As Val (prairie camo) (180 days)21_215</Item_converter_VAL_DESERT_D180>
+  <Item_converter_VAL_DESERT_D360>As Val (prairie camo) (360 days)21_216</Item_converter_VAL_DESERT_D360>
+  <Item_converter_VAL_SNOW_D1>As Val (winter camo) (1 days)21_217</Item_converter_VAL_SNOW_D1>
+  <Item_converter_VAL_SNOW_D30>As Val (winter camo) (30 days)21_218</Item_converter_VAL_SNOW_D30>
+  <Item_converter_VAL_SNOW_D90>As Val (winter camo) (90 days)21_219</Item_converter_VAL_SNOW_D90>
+  <Item_converter_VAL_SNOW_D180>As Val (winter camo) (180 days)21_220</Item_converter_VAL_SNOW_D180>
+  <Item_converter_VAL_SNOW_D360>As Val (winter camo) (360 days)21_221</Item_converter_VAL_SNOW_D360>
+  <Item_converter_VAL_TOWN_D1>As Val (urban camo) (1 day)21_222</Item_converter_VAL_TOWN_D1>
+  <Item_converter_VAL_TOWN_D30>As Val (urban camo) (30 days)21_223</Item_converter_VAL_TOWN_D30>
+  <Item_converter_VAL_TOWN_D90>As Val (urban camo) (90 days)										21_224</Item_converter_VAL_TOWN_D90>
+  <Item_converter_VAL_TOWN_D180>As Val (urban camo) (180 days)21_225</Item_converter_VAL_TOWN_D180>
+  <Item_converter_VAL_TOWN_D360>As Val (urban camo) (360 days)21_226</Item_converter_VAL_TOWN_D360>
+  <Item_converter_VAL_WOOD_D1>As Val (forest camo) (1 day)21_227</Item_converter_VAL_WOOD_D1>
+  <Item_converter_VAL_WOOD_D30>As Val (forest camo) (30 days)21_228</Item_converter_VAL_WOOD_D30>
+  <Item_converter_VAL_WOOD_D90>As Val (forest camo) (90 days)21_229</Item_converter_VAL_WOOD_D90>
+  <Item_converter_VAL_WOOD_D180>As Val (forest camo) (180 days)21_230</Item_converter_VAL_WOOD_D180>
+  <Item_converter_VAL_WOOD_D360>As Val (forest camo) (360 days)21_231</Item_converter_VAL_WOOD_D360>
+  <Item_converter_FN_FAL_DESERT_D1>FN-FAL (prairie camo) (1 day)									21_232</Item_converter_FN_FAL_DESERT_D1>
+  <Item_converter_FN_FAL_DESERT_D30>FN-FAL (prairie camo) (30 days)									21_233</Item_converter_FN_FAL_DESERT_D30>
+  <Item_converter_FN_FAL_DESERT_D90>FN-FAL (prairie camo) (90 days)									21_234</Item_converter_FN_FAL_DESERT_D90>
+  <Item_converter_FN_FAL_DESERT_D180>FN-FAL (prairie camo) (180 days)								21_235</Item_converter_FN_FAL_DESERT_D180>
+  <Item_converter_FN_FAL_DESERT_D360>FN-FAL (prairie camo) (360 days)								21_236</Item_converter_FN_FAL_DESERT_D360>
+  <Item_converter_FN_FAL_SNOW_D1>FN-FAL (winter camo) (1 day)										21_237</Item_converter_FN_FAL_SNOW_D1>
+  <Item_converter_FN_FAL_SNOW_D30>FN-FAL (winter camo) (30 days)										21_238</Item_converter_FN_FAL_SNOW_D30>
+  <Item_converter_FN_FAL_SNOW_D90>FN-FAL (winter camo) (90 days)										21_239</Item_converter_FN_FAL_SNOW_D90>
+  <Item_converter_FN_FAL_SNOW_D180>FN-FAL (winter camo) (180 days)									21_240</Item_converter_FN_FAL_SNOW_D180>
+  <Item_converter_FN_FAL_SNOW_D360>FN-FAL (winter camo) (360 days)									21_241</Item_converter_FN_FAL_SNOW_D360>
+  <Item_converter_FN_FAL_TOWN_D1>FN-FAL (urban camo) (1 day)										21_242</Item_converter_FN_FAL_TOWN_D1>
+  <Item_converter_FN_FAL_TOWN_D30>FN-FAL (urban camo) (30 days)									21_243</Item_converter_FN_FAL_TOWN_D30>
+  <Item_converter_FN_FAL_TOWN_D90>FN-FAL (urban camo) (90 days)									21_244</Item_converter_FN_FAL_TOWN_D90>
+  <Item_converter_FN_FAL_TOWN_D180>FN-FAL (urban camo) (180 days)									21_245</Item_converter_FN_FAL_TOWN_D180>
+  <Item_converter_FN_FAL_TOWN_D360>FN-FAL (urban camo) (360 days)									21_246</Item_converter_FN_FAL_TOWN_D360>
+  <Item_converter_FN_FAL_WOOD_D1>FN-FAL (forest camo) (1 day)										21_247</Item_converter_FN_FAL_WOOD_D1>
+  <Item_converter_FN_FAL_WOOD_D30>FN-FAL (forest camo) (30 days)										21_248</Item_converter_FN_FAL_WOOD_D30>
+  <Item_converter_FN_FAL_WOOD_D90>FN-FAL (forest camo) (90 days)										21_249</Item_converter_FN_FAL_WOOD_D90>
+  <Item_converter_FN_FAL_WOOD_D180>FN-FAL (forest camo) (180 days)									21_250</Item_converter_FN_FAL_WOOD_D180>
+  <Item_converter_FN_FAL_WOOD_D360>FN-FAL (forest camo) (360 days)									21_251</Item_converter_FN_FAL_WOOD_D360>
+  <Item_converter_AK_47_DESERT_D1>АК-47 (prairie camo) (1 day)										21_252</Item_converter_AK_47_DESERT_D1>
+  <Item_converter_AK_47_DESERT_D30>АК-47 (prairie camo) (30 days)									21_253</Item_converter_AK_47_DESERT_D30>
+  <Item_converter_AK_47_DESERT_D90>АК-47 (prairie camo) (90 days)									21_254</Item_converter_AK_47_DESERT_D90>
+  <Item_converter_AK_47_DESERT_D180>АК-47 (prairie camo) (180 days)									21_255</Item_converter_AK_47_DESERT_D180>
+  <Item_converter_AK_47_DESERT_D360>АК-47 (prairie camo) (360 days)									21_256</Item_converter_AK_47_DESERT_D360>
+  <Item_converter_AK_47_SNOW_D1>АК-47 (winter camo) (1 day)											21_257</Item_converter_AK_47_SNOW_D1>
+  <Item_converter_AK_47_SNOW_D30>АК-47 (winter camo) (30 days)										21_258</Item_converter_AK_47_SNOW_D30>
+  <Item_converter_AK_47_SNOW_D90>АК-47 (winter camo) (90 days)										21_259</Item_converter_AK_47_SNOW_D90>
+  <Item_converter_AK_47_SNOW_D180>АК-47 (winter camo) (180 days)										21_260</Item_converter_AK_47_SNOW_D180>
+  <Item_converter_AK_47_SNOW_D360>АК-47 (winter camo) (360 days)										21_261</Item_converter_AK_47_SNOW_D360>
+  <Item_converter_AK_47_TOWN_D1>АК-47 (urban camo) (1 day)										21_262</Item_converter_AK_47_TOWN_D1>
+  <Item_converter_AK_47_TOWN_D30>АК-47 (urban camo) (30 days)										21_263</Item_converter_AK_47_TOWN_D30>
+  <Item_converter_AK_47_TOWN_D90>АК-47 (urban camo) (90 days)										21_264</Item_converter_AK_47_TOWN_D90>
+  <Item_converter_AK_47_TOWN_D180>АК-47 (urban camo) (180 days)									21_265</Item_converter_AK_47_TOWN_D180>
+  <Item_converter_AK_47_TOWN_D360>АК-47 (urban camo) (360 days)									21_266</Item_converter_AK_47_TOWN_D360>
+  <Item_converter_AK_47_WOOD_D1>АК-47 (forest camo) (1 day)											21_267</Item_converter_AK_47_WOOD_D1>
+  <Item_converter_AK_47_WOOD_D30>АК-47 (forest camo) (30 days)										21_268</Item_converter_AK_47_WOOD_D30>
+  <Item_converter_AK_47_WOOD_D90>АК-47 (forest camo) (90 days)										21_269</Item_converter_AK_47_WOOD_D90>
+  <Item_converter_AK_47_WOOD_D180>АК-47 (forest camo) (180 days)										21_270</Item_converter_AK_47_WOOD_D180>
+  <Item_converter_AK_47_WOOD_D360>АК-47 (forest camo) (360 days)										21_271</Item_converter_AK_47_WOOD_D360>
+  <Item_converter_VSS_DESERT_D1>Vss (prairie camo) (1 day)											21_272</Item_converter_VSS_DESERT_D1>
+  <Item_converter_VSS_DESERT_D30>Vss (prairie camo) (30 days)										21_273</Item_converter_VSS_DESERT_D30>
+  <Item_converter_VSS_DESERT_D90>VSS (prairie camo) (90 days)										21_274</Item_converter_VSS_DESERT_D90>
+  <Item_converter_VSS_DESERT_D180>VSS (prairie camo) (180 days)										21_275</Item_converter_VSS_DESERT_D180>
+  <Item_converter_VSS_DESERT_D360>VSS (prairie camo) (360 days)										21_276</Item_converter_VSS_DESERT_D360>
+  <Item_converter_VSS_SNOW_D1>VSS (winter camo) (1 day)												21_277</Item_converter_VSS_SNOW_D1>
+  <Item_converter_VSS_SNOW_D30>VSS (winter camo) (30 days)											21_278</Item_converter_VSS_SNOW_D30>
+  <Item_converter_VSS_SNOW_D90>VSS (winter camo) (90 days)											21_279</Item_converter_VSS_SNOW_D90>
+  <Item_converter_VSS_SNOW_D180>VSS (winter camo) (180 days)											21_280</Item_converter_VSS_SNOW_D180>
+  <Item_converter_VSS_SNOW_D360>VSS (winter camo) (360 days)											21_281</Item_converter_VSS_SNOW_D360>
+  <Item_converter_VSS_TOWN_D1>VSS (urban camo) (1 day)											21_282</Item_converter_VSS_TOWN_D1>
+  <Item_converter_VSS_TOWN_D30>VSS (urban camo) (30 days)											21_283</Item_converter_VSS_TOWN_D30>
+  <Item_converter_VSS_TOWN_D90>VSS (urban camo) (90 days)											21_284</Item_converter_VSS_TOWN_D90>
+  <Item_converter_VSS_TOWN_D180>VSS (urban camo) (180 days)										21_285</Item_converter_VSS_TOWN_D180>
+  <Item_converter_VSS_TOWN_D360>VSS (urban camo) (360 days)										21_286</Item_converter_VSS_TOWN_D360>
+  <Item_converter_VSS_WOOD_D1>VSS (forest camo) (1 day)												21_287</Item_converter_VSS_WOOD_D1>
+  <Item_converter_VSS_WOOD_D30>VSS (forest camo) (30 days)											21_288</Item_converter_VSS_WOOD_D30>
+  <Item_converter_VSS_WOOD_D90>VSS (forest camo) (90 days)											21_289</Item_converter_VSS_WOOD_D90>
+  <Item_converter_VSS_WOOD_D180>VSS (forest camo) (180 days)											21_290</Item_converter_VSS_WOOD_D180>
+  <Item_converter_VSS_WOOD_D360>VSS (forest camo) (360 days)											21_291</Item_converter_VSS_WOOD_D360>
+  <Item_converter_SVD_DESERT_D1>SVD (prairie camo) (1 day)											21_292</Item_converter_SVD_DESERT_D1>
+  <Item_converter_SVD_DESERT_D30>SVD (prairie camo) (30 days)										21_293</Item_converter_SVD_DESERT_D30>
+  <Item_converter_SVD_DESERT_D90>SVD (prairie camo) (90 days)										21_294</Item_converter_SVD_DESERT_D90>
+  <Item_converter_SVD_DESERT_D180>SVD (prairie camo) (180 days)										21_295</Item_converter_SVD_DESERT_D180>
+  <Item_converter_SVD_DESERT_D360>SVD (prairie camo) (360 days)										21_296</Item_converter_SVD_DESERT_D360>
+  <Item_converter_SVD_SNOW_D1>SVD (winter camo) (1 day)												21_297</Item_converter_SVD_SNOW_D1>
+  <Item_converter_SVD_SNOW_D30>SVD (winter camo) (30 days)											21_298</Item_converter_SVD_SNOW_D30>
+  <Item_converter_SVD_SNOW_D90>SVD (winter camo) (90 days)											21_299</Item_converter_SVD_SNOW_D90>
+  <Item_converter_SVD_SNOW_D180>SVD (winter camo) (180 days)											21_300</Item_converter_SVD_SNOW_D180>
+  <Item_converter_SVD_SNOW_D360>SVD (winter camo) (360 days)											21_301</Item_converter_SVD_SNOW_D360>
+  <Item_converter_SVD_TOWN_D1>SVD (urban camo) (1 day)											21_302</Item_converter_SVD_TOWN_D1>
+  <Item_converter_SVD_TOWN_D30>SVD (urban camo) (30 days)											21_303</Item_converter_SVD_TOWN_D30>
+  <Item_converter_SVD_TOWN_D90>SVD (urban camo) (90 days)											21_304</Item_converter_SVD_TOWN_D90>
+  <Item_converter_SVD_TOWN_D180>SVD (urban camo) (180 days)										21_305</Item_converter_SVD_TOWN_D180>
+  <Item_converter_SVD_TOWN_D360>SVD (urban camo) (360 days)										21_306</Item_converter_SVD_TOWN_D360>
+  <Item_converter_SVD_WOOD_D1>SVD (forest camo) (1 day)												21_307</Item_converter_SVD_WOOD_D1>
+  <Item_converter_SVD_WOOD_D30>SVD (forest camo) (30 days)											21_308</Item_converter_SVD_WOOD_D30>
+  <Item_converter_SVD_WOOD_D90>SVD (forest camo) (90 days)											21_309</Item_converter_SVD_WOOD_D90>
+  <Item_converter_SVD_WOOD_D180>SVD (forest camo) (180 days)											21_310</Item_converter_SVD_WOOD_D180>
+  <Item_converter_SVD_WOOD_D360>SVD (forest camo) (360 days)											21_311</Item_converter_SVD_WOOD_D360>
+  <Item_converter_SVD_FALL_D1>SVD (Fall camo) (1 day)											21_312</Item_converter_SVD_FALL_D1>
+  <Item_converter_SVD_FALL_D30>SVD (fall camo) (30 days)											21_313</Item_converter_SVD_FALL_D30>
+  <Item_converter_SVD_FALL_D90>SVD (fall camo) (90 days)											21_314</Item_converter_SVD_FALL_D90>
+  <Item_converter_SVD_FALL_D180>SVD (fall camo) (180 days)										21_315</Item_converter_SVD_FALL_D180>
+  <Item_converter_SVD_FALL_D360>SVD (fall camo) (360 days)										21_316</Item_converter_SVD_FALL_D360>
+  <Item_converter_MK12_SPR_DESERT_D1>Mk12 (prairie camo) (1 day)21_317</Item_converter_MK12_SPR_DESERT_D1>
+  <Item_converter_MK12_SPR_DESERT_D30>Mk12 (prairie camo) (30 days)21_318</Item_converter_MK12_SPR_DESERT_D30>
+  <Item_converter_MK12_SPR_DESERT_D90>Mk12 (prairie camo) (90days)21_319</Item_converter_MK12_SPR_DESERT_D90>
+  <Item_converter_MK12_SPR_DESERT_D180>Mk12 (prairie camo) (180 days)21_320</Item_converter_MK12_SPR_DESERT_D180>
+  <Item_converter_MK12_SPR_DESERT_D360>Mk12 (prairie camo) (360days)21_321</Item_converter_MK12_SPR_DESERT_D360>
+  <Item_converter_MK12_SPR_SNOW_D1>Mk12 (winter camo) (1 day)21_322</Item_converter_MK12_SPR_SNOW_D1>
+  <Item_converter_MK12_SPR_SNOW_D30>Mk12 (winter camo) (30 days)21_323</Item_converter_MK12_SPR_SNOW_D30>
+  <Item_converter_MK12_SPR_SNOW_D90>Mk12 (winter camo) (90 days)21_324</Item_converter_MK12_SPR_SNOW_D90>
+  <Item_converter_MK12_SPR_SNOW_D180>Mk12 (winter camo) (180 days)21_325</Item_converter_MK12_SPR_SNOW_D180>
+  <Item_converter_MK12_SPR_SNOW_D360>Mk12 (winter camo) (360 days)21_326</Item_converter_MK12_SPR_SNOW_D360>
+  <Item_converter_MK12_SPR_TOWN_D1>Mk12 (urban camo) (1 day)21_327</Item_converter_MK12_SPR_TOWN_D1>
+  <Item_converter_MK12_SPR_TOWN_D30>Mk12 (urban camo) (30 days)21_328</Item_converter_MK12_SPR_TOWN_D30>
+  <Item_converter_MK12_SPR_TOWN_D90>Mk12 (urban camo) (90 days)21_329</Item_converter_MK12_SPR_TOWN_D90>
+  <Item_converter_MK12_SPR_TOWN_D180>Mk12 (urban camo) (180 days)21_330</Item_converter_MK12_SPR_TOWN_D180>
+  <Item_converter_MK12_SPR_TOWN_D360>Mk12 (urban camo) (360 days)21_331</Item_converter_MK12_SPR_TOWN_D360>
+  <Item_converter_MK12_SPR_WOOD_D1>Mk12 (forest camo) (1 day)21_332</Item_converter_MK12_SPR_WOOD_D1>
+  <Item_converter_MK12_SPR_WOOD_D30>Mk12 (forest camo) (30 days)21_333</Item_converter_MK12_SPR_WOOD_D30>
+  <Item_converter_MK12_SPR_WOOD_D90>Mk12 (forest camo) (90 days)21_334</Item_converter_MK12_SPR_WOOD_D90>
+  <Item_converter_MK12_SPR_WOOD_D180>Mk12 (forest camo) (180 days)21_335</Item_converter_MK12_SPR_WOOD_D180>
+  <Item_converter_MK12_SPR_WOOD_D360>Mk12 (forest camo) (360 days)21_336</Item_converter_MK12_SPR_WOOD_D360>
+  <Item_converter_MK48_TOWN_D1>Mk48 (urban camo) (1 day)											21_337</Item_converter_MK48_TOWN_D1>
+  <Item_converter_MK48_TOWN_D30>Mk48 (urban camo) (30 days)										21_338</Item_converter_MK48_TOWN_D30>
+  <Item_converter_MK48_TOWN_D90>Mk48 (urban camo) (90 days)										21_339</Item_converter_MK48_TOWN_D90>
+  <Item_converter_MK48_TOWN_D180>Mk48 (urban camo) (180 days)										21_340</Item_converter_MK48_TOWN_D180>
+  <Item_converter_MK48_TOWN_D360>Mk48 (urban camo) (360 days)										21_341</Item_converter_MK48_TOWN_D360>
+  <Item_converter_MK48_WOOD_D1>Mk48 (forest camo) (1 day)											21_342</Item_converter_MK48_WOOD_D1>
+  <Item_converter_MK48_WOOD_D30>Mk48 (forest camo) (30 days)											21_343</Item_converter_MK48_WOOD_D30>
+  <Item_converter_MK48_WOOD_D90>Mk48 (forest camo) (90 days)											21_344</Item_converter_MK48_WOOD_D90>
+  <Item_converter_MK48_WOOD_D180>Mk48 (forest camo) (180 days)										21_345</Item_converter_MK48_WOOD_D180>
+  <Item_converter_MK48_WOOD_D360>Mk48 (forest camo) (360 days)										21_346</Item_converter_MK48_WOOD_D360>
+  <Item_converter_HAKI_SHIRT_SNOW_D1>Khaki jacket (1 day)									21_347</Item_converter_HAKI_SHIRT_SNOW_D1>
+  <Item_converter_HAKI_SHIRT_SNOW_D30>Khaki jacket (30 дней)									21_348</Item_converter_HAKI_SHIRT_SNOW_D30>
+  <Item_converter_HAKI_SHIRT_SNOW_D90>Khaki jacket (90 дней)									21_349</Item_converter_HAKI_SHIRT_SNOW_D90>
+  <Item_converter_HAKI_SHIRT_SNOW_D180>Khaki jacket (180 дней)								21_350</Item_converter_HAKI_SHIRT_SNOW_D180>
+  <Item_converter_HAKI_SHIRT_SNOW_D360>Khaki jacket (360 дней)								21_351</Item_converter_HAKI_SHIRT_SNOW_D360>
+  <Item_converter_PARTIZAN_SHIRT_D1>"Partisan" Quilted Jacket 	 							21_352</Item_converter_PARTIZAN_SHIRT_D1>
+  <Item_converter_PARTIZAN_SHIRT_D30>"Partisan" Quilted Jacket 								21_353</Item_converter_PARTIZAN_SHIRT_D30>
+  <Item_converter_PARTIZAN_SHIRT_D90>"Partisan" Quilted Jacket 								21_354</Item_converter_PARTIZAN_SHIRT_D90>
+  <Item_converter_PARTIZAN_SHIRT_D180>"Partisan" Quilted Jacket 							21_355</Item_converter_PARTIZAN_SHIRT_D180>
+  <Item_converter_PARTIZAN_SHIRT_D360>"Partisan" Quilted Jacket 							21_356</Item_converter_PARTIZAN_SHIRT_D360>
+  <Item_converter_UNIFORM_SCI_SHIRT_D1>Lab Uniform(1 day)								21_357</Item_converter_UNIFORM_SCI_SHIRT_D1>
+  <Item_converter_UNIFORM_SCI_SHIRT_D30>Lab Uniform (30 days)								21_358</Item_converter_UNIFORM_SCI_SHIRT_D30>
+  <Item_converter_UNIFORM_SCI_SHIRT_D90>Lab Uniform (90 days)								21_359</Item_converter_UNIFORM_SCI_SHIRT_D90>
+  <Item_converter_UNIFORM_SCI_SHIRT_D180>Lab Uniform (180 days)							21_360</Item_converter_UNIFORM_SCI_SHIRT_D180>
+  <Item_converter_UNIFORM_SCI_SHIRT_D360>Lab Uniform (360 days)							21_361</Item_converter_UNIFORM_SCI_SHIRT_D360>
+  <Item_converter_UNIFORM_TECH_SHIRT_D1>Lab Technician (1 day)								21_362</Item_converter_UNIFORM_TECH_SHIRT_D1>
+  <Item_converter_UNIFORM_TECH_SHIRT_D30>Lab Technician (30 days)								21_363</Item_converter_UNIFORM_TECH_SHIRT_D30>
+  <Item_converter_UNIFORM_TECH_SHIRT_D90>Lab Technician (90 days)								21_364</Item_converter_UNIFORM_TECH_SHIRT_D90>
+  <Item_converter_UNIFORM_TECH_SHIRT_D180>Lab Technician (180 days)							21_365</Item_converter_UNIFORM_TECH_SHIRT_D180>
+  <Item_converter_UNIFORM_TECH_SHIRT_D360>Lab Technician (360 days)							21_366</Item_converter_UNIFORM_TECH_SHIRT_D360>
+  <Item_converter_UNIFORM_MED_SHIRT_D1>Lab Uniform 								21_367</Item_converter_UNIFORM_MED_SHIRT_D1>
+  <Item_converter_UNIFORM_MED_SHIRT_D30>Lab Uniform 								21_368</Item_converter_UNIFORM_MED_SHIRT_D30>
+  <Item_converter_UNIFORM_MED_SHIRT_D90>Lab Uniform 								21_369</Item_converter_UNIFORM_MED_SHIRT_D90>
+  <Item_converter_UNIFORM_MED_SHIRT_D180>Lab Uniform 								21_370</Item_converter_UNIFORM_MED_SHIRT_D180>
+  <Item_converter_UNIFORM_MED_SHIRT_D360>Lab Uniform 								21_371</Item_converter_UNIFORM_MED_SHIRT_D360>
+  <Item_converter_SHIZ_PANTS_D1>SHIZ pants (1 day)												21_372</Item_converter_SHIZ_PANTS_D1>
+  <Item_converter_SHIZ_PANTS_D30>SHIZ pants (30 days)												21_373</Item_converter_SHIZ_PANTS_D30>
+  <Item_converter_SHIZ_PANTS_D90>SHIZ pants (90 days)												21_374</Item_converter_SHIZ_PANTS_D90>
+  <Item_converter_SHIZ_PANTS_D180>SHIZ pants (180 days)												21_375</Item_converter_SHIZ_PANTS_D180>
+  <Item_converter_SHIZ_PANTS_D360>SHIZ pants (360 days)												21_376</Item_converter_SHIZ_PANTS_D360>
+  <Item_converter_HAKI_PANTS_SNOW_D1>"Khaki" Pants (winter) (1 day)								21_377</Item_converter_HAKI_PANTS_SNOW_D1>
+  <Item_converter_HAKI_PANTS_SNOW_D30>"Khaki" Pants (winter) (30 days)								21_378</Item_converter_HAKI_PANTS_SNOW_D30>
+  <Item_converter_HAKI_PANTS_SNOW_D90>"Khaki" Pants (winter) (90 days)								21_379</Item_converter_HAKI_PANTS_SNOW_D90>
+  <Item_converter_HAKI_PANTS_SNOW_D180>"Khaki" Pants (winter) (180 days)							21_380</Item_converter_HAKI_PANTS_SNOW_D180>
+  <Item_converter_HAKI_PANTS_SNOW_D360>"Khaki" Pants (winter) (360 days)							21_381</Item_converter_HAKI_PANTS_SNOW_D360>
+  <Item_converter_VIKING_HELM_SNOW_D1>Viking Helmet (1 day)									21_382</Item_converter_VIKING_HELM_SNOW_D1>
+  <Item_converter_VIKING_HELM_SNOW_D30>Viking Helmet (30 days)								21_383</Item_converter_VIKING_HELM_SNOW_D30>
+  <Item_converter_VIKING_HELM_SNOW_D90>Viking Helmet (90 days)								21_384</Item_converter_VIKING_HELM_SNOW_D90>
+  <Item_converter_VIKING_HELM_SNOW_D180>Viking Helmet (180 days)								21_385</Item_converter_VIKING_HELM_SNOW_D180>
+  <Item_converter_VIKING_HELM_SNOW_D360>Viking Helmet (360 days)								21_386</Item_converter_VIKING_HELM_SNOW_D360>
+  <Item_converter_BERET_HAT_D1>Beret (1 day)                                                 21_387</Item_converter_BERET_HAT_D1>
+  <Item_converter_BERET_HAT_D30>Beret (30 days)                                                 21_388</Item_converter_BERET_HAT_D30>
+  <Item_converter_BERET_HAT_D90>Beret (90 days)                                                 21_389</Item_converter_BERET_HAT_D90>
+  <Item_converter_BERET_HAT_D180>Beret (180 days)                                                 21_390</Item_converter_BERET_HAT_D180>
+  <Item_converter_BERET_HAT_D360>Beret (360 days)                                                 21_391</Item_converter_BERET_HAT_D360>
+  <Item_converter_BERET_HAT_RED_D1>Beret(red) (1 day)											21_392</Item_converter_BERET_HAT_RED_D1>
+  <Item_converter_BERET_HAT_RED_D30>Beret(red) (30 days)										21_393</Item_converter_BERET_HAT_RED_D30>
+  <Item_converter_BERET_HAT_RED_D90>Beret(red) (90 days)										21_394</Item_converter_BERET_HAT_RED_D90>
+  <Item_converter_BERET_HAT_RED_D180>Beret(red) (180 days)										21_395</Item_converter_BERET_HAT_RED_D180>
+  <Item_converter_BERET_HAT_RED_D360>Beret(red) (360 days)										21_396</Item_converter_BERET_HAT_RED_D360>
+  <Item_converter_BERET_HAT_BLUE_D1>Beret(blue) (1 day)										21_397</Item_converter_BERET_HAT_BLUE_D1>
+  <Item_converter_BERET_HAT_BLUE_D30>Beret(blue) (30 days)										21_398</Item_converter_BERET_HAT_BLUE_D30>
+  <Item_converter_BERET_HAT_BLUE_D90>Beret(blue) (90 days)										21_399</Item_converter_BERET_HAT_BLUE_D90>
+  <Item_converter_BERET_HAT_BLUE_D180>Beret(blue) (180 days)									21_400</Item_converter_BERET_HAT_BLUE_D180>
+  <Item_converter_BERET_HAT_BLUE_D360>Beret(blue) (360 days)									21_401</Item_converter_BERET_HAT_BLUE_D360>
+  <Item_converter_SHIZ_01_HELM_D1>"Four Eyes" Helmet 									21_402</Item_converter_SHIZ_01_HELM_D1>
+  <Item_converter_SHIZ_01_HELM_D30>"Four Eyes" Helmet 									21_403</Item_converter_SHIZ_01_HELM_D30>
+  <Item_converter_SHIZ_01_HELM_D90>"Four Eyes" Helmet 									21_404</Item_converter_SHIZ_01_HELM_D90>
+  <Item_converter_SHIZ_01_HELM_D180>"Four Eyes" Helmet 									21_405</Item_converter_SHIZ_01_HELM_D180>
+  <Item_converter_SHIZ_01_HELM_D360>"Four Eyes" Helmet 									21_406</Item_converter_SHIZ_01_HELM_D360>
+  <Item_converter_SHIZ_02_HELM_D1>"Slit" Helmet 									21_407</Item_converter_SHIZ_02_HELM_D1>
+  <Item_converter_SHIZ_02_HELM_D30>"Slit" Helmet 									21_408</Item_converter_SHIZ_02_HELM_D30>
+  <Item_converter_SHIZ_02_HELM_D90>"Slit" Helmet 									21_409</Item_converter_SHIZ_02_HELM_D90>
+  <Item_converter_SHIZ_02_HELM_D180>"Slit" Helmet 									21_410</Item_converter_SHIZ_02_HELM_D180>
+  <Item_converter_SHIZ_02_HELM_D360>"Slit" Helmet 									21_411</Item_converter_SHIZ_02_HELM_D360>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D1>Round Sunglasses (1 day)							21_412</Item_converter_GLASSES_CIRC_BLACK_MASK_D1>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D30>Round Sunglasses (30 days)						21_413</Item_converter_GLASSES_CIRC_BLACK_MASK_D30>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D90>Round Sunglasses (90 days)						21_414</Item_converter_GLASSES_CIRC_BLACK_MASK_D90>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D180>Round Sunglasses (180 days)						21_415</Item_converter_GLASSES_CIRC_BLACK_MASK_D180>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D360>Round Sunglasses (360 days)						21_416</Item_converter_GLASSES_CIRC_BLACK_MASK_D360>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D1>Round Sunglasses (1 day)							21_417</Item_converter_GLASSES_CIRC_WHITE_MASK_D1>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D30>Round Sunglasses (30 days)							21_418</Item_converter_GLASSES_CIRC_WHITE_MASK_D30>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D90>Round Sunglasses (90 days)							21_419</Item_converter_GLASSES_CIRC_WHITE_MASK_D90>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D180>Round Sunglasses (180 days)						21_420</Item_converter_GLASSES_CIRC_WHITE_MASK_D180>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D360>Round Sunglasses (360 days)						21_421</Item_converter_GLASSES_CIRC_WHITE_MASK_D360>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D1>Square Sunglasses (1 day)							21_422</Item_converter_GLASSES_RECT_BLACK_MASK_D1>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D30>Square Sunglasses (30 days)						21_423</Item_converter_GLASSES_RECT_BLACK_MASK_D30>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D90>Square Sunglasses (90 days)						21_424</Item_converter_GLASSES_RECT_BLACK_MASK_D90>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D180>Square Sunglasses (180 days)						21_425</Item_converter_GLASSES_RECT_BLACK_MASK_D180>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D360>Square Sunglasses (360 days)						21_426</Item_converter_GLASSES_RECT_BLACK_MASK_D360>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D1>Square Sunglasses (1 day)							21_427</Item_converter_GLASSES_RECT_WHITE_MASK_D1>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D30>Square Sunglasses (30 days)							21_428</Item_converter_GLASSES_RECT_WHITE_MASK_D30>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D90>Square Sunglasses (90 days)							21_429</Item_converter_GLASSES_RECT_WHITE_MASK_D90>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D180>Square Sunglasses (180 days)						21_430</Item_converter_GLASSES_RECT_WHITE_MASK_D180>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D360>Square Sunglasses (360 days)						21_431</Item_converter_GLASSES_RECT_WHITE_MASK_D360>
+  <Item_converter_GLASSES_KOBRA_MASK_D1>Cobra Glasses (1 day)									21_432</Item_converter_GLASSES_KOBRA_MASK_D1>
+  <Item_converter_GLASSES_KOBRA_MASK_D30>Cobra Glasses (30 days)								21_433</Item_converter_GLASSES_KOBRA_MASK_D30>
+  <Item_converter_GLASSES_KOBRA_MASK_D90>Cobra Glasses (90 days)								21_434</Item_converter_GLASSES_KOBRA_MASK_D90>
+  <Item_converter_GLASSES_KOBRA_MASK_D180>Cobra Glasses (180 days)								21_435</Item_converter_GLASSES_KOBRA_MASK_D180>
+  <Item_converter_GLASSES_KOBRA_MASK_D360>Cobra Glasses (360 days)								21_436</Item_converter_GLASSES_KOBRA_MASK_D360>
+  <Item_converter_SHIZ_ARMOR_D1>SHIZ Armor Vest (1 day)										21_437</Item_converter_SHIZ_ARMOR_D1>
+  <Item_converter_SHIZ_ARMOR_D30>ZHIZ Armor Vest (30 days)										21_438</Item_converter_SHIZ_ARMOR_D30>
+  <Item_converter_SHIZ_ARMOR_D90>ZHIZ Armor Vest (90 days)										21_439</Item_converter_SHIZ_ARMOR_D90>
+  <Item_converter_SHIZ_ARMOR_D180>ZHIZ Armor Vest (180 days)									21_440</Item_converter_SHIZ_ARMOR_D180>
+  <Item_converter_SHIZ_ARMOR_D360>ZHIZ Armor Vest (360 days)									21_441</Item_converter_SHIZ_ARMOR_D360>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D1>Spinach (winter) 								21_442</Item_converter_SHPINAT_ARMOR_SNOW_D1>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D30>Spinach (winter) 								21_443</Item_converter_SHPINAT_ARMOR_SNOW_D30>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D90>Spinach (winter) 								21_444</Item_converter_SHPINAT_ARMOR_SNOW_D90>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D180>Spinach (winter) 								21_445</Item_converter_SHPINAT_ARMOR_SNOW_D180>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D360>Spinach (winter) 								21_446</Item_converter_SHPINAT_ARMOR_SNOW_D360>
+  <Item_converter_TASH_ARMOR_SNOW_D1>TASH (winter)										21_447</Item_converter_TASH_ARMOR_SNOW_D1>
+  <Item_converter_TASH_ARMOR_SNOW_D30>TASH (winter)										21_448</Item_converter_TASH_ARMOR_SNOW_D30>
+  <Item_converter_TASH_ARMOR_SNOW_D90>TASH (winter)										21_449</Item_converter_TASH_ARMOR_SNOW_D90>
+  <Item_converter_TASH_ARMOR_SNOW_D180>TASH (winter)										21_450</Item_converter_TASH_ARMOR_SNOW_D180>
+  <Item_converter_TASH_ARMOR_SNOW_D360>TASH (winter)										21_451</Item_converter_TASH_ARMOR_SNOW_D360>
+  <Item_converter_RAVENWOOD_ARMOR_D1>RW Armor (1 day)										21_452</Item_converter_RAVENWOOD_ARMOR_D1>
+  <Item_converter_RAVENWOOD_ARMOR_D30>RW Armor (30 days)										21_453</Item_converter_RAVENWOOD_ARMOR_D30>
+  <Item_converter_RAVENWOOD_ARMOR_D90>RW Armor (90 days)										21_454</Item_converter_RAVENWOOD_ARMOR_D90>
+  <Item_converter_RAVENWOOD_ARMOR_D180>RW Armor (180 days)										21_455</Item_converter_RAVENWOOD_ARMOR_D180>
+  <Item_converter_RAVENWOOD_ARMOR_D360>RW Armor (360 days)										21_456</Item_converter_RAVENWOOD_ARMOR_D360>
+  <Item_converter_KINOLOG_SUIT_D1>Cynologist Suit (1 day)									21_457</Item_converter_KINOLOG_SUIT_D1>
+  <Item_converter_KINOLOG_SUIT_D30>Cynologist Suit (30 days)									21_458</Item_converter_KINOLOG_SUIT_D30>
+  <Item_converter_KINOLOG_SUIT_D90>Cynologist Suit (90 days)									21_459</Item_converter_KINOLOG_SUIT_D90>
+  <Item_converter_KINOLOG_SUIT_D180>Cynologist Suit (180 days)								21_460</Item_converter_KINOLOG_SUIT_D180>
+  <Item_converter_KINOLOG_SUIT_D360>Cynologist Suit (360 days)								21_461</Item_converter_KINOLOG_SUIT_D360>
+  <Item_converter_SINGLE_SUIT_D1>"Loner" Suit 									21_462</Item_converter_SINGLE_SUIT_D1>
+  <Item_converter_SINGLE_SUIT_D30>"Loner" Suit 									21_463</Item_converter_SINGLE_SUIT_D30>
+  <Item_converter_SINGLE_SUIT_D90>"Loner" Suit 								21_464</Item_converter_SINGLE_SUIT_D90>
+  <Item_converter_SINGLE_SUIT_D180>"Loner" Suit 								21_465</Item_converter_SINGLE_SUIT_D180>
+  <Item_converter_SINGLE_SUIT_D360>"Loner" Suit 								21_466</Item_converter_SINGLE_SUIT_D360>
+  <Item_converter_PARTIZAN_BACKPACK_D1>"Partisan" Backpack (1 day)									21_467</Item_converter_PARTIZAN_BACKPACK_D1>
+  <Item_converter_PARTIZAN_BACKPACK_D30>"Partisan" Backpack (30 days)								21_468</Item_converter_PARTIZAN_BACKPACK_D30>
+  <Item_converter_PARTIZAN_BACKPACK_D90>"Partisan" Backpack (90 days)								21_469</Item_converter_PARTIZAN_BACKPACK_D90>
+  <Item_converter_PARTIZAN_BACKPACK_D180>"Partisan" Backpack (180 days)								21_470</Item_converter_PARTIZAN_BACKPACK_D180>
+  <Item_converter_PARTIZAN_BACKPACK_D360>"Partisan" Backpack (360 days)								21_471</Item_converter_PARTIZAN_BACKPACK_D360>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D1>"Partisan" Backpack (winter) (1 day)						21_472</Item_converter_PARTIZAN_BACKPACK_SNOW_D1>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D30>"Partisan" Backpack (winter) (30 days)					21_473</Item_converter_PARTIZAN_BACKPACK_SNOW_D30>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D90>"Partisan" Backpack (winter) (90 days)				     21_474</Item_converter_PARTIZAN_BACKPACK_SNOW_D90>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D180>"Partisan" Backpack (winter) (180 days)					21_475</Item_converter_PARTIZAN_BACKPACK_SNOW_D180>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D360>"Partisan" Backpack (winter) (360 days)					21_476</Item_converter_PARTIZAN_BACKPACK_SNOW_D360>
+  <Item_converter_SINGLE_BACKPACK_D1>"Loner" Backpack 									21_477</Item_converter_SINGLE_BACKPACK_D1>
+  <Item_converter_SINGLE_BACKPACK_D30>"Loner" Backpack 								21_478</Item_converter_SINGLE_BACKPACK_D30>
+  <Item_converter_SINGLE_BACKPACK_D90>"Loner" Backpack 								21_479</Item_converter_SINGLE_BACKPACK_D90>
+  <Item_converter_SINGLE_BACKPACK_D180>"Loner" Backpack 								21_480</Item_converter_SINGLE_BACKPACK_D180>
+  <Item_converter_SINGLE_BACKPACK_D360>"Loner" Backpack 								21_481</Item_converter_SINGLE_BACKPACK_D360>
+  <Item_converter_CERBER_ARMOR_D1>Jackal Combat Armor(1 day)										21_482</Item_converter_CERBER_ARMOR_D1>
+  <Item_converter_CERBER_ARMOR_D30>Jackal Combat Armor(30 days)										21_483</Item_converter_CERBER_ARMOR_D30>
+  <Item_converter_CERBER_ARMOR_D90>Jackal Combat Armor(90 days)										21_484</Item_converter_CERBER_ARMOR_D90>
+  <Item_converter_CERBER_ARMOR_D180>Jackal Combat Armor(180 days)										21_485</Item_converter_CERBER_ARMOR_D180>
+  <Item_converter_CERBER_ARMOR_D360>Jackal Combat Armor(360 days)										21_486</Item_converter_CERBER_ARMOR_D360>
+  <Item_converter_CERBER_SHIRT_D1>Jackal Jacket(1 day)										21_487</Item_converter_CERBER_SHIRT_D1>
+  <Item_converter_CERBER_SHIRT_D30>Jackal Jacket (30 days)									21_488</Item_converter_CERBER_SHIRT_D30>
+  <Item_converter_CERBER_SHIRT_D90>Jackal Jacket (90 days)									21_489</Item_converter_CERBER_SHIRT_D90>
+  <Item_converter_CERBER_SHIRT_D180>Jackal Jacket (180 days)									21_490</Item_converter_CERBER_SHIRT_D180>
+  <Item_converter_CERBER_SHIRT_D360>Jackal Jacket (360 days)									21_491</Item_converter_CERBER_SHIRT_D360>
+  <Item_converter_CERBER_PANTS_D1>Jackal Pants (1 day)										21_492</Item_converter_CERBER_PANTS_D1>
+  <Item_converter_CERBER_PANTS_D30>Jackal Pants (30 days)									21_493</Item_converter_CERBER_PANTS_D30>
+  <Item_converter_CERBER_PANTS_D90>Jackal Pants (90 days)									21_494</Item_converter_CERBER_PANTS_D90>
+  <Item_converter_CERBER_PANTS_D180>Jackal Pants (180 days)									21_495</Item_converter_CERBER_PANTS_D180>
+  <Item_converter_CERBER_PANTS_D360>Jackal Pant (360 days)									21_496</Item_converter_CERBER_PANTS_D360>
+  <Item_converter_RAVENWOOD_HELM_D1>Ravenwood Helmet (1 day)										21_497</Item_converter_RAVENWOOD_HELM_D1>
+  <Item_converter_RAVENWOOD_HELM_D30>Ravenwood Helmet (30 days)										21_498</Item_converter_RAVENWOOD_HELM_D30>
+  <Item_converter_RAVENWOOD_HELM_D90>Ravenwood Helmet (90 days)										21_499</Item_converter_RAVENWOOD_HELM_D90>
+  <Item_converter_RAVENWOOD_HELM_D180>Ravenwood Helmet (180 days)									21_500</Item_converter_RAVENWOOD_HELM_D180>
+  <Item_converter_RAVENWOOD_HELM_D360>Ravenwood Helmet (360 days)									21_501</Item_converter_RAVENWOOD_HELM_D360>
+  <Item_converter_RAVENWOOD_PANTS_D1>Pants RW 										21_502</Item_converter_RAVENWOOD_PANTS_D1>
+  <Item_converter_RAVENWOOD_PANTS_D30>Pants RW 										21_503</Item_converter_RAVENWOOD_PANTS_D30>
+  <Item_converter_RAVENWOOD_PANTS_D90>Pants RW 										21_504</Item_converter_RAVENWOOD_PANTS_D90>
+  <Item_converter_RAVENWOOD_PANTS_D180>Pants RW 										21_505</Item_converter_RAVENWOOD_PANTS_D180>
+  <Item_converter_RAVENWOOD_PANTS_D360>Pants RW 										21_506</Item_converter_RAVENWOOD_PANTS_D360>
+  <Item_converter_SIG_751_D1>Sig-751 (1 day)													21_507</Item_converter_SIG_751_D1>
+  <Item_converter_SIG_751_D30>Sig-751 (30 days)												21_508</Item_converter_SIG_751_D30>
+  <Item_converter_SIG_751_D90>Sig-751 (90 days)												21_509</Item_converter_SIG_751_D90>
+  <Item_converter_SIG_751_D180>Sig-751 (180 days)												21_510</Item_converter_SIG_751_D180>
+  <Item_converter_SIG_751_D360>Sig-751 (360 days)												21_511</Item_converter_SIG_751_D360>
+  <Item_converter_WA_2000_D1>WA-2000 (1 day)													21_512</Item_converter_WA_2000_D1>
+  <Item_converter_WA_2000_D30>WA-2000 (30 days)												21_513</Item_converter_WA_2000_D30>
+  <Item_converter_WA_2000_D90>WA-2000 (90 days)												21_514</Item_converter_WA_2000_D90>
+  <Item_converter_WA_2000_D180>WA-2000 (180 days)												21_515</Item_converter_WA_2000_D180>
+  <Item_converter_WA_2000_D360>WA-2000 (360 days)												21_516</Item_converter_WA_2000_D360>
+  <Item_converter_WA_2000_DESERT_D1>WA-2000 (prairie camo) (1 day)									21_517</Item_converter_WA_2000_DESERT_D1>
+  <Item_converter_WA_2000_DESERT_D30>WA-2000 (prairie camo) (30 days)								21_518</Item_converter_WA_2000_DESERT_D30>
+  <Item_converter_WA_2000_DESERT_D90>WA-2000 (prairie camo) (90 days)								21_519</Item_converter_WA_2000_DESERT_D90>
+  <Item_converter_WA_2000_DESERT_D180>WA-2000 (prairie camo) (180 days)								21_520</Item_converter_WA_2000_DESERT_D180>
+  <Item_converter_WA_2000_DESERT_D360>WA-2000 (prairie camo) (360 days)								21_521</Item_converter_WA_2000_DESERT_D360>
+  <Item_converter_WA_2000_SNOW_D1>WA-2000 (winter camo) (1 day)										21_522</Item_converter_WA_2000_SNOW_D1>
+  <Item_converter_WA_2000_SNOW_D30>WA-2000 (winter camo) (30 days)									21_523</Item_converter_WA_2000_SNOW_D30>
+  <Item_converter_WA_2000_SNOW_D90>WA-2000 (winter camo) (90 days)									21_524</Item_converter_WA_2000_SNOW_D90>
+  <Item_converter_WA_2000_SNOW_D180>WA-2000 (winter camo) (180 days)									21_525</Item_converter_WA_2000_SNOW_D180>
+  <Item_converter_WA_2000_SNOW_D360>WA-2000 (winter camo) (360 days)									21_526</Item_converter_WA_2000_SNOW_D360>
+  <Item_converter_WA_2000_TOWN_D1>WA-2000 (urban camo) (1 day)									21_527</Item_converter_WA_2000_TOWN_D1>
+  <Item_converter_WA_2000_TOWN_D30>WA-2000 (urban camo) (30 days)									21_528</Item_converter_WA_2000_TOWN_D30>
+  <Item_converter_WA_2000_TOWN_D90>WA-2000 (urban camo) (90 days)									21_529</Item_converter_WA_2000_TOWN_D90>
+  <Item_converter_WA_2000_TOWN_D180>WA-2000 (urban camo) (180 days)								21_530</Item_converter_WA_2000_TOWN_D180>
+  <Item_converter_WA_2000_TOWN_D360>WA-2000 (urban camo) (360 days)								21_531</Item_converter_WA_2000_TOWN_D360>
+  <Item_converter_WA_2000_WOOD_D1>WA-2000 (forest camo) (1 day)										21_532</Item_converter_WA_2000_WOOD_D1>
+  <Item_converter_WA_2000_WOOD_D30>WA-2000 (forest camo) (30 days)									21_533</Item_converter_WA_2000_WOOD_D30>
+  <Item_converter_WA_2000_WOOD_D90>WA-2000 (forest camo) (90 days)									21_534</Item_converter_WA_2000_WOOD_D90>
+  <Item_converter_WA_2000_WOOD_D180>WA-2000 (forest camo) (180 days)									21_535</Item_converter_WA_2000_WOOD_D180>
+  <Item_converter_WA_2000_WOOD_D360>WA-2000 (forest camo) (360 дней)									21_536</Item_converter_WA_2000_WOOD_D360>
+  <Item_converter_CHIMERA_CLAN_BACKPACK_D90>Chimera Backpack (90 days)							21_537</Item_converter_CHIMERA_CLAN_BACKPACK_D90>
+  <Item_converter_CHIMERA_CLAN_BACKPACK_D180>Chimera Backpack (180 days)							21_538</Item_converter_CHIMERA_CLAN_BACKPACK_D180>
+  <Item_converter_CHIMERA_CLAN_BACKPACK_D360>Chimra Backpack (360 days)							21_539</Item_converter_CHIMERA_CLAN_BACKPACK_D360>
+  <Item_converter_ANOMALY_EXTRACTOR_MODULE_D7>MGD                                	21_540</Item_converter_ANOMALY_EXTRACTOR_MODULE_D7>
+  <Item_converter_ANOMALY_EXTRACTOR_MODULE_D90>MGD                                21_541</Item_converter_ANOMALY_EXTRACTOR_MODULE_D90>
+  <Item_converter_VOENSTAL_M2>"Voenstal" Suit М2                               				21_542</Item_converter_VOENSTAL_M2>
+  <Item_converter_SIGMA_M2>"Sigma" Suit М2                               					21_543</Item_converter_SIGMA_M2>
+  <Item_converter_DSC_M2>"Storm" Suit М2                             						21_544</Item_converter_DSC_M2>
+  <Item_converter_MASK_SNIPE_M2>Shelter Suit М2                              					21_545</Item_converter_MASK_SNIPE_M2>
+  <Item_converter_SVOBODA_GUARD_M2>"Guard" Suit M2                             				21_546</Item_converter_SVOBODA_GUARD_M2>
+  <Item_converter_INQUISITOR_M2>"Inquisitor" Suit М2                         				21_547</Item_converter_INQUISITOR_M2>
+  <Item_converter_PREDATOR_M2>"Predator" Suit М2                            					21_548</Item_converter_PREDATOR_M2>
+  <Item_converter_SILENCE_M2>"Silence" Suit М2                          						21_549</Item_converter_SILENCE_M2>
+  <Item_converter_CHIMERA_M2>"Chimera" Suit М2                           					21_550</Item_converter_CHIMERA_M2>
+  <Item_converter_STELS_M2>"STELS" Suit М2                          						21_551</Item_converter_STELS_M2>
+  <Item_converter_SINGLE_SUIT_M2>"Loner" Suit М2                     					21_552</Item_converter_SINGLE_SUIT_M2>
+  <Item_converter_VEKSEL_10k_5k>10000v &gt;&gt; 2 * 5000v														21_553</Item_converter_VEKSEL_10k_5k>
+  <Item_converter_VEKSEL_5k_1k>5000v &gt;&gt; 5 * 1000v															21_554</Item_converter_VEKSEL_5k_1k>
+  <Item_converter_VEKSEL_1k_500>1000v &gt;&gt; 2 * 500v															21_555</Item_converter_VEKSEL_1k_500>
+  <Item_converter_VEKSEL_500_100>500v &gt;&gt; 5 * 100v															21_556</Item_converter_VEKSEL_500_100>
+  <Item_converter_VEKSEL_100_50>100v &gt;&gt; 2 * 50v															21_557</Item_converter_VEKSEL_100_50>
+  <Item_converter_VEKSEL_100_20>100v &gt;&gt; 5 * 20v															21_558</Item_converter_VEKSEL_100_20>
+  <Item_converter_VEKSEL_50_100>2 * 50v &gt;&gt; 100v															21_559</Item_converter_VEKSEL_50_100>
+  <Item_converter_VEKSEL_100_500>5 * 100v &gt;&gt; 500v															21_560</Item_converter_VEKSEL_100_500>
+  <Item_converter_VEKSEL_500_1k>2 * 500v &gt;&gt; 1000v															21_561</Item_converter_VEKSEL_500_1k>
+  <Item_converter_VEKSEL_1k_5k>5 * 1000v &gt;&gt; 5000v															21_562</Item_converter_VEKSEL_1k_5k>
+  <Item_converter_VEKSEL_5k_10k>2 * 5000v &gt;&gt; 10000v														21_563</Item_converter_VEKSEL_5k_10k>
+  <Item_converter_2_12k_silencers>Silencer exchange 12k													21_564</Item_converter_2_12k_silencers>
+  <Item_converter_craft_recipe_asval>"As-Val" &gt;&gt; Spare Parts											21_565</Item_converter_craft_recipe_asval>
+  <Item_converter_craft_recipe_vss>"Vss" &gt;&gt; Spare Parts												21_566</Item_converter_craft_recipe_vss>
+  <Item_converter_parts_vss>&lt;NO DATA&gt;</Item_converter_parts_vss>
+  <Item_converter_parts_as>&lt;NO DATA&gt;</Item_converter_parts_as>
+  <Item_converter_parts_mk48>&lt;NO DATA&gt;</Item_converter_parts_mk48>
+  <Item_converter_parts_jack>&lt;NO DATA&gt;</Item_converter_parts_jack>
+  <Nishtyak_Barter_Firewood>Firewood                                         22_1</Nishtyak_Barter_Firewood>
+  <CFT_MED_TABLETS5_NOSHPA>No-spa tablets                                          23_1</CFT_MED_TABLETS5_NOSHPA>
+  <CFT_MED_TABLETS2_KREON>Creon Tablets                                          23_2</CFT_MED_TABLETS2_KREON>
+  <CFT_MED_TABLETS1_ANALGIN>Analgesic Tablets                                          23_3</CFT_MED_TABLETS1_ANALGIN>
+  <CFT_MED_TABLETS4_KAPOTEN>Capoten Tablets                                          23_4</CFT_MED_TABLETS4_KAPOTEN>
+  <CFT_HERB_FETUS_MATCHES>Matches                                          23_5</CFT_HERB_FETUS_MATCHES>
+  <CFT_PISTOL_SHELLS>Shells                                          23_6</CFT_PISTOL_SHELLS>
+  <CFT_PAINT_TIN>Empty paint pot                                          23_7</CFT_PAINT_TIN>
+  <CFT_HERB_MUSHROOM_GREBE>Deathcap Mushroom                                          23_8</CFT_HERB_MUSHROOM_GREBE>
+</root>

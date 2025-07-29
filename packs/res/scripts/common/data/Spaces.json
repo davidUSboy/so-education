@@ -1,0 +1,231 @@
+{
+	"Spaces" : 
+	{
+        "defaults":
+        {
+            "periods":
+            {
+                "day":		"04:00",
+                "night":	"22:00"
+            },
+            "start_global_time":   "12:00",
+            "period_duration":   3.500000,
+            "start_local_time":   "12:00"
+        },	
+
+	"spaces/so_origins":
+	        {
+			"default": "Fog",
+			"start_local_time":   "12:00",
+			"period_duration":    10000000000000000.00
+	        },
+
+	"spaces/city_lubech":
+        	{
+			"default": "Fog",
+			"start_local_time":   "09:00",
+			"period_duration":   3.500000,
+	        "periods":
+        	{
+	                "weather_day_09_15":		             "09:00",
+	                "weather_evening_sun_15_19":		     "15:00",
+	                "weather_evening_moon_19_21":         	 "19:00",
+	                "weather_night_21_03":		           	 "21:00",
+	                "weather_morning_moon_03_05":            "03:00",
+	                "weather_mornong_sun_05_09":             "05:00"
+	            }
+        	},
+
+	"spaces/outlands":
+	        {
+			"default": "Fog",
+			"start_local_time":   "09:00",
+			"period_duration":   3.500000,
+	        "periods":
+        	{
+	                "weather_day_09_15":		             "09:00",
+	                "weather_evening_sun_15_19":		     "15:00",
+	                "weather_evening_moon_19_21":         	 "19:00",
+	                "weather_night_21_03":		           	 "21:00",
+	                "weather_morning_moon_03_05":            "03:00",
+	                "weather_mornong_sun_05_09":             "05:00"
+	            }
+        	},
+
+	"spaces/vesuvius":
+	        {
+			"default": "Fog",
+			"start_local_time":   "09:00",
+			"period_duration":   3.500000,
+	        "periods":
+        	{
+	                "weather_day_09_15":		             "09:00",
+	                "weather_evening_sun_15_19":		     "15:00",
+	                "weather_evening_moon_19_21":         	 "19:00",
+	                "weather_night_21_03":		           	 "21:00",
+	                "weather_morning_moon_03_05":            "03:00",
+	                "weather_mornong_sun_05_09":             "05:00"
+	            }
+        	},
+
+	"spaces/outlands_airport":
+	        {
+			"default": "Fog",
+			"start_local_time":   "09:00",
+			"period_duration":   3.500000,
+	        "periods":
+        	{
+	                "weather_day_09_15":		             "09:00",
+	                "weather_evening_sun_15_19":		     "15:00",
+	                "weather_evening_moon_19_21":         	 "19:00",
+	                "weather_night_21_03":		           	 "21:00",
+	                "weather_morning_moon_03_05":            "03:00",
+	                "weather_mornong_sun_05_09":             "05:00"
+	            }
+      	},
+
+	"spaces/outlands_caravan":
+	        {
+			"default": "Fog",
+			"start_local_time":   "09:00",
+			"period_duration":    3.500000,
+	        "periods":
+        	{
+	                "weather_day_09_15":		             "09:00",
+	                "weather_evening_sun_15_19":		     "15:00",
+	                "weather_evening_moon_19_21":         	 "19:00",
+	                "weather_night_21_03":		           	 "21:00",
+	                "weather_morning_moon_03_05":            "03:00",
+	                "weather_mornong_sun_05_09":             "05:00"
+	            }
+        	},
+
+	"spaces/novaya":
+	        {   
+			"default": "Blizzard",
+			"start_local_time":   "12:00",
+            "period_duration":    3.500000,
+            "periods":
+        	{
+	                "weather_day":		            		 "09:00",
+	                "weather_night":		           		 "21:20"
+	            }
+        	},
+
+	"spaces/volcano":
+        	{
+            "default": "ME_DustStorm", 			
+			"start_local_time":   "12:00",
+			"period_duration":   3.500000
+            },
+
+	"spaces/tunguska":
+	        {
+			"default": "Fog",
+			"start_local_time":   "09:00",
+			"period_duration":   3.500000,
+	        "periods":
+        	{
+	                "weather_day_09_15":		             "09:00",
+	                "weather_evening_sun_15_19":		     "15:00",
+	                "weather_evening_moon_19_21":         	 "19:00",
+	                "weather_night_21_03":		           	 "21:00",
+	                "weather_morning_moon_03_05":            "03:00",
+	                "weather_mornong_sun_05_09":             "05:00"
+	            }
+	        },
+
+	"spaces/pk_prison01":
+	        {
+		"default": "ME_Stormy",
+        	"start_local_time":   "12:00"
+	        },
+
+	"spaces/steppe":
+        	{
+	            "start_local_time":   "17:00"
+	        },
+
+	"spaces/steppe_dust":
+	        {
+        	    "start_local_time":   "17:00"
+	        },
+
+	"spaces/zoo":
+        {
+            "start_local_time":   "12:00",
+	        "period_duration":    10000000000000000.00
+        },
+	"spaces/zoo2":
+        {
+            "start_local_time":   "12:00",
+	        "period_duration":    10000000000000000.00
+        },
+	"spaces/main":
+        {
+            "start_local_time":   "15:00",
+            "period_duration":    10000000000000000.00
+        },
+	"spaces/personage_select":
+        {
+            "start_local_time":   "12:00"
+        },
+	"spaces/mm_space":
+        {
+            "start_local_time":   "12:00"
+        },
+
+	"spaces/dm_outlands_village":
+	        {
+			"default": "Day_Cloudy1",
+			"start_local_time":   "11:00",
+			"period_duration":    10000000000000000.00
+	        },
+
+	"spaces/dm_ryabinushka":
+	        {
+			"default": "Day_Cloudy2",
+			"start_local_time":   "09:34",
+			"period_duration":    10000000000000000.00
+	        },
+
+	"spaces/dm_snowland":
+	        {
+			"default": "Blizzard",
+			"start_local_time":   "12:00",
+			"period_duration":    10000000000000000.00
+	        },
+
+	"spaces/dm_rocks":
+	        {
+			"default": "Day_Cloudy3",
+			"start_local_time":   "09:30",
+			"period_duration":    10000000000000000.00
+	        },
+
+		
+		"spaces/lubech_uderground":
+        {
+            "start_local_time":   "12:00",
+            "periods":
+            {
+                "start":	   "0:00"
+            }
+
+        }
+	},
+	
+	"ZoneWeather":
+	{
+	
+	"zone_fog_strong":
+	    { 
+	        "start_local_time":   "12:00",
+            "period_duration":   3.500000,
+            "periods":
+		        {
+		        }
+		}		
+	}
+
+}

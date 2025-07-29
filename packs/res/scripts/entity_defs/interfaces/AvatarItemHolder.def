@@ -1,0 +1,309 @@
+<root>
+
+	<Implements>
+		<Interface> ItemHolder </Interface>
+	</Implements>
+
+
+	<Properties>
+
+
+		<CurrentWeaponParam>
+			<Type> CURRENT_WEAPON_ACTIVE_PARAMS </Type>
+			<Flags> OWN_CLIENT </Flags>
+			
+			<Default>
+				<AccStandModsKeys>
+					<item> 0 </item>
+					<item> 1 </item>
+					<item> 2 </item>
+					<item> 3 </item>
+					<item> 4 </item>
+					<item>5 </item>
+					<item> 6 </item>
+					<item> 7 </item>
+					<item> 8 </item>
+					<item> 9 </item>
+					<item> 10 </item>
+					<item> 11 </item>
+				</AccStandModsKeys>
+				<AccStandModsValues>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+					<item> 1 </item>
+				</AccStandModsValues>
+			</Default>
+			
+		</CurrentWeaponParam>
+
+
+		<ItemsWeight>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</ItemsWeight>
+	
+
+		<CreditNumber>
+			<Type> INT32 </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+		</CreditNumber>
+
+		<GoldCreditNumber>
+			<Type> INT32 </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+		</GoldCreditNumber>
+	
+		<ActiveItemID>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveItemID>
+		<ActiveItemType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveItemType>
+		<ActiveTintID>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveTintID>
+		<ActiveItemAmmo>
+			<Type> INT32 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveItemAmmo>
+		<ActiveItemCondition>
+			<Type> INT32 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveItemCondition>
+		<ActiveItemRepairsNumber>
+			<Type> INT32 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveItemRepairsNumber>
+		<ActiveItemJammed>
+			<Type> INT8 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveItemJammed>
+		<ActiveItemAmmoType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveItemAmmoType>
+		
+
+		
+		<PrimaryWeaponUpgrades>
+			<Type> WEAPON_UPGRADES </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>
+				<ButtType>0</ButtType>
+				<MagazineType>0</MagazineType>
+				<LauncherType>0</LauncherType>
+				<LightType>0</LightType>
+				<BayonetType>0</BayonetType>
+				<SilencerType>0</SilencerType>
+				<ScopeType>0</ScopeType>
+				<AmmoType>0</AmmoType>
+			</Default>
+		</PrimaryWeaponUpgrades>
+		
+		
+		<SecondaryWeaponUpgrades>
+			<Type> WEAPON_UPGRADES </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>
+				<ButtType>0</ButtType>
+				<MagazineType>0</MagazineType>
+				<LauncherType>0</LauncherType>
+				<LightType>0</LightType>
+				<BayonetType>0</BayonetType>
+				<SilencerType>0</SilencerType>
+				<ScopeType>0</ScopeType>
+				<AmmoType>0</AmmoType>
+			</Default>
+		</SecondaryWeaponUpgrades>
+		
+		
+
+		
+		<ActiveGrenadeID>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveGrenadeID>
+		<ActiveGrenadeType>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>0</Default>
+		</ActiveGrenadeType>
+		
+				
+		
+		<ActiveArmorSet>
+			<Type> ARMORSET </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>
+				<HeadID>0</HeadID>
+				<HeadType>0</HeadType>
+				<ShirtID>0</ShirtID>
+				<ShirtType>0</ShirtType>
+				<HandsID>0</HandsID>
+				<HandsType>0</HandsType>
+				<BootsID>0</BootsID>
+				<BootsType>0</BootsType>
+				<ArmorID>0</ArmorID>
+				<ArmorType>0</ArmorType>
+				<PantsID>0</PantsID>
+				<PantsType>0</PantsType>
+				<HatID>0</HatID>
+				<HatType>0</HatType>
+				<MaskID>0</MaskID>
+				<MaskType>0</MaskType>
+				<BackPackID>0</BackPackID>
+				<BackPackType>0</BackPackType>	
+			</Default>
+		</ActiveArmorSet>
+		
+		
+		<ActiveArmorConditionList>
+			<Type> ARRAY <of>ARMOR_CONDITION_ENTRY</of></Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default></Default>
+		</ActiveArmorConditionList>
+		
+		
+		<!--
+		-->
+		
+		<ActiveWeaponSet>
+			<Type> QIUCKWEAPONSET </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>
+				<MeleeSlotID>0</MeleeSlotID>
+				<MeleeSlotType>0</MeleeSlotType>			
+				<PrimarySlotID>0</PrimarySlotID>
+				<PrimarySlotType>0</PrimarySlotType>				
+				<SecondarySlotID>0</SecondarySlotID>
+				<SecondarySlotType>0</SecondarySlotType>
+				<MeleeSlotTintID>0</MeleeSlotTintID>
+				<PrimarySlotTintID>0</PrimarySlotTintID>
+				<SecondarySlotTintID>0</SecondarySlotTintID>
+			</Default>
+		</ActiveWeaponSet>	
+		
+		
+		<ActiveBuffSet>
+			<Type> QIUCKBUFFSET </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>
+				<FirstSlotID>0</FirstSlotID>
+				<FirstSlotType>0</FirstSlotType>	
+				<SecondSlotID>0</SecondSlotID>
+				<SecondSlotType>0</SecondSlotType>
+				<ThirdSlotID>0</ThirdSlotID>
+				<ThirdSlotType>0</ThirdSlotType>
+				<FourthSlotID>0</FourthSlotID>
+				<FourthSlotType>0</FourthSlotType>	
+			</Default>
+		</ActiveBuffSet>	
+		
+
+		
+		<ActiveGadjetSet>
+			<Type> GADJETSSET </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default>
+				<GadjetID>0</GadjetID>
+				<GadjetType>0</GadjetType>	
+				<GadjetWork>0</GadjetWork>	
+			</Default>
+		</ActiveGadjetSet>
+
+		<ActiveArtifactList>
+			<Type> ARRAY <of> ACTIVE_ARTIFACT_ENTRY </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+		</ActiveArtifactList>
+		
+		
+		<StoredItems>
+			<Type> ARRAY <of> BANK_ENTRY  </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default> </Default>
+		</StoredItems>
+		
+		<StoredItemsInShop>
+			<Type> ARRAY <of> ITEM_ID  </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default> </Default>
+		</StoredItemsInShop>
+		
+		
+		<KnowingRecipes>
+			<Type> ARRAY <of> INT32  </of> </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+			<Default> </Default>
+		</KnowingRecipes>
+		
+		<CarryingItems>
+			<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+			<Default> </Default>
+		</CarryingItems>
+		
+
+	
+
+		
+	
+		
+		
+	</Properties>
+	
+	<CellMethods>
+
+
+	
+	</CellMethods>
+	
+	
+</root>

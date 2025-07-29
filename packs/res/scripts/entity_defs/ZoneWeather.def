@@ -1,0 +1,57 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> IEventListener </Interface>
+	</Implements>
+
+	<Properties>
+		<radius>
+			<Type>			FLOAT 			                </Type>
+			<Flags>			CELL_PRIVATE			        </Flags>
+			<Default>		10.000000			            </Default>
+			<Persistent>	false			                </Persistent>
+			<Editable>		true			                </Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+		<current_weather>
+			<Type>			STRING 			                </Type>
+			<Flags>			CELL_PRIVATE			        </Flags>
+		</current_weather>
+
+		<trapped>
+			<Type>			ARRAY <of> MAILBOX </of> 		</Type>
+			<Flags>			CELL_PRIVATE			        </Flags>
+		</trapped>
+
+		<identifier>
+			<Type>			STRING 			                </Type>
+			<Flags>			CELL_PRIVATE			        </Flags>
+			<Editable>		true			                </Editable>
+		</identifier>
+
+		<state>
+			<Type>			INT8 			                </Type>
+			<Flags>			CELL_PRIVATE			        </Flags>
+			<Editable>		true			                </Editable>
+			<Default>		0			                    </Default>
+		</state>
+    </Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+
+		<setState>
+			<Arg>           INT8                            </Arg>
+		</setState>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

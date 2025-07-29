@@ -1,0 +1,28 @@
+<root>
+	
+<Properties>
+	<exploded>
+		<Type> BOOL </Type>
+		<Flags> CELL_PUBLIC </Flags>
+		<Default> 0 </Default>
+	</exploded>
+
+	<timeAvailable>
+	  <Type> FLOAT </Type>
+	  <Flags> CELL_PUBLIC </Flags>
+	  <Default> 0.000000 </Default>
+	</timeAvailable>
+</Properties>
+
+  <ClientMethods>
+  </ClientMethods>
+
+  <CellMethods>
+  	<explode>
+		<Exposed/> 
+	</explode>
+  </CellMethods>
+
+  <BaseMethods>
+  </BaseMethods>
+</root>

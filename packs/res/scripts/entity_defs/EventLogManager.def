@@ -1,0 +1,153 @@
+<Root>
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		EventLogManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+		<lastTableName>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default></Default>
+			<Persistent>	true			</Persistent>
+		</lastTableName>
+		<debug>
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0	</Default>
+			<Identifier>	false			</Identifier>
+			<Persistent>	true			</Persistent>
+		</debug>
+		<dbName>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		db_logs_beta	</Default>
+			<Identifier>	false			</Identifier>
+			<Persistent>	false			</Persistent>
+		</dbName>
+		
+		<idToDbid>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Default></Default>
+			<Persistent>	false			</Persistent>
+		</idToDbid>
+		<idToName>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Default></Default>
+			<Persistent>	false			</Persistent>
+		</idToName>
+	</Properties>
+
+
+	<BaseMethods>
+
+<!--			def logEvent(self, 
+eventID, actorID, actorDBID, actorClassName, actorPos, 
+targetID, targetDBID, targetClassName, targetPos, 
+eventExtra, eventExtraInt eventData): -->
+
+		<logEvent>
+			<Arg> ENTITY_ID </Arg> <!-- eventID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorDBID, -->
+			<Arg> STRING </Arg><!-- actorClassName, -->
+			<Arg> VECTOR3 </Arg><!-- actorPos, -->
+			<Arg> ENTITY_ID </Arg><!-- targetID, -->
+			<Arg> ENTITY_ID </Arg><!-- targetDBID, -->
+			<Arg> STRING </Arg><!-- targetClassName, -->
+			<Arg> VECTOR3 </Arg><!-- targetPos, -->
+			<Arg> FLOAT </Arg><!-- eventExtra, -->
+			<Arg> INT64 </Arg><!-- eventExtraInt, -->
+			<Arg> UNICODE_STRING </Arg><!-- eventData): -->
+			<Arg> FLOAT64 </Arg> <!-- Server event time -->
+		</logEvent>
+		
+		<logCellEvent>
+			<Arg> ENTITY_ID </Arg> <!-- eventID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorDBID, -->
+			<Arg> INT8 </Arg><!-- actorType, -->
+			<Arg> STRING </Arg><!-- actorClassName, -->
+			<Arg> INT64 </Arg><!-- actorSpaceID -->
+			<Arg> VECTOR3 </Arg><!-- actorPos, -->
+			<Arg> ENTITY_ID </Arg><!-- targetID, -->
+			<Arg> ENTITY_ID </Arg><!-- targetDBID, -->
+			<Arg> INT8 </Arg><!-- targetType, -->
+			<Arg> STRING </Arg><!-- targetClassName, -->
+			<Arg> INT64 </Arg><!-- targetSpaceID -->
+			<Arg> VECTOR3 </Arg><!-- targetPos, -->
+			<Arg> FLOAT </Arg><!-- eventExtra, -->
+			<Arg> INT64 </Arg><!-- eventExtraInt, -->
+			<Arg> UNICODE_STRING </Arg><!-- eventData): -->
+			<Arg> FLOAT64 </Arg> <!-- Server event time -->
+		</logCellEvent>
+		
+		<logFullEvent>
+			<Arg> ENTITY_ID </Arg> <!-- eventID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorDBID, -->
+			<Arg> INT8 </Arg><!-- actorType, -->
+			<Arg> STRING </Arg><!-- actorClassName, -->
+			<Arg> INT64 </Arg><!-- actorSpaceID -->
+			<Arg> VECTOR3 </Arg><!-- actorPos, -->
+			<Arg> ENTITY_ID </Arg><!-- targetID, -->
+			<Arg> ENTITY_ID </Arg><!-- targetDBID, -->
+			<Arg> INT8 </Arg><!-- targetType, -->
+			<Arg> STRING </Arg><!-- targetClassName, -->
+			<Arg> INT64 </Arg><!-- targetSpaceID -->
+			<Arg> VECTOR3 </Arg><!-- targetPos, -->
+			<Arg> FLOAT </Arg><!-- eventExtraFloat, -->
+			<Arg> FLOAT </Arg><!-- eventExtraFloat2, -->
+			<Arg> INT64 </Arg><!-- eventExtraInt, -->
+			<Arg> INT64 </Arg><!-- eventExtraInt2, -->
+			<Arg> UNICODE_STRING </Arg><!-- eventData): -->
+			<Arg> FLOAT64 </Arg> <!-- Server event time -->
+		</logFullEvent>
+		
+		<logBaseEvent>
+			<Arg> ENTITY_ID </Arg> <!-- eventID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorID, -->
+			<Arg> ENTITY_ID </Arg><!-- actorDBID, -->
+			<Arg> INT8 </Arg><!-- actorType, -->
+			<Arg> STRING </Arg><!-- actorClassName, -->
+			<Arg> ENTITY_ID </Arg><!-- targetID, -->
+			<Arg> ENTITY_ID </Arg><!-- targetDBID, -->
+			<Arg> INT8 </Arg><!-- targetType, -->
+			<Arg> STRING </Arg><!-- targetClassName, -->
+			<Arg> FLOAT </Arg><!-- eventExtra, -->
+			<Arg> INT64 </Arg><!-- eventExtraInt, -->
+			<Arg> UNICODE_STRING </Arg><!-- eventData): -->
+			<Arg> FLOAT64 </Arg> <!-- Server event time -->
+		</logBaseEvent>
+		
+
+		<registerSpace> <!-- register spaceID/spaceName for logging purposes -->
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> FLOAT64 </Arg> <!-- Server event time -->
+		</registerSpace>
+
+
+		<cleanup>
+		</cleanup>
+		
+		<webGetItemCounts>
+			<Arg> 			STRING 			</Arg> <!-- item id -->
+			<ReturnValues> <!-- actual results returned to item_check_requests table -->
+				<success> 			BOOL 		</success>
+				<errMsg> 			STRING 		</errMsg>
+			</ReturnValues>
+		</webGetItemCounts>
+		
+	</BaseMethods>
+
+	<!-- No cell methods. -->
+	<CellMethods/>
+
+	<!-- No client methods. -->
+	<ClientMethods/>
+</Root>

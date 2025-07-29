@@ -1,0 +1,164 @@
+<root>
+	<BaseMethods>
+
+		<saveCurrentPoint>
+			<Arg>	INT32			</Arg>
+			<Arg>	VECTOR3			</Arg>
+			<Arg>	STRING			</Arg>
+		</saveCurrentPoint>
+
+		<roomErrorMsg>
+			<Arg>	INT32			</Arg>
+		</roomErrorMsg>	
+		<roomMSG>
+			<Arg>	UNICODE_STRING			</Arg>
+		</roomMSG>	
+
+		#      Events from room
+		<csspawn>
+			<Arg>	INT8			</Arg>
+			<Arg>	VECTOR3			</Arg>
+			<Arg>	VECTOR3			</Arg>
+			<Arg> 	FLOAT	 		</Arg> <!-- afterTime -->
+		</csspawn>	
+
+
+		<on_AllRoomData>
+			<Arg>ROOMINFO</Arg>
+			<Arg>ARRAY <of>ENTITY_ID</of></Arg>
+		</on_AllRoomData>
+
+		<on_roomData>
+			<Arg>ROOMDETAILINFO</Arg>
+		</on_roomData>
+
+		<on_startRound>
+			<Arg>INT8</Arg>
+			<Arg>VECTOR3</Arg>
+			<Arg>VECTOR3</Arg>
+		</on_startRound>
+
+		<on_changeTeam>
+			<Arg>INT8</Arg>
+		</on_changeTeam>
+
+		<on_win> <!-- remove this -->
+			<Arg>INT8</Arg>
+			<Arg>UNICODE_STRING</Arg>
+		</on_win>
+
+		<pvpEvent>
+			<Arg>INT32</Arg>
+			<Arg>INT32</Arg>
+			<Arg>UNICODE_STRING</Arg>
+		</pvpEvent>
+
+		<on_connectToRoom>
+			<Arg>MAILBOX</Arg>
+			<Arg>INT32</Arg>
+			<Arg>VECTOR3</Arg>
+			<Arg>INT32</Arg>
+		</on_connectToRoom>
+
+		<on_leaveFromRoom>
+			<Arg>MAILBOX</Arg>
+			<Arg>UNICODE_STRING</Arg>
+		</on_leaveFromRoom>
+
+		<on_getInviteToRoom>
+			<Arg>UNICODE_STRING</Arg>
+			<Arg>ENTITY_ID</Arg>
+			<Arg>ROOMDETAILINFO</Arg>
+		</on_getInviteToRoom>
+
+
+
+
+		<getAllRooms>
+			<Exposed/>		
+		</getAllRooms>
+		
+
+
+
+		<createRoom>
+			<Exposed/>
+			<Arg>	CSGAMEINFO			</Arg>		
+		</createRoom>
+		
+
+		<deleteRoom>
+			<Exposed/>
+			<Arg>	ENTITY_ID			</Arg>		
+		</deleteRoom>
+			
+
+		
+
+
+		<leaveFromRoom>
+			<Exposed/>
+		</leaveFromRoom>
+
+		<addOwner>
+			<Exposed/>
+			<Arg> UNICODE_STRING </Arg>
+		</addOwner>
+		
+		<delOwner>
+			<Exposed/>
+			<Arg> UNICODE_STRING </Arg>
+		</delOwner>	
+
+		<inviteToRoom>
+			<Exposed/>
+			<Arg> UNICODE_STRING </Arg>
+		</inviteToRoom>
+		
+
+		<changeTeam>
+			<Exposed/>
+			<Arg> INT8 </Arg>
+		</changeTeam>
+		
+
+	<!-- 
+		<startPlaceBomb> 	<Exposed/>	</startPlaceBomb>
+		<cancelPlaceBomb> 	<Exposed/>	</cancelPlaceBomb>
+		<startDefuseBomb> 	<Exposed/>	</startDefuseBomb>
+		<cancelDefuseBomb> 	<Exposed/>	</cancelDefuseBomb> -->
+		
+		
+		
+	</BaseMethods>	
+	
+	
+	<CellMethods>
+
+
+		<connectToRoom>
+			<Exposed/>
+			<Arg>	ENTITY_ID			</Arg>		
+		</connectToRoom>	
+
+		<setCsRoom>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> VECTOR3 </Arg>
+		</setCsRoom>
+
+		<csspawn>
+			<Arg> INT8 </Arg>
+			<Arg> VECTOR3 </Arg>
+			<Arg> VECTOR3 </Arg>
+		</csspawn>
+
+		<on_changeTeam>
+			<Arg> INT8 </Arg>
+		</on_changeTeam>
+
+	</CellMethods>	
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

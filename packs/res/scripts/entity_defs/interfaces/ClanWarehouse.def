@@ -1,0 +1,103 @@
+<root>
+
+	<Implements>
+		<Interface>BaseAndCell </Interface>
+		<Interface>TimerManagerCell </Interface>
+	</Implements>
+	
+	<Properties>
+		<storedClanItems>
+			<Type> ARRAY <of> FIXED_DICT
+				<Properties>
+					<clanID>
+						<Type> INT64 </Type>
+					</clanID>
+					<storedItems>
+						<Type> ARRAY <of> COMPLEX_ITEM </of></Type>
+						<Flags> ALL_CLIENTS </Flags>
+					</storedItems>
+					
+					<money>
+						<Type> INT64 </Type>
+						<Flags> ALL_CLIENTS </Flags>
+					</money>
+					
+					<gold>
+						<Type> INT64 </Type>
+						<Flags> ALL_CLIENTS </Flags>
+					</gold>
+				</Properties>
+			</of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</storedClanItems>
+		
+		<!-- <capturedBase>
+			<Type> INT8 </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Default> 0 </Default>
+		</capturedBase> -->
+	</Properties>	
+	
+	<ClientMethods>
+	</ClientMethods>	
+	
+	<CellMethods>		
+		<setWarehouseData>
+			<Arg>   INT64  </Arg>
+			<Arg> ARRAY <of> COMPLEX_ITEM </of> </Arg>
+			<Arg>   INT64  </Arg>
+			<Arg>   INT64  </Arg>
+		</setWarehouseData>
+			
+		<getWarehouse>
+			<Exposed/>
+			<Arg>   INT64  </Arg>
+		</getWarehouse>
+		
+		<addItem>
+			<Exposed/>
+			<Arg>	INT64	</Arg>
+			<Arg>	COMPLEX_ITEM	</Arg>
+		</addItem>
+		
+		<removeItem>
+			<Exposed/>
+			<Arg>	INT64	</Arg>
+			<Arg>	COMPLEX_ITEM	</Arg>
+		</removeItem>
+		
+		<addMoney>
+			<Exposed/>
+			<Arg>	INT64	</Arg>
+			<Arg>	INT64	</Arg>
+		</addMoney>
+		
+		<addGold>
+			<Exposed/>
+			<Arg>	INT64	</Arg>
+			<Arg>	INT64	</Arg>
+		</addGold>
+		
+		<removeMoney>
+			<Exposed/>
+			<Arg>	INT64	</Arg>
+			<Arg>	INT64	</Arg>
+		</removeMoney>
+		
+		<removeGold>
+			<Exposed/>
+			<Arg>	INT64	</Arg>
+			<Arg>	INT64	</Arg>
+		</removeGold>
+
+        <remove_deposit>
+            <Arg> MAILBOX	</Arg>
+            <Arg> INT64	</Arg>
+			<Arg> INT64 </Arg>
+			<Arg> STRING </Arg>
+        </remove_deposit>
+	</CellMethods>
+	
+	<BaseMethods>
+	</BaseMethods>	
+</root>

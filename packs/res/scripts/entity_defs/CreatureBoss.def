@@ -1,0 +1,15 @@
+<root>
+	<Implements>
+	    <Interface> TimerManagerCell </Interface>
+    </Implements>
+
+    <Volatile>
+        <position/>
+        <yaw/>
+        <pitch/>
+    </Volatile>
+
+	<Properties>
+	</Properties>
+	
+</root>

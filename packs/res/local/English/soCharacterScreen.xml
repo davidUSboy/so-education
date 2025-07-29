@@ -1,0 +1,28 @@
+<root>
+  <soGUI>
+    <STRING_639_24>Characteristics:</STRING_639_24>
+    <HP>Health:</HP>
+    <speed>Speed:</speed>
+    <creditNumber>Rouble:</creditNumber>
+    <GoldCreditNumber>My balance (Gold):</GoldCreditNumber>
+    <Exp>Current experience multiplier:</Exp>
+    <endPremium>Premium account expires:</endPremium>
+    <notActive>-</notActive>
+    <capacity>Capacity</capacity>
+    <STRING_693_13>Strength:</STRING_693_13>
+    <STRING_694_13>Intelligence:</STRING_694_13>
+    <STRING_695_13>Dexterity:</STRING_695_13>
+    <STRING_696_13>Endurance:</STRING_696_13>
+    <STRING_697_13>Perception:</STRING_697_13>
+    <STRING_698_13>Psi:</STRING_698_13>
+    <STRING_775_12>Strength:</STRING_775_12>
+    <STRING_776_12>Intelligence:</STRING_776_12>
+    <STRING_777_12>Dexterity:</STRING_777_12>
+    <STRING_778_12>Endurance:</STRING_778_12>
+    <STRING_779_12>Perception:</STRING_779_12>
+    <STRING_780_12>Psi:</STRING_780_12>
+    <killedInPVP>Killed during Player vs. Player</killedInPVP>
+    <killedInPK>Killed as PlayerKiller</killedInPK>
+    <karma>Karma</karma>
+  </soGUI>
+</root>

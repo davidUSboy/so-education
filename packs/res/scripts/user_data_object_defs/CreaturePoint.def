@@ -1,0 +1,23 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+
+	<Properties>
+		<radius>
+			<Type>			FLOAT 			</Type>
+			<Default>		5.000000			</Default>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS<!--  Draw spere helper in world editor  --->
+				<colour>	0.000000 255.000000 0.000000 255.000000		</colour>
+				<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+		</radius>
+		<points>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</points>
+	</Properties>
+	
+</root>
+

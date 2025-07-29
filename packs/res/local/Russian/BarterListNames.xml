@@ -1,0 +1,827 @@
+<root>
+  <!--HK_417 STORM -->
+  <!--HK_417 STORM -->
+  <!--HK_417 STORM -->
+  <!--SIG_716 ATOMIC -->
+  <!--SIG_716 ATOMIC -->
+  <!--SIG_716 ATOMIC -->
+  <!--SIG_751G Back_in.USSR -->
+  <!--SIG_751G Back_in.USSR -->
+  <!--SIG_751G Back_in.USSR -->
+  <!--FN_SCAR_H INQUISITION -->
+  <!--FN_SCAR_H INQUISITION -->
+  <!--FN_SCAR_H INQUISITION -->
+  <!--HK_G3A Чёрные_Ангелы, Камелот -->
+  <!--HK_G3A Чёрные_Ангелы, Камелот -->
+  <!--HK_G3A Чёрные_Ангелы, Камелот -->
+  <!--HK_G3A_LAU ХИМЕРА -->
+  <!--HK_G3A_LAU ХИМЕРА -->
+  <!--HK_G3A_LAU ХИМЕРА -->
+  <!--CZ_805 SILENCE -->
+  <!--CZ_805 SILENCE -->
+  <!--CZ_805 SILENCE -->
+  <!--PECHENEG ВОЕНСТАЛ -->
+  <!--PECHENEG ВОЕНСТАЛ -->
+  <!--PECHENEG ВОЕНСТАЛ -->
+  <!--PECHENEG_AS ВОЕНСТАЛ -->
+  <!--PECHENEG_AS ВОЕНСТАЛ -->
+  <!--PECHENEG_AS ВОЕНСТАЛ -->
+  <!--SVU СВОБОДА -->
+  <!--SVU СВОБОДА -->
+  <!--SVU СВОБОДА -->
+  <!--SVU_A СВОБОДА -->
+  <!--SVU_A СВОБОДА -->
+  <!--SVU_A СВОБОДА -->
+  <!-- ОБМЕН КЛАНОВЫХ БРОНЕЙ М2 и М1 НА БЕЗТАЙМЕРНЫЕ КЛАН БРОНИ -->
+  <!-- ВОЕНСТАЛ -->
+  <!-- ВОЕНСТАЛ -->
+  <!-- ВОЕНСТАЛ -->
+  <!-- ВОЕНСТАЛ -->
+  <!-- ВОЕНСТАЛ -->
+  <!-- ВОЕНСТАЛ -->
+  <!-- Чёрные_Ангелы -->
+  <!-- Чёрные_Ангелы -->
+  <!-- Чёрные_Ангелы -->
+  <!-- Чёрные_Ангелы, Камелот -->
+  <!-- Чёрные_Ангелы, Камелот -->
+  <!-- Чёрные_Ангелы, Камелот -->
+  <!-- STORM -->
+  <!-- STORM -->
+  <!-- STORM -->
+  <!-- STORM -->
+  <!-- STORM -->
+  <!-- STORM -->
+  <!-- Back_in.USSR -->
+  <!-- Back_in.USSR -->
+  <!-- Back_in.USSR -->
+  <!-- Back_in.USSR M2_-->
+  <!-- Back_in.USSR M2_-->
+  <!-- Back_in.USSR M2_-->
+  <!-- СВОБОДА -->
+  <!-- СВОБОДА -->
+  <!-- СВОБОДА -->
+  <!-- СВОБОДА M2_-->
+  <!-- СВОБОДА M2_-->
+  <!-- СВОБОДА M2_-->
+  <!-- СВОБОДА -->
+  <!-- СВОБОДА -->
+  <!-- СВОБОДА -->
+  <!-- INQUISITION -->
+  <!-- INQUISITION -->
+  <!-- INQUISITION -->
+  <!-- INQUISITION M2_-->
+  <!-- INQUISITION M2_-->
+  <!-- INQUISITION M2_-->
+  <!-- ATOMIC -->
+  <!-- ATOMIC -->
+  <!-- ATOMIC -->
+  <!-- ATOMIC M2_-->
+  <!-- ATOMIC M2_-->
+  <!-- ATOMIC M2_-->
+  <!-- SILENCE -->
+  <!-- SILENCE -->
+  <!-- SILENCE -->
+  <!-- SILENCE M2_-->
+  <!-- SILENCE M2_-->
+  <!-- SILENCE M2_-->
+  <!-- ХИМЕРА -->
+  <!-- ХИМЕРА -->
+  <!-- ХИМЕРА -->
+  <!-- ХИМЕРА M2_-->
+  <!-- ХИМЕРА M2_-->
+  <!-- ХИМЕРА M2_-->
+  <!-- STELS, *СИНДИКАТ* -->
+  <!-- STELS, *СИНДИКАТ* -->
+  <!-- STELS, *СИНДИКАТ* -->
+  <!-- STELS, *СИНДИКАТ* M2_-->
+  <!-- STELS, *СИНДИКАТ* M2_-->
+  <!-- STELS, *СИНДИКАТ* M2-->
+  <!-- ОБМЕН КЛАНОВОГО БЕЗТАЙМЕРНОГО ОРУЖИЯ НА ИГРОВЫЕ АНАЛОГИ (забесплатно пока) -->
+  <!-- ОБМЕН КЛАНОВЫХ БЕЗТАЙМЕРНЫХ БРОНЕЙ НА ИГРОВЫЕ АНАЛОГИ (забесплатно пока) -->
+  <!-- ОБМЕН ИГРОВЫХ ТАЙМЕРНЫХ ВЕЩЕЙ НА БЕЗТАЙМЕРНЫЕ -->
+  <!-- Дрова -->
+  <PMcombine_Vokzal_repairman_Barter>Собрать ПМ                                1_1</PMcombine_Vokzal_repairman_Barter>
+  <KolobokBag_Shtaket_Barter>Рюкзак "Колобок"                                2_1</KolobokBag_Shtaket_Barter>
+  <MK48_BanditCave_Barter>Пулемет MK48                                3_1</MK48_BanditCave_Barter>
+  <Glock18_BanditCave_Barter>Пистолет Glock-18                                3_2</Glock18_BanditCave_Barter>
+  <ArmyBag_BanditCave_Barter>Армейский рюкзак                                3_3</ArmyBag_BanditCave_Barter>
+  <Ammo357APx5_NZ_Art_Ammo>.357 (брон.) (х6)                               4_1</Ammo357APx5_NZ_Art_Ammo>
+  <Ammo9x39SP6x10_NZ_Art_Ammo>9x39 СП-6 (х10)                               4_2</Ammo9x39SP6x10_NZ_Art_Ammo>
+  <Ammo9x39SP6x5_NZ_Art_Ammo>9x39 СП-6 (х5)                               4_3</Ammo9x39SP6x5_NZ_Art_Ammo>
+  <Ammo545BSVOLFRx10_NZ_Art_Ammo>5.45x39 (брон.) (х10)                               4_4</Ammo545BSVOLFRx10_NZ_Art_Ammo>
+  <Ammo545BSVOLFRx5_NZ_Art_Ammo>5.45x39 (брон.) (х5)                               4_5</Ammo545BSVOLFRx5_NZ_Art_Ammo>
+  <Ammo762BP_APx10_NZ_Art_Ammo>7.62x39 (брон.) (х10)                               4_6</Ammo762BP_APx10_NZ_Art_Ammo>
+  <Ammo762BP_APx5_NZ_Art_Ammo>7.62x39 (брон.) (х5)                               4_7</Ammo762BP_APx5_NZ_Art_Ammo>
+  <AmmoM993APx10_NZ_Art_Ammo>7.62x51 (брон.) (х10)                               4_8</AmmoM993APx10_NZ_Art_Ammo>
+  <AmmoM993APx5_NZ_Art_Ammo>7.62x51 (брон.) (х5)                               4_9</AmmoM993APx5_NZ_Art_Ammo>
+  <Ammo762x54BP_APx10_NZ_Art_Ammo>7.62x54 (брон.) (х10)                               4_10</Ammo762x54BP_APx10_NZ_Art_Ammo>
+  <Ammo762x54BP_APx5_NZ_Art_Ammo>7.62x54 (брон.) (х5)                               4_11</Ammo762x54BP_APx5_NZ_Art_Ammo>
+  <Ammo12_70x10_NZ_Art_Ammo>12/70 картечь (х10)                                4_12</Ammo12_70x10_NZ_Art_Ammo>
+  <Ammo12_70x5_NZ_Art_Ammo>12/70 картечь (х5)                                4_13</Ammo12_70x5_NZ_Art_Ammo>
+  <Ammo12_76x10_NZ_Art_Ammo>12/76 картечь (х10)                                4_14</Ammo12_76x10_NZ_Art_Ammo>
+  <Ammo12_76x5_NZ_Art_Ammo>12/76 картечь (х5)                                4_15</Ammo12_76x5_NZ_Art_Ammo>
+  <GrenadeF1x14_NZ_Art_Ammo>Граната Ф-1 (х14)                               4_16</GrenadeF1x14_NZ_Art_Ammo>
+  <GrenadeF1x10_NZ_Art_Ammo>Граната Ф-1 (х10)                               4_17</GrenadeF1x10_NZ_Art_Ammo>
+  <AK74Combine_NZ_repairman_Barter>Собрать АК-74                                 5_1</AK74Combine_NZ_repairman_Barter>
+  <Weapon_AK107_Swamp_barter>Автомат АК-107                                6_1</Weapon_AK107_Swamp_barter>
+  <ArmorNindja_Swamp_barter>Бронежилет "Ниндзя"                                6_2</ArmorNindja_Swamp_barter>
+  <ArmorIronRat_Swamp_barter>"Железная Крыса"                                6_3</ArmorIronRat_Swamp_barter>
+  <Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_V>5.45x39 (брон.) (х2)                                7_1</Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_V>
+  <Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_P>5.45x39 (брон.) (х2)                                7_2</Ammo545BSVOLFRx2_Swamp_Shkurnik_barter_P>
+  <Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_V>7.62x51 (брон.) (х4)                                 7_3</Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_V>
+  <Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_P>7.62x51 (брон.) (х4)                                 7_4</Ammo762VOLFR_APx4_Swamp_Shkurnik_barter_P>
+  <Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_V>7.62x54 (брон.) (х4)                                7_5</Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_V>
+  <Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_P>7.62x54 (брон.) (х4)                                7_6</Ammo762x54VOLFR_APx4_Swamp_Shkurnik_barter_P>
+  <Weapon_SigSauer751_Hitrec_barter>Автомат Sig Sauer 751                                 8_1</Weapon_SigSauer751_Hitrec_barter>
+  <Weapon_WA2000_Hitrec_barter>WA-2000                                   8_2</Weapon_WA2000_Hitrec_barter>
+  <ArmorSHIZpants_Shtopor_barter>Штаны ШИЗ                               9_1</ArmorSHIZpants_Shtopor_barter>
+  <ArmorSHIZbody_Shtopor_barter>Бронежилет ШИЗ                               9_2</ArmorSHIZbody_Shtopor_barter>
+  <ArmorSHIZhelm_round_Shtopor_barter>Шлем ШИЗ "Очкарик"                               9_3</ArmorSHIZhelm_round_Shtopor_barter>
+  <ArmorSHIZhelm_line_Shtopor_barter>Шлем ШИЗ "Прорезь"                             9_4</ArmorSHIZhelm_line_Shtopor_barter>
+  <AmmoPG_7VM_ExPolkovnik_barter>Снаряд ПГ-7ВМ                            10_1</AmmoPG_7VM_ExPolkovnik_barter>
+  <AmmoPG_7VL_AP_ExPolkovnik_barter>Снаряд ПГ-7ВЛ (брон.)                            10_2</AmmoPG_7VL_AP_ExPolkovnik_barter>
+  <AmmoTBG_7V_tanin_ExPolkovnik_barter>Снаряд ТБГ-7В "Танин"                            10_3</AmmoTBG_7V_tanin_ExPolkovnik_barter>
+  <AmmoOG_7V_EXP_ExPolkovnik_barter>Снаряд ОГ-7В (эксп.)                            10_4</AmmoOG_7V_EXP_ExPolkovnik_barter>
+  <GrenadeF1x12_ExPolkovnik_barter>Граната Ф-1 (x12)                            10_5</GrenadeF1x12_ExPolkovnik_barter>
+  <GrenadeF1x8_ExPolkovnik_barter>Граната Ф-1 (x8)                            10_6</GrenadeF1x8_ExPolkovnik_barter>
+  <GrenadeF1x6_ExPolkovnik_barter>Граната Ф-1 (x6)                            10_7</GrenadeF1x6_ExPolkovnik_barter>
+  <Weapon_RPG7_ExPolkovnik_barter>Гранатомет РПГ-7                            10_8</Weapon_RPG7_ExPolkovnik_barter>
+  <ArmyBag_ExPolkovnik_barter>Армейский рюкзак                           10_9</ArmyBag_ExPolkovnik_barter>
+  <MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_VEZ>Модкоплект экипировки                            10_10</MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_VEZ>
+  <MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_PROVODNIK>Модкоплект экипировки                            10_11</MODIFY_RARE_CLAN_KIT_ExPolkovnik_barter_PROVODNIK>
+  <HEALTH_RYABINOVKA_Otshelnik_Timoha_barter>Рябиновка           	              			 11_1</HEALTH_RYABINOVKA_Otshelnik_Timoha_barter>
+  <HEALTH_BRUSNIKOVKA_Otshelnik_Timoha_barter>Брусниковка          		              		    11_2</HEALTH_BRUSNIKOVKA_Otshelnik_Timoha_barter>
+  <HEALTH_CHERTOVKA_Otshelnik_Timoha_barter>Чертовка     					                       11_3</HEALTH_CHERTOVKA_Otshelnik_Timoha_barter>
+  <ArmorDragun_MineCamp_Meniala_barter>Бронежилет "Драгун"                         12_1</ArmorDragun_MineCamp_Meniala_barter>
+  <ArmorVikingHelm_MineCamp_Meniala_barter>Шлем "Викинг"                         12_2</ArmorVikingHelm_MineCamp_Meniala_barter>
+  <ArmyBag_MineCamp_Meniala_barter>Армейский рюкзак                         12_3</ArmyBag_MineCamp_Meniala_barter>
+  <ArmorHARVATpants_MineCamp_Meniala_barter>Штаны "Харват"                         12_4</ArmorHARVATpants_MineCamp_Meniala_barter>
+  <ArmorTASHbody_MineCamp_Meniala_barter>Бронежилет ТАШ                         12_5</ArmorTASHbody_MineCamp_Meniala_barter>
+  <ArmorTASHpants_MineCamp_Meniala_barter>Штаны ТАШ                         12_6</ArmorTASHpants_MineCamp_Meniala_barter>
+  <ArmorMAZAYhat_MineCamp_Meniala_barter>Шапка "Мазай"                         12_7</ArmorMAZAYhat_MineCamp_Meniala_barter>
+  <ArmorINGLISHmask_MineCamp_Meniala_barter>Маска "Инглиш"                         12_8</ArmorINGLISHmask_MineCamp_Meniala_barter>
+  <ArmorSLONIKmask_MineCamp_Meniala_barter>Противогаз "Слоник"                         12_9</ArmorSLONIKmask_MineCamp_Meniala_barter>
+  <Ammo357APx5_ClanBaza_All_barter>.357 (брон.) (х5)                         13_1</Ammo357APx5_ClanBaza_All_barter>
+  <Ammo9x39SP6x10_ClanBaza_All_barter>9x39 СП-6 (х10)                         13_2</Ammo9x39SP6x10_ClanBaza_All_barter>
+  <Ammo9x39SP6x5_ClanBaza_All_barter>9x39 СП-6 (х5)                         13_3</Ammo9x39SP6x5_ClanBaza_All_barter>
+  <Ammo762BP_APx10_ClanBaza_All_barter>7.62x39 (брон.) (х10)                         13_4</Ammo762BP_APx10_ClanBaza_All_barter>
+  <Ammo762BP_APx5_ClanBaza_All_barter>7.62x39 (брон.) (х5)                         13_5</Ammo762BP_APx5_ClanBaza_All_barter>
+  <AmmoM993APx10_ClanBaza_All_barter>7.62x51 (брон.) (х10)                         13_6</AmmoM993APx10_ClanBaza_All_barter>
+  <AmmoM993APx5_ClanBaza_All_barter>7.62x51 (брон.) (х5)                         13_7</AmmoM993APx5_ClanBaza_All_barter>
+  <Ammo762_54BP_APx10_ClanBaza_All_barter>7.62x54 (брон.) (х10)                         13_8</Ammo762_54BP_APx10_ClanBaza_All_barter>
+  <Ammo762_54BP_APx5_ClanBaza_All_barter>7.62x54 (брон.) (х5)                         13_9</Ammo762_54BP_APx5_ClanBaza_All_barter>
+  <Ammo12_70x12_ClanBaza_All_barter>12/70 картечь (х10)                         13_10</Ammo12_70x12_ClanBaza_All_barter>
+  <Ammo12_70x5_ClanBaza_All_barter>12/70 картечь (х5)                         13_11</Ammo12_70x5_ClanBaza_All_barter>
+  <Ammo12_76x10_ClanBaza_All_barter>12/76 картечь (х10)                         13_12</Ammo12_76x10_ClanBaza_All_barter>
+  <Ammo12_76x5_ClanBaza_All_barter>12/76 картечь (х5)                         13_13</Ammo12_76x5_ClanBaza_All_barter>
+  <Weapon_VSS_ClanBaza_All_barter>ВСС "Винторез"                         13_14</Weapon_VSS_ClanBaza_All_barter>
+  <Weapon_MK3A1_ClanBaza_All_barter>Jackhammer MK3A1                         13_15</Weapon_MK3A1_ClanBaza_All_barter>
+  <Weapon_DRAGUNOVA_ClanBaza_All_barter>СВД                                   13_16</Weapon_DRAGUNOVA_ClanBaza_All_barter>
+  <Weapon_UZI_ClanBaza_All_barter>Пистолет-пулемет UZI                         13_17</Weapon_UZI_ClanBaza_All_barter>
+  <Weapon_OC14_939_ClanBaza_All_barter>Автомат ОЦ-14 (9х39)                         13_18</Weapon_OC14_939_ClanBaza_All_barter>
+  <Weapon_MK48_ClanBaza_All_barter>Пулемет MK48                                    13_19</Weapon_MK48_ClanBaza_All_barter>
+  <Weapon_OC14_762_ClanBaza_All_barter>Автомат ОЦ-14 (7.62х39)                         13_20</Weapon_OC14_762_ClanBaza_All_barter>
+  <ArmorDRAGUNbody_ClanBaza_All_barter>Бронежилет "Драгун"                         13_21</ArmorDRAGUNbody_ClanBaza_All_barter>
+  <ArmorVikingHelm_ClanBaza_All_barter>Шлем "Викинг"                         13_22</ArmorVikingHelm_ClanBaza_All_barter>
+  <ArmyBag_ClanBaza_All_barter>Армейский рюкзак                         13_23</ArmyBag_ClanBaza_All_barter>
+  <ArmorHARVATpants_ClanBaza_All_barter>Штаны "Харват"                         13_24</ArmorHARVATpants_ClanBaza_All_barter>
+  <ArmorTASHbody_ClanBaza_All_barter>Бронежилет ТАШ                         13_25</ArmorTASHbody_ClanBaza_All_barter>
+  <ArmorTASHpants_ClanBaza_All_barter>Штаны ТАШ                         13_26</ArmorTASHpants_ClanBaza_All_barter>
+  <ArmorMAZAYhat_ClanBaza_All_barter>Шапка "Мазай"                         13_27</ArmorMAZAYhat_ClanBaza_All_barter>
+  <ArmorINGLISHmask_ClanBaza_All_barter>Маска "Инглиш"                         13_28</ArmorINGLISHmask_ClanBaza_All_barter>
+  <ArmorSLONIKmask_ClanBaza_All_barter>Противогаз "Слоник"                        13_29</ArmorSLONIKmask_ClanBaza_All_barter>
+  <Ammo357APx7_ClanBaza_Donat_barter>.357 (брон.) (х7)                          14_1</Ammo357APx7_ClanBaza_Donat_barter>
+  <Ammo9x39SP6x15_ClanBaza_Donat_barter>9x39 СП-6 (х15)                          14_2</Ammo9x39SP6x15_ClanBaza_Donat_barter>
+  <Ammo9x39SP6x7_ClanBaza_Donat_barter>9x39 СП-6 (х7)                         14_3</Ammo9x39SP6x7_ClanBaza_Donat_barter>
+  <Ammo762BP_APx15_ClanBaza_Donat_barter>7.62x39 (брон.) (х15)                         14_4</Ammo762BP_APx15_ClanBaza_Donat_barter>
+  <Ammo762BP_APx7_ClanBaza_Donat_barter>7.62x39 (брон.) (х7)                         14_5</Ammo762BP_APx7_ClanBaza_Donat_barter>
+  <AmmoM993APx15_ClanBaza_Donat_barter>7.62x51 (брон.) (х15)                         14_6</AmmoM993APx15_ClanBaza_Donat_barter>
+  <AmmoM993APx7_ClanBaza_Donat_barter>7.62x51 (брон.) (х7)                         14_7</AmmoM993APx7_ClanBaza_Donat_barter>
+  <Ammo762_54_BP_APx15_ClanBaza_Donat_barter>7.62x54 (брон.) (х15)                         14_8</Ammo762_54_BP_APx15_ClanBaza_Donat_barter>
+  <Ammo762_54_BP_APx7_ClanBaza_Donat_barter>7.62x54 (брон.) (х7)                         14_9</Ammo762_54_BP_APx7_ClanBaza_Donat_barter>
+  <Ammo12_70x15_ClanBaza_Donat_barter>12/70 картечь (х15)                         14_10</Ammo12_70x15_ClanBaza_Donat_barter>
+  <Ammo12_70x7_ClanBaza_Donat_barter>12/70 картечь (х7)                         14_11</Ammo12_70x7_ClanBaza_Donat_barter>
+  <Ammo12_76x15_ClanBaza_Donat_barter>12/76 картечь (х15)                         14_12</Ammo12_76x15_ClanBaza_Donat_barter>
+  <Ammo12_76x7_ClanBaza_Donat_barter>12/76 картечь (х7)                         14_13</Ammo12_76x7_ClanBaza_Donat_barter>
+  <Weapon_PECHENEG_VOENSTAL_ClanBaza_VOENSTAL_barter>"Печенег" на "Печенег м"                         15_1</Weapon_PECHENEG_VOENSTAL_ClanBaza_VOENSTAL_barter>
+  <HEALTH_CHERTOVKA_INJECTED_Medic_All_barter>"Чертовка" очищенная                         16_1</HEALTH_CHERTOVKA_INJECTED_Medic_All_barter>
+  <HEALTH_BRUSNIKOVKA_INJECTED_Medic_All_barter>"Брусниковка" очищенная                         16_2</HEALTH_BRUSNIKOVKA_INJECTED_Medic_All_barter>
+  <HEALTH_RYABINOVKA_INJECTED_Medic_All_barter>"Рябиновка" очищенная                         16_3</HEALTH_RYABINOVKA_INJECTED_Medic_All_barter>
+  <HEALTH_ENERGETIC_Medic_All_barter>Раствор "Энергетика"                         16_4</HEALTH_ENERGETIC_Medic_All_barter>
+  <HEALTH_ANTISTUN_Medic_All_barter>Нервный стимулятор                            16_5</HEALTH_ANTISTUN_Medic_All_barter>
+  <KUPOROS_vez_laborant_barter>Медный купорос                         17_1</KUPOROS_vez_laborant_barter>
+  <SPIDER_POISONx1_vez_laborant_barter>Паучий яд                             17_2</SPIDER_POISONx1_vez_laborant_barter>
+  <SPIDER_POISONx2_vez_laborant_barter>Паучий яд (х2)                           17_3</SPIDER_POISONx2_vez_laborant_barter>
+  <SPIDER_POISONx3_vez_laborant_barter>Паучий яд (х3)                           17_4</SPIDER_POISONx3_vez_laborant_barter>
+  <VERLIOKA_BLOODx1_vez_laborant_barter>Кровь верлиоки                           17_5</VERLIOKA_BLOODx1_vez_laborant_barter>
+  <VERLIOKA_BLOODx2_vez_laborant_barter>Кровь верлиоки (х2)                           17_6</VERLIOKA_BLOODx2_vez_laborant_barter>
+  <VERLIOKA_BLOODx3_vez_laborant_barter>Кровь верлиоки (х3)                           17_7</VERLIOKA_BLOODx3_vez_laborant_barter>
+  <BEAR_BLOODx3_vez_laborant_barter>Кровь медведя (х3)                          17_8</BEAR_BLOODx3_vez_laborant_barter>
+  <BEAR_BLOODx5_vez_laborant_barter>Кровь медведя (х5)                          17_9</BEAR_BLOODx5_vez_laborant_barter>
+  <BEAR_BLOODx9_vez_laborant_barter>Кровь медведя (х9)                          17_10</BEAR_BLOODx9_vez_laborant_barter>
+  <MARGANEC_vez_laborant_barter>Раствор марганцовки                              17_11</MARGANEC_vez_laborant_barter>
+  <All_Ammo_919BB_Barter>9x19 (брон.) (х10)                            18_1</All_Ammo_919BB_Barter>
+  <SAIGA_12K_vez_fin_barter>Сайга-12К                            19_1</SAIGA_12K_vez_fin_barter>
+  <JACKHAMMER_MK3A1_vez_fin_barter>Jackhammer MK3A1                            19_2</JACKHAMMER_MK3A1_vez_fin_barter>
+  <KINOLOG_SUIT_vez_fin_barter>Костюм "Кинолог"                            19_3</KINOLOG_SUIT_vez_fin_barter>
+  <Prisone_Trade_Tushonka>Банка тушенки                            19_4</Prisone_Trade_Tushonka>
+  <Prisone_Trade_Masterka>Мастерка бандитов                            19_5</Prisone_Trade_Masterka>
+  <Prisone_Trade_Sviter_01>Свитер бандитов                            19_6</Prisone_Trade_Sviter_01>
+  <Prisone_Trade_Sviter_02>Свитер бандитов                            19_7</Prisone_Trade_Sviter_02>
+  <Prisone_Trade_Sviter_03>Свитер бандитов                            19_8</Prisone_Trade_Sviter_03>
+  <Prisone_Trade_Shtani>Штаны бандитов                            19_9</Prisone_Trade_Shtani>
+  <Prisone_Trade_RG>Разгрузочный жилет бандитов                           19_10</Prisone_Trade_RG>
+  <Prisone_Trade_Kepka>Кепка с козырьком, бандитская                          20_1</Prisone_Trade_Kepka>
+  <Prisone_Trade_Shapka>Вязаная шапка бандитов                         20_2</Prisone_Trade_Shapka>
+  <Prisone_Trade_Bandana>Бандана бандитов                         20_3</Prisone_Trade_Bandana>
+  <Prisone_Trade_Perchatki>Перчатки бандитов                         20_4</Prisone_Trade_Perchatki>
+  <Prisone_REPAIR_BODY_BANDIT>в.Мастерка бандитов                         20_5</Prisone_REPAIR_BODY_BANDIT>
+  <Prisone_REPAIR_BODY_BANDIT_RED>в.Свитер бандитов "красный"                         20_6</Prisone_REPAIR_BODY_BANDIT_RED>
+  <Prisone_REPAIR_BODY_BANDIT_GREEN>в.Свитер бандитов "зелёный"                         20_7</Prisone_REPAIR_BODY_BANDIT_GREEN>
+  <Prisone_REPAIR_BODY_BANDIT_GRAY>в.Свитер бандитов "серый"                         20_8</Prisone_REPAIR_BODY_BANDIT_GRAY>
+  <Prisone_REPAIR_LEGS_BANDIT>в.Штаны бандитов                         20_9</Prisone_REPAIR_LEGS_BANDIT>
+  <Prisone_REPAIR_ARMOR_BANDIT>в.Разгрузочный жилет бандитов                         20_10</Prisone_REPAIR_ARMOR_BANDIT>
+  <Prisone_REPAIR_HANDS_BANDIT>в.Перчатки бандитов                         20_11</Prisone_REPAIR_HANDS_BANDIT>
+  <Prisone_REPAIR_CAP_BANDIT_01>в.Кепка с козырьком, бандитская                        20_12</Prisone_REPAIR_CAP_BANDIT_01>
+  <Prisone_REPAIR_CAP_BANDIT_02>в.Вязаная шапка бандитов                        20_13</Prisone_REPAIR_CAP_BANDIT_02>
+  <Prisone_REPAIR_CAP_BANDIT_03>в.Бандана бандитов                        20_14</Prisone_REPAIR_CAP_BANDIT_03>
+  <Item_converter_HK_417_90>HK 417 (90 дней)                        21_1</Item_converter_HK_417_90>
+  <Item_converter_HK_417_180>HK 417 (180 дней)                        21_2</Item_converter_HK_417_180>
+  <Item_converter_HK_417_360>HK 417 (360 дней)                        21_3</Item_converter_HK_417_360>
+  <Item_converter_SIG_716_90>Sig 716 (90 дней)                        21_4</Item_converter_SIG_716_90>
+  <Item_converter_SIG_716_180>Sig 716 (180 дней)                        21_5</Item_converter_SIG_716_180>
+  <Item_converter_SIG_716_360>Sig 716 (360 дней)                        21_6</Item_converter_SIG_716_360>
+  <Item_converter_SIG_751G_90>Sig 751G (90 дней)                        21_7</Item_converter_SIG_751G_90>
+  <Item_converter_SIG_751G_180>Sig 751G (180 дней)                        21_8</Item_converter_SIG_751G_180>
+  <Item_converter_SIG_751G_360>Sig 751G (360 дней)                        21_9</Item_converter_SIG_751G_360>
+  <Item_converter_FN_SCAR_H_90>FN SCAR (90 дней)                        21_10</Item_converter_FN_SCAR_H_90>
+  <Item_converter_FN_SCAR_H_180>FN SCAR (180 дней)                        21_11</Item_converter_FN_SCAR_H_180>
+  <Item_converter_FN_SCAR_H_360>FN SCAR (360 дней)                        21_12</Item_converter_FN_SCAR_H_360>
+  <Item_converter_HK_G3A_90>HK G3A (90 дней)                        21_13</Item_converter_HK_G3A_90>
+  <Item_converter_HK_G3A_180>HK G3A (180 дней)                        21_14</Item_converter_HK_G3A_180>
+  <Item_converter_HK_G3A_360>HK G3A (360 дней)                        21_15</Item_converter_HK_G3A_360>
+  <Item_converter_HK_G3A_LAU_90>HK G3A mk2 (90 дней)                        21_16</Item_converter_HK_G3A_LAU_90>
+  <Item_converter_HK_G3A_LAU_180>HK G3A mk2 (180 дней)                        21_17</Item_converter_HK_G3A_LAU_180>
+  <Item_converter_HK_G3A_LAU_360>HK G3A mk2 (360 дней)                        21_18</Item_converter_HK_G3A_LAU_360>
+  <Item_converter_CZ_805_90>CZ 805 (90 дней)                        21_19</Item_converter_CZ_805_90>
+  <Item_converter_CZ_805_180>CZ 805 (180 дней)                        21_20</Item_converter_CZ_805_180>
+  <Item_converter_CZ_805_360>CZ 805 (360 дней)                        21_21</Item_converter_CZ_805_360>
+  <Item_converter_PECHENEG_90>Печенег (90 дней)                        21_22</Item_converter_PECHENEG_90>
+  <Item_converter_PECHENEG_180>Печенег  (180 дней)                        21_23</Item_converter_PECHENEG_180>
+  <Item_converter_PECHENEG_360>Печенег  (360 дней)                        21_24</Item_converter_PECHENEG_360>
+  <Item_converter_PECHENEG_AS_90>Печенег  ш. (90 дней)                        21_25</Item_converter_PECHENEG_AS_90>
+  <Item_converter_PECHENEG_AS_180>Печенег  ш. (180 дней)                        21_26</Item_converter_PECHENEG_AS_180>
+  <Item_converter_PECHENEG_AS_360>Печенег  ш. (360 дней)                        21_27</Item_converter_PECHENEG_AS_360>
+  <Item_converter_SVU_90>СВУ (90 дней)                        21_28</Item_converter_SVU_90>
+  <Item_converter_SVU_180>СВУ (180 дней)                        21_29</Item_converter_SVU_180>
+  <Item_converter_SVU_360>СВУ (360 дней)                        21_30</Item_converter_SVU_360>
+  <Item_converter_SVU_A_90>СВУ ш. (90 дней)                        21_31</Item_converter_SVU_A_90>
+  <Item_converter_SVU_A_180>СВУ ш. (180 дней)                        21_32</Item_converter_SVU_A_180>
+  <Item_converter_SVU_A_360>СВУ ш. (360 дней)                        21_33</Item_converter_SVU_A_360>
+  <Item_converter_VOENSTAL_90>Кос. Военстал (90 дней)                        21_34</Item_converter_VOENSTAL_90>
+  <Item_converter_VOENSTAL_180>Кос. Военстал (180 дней)                        21_35</Item_converter_VOENSTAL_180>
+  <Item_converter_VOENSTAL_360>Кос. Военстал (360 дней)                        21_36</Item_converter_VOENSTAL_360>
+  <Item_converter_VOENSTAL_M2_90>Кос. Военстал М2 (90 дней)                        21_37</Item_converter_VOENSTAL_M2_90>
+  <Item_converter_VOENSTAL_M2_180>Кос. Военстал М2 (180 дней)                        21_38</Item_converter_VOENSTAL_M2_180>
+  <Item_converter_VOENSTAL_M2_360>Кос. Военстал М2 (360 дней)                        21_39</Item_converter_VOENSTAL_M2_360>
+  <Item_converter_SIGMA_90>Кос. Сигма (90 дней)                        21_40</Item_converter_SIGMA_90>
+  <Item_converter_SIGMA_180>Кос. Сигма (180 дней)                        21_41</Item_converter_SIGMA_180>
+  <Item_converter_SIGMA_360>Кос. Сигма (360 дней)                        21_42</Item_converter_SIGMA_360>
+  <Item_converter_SIGMA_M2_90>Кос. Сигма М2 (90 дней)                        21_43</Item_converter_SIGMA_M2_90>
+  <Item_converter_SIGMA_M2_180>Кос. Сигма М2 (180 дней)                        21_44</Item_converter_SIGMA_M2_180>
+  <Item_converter_SIGMA_M2_360>Кос. Сигма М2 (360 дней)                        21_45</Item_converter_SIGMA_M2_360>
+  <Item_converter_DSC_90>Кос. Шторм (90 дней)                        21_46</Item_converter_DSC_90>
+  <Item_converter_DSC_180>Кос. Шторм (180 дней)                        21_47</Item_converter_DSC_180>
+  <Item_converter_DSC_360>Кос. Шторм (360 дней)                        21_48</Item_converter_DSC_360>
+  <Item_converter_DSC_M2_90>Кос. Шторм М2 (90 дней)                        21_49</Item_converter_DSC_M2_90>
+  <Item_converter_DSC_M2_180>Кос. Шторм М2 (180 дней)                        21_50</Item_converter_DSC_M2_180>
+  <Item_converter_DSC_M2_360>Кос. Шторм М2 (360 дней)                        21_51</Item_converter_DSC_M2_360>
+  <Item_converter_KK_90>Кос. КК (90 дней)                        21_52</Item_converter_KK_90>
+  <Item_converter_KK_180>Кос. КК (180 дней)                        21_53</Item_converter_KK_180>
+  <Item_converter_KK_360>Кос. КК (360 дней)                        21_54</Item_converter_KK_360>
+  <Item_converter_PPS_90>Кос. ППС (90 дней)                        21_55</Item_converter_PPS_90>
+  <Item_converter_PPS_180>Кос. ППС (180 дней)                        21_56</Item_converter_PPS_180>
+  <Item_converter_PPS_360>Кос. ППС (360 дней)                        21_57</Item_converter_PPS_360>
+  <Item_converter_MASK_SNIPE_90>Кос. маскир. (90 дней)                        21_58</Item_converter_MASK_SNIPE_90>
+  <Item_converter_MASK_SNIPE_180>Кос. маскир. (180 дней)                        21_59</Item_converter_MASK_SNIPE_180>
+  <Item_converter_MASK_SNIPE_360>Кос. маскир. (360 дней)                        21_60</Item_converter_MASK_SNIPE_360>
+  <Item_converter_MASK_SNIPE_M2_90>Кос. маскир. М2 (90 дней)                        21_61</Item_converter_MASK_SNIPE_M2_90>
+  <Item_converter_MASK_SNIPE_M2_180>Кос. маскир. М2 (180 дней)                        21_62</Item_converter_MASK_SNIPE_M2_180>
+  <Item_converter_MASK_SNIPE_M2_360>Кос. маскир. М2 (360 дней)                        21_63</Item_converter_MASK_SNIPE_M2_360>
+  <Item_converter_SVOBODA_GUARD_90>Кос. с.СВОБОДА (90 дней)                        21_64</Item_converter_SVOBODA_GUARD_90>
+  <Item_converter_SVOBODA_GUARD_180>Кос. с.СВОБОДА (180 дней)                        21_65</Item_converter_SVOBODA_GUARD_180>
+  <Item_converter_SVOBODA_GUARD_360>Кос. с.СВОБОДА (360 дней)                        21_66</Item_converter_SVOBODA_GUARD_360>
+  <Item_converter_SVOBODA_GUARD_M2_90>Кос. с.СВОБОДА М2 (90 дней)                        21_67</Item_converter_SVOBODA_GUARD_M2_90>
+  <Item_converter_SVOBODA_GUARD_M2_180>Кос. с.СВОБОДА М2 (180 дней)                        21_68</Item_converter_SVOBODA_GUARD_M2_180>
+  <Item_converter_SVOBODA_GUARD_M2_360>Кос. с.СВОБОДА М2 (360 дней)                        21_69</Item_converter_SVOBODA_GUARD_M2_360>
+  <Item_converter_SVOBODA_SHADOW_90>Кос. т.СВОБОДА (90 дней)                        21_70</Item_converter_SVOBODA_SHADOW_90>
+  <Item_converter_SVOBODA_SHADOW_180>Кос. т.СВОБОДА (180 дней)                        21_71</Item_converter_SVOBODA_SHADOW_180>
+  <Item_converter_SVOBODA_SHADOW_360>Кос. т.СВОБОДА (360 дней)                        21_72</Item_converter_SVOBODA_SHADOW_360>
+  <Item_converter_INQUISITOR_90>Кос. Инквизитор (90 дней)                        21_73</Item_converter_INQUISITOR_90>
+  <Item_converter_INQUISITOR_180>Кос. Инквизитор (180 дней)                        21_74</Item_converter_INQUISITOR_180>
+  <Item_converter_INQUISITOR_360>Кос. Инквизитор (360 дней)                        21_75</Item_converter_INQUISITOR_360>
+  <Item_converter_INQUISITOR_M2_90>Кос. Инквизитор М2 (90 дней)                        21_76</Item_converter_INQUISITOR_M2_90>
+  <Item_converter_INQUISITOR_M2_180>Кос. Инквизитор М2 (180 дней)                        21_77</Item_converter_INQUISITOR_M2_180>
+  <Item_converter_INQUISITOR_M2_360>Кос. Инквизитор М2 (360 дней)                        21_78</Item_converter_INQUISITOR_M2_360>
+  <Item_converter_PREDATOR_90>Кос. Хищник (90 дней)                        21_79</Item_converter_PREDATOR_90>
+  <Item_converter_PREDATOR_180>Кос. Хищник (180 дней)                        21_80</Item_converter_PREDATOR_180>
+  <Item_converter_PREDATOR_360>Кос. Хищник (360 дней)                        21_81</Item_converter_PREDATOR_360>
+  <Item_converter_PREDATOR_M2_90>Кос. Хищник М2 (90 дней)                        21_82</Item_converter_PREDATOR_M2_90>
+  <Item_converter_PREDATOR_M2_180>Кос. Хищник М2 (180 дней)                        21_83</Item_converter_PREDATOR_M2_180>
+  <Item_converter_PREDATOR_M2_360>Кос. Хищник М2 (360 дней)                        21_84</Item_converter_PREDATOR_M2_360>
+  <Item_converter_SILENCE_90>Кос. Тишина (90 дней)                        21_85</Item_converter_SILENCE_90>
+  <Item_converter_SILENCE_180>Кос. Тишина (180 дней)                        21_86</Item_converter_SILENCE_180>
+  <Item_converter_SILENCE_360>Кос. Тишина (360 дней)                        21_87</Item_converter_SILENCE_360>
+  <Item_converter_SILENCE_M2_90>Кос. Тишина М2 (90 дней)                        21_88</Item_converter_SILENCE_M2_90>
+  <Item_converter_SILENCE_M2_180>Кос. Тишина М2 (180 дней)                        21_89</Item_converter_SILENCE_M2_180>
+  <Item_converter_SILENCE_M2_360>Кос. Тишина М2 (360 дней)                        21_90</Item_converter_SILENCE_M2_360>
+  <Item_converter_CHIMERA_90>Кос. Химера (90 дней)                        21_91</Item_converter_CHIMERA_90>
+  <Item_converter_CHIMERA_180>Кос. Химера (180 дней)                        21_92</Item_converter_CHIMERA_180>
+  <Item_converter_CHIMERA_360>Кос. Химера (360 дней)                        21_93</Item_converter_CHIMERA_360>
+  <Item_converter_CHIMERA_M2_90>Кос. Химера М2 (90 дней)                        21_94</Item_converter_CHIMERA_M2_90>
+  <Item_converter_CHIMERA_M2_180>Кос. Химера М2 (180 дней)                        21_95</Item_converter_CHIMERA_M2_180>
+  <Item_converter_CHIMERA_M2_360>Кос. Химера М2 (360 дней)                        21_96</Item_converter_CHIMERA_M2_360>
+  <Item_converter_STELS_90>Кос. STELS (90 дней)                        21_97</Item_converter_STELS_90>
+  <Item_converter_STELS_180>Кос. STELS (180 дней)                        21_98</Item_converter_STELS_180>
+  <Item_converter_STELS_360>Кос. STELS (360 дней)                        21_99</Item_converter_STELS_360>
+  <Item_converter_STELS_M2_90>Кос. STELS М2 (90 дней)                        21_100</Item_converter_STELS_M2_90>
+  <Item_converter_STELS_M2_180>Кос. STELS М2 (180 дней)                        21_101</Item_converter_STELS_M2_180>
+  <Item_converter_STELS_M2_360>Кос. STELS М2 (360 дней)                        21_102</Item_converter_STELS_M2_360>
+  <Item_converter_SINGLE_M2_90>Кос. "Одиночки" М2 (90 дней)                        21_103</Item_converter_SINGLE_M2_90>
+  <Item_converter_SINGLE_M2_180>Кос. "Одиночки" М2 (180 дней)                	        21_104</Item_converter_SINGLE_M2_180>
+  <Item_converter_SINGLE_M2_360>Кос. "Одиночки" М2 (360 дней)                	   	     21_105</Item_converter_SINGLE_M2_360>
+  <Item_converter_HK_417>HK 417                	             	     21_106</Item_converter_HK_417>
+  <Item_converter_SIG_716>Sig 716                	             	     21_107</Item_converter_SIG_716>
+  <Item_converter_SIG_751G>Sig 751G                	             	     21_108</Item_converter_SIG_751G>
+  <Item_converter_FN_SCAR_H>FN SCAR                	             	     21_109</Item_converter_FN_SCAR_H>
+  <Item_converter_HK_G3A>HK G3A                	             	     21_110</Item_converter_HK_G3A>
+  <Item_converter_HK_G3A_LAU>HK G3A mk2                	             	     21_111</Item_converter_HK_G3A_LAU>
+  <Item_converter_CZ_805>CZ 805                	             	     21_112</Item_converter_CZ_805>
+  <Item_converter_PECHENEG>Печенег                	             	     21_113</Item_converter_PECHENEG>
+  <Item_converter_PECHENEG_AS>Печенег  ш.                	             	     21_114</Item_converter_PECHENEG_AS>
+  <Item_converter_SVU>СВУ                	             	     21_115</Item_converter_SVU>
+  <Item_converter_SVU_A>СВУ ш.                	             	     21_116</Item_converter_SVU_A>
+  <Item_converter_VOENSTAL>Костюм Военстал                	   	     21_117</Item_converter_VOENSTAL>
+  <Item_converter_SIGMA>Костюм Сигма                	   	     21_118</Item_converter_SIGMA>
+  <Item_converter_DSC>Костюм Шторм                	   	     21_119</Item_converter_DSC>
+  <Item_converter_KK>Костюм Красный Крест                	   	     21_120</Item_converter_KK>
+  <Item_converter_PPS>Костюм ППС                	   	     21_121</Item_converter_PPS>
+  <Item_converter_MASK_SNIPE>Костюм маскировочный                	   	     21_122</Item_converter_MASK_SNIPE>
+  <Item_converter_SVOBODA_GUARD>Костюм с.СВОБОДА                	   	     21_123</Item_converter_SVOBODA_GUARD>
+  <Item_converter_SVOBODA_SHADOW>Костюм т.СВОБОДЫ                	   	     21_124</Item_converter_SVOBODA_SHADOW>
+  <Item_converter_INQUISITOR>Костюм Инквизитор                	   	     21_125</Item_converter_INQUISITOR>
+  <Item_converter_PREDATOR>Костюм Хищник                	   	     21_126</Item_converter_PREDATOR>
+  <Item_converter_SILENCE>Костюм Тишина                	   	     21_127</Item_converter_SILENCE>
+  <Item_converter_CHIMERA>Костюм Химера                	   	     21_128</Item_converter_CHIMERA>
+  <Item_converter_CHIMERA_CLAN_BACKPACK>Рюк. "Химера"              	   	     21_129</Item_converter_CHIMERA_CLAN_BACKPACK>
+  <Item_converter_STELS>Костюм STELS                	   	     21_130</Item_converter_STELS>
+  <Item_converter_SINGLE_M2>Костюм "Одиночки"                	   	     21_131</Item_converter_SINGLE_M2>
+  <Item_converter_A_5_SILENCER_D1>Авт.глуш. 5 (1 день)							21_132</Item_converter_A_5_SILENCER_D1>
+  <Item_converter_A_5_SILENCER_D30>Авт.глуш. 5 (30 дней)							21_133</Item_converter_A_5_SILENCER_D30>
+  <Item_converter_A_5_SILENCER_D90>Авт.глуш. 5 (90 дней)							21_134</Item_converter_A_5_SILENCER_D90>
+  <Item_converter_A_5_SILENCER_D180>Авт.глуш. 5 (180 дней)						21_135</Item_converter_A_5_SILENCER_D180>
+  <Item_converter_A_5_SILENCER_D360>Авт.глуш. 5 (360 дней)						21_136</Item_converter_A_5_SILENCER_D360>
+  <Item_converter_A_7_SILENCER_D1>Авт.глуш. 7 (1 день)										21_137</Item_converter_A_7_SILENCER_D1>
+  <Item_converter_A_7_SILENCER_D30>Авт.глуш. 7 (30 дней)									21_138</Item_converter_A_7_SILENCER_D30>
+  <Item_converter_A_7_SILENCER_D90>Авт.глуш. 7 (90 дней)									21_139</Item_converter_A_7_SILENCER_D90>
+  <Item_converter_A_7_SILENCER_D180>Авт.глуш. 7 (180 дней)									21_140</Item_converter_A_7_SILENCER_D180>
+  <Item_converter_A_7_SILENCER_D360>Авт.глуш. 7 (360 дней)									21_141</Item_converter_A_7_SILENCER_D360>
+  <Item_converter_S_5_SILENCER_D1>Снайп.глуш. 5 (1 день)							21_142</Item_converter_S_5_SILENCER_D1>
+  <Item_converter_S_5_SILENCER_D30>Снайп.глуш. 5 (30 дней)						21_143</Item_converter_S_5_SILENCER_D30>
+  <Item_converter_S_5_SILENCER_D90>Снайп.глуш. 5 (90 дней)						21_144</Item_converter_S_5_SILENCER_D90>
+  <Item_converter_S_5_SILENCER_D180>Снайп.глуш. 5 (180 дней)						21_145</Item_converter_S_5_SILENCER_D180>
+  <Item_converter_S_5_SILENCER_D360>Снайп.глуш. 5 (360 дней)						21_146</Item_converter_S_5_SILENCER_D360>
+  <Item_converter_S_7_SILENCER_D1>Снайп.глуш. 7 (1 день)									21_147</Item_converter_S_7_SILENCER_D1>
+  <Item_converter_S_7_SILENCER_D30>Снайп.глуш. 7 (30 дней)									21_148</Item_converter_S_7_SILENCER_D30>
+  <Item_converter_S_7_SILENCER_D90>Снайп.глуш. 7 (90 дней)									21_149</Item_converter_S_7_SILENCER_D90>
+  <Item_converter_S_7_SILENCER_D180>Снайп.глуш. 7 (180 дней)								21_150</Item_converter_S_7_SILENCER_D180>
+  <Item_converter_S_7_SILENCER_D360>Снайп.глуш. 7 (360 дней)								21_151</Item_converter_S_7_SILENCER_D360>
+  <Item_converter_A_VAR_USSR_SCOPE_D1>Приц.Ш.Сов (1 день)										21_152</Item_converter_A_VAR_USSR_SCOPE_D1>
+  <Item_converter_A_VAR_USSR_SCOPE_D30>Приц.Ш.Сов (30 дней)									21_153</Item_converter_A_VAR_USSR_SCOPE_D30>
+  <Item_converter_A_VAR_USSR_SCOPE_D90>Приц.Ш.Сов (90 дней)									21_154</Item_converter_A_VAR_USSR_SCOPE_D90>
+  <Item_converter_A_VAR_USSR_SCOPE_D180>Приц.Ш.Сов (180 дней)									21_155</Item_converter_A_VAR_USSR_SCOPE_D180>
+  <Item_converter_A_VAR_USSR_SCOPE_D360>Приц.Ш.Сов (360 дней)									21_156</Item_converter_A_VAR_USSR_SCOPE_D360>
+  <Item_converter_A_VAR_NATO_SCOPE_D1>Приц.Ш.НАТО (1 день)									21_157</Item_converter_A_VAR_NATO_SCOPE_D1>
+  <Item_converter_A_VAR_NATO_SCOPE_D30>Приц.Ш.НАТО (30 дней)									21_158</Item_converter_A_VAR_NATO_SCOPE_D30>
+  <Item_converter_A_VAR_NATO_SCOPE_D90>Приц.Ш.НАТО (90 дней)									21_159</Item_converter_A_VAR_NATO_SCOPE_D90>
+  <Item_converter_A_VAR_NATO_SCOPE_D180>Приц.Ш.НАТО (180 дней)								21_160</Item_converter_A_VAR_NATO_SCOPE_D180>
+  <Item_converter_A_VAR_NATO_SCOPE_D360>Приц.Ш.НАТО (360 дней)								21_161</Item_converter_A_VAR_NATO_SCOPE_D360>
+  <Item_converter_S_VAR_USSR_SCOPE_D1>Приц.С.Сов (1 день)										21_162</Item_converter_S_VAR_USSR_SCOPE_D1>
+  <Item_converter_S_VAR_USSR_SCOPE_D30>Приц.С.Сов (30 дней)									21_163</Item_converter_S_VAR_USSR_SCOPE_D30>
+  <Item_converter_S_VAR_USSR_SCOPE_D90>Приц.С.Сов (90 дней)									21_164</Item_converter_S_VAR_USSR_SCOPE_D90>
+  <Item_converter_S_VAR_USSR_SCOPE_D180>Приц.С.Сов (180 дней)									21_165</Item_converter_S_VAR_USSR_SCOPE_D180>
+  <Item_converter_S_VAR_USSR_SCOPE_D360>Приц.С.Сов (360 дней)									21_166</Item_converter_S_VAR_USSR_SCOPE_D360>
+  <Item_converter_S_VAR_NATO_SCOPE_D1>Приц.С.НАТО (1 день)									21_167</Item_converter_S_VAR_NATO_SCOPE_D1>
+  <Item_converter_S_VAR_NATO_SCOPE_D30>Приц.С.НАТО (30 дней)									21_168</Item_converter_S_VAR_NATO_SCOPE_D30>
+  <Item_converter_S_VAR_NATO_SCOPE_D90>Приц.С.НАТО (90 дней)									21_169</Item_converter_S_VAR_NATO_SCOPE_D90>
+  <Item_converter_S_VAR_NATO_SCOPE_D180>Приц.С.НАТО (180 дней)								21_170</Item_converter_S_VAR_NATO_SCOPE_D180>
+  <Item_converter_S_VAR_NATO_SCOPE_D360>Приц.С.НАТО (360 дней)								21_171</Item_converter_S_VAR_NATO_SCOPE_D360>
+  <Item_converter_SAIGA_12K_DESERT_D1>Сайга (степ.) (1 день)								21_172</Item_converter_SAIGA_12K_DESERT_D1>
+  <Item_converter_SAIGA_12K_DESERT_D30>Сайга (степ.) (30 дней)							21_173</Item_converter_SAIGA_12K_DESERT_D30>
+  <Item_converter_SAIGA_12K_DESERT_D90>Сайга (степ.) (90 дней)							21_174</Item_converter_SAIGA_12K_DESERT_D90>
+  <Item_converter_SAIGA_12K_DESERT_D180>Сайга (степ.) (180 дней)							21_175</Item_converter_SAIGA_12K_DESERT_D180>
+  <Item_converter_SAIGA_12K_DESERT_D360>Сайга (степ.) (360 дней)							21_176</Item_converter_SAIGA_12K_DESERT_D360>
+  <Item_converter_SAIGA_12K_SNOW_D1>Сайга (зим.) (1 день)									21_177</Item_converter_SAIGA_12K_SNOW_D1>
+  <Item_converter_SAIGA_12K_SNOW_D30>Сайга (зим.) (30 дней)								21_178</Item_converter_SAIGA_12K_SNOW_D30>
+  <Item_converter_SAIGA_12K_SNOW_D90>Сайга (зим.) (90 дней)								21_179</Item_converter_SAIGA_12K_SNOW_D90>
+  <Item_converter_SAIGA_12K_SNOW_D180>Сайга (зим.) (180 дней)								21_180</Item_converter_SAIGA_12K_SNOW_D180>
+  <Item_converter_SAIGA_12K_SNOW_D360>Сайга (зим.) (360 дней)								21_181</Item_converter_SAIGA_12K_SNOW_D360>
+  <Item_converter_SAIGA_12K_TOWN_D1>Сайга (город.) (1 день)								21_182</Item_converter_SAIGA_12K_TOWN_D1>
+  <Item_converter_SAIGA_12K_TOWN_D30>Сайга (город.) (30 дней)								21_183</Item_converter_SAIGA_12K_TOWN_D30>
+  <Item_converter_SAIGA_12K_TOWN_D90>Сайга (город.) (90 дней)								21_184</Item_converter_SAIGA_12K_TOWN_D90>
+  <Item_converter_SAIGA_12K_TOWN_D180>Сайга (город.) (180 дней)							21_185</Item_converter_SAIGA_12K_TOWN_D180>
+  <Item_converter_SAIGA_12K_TOWN_D360>Сайга (город.) (360 дней)							21_186</Item_converter_SAIGA_12K_TOWN_D360>
+  <Item_converter_SAIGA_12K_WOOD_D1>Сайга (лес.) (1 день)									21_187</Item_converter_SAIGA_12K_WOOD_D1>
+  <Item_converter_SAIGA_12K_WOOD_D30>Сайга (лес.) (30 дней)								21_188</Item_converter_SAIGA_12K_WOOD_D30>
+  <Item_converter_SAIGA_12K_WOOD_D90>Сайга (лес.) (90 дней)								21_189</Item_converter_SAIGA_12K_WOOD_D90>
+  <Item_converter_SAIGA_12K_WOOD_D180>Сайга (лес.) (180 дней)								21_190</Item_converter_SAIGA_12K_WOOD_D180>
+  <Item_converter_SAIGA_12K_WOOD_D360>Сайга (лес.) (360 дней)								21_191</Item_converter_SAIGA_12K_WOOD_D360>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D1>Jackham. (степ.) (1 день)						21_192</Item_converter_JACKHAMMER_MK3A1_DESERT_D1>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D30>Jackham. (степ.) (30 дней)					21_193</Item_converter_JACKHAMMER_MK3A1_DESERT_D30>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D90>Jackham. (степ.) (90 дней)					21_194</Item_converter_JACKHAMMER_MK3A1_DESERT_D90>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D180>Jackham. (степ.) (180 дней)					21_195</Item_converter_JACKHAMMER_MK3A1_DESERT_D180>
+  <Item_converter_JACKHAMMER_MK3A1_DESERT_D360>Jackham. (степ.) (360 дней)					21_196</Item_converter_JACKHAMMER_MK3A1_DESERT_D360>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D1>Jackham. (зим.) (1 день)							21_197</Item_converter_JACKHAMMER_MK3A1_SNOW_D1>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D30>Jackham. (зим.) (30 дней)						21_198</Item_converter_JACKHAMMER_MK3A1_SNOW_D30>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D90>Jackham. (зим.) (90 дней)						21_199</Item_converter_JACKHAMMER_MK3A1_SNOW_D90>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D180>Jackham. (зим.) (180 дней)						21_200</Item_converter_JACKHAMMER_MK3A1_SNOW_D180>
+  <Item_converter_JACKHAMMER_MK3A1_SNOW_D360>Jackham. (зим.) (360 дней)						21_201</Item_converter_JACKHAMMER_MK3A1_SNOW_D360>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D1>Jackham. (город.) (1 день)						21_202</Item_converter_JACKHAMMER_MK3A1_TOWN_D1>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D30>Jackham. (город.) (30 дней)						21_203</Item_converter_JACKHAMMER_MK3A1_TOWN_D30>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D90>Jackham. (город.) (90 дней)						21_204</Item_converter_JACKHAMMER_MK3A1_TOWN_D90>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D180>Jackham. (город.) (180 дней)					21_205</Item_converter_JACKHAMMER_MK3A1_TOWN_D180>
+  <Item_converter_JACKHAMMER_MK3A1_TOWN_D360>Jackham. (город.) (360 дней)					21_206</Item_converter_JACKHAMMER_MK3A1_TOWN_D360>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D1>Jackham. (лес.) (1 день)							21_207</Item_converter_JACKHAMMER_MK3A1_WOOD_D1>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D30>Jackham. (лес.) (30 дней)						21_208</Item_converter_JACKHAMMER_MK3A1_WOOD_D30>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D90>Jackham. (лес.) (90 дней)						21_209</Item_converter_JACKHAMMER_MK3A1_WOOD_D90>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D180>Jackham. (лес.) (180 дней)						21_210</Item_converter_JACKHAMMER_MK3A1_WOOD_D180>
+  <Item_converter_JACKHAMMER_MK3A1_WOOD_D360>Jackham. (лес.) (360 дней)						21_211</Item_converter_JACKHAMMER_MK3A1_WOOD_D360>
+  <Item_converter_VAL_DESERT_D1>АС-ВАЛ (степ.) (1 день)										21_212</Item_converter_VAL_DESERT_D1>
+  <Item_converter_VAL_DESERT_D30>АС-ВАЛ (степ.) (30 дней)										21_213</Item_converter_VAL_DESERT_D30>
+  <Item_converter_VAL_DESERT_D90>АС-ВАЛ (степ.) (90 дней)										21_214</Item_converter_VAL_DESERT_D90>
+  <Item_converter_VAL_DESERT_D180>АС-ВАЛ (степ.) (180 дней)									21_215</Item_converter_VAL_DESERT_D180>
+  <Item_converter_VAL_DESERT_D360>АС-ВАЛ (степ.) (360 дней)									21_216</Item_converter_VAL_DESERT_D360>
+  <Item_converter_VAL_SNOW_D1>АС-ВАЛ (зим.) (1 день)											21_217</Item_converter_VAL_SNOW_D1>
+  <Item_converter_VAL_SNOW_D30>АС-ВАЛ (зим.) (30 дней)										21_218</Item_converter_VAL_SNOW_D30>
+  <Item_converter_VAL_SNOW_D90>АС-ВАЛ (зим.) (90 дней)										21_219</Item_converter_VAL_SNOW_D90>
+  <Item_converter_VAL_SNOW_D180>АС-ВАЛ (зим.) (180 дней)										21_220</Item_converter_VAL_SNOW_D180>
+  <Item_converter_VAL_SNOW_D360>АС-ВАЛ (зим.) (360 дней)										21_221</Item_converter_VAL_SNOW_D360>
+  <Item_converter_VAL_TOWN_D1>АС-ВАЛ (город.) (1 день)										21_222</Item_converter_VAL_TOWN_D1>
+  <Item_converter_VAL_TOWN_D30>АС-ВАЛ (город.) (30 дней)										21_223</Item_converter_VAL_TOWN_D30>
+  <Item_converter_VAL_TOWN_D90>АС-ВАЛ (город.) (90 дней)										21_224</Item_converter_VAL_TOWN_D90>
+  <Item_converter_VAL_TOWN_D180>АС-ВАЛ (город.) (180 дней)									21_225</Item_converter_VAL_TOWN_D180>
+  <Item_converter_VAL_TOWN_D360>АС-ВАЛ (город.) (360 дней)									21_226</Item_converter_VAL_TOWN_D360>
+  <Item_converter_VAL_WOOD_D1>АС-ВАЛ (лес.) (1 день)											21_227</Item_converter_VAL_WOOD_D1>
+  <Item_converter_VAL_WOOD_D30>АС-ВАЛ (лес.) (30 дней)										21_228</Item_converter_VAL_WOOD_D30>
+  <Item_converter_VAL_WOOD_D90>АС-ВАЛ (лес.) (90 дней)										21_229</Item_converter_VAL_WOOD_D90>
+  <Item_converter_VAL_WOOD_D180>АС-ВАЛ (лес.) (180 дней)										21_230</Item_converter_VAL_WOOD_D180>
+  <Item_converter_VAL_WOOD_D360>АС-ВАЛ (лес.) (360 дней)										21_231</Item_converter_VAL_WOOD_D360>
+  <Item_converter_FN_FAL_DESERT_D1>FN-FAL (степ.) (1 день)									21_232</Item_converter_FN_FAL_DESERT_D1>
+  <Item_converter_FN_FAL_DESERT_D30>FN-FAL (степ.) (30 дней)									21_233</Item_converter_FN_FAL_DESERT_D30>
+  <Item_converter_FN_FAL_DESERT_D90>FN-FAL (степ.) (90 дней)									21_234</Item_converter_FN_FAL_DESERT_D90>
+  <Item_converter_FN_FAL_DESERT_D180>FN-FAL (степ.) (180 дней)								21_235</Item_converter_FN_FAL_DESERT_D180>
+  <Item_converter_FN_FAL_DESERT_D360>FN-FAL (степ.) (360 дней)								21_236</Item_converter_FN_FAL_DESERT_D360>
+  <Item_converter_FN_FAL_SNOW_D1>FN-FAL (зим.) (1 день)										21_237</Item_converter_FN_FAL_SNOW_D1>
+  <Item_converter_FN_FAL_SNOW_D30>FN-FAL (зим.) (30 дней)										21_238</Item_converter_FN_FAL_SNOW_D30>
+  <Item_converter_FN_FAL_SNOW_D90>FN-FAL (зим.) (90 дней)										21_239</Item_converter_FN_FAL_SNOW_D90>
+  <Item_converter_FN_FAL_SNOW_D180>FN-FAL (зим.) (180 дней)									21_240</Item_converter_FN_FAL_SNOW_D180>
+  <Item_converter_FN_FAL_SNOW_D360>FN-FAL (зим.) (360 дней)									21_241</Item_converter_FN_FAL_SNOW_D360>
+  <Item_converter_FN_FAL_TOWN_D1>FN-FAL (город.) (1 день)										21_242</Item_converter_FN_FAL_TOWN_D1>
+  <Item_converter_FN_FAL_TOWN_D30>FN-FAL (город.) (30 дней)									21_243</Item_converter_FN_FAL_TOWN_D30>
+  <Item_converter_FN_FAL_TOWN_D90>FN-FAL (город.) (90 дней)									21_244</Item_converter_FN_FAL_TOWN_D90>
+  <Item_converter_FN_FAL_TOWN_D180>FN-FAL (город.) (180 дней)									21_245</Item_converter_FN_FAL_TOWN_D180>
+  <Item_converter_FN_FAL_TOWN_D360>FN-FAL (город.) (360 дней)									21_246</Item_converter_FN_FAL_TOWN_D360>
+  <Item_converter_FN_FAL_WOOD_D1>FN-FAL (лес.) (1 день)										21_247</Item_converter_FN_FAL_WOOD_D1>
+  <Item_converter_FN_FAL_WOOD_D30>FN-FAL (лес.) (30 дней)										21_248</Item_converter_FN_FAL_WOOD_D30>
+  <Item_converter_FN_FAL_WOOD_D90>FN-FAL (лес.) (90 дней)										21_249</Item_converter_FN_FAL_WOOD_D90>
+  <Item_converter_FN_FAL_WOOD_D180>FN-FAL (лес.) (180 дней)									21_250</Item_converter_FN_FAL_WOOD_D180>
+  <Item_converter_FN_FAL_WOOD_D360>FN-FAL (лес.) (360 дней)									21_251</Item_converter_FN_FAL_WOOD_D360>
+  <Item_converter_AK_47_DESERT_D1>АК-47 (степ.) (1 день)										21_252</Item_converter_AK_47_DESERT_D1>
+  <Item_converter_AK_47_DESERT_D30>АК-47 (степ.) (30 дней)									21_253</Item_converter_AK_47_DESERT_D30>
+  <Item_converter_AK_47_DESERT_D90>АК-47 (степ.) (90 дней)									21_254</Item_converter_AK_47_DESERT_D90>
+  <Item_converter_AK_47_DESERT_D180>АК-47 (степ.) (180 дней)									21_255</Item_converter_AK_47_DESERT_D180>
+  <Item_converter_AK_47_DESERT_D360>АК-47 (степ.) (360 дней)									21_256</Item_converter_AK_47_DESERT_D360>
+  <Item_converter_AK_47_SNOW_D1>АК-47 (зим.) (1 день)											21_257</Item_converter_AK_47_SNOW_D1>
+  <Item_converter_AK_47_SNOW_D30>АК-47 (зим.) (30 дней)										21_258</Item_converter_AK_47_SNOW_D30>
+  <Item_converter_AK_47_SNOW_D90>АК-47 (зим.) (90 дней)										21_259</Item_converter_AK_47_SNOW_D90>
+  <Item_converter_AK_47_SNOW_D180>АК-47 (зим.) (180 дней)										21_260</Item_converter_AK_47_SNOW_D180>
+  <Item_converter_AK_47_SNOW_D360>АК-47 (зим.) (360 дней)										21_261</Item_converter_AK_47_SNOW_D360>
+  <Item_converter_AK_47_TOWN_D1>АК-47 (город.) (1 день)										21_262</Item_converter_AK_47_TOWN_D1>
+  <Item_converter_AK_47_TOWN_D30>АК-47 (город.) (30 дней)										21_263</Item_converter_AK_47_TOWN_D30>
+  <Item_converter_AK_47_TOWN_D90>АК-47 (город.) (90 дней)										21_264</Item_converter_AK_47_TOWN_D90>
+  <Item_converter_AK_47_TOWN_D180>АК-47 (город.) (180 дней)									21_265</Item_converter_AK_47_TOWN_D180>
+  <Item_converter_AK_47_TOWN_D360>АК-47 (город.) (360 дней)									21_266</Item_converter_AK_47_TOWN_D360>
+  <Item_converter_AK_47_WOOD_D1>АК-47 (лес.) (1 день)											21_267</Item_converter_AK_47_WOOD_D1>
+  <Item_converter_AK_47_WOOD_D30>АК-47 (лес.) (30 дней)										21_268</Item_converter_AK_47_WOOD_D30>
+  <Item_converter_AK_47_WOOD_D90>АК-47 (лес.) (90 дней)										21_269</Item_converter_AK_47_WOOD_D90>
+  <Item_converter_AK_47_WOOD_D180>АК-47 (лес.) (180 дней)										21_270</Item_converter_AK_47_WOOD_D180>
+  <Item_converter_AK_47_WOOD_D360>АК-47 (лес.) (360 дней)										21_271</Item_converter_AK_47_WOOD_D360>
+  <Item_converter_VSS_DESERT_D1>ВСС (степ.) (1 день)											21_272</Item_converter_VSS_DESERT_D1>
+  <Item_converter_VSS_DESERT_D30>ВСС (степ.) (30 дней)										21_273</Item_converter_VSS_DESERT_D30>
+  <Item_converter_VSS_DESERT_D90>ВСС (степ.) (90 дней)										21_274</Item_converter_VSS_DESERT_D90>
+  <Item_converter_VSS_DESERT_D180>ВСС (степ.) (180 дней)										21_275</Item_converter_VSS_DESERT_D180>
+  <Item_converter_VSS_DESERT_D360>ВСС (степ.) (360 дней)										21_276</Item_converter_VSS_DESERT_D360>
+  <Item_converter_VSS_SNOW_D1>ВСС (зим.) (1 день)												21_277</Item_converter_VSS_SNOW_D1>
+  <Item_converter_VSS_SNOW_D30>ВСС (зим.) (30 дней)											21_278</Item_converter_VSS_SNOW_D30>
+  <Item_converter_VSS_SNOW_D90>ВСС (зим.) (90 дней)											21_279</Item_converter_VSS_SNOW_D90>
+  <Item_converter_VSS_SNOW_D180>ВСС (зим.) (180 дней)											21_280</Item_converter_VSS_SNOW_D180>
+  <Item_converter_VSS_SNOW_D360>ВСС (зим.) (360 дней)											21_281</Item_converter_VSS_SNOW_D360>
+  <Item_converter_VSS_TOWN_D1>ВСС (город.) (1 день)											21_282</Item_converter_VSS_TOWN_D1>
+  <Item_converter_VSS_TOWN_D30>ВСС (город.) (30 дней)											21_283</Item_converter_VSS_TOWN_D30>
+  <Item_converter_VSS_TOWN_D90>ВСС (город.) (90 дней)											21_284</Item_converter_VSS_TOWN_D90>
+  <Item_converter_VSS_TOWN_D180>ВСС (город.) (180 дней)										21_285</Item_converter_VSS_TOWN_D180>
+  <Item_converter_VSS_TOWN_D360>ВСС (город.) (360 дней)										21_286</Item_converter_VSS_TOWN_D360>
+  <Item_converter_VSS_WOOD_D1>ВСС (лес.) (1 день)												21_287</Item_converter_VSS_WOOD_D1>
+  <Item_converter_VSS_WOOD_D30>ВСС (лес.) (30 дней)											21_288</Item_converter_VSS_WOOD_D30>
+  <Item_converter_VSS_WOOD_D90>ВСС (лес.) (90 дней)											21_289</Item_converter_VSS_WOOD_D90>
+  <Item_converter_VSS_WOOD_D180>ВСС (лес.) (180 дней)											21_290</Item_converter_VSS_WOOD_D180>
+  <Item_converter_VSS_WOOD_D360>ВСС (лес.) (360 дней)											21_291</Item_converter_VSS_WOOD_D360>
+  <Item_converter_SVD_DESERT_D1>СВД (степ.) (1 день)											21_292</Item_converter_SVD_DESERT_D1>
+  <Item_converter_SVD_DESERT_D30>СВД (степ.) (30 дней)										21_293</Item_converter_SVD_DESERT_D30>
+  <Item_converter_SVD_DESERT_D90>СВД (степ.) (90 дней)										21_294</Item_converter_SVD_DESERT_D90>
+  <Item_converter_SVD_DESERT_D180>СВД (степ.) (180 дней)										21_295</Item_converter_SVD_DESERT_D180>
+  <Item_converter_SVD_DESERT_D360>СВД (степ.) (360 дней)										21_296</Item_converter_SVD_DESERT_D360>
+  <Item_converter_SVD_SNOW_D1>СВД (зим.) (1 день)												21_297</Item_converter_SVD_SNOW_D1>
+  <Item_converter_SVD_SNOW_D30>СВД (зим.) (30 дней)											21_298</Item_converter_SVD_SNOW_D30>
+  <Item_converter_SVD_SNOW_D90>СВД (зим.) (90 дней)											21_299</Item_converter_SVD_SNOW_D90>
+  <Item_converter_SVD_SNOW_D180>СВД (зим.) (180 дней)											21_300</Item_converter_SVD_SNOW_D180>
+  <Item_converter_SVD_SNOW_D360>СВД (зим.) (360 дней)											21_301</Item_converter_SVD_SNOW_D360>
+  <Item_converter_SVD_TOWN_D1>СВД (город.) (1 день)											21_302</Item_converter_SVD_TOWN_D1>
+  <Item_converter_SVD_TOWN_D30>СВД (город.) (30 дней)											21_303</Item_converter_SVD_TOWN_D30>
+  <Item_converter_SVD_TOWN_D90>СВД (город.) (90 дней)											21_304</Item_converter_SVD_TOWN_D90>
+  <Item_converter_SVD_TOWN_D180>СВД (город.) (180 дней)										21_305</Item_converter_SVD_TOWN_D180>
+  <Item_converter_SVD_TOWN_D360>СВД (город.) (360 дней)										21_306</Item_converter_SVD_TOWN_D360>
+  <Item_converter_SVD_WOOD_D1>СВД (лес.) (1 день)												21_307</Item_converter_SVD_WOOD_D1>
+  <Item_converter_SVD_WOOD_D30>СВД (лес.) (30 дней)											21_308</Item_converter_SVD_WOOD_D30>
+  <Item_converter_SVD_WOOD_D90>СВД (лес.) (90 дней)											21_309</Item_converter_SVD_WOOD_D90>
+  <Item_converter_SVD_WOOD_D180>СВД (лес.) (180 дней)											21_310</Item_converter_SVD_WOOD_D180>
+  <Item_converter_SVD_WOOD_D360>СВД (лес.) (360 дней)											21_311</Item_converter_SVD_WOOD_D360>
+  <Item_converter_SVD_FALL_D1>СВД (осен.) (1 день)											21_312</Item_converter_SVD_FALL_D1>
+  <Item_converter_SVD_FALL_D30>СВД (осен.) (30 дней)											21_313</Item_converter_SVD_FALL_D30>
+  <Item_converter_SVD_FALL_D90>СВД (осен.) (90 дней)											21_314</Item_converter_SVD_FALL_D90>
+  <Item_converter_SVD_FALL_D180>СВД (осен.) (180 дней)										21_315</Item_converter_SVD_FALL_D180>
+  <Item_converter_SVD_FALL_D360>СВД (осен.) (360 дней)										21_316</Item_converter_SVD_FALL_D360>
+  <Item_converter_MK12_SPR_DESERT_D1>MK12 (степ.) (1 день)									21_317</Item_converter_MK12_SPR_DESERT_D1>
+  <Item_converter_MK12_SPR_DESERT_D30>MK12 (степ.) (30 дней)									21_318</Item_converter_MK12_SPR_DESERT_D30>
+  <Item_converter_MK12_SPR_DESERT_D90>MK12 (степ.) (90 дней)									21_319</Item_converter_MK12_SPR_DESERT_D90>
+  <Item_converter_MK12_SPR_DESERT_D180>MK12 (степ.) (180 дней)								21_320</Item_converter_MK12_SPR_DESERT_D180>
+  <Item_converter_MK12_SPR_DESERT_D360>MK12 (степ.) (360 дней)								21_321</Item_converter_MK12_SPR_DESERT_D360>
+  <Item_converter_MK12_SPR_SNOW_D1>MK12 (зим.) (1 день)										21_322</Item_converter_MK12_SPR_SNOW_D1>
+  <Item_converter_MK12_SPR_SNOW_D30>MK12 (зим.) (30 дней)										21_323</Item_converter_MK12_SPR_SNOW_D30>
+  <Item_converter_MK12_SPR_SNOW_D90>MK12 (зим.) (90 дней)										21_324</Item_converter_MK12_SPR_SNOW_D90>
+  <Item_converter_MK12_SPR_SNOW_D180>MK12 (зим.) (180 дней)									21_325</Item_converter_MK12_SPR_SNOW_D180>
+  <Item_converter_MK12_SPR_SNOW_D360>MK12 (зим.) (360 дней)									21_326</Item_converter_MK12_SPR_SNOW_D360>
+  <Item_converter_MK12_SPR_TOWN_D1>MK12 (город.) (1 день)										21_327</Item_converter_MK12_SPR_TOWN_D1>
+  <Item_converter_MK12_SPR_TOWN_D30>MK12 (город.) (30 дней)									21_328</Item_converter_MK12_SPR_TOWN_D30>
+  <Item_converter_MK12_SPR_TOWN_D90>MK12 (город.) (90 дней)									21_329</Item_converter_MK12_SPR_TOWN_D90>
+  <Item_converter_MK12_SPR_TOWN_D180>MK12 (город.) (180 дней)									21_330</Item_converter_MK12_SPR_TOWN_D180>
+  <Item_converter_MK12_SPR_TOWN_D360>MK12 (город.) (360 дней)									21_331</Item_converter_MK12_SPR_TOWN_D360>
+  <Item_converter_MK12_SPR_WOOD_D1>MK12 (лес.) (1 день)										21_332</Item_converter_MK12_SPR_WOOD_D1>
+  <Item_converter_MK12_SPR_WOOD_D30>MK12 (лес.) (30 дней)										21_333</Item_converter_MK12_SPR_WOOD_D30>
+  <Item_converter_MK12_SPR_WOOD_D90>MK12 (лес.) (90 дней)										21_334</Item_converter_MK12_SPR_WOOD_D90>
+  <Item_converter_MK12_SPR_WOOD_D180>MK12 (лес.) (180 дней)									21_335</Item_converter_MK12_SPR_WOOD_D180>
+  <Item_converter_MK12_SPR_WOOD_D360>MK12 (лес.) (360 дней)									21_336</Item_converter_MK12_SPR_WOOD_D360>
+  <Item_converter_MK48_TOWN_D1>MK48 (город.) (1 день)											21_337</Item_converter_MK48_TOWN_D1>
+  <Item_converter_MK48_TOWN_D30>MK48 (город.) (30 дней)										21_338</Item_converter_MK48_TOWN_D30>
+  <Item_converter_MK48_TOWN_D90>MK48 (город.) (90 дней)										21_339</Item_converter_MK48_TOWN_D90>
+  <Item_converter_MK48_TOWN_D180>MK48 (город.) (180 дней)										21_340</Item_converter_MK48_TOWN_D180>
+  <Item_converter_MK48_TOWN_D360>MK48 (город.) (360 дней)										21_341</Item_converter_MK48_TOWN_D360>
+  <Item_converter_MK48_WOOD_D1>MK48 (лес.) (1 день)											21_342</Item_converter_MK48_WOOD_D1>
+  <Item_converter_MK48_WOOD_D30>MK48 (лес.) (30 дней)											21_343</Item_converter_MK48_WOOD_D30>
+  <Item_converter_MK48_WOOD_D90>MK48 (лес.) (90 дней)											21_344</Item_converter_MK48_WOOD_D90>
+  <Item_converter_MK48_WOOD_D180>MK48 (лес.) (180 дней)										21_345</Item_converter_MK48_WOOD_D180>
+  <Item_converter_MK48_WOOD_D360>MK48 (лес.) (360 дней)										21_346</Item_converter_MK48_WOOD_D360>
+  <Item_converter_HAKI_SHIRT_SNOW_D1>Куртка "Хаки" (1 день)									21_347</Item_converter_HAKI_SHIRT_SNOW_D1>
+  <Item_converter_HAKI_SHIRT_SNOW_D30>Куртка "Хаки" (30 дней)									21_348</Item_converter_HAKI_SHIRT_SNOW_D30>
+  <Item_converter_HAKI_SHIRT_SNOW_D90>Куртка "Хаки" (90 дней)									21_349</Item_converter_HAKI_SHIRT_SNOW_D90>
+  <Item_converter_HAKI_SHIRT_SNOW_D180>Куртка "Хаки" (180 дней)								21_350</Item_converter_HAKI_SHIRT_SNOW_D180>
+  <Item_converter_HAKI_SHIRT_SNOW_D360>Куртка "Хаки" (360 дней)								21_351</Item_converter_HAKI_SHIRT_SNOW_D360>
+  <Item_converter_PARTIZAN_SHIRT_D1>Телог. "Партизан" (1 день)								21_352</Item_converter_PARTIZAN_SHIRT_D1>
+  <Item_converter_PARTIZAN_SHIRT_D30>Телог. "Партизан" (30 дней)								21_353</Item_converter_PARTIZAN_SHIRT_D30>
+  <Item_converter_PARTIZAN_SHIRT_D90>Телог. "Партизан" (90 дней)								21_354</Item_converter_PARTIZAN_SHIRT_D90>
+  <Item_converter_PARTIZAN_SHIRT_D180>Телог. "Партизан" (180 дней)							21_355</Item_converter_PARTIZAN_SHIRT_D180>
+  <Item_converter_PARTIZAN_SHIRT_D360>Телог. "Партизан" (360 дней)							21_356</Item_converter_PARTIZAN_SHIRT_D360>
+  <Item_converter_UNIFORM_SCI_SHIRT_D1>Халат "Ученый" (1 день)								21_357</Item_converter_UNIFORM_SCI_SHIRT_D1>
+  <Item_converter_UNIFORM_SCI_SHIRT_D30>Халат "Ученый" (30 дней)								21_358</Item_converter_UNIFORM_SCI_SHIRT_D30>
+  <Item_converter_UNIFORM_SCI_SHIRT_D90>Халат "Ученый" (90 дней)								21_359</Item_converter_UNIFORM_SCI_SHIRT_D90>
+  <Item_converter_UNIFORM_SCI_SHIRT_D180>Халат "Ученый" (180 дней)							21_360</Item_converter_UNIFORM_SCI_SHIRT_D180>
+  <Item_converter_UNIFORM_SCI_SHIRT_D360>Халат "Ученый" (360 дней)							21_361</Item_converter_UNIFORM_SCI_SHIRT_D360>
+  <Item_converter_UNIFORM_TECH_SHIRT_D1>Халат "Техник" (1 день)								21_362</Item_converter_UNIFORM_TECH_SHIRT_D1>
+  <Item_converter_UNIFORM_TECH_SHIRT_D30>Халат "Техник" (30 дней)								21_363</Item_converter_UNIFORM_TECH_SHIRT_D30>
+  <Item_converter_UNIFORM_TECH_SHIRT_D90>Халат "Техник" (90 дней)								21_364</Item_converter_UNIFORM_TECH_SHIRT_D90>
+  <Item_converter_UNIFORM_TECH_SHIRT_D180>Халат "Техник" (180 дней)							21_365</Item_converter_UNIFORM_TECH_SHIRT_D180>
+  <Item_converter_UNIFORM_TECH_SHIRT_D360>Халат "Техник" (360 дней)							21_366</Item_converter_UNIFORM_TECH_SHIRT_D360>
+  <Item_converter_UNIFORM_MED_SHIRT_D1>Халат "Санитар" (1 день)								21_367</Item_converter_UNIFORM_MED_SHIRT_D1>
+  <Item_converter_UNIFORM_MED_SHIRT_D30>Халат "Санитар" (30 дней)								21_368</Item_converter_UNIFORM_MED_SHIRT_D30>
+  <Item_converter_UNIFORM_MED_SHIRT_D90>Халат "Санитар" (90 дней)								21_369</Item_converter_UNIFORM_MED_SHIRT_D90>
+  <Item_converter_UNIFORM_MED_SHIRT_D180>Халат "Санитар" (180 дней)							21_370</Item_converter_UNIFORM_MED_SHIRT_D180>
+  <Item_converter_UNIFORM_MED_SHIRT_D360>Халат "Санитар" (360 дней)							21_371</Item_converter_UNIFORM_MED_SHIRT_D360>
+  <Item_converter_SHIZ_PANTS_D1>Шт. ШИЗ (1 день)												21_372</Item_converter_SHIZ_PANTS_D1>
+  <Item_converter_SHIZ_PANTS_D30>Шт. ШИЗ (30 дней)											21_373</Item_converter_SHIZ_PANTS_D30>
+  <Item_converter_SHIZ_PANTS_D90>Шт. ШИЗ (90 дней)											21_374</Item_converter_SHIZ_PANTS_D90>
+  <Item_converter_SHIZ_PANTS_D180>Шт. ШИЗ (180 дней)											21_375</Item_converter_SHIZ_PANTS_D180>
+  <Item_converter_SHIZ_PANTS_D360>Шт. ШИЗ (360 дней)											21_376</Item_converter_SHIZ_PANTS_D360>
+  <Item_converter_HAKI_PANTS_SNOW_D1>Шт. "Хаки" (зим.) (1 день)								21_377</Item_converter_HAKI_PANTS_SNOW_D1>
+  <Item_converter_HAKI_PANTS_SNOW_D30>Шт. "Хаки" (зим.) (30 дней)								21_378</Item_converter_HAKI_PANTS_SNOW_D30>
+  <Item_converter_HAKI_PANTS_SNOW_D90>Шт. "Хаки" (зим.) (90 дней)								21_379</Item_converter_HAKI_PANTS_SNOW_D90>
+  <Item_converter_HAKI_PANTS_SNOW_D180>Шт. "Хаки" (зим.) (180 дней)							21_380</Item_converter_HAKI_PANTS_SNOW_D180>
+  <Item_converter_HAKI_PANTS_SNOW_D360>Шт. "Хаки" (зим.) (360 дней)							21_381</Item_converter_HAKI_PANTS_SNOW_D360>
+  <Item_converter_VIKING_HELM_SNOW_D1>Шлем "Викинг" (1 день)									21_382</Item_converter_VIKING_HELM_SNOW_D1>
+  <Item_converter_VIKING_HELM_SNOW_D30>Шлем "Викинг" (30 дней)								21_383</Item_converter_VIKING_HELM_SNOW_D30>
+  <Item_converter_VIKING_HELM_SNOW_D90>Шлем "Викинг" (90 дней)								21_384</Item_converter_VIKING_HELM_SNOW_D90>
+  <Item_converter_VIKING_HELM_SNOW_D180>Шлем "Викинг" (180 дней)								21_385</Item_converter_VIKING_HELM_SNOW_D180>
+  <Item_converter_VIKING_HELM_SNOW_D360>Шлем "Викинг" (360 дней)								21_386</Item_converter_VIKING_HELM_SNOW_D360>
+  <Item_converter_BERET_HAT_D1>Берет (1 день)                                                 21_387</Item_converter_BERET_HAT_D1>
+  <Item_converter_BERET_HAT_D30>Берет (30 дней)                                                 21_388</Item_converter_BERET_HAT_D30>
+  <Item_converter_BERET_HAT_D90>Берет (90 дней)                                                 21_389</Item_converter_BERET_HAT_D90>
+  <Item_converter_BERET_HAT_D180>Берет (180 дней)                                                 21_390</Item_converter_BERET_HAT_D180>
+  <Item_converter_BERET_HAT_D360>Берет (360 дней)                                                 21_391</Item_converter_BERET_HAT_D360>
+  <Item_converter_BERET_HAT_RED_D1>Берет(кр) (1 день)											21_392</Item_converter_BERET_HAT_RED_D1>
+  <Item_converter_BERET_HAT_RED_D30>Берет(кр) (30 дней)										21_393</Item_converter_BERET_HAT_RED_D30>
+  <Item_converter_BERET_HAT_RED_D90>Берет(кр) (90 дней)										21_394</Item_converter_BERET_HAT_RED_D90>
+  <Item_converter_BERET_HAT_RED_D180>Берет(кр) (180 дней)										21_395</Item_converter_BERET_HAT_RED_D180>
+  <Item_converter_BERET_HAT_RED_D360>Берет(кр) (360 дней)										21_396</Item_converter_BERET_HAT_RED_D360>
+  <Item_converter_BERET_HAT_BLUE_D1>Берет(син) (1 день)										21_397</Item_converter_BERET_HAT_BLUE_D1>
+  <Item_converter_BERET_HAT_BLUE_D30>Берет(син) (30 дней)										21_398</Item_converter_BERET_HAT_BLUE_D30>
+  <Item_converter_BERET_HAT_BLUE_D90>Берет(син) (90 дней)										21_399</Item_converter_BERET_HAT_BLUE_D90>
+  <Item_converter_BERET_HAT_BLUE_D180>Берет(син) (180 дней)									21_400</Item_converter_BERET_HAT_BLUE_D180>
+  <Item_converter_BERET_HAT_BLUE_D360>Берет(син) (360 дней)									21_401</Item_converter_BERET_HAT_BLUE_D360>
+  <Item_converter_SHIZ_01_HELM_D1>Шл. ШИЗ "Очкарик" (1 день)									21_402</Item_converter_SHIZ_01_HELM_D1>
+  <Item_converter_SHIZ_01_HELM_D30>Шл. ШИЗ "Очкарик" (30 дней)								21_403</Item_converter_SHIZ_01_HELM_D30>
+  <Item_converter_SHIZ_01_HELM_D90>Шл. ШИЗ "Очкарик" (90 дней)								21_404</Item_converter_SHIZ_01_HELM_D90>
+  <Item_converter_SHIZ_01_HELM_D180>Шл. ШИЗ "Очкарик" (180 дней)								21_405</Item_converter_SHIZ_01_HELM_D180>
+  <Item_converter_SHIZ_01_HELM_D360>Шл. ШИЗ "Очкарик" (360 дней)								21_406</Item_converter_SHIZ_01_HELM_D360>
+  <Item_converter_SHIZ_02_HELM_D1>Шл. ШИЗ "Прорезь" (1 день)									21_407</Item_converter_SHIZ_02_HELM_D1>
+  <Item_converter_SHIZ_02_HELM_D30>Шл. ШИЗ "Прорезь" (30 дней)								21_408</Item_converter_SHIZ_02_HELM_D30>
+  <Item_converter_SHIZ_02_HELM_D90>Шл. ШИЗ "Прорезь" (90 дней)								21_409</Item_converter_SHIZ_02_HELM_D90>
+  <Item_converter_SHIZ_02_HELM_D180>Шл. ШИЗ "Прорезь" (180 дней)								21_410</Item_converter_SHIZ_02_HELM_D180>
+  <Item_converter_SHIZ_02_HELM_D360>Шл. ШИЗ "Прорезь" (360 дней)								21_411</Item_converter_SHIZ_02_HELM_D360>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D1>Круг.тем. очки (1 день)							21_412</Item_converter_GLASSES_CIRC_BLACK_MASK_D1>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D30>Круг.тем. очки (30 дней)						21_413</Item_converter_GLASSES_CIRC_BLACK_MASK_D30>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D90>Круг.тем. очки (90 дней)						21_414</Item_converter_GLASSES_CIRC_BLACK_MASK_D90>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D180>Круг.тем. очки (180 дней)						21_415</Item_converter_GLASSES_CIRC_BLACK_MASK_D180>
+  <Item_converter_GLASSES_CIRC_BLACK_MASK_D360>Круг.тем. очки (360 дней)						21_416</Item_converter_GLASSES_CIRC_BLACK_MASK_D360>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D1>Круглые очки (1 день)							21_417</Item_converter_GLASSES_CIRC_WHITE_MASK_D1>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D30>Круглые очки (30 дней)							21_418</Item_converter_GLASSES_CIRC_WHITE_MASK_D30>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D90>Круглые очки (90 дней)							21_419</Item_converter_GLASSES_CIRC_WHITE_MASK_D90>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D180>Круглые очки (180 дней)						21_420</Item_converter_GLASSES_CIRC_WHITE_MASK_D180>
+  <Item_converter_GLASSES_CIRC_WHITE_MASK_D360>Круглые очки (360 дней)						21_421</Item_converter_GLASSES_CIRC_WHITE_MASK_D360>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D1>Квад.тем. очки (1 день)							21_422</Item_converter_GLASSES_RECT_BLACK_MASK_D1>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D30>Квад.тем. очки (30 дней)						21_423</Item_converter_GLASSES_RECT_BLACK_MASK_D30>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D90>Квад.тем. очки (90 дней)						21_424</Item_converter_GLASSES_RECT_BLACK_MASK_D90>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D180>Квад.тем. очки (180 дней)						21_425</Item_converter_GLASSES_RECT_BLACK_MASK_D180>
+  <Item_converter_GLASSES_RECT_BLACK_MASK_D360>Квад.тем. очки (360 дней)						21_426</Item_converter_GLASSES_RECT_BLACK_MASK_D360>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D1>Квадрат. очки (1 день)							21_427</Item_converter_GLASSES_RECT_WHITE_MASK_D1>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D30>Квадрат. очки (30 дней)							21_428</Item_converter_GLASSES_RECT_WHITE_MASK_D30>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D90>Квадрат. очки (90 дней)							21_429</Item_converter_GLASSES_RECT_WHITE_MASK_D90>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D180>Квадрат. очки (180 дней)						21_430</Item_converter_GLASSES_RECT_WHITE_MASK_D180>
+  <Item_converter_GLASSES_RECT_WHITE_MASK_D360>Квадрат. очки (360 дней)						21_431</Item_converter_GLASSES_RECT_WHITE_MASK_D360>
+  <Item_converter_GLASSES_KOBRA_MASK_D1>Очки "Кобра" (1 день)									21_432</Item_converter_GLASSES_KOBRA_MASK_D1>
+  <Item_converter_GLASSES_KOBRA_MASK_D30>Очки "Кобра" (30 дней)								21_433</Item_converter_GLASSES_KOBRA_MASK_D30>
+  <Item_converter_GLASSES_KOBRA_MASK_D90>Очки "Кобра" (90 дней)								21_434</Item_converter_GLASSES_KOBRA_MASK_D90>
+  <Item_converter_GLASSES_KOBRA_MASK_D180>Очки "Кобра" (180 дней)								21_435</Item_converter_GLASSES_KOBRA_MASK_D180>
+  <Item_converter_GLASSES_KOBRA_MASK_D360>Очки "Кобра" (360 дней)								21_436</Item_converter_GLASSES_KOBRA_MASK_D360>
+  <Item_converter_SHIZ_ARMOR_D1>Бронежилет ШИЗ (1 день)										21_437</Item_converter_SHIZ_ARMOR_D1>
+  <Item_converter_SHIZ_ARMOR_D30>Бронежилет ШИЗ (30 дней)										21_438</Item_converter_SHIZ_ARMOR_D30>
+  <Item_converter_SHIZ_ARMOR_D90>Бронежилет ШИЗ (90 дней)										21_439</Item_converter_SHIZ_ARMOR_D90>
+  <Item_converter_SHIZ_ARMOR_D180>Бронежилет ШИЗ (180 дней)									21_440</Item_converter_SHIZ_ARMOR_D180>
+  <Item_converter_SHIZ_ARMOR_D360>Бронежилет ШИЗ (360 дней)									21_441</Item_converter_SHIZ_ARMOR_D360>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D1>Шпинат (зим.) (1 день)								21_442</Item_converter_SHPINAT_ARMOR_SNOW_D1>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D30>Шпинат (зим.) (30 дней)								21_443</Item_converter_SHPINAT_ARMOR_SNOW_D30>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D90>Шпинат (зим.) (90 дней)								21_444</Item_converter_SHPINAT_ARMOR_SNOW_D90>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D180>Шпинат (зим.) (180 дней)							21_445</Item_converter_SHPINAT_ARMOR_SNOW_D180>
+  <Item_converter_SHPINAT_ARMOR_SNOW_D360>Шпинат (зим.) (360 дней)							21_446</Item_converter_SHPINAT_ARMOR_SNOW_D360>
+  <Item_converter_TASH_ARMOR_SNOW_D1>ТАШ (зим.) (1 день)										21_447</Item_converter_TASH_ARMOR_SNOW_D1>
+  <Item_converter_TASH_ARMOR_SNOW_D30>ТАШ (зим.) (30 дней)									21_448</Item_converter_TASH_ARMOR_SNOW_D30>
+  <Item_converter_TASH_ARMOR_SNOW_D90>ТАШ (зим.) (90 дней)									21_449</Item_converter_TASH_ARMOR_SNOW_D90>
+  <Item_converter_TASH_ARMOR_SNOW_D180>ТАШ (зим.) (180 дней)									21_450</Item_converter_TASH_ARMOR_SNOW_D180>
+  <Item_converter_TASH_ARMOR_SNOW_D360>ТАШ (зим.) (360 дней)									21_451</Item_converter_TASH_ARMOR_SNOW_D360>
+  <Item_converter_RAVENWOOD_ARMOR_D1>Брон."ВЛ" (1 день)										21_452</Item_converter_RAVENWOOD_ARMOR_D1>
+  <Item_converter_RAVENWOOD_ARMOR_D30>Брон."ВЛ" (30 дней)										21_453</Item_converter_RAVENWOOD_ARMOR_D30>
+  <Item_converter_RAVENWOOD_ARMOR_D90>Брон."ВЛ" (90 дней)										21_454</Item_converter_RAVENWOOD_ARMOR_D90>
+  <Item_converter_RAVENWOOD_ARMOR_D180>Брон."ВЛ" (180 дней)									21_455</Item_converter_RAVENWOOD_ARMOR_D180>
+  <Item_converter_RAVENWOOD_ARMOR_D360>Брон."ВЛ" (360 дней)									21_456</Item_converter_RAVENWOOD_ARMOR_D360>
+  <Item_converter_KINOLOG_SUIT_D1>Костюм "Кинолог" (1 день)									21_457</Item_converter_KINOLOG_SUIT_D1>
+  <Item_converter_KINOLOG_SUIT_D30>Костюм "Кинолог" (30 дней)									21_458</Item_converter_KINOLOG_SUIT_D30>
+  <Item_converter_KINOLOG_SUIT_D90>Костюм "Кинолог" (90 дней)									21_459</Item_converter_KINOLOG_SUIT_D90>
+  <Item_converter_KINOLOG_SUIT_D180>Костюм "Кинолог" (180 дней)								21_460</Item_converter_KINOLOG_SUIT_D180>
+  <Item_converter_KINOLOG_SUIT_D360>Костюм "Кинолог" (360 дней)								21_461</Item_converter_KINOLOG_SUIT_D360>
+  <Item_converter_SINGLE_SUIT_D1>Кос. "Одиночки" (1 день)									21_462</Item_converter_SINGLE_SUIT_D1>
+  <Item_converter_SINGLE_SUIT_D30>Кос. "Одиночки" (30 дней)									21_463</Item_converter_SINGLE_SUIT_D30>
+  <Item_converter_SINGLE_SUIT_D90>Кос. "Одиночки" (90 дней)									21_464</Item_converter_SINGLE_SUIT_D90>
+  <Item_converter_SINGLE_SUIT_D180>Кос. "Одиночки" (180 дней)								21_465</Item_converter_SINGLE_SUIT_D180>
+  <Item_converter_SINGLE_SUIT_D360>Кос. "Одиночки" (360 дней)								21_466</Item_converter_SINGLE_SUIT_D360>
+  <Item_converter_PARTIZAN_BACKPACK_D1>Рюк. "Парт." (1 день)									21_467</Item_converter_PARTIZAN_BACKPACK_D1>
+  <Item_converter_PARTIZAN_BACKPACK_D30>Рюк. "Парт." (30 дней)								21_468</Item_converter_PARTIZAN_BACKPACK_D30>
+  <Item_converter_PARTIZAN_BACKPACK_D90>Рюк. "Парт." (90 дней)								21_469</Item_converter_PARTIZAN_BACKPACK_D90>
+  <Item_converter_PARTIZAN_BACKPACK_D180>Рюк. "Парт." (180 дней)								21_470</Item_converter_PARTIZAN_BACKPACK_D180>
+  <Item_converter_PARTIZAN_BACKPACK_D360>Рюк. "Парт." (360 дней)								21_471</Item_converter_PARTIZAN_BACKPACK_D360>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D1>Рюк. "Парт." (зим.) (1 день)						21_472</Item_converter_PARTIZAN_BACKPACK_SNOW_D1>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D30>Рюк. "Парт." (зим.) (30 дней)					21_473</Item_converter_PARTIZAN_BACKPACK_SNOW_D30>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D90>Рюк. "Парт." (зим.) (90 дней)					21_474</Item_converter_PARTIZAN_BACKPACK_SNOW_D90>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D180>Рюк. "Парт." (зим.) (180 дней)					21_475</Item_converter_PARTIZAN_BACKPACK_SNOW_D180>
+  <Item_converter_PARTIZAN_BACKPACK_SNOW_D360>Рюк. "Парт." (зим.) (360 дней)					21_476</Item_converter_PARTIZAN_BACKPACK_SNOW_D360>
+  <Item_converter_SINGLE_BACKPACK_D1>Рюк. "Одиночки" (1 день)									21_477</Item_converter_SINGLE_BACKPACK_D1>
+  <Item_converter_SINGLE_BACKPACK_D30>Рюк. "Одиночки" (30 дней)								21_478</Item_converter_SINGLE_BACKPACK_D30>
+  <Item_converter_SINGLE_BACKPACK_D90>Рюк. "Одиночки" (90 дней)								21_479</Item_converter_SINGLE_BACKPACK_D90>
+  <Item_converter_SINGLE_BACKPACK_D180>Рюк. "Одиночки" (180 дней)								21_480</Item_converter_SINGLE_BACKPACK_D180>
+  <Item_converter_SINGLE_BACKPACK_D360>Рюк. "Одиночки" (360 дней)								21_481</Item_converter_SINGLE_BACKPACK_D360>
+  <Item_converter_CERBER_ARMOR_D1>Броня "Шакал" (1 день)										21_482</Item_converter_CERBER_ARMOR_D1>
+  <Item_converter_CERBER_ARMOR_D30>Броня "Шакал" (30 дней)									21_483</Item_converter_CERBER_ARMOR_D30>
+  <Item_converter_CERBER_ARMOR_D90>Броня "Шакал" (90 дней)									21_484</Item_converter_CERBER_ARMOR_D90>
+  <Item_converter_CERBER_ARMOR_D180>Броня "Шакал" (180 дней)									21_485</Item_converter_CERBER_ARMOR_D180>
+  <Item_converter_CERBER_ARMOR_D360>Броня "Шакал" (360 дней)									21_486</Item_converter_CERBER_ARMOR_D360>
+  <Item_converter_CERBER_SHIRT_D1>Куртка "Шакал" (1 день)										21_487</Item_converter_CERBER_SHIRT_D1>
+  <Item_converter_CERBER_SHIRT_D30>Куртка "Шакал" (30 дней)									21_488</Item_converter_CERBER_SHIRT_D30>
+  <Item_converter_CERBER_SHIRT_D90>Куртка "Шакал" (90 дней)									21_489</Item_converter_CERBER_SHIRT_D90>
+  <Item_converter_CERBER_SHIRT_D180>Куртка "Шакал" (180 дней)									21_490</Item_converter_CERBER_SHIRT_D180>
+  <Item_converter_CERBER_SHIRT_D360>Куртка "Шакал" (360 дней)									21_491</Item_converter_CERBER_SHIRT_D360>
+  <Item_converter_CERBER_PANTS_D1>Шт. "Шакал" (1 день)										21_492</Item_converter_CERBER_PANTS_D1>
+  <Item_converter_CERBER_PANTS_D30>Шт. "Шакал" (30 дней)									21_493</Item_converter_CERBER_PANTS_D30>
+  <Item_converter_CERBER_PANTS_D90>Шт. "Шакал" (90 дней)									21_494</Item_converter_CERBER_PANTS_D90>
+  <Item_converter_CERBER_PANTS_D180>Шт. "Шакал" (180 дней)									21_495</Item_converter_CERBER_PANTS_D180>
+  <Item_converter_CERBER_PANTS_D360>Шт. "Шакал" (360 дней)									21_496</Item_converter_CERBER_PANTS_D360>
+  <Item_converter_RAVENWOOD_HELM_D1>Шлем "ВЛ" (1 день)										21_497</Item_converter_RAVENWOOD_HELM_D1>
+  <Item_converter_RAVENWOOD_HELM_D30>Шлем "ВЛ" (30 дней)										21_498</Item_converter_RAVENWOOD_HELM_D30>
+  <Item_converter_RAVENWOOD_HELM_D90>Шлем "ВЛ" (90 дней)										21_499</Item_converter_RAVENWOOD_HELM_D90>
+  <Item_converter_RAVENWOOD_HELM_D180>Шлем "ВЛ" (180 дней)									21_500</Item_converter_RAVENWOOD_HELM_D180>
+  <Item_converter_RAVENWOOD_HELM_D360>Шлем "ВЛ" (360 дней)									21_501</Item_converter_RAVENWOOD_HELM_D360>
+  <Item_converter_RAVENWOOD_PANTS_D1>Шт. "ВЛ" (1 день)										21_502</Item_converter_RAVENWOOD_PANTS_D1>
+  <Item_converter_RAVENWOOD_PANTS_D30>Шт. "ВЛ" (30 дней)									21_503</Item_converter_RAVENWOOD_PANTS_D30>
+  <Item_converter_RAVENWOOD_PANTS_D90>Шт. "ВЛ" (90 дней)									21_504</Item_converter_RAVENWOOD_PANTS_D90>
+  <Item_converter_RAVENWOOD_PANTS_D180>Шт. "ВЛ" (180 дней)									21_505</Item_converter_RAVENWOOD_PANTS_D180>
+  <Item_converter_RAVENWOOD_PANTS_D360>Шт. "ВЛ" (360 дней)									21_506</Item_converter_RAVENWOOD_PANTS_D360>
+  <Item_converter_SIG_751_D1>Sig-751 (1 день)													21_507</Item_converter_SIG_751_D1>
+  <Item_converter_SIG_751_D30>Sig-751 (30 дней)												21_508</Item_converter_SIG_751_D30>
+  <Item_converter_SIG_751_D90>Sig-751 (90 дней)												21_509</Item_converter_SIG_751_D90>
+  <Item_converter_SIG_751_D180>Sig-751 (180 дней)												21_510</Item_converter_SIG_751_D180>
+  <Item_converter_SIG_751_D360>Sig-751 (360 дней)												21_511</Item_converter_SIG_751_D360>
+  <Item_converter_WA_2000_D1>WA-2000 (1 день)													21_512</Item_converter_WA_2000_D1>
+  <Item_converter_WA_2000_D30>WA-2000 (30 дней)												21_513</Item_converter_WA_2000_D30>
+  <Item_converter_WA_2000_D90>WA-2000 (90 дней)												21_514</Item_converter_WA_2000_D90>
+  <Item_converter_WA_2000_D180>WA-2000 (180 дней)												21_515</Item_converter_WA_2000_D180>
+  <Item_converter_WA_2000_D360>WA-2000 (360 дней)												21_516</Item_converter_WA_2000_D360>
+  <Item_converter_WA_2000_DESERT_D1>WA-2000 (степ.) (1 день)									21_517</Item_converter_WA_2000_DESERT_D1>
+  <Item_converter_WA_2000_DESERT_D30>WA-2000 (степ.) (30 дней)								21_518</Item_converter_WA_2000_DESERT_D30>
+  <Item_converter_WA_2000_DESERT_D90>WA-2000 (степ.) (90 дней)								21_519</Item_converter_WA_2000_DESERT_D90>
+  <Item_converter_WA_2000_DESERT_D180>WA-2000 (степ.) (180 дней)								21_520</Item_converter_WA_2000_DESERT_D180>
+  <Item_converter_WA_2000_DESERT_D360>WA-2000 (степ.) (360 дней)								21_521</Item_converter_WA_2000_DESERT_D360>
+  <Item_converter_WA_2000_SNOW_D1>WA-2000 (зим.) (1 день)										21_522</Item_converter_WA_2000_SNOW_D1>
+  <Item_converter_WA_2000_SNOW_D30>WA-2000 (зим.) (30 дней)									21_523</Item_converter_WA_2000_SNOW_D30>
+  <Item_converter_WA_2000_SNOW_D90>WA-2000 (зим.) (90 дней)									21_524</Item_converter_WA_2000_SNOW_D90>
+  <Item_converter_WA_2000_SNOW_D180>WA-2000 (зим.) (180 дней)									21_525</Item_converter_WA_2000_SNOW_D180>
+  <Item_converter_WA_2000_SNOW_D360>WA-2000 (зим.) (360 дней)									21_526</Item_converter_WA_2000_SNOW_D360>
+  <Item_converter_WA_2000_TOWN_D1>WA-2000 (город.) (1 день)									21_527</Item_converter_WA_2000_TOWN_D1>
+  <Item_converter_WA_2000_TOWN_D30>WA-2000 (город.) (30 дней)									21_528</Item_converter_WA_2000_TOWN_D30>
+  <Item_converter_WA_2000_TOWN_D90>WA-2000 (город.) (90 дней)									21_529</Item_converter_WA_2000_TOWN_D90>
+  <Item_converter_WA_2000_TOWN_D180>WA-2000 (город.) (180 дней)								21_530</Item_converter_WA_2000_TOWN_D180>
+  <Item_converter_WA_2000_TOWN_D360>WA-2000 (город.) (360 дней)								21_531</Item_converter_WA_2000_TOWN_D360>
+  <Item_converter_WA_2000_WOOD_D1>WA-2000 (лес.) (1 день)										21_532</Item_converter_WA_2000_WOOD_D1>
+  <Item_converter_WA_2000_WOOD_D30>WA-2000 (лес.) (30 дней)									21_533</Item_converter_WA_2000_WOOD_D30>
+  <Item_converter_WA_2000_WOOD_D90>WA-2000 (лес.) (90 дней)									21_534</Item_converter_WA_2000_WOOD_D90>
+  <Item_converter_WA_2000_WOOD_D180>WA-2000 (лес.) (180 дней)									21_535</Item_converter_WA_2000_WOOD_D180>
+  <Item_converter_WA_2000_WOOD_D360>WA-2000 (лес.) (360 дней)									21_536</Item_converter_WA_2000_WOOD_D360>
+  <Item_converter_CHIMERA_CLAN_BACKPACK_D90>Рюк. "Химера" (90 дней)							21_537</Item_converter_CHIMERA_CLAN_BACKPACK_D90>
+  <Item_converter_CHIMERA_CLAN_BACKPACK_D180>Рюк. "Химера" (180 дней)							21_538</Item_converter_CHIMERA_CLAN_BACKPACK_D180>
+  <Item_converter_CHIMERA_CLAN_BACKPACK_D360>Рюк. "Химера" (360 дней)							21_539</Item_converter_CHIMERA_CLAN_BACKPACK_D360>
+  <Item_converter_ANOMALY_EXTRACTOR_MODULE_D7>МЗА (модульный)                                	21_540</Item_converter_ANOMALY_EXTRACTOR_MODULE_D7>
+  <Item_converter_ANOMALY_EXTRACTOR_MODULE_D90>МЗА (модульный)                                21_541</Item_converter_ANOMALY_EXTRACTOR_MODULE_D90>
+  <Item_converter_VOENSTAL_M2>Костюм "Военстал" М2                               				21_542</Item_converter_VOENSTAL_M2>
+  <Item_converter_SIGMA_M2>Костюм "Сигма" М2                               					21_543</Item_converter_SIGMA_M2>
+  <Item_converter_DSC_M2>Костюм "Шторм" М2                             						21_544</Item_converter_DSC_M2>
+  <Item_converter_MASK_SNIPE_M2>Костюм маск. М2                              					21_545</Item_converter_MASK_SNIPE_M2>
+  <Item_converter_SVOBODA_GUARD_M2>Костюм "Страж" М2                             				21_546</Item_converter_SVOBODA_GUARD_M2>
+  <Item_converter_INQUISITOR_M2>Костюм "Инквизитор" М2                         				21_547</Item_converter_INQUISITOR_M2>
+  <Item_converter_PREDATOR_M2>Костюм "Хищник" М2                            					21_548</Item_converter_PREDATOR_M2>
+  <Item_converter_SILENCE_M2>Костюм "Тишина" М2                          						21_549</Item_converter_SILENCE_M2>
+  <Item_converter_CHIMERA_M2>Костюм "Химера" М2                           					21_550</Item_converter_CHIMERA_M2>
+  <Item_converter_STELS_M2>Костюм "STELS" М2                          						21_551</Item_converter_STELS_M2>
+  <Item_converter_SINGLE_SUIT_M2>Костюм "Одиночка" М2                     					21_552</Item_converter_SINGLE_SUIT_M2>
+  <Item_converter_VEKSEL_10k_5k>10000в &gt;&gt; 2 * 5000в														21_553</Item_converter_VEKSEL_10k_5k>
+  <Item_converter_VEKSEL_5k_1k>5000в &gt;&gt; 5 * 1000в															21_554</Item_converter_VEKSEL_5k_1k>
+  <Item_converter_VEKSEL_1k_500>1000в &gt;&gt; 2 * 500в															21_555</Item_converter_VEKSEL_1k_500>
+  <Item_converter_VEKSEL_500_100>500в &gt;&gt; 5 * 100в															21_556</Item_converter_VEKSEL_500_100>
+  <Item_converter_VEKSEL_100_50>100в &gt;&gt; 2 * 50в															21_557</Item_converter_VEKSEL_100_50>
+  <Item_converter_VEKSEL_100_20>100в &gt;&gt;; 5 * 20в															21_558</Item_converter_VEKSEL_100_20>
+  <Item_converter_VEKSEL_50_100>2 * 50в &gt;&gt; 100в															21_559</Item_converter_VEKSEL_50_100>
+  <Item_converter_VEKSEL_100_500>5 * 100в &gt;&gt; 500в															21_560</Item_converter_VEKSEL_100_500>
+  <Item_converter_VEKSEL_500_1k>2 * 500в &gt;&gt; 1000в															21_561</Item_converter_VEKSEL_500_1k>
+  <Item_converter_VEKSEL_1k_5k>5 * 1000в &gt;&gt; 5000в															21_562</Item_converter_VEKSEL_1k_5k>
+  <Item_converter_VEKSEL_5k_10k>2 * 5000в &gt;&gt; 10000в														21_563</Item_converter_VEKSEL_5k_10k>
+  <Item_converter_2_12k_silencers>Обмен глушителя 12к													21_564</Item_converter_2_12k_silencers>
+  <Item_converter_craft_recipe_asval>с."АС-ВАЛ" &gt;&gt; Запчасти												21_565</Item_converter_craft_recipe_asval>
+  <Item_converter_craft_recipe_vss>с."ВСС" &gt;&gt; Запчасти													21_566</Item_converter_craft_recipe_vss>
+  <Item_converter_parts_vss>Обмен ВСС запчастей													21_567</Item_converter_parts_vss>
+  <Item_converter_parts_as>Обмен АС запчастей													21_568</Item_converter_parts_as>
+  <Item_converter_parts_mk48>Обмен MK48 запчастей													21_569</Item_converter_parts_mk48>
+  <Item_converter_parts_jack>Обмен MK3A1 запчастей												21_570</Item_converter_parts_jack>
+  <Nishtyak_Barter_Firewood>Дрова                                          22_1</Nishtyak_Barter_Firewood>
+  <CFT_MED_TABLETS5_NOSHPA>Таблетки "Ношпа"                                          23_1</CFT_MED_TABLETS5_NOSHPA>
+  <CFT_MED_TABLETS2_KREON>Таблетки "Креон"                                          23_2</CFT_MED_TABLETS2_KREON>
+  <CFT_MED_TABLETS1_ANALGIN>Таблетки "Анальгин"                                          23_3</CFT_MED_TABLETS1_ANALGIN>
+  <CFT_MED_TABLETS4_KAPOTEN>Таблетки "Капотен"                                          23_4</CFT_MED_TABLETS4_KAPOTEN>
+  <CFT_HERB_FETUS_MATCHES>Спички                                          23_5</CFT_HERB_FETUS_MATCHES>
+  <CFT_PISTOL_SHELLS>Пистолетные гильзы                                          23_6</CFT_PISTOL_SHELLS>
+  <CFT_PAINT_TIN>Банка из под краски                                          23_7</CFT_PAINT_TIN>
+  <CFT_HERB_MUSHROOM_GREBE>Гриб Бледная поганка                                          23_8</CFT_HERB_MUSHROOM_GREBE>
+</root>

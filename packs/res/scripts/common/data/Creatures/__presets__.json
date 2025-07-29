@@ -1,0 +1,65 @@
+{
+	"default_common_conditions" : [
+		{
+			"to_state" : "dead",					
+			"predicate" : ["is_dead", "equal", 1]
+		}
+	],
+	"default_walk_around" : {
+		"movement_types" : ["walk_around"],
+		"conditions" : [
+			{
+				"to_state" : "attacking",
+				"predicate" : ["targets_count", "more", 0]
+			}
+		]
+	},
+	"default_attacking" : {
+		"speed" : 2,
+		"movement_types" : ["follow_target", "walk_around"],
+		"conditions" : [
+			{
+				"to_state" : "before_recover",
+				"predicate" : 
+						["and",[
+							["targets_count", "equal", "0"],
+							["health_percent", "less", "100"]
+						]]
+			},
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["targets_count", "equal", 0]
+				}
+		]
+	},
+	"default_recover" : {
+		"persistent_effects" : {
+			"418" : {"stacks":1}
+		},
+		"conditions" : [
+			{
+				"to_state" : "walk_around",
+				"predicate" : 
+					["and",[
+						["targets_count", "equal", "0"],
+						["health_percent", "equal", "100"]
+					]]
+			},
+			{
+				"to_state" : "attacking",
+				"predicate" : ["targets_count", "more", 0]
+			}
+		]
+	},
+	"default_before_recover" : {
+		"persistent_actions" : ["Idle"],
+		"movement_types" : ["walk_around"],
+		"conditions" : [
+			{
+				"to_state" : "attacking",
+				"predicate" : ["targets_count", "more", 0]
+			}
+		],
+		"change_state_timer" : [10, "recover"]
+	}
+}

@@ -1,0 +1,106 @@
+<root>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> SpatialFieldHandler </Interface>
+		<Interface> EffectsSource </Interface> 
+		<Interface> EffectsSource </Interface> 
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	<Properties>		
+		<pattern_id>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</pattern_id>			
+		
+		<group_id>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</group_id>
+
+		<patterns_list>
+			<Type> STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>			
+		</patterns_list>
+		
+		<current_pattern_index>
+			<Type> UINT8 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>			
+			<Default> 0 </Default>			
+		</current_pattern_index>	
+
+		<change_type>
+			<Type> ANOM_FIELD_PATTERN_CHANGE_TYPE </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>			
+			<Default> 0 </Default>
+		</change_type>		
+		
+		<change_interval>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>			
+			<Default> 10 </Default>
+		</change_interval>
+		
+		<warning_interval>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>			
+			<Default> 3 </Default>
+		</warning_interval>		
+		
+		<is_warning>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</is_warning>				
+		
+		<prize_lists>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>
+		</prize_lists>		
+		
+		<items_spawn_time>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</items_spawn_time>		
+
+		<spawned_items>
+			<Type> BWSET_MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</spawned_items>			
+	</Properties>
+
+	<CellMethods>
+		<onDroppedItemDestroyed>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</onDroppedItemDestroyed>	
+	</CellMethods>
+
+	<ClientMethods>
+		<set_configuration>
+			<Arg> STRING </Arg> <!-- pattern -->
+			<Arg> STRING </Arg> <!-- group -->
+		</set_configuration>		
+		<revealCell>
+			<Arg> UINT8 </Arg>
+			<Arg> UINT8 </Arg>
+		</revealCell>
+		<hideCell>
+			<Arg> UINT8 </Arg>
+			<Arg> UINT8 </Arg>
+		</hideCell>	
+		<start_warning/>
+		
+	</ClientMethods>
+</root>
+
+
+

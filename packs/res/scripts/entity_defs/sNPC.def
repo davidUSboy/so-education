@@ -1,0 +1,263 @@
+<root>
+
+	<Implements>
+		<Interface> ItemHolder </Interface>
+		<Interface>AvatarInterface </Interface>
+		<Interface>Bot </Interface>
+		<Interface>ClanWarehouse </Interface>
+		<Interface>BaseAndCell </Interface>
+		<Interface>InteractiveObject </Interface>
+		<Interface> Characteristics </Interface>
+		
+		<!-- for Brain -->		
+		<Interface> Brain_TargeterInterface </Interface>		
+		<Interface> Brain_ShooterInterface </Interface>		
+		<Interface> Brain_FollowerInterface </Interface>
+		<Interface> Brain_PromenadeInterface </Interface>		
+		<Interface> Brain_WaypointInterface </Interface>		
+		<Interface> Brain_ThinkerInterface </Interface>		
+		<Interface> Brain_FearInterface </Interface>
+
+
+		<Interface> TimerManagerBase </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch/>
+	</Volatile> 
+
+	<Properties>		
+		<owner>
+			<Type> MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<!-- <Persistent>	false			</Persistent> -->
+			<Editable>		false			</Editable>
+		</owner>
+		<ownerSpotId>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</ownerSpotId>
+
+        <isDisableDialogs>
+			<Type> BOOL </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		false			</Editable>
+			<Default>		0			</Default>
+		</isDisableDialogs>
+
+		<timeBeforeResurrect>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable>		true			</Editable>
+			<Default> 5.0 </Default>
+		</timeBeforeResurrect>
+		<impactChance>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable>		true			</Editable>
+			<Default> -1.0 </Default>
+		</impactChance>
+		<npcType>
+			<Type> sNPC_TYPE </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+		</npcType>
+		<npcName>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+		</npcName>
+		<actionOnLaunch>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+		</actionOnLaunch>
+		
+		<ignorePK>
+			<Type> BOOL </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Editable>		true			</Editable>
+		</ignorePK>
+		<displayName>
+			<Type> STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</displayName>
+		<_ServiceTag>
+			<Type> STRING </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable>		true			</Editable>
+		</_ServiceTag>
+		<npcWeapon>
+			<Type> NPC_WEAPON </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default> 1 </Default>
+		</npcWeapon>
+
+		<npcHead>
+			<Type> NPC_HEAD </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcHead>
+		<npcHands>
+			<Type> NPC_HANDS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcHands>
+		<npcBoots>
+			<Type> NPC_BOOTS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcBoots>
+		<npcBody>
+			<Type> NPC_BODY </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcBody>
+		<npcArmor>
+			<Type> NPC_ARMOR </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcArmor>
+		<npcLegs>
+			<Type> NPC_LEGS </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>1</Default>
+		</npcLegs>
+		<npcCap>
+			<Type> NPC_CAP </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcCap>
+		<npcMask>
+			<Type> NPC_MASK </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcMask>
+		<npcBackpack>
+			<Type> NPC_BACK </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default>0</Default>
+		</npcBackpack>
+		<npcFlags>
+			<Type> INT64 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		false			</Editable>
+			<Default>0</Default>
+		</npcFlags>
+		<wayUDO>
+			<Type>			UDO_REF 			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true				</Editable>
+		</wayUDO>
+		<shootRange>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true				</Editable>
+			<Default>20.0</Default>
+		</shootRange>
+		<way>
+			<Type>			WAY 			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</way>
+		
+		<clanID>
+			<Type>			INT32 			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+			<Editable>		true				</Editable>
+		</clanID>
+
+		<baseClanID>
+			<Type>			INT32 			</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	false				</Persistent>
+			<Editable>		false				</Editable>
+		</baseClanID>
+
+		<clanName>
+			<Type>	STRING		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>	true	</Persistent>
+		</clanName>
+
+		<fractionID>
+			<Type> FRACTION </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+		</fractionID>
+
+		<bFractionID>
+			<Type> FRACTION </Type>
+			<Flags> BASE </Flags>
+		</bFractionID>
+
+		<headTrackerEnable>
+			<Type> BOOL </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>		true			</Editable>
+			<Default> 1 </Default>
+		</headTrackerEnable>
+
+		<teleportName>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+		</teleportName>
+		
+		<donatBaseName>
+			<Type> STRING </Type>
+			<Flags> BASE </Flags>
+			<Editable>		true			</Editable>
+		</donatBaseName>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<setFlags>
+			<Arg> INT64 </Arg>
+		</setFlags>
+
+		<clearFlags>
+			<Arg> INT64 </Arg>
+		</clearFlags>
+		
+		<setClanID>
+			<Arg> INT32 </Arg>
+		</setClanID>
+
+		<setWay>
+			<Arg> WAY </Arg>
+		</setWay>
+
+		<setTeleportName>
+			<Arg> STRING </Arg>
+		</setTeleportName>
+	</CellMethods>
+
+  <BaseMethods>
+      <setFractionID>
+          <Arg> FRACTION </Arg>
+     </setFractionID>
+
+	<setBaseClanID>
+		<Arg> INT64 </Arg>
+	</setBaseClanID>
+  </BaseMethods>
+</root>

@@ -1,0 +1,15 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<pOwner>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	0				</Default>
+		</pOwner>
+	</Properties>
+	
+</root>

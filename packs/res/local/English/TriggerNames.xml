@@ -1,0 +1,110 @@
+<root>
+  <TriggerObject>
+    <quest_10067>Bench</quest_10067>
+    <quest_10066>Bench</quest_10066>
+    <quest_10065>Bench</quest_10065>
+    <quest_10064>Bench</quest_10064>
+    <quest_10063>Bench</quest_10063>
+    <quest_10062>Bench</quest_10062>
+    <quest_10061>Bench</quest_10061>
+    <quest_10060>Bench</quest_10060>
+    <quest_10005>Weapon Box</quest_10005>
+    <quest_10004>TV</quest_10004>
+    <quest_10021>Radio</quest_10021>
+    <quest_10020>Radio</quest_10020>
+    <quest_10001>Refrigerator</quest_10001>
+    <quest_10029>Box</quest_10029>
+    <quest_10003>TV</quest_10003>
+    <quest_10068>Bench</quest_10068>
+    <quest_10028>Box</quest_10028>
+    <quest_10039>Cocoons</quest_10039>
+    <quest_10009>Weapon Box</quest_10009>
+    <guid_D02782ED4FC15B91B6F4EEBA016BEAB3>Body</guid_D02782ED4FC15B91B6F4EEBA016BEAB3>
+    <guid_Kamni_01>Mass of rock</guid_Kamni_01>
+    <guid_Kamni_02>Mass of rock</guid_Kamni_02>
+    <guid_TestBoxTest>Textbox</guid_TestBoxTest>
+    <quest_10031>Box</quest_10031>
+    <quest_10008>Weapon Box</quest_10008>
+    <quest_10022>Radio</quest_10022>
+    <guid_E75A31E74A453707C80351AA0F16B323>Coded Lock</guid_E75A31E74A453707C80351AA0F16B323>
+    <guid_896400914A6D53937F497FB30AE72AC1>Box</guid_896400914A6D53937F497FB30AE72AC1>
+    <quest_10026>Canister</quest_10026>
+    <guid_C053A7844594F55A29BFBD9EAF491FDE>Access Terminal</guid_C053A7844594F55A29BFBD9EAF491FDE>
+    <quest_10023>Canister</quest_10023>
+    <guid_ECEFF6AB44B78057CDF7B4B0D6230F91>PDA</guid_ECEFF6AB44B78057CDF7B4B0D6230F91>
+    <quest_10058>Trash Can</quest_10058>
+    <quest_10059>Bench</quest_10059>
+    <quest_10056>Trash Can</quest_10056>
+    <quest_10057>Trash Can</quest_10057>
+    <quest_10054>Doghouse</quest_10054>
+    <quest_10055>Doghouse</quest_10055>
+    <quest_10052>Cardboard Box</quest_10052>
+    <quest_10007>Weapon Box</quest_10007>
+    <quest_10050>Refrigerator</quest_10050>
+    <quest_10051>Cache</quest_10051>
+    <quest_10012>Suitcase</quest_10012>
+    <quest_10013>Suitcase</quest_10013>
+    <quest_10010>Suitcase</quest_10010>
+    <quest_10011>Suitcase</quest_10011>
+    <quest_10016>Cabinet</quest_10016>
+    <quest_10017>Cabinet</quest_10017>
+    <quest_10014>Cabinet</quest_10014>
+    <quest_10015>Cabinet</quest_10015>
+    <quest_10030>Box</quest_10030>
+    <quest_10027>Refrigerator</quest_10027>
+    <quest_10018>Cabinet</quest_10018>
+    <quest_10019>Cabinet</quest_10019>
+    <quest_10034>Cardboard Box</quest_10034>
+    <quest_10035>Cardboard Box</quest_10035>
+    <quest_10036>Cardboard Box</quest_10036>
+    <quest_10037>Cardboard Box</quest_10037>
+    <quest_10032>Cardboard Box</quest_10032>
+    <quest_10006>Ammo Box</quest_10006>
+    <quest_10024>Canister</quest_10024>
+    <quest_10025>Canister</quest_10025>
+    <quest_10002>TV</quest_10002>
+    <guid_ABAD402843FDF39A2C3DFB8B5A1844A0>Charon</guid_ABAD402843FDF39A2C3DFB8B5A1844A0>
+    <guid_EC5010D249FA6B87ABFB679A4E9489F7>PDA</guid_EC5010D249FA6B87ABFB679A4E9489F7>
+    <guid_6C5558224693EE5150D10A9B41552199>Backpack</guid_6C5558224693EE5150D10A9B41552199>
+    <quest_10033>Cardboard Box</quest_10033>
+    <quest_10053>Doghouse</quest_10053>
+    <quest_10049>Refrigerator</quest_10049>
+    <quest_10048>Medicines</quest_10048>
+    <quest_10041>Cocoon</quest_10041>
+    <quest_10040>Cocoon</quest_10040>
+    <quest_10043>Cocoons</quest_10043>
+    <quest_10042>Cocoons</quest_10042>
+    <quest_10045>Cabinet</quest_10045>
+    <quest_10044>Refrigerator</quest_10044>
+    <quest_10047>Military Flashlight</quest_10047>
+    <quest_10046>Military Flashlight</quest_10046>
+    <quest_20001>Analyzer</quest_20001>
+    <quest_20002>Cabinet</quest_20002>
+    <quest_20006>Dead Pilot</quest_20006>
+    <quest_20007>Fire</quest_20007>
+    <quest_20008>Dead Body</quest_20008>
+    <quest_20009>Stalker's Journal</quest_20009>
+    <quest_40001>Dead Pilot</quest_40001>
+    <quest_50001>Fire</quest_50001>
+    <NZ_lab_terminal1>Terminal</NZ_lab_terminal1>
+    <NZ_lab_terminal2>Terminal</NZ_lab_terminal2>
+    <NZ_lab_trup>Dead body</NZ_lab_trup>
+    <mutant_doc1>Documents</mutant_doc1>
+    <mutant_doc2>Documents</mutant_doc2>
+    <echo_doc1>Documents</echo_doc1>
+    <box_moroz>Parcel</box_moroz>
+    <deadkurier1>Dead courier</deadkurier1>
+    <rifle>Stash</rifle>
+    <Skorohod>Dead stalker</Skorohod>
+    <DisplayPowerLineRepair1>Transmission line</DisplayPowerLineRepair1>
+    <DisplayPowerLineRepair2>Transmission line</DisplayPowerLineRepair2>
+    <DisplayPowerLineRepair3>Transmission line</DisplayPowerLineRepair3>
+    <DisplayPowerLineRepair4>Transmission line</DisplayPowerLineRepair4>
+    <DisplayPowerLineRepair5>Transmission line</DisplayPowerLineRepair5>
+    <DisplayPowerLineRepair6>Transmission line</DisplayPowerLineRepair6>
+    <DisplayPowerLineRepair7>Transmission line</DisplayPowerLineRepair7>
+    <DisplayPowerLineRepair8>Transmission line</DisplayPowerLineRepair8>
+    <DisplayPowerLineRepair9>Transmission line</DisplayPowerLineRepair9>
+    <DisplayPowerLineRepair10>Transmission line</DisplayPowerLineRepair10>
+  </TriggerObject>
+</root>

@@ -1,0 +1,58 @@
+<root>
+	<CellMethods>
+		<spawnMob>
+			<Arg> VECTOR3 </Arg><!-- position -->
+		</spawnMob>
+		<onMobDeath> <!-- called by mob when he is dying -->
+			<Arg> ENTITY_ID </Arg>
+		</onMobDeath>
+		<onMobRevive> <!-- called by mob when he is dying -->
+			<Arg> ENTITY_ID </Arg>
+		</onMobRevive>
+		<onMobSpawned> <!-- called by mob when he is dying -->
+			<Arg> ENTITY_ID </Arg>
+		</onMobSpawned>
+		<onMobDecompose>
+			<Arg> ENTITY_ID </Arg>
+		</onMobDecompose>
+		<onMobRecompose> 
+			<Arg> ENTITY_ID </Arg>
+		</onMobRecompose>
+		<onMobAnnihilate> 
+			<Arg> ENTITY_ID </Arg>
+		</onMobAnnihilate>		
+		<baseMobSpawned>
+			<Arg> MAILBOX </Arg>
+		</baseMobSpawned>
+	</CellMethods>
+	
+	<Properties>
+  		<mobs>
+			<Type> ARRAY <of> MAILBOX </of> </Type>
+			<Flags>	CELL_PRIVATE </Flags>
+		</mobs>
+
+		<mobsType>
+			<Type> MOBTYPE </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+			<Persistent> true </Persistent>
+			<Editable> true	</Editable>
+		</mobsType>
+		
+		<mobs_subtype>
+			<Type> STRING </Type>
+			<Flags>	CELL_PRIVATE </Flags>
+			<Default> 1 </Default>
+			<Persistent> true </Persistent>
+			<Editable> true </Editable>
+		</mobs_subtype>
+
+		<lastMobDeathTime>
+			<Type> FLOAT64 </Type>
+			<Flags>	CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+			<Editable> false </Editable>
+		</lastMobDeathTime>
+	</Properties>
+</root>

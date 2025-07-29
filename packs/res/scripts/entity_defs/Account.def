@@ -1,0 +1,687 @@
+<!-- Stalker online Account definitions -->
+<root>
+	<Implements>
+		<Interface> AntiCheatLog </Interface>
+		<Interface> MgrModule </Interface>
+		<Interface> AcClient </Interface>
+		<Interface> PackManagerBase </Interface>
+		<Interface> TimerManagerBase </Interface>
+		<Interface> EventSystem </Interface>
+	</Implements>
+
+	<Properties>
+		<phoneNumber>
+			<Type>			UINT64		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>0</Default>
+		</phoneNumber>
+
+
+		<premium>
+			<Type>			PREMIUMSETTINGS		</Type>
+			<Flags>			BASE_AND_CLIENT				</Flags>
+			<Persistent>	true				</Persistent>
+			
+		</premium>	
+
+		 <!-- timestamp -->
+		<date_registered>
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>0</Default>
+		</date_registered>
+
+	 	<!-- timestamp -->
+		<phoneChangedDate>
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>0</Default>
+		</phoneChangedDate>
+
+		<email_confirmed>
+			<Type>			UINT8		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>0</Default>
+		</email_confirmed>
+
+
+		<phone_confirmed>
+			<Type>			UINT8		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>0</Default>
+		</phone_confirmed>
+
+
+
+
+
+
+
+		<needConfirmIDUser>
+			<Type> 	INT16  			</Type>
+			<Flags>	BASE_AND_CLIENT	</Flags>
+		</needConfirmIDUser>
+	
+		<needConfirmIDUser>
+			<Type> 	INT16  			</Type>
+			<Flags>	BASE_AND_CLIENT	</Flags>
+		</needConfirmIDUser>
+
+	
+		<needConfirmIDUserKey>
+			<Type>		STRING		</Type>
+			<Flags>		BASE		</Flags>
+		</needConfirmIDUserKey>
+
+	
+		<needConfirmIDCount>
+			<Type> 		INT16 			</Type>
+			<Flags>		BASE_AND_CLIENT	</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>		0			</Default>
+		</needConfirmIDCount>
+
+
+
+
+
+		<ListConfirmHWID>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true		</Persistent>
+		</ListConfirmHWID>	
+
+		<ListConfirmCompName>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true		</Persistent>
+		</ListConfirmCompName>	
+
+		<ListConfirmMac>
+			<Type> ARRAY <of> STRING </of> </Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true		</Persistent>
+		</ListConfirmMac>	
+		
+
+
+
+
+		<lastHWID>
+			<Type> STRING  </Type>
+			<Flags>	BASE	</Flags>
+		</lastHWID>
+
+
+		<lastIDCompName>
+			<Type> STRING  </Type>
+			<Flags>	BASE	</Flags>
+		</lastIDCompName>
+
+		<lastIDmac>
+			<Type> STRING  </Type>
+			<Flags>	BASE	</Flags>
+		</lastIDmac>
+
+
+	
+		<v0841>
+			<Type>			INT16			</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+		</v0841>
+
+		<accountName>
+			<Type>			STRING			</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</accountName>
+		<charSlots>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true	</Persistent>
+			<Default>		3		</Default>
+		</charSlots>
+		<storedPasswordSalt>
+			<Type>			UINT16	</Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true	</Persistent>
+			<Default>		0		</Default>
+		</storedPasswordSalt>
+
+		<corrupted_packs>
+			<Type>		ARRAY <of>STRING</of>	</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true	</Persistent>
+		</corrupted_packs>
+
+		<outdated_packs>
+			<Type>		ARRAY <of>STRING</of>	</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true	</Persistent>
+		</outdated_packs>
+
+		<exe_crc>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE </Flags>
+			<Default> 		0 	</Default>
+		</exe_crc>
+
+		<scripts_crc>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE </Flags>
+			<Default> 		0 	</Default>
+		</scripts_crc>
+		
+		<GoldCredit>
+			<Type> INT32 </Type>
+			<Flags> BASE_AND_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+		</GoldCredit>
+
+		<accessLevel>
+			<Type>	ACCESS_LEVEL	</Type>
+			<Flags>	BASE			</Flags>
+			<Default> 0 			</Default>
+			<Persistent>	true	</Persistent>
+		</accessLevel>
+		<lastCharacterName>
+			<Type>			UNICODE_STRING			</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true			</Persistent>
+		</lastCharacterName>
+		<logoutTimer>
+			<Type>	INT32		</Type>
+			<Flags>	BASE		</Flags>
+			<Default> 0 </Default>
+		</logoutTimer>
+		<lastLogout>
+			<Type>			FLOAT			</Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true			</Persistent>
+		</lastLogout>
+		<lastLogoutKind>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true			</Persistent>
+		</lastLogoutKind>
+		<autoBanTimes>
+			<Type>	INT32		</Type>
+			<Flags>	BASE		</Flags>
+			<Default> 0 </Default>
+			<Persistent>	true			</Persistent>
+		</autoBanTimes>
+
+		<persistentCharacterList>
+			<Type>			ARRAY <of> PERSISTENT_CHARACTER_INFO </of>	</Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true		</Persistent>
+		</persistentCharacterList>
+
+		<acTestResults>
+			<Type>			ARRAY <of> ACTEST_RESULT </of>	</Type>
+			<Flags>			BASE	</Flags>
+			<Persistent>	true		</Persistent>
+		</acTestResults>
+
+
+		<characterList>
+			<Type>			ARRAY <of> CHARACTER_INFO </of>		</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+		</characterList>
+
+		<!-- Logon/Billing stuff -->
+		<password>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>					</Default>
+			<Persistent>	true			</Persistent>
+		</password>
+
+		<storedPassword>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>					</Default>
+			<Persistent>	true		</Persistent>
+		</storedPassword>
+
+		<masterPassword>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>					</Default>
+			<Persistent>	true		</Persistent>
+		</masterPassword>
+
+		<masterPasswordExpires>
+			<Type>			FLOAT64		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>					</Default>
+			<Persistent>	true		</Persistent>
+		</masterPasswordExpires>
+
+		<activeCharacter>
+			<Type>			MAILBOX		</Type>
+			<Flags>			BASE		</Flags>
+		</activeCharacter>
+
+		<email>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</email>
+
+		<lastClientIpAddr>
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</lastClientIpAddr>
+
+		
+		<HistoryVisit>
+			<Type>			ARRAY <of>CONNECTINFO</of>		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</HistoryVisit>
+
+		<allUsedClientIps>
+			<Type>			ARRAY <of>UINT32</of>		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</allUsedClientIps>
+
+		<banned>
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default> <!-- 10 is for web account creation. execute webConfirm to activate -->
+			<Persistent>	true		</Persistent>
+		</banned>
+
+		<UserFromMasterPassword>
+			<Type>			BOOL		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default> 
+		</UserFromMasterPassword>
+
+		<banReason>
+			<Type>			UNICODE_STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</banReason>
+
+		<banEndTime>
+			<Type>			FLOAT64		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>		0.000		</Default>
+		</banEndTime>
+
+		<isCheater>
+			<Type>			INT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</isCheater>
+
+
+
+	</Properties>
+
+	<ClientMethods>
+
+		<showNews>
+			<Arg>	UNICODE_STRING	</Arg>
+		</showNews>
+
+		<updateGoldCost>
+			<Arg>	INT32	</Arg>
+		</updateGoldCost>
+		
+		<failLogon>
+			<Arg>	STRING	</Arg>	<!-- message to show on console -->
+		</failLogon>
+
+		<notEnoughMoney/>
+		<premiumAlreadyActivated/>
+		
+		<showValidateWindow>
+			<Arg>	INT16	</Arg>
+			<Arg>	INT16	</Arg>
+			<Arg>	STRING	</Arg>
+		</showValidateWindow>
+
+		<showValidateError/>		
+
+		<createCharacterCallback>
+			<Arg>	BOOL	</Arg>
+			<Arg>	INT32	</Arg> <!-- errcode -->
+		</createCharacterCallback>
+
+		<receiveCharacterList>
+			<Arg> ARRAY <of> CHARACTER_INFO </of></Arg>
+		
+		</receiveCharacterList> 
+
+		<updatePremium>
+			<Arg> PREMIUMSETTINGS </Arg>
+			<Arg> INT32 </Arg>
+		</updatePremium>
+		<onRenamedAvatar>
+			<Arg>	INT32	</Arg>  <!-- err code -->
+		</onRenamedAvatar>
+
+		<getParam>
+			<Arg>	INT32	</Arg>
+		</getParam>
+		
+		<ownerFromServer>
+			<Arg> STRING </Arg>
+		</ownerFromServer>
+		
+		<queueMessage>
+			<Arg> STRING </Arg>
+		</queueMessage>
+
+		<setSpaces>
+			<Arg> ARRAY <of> SPACE_INFO </of></Arg>
+		</setSpaces>
+
+		<restartClient/>
+
+		<allowOnline>
+			<Arg> STRING </Arg> 
+		</allowOnline> 
+
+		<onEnterQueue>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+			<Arg> INT32 </Arg>
+		</onEnterQueue>
+
+		<onQueuePositionUpdated>
+			<Arg> INT32 </Arg>
+		</onQueuePositionUpdated>
+
+		<onAvatarNameAvailability>
+			<Arg>	UNICODE_STRING	</Arg>
+			<Arg>	BOOL	</Arg>
+		</onAvatarNameAvailability>
+	</ClientMethods>
+
+	<BaseMethods>
+	
+		<changePhoneNumber>
+			<Arg>	UINT64			</Arg>
+		</changePhoneNumber>
+
+		
+		<playerNotCheater/>
+		
+		<sendMeHistoryVisit>
+			<Arg>	MAILBOX			</Arg>
+		</sendMeHistoryVisit>
+
+
+		<dataManagerResponced>
+			<Arg>	STRING			</Arg>	<!-- result -->
+			<Arg>	INT8			</Arg>	<!-- status -->
+			<Arg>	STRING			</Arg>	<!-- msg -->
+			<Arg>	STRING			</Arg>	<!-- otherAccName -->
+			<Arg>	FLOAT64			</Arg>	<!-- timeBan -->
+
+			<Arg>	STRING			</Arg>	<!-- Mac -->
+			<Arg>	STRING			</Arg>	<!-- compName -->
+
+		</dataManagerResponced>
+	
+	
+		<updateAvatarToAccountGold>
+			<Arg>	INT64			</Arg>	<!-- goldvalue -->
+			<Arg>	INT64			</Arg>	<!-- diferent -->
+			<Arg>	INT32			</Arg>	<!-- withEntity -->
+			<Arg>	UNICODE_STRING	</Arg>	<!-- charname -->
+			<Arg>	STRING			</Arg>	<!-- sTransaction -->
+		</updateAvatarToAccountGold>
+		
+		
+		<callUpdateGold/>
+		<activatePremiumAccount>
+			<Exposed/>
+		</activatePremiumAccount>
+		<avatarLoad>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+			<Arg> ARRAY <of>STRING</of>	 </Arg>
+		</avatarLoad>	
+			
+		<confirmAccount>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</confirmAccount>
+
+		<reSendValidateKey>
+			<Exposed/>
+		</reSendValidateKey>
+	
+	
+		<askGoldFromGoldWriter>
+			<Arg>	STRING			</Arg>	<!-- msgID -->
+			<Arg>	STRING			</Arg>	<!-- command -->
+			<Arg>	INT64			</Arg>	<!-- DBID -->
+			<Arg>	INT64			</Arg>	<!-- gold -->
+			<Arg>	STRING			</Arg>	<!-- sTransaction -->
+			<Arg>	MAILBOX			</Arg>	<!-- MAILBOX  GoldWriter-->
+		</askGoldFromGoldWriter>
+	
+		
+		<restoreCharacter>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</restoreCharacter>
+	
+		<deleteCharacterForDev>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</deleteCharacterForDev>
+		
+		<playerCheckAvatarNameAvailability>
+			<Exposed/>
+			<Arg>	UNICODE_STRING	</Arg>
+		</playerCheckAvatarNameAvailability>
+
+		<console_char_account>
+			<Arg> UNICODE_STRING </Arg> <!-- char's name -->
+			<Arg>	MAILBOX	</Arg> 	<!-- customer entity's mailbox -->
+		</console_char_account>
+		
+		<setCensor>
+			<Arg> BOOL </Arg>		<!-- True - add, False - remove censor rights -->
+			<Arg>	MAILBOX	</Arg> 	<!-- customer entity's mailbox -->
+		</setCensor>
+		
+		<setAccessLevelCommand>
+			<Arg> INT32 </Arg> <!-- see server_common/access_levels.py -->
+			<Arg>	MAILBOX	</Arg> 	<!-- customer entity's mailbox -->
+		</setAccessLevelCommand>
+		
+		<getLevelAccess>
+			<Arg>	MAILBOX	</Arg> 	<!-- customer entity's mailbox -->
+		</getLevelAccess>
+		
+		<getBanStatus>
+			<Arg>	MAILBOX	</Arg> 	<!-- customer entity's mailbox -->
+		</getBanStatus>
+
+		<setAccessLevel>
+			<Arg> INT32 </Arg> <!-- see server_common/access_levels.py -->
+		</setAccessLevel>
+		
+		<allowOnline/>
+
+		<onEnterQueue>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+			<Arg> INT32 </Arg>
+		</onEnterQueue>
+
+		<onQueuePositionUpdated>
+			<Arg> INT32 </Arg>
+		</onQueuePositionUpdated>
+
+		<addOneAvailableRename>
+			<Arg> INT32 </Arg> <!-- avatar_id -->
+		</addOneAvailableRename>
+
+		<setACTestResult>
+			<Arg> INT32 </Arg> <!-- test_type -->
+			<Arg> BOOL </Arg> <!-- result -->
+		</setACTestResult>
+		<requestCharacterList>
+			<Exposed/>
+		</requestCharacterList>
+		<cheater/>
+
+		<setMasterPassword>
+			<Arg> STRING </Arg> <!-- password -->
+			<Arg> INT32 </Arg> <!-- expires after -->
+			<Arg> BOOL </Arg> <!-- destroy entity after set -->
+		</setMasterPassword>
+
+		<ban>
+			<Arg> INT32 </Arg> <!-- minutes -->
+			<Arg> UNICODE_STRING </Arg> <!-- reason -->
+			<Arg> BOOL </Arg> <!-- destroy entity after ban -->
+			<Arg> UINT8 </Arg> <!-- ban status -->
+		</ban>
+
+		<banByUser>
+			<Arg> UNICODE_STRING </Arg> <!-- reason -->
+			<Arg> STRING </Arg> <!-- banner name -->
+			<Arg> ACCESS_LEVEL </Arg> <!-- banner access level -->
+			<Arg> INT32 </Arg> <!-- minutes -->
+			<Arg> BOOL </Arg> <!-- destroy entity after ban -->
+		</banByUser>
+
+		<unban>
+			<Arg> BOOL </Arg> <!-- destroy entity after unban -->
+		</unban>
+
+		<unbanByUser>
+			<Arg> STRING </Arg> <!-- banner name -->
+			<Arg> ACCESS_LEVEL </Arg> <!-- banner access level -->
+			<Arg> BOOL </Arg> <!-- destroy entity after ban -->
+		</unbanByUser>
+
+		<setBanStatus>
+			<Arg> UNICODE_STRING </Arg> <!-- reason -->
+			<Arg> INT32 </Arg> <!-- status (0 - unbanned, 1 - banned) -->
+			<Arg> FLOAT64 </Arg> <!-- duration (seconds) -->
+		</setBanStatus>
+
+		<createNewAvatar>
+			<Exposed/>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- character name -->
+			<Arg>	PACKED_AVATAR_MODEL	</Arg>	<!-- default models -->
+		</createNewAvatar>
+
+		<deleteAvatar>
+			<Exposed/>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- character name -->
+		</deleteAvatar>
+
+		<beginPlay>
+			<Exposed/>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- character name -->
+            <Arg>	INT8	        </Arg>	<!-- get tutorial passed -->
+		</beginPlay>
+
+		<onAvatarDeath>
+			<Arg>	DBID	</Arg>	<!-- avatar database id -->
+		</onAvatarDeath>
+		
+		<onAvatarWasActuallyDestroyed>
+			<Arg>	DBID	</Arg>	<!-- avatar database id -->
+		</onAvatarWasActuallyDestroyed>
+
+		<updateCharStats>
+			<Arg>		UINT64		</Arg>
+			<Arg>		STATS_VALUES	</Arg>
+		</updateCharStats>
+
+		<webCheckPassword>
+			<Arg>		STRING		</Arg>	<!-- password -->
+			<ReturnValues>
+				<success>		BOOL		</success>
+				<errMsg>		STRING		</errMsg>
+			</ReturnValues>
+		</webCheckPassword>
+
+		<webConfirm>
+			<ReturnValues>
+				<success>		BOOL		</success>
+				<errMsg>		STRING		</errMsg>
+			</ReturnValues>
+		</webConfirm>
+
+		<webGetCharacterList>
+			<ReturnValues>
+				<characters>	ARRAY	<of>PYTHON</of>	
+				</characters>
+			</ReturnValues>
+		</webGetCharacterList>
+
+		<webChooseCharacter>
+			<Arg>		STRING		</Arg>	<!-- character name -->
+			<Arg>		STRING		</Arg>	<!-- character type -->
+			<ReturnValues>
+				<errMsg>		STRING		</errMsg>
+				<character>		MAILBOX		</character>
+			</ReturnValues>
+		</webChooseCharacter>
+
+		<serverKick/>
+
+		<notify>
+			<Arg> INT64 </Arg> <!-- notify id -->
+			<Arg> ARRAY <of>STRING</of> </Arg> <!-- notify string data -->
+		</notify>
+
+
+		<SavePlayerKit>
+			<Arg> UNICODE_STRING </Arg>
+			<Arg> ARRAY <of> STRING </of> </Arg>
+			<Arg> ARRAY <of> INT32 </of> </Arg>
+		</SavePlayerKit>
+
+		<setPassword>
+			<Arg> STRING </Arg>
+		</setPassword>
+
+		<setPackCorrupted>
+			<Arg> STRING </Arg>
+		</setPackCorrupted>
+		<setPackOutdated>
+			<Arg> STRING </Arg>
+		</setPackOutdated>
+		<setPackValid>
+			<Arg> STRING </Arg>
+		</setPackValid>
+
+		<!--<setDestroyAccountOnAvatarDeath>-->
+			<!--<Arg> INT8 </Arg>-->
+		<!--</setDestroyAccountOnAvatarDeath>-->
+
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>	
+</root>

@@ -1,0 +1,60 @@
+<Worm.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bone01</nodeName>
+      <boxName>head_Bone01_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.827802 -0.044755 -0.040000</minBounds>
+      <maxBounds>0.962385 0.044755 0.040000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bone01</nodeName>
+      <boxName>test_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.000000 -0.052439 -0.044667</minBounds>
+      <maxBounds>0.175478 0.052438 0.044667</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>joint16</nodeName>
+      <boxName>torso_joint16_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.073495 -3.000000 -3.121590</minBounds>
+      <maxBounds>5.071990 2.999999 2.999101</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>joint14</nodeName>
+      <boxName>torso_joint14_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.075408 -3.000000 -3.200142</minBounds>
+      <maxBounds>8.072882 3.000000 2.999053</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>joint12</nodeName>
+      <boxName>torso_joint12_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.047965 -3.000000 -3.127529</minBounds>
+      <maxBounds>8.046945 3.000000 2.999615</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>joint10</nodeName>
+      <boxName>torso_joint10_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.028079 -3.000001 -3.074747</minBounds>
+      <maxBounds>8.027727 3.000001 2.999871</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>joint8</nodeName>
+      <boxName>torso_joint8_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.049558 -3.000000 -3.131747</minBounds>
+      <maxBounds>8.048461 3.000000 2.999592</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>joint6</nodeName>
+      <boxName>torso_joint6_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.122505 -2.999999 -3.324178</minBounds>
+      <maxBounds>8.115834 3.000000 2.997498</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Worm.xml>

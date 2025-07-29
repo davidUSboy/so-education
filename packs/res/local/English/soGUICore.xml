@@ -1,0 +1,22 @@
+<root>
+  <soGUI>
+    <STRING_1402_80>Gun</STRING_1402_80>
+    <STRING_2458_6>This base is under control of 'HOBOsBROs'</STRING_2458_6>
+    <STRING_2500_23>&lt;color=128050200255&gt;Test</STRING_2500_23>
+    <STRING_2505_61>is invinting you to join the clan "</STRING_2505_61>
+    <STRING_2505_150>". Do you agree?</STRING_2505_150>
+    <STRING_2551_13>\cFFFFFFFF;Тест шрифта.
+Test</STRING_2551_13>
+    <STRING_2721_97>Test</STRING_2721_97>
+    <STRING_2723_122>Test</STRING_2723_122>
+    <STRING_2724_104>Test</STRING_2724_104>
+    <STRING_2725_104>Test</STRING_2725_104>
+    <STRING_3090_464>inviting you to join the clan"</STRING_3090_464>
+    <STRING_3090_553>". Do you agree?</STRING_3090_553>
+    <STRING_3153_84>Test</STRING_3153_84>
+    <STRING_3157_93>Test</STRING_3157_93>
+    <STRING_FirePlace>Fire::</STRING_FirePlace>
+    <STRING_FirePlacePublAccess>FirePublAccess</STRING_FirePlacePublAccess>
+    <STRING_UserFire_extinguish>extinguish</STRING_UserFire_extinguish>
+  </soGUI>
+</root>

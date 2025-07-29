@@ -1,0 +1,153 @@
+<Root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	<Properties>
+		<!--	Globally registered name. -->
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		HunterManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+
+		
+		<!-- dict {"wantedName": (isOnline, spaceID, pos)} -->
+		<catalog_dict_names_space_pos> 
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>		
+		</catalog_dict_names_space_pos>
+		
+		
+		<!-- list ["wantedName"] -->
+		<catalog_wantedName> 
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>		
+		</catalog_wantedName>
+		
+		
+		<!-- list indexs array_catalog sorted by cost-->
+		<catalog_id_by_cost> 
+			<Type>			ARRAY <of> INT32 </of>			</Type>
+			<Flags>			BASE			</Flags>		
+		</catalog_id_by_cost>	
+		
+		<!-- list indexs array_catalog sorted by victimName-->
+		<catalog_id_by_victimName> 
+			<Type>			ARRAY <of> INT32 </of>			</Type>
+			<Flags>			BASE			</Flags>		
+		</catalog_id_by_victimName>
+		
+		<!-- list indexs array_catalog sorted by wantedName-->
+		<catalog_id_by_wantedName> 
+			<Type>			ARRAY <of> INT32 </of>			</Type>
+			<Flags>			BASE			</Flags>		
+		</catalog_id_by_wantedName>
+		
+		<!-- list indexs array_catalog sorted by hoursLeft-->
+		<catalog_id_by_hoursLeft> 
+			<Type>			ARRAY <of> INT32 </of>			</Type>
+			<Flags>			BASE			</Flags>		
+		</catalog_id_by_hoursLeft>
+
+		
+		
+		
+		<!-- list  data in BD -->
+ 		<catalog>
+			<Type>			ARRAY <of> HUNTERDATA </of>		</Type>
+			<!-- <Type>			ARRAY <of> INT32 </of>		</Type> -->
+			<Flags>			BASE			</Flags>		
+			<Persistent>	true			</Persistent>
+		</catalog> 
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</Properties>
+
+	<BaseMethods>
+	
+		<cleanup/>
+		<recreateSortedCatalogs/>
+		
+		
+
+		<submitOffender>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- name -->
+			<Arg>	UNICODE_STRING	</Arg>	<!-- killerName -->
+			<Arg>	INT64			</Arg>	<!-- cost -->
+			<Arg>	INT64			</Arg>	<!-- tax -->
+			<Arg>	MAILBOX			</Arg>	<!-- Mailbox -->
+		</submitOffender>	
+		
+		
+		<removeOffender>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- name -->
+			<Arg>	UNICODE_STRING	</Arg>	<!-- killerName -->
+			<Arg>	MAILBOX			</Arg>	<!-- Mailbox -->
+		</removeOffender>
+
+		
+		<reportPosition>
+			<Arg>	UNICODE_STRING	</Arg>	<!-- killerName -->
+			<Arg>	INT8			</Arg>	<!-- isOnline -->
+			<Arg>	INT32			</Arg>	<!-- spaceID -->
+			<Arg>	VECTOR3			</Arg>	<!-- position -->
+			<Arg>	MAILBOX			</Arg>	<!-- Mailbox -->
+		</reportPosition>
+		
+			
+		<getMyWanted>
+			<Arg>	UNICODE_STRING					</Arg>	<!-- myname -->
+			<Arg>	ARRAY <of> UNICODE_STRING </of>	</Arg>	<!-- listWanted -->
+			<Arg>	MAILBOX							</Arg>	<!-- Mailbox -->
+		</getMyWanted>
+			
+			
+		<getWantedPosition>
+			<Arg>	ARRAY <of> UNICODE_STRING </of>	</Arg>	<!-- listWanted -->
+			<Arg>	MAILBOX							</Arg>	<!-- Mailbox -->
+		</getWantedPosition>
+		
+			
+		<subscriptionWanted>
+			<Arg>	 UNICODE_STRING 	</Arg>	<!-- hunterName -->
+			<Arg>	 UNICODE_STRING 	</Arg>	<!-- wantedName -->
+			<Arg>	MAILBOX				</Arg>	<!-- Mailbox -->
+		</subscriptionWanted>
+		
+		<wantedKilledAndImprisoned>
+			<Arg>	 UNICODE_STRING 	</Arg>	<!-- hunterName -->
+			<Arg>	 UNICODE_STRING 	</Arg>	<!-- wantedName -->
+			<Arg>	MAILBOX				</Arg>	<!-- Mailbox -->
+		</wantedKilledAndImprisoned>
+		
+	
+		<getCatalogFiltered>
+			<Arg>		INT8				</Arg> <!-- sortFlag -->
+			<Arg>		INT8				</Arg> <!-- forward -->
+			<Arg>		INT32				</Arg> <!-- page_start -->
+			<Arg>		INT32				</Arg> <!-- page_len -->		
+			<Arg>		MAILBOX				</Arg> <!-- client mailbox -->
+
+		</getCatalogFiltered>		
+	
+		
+		
+	</BaseMethods>
+	
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

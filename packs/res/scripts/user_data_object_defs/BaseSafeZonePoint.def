@@ -1,0 +1,49 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+
+	<Properties>
+		<radiusSpawn> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		1.000000 			</Default>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radiusSpawn>
+
+		<radiusSafe> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		5.000000 			</Default>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radiusSafe>
+
+		<type>
+			<Type>			INT8	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>	ENUM
+                <enum>
+                    <value>	0	</value>
+                    <display>	SAFE_AND_RESPAWN	</display>
+                </enum>
+                <enum>
+                    <value>	1	</value>
+                    <display>	SAFE_ONLY	</display>
+                </enum>
+                <enum>
+                    <value>	2	</value>
+                    <display>	RESPAWN_ONLY	</display>
+                </enum>
+                </Widget>
+		</type>
+	</Properties>
+
+</root>

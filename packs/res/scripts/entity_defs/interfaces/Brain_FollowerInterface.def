@@ -1,0 +1,35 @@
+<root>
+	<Properties>	
+		<follow_distance>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</follow_distance>
+		
+		<follow_speed>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</follow_speed>
+		
+		<follow_offset>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</follow_offset>
+		
+		<recalc_follow_offset>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</recalc_follow_offset>		
+		
+		<follow_distance_check_interval>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</follow_distance_check_interval>
+		
+		<follow_move_controller_id>
+			<Type> CONTROLLER_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</follow_move_controller_id>		
+	</Properties>	
+</root>

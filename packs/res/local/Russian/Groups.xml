@@ -1,0 +1,45 @@
+<root>
+  <Messages>
+    <YOU>(Вы)</YOU>
+    <OWNER>(Владелец)</OWNER>
+    <YOUR_GROUP>Ваша группа:</YOUR_GROUP>
+    <GROUP_DESTROYED>Группа расформирована.</GROUP_DESTROYED>
+    <CANT_LEAVE>Сейчас нельзя покинуть группу.</CANT_LEAVE>
+    <NOT_IN_GROUP>Вы не в группе.</NOT_IN_GROUP>
+    <IN_GROUP>Вы в группе.</IN_GROUP>
+    <CANT_DESTROY_NOW>Сейчас нельзя уничтожить группу.</CANT_DESTROY_NOW>
+    <NOT_IN_YOUR_GROUP>{0} не в вашей группе.</NOT_IN_YOUR_GROUP>
+    <PLAYER_ALREADY_IN_GROUP>Игрок уже состоит в группе.</PLAYER_ALREADY_IN_GROUP>
+    <HAS_JOINED>{0} присоединился(лась) к вашей группе.</HAS_JOINED>
+    <MAX_PLAYER_NUM>Достигнуто максимальное количество игроков в группе.</MAX_PLAYER_NUM>
+    <LEADER_HAS_CHANGED>Лидер группы сменился:{0}.</LEADER_HAS_CHANGED>
+    <CANT_CHANGE>Сейчас нельзя изменить группу.</CANT_CHANGE>
+    <CANT_FIND_PLAYER>Не могу найти игрока.</CANT_FIND_PLAYER>
+    <PLAYER_NOT_IN_GAME>Игрок не в игре.</PLAYER_NOT_IN_GAME>
+    <YOU_CANT_INVITE_YOURSELF>Вы не можете пригласить в группу себя.</YOU_CANT_INVITE_YOURSELF>
+    <PLAYER_ALREADY_INVITED>Вы уже пригласили {0} в группу.</PLAYER_ALREADY_INVITED>
+    <INVITATION_HAS_SENT>Приглашение на вступление в отряд отправлено</INVITATION_HAS_SENT>
+    <CHANGE_LEADER_REQUEST_HAS_SENT>Запрос на передачу лидерства отправлен</CHANGE_LEADER_REQUEST_HAS_SENT>
+    <INVITE_REQUEST_HAS_SENT>Запрос на приглашение в отряд отправлен</INVITE_REQUEST_HAS_SENT>
+  </Messages>
+  <Interface>
+    <INVITE_HEADER>Приглашение в группу от {0}.</INVITE_HEADER>
+    <INVITE_QUESTION>{0} приглашает вас вступить в группу .&lt;n&gt;Принять предложение ?</INVITE_QUESTION>
+    <RECOMMEND_HEADER>Приглашение.</RECOMMEND_HEADER>
+    <RECOMMEND_QUESTION>Сталкер - участник группы:{0}&lt;n&gt;рекомендует принять в группу сталкера:&lt;n&gt;{1}</RECOMMEND_QUESTION>
+    <COMMAND_HIDE_EFFECT>Скрыть эффекты группы.</COMMAND_HIDE_EFFECT>
+    <COMMAND_SHOW_EFFECT>Отобразить эффекты группы.</COMMAND_SHOW_EFFECT>
+    <COMMAND_REMOVE_GROUP>Распустить группу.</COMMAND_REMOVE_GROUP>
+    <COMMAND_LEAVE_GROUP>Покинуть группу.</COMMAND_LEAVE_GROUP>
+    <COMMAND_KICK_GROUP>Исключить из группы.</COMMAND_KICK_GROUP>
+    <COMMAND_GET_LEADER>Передать лидерство.</COMMAND_GET_LEADER>
+    <LOOD_SETTINGS_TITLE>Настройка подбора предметов.</LOOD_SETTINGS_TITLE>
+    <LOOD_WHO_TAKED>Хабар поднявшему.</LOOD_WHO_TAKED>
+    <LOOD_LEADER>Хабар лидеру.</LOOD_LEADER>
+    <LOOD_RANDOM>Хабар случайно.</LOOD_RANDOM>
+    <ON_LOOD_SETTINGS_CHANGED>Настройки группы были изменены:{0} Остаться в группе?</ON_LOOD_SETTINGS_CHANGED>
+    <DESSTROY_QUESTION>Распустить группу?</DESSTROY_QUESTION>
+    <KICK_TITLE>Исключение персонажа</KICK_TITLE>
+    <KICK_QUESTION>Причина исключения {0} из клана?</KICK_QUESTION>
+  </Interface>
+</root>

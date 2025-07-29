@@ -1,0 +1,177 @@
+<root>
+	<Implements>
+		<Interface>MobSpawner</Interface>
+		<Interface>Manipulator</Interface>
+		<Interface>TimerManagerCell</Interface>
+	</Implements>
+	
+	<Properties>
+		<cell_scenarios>
+			<Flags>	CELL_PRIVATE				</Flags>
+			<Type>	ARRAY <of> SCENARIO	</of>	</Type>
+		</cell_scenarios>
+		
+		<currentScenario>
+			<Flags>	CELL_PRIVATE				</Flags>
+			<Type>	INT64 </Type>
+		</currentScenario>
+		
+		<groupID>
+			<Type>	GROUPID	</Type>
+			<Flags>	BASE	</Flags>
+		</groupID>
+
+		<userDBID>
+			<Type>	DBID	</Type>
+			<Flags>	BASE	</Flags>
+		</userDBID>
+		
+		<owner>
+			<Type>	MAILBOX	</Type>
+			<Flags>	BASE	</Flags>
+		</owner>
+		
+		<questID>
+			<Type>	QUESTID	</Type>
+			<Flags>	BASE	</Flags>
+		</questID>
+		
+		<qID>
+			<Type>	QUESTID	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</qID>
+		
+		<scenarios>
+			<Flags>	BASE	</Flags>
+			<Type>	ARRAY<of>INT64</of>	</Type>
+		</scenarios>
+		
+		<groupPotential>
+			<Flags>	BASE	</Flags>
+			<Type>	INT32	</Type>
+		</groupPotential>
+
+		<!--waypoints>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Type>	ARRAY <of> SCENARIO_WAYPOINT	</of>	</Type>
+		</waypoints-->
+		
+		<ways>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Type>	ARRAY <of> NAMED_WAY	</of>	</Type>
+		</ways>
+		
+		<player>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Type>	MAILBOX			</Type>
+		</player>		
+		
+		<smob>
+			<Flags>	CELL_PRIVATE				</Flags>
+			<Type>	ARRAY <of> SCENARIO_MOB_PROPERTIE	</of>	</Type>
+		</smob>
+		
+		<names_int>
+			<Flags>	BASE	</Flags>
+			<Type>	ARRAY<of>NAMES_INT_PAIR</of>	</Type>
+		</names_int>
+		
+		<npc_names>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Type>	ARRAY<of>SCENARIO_NPC_NAMES</of>	</Type>
+		</npc_names>
+		
+		<npcs>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Type>	ARRAY<of>MAILBOX</of>	</Type>
+		</npcs>
+		
+	</Properties>
+	
+	<CellMethods>
+
+		<startScenario>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+		</startScenario>
+
+		<stopScenario>
+		</stopScenario>
+		
+		<takeScenarios>
+			<Arg>	ARRAY <of> SCENARIO</of>	</Arg>
+		</takeScenarios>
+		
+		<takeWays>
+			<Arg>	ARRAY <of> NAMED_WAY</of>	</Arg>
+		</takeWays>
+		
+		<onGroupWin>
+		</onGroupWin>
+
+		<onGroupFailed>
+		</onGroupFailed>
+		
+		<onCaptureArea>
+		  <Arg>	INT64	</Arg>
+		</onCaptureArea>
+		
+		<registerNPC>
+			<Arg> MAILBOX	 </Arg>
+			<Arg> INT32	 </Arg>
+		</registerNPC>
+		
+		<takeNPCNames>
+				<Arg>	ARRAY <of> SCENARIO_NPC_NAMES</of>	</Arg>
+		</takeNPCNames>
+		
+		<updatePlayer>
+			<Arg>	MAILBOX	</Arg>
+		</updatePlayer>
+		
+	</CellMethods>
+	
+	<BaseMethods>
+	
+		<updatePlayer>
+			<Arg>	MAILBOX	</Arg>
+		</updatePlayer>
+	
+		<Error>
+			<Arg>	INT8	</Arg>
+		</Error>
+		
+		<takeCellData>
+			<Arg>	INT64	</Arg>
+			<Arg>	ARRAY <of>	FLOAT32	</of></Arg>
+		</takeCellData>
+		
+		<getScenarios>
+		
+		</getScenarios>
+
+		<onFindStartPoint>
+			<Arg>	INT64	</Arg>
+			<Arg>	VECTOR3	</Arg>			
+		</onFindStartPoint>
+		
+		<onWin>
+			<Arg>	INT8	</Arg>			
+			<!--Arg>	MAILBOX	</Arg-->
+		</onWin>
+
+		<onFailed>
+			<Arg>	INT8	</Arg>
+			<!--Arg>	MAILBOX	</Arg-->
+		</onFailed>
+
+		<destroyEye>
+		</destroyEye>
+		
+		<getNPCName>
+				<Arg>	ARRAY <of>	INT64	</of>	</Arg>
+		</getNPCName>
+		
+	</BaseMethods>
+	
+</root>

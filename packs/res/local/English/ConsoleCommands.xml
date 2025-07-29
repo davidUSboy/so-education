@@ -1,0 +1,87 @@
+<root>
+  <base>
+    <WILL_BE_BANNED_MINUTES>%s will be banned for %s minutes</WILL_BE_BANNED_MINUTES>
+    <CHAR_NOT_FOUND>Character %s is not found</CHAR_NOT_FOUND>
+    <WILL_BE_BANNED>%s will be unbanned</WILL_BE_BANNED>
+    <CHAT_WILL_BE_BANNED_MINUTES>%s , chat will be banned for %s minutes</CHAT_WILL_BE_BANNED_MINUTES>
+    <CHAT_WAS_BANNED_MINUTES>%s , chat banned for %s minutes</CHAT_WAS_BANNED_MINUTES>
+    <CHAT_WILL_BE_BANNED>%s , chat will be unbanned</CHAT_WILL_BE_BANNED>
+    <CHAT_WAS_BANNED>%s , chat unbanned</CHAT_WAS_BANNED>
+    <CHAR_OFFLINE>%s is offline</CHAR_OFFLINE>
+    <CHAR_WILL_BE_ROPED_METERS>%s will be dragged (if the distance &lt; 35м)</CHAR_WILL_BE_ROPED_METERS>
+    <CHAR_WILL_BE_ROPED>%s will be dragged</CHAR_WILL_BE_ROPED>
+    <CHELP>/ban [char_name] [time]
+ - 30 minutes ban
+/chatoff [char_name] [time]
+ - chat switched off for 30 minutes
+/rope [char_name]
+ - drags in character within 20 metres</CHELP>
+    <GMHELP>/ban [char_name] [time]
+ - character banned for 30-9000 minutes. 30 minutes by default.
+/unban [char_name] [time]
+ - character unbanned
+/chatoff [char_name] [time]
+ - chat switched off for 30-9000 minutes. 30 minutes by default.
+/rope [char_name]
+ - drags to the GM position from any place.
+/! [text]
+ - send global message
+/resetwars [fraction name] - reset all war statuses</GMHELP>
+    <DEVHELP>/ban [char_name] [time]
+- character banned for 30-9000 minutes. 30 minutes by default.
+/unban [char_name] [time]
+- character unbanned
+/chatoff [char_name] [time]
+- chat switched off for 30-9000 minutes. 30 minutes by default.
+/rope [char_name]
+- drags to the GM position within any place.
+/system_message [text]
+- send global message
+/sysmsg
+/rename
+/myid - character ID
+/battlelog - battle log on/off
+/item [id] # - create numbered item, amount
+/weapon [id] [amount] - create numbered weapon, ammo
+/ammo [amount] [id] - create ammo 
+/mob [id] - create numbered mutant
+/firstperson - first person view on/off
+/getquest [id]
+/failquest [id]
+/completequest [id]
+/wipequests
+/renew - reset all quests from .xml files
+/iwanttobeapirate # - get experience points
+/settime - set server time
+/tx [teleport point name] - teleport to 
+/iddqd - godmode
+/blocknpc - block NPC dialogs
+/unblocknpc - unblock NPC dialogs
+/createclan [name] - Create new clan. Name
+/resetwars [fraction name] - reset all war statuses
+/debugEnable [radius] - mutant information enable.</DEVHELP>
+    <NO_SUCH_CHAR>Character not found</NO_SUCH_CHAR>
+    <NO_SUCH_CHAR_ONLINE>Character is offline</NO_SUCH_CHAR_ONLINE>
+    <PARTY_INVITE_SENT>Invitation has been sent</PARTY_INVITE_SENT>
+    <STRING_458_8>To hire a person you need to set the base, the point number and the level</STRING_458_8>
+    <STRING_468_8>To fire a person you need to set the base, the point number and the level</STRING_468_8>
+    <NO_CENSORS_ONLINE>All censors are offline</NO_CENSORS_ONLINE>
+  </base>
+  <cell>
+    <COMMAND_VALUE_ERROR>Invalid value</COMMAND_VALUE_ERROR>
+    <STRING_90_33>PK karma: %s / 1000</STRING_90_33>
+    <STRING_91_33>After shooting at other players you are considered as a violator, so everyone can shoot you too.</STRING_91_33>
+    <STRING_92_33>PK status &lt; 150 - PK status is permanent. Violators go to jail.</STRING_92_33>
+    <STRING_94_34>Violator's flag: %s</STRING_94_34>
+    <STRING_94_102>sec</STRING_94_102>
+    <STRING_94_175>min</STRING_94_175>
+    <STRING_94_245>forever</STRING_94_245>
+    <STRING_109_33>Server time: %s</STRING_109_33>
+    <STRING_301_14>[a-z]</STRING_301_14>
+    <STRING_320_14>[a-z]</STRING_320_14>
+    <TO_MANY_AMMO>You can't have more than 100</TO_MANY_AMMO>
+    <KARMA_WAS_SET>The following karma value has been set: %s</KARMA_WAS_SET>
+    <MONEY_ADDED>Rubles are added: %s</MONEY_ADDED>
+    <GOLD_ADDED>Gold rubles are added: %s</GOLD_ADDED>
+  </cell>
+</root>

@@ -1,0 +1,26 @@
+<GUISounds.xml>
+	<Button>
+		<Hover>ui/hover</Hover>
+		<!--Press>ui/tick</Press-->
+		<Press>ui/click</Press>
+	</Button>
+
+	<ArrowBtn>
+		<Hover></Hover>
+		<Press></Press>
+	</ArrowBtn>
+
+	<PlusMinusBtn>
+		<Hover></Hover>
+		<Press></Press>
+	</PlusMinusBtn>
+
+	<Item>
+		<DragStart></DragStart>
+		<DragStop></DragStop>
+	</Item>
+
+	<MSGBox>
+		<Pop></Pop>
+	</MSGBox>
+</GUISounds.xml>

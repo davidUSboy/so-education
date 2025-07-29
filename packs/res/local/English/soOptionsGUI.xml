@@ -1,0 +1,95 @@
+<root>
+  <soGUI>
+    <FULLSCREEN>Full screen</FULLSCREEN>
+    <WINDOW>Windowed</WINDOW>
+    <WINDOWED>Full screen</WINDOWED>
+    <STRING_80_13>Settings</STRING_80_13>
+    <STRING_91_13>Resolution</STRING_91_13>
+    <SMOOTHING_SETTINGS>Smoothing</SMOOTHING_SETTINGS>
+    <STRING_102_13>Level of detalisation</STRING_102_13>
+    <STRING_113_13>Effects volume</STRING_113_13>
+    <STRING_124_13>Music volume</STRING_124_13>
+    <STRING_159_19>Cancel</STRING_159_19>
+    <STRING_180_19>Apply</STRING_180_19>
+    <STRING_240_73>Full screen</STRING_240_73>
+    <STRING_359_19>Set button for this action (ESC for cancel)</STRING_359_19>
+    <STRING_362_18>Keyboard</STRING_362_18>
+    <STRING_363_15>Mouse</STRING_363_15>
+    <STRING_364_15>Sound</STRING_364_15>
+    <STRING_365_15>Video</STRING_365_15>
+    <STRING_MAIN_VIDEO_SETTINGS>Main settings</STRING_MAIN_VIDEO_SETTINGS>
+    <ADDITIONL_VIDEO_SETTINGS>Additional settings</ADDITIONL_VIDEO_SETTINGS>
+    <CONTROL_SETTINGS>Control</CONTROL_SETTINGS>
+    <BACK>Back</BACK>
+    <STRING_369_26>User's</STRING_369_26>
+    <STRING_370_23>Low</STRING_370_23>
+    <STRING_371_26>Average</STRING_371_26>
+    <STRING_372_24>High</STRING_372_24>
+    <STRING_373_25>Very high</STRING_373_25>
+    <STRING_377_23>Low</STRING_377_23>
+    <STRING_378_23>Average</STRING_378_23>
+    <STRING_379_24>High</STRING_379_24>
+    <STRING_488_19>Cancel</STRING_488_19>
+    <STRING_509_19>Apply</STRING_509_19>
+    <STRING_604_131>Action</STRING_604_131>
+    <STRING_605_108>Button 1</STRING_605_108>
+    <STRING_606_108>Button 2</STRING_606_108>
+    <STRING_636_19>Default</STRING_636_19>
+    <STRING_657_19>Change</STRING_657_19>
+    <STRING_678_19>Clear</STRING_678_19>
+    <STRING_733_13>Mouse sensitivity</STRING_733_13>
+    <STRING_774_73>Invert mouse</STRING_774_73>
+    <STRING_785_73>Filter</STRING_785_73>
+    <STRING_804_13>Inverts mouse</STRING_804_13>
+    <STRING_815_13>Smooths mouse</STRING_815_13>
+    <STRING_864_13>Music volume</STRING_864_13>
+    <STRING_908_13>Effects volume</STRING_908_13>
+    <AllVolume>Master volume</AllVolume>
+    <STRING_971_29>Low</STRING_971_29>
+    <STRING_972_29>Average</STRING_972_29>
+    <STRING_973_30>High</STRING_973_30>
+    <STRING_984_13>Sound quality</STRING_984_13>
+    <STRING_1038_29>Low</STRING_1038_29>
+    <STRING_1039_32>Average</STRING_1039_32>
+    <STRING_1040_30>High</STRING_1040_30>
+    <STRING_1041_31>Very high</STRING_1041_31>
+    <STRING_1042_31>User defined</STRING_1042_31>
+    <STRING_1068_13>Screen resolution</STRING_1068_13>
+    <STRING_1080_13>Graphics quality</STRING_1080_13>
+    <STRING_1081_13>Textures quality</STRING_1081_13>
+    <STRING_1082_13>Shadows quality</STRING_1082_13>
+    <STRING_1083_13>Texture filtering</STRING_1083_13>
+    <STRING_1084_13>Trees quality:</STRING_1084_13>
+    <STRING_1085_13>Water quality:</STRING_1085_13>
+    <STRING_1086_13>SSAO</STRING_1086_13>
+    <MIRROR>Reflection</MIRROR>
+    <isVISIBLE>Visibility</isVISIBLE>
+    <TEXTURE_BLUR>Texture blur</TEXTURE_BLUR>
+    <REALISTIC_WATER>Realistic water</REALISTIC_WATER>
+    <VISIBLE_NPC>NPC visibility</VISIBLE_NPC>
+    <SCHEIDER>Shader</SCHEIDER>
+    <TEXTURE_COMPRESS>Texture compression</TEXTURE_COMPRESS>
+    <DETALIZATION_GROUND>Land detailing</DETALIZATION_GROUND>
+    <POST_EFFECT>Post effect</POST_EFFECT>
+    <STRING_1087_13>Visibility range</STRING_1087_13>
+    <STRING_1088_13>Simulation of water</STRING_1088_13>
+    <STRING_1089_13>Shadow quantity</STRING_1089_13>
+    <STRING_1093_13>Trace displaying</STRING_1093_13>
+    <STRING_1095_13>God rays</STRING_1095_13>
+    <STRING_1094_13>Flora density</STRING_1094_13>
+    <STRING_1091_13>Aspect ratio</STRING_1091_13>
+    <STRING_1115_13>Gamma</STRING_1115_13>
+    <STRING_1159_73>Window mode</STRING_1159_73>
+    <STRING_1180_19>Advanced</STRING_1180_19>
+    <STRING_509_20>More</STRING_509_20>
+    <STRING_1216_13>Extra options</STRING_1216_13>
+    <STRING_1269_19>Cancel</STRING_1269_19>
+    <STRING_1532_131>Action</STRING_1532_131>
+    <STRING_1533_108>Button 1</STRING_1533_108>
+    <STRING_1534_108>Button 2</STRING_1534_108>
+    <STRING_1680_22>Set the button for this action:</STRING_1680_22>
+    <STRING_1680_97>(Esc for cancel)</STRING_1680_97>
+    <STRING_1701_23>Set the button for this action:</STRING_1701_23>
+    <STRING_1701_98>(Esc for cancel)</STRING_1701_98>
+  </soGUI>
+</root>

@@ -1,0 +1,74 @@
+<Blyak.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm</nodeName>
+      <boxName>Bip01 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>-0.000000 -0.100000 -0.100000</minBounds>
+      <maxBounds>0.650000 0.100000 0.100000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L UpperArm</nodeName>
+      <boxName>Bip01 L UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.142934 -0.158766 -0.132866</minBounds>
+      <maxBounds>0.407066 0.141234 0.167134</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm</nodeName>
+      <boxName>Bip01 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.100000 -0.100000</minBounds>
+      <maxBounds>0.650000 0.100000 0.100000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R UpperArm</nodeName>
+      <boxName>Bip01 R UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.142934 -0.141121 -0.132866</minBounds>
+      <maxBounds>0.407066 0.158654 0.167134</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>Bip01 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.109943 -0.242830 -0.218941</minBounds>
+      <maxBounds>0.255410 0.242830 0.328438</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Calf</nodeName>
+      <boxName>Bip01 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.100000 -0.125000</minBounds>
+      <maxBounds>0.500000 0.100000 0.125000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Thigh</nodeName>
+      <boxName>Bip01 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.150000 -0.175000</minBounds>
+      <maxBounds>0.500000 0.150000 0.175000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Calf</nodeName>
+      <boxName>Bip01 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.100000 -0.125000</minBounds>
+      <maxBounds>0.500000 0.100000 0.125000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Thigh</nodeName>
+      <boxName>Bip01 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.150000 -0.175000</minBounds>
+      <maxBounds>0.500000 0.150000 0.175000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine</nodeName>
+      <boxName>Bip01 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.149131 -0.439918 -0.347127</minBounds>
+      <maxBounds>0.845924 0.439127 0.345782</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Blyak.xml>

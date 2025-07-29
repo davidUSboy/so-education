@@ -1,0 +1,27 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+
+	<Properties>
+		<name>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</name>
+		<waypoints>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</waypoints>
+		<wayType>
+			<Type>			WAY_TYPE 			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</wayType>
+		
+	</Properties>
+	
+</root>
+

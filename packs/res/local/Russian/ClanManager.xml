@@ -1,0 +1,12 @@
+<root>
+  <HAS_KICKED_FROM_CLAN>исключил из группировки</HAS_KICKED_FROM_CLAN>
+  <REASON>. Причина:</REASON>
+  <YOU_HAVE_NO_RIGHT_TO_START_WAR>У Вас нет права начинать войну.</YOU_HAVE_NO_RIGHT_TO_START_WAR>
+  <YOU_HAVE_NO_BASE>Нет захваченных баз.</YOU_HAVE_NO_BASE>
+  <HEAD>Глава</HEAD>
+  <ASSISTANT>Заместитель главы</ASSISTANT>
+  <OFFICER>Офицер</OFFICER>
+  <RECRUIT>Рекрутер</RECRUIT>
+  <VETERAN>Ветеран</VETERAN>
+  <NOOB>Новичок</NOOB>
+</root>

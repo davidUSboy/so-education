@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+
+		<name>
+			<Type>			STRING			        </Type>
+			<Flags>			BASE			        </Flags>
+			<Default>		ScenarioDispatcher	    </Default>
+			<Identifier>	true			        </Identifier>
+			<Persistent>	true			        </Persistent>
+		</name>
+
+		<scenarioEyes>
+			<Type>		ARRAY	<of>	SCENARIO_EYE_REGISTER		</of>	</Type>
+			<Flags>			BASE			</Flags>
+		</scenarioEyes>
+		
+		<scenarioEyes>
+			<Type>		ARRAY	<of>	SCENARIO_EYE_REGISTER		</of>	</Type>
+			<Flags>			BASE			</Flags>
+		</scenarioEyes>
+
+
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+	
+	<BaseMethods>
+		<registerSE>
+			<Arg>	QUESTID					</Arg>
+			<Arg>	DBID					</Arg>
+			<Arg>	MAILBOX					</Arg>
+		</registerSE>
+
+		<unregisterSE>
+			<Arg>	QUESTID					</Arg>
+			<Arg>	DBID					</Arg>
+		</unregisterSE>
+		
+		<testScenario>
+			<Arg>	QUESTID					</Arg>
+			<Arg>	DBID					</Arg>
+			<Arg>	MAILBOX					</Arg>
+		</testScenario>
+
+		<getScenarios>
+			<Arg>	MAILBOX					                </Arg>
+			<Arg>	ARRAY <of> INT32 </of>					</Arg>
+		</getScenarios>
+	</BaseMethods>
+</root>

@@ -1,0 +1,11 @@
+<root>
+  <message>
+    <BYEMAIL>Redemption code has been sent on your email{0}</BYEMAIL>
+    <BYSMS>Redemption code has been sent on your sell phone {0}</BYSMS>
+    <COUNT>The number of login attempts left - {0}</COUNT>
+    <OK>OK</OK>
+    <RESEND>If you didn't get the code, try to resend it</RESEND>
+    <RESENDBUT>Resend</RESENDBUT>
+    <ERRORKEY>Wrong code! Login attempts are limited.</ERRORKEY>
+  </message>
+</root>

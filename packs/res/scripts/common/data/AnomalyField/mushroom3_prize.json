@@ -1,0 +1,173 @@
+{
+    "cells": [
+        "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,2,0,2,0,2,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0", 
+        "0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,2,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,2,0,0,1,0,2,3,2,0,1,0,0,2,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,2,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0", 
+        "0,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,2,0,2,0,2,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0", 
+        "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+    ], 
+    "colors": {
+        "0": "gray", 
+        "1": "#4eb52b", 
+        "2": "#94e061", 
+        "3": "#400040"
+    }, 
+    "groups": {
+        "group1": {
+            "0": {
+                "effects": {}, 
+                "name": "EmptyAnomaly", 
+                "sfxes": {
+                    "hide": [], 
+                    "persistent": [], 
+                    "revealed": []
+                }
+            }, 
+            "1": {
+                "effects": [
+                    {
+                        "id": 701, 
+                        "modifier": 1.0, 
+                        "stacks": 3
+                    }
+                ], 
+                "name": "mushroom_big", 
+                "sfxes": {
+                    "hide": [
+                        "sfx/anomaly_mushroom_off.xml"
+                    ], 
+                    "persistent": [
+                        "sfx/anomaly_mushroom_off.xml"
+                    ], 
+                    "revealed": [
+                        "sfx/anomaly_mushroom.xml"
+                    ], 
+                    "warning": [
+                        "sfx/anomaly_mushroom_off.xml", 
+                        "sfx/anomaly_electro.xml"
+                    ]
+                }
+            }, 
+            "2": {
+                "effects": [
+                    {
+                        "id": 701, 
+                        "modifier": 1.0, 
+                        "stacks": 1
+                    }
+                ], 
+                "name": "mushroom_small", 
+                "sfxes": {
+                    "hide": [
+                        "sfx/anomaly_mushroom_off_small.xml"
+                    ], 
+                    "persistent": [
+                        "sfx/anomaly_mushroom_off_small.xml"
+                    ], 
+                    "revealed": [
+                        "sfx/anomaly_mushroom.xml"
+                    ], 
+                    "warning": [
+                        "sfx/anomaly_mushroom_off_small.xml", 
+                        "sfx/anomaly_electro.xml"
+                    ]
+                }
+            }, 
+            "3": {
+                "effects": [], 
+                "name": "Prize_0", 
+                "sfxes": {
+                    "hide": [], 
+                    "persistent": [], 
+                    "revealed": [], 
+                    "warning": []
+                }
+            }
+        }, 
+        "group2": {
+            "0": {
+                "effects": {}, 
+                "name": "EmptyAnomaly", 
+                "sfxes": {
+                    "hide": [], 
+                    "persistent": [], 
+                    "revealed": []
+                }
+            }, 
+            "1": {
+                "effects": [
+                    {
+                        "id": 274, 
+                        "modifier": 1.0, 
+                        "stacks": 30
+                    }
+                ], 
+                "name": "Snow_field_01", 
+                "sfxes": {
+                    "hide": [
+                        "sfx/anomaly_snowfield.xml"
+                    ], 
+                    "persistent": [
+                        "sfx/anomaly_snowfield.xml"
+                    ], 
+                    "revealed": [
+                        "sfx/anomaly_snowfield_hit.xml"
+                    ], 
+                    "warning": [
+                        "sfx/anomaly_snowfield.xml", 
+                        "sfx/anomaly_electro.xml"
+                    ]
+                }
+            }, 
+            "2": {
+                "effects": [
+                    {
+                        "id": 274, 
+                        "modifier": 1.0, 
+                        "stacks": 30
+                    }
+                ], 
+                "name": "Snow_field_01", 
+                "sfxes": {
+                    "hide": [
+                        "sfx/anomaly_snowfield.xml"
+                    ], 
+                    "persistent": [
+                        "sfx/anomaly_snowfield.xml"
+                    ], 
+                    "revealed": [
+                        "sfx/anomaly_snowfield_hit.xml"
+                    ], 
+                    "warning": [
+                        "sfx/anomaly_snowfield.xml", 
+                        "sfx/anomaly_electro.xml"
+                    ]
+                }
+            }, 
+            "3": {
+                "effects": {}, 
+                "name": "EmptyAnomaly", 
+                "sfxes": {
+                    "hide": [], 
+                    "persistent": [], 
+                    "revealed": []
+                }
+            }
+        }
+    }
+}

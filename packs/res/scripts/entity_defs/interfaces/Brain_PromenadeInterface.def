@@ -1,0 +1,44 @@
+<root>
+	<Properties>	
+		<selected_point>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</selected_point>
+		
+		<center_point>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</center_point>
+		
+		<stand_still_time_min>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</stand_still_time_min>
+		
+		<stand_still_time_max>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</stand_still_time_max>
+		
+		<promenade_speed>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</promenade_speed>
+		
+		<promenade_range>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</promenade_range>		
+		
+		<promenade_time_min>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</promenade_time_min>
+		
+		<promenade_time_max>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</promenade_time_max>
+	</Properties>
+	
+</root>

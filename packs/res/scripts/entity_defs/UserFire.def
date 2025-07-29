@@ -1,0 +1,215 @@
+<root>
+
+	<Implements>
+		<Interface>BaseAndCell </Interface>
+		<Interface>TimerManagerCell </Interface>
+		<Interface> ItemHolder </Interface>
+	</Implements>
+	
+	<Properties>
+	
+		<CreatorMB>
+			<Type>			MAILBOX		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</CreatorMB>
+
+
+		<CreatorCellMB>
+			<Type>			MAILBOX		</Type>
+			<Flags>			BASE		</Flags>
+		</CreatorCellMB>
+		
+		<!-- avatar id how create userfire   -->
+		<initOwnerID>  
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</initOwnerID>
+		
+		<initOwnerName>
+			<Type> UNICODE_STRING </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Persistent>	false	</Persistent>
+		</initOwnerName>
+		
+		<isPublicAcces>  
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default> 0 				</Default>
+		</isPublicAcces>
+		
+		<cell_isPublicAcces>  
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default> 		0			</Default>
+		</cell_isPublicAcces>
+		
+		
+		<proximity_id_burn>
+			<Type> CONTROLLER_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</proximity_id_burn>		
+		
+		<proximity_id_campfire>
+			<Type> CONTROLLER_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</proximity_id_campfire>	
+		
+		<fireType>  
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default> 0 </Default>
+		</fireType>	
+
+		<complexItemID2left> 
+			<Type> ARRAY
+				<of> FIXED_DICT
+						<Properties>
+							<complexItemID>
+								<Type>  INT32  </Type>  <!-- complexItemID -->
+							</complexItemID>
+							<CookingTime>
+								<Type>  FLOAT64    </Type>
+							</CookingTime>
+							
+							<allCookkingTime>
+								<Type>  FLOAT64    </Type>
+							</allCookkingTime>
+							
+							<CookingTo>
+								<Type>  FLOAT64    </Type>
+							</CookingTo>
+							
+						</Properties>
+				</of> 
+			</Type>
+			<Flags> CELL_PUBLIC </Flags>
+			
+		</complexItemID2left> 	
+		
+		
+		
+		<!-- avatar id    current owner -->
+		<pOwnerID>  
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default> 0 </Default>
+		</pOwnerID>
+		
+		<pOwnerName>
+			<Type> UNICODE_STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent>	false	</Persistent>
+		</pOwnerName>
+		
+		
+		
+		
+		<life_time_real_sec>  
+			<Type>			FLOAT64		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default> 0.0 </Default>
+		</life_time_real_sec>		
+		
+		<max_life_time_real_sec>  
+			<Type>			FLOAT64		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default> 0.0 </Default>
+		</max_life_time_real_sec>
+		
+		
+		
+		<CarryingItems>
+			<Type> ARRAY <of> COMPLEX_ITEM  </of> </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> </Default>
+		</CarryingItems>
+		
+				
+		<max_slot>
+			<Type> INT32  </Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Default> 1 </Default>
+		</max_slot>
+		
+		
+		
+		
+		
+	
+	</Properties>
+	
+	
+	
+	<ClientMethods>
+		
+		<updateLifeTime>
+			<Arg> INT32 </Arg> <!-- fireType [4..0] -->
+			<Arg> FLOAT64 </Arg> <!-- life_time -->
+			<Arg> FLOAT64 </Arg> <!-- max_life_time -->
+			
+			<Arg> ARRAY
+				<of> FIXED_DICT
+					<Properties>
+						<id>
+							<Type>  INT32  </Type>  <!-- complexItemID -->
+						</id>
+						<time>
+							<Type>  FLOAT64    </Type>  <!-- time left  -->
+						</time>
+						
+						<alltime>
+							<Type>  FLOAT64    </Type>  <!-- time left  -->
+						</alltime>
+						
+					</Properties>
+				</of> </Arg> 
+			
+			
+		</updateLifeTime>
+		
+
+	</ClientMethods>
+
+	
+	
+	
+	<CellMethods>
+	
+		<throwFireWood>
+			<Arg> FLOAT64 </Arg> <!-- time_real_sec -->
+		</throwFireWood>
+		
+		<updateClients>
+			<Exposed/>
+		</updateClients>
+	
+		
+		<GetItemFromHolderClient>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</GetItemFromHolderClient>
+		
+		<setPublicAcces>
+			<Exposed/>
+			<Arg> BOOL </Arg>
+		</setPublicAcces>	
+
+		<extinguish>
+			<Exposed/>
+		</extinguish>
+		
+		
+	
+	</CellMethods>
+	
+	
+	
+	
+	<BaseMethods>
+	</BaseMethods>
+	
+
+	
+</root>

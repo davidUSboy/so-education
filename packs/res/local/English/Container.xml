@@ -1,0 +1,38 @@
+<root>
+  <client>
+    <VOID_CONTAINER>Container</VOID_CONTAINER>
+  </client>
+  <Names>
+    <TYPE_1>Ammunition</TYPE_1>
+    <TYPE_2>Ammunition</TYPE_2>
+    <TYPE_3>Container</TYPE_3>
+    <TYPE_4>Container</TYPE_4>
+    <TYPE_5>Ammunition</TYPE_5>
+    <TYPE_6>Ammunition</TYPE_6>
+    <TYPE_7>Tubes</TYPE_7>
+    <TYPE_8>Chemicals</TYPE_8>
+    <TYPE_9>Trash</TYPE_9>
+    <TYPE_10>Container</TYPE_10>
+    <TYPE_11>Radio</TYPE_11>
+    <TYPE_12>Chips</TYPE_12>
+    <TYPE_13>Trash</TYPE_13>
+    <TYPE_14>Trash</TYPE_14>
+    <TYPE_15>Container</TYPE_15>
+    <TYPE_16>Suitcase</TYPE_16>
+    <TYPE_17>Sac</TYPE_17>
+    <TYPE_18>Container</TYPE_18>
+    <TYPE_19>Container</TYPE_19>
+    <TYPE_20>Dogrose</TYPE_20>
+    <TYPE_21>Cocoon</TYPE_21>
+    <TYPE_22>Cache</TYPE_22>
+    <TYPE_23>Cache</TYPE_23>
+    <TYPE_24>Cache</TYPE_24>
+    <TYPE_25>Cache</TYPE_25>
+    <TYPE_26>Stump</TYPE_26>
+    <TYPE_27>Boulder</TYPE_27>
+    <TYPE_28>Boulder</TYPE_28>
+    <TYPE_29>Log</TYPE_29>
+    <TYPE_30>Loot</TYPE_30>
+    <TYPE_31>Mutant corpse</TYPE_31>
+  </Names>
+</root>

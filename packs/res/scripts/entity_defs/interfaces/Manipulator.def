@@ -1,0 +1,59 @@
+<root>
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<onManipulableOn>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+		</onManipulableOn>
+		
+		<onManipulableOff>
+			<Arg> INT32 </Arg><!-- mob_cell -->
+		</onManipulableOff>
+		
+		<askWaypoint>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+			<Arg> INT32 </Arg><!-- waypoint_id -->
+		</askWaypoint>
+		
+		<ask_waypoints>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+		</ask_waypoints>		
+		
+		<onWaypointFailed>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+			<Arg> INT32 </Arg><!-- waypoint_id -->
+		</onWaypointFailed>
+		
+		<onWaypointReached>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+			<Arg> INT32 </Arg><!-- waypoint_id -->
+		</onWaypointReached>
+		
+		<manipulable_onVictimDeath>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+			<Arg> INT32 </Arg><!-- victim_id -->
+		</manipulable_onVictimDeath>
+		
+		<manipulable_onDeath>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+			<Arg> INT32 </Arg><!-- killer_id -->
+		</manipulable_onDeath>
+		<manipulable_onRevive>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+		</manipulable_onRevive>
+		
+		<manipulable_onDecompose>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+		</manipulable_onDecompose>
+		
+		<manipulable_onRecompose>
+			<Arg> MAILBOX </Arg><!-- mob_cell -->
+		</manipulable_onRecompose>
+		
+
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

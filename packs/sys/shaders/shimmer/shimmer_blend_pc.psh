@@ -1,0 +1,8 @@
+ps.1.1
+
+tex t0
+tex t1
+
+mov r1, t1
+add r0.a, t0.a, v0.a
+lrp r0, r0.a, r1, t0

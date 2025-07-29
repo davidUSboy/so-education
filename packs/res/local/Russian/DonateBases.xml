@@ -1,0 +1,50 @@
+<root>
+  <name>
+    <base_vesuvius_podgorny1>д.Подгорная 1</base_vesuvius_podgorny1>
+    <base_vesuvius_podgorny2>д.Подгорная 2</base_vesuvius_podgorny2>
+    <base_vesuvius_podgorny3>д.Подгорная 3</base_vesuvius_podgorny3>
+    <base_vesuvius_lep>База под ЛЭП</base_vesuvius_lep>
+    <base_outlands_belaya1>д.Белая 1</base_outlands_belaya1>
+    <base_outlands_belaya2>д.Белая 2</base_outlands_belaya2>
+    <base_outlands_belaya3>д.Белая 3</base_outlands_belaya3>
+    <base_outlands_helicopter>У Вертолета</base_outlands_helicopter>
+    <base_outlands_detsad1>Детсад 1</base_outlands_detsad1>
+    <base_outlands_detsad2>Детсад 2</base_outlands_detsad2>
+    <base_outlands_suburb1>Пригород 1</base_outlands_suburb1>
+    <base_outlands_suburb2>Пригород 2</base_outlands_suburb2>
+    <base_outlands_suburb3>Пригород 3</base_outlands_suburb3>
+    <base_outlands_suburb4>Пригород 4</base_outlands_suburb4>
+    <base_outlands_suburb5>Пригород 5</base_outlands_suburb5>
+    <base_outlands_suburb6>Пригород 6</base_outlands_suburb6>
+    <base_outlands_suburb7>Пригород 7</base_outlands_suburb7>
+    <base_outlands_suburb8>Пригород 8</base_outlands_suburb8>
+    <base_outlands_suburb9>Пригород 9</base_outlands_suburb9>
+    <base_outlands_suburb10>Пригород 10</base_outlands_suburb10>
+    <base_outlands_suburb11>Пригород 11</base_outlands_suburb11>
+    <base_outlands_suburb12>Пригород 12</base_outlands_suburb12>
+  </name>
+  <location>
+    <base_vesuvius_podgorny1>Везувий</base_vesuvius_podgorny1>
+    <base_vesuvius_podgorny2>Везувий</base_vesuvius_podgorny2>
+    <base_vesuvius_podgorny3>Везувий</base_vesuvius_podgorny3>
+    <base_vesuvius_lep>Везувий</base_vesuvius_lep>
+    <base_outlands_belaya1>д.Белая 1</base_outlands_belaya1>
+    <base_outlands_belaya2>д.Белая 2</base_outlands_belaya2>
+    <base_outlands_belaya3>д.Белая 3</base_outlands_belaya3>
+    <base_outlands_helicopter>У Вертолета</base_outlands_helicopter>
+    <base_outlands_detsad1>Детсад 1</base_outlands_detsad1>
+    <base_outlands_detsad2>Детсад 2</base_outlands_detsad2>
+    <base_outlands_suburb1>Пригород 1</base_outlands_suburb1>
+    <base_outlands_suburb2>Пригород 2</base_outlands_suburb2>
+    <base_outlands_suburb3>Пригород 3</base_outlands_suburb3>
+    <base_outlands_suburb4>Пригород 4</base_outlands_suburb4>
+    <base_outlands_suburb5>Пригород 5</base_outlands_suburb5>
+    <base_outlands_suburb6>Пригород 6</base_outlands_suburb6>
+    <base_outlands_suburb7>Пригород 7</base_outlands_suburb7>
+    <base_outlands_suburb8>Пригород 8</base_outlands_suburb8>
+    <base_outlands_suburb9>Пригород 9</base_outlands_suburb9>
+    <base_outlands_suburb10>Пригород 10</base_outlands_suburb10>
+    <base_outlands_suburb11>Пригород 11</base_outlands_suburb11>
+    <base_outlands_suburb12>Пригород 12</base_outlands_suburb12>
+  </location>
+</root>

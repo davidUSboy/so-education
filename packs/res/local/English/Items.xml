@@ -1,0 +1,67 @@
+<root>
+  <Messages>
+    <FAIL_USE_BLACK_BOX>Your storage is full!</FAIL_USE_BLACK_BOX>
+    <FAIL_ITEM_CANT_BE_ATTACHED>This item can't be attached</FAIL_ITEM_CANT_BE_ATTACHED>
+    <FAIL_ITEM_ALREADY_ATTACHED>Similar item is already attached</FAIL_ITEM_ALREADY_ATTACHED>
+    <FAIL_ATTACHING_NOT_A_PART>You can attach only additional parts</FAIL_ATTACHING_NOT_A_PART>
+    <FAIL_MOTHER_NOT_A_WEAPON>This item can be attached only to weapon and armor</FAIL_MOTHER_NOT_A_WEAPON>
+    <FAIL_MOTHER_CANT_CARRY>This item doesn't fit</FAIL_MOTHER_CANT_CARRY>
+    <FAIL_NOTHING_TO_REPAIR>Nothing to repair</FAIL_NOTHING_TO_REPAIR>
+    <FAIL_LOW_SKILL_LEVEL>Low skill level</FAIL_LOW_SKILL_LEVEL>
+    <FAIL_NO_REPAIR_KIT>Out of repair kits</FAIL_NO_REPAIR_KIT>
+    <FAIL_REPAIR_FAILED>Repair failed</FAIL_REPAIR_FAILED>
+    <FAIL_NOT_DETACHABLE>This item couldn't be disconnected</FAIL_NOT_DETACHABLE>
+    <FAIL_ALREADY_DETACHED>This item is already disconnected</FAIL_ALREADY_DETACHED>
+    <FAIL_TRADER_NO_MONEY>Trader is out of money</FAIL_TRADER_NO_MONEY>
+    <FAIL_TRADER_NO_WARE>Trader has nothing to sell</FAIL_TRADER_NO_WARE>
+    <FAIL_CANT_SELL>You can't sell this item</FAIL_CANT_SELL>
+    <FAIL_NO_BATTARY>Low battery</FAIL_NO_BATTARY>
+    <FAIL_NO_MONEY>Not enogh money</FAIL_NO_MONEY>
+    <FAIL_NO_RECIPE>No recipe</FAIL_NO_RECIPE>
+    <FAIL_NO_RESOURCE>No resources</FAIL_NO_RESOURCE>
+    <FAIL_CRAFT_ROLL_FAIL>Fail to craft item</FAIL_CRAFT_ROLL_FAIL>
+    <FAIL_ITEM_EQUIPPED>You can't change equipped items</FAIL_ITEM_EQUIPPED>
+    <FAIL_IMPROPER_AMMO>Improper ammo</FAIL_IMPROPER_AMMO>
+    <AMMO_ALREADY_LOADED>Weapon is already loaded with this ammo</AMMO_ALREADY_LOADED>
+    <FAIL_TRADER_NOT_BUY_IT>Trader won't buy it</FAIL_TRADER_NOT_BUY_IT>
+    <FAIL_ITEM_STRUCTURE>Item structure fail</FAIL_ITEM_STRUCTURE>
+    <FAIL_TOO_MANY_ITEMS>You have too many items</FAIL_TOO_MANY_ITEMS>
+    <CHECK_AND_CONFIRM>Check the bargain and click to confirm</CHECK_AND_CONFIRM>
+    <ITEM_BROKEN_NOT_REPAIR>New level of durability is lower than the old one. Repair cancelled.</ITEM_BROKEN_NOT_REPAIR>
+    <FAIL_CANT_UNITE>Items can't be combined</FAIL_CANT_UNITE>
+    <FAIL_NO_TRADER>Trader is missing</FAIL_NO_TRADER>
+    <FAIL_PLAYER_EXCHANGE_CHANGED>Warning! Opponent changed the deal</FAIL_PLAYER_EXCHANGE_CHANGED>
+    <FAIL_MAX_ITEMS>You've gained maximum items quantity</FAIL_MAX_ITEMS>
+    <FAIL_NO_ITEM_HOLDER>Item holder not found</FAIL_NO_ITEM_HOLDER>
+    <FAIL_NOT_IN_RANGE>Out of range</FAIL_NOT_IN_RANGE>
+    <FAIL_CANT_TRADE>You can't trade</FAIL_CANT_TRADE>
+    <FAIL_ITEM_QUEST>Can't transfer quest item</FAIL_ITEM_QUEST>
+    <FAIL_OTHER_ACTION>You need to finish previous action first</FAIL_OTHER_ACTION>
+    <FAIL_KNOWN_RECIPE>You already know this recipe</FAIL_KNOWN_RECIPE>
+    <FAIL_CLAN_ITEM>You can't equip this item. This item belongs to another clan.</FAIL_CLAN_ITEM>
+    <FAIL_CANT_MODIFY_EQUIPPED_ITEM>You can't modify equipped item</FAIL_CANT_MODIFY_EQUIPPED_ITEM>
+    <FAIL_USED_ITEM>The item was already used</FAIL_USED_ITEM>
+    <FAIL_NO_STORAGE_PLACE>Storage space is over</FAIL_NO_STORAGE_PLACE>
+    <FAIL_WAS_EQUIPPED>The item was equipped already</FAIL_WAS_EQUIPPED>
+    <FAIL_OVERFLOW_SLOT>F AIL_OVERFLOW_SLOT</FAIL_OVERFLOW_SLOT>
+    <FAIL_IMPOSSIBLE_COOK>FAIL_IMPOSSIBLE_COOK</FAIL_IMPOSSIBLE_COOK>
+    <FAIL_STACK>FAIL_STACK</FAIL_STACK>
+    <FAIL_USER_FIRE_ACCESS>FAIL_USER_FIRE_ACCESS</FAIL_USER_FIRE_ACCESS>
+    <FAIL_CONTAINER_OFERFLOW>Container is full</FAIL_CONTAINER_OFERFLOW>
+    <FAIL_CONTAINER_MAX_USE>Stable Solution Exausted</FAIL_CONTAINER_MAX_USE>
+    <FAIL_ARTEFACT_DEAD>Invalid Action. The Artifact is discharged.</FAIL_ARTEFACT_DEAD>
+    <FAIL_NO_WORKBRENCH>Workbench is needed</FAIL_NO_WORKBRENCH>
+  </Messages>
+  <GUIStrings>
+    <RELOAD>Reloading</RELOAD>
+    <LOAD_AMMO>Change ammo</LOAD_AMMO>
+    <USING>Using</USING>
+    <EQUIP>Equip</EQUIP>
+    <UNJAMM>Unjam</UNJAMM>
+    <JAMM>Weapon is jammed</JAMM>
+    <STONE>Stone throw</STONE>
+    <GRENADE>Grenade throw</GRENADE>
+    <MODIFICATION>Modification</MODIFICATION>
+    <SITTING>----</SITTING>
+  </GUIStrings>
+</root>

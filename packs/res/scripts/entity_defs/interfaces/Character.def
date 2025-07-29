@@ -1,0 +1,519 @@
+<root>
+	<Properties>
+
+		<ExpCoefficient>
+			<Type> UINT8 </Type>
+			<Default> 1 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> false </Persistent>
+		</ExpCoefficient>
+		
+		<CharacterCombatLevel>
+			<Type> UINT8 </Type>
+			<Default> 1 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</CharacterCombatLevel>
+		
+		<CharacterSurvivalLevel>
+			<Type> UINT8 </Type>
+			<Default> 1 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</CharacterSurvivalLevel>
+		
+		<CharacterOtherLevel>
+			<Type> UINT8 </Type>
+			<Default> 1 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</CharacterOtherLevel>
+		
+		<CharacterClass>
+			<Type> INT8 </Type>
+			<Default> 1 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</CharacterClass>
+		
+		<CombatExperience>
+			<Type> UINT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</CombatExperience>
+		
+		<SurvivalExperience>
+			<Type> UINT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</SurvivalExperience>
+		
+		<OtherExperience>
+			<Type> UINT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</OtherExperience>
+		
+		<CombatSkillPoints>
+			<Type> INT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</CombatSkillPoints>
+		<SurvivalSkillPoints>
+			<Type> INT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</SurvivalSkillPoints>
+		<OtherSkillPoints>
+			<Type> INT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</OtherSkillPoints>
+		
+		<CombatPerkPoints>
+			<Type> INT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</CombatPerkPoints>
+		<SurvivalPerkPoints>
+			<Type> INT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</SurvivalPerkPoints>
+		<OtherPerkPoints>
+			<Type> INT32 </Type>
+			<Default> 0 </Default>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+		</OtherPerkPoints>
+		
+		<PlayerDefaultCounter>
+			<Type> FLOAT </Type>
+			<Default> 0.0 </Default>
+			<Flags> CELL_PRIVATE </Flags>
+			<Persistent> true </Persistent>
+		</PlayerDefaultCounter>
+	
+		<Stats> 
+			<Type>FIXED_DICT
+				<Properties>
+					<Strength>
+						<Type> INT8 </Type>
+						<Default> 5 </Default>
+						<Flags> CELL_PUBLIC_AND_OWN </Flags>
+						<Persistent> true </Persistent>
+					</Strength>
+					
+					<Agility>
+						<Type> INT8 </Type>
+						<Default> 5 </Default>
+						<Flags> CELL_PUBLIC_AND_OWN </Flags>
+						<Persistent> true </Persistent>
+					</Agility>
+					
+					<Perception>
+						<Type> INT8 </Type>
+						<Default> 5 </Default>
+						<Flags> CELL_PUBLIC_AND_OWN </Flags>
+						<Persistent> true </Persistent>
+					</Perception>
+					
+					<Intelligence>
+						<Type> INT8 </Type>
+						<Default> 5 </Default>
+						<Flags> CELL_PUBLIC_AND_OWN </Flags>
+						<Persistent> true </Persistent>
+					</Intelligence>
+					
+					<Endurance>
+						<Type> INT8 </Type>
+						<Default> 5 </Default>
+						<Flags> CELL_PUBLIC_AND_OWN </Flags>
+						<Persistent> true </Persistent>
+					</Endurance>
+					
+					<Psy>
+						<Type> INT8 </Type>
+						<Default> 5 </Default>
+						<Flags> CELL_PUBLIC_AND_OWN </Flags>
+						<Persistent> true </Persistent>
+					</Psy>
+				</Properties>
+			</Type>
+					<Flags> CELL_PUBLIC_AND_OWN </Flags>
+					<Persistent> true </Persistent>
+			<Default>
+				<Strength> 5 </Strength>
+				<Agility> 5	</Agility>
+				<Perception> 5 </Perception>
+				<Intelligence>5</Intelligence>
+				<Endurance>5</Endurance>
+				<Psy>5</Psy>
+			</Default>
+		</Stats>
+		
+		<WeaponAdaptations>
+			<Type> ARRAY <of> ADAPTATION_ENTRY </of> </Type>
+			<Flags> OWN_CLIENT </Flags>
+			<Persistent> true </Persistent>
+			<Default> </Default>
+		</WeaponAdaptations>
+			
+		<WeaponAdaptationCounter>
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</WeaponAdaptationCounter>
+		
+		<defences>
+			<Type> ARRAY <of>DEFENCE_ENTRY</of></Type>
+			<Flags> CELL_PUBLIC </Flags>
+			<Persistent> true </Persistent>
+		</defences>
+		
+		<SocialStatus>
+			<Type> INT32</Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+			<Default> 0 </Default>
+		</SocialStatus>
+		
+		<CombatSkills>
+			<Type> COMBAT_SKILLS </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+			<Default>			
+				<LightWeapon>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</LightWeapon>
+				<AssaultRifles>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</AssaultRifles>
+				<HeavyWeapon>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</HeavyWeapon>
+				<Rifles>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Rifles>
+				<MeleeWeapon>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</MeleeWeapon>
+				<Throwing>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Throwing>
+				<Explosions>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Explosions>
+				<ShootingOnMove>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</ShootingOnMove>
+				<CloseCombat>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</CloseCombat>
+				<WeaponTransfer>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</WeaponTransfer>		
+			</Default>
+		</CombatSkills>
+		
+		
+		
+		<SurvivalSkills>
+			<Type> SURVIVAL_SKILLS </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+			<Default>		
+				<Camouflage>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Camouflage>
+				<StealthMoving>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</StealthMoving>
+				<TracelessMoving>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</TracelessMoving>
+				<Tracking>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Tracking>
+				<Spotting>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Spotting>
+				<Telepaty>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Telepaty>
+				<Reaction>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Reaction>
+				<Scouting>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Scouting>
+				<AnomalySpotting>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</AnomalySpotting>		
+				<Sportsmanship>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Sportsmanship>	
+				<Metabolism>
+					<SkillValue>
+						10
+					</SkillValue>
+					
+					<PerkList>
+						
+					</PerkList>
+				</Metabolism>		
+			</Default>			
+			
+		</SurvivalSkills>
+		
+		<OtherSkills>
+			<Type> OTHER_SKILLS </Type>
+			<Flags> CELL_PUBLIC_AND_OWN </Flags>
+			<Persistent> true </Persistent>
+			<Default>	
+				<PickLockDisarm>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</PickLockDisarm>
+				<Medicine>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Medicine>
+				<Repair>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Repair>
+				<Modification>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Modification>
+				<Luck>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Luck>
+				<Neatness>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Neatness>
+				<Packing>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Packing>
+				<LootHiding>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</LootHiding>
+				<Identify>
+					<SkillValue>
+						10
+					</SkillValue>			
+					
+					<PerkList>
+						
+					</PerkList>
+				</Identify>	
+			</Default>			
+			
+		</OtherSkills>
+		
+	</Properties>
+	
+	<BaseMethods>
+	</BaseMethods>
+	
+	<CellMethods>			
+		<addPointsToSkill>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> STRING </Arg> <!--"OH! What the fuck is what"  - you say. Yes you're right. Its transfering string data between client and server. But stay away, it will be fixed soon.-->	
+			<Arg> INT32 </Arg>
+		</addPointsToSkill>			
+		<addPerkToSkill>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> STRING </Arg><!--"OH! What the fuck is what"  - you say. Yes you're right. Its transfering string data between client and server. But stay away, it will be fixed soon.-->	
+			<Arg> INT32 </Arg>
+		</addPerkToSkill>			
+		<AddExperience>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</AddExperience>	
+		
+		<ChangeSocialStatus>
+			<Arg> INT32 </Arg>
+		</ChangeSocialStatus>
+	</CellMethods>
+	
+	<ClientMethods>	
+		<redrawSkillData>
+		</redrawSkillData>
+	</ClientMethods>
+</root>

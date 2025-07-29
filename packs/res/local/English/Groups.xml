@@ -1,0 +1,45 @@
+<root>
+  <Messages>
+    <YOU>(You)</YOU>
+    <OWNER>(Owner)</OWNER>
+    <YOUR_GROUP>Your squad:</YOUR_GROUP>
+    <GROUP_DESTROYED>Squad dismissed.</GROUP_DESTROYED>
+    <CANT_LEAVE>You can't leave your squad right now.</CANT_LEAVE>
+    <NOT_IN_GROUP>You're not in the squad.</NOT_IN_GROUP>
+    <IN_GROUP>You're in the squad.</IN_GROUP>
+    <CANT_DESTROY_NOW>You can't dismiss your squad right now.</CANT_DESTROY_NOW>
+    <NOT_IN_YOUR_GROUP>{0} is not in your squad.</NOT_IN_YOUR_GROUP>
+    <PLAYER_ALREADY_IN_GROUP>Player is already in squad.</PLAYER_ALREADY_IN_GROUP>
+    <HAS_JOINED>{0} has joined your squad.</HAS_JOINED>
+    <MAX_PLAYER_NUM>Maximum player quantity has reached.</MAX_PLAYER_NUM>
+    <LEADER_HAS_CHANGED>Leader has changed:{0}.</LEADER_HAS_CHANGED>
+    <CANT_CHANGE>You can't change squad right now.</CANT_CHANGE>
+    <CANT_FIND_PLAYER>Player not found.</CANT_FIND_PLAYER>
+    <PLAYER_NOT_IN_GAME>Player is out of the game.</PLAYER_NOT_IN_GAME>
+    <YOU_CANT_INVITE_YOURSELF>You can't invite yourself.</YOU_CANT_INVITE_YOURSELF>
+    <PLAYER_ALREADY_INVITED>{0} is invited already.</PLAYER_ALREADY_INVITED>
+    <INVITATION_HAS_SENT>The invitation has been sent.</INVITATION_HAS_SENT>
+    <CHANGE_LEADER_REQUEST_HAS_SENT>The request has been sent.</CHANGE_LEADER_REQUEST_HAS_SENT>
+    <INVITE_REQUEST_HAS_SENT>The invite request has been sent.</INVITE_REQUEST_HAS_SENT>
+  </Messages>
+  <Interface>
+    <INVITE_HEADER>Squad invitation from {0}.</INVITE_HEADER>
+    <INVITE_QUESTION>{0} invites you in the squad .&lt;n&gt;Confirm ?</INVITE_QUESTION>
+    <RECOMMEND_HEADER>Invitation.</RECOMMEND_HEADER>
+    <RECOMMEND_QUESTION>Squad member:{0}&lt;n&gt;recommends you to accept this stalker in your squad:&lt;n&gt;{1}</RECOMMEND_QUESTION>
+    <COMMAND_HIDE_EFFECT>Hide squad effects.</COMMAND_HIDE_EFFECT>
+    <COMMAND_SHOW_EFFECT>Show squad effects.</COMMAND_SHOW_EFFECT>
+    <COMMAND_REMOVE_GROUP>Dismiss squad.</COMMAND_REMOVE_GROUP>
+    <COMMAND_LEAVE_GROUP>Leave squad.</COMMAND_LEAVE_GROUP>
+    <COMMAND_KICK_GROUP>Kick from squad.</COMMAND_KICK_GROUP>
+    <COMMAND_GET_LEADER>Transmit leadership.</COMMAND_GET_LEADER>
+    <LOOD_SETTINGS_TITLE>Loot settings.</LOOD_SETTINGS_TITLE>
+    <LOOD_WHO_TAKED>Loot goes to the harvester.</LOOD_WHO_TAKED>
+    <LOOD_LEADER>Loot goes to the leader.</LOOD_LEADER>
+    <LOOD_RANDOM>Random loot allocation.</LOOD_RANDOM>
+    <ON_LOOD_SETTINGS_CHANGED>Squad settings has been changed:{0} Stay in?</ON_LOOD_SETTINGS_CHANGED>
+    <DESSTROY_QUESTION>Do you want to disband the squad?</DESSTROY_QUESTION>
+    <KICK_TITLE>Excluding a member from the clan</KICK_TITLE>
+    <KICK_QUESTION>The reason for excluding {0} from the clan</KICK_QUESTION>
+  </Interface>
+</root>

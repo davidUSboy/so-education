@@ -1,0 +1,19 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>	
+	</Properties>
+	
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+</root>
+

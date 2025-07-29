@@ -1,0 +1,8 @@
+<root>
+	<Properties>	
+		<time_to_remember_pain>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</time_to_remember_pain>
+	</Properties>	
+</root>

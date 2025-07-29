@@ -1,0 +1,16 @@
+<root>
+	<Properties>
+
+		<__timer_controllers__>
+			<Type> BWDICT_UINT32_UINT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</__timer_controllers__>
+
+		<__call_once_controllers__>
+			<Type> BWDICT_UINT32_UINT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</__call_once_controllers__>
+
+	</Properties>
+
+</root>

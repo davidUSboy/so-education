@@ -1,0 +1,171 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> Enableable </Interface>
+		<Interface> Cacheable </Interface>
+		<Interface> TimerManagerCell </Interface>
+		<Interface> Damager </Interface>
+		<Interface> Teleporter </Interface>
+		<Interface> EffectsSource </Interface>
+	</Implements>
+	
+	<Volatile>
+		<position/>
+	</Volatile>
+
+	<Properties>
+		<anomalyType>
+			<Type> ANOMALY_TYPE </Type>
+			<Flags> OTHER_CLIENTS </Flags>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+		</anomalyType>
+		
+		<listEntity>
+			<Type> PYTHON </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</listEntity>
+		
+		<state>
+			<Type> UINT8 </Type>
+			<Flags> OTHER_CLIENTS </Flags>			
+		</state>		
+
+		<ownerMB>
+			<Type> MAILBOX </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</ownerMB>
+
+		<ownerData> <!-- anomalyPoint number for Area(areaID); or other data for other owners -->
+			<Type> INT32 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</ownerData>	
+		
+		<proximity_id>
+			<Type> CONTROLLER_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</proximity_id>			
+		
+		<proximity_id_out>
+			<Type> CONTROLLER_ID </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</proximity_id_out>			
+		
+		
+		
+		<trapped>
+			<Type> ARRAY <of> MAILBOX </of>	</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</trapped>		
+		
+		<affected>
+			<Type> ARRAY <of> MAILBOX </of>	</Type>
+			<Flags> CELL_PUBLIC </Flags>
+		</affected>			
+		
+		<is_hidden>
+			<Type> BOOL </Type>
+			<Flags> CELL_PUBLIC </Flags>
+		</is_hidden>
+		
+		<height_up>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</height_up>			
+		
+		<height_down>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</height_down>			
+		
+		<movingCenter>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</movingCenter>			
+		
+		<movingVelocity>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>
+			<Default> 0 </Default>
+		</movingVelocity>					
+	
+		<movingRadius>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+			<Editable> true </Editable>
+			<Widget> RADIUS <!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius> 2 </gizmoRadius>
+			</Widget>
+		</movingRadius>
+<!---------- Teleportation properties ---------->
+		<teleport_points>
+			<Type> ARRAY <of> UDO_REF </of> </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Editable> true </Editable>
+		</teleport_points>
+
+		<teleport_isOnCooldown>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</teleport_isOnCooldown>
+<!---------- /Teleportation properties ---------->	
+		
+		<!-- It's needed here only to visualize radius in editor, but real radius is in config. -->
+		<radius>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 10.000000 </Default>
+			<Editable> true </Editable>
+			<Widget> RADIUS <!--  Draw sphere in world editor  --->
+				<colour> 255.000000 0.000000 0.000000 255.000000 </colour>
+				<gizmoRadius> 2 </gizmoRadius>
+			</Widget>
+		</radius>		
+	</Properties>
+
+	<ClientMethods>
+		<reset_params>
+			<Arg> ANOMALY_TYPE </Arg>
+			<Arg> UINT8 </Arg> <!-- state -->
+		</reset_params>		
+		<change_state>
+			<Arg> UINT8 </Arg> <!-- state -->
+		</change_state>	
+		<onShot>
+			<Arg> ENTITY_ID </Arg>
+		</onShot>
+		
+		<attachParticles>
+			<Arg> STRING </Arg>
+		</attachParticles>
+		
+	</ClientMethods>
+
+	<CellMethods>
+		<reset_params>
+			<Arg> ANOMALY_RESET_PARAMS_DICT </Arg>
+			<Arg> TELEPORT_PARAMS </Arg>
+		</reset_params>
+		<initialize/> <!-- called in reset_params after teleport -> ghost-call  -->
+
+		<onDroppedItemDestroyed>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</onDroppedItemDestroyed>
+
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

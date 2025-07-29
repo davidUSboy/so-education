@@ -1,0 +1,20 @@
+<root>
+	<BaseMethods>
+		
+		<aquireNamepairTaken>
+			<Arg> INT32 </Arg><!-- nameID -->
+			<Arg> INT32 </Arg><!-- surnameID -->
+		</aquireNamepairTaken>
+		<releaseNamepairTaken>
+			<Arg> INT32 </Arg><!-- nameID -->
+			<Arg> INT32 </Arg><!-- surnameID -->
+		</releaseNamepairTaken>
+		
+	</BaseMethods>
+
+	<!-- No cell methods. -->
+	<CellMethods/>
+
+	<!-- No client methods.-->
+	<ClientMethods/>
+</root>

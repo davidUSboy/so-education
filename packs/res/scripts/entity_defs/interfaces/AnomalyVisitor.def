@@ -1,0 +1,27 @@
+<root>
+	<ClientMethods>
+		<onAnomalyDrag>
+			<Arg> ENTITY_ID </Arg>	<!-- grabbing anomaly id -->
+			<Arg> VECTOR4 </Arg>	<!-- position + yaw -->
+			<Arg> VECTOR3 </Arg>	<!-- velocity -->
+			<Arg> FLOAT </Arg>		<!-- allowed vertical distance for seek to end -->
+			<Arg> FLOAT </Arg>		<!-- grab duration (while this is in effect player cannot move on his own) -->
+			<Arg> BOOL </Arg>		<!-- can fly -->
+		</onAnomalyDrag>
+		
+	</ClientMethods>
+
+	<CellMethods>
+		<nudgeToPos>
+			<Arg> ENTITY_ID </Arg>	<!-- grabbing anomaly id -->
+			<Arg> VECTOR4 </Arg>	<!-- position + yaw -->
+			<Arg> VECTOR3 </Arg>	<!-- velocity -->
+			<Arg> FLOAT </Arg>		<!-- allowed vertical distance for seek to end -->
+			<Arg> FLOAT </Arg>		<!-- grab duration (while this is in effect player cannot move on his own) -->
+			<Arg> BOOL </Arg>		<!-- can fly -->
+		</nudgeToPos>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

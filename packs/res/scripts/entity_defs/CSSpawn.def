@@ -1,0 +1,49 @@
+<root>
+	<Implements>
+	</Implements>
+	
+	<Properties>
+		<teamID>
+			<Type>			INT8   </Type>
+			<Flags>			BASE		</Flags>
+			<Editable>		true			</Editable>
+			<Widget>	ENUM
+				<enum>
+					<value>	0	</value>
+					<display>	TEAM_NO	</display>
+				</enum>
+				<enum>
+					<value>	1	</value>
+					<display>	TEAM_RED	</display>
+				</enum>
+				<enum>
+					<value>	2	</value>
+					<display>	TEAM_BLUE	</display>
+				</enum>
+				<enum>
+					<value>	3	</value>
+					<display>	TEAM_ANY	</display>
+				</enum>
+
+			</Widget>
+		</teamID>
+
+
+	</Properties>
+
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+
+
+</root>
+
+
+

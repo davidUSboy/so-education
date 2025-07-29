@@ -1,0 +1,148 @@
+{
+    "v2v3v4": {
+        "direction": [
+            0.34887215495109558, 
+            -0.18715791404247284, 
+            0.91829186677932739
+        ], 
+        "yaw": -3.0651354789733887, 
+        "ActiveItemType": 0, 
+        "SecondaryWeaponUpgrades": {
+            "SilencerType": 0, 
+            "LightType": 0, 
+            "BayonetType": 0, 
+            "AmmoType": 0, 
+            "ButtType": 0, 
+            "LauncherType": 0, 
+            "MagazineType": 0, 
+            "ScopeType": 0
+        }, 
+        "ActiveItemID": 0, 
+        "ActiveWeaponSet": {
+            "SecondarySlotType": 0, 
+            "MeleeSlotID": 0, 
+            "MeleeSlotType": 0, 
+            "SecondarySlotID": 0, 
+            "PrimarySlotTintID": 0, 
+            "MeleeSlotTintID": 0, 
+            "PrimarySlotID": 0, 
+            "PrimarySlotType": 0, 
+            "SecondarySlotTintID": 0
+        }, 
+        "ActiveArmorSet": {
+            "HatType": 0, 
+            "BackPackID": 0, 
+            "ShirtID": 0, 
+            "HandsID": 0, 
+            "ShirtType": 0, 
+            "ArmorID": 0, 
+            "BootsType": 0, 
+            "HandsType": 0, 
+            "MaskID": 902000, 
+            "HeadID": 0, 
+            "PantsType": 0, 
+            "HeadType": 0, 
+            "PantsID": 0, 
+            "MaskType": 170, 
+            "BootsID": 0, 
+            "ArmorType": 0, 
+            "HatID": 0, 
+            "BackPackType": 0
+        }, 
+        "pitch": 0.0, 
+        "PrimaryWeaponUpgrades": {
+            "SilencerType": 0, 
+            "LightType": 0, 
+            "BayonetType": 0, 
+            "AmmoType": 0, 
+            "ButtType": 0, 
+            "LauncherType": 0, 
+            "MagazineType": 0, 
+            "ScopeType": 0
+        }, 
+        "position": [
+            1036.4688720703125, 
+            47.780002593994141, 
+            1054.8150634765625
+        ], 
+        "space_name": "spaces/outlands", 
+        "ActiveGadjetSet": {
+            "GadjetWork": 0, 
+            "GadjetID": 0, 
+            "GadjetType": 0
+        }
+    }, 
+    "gorg": {
+        "direction": [
+            0.34887215495109558, 
+            -0.18715791404247284, 
+            0.91829186677932739
+        ], 
+        "yaw": 0.36305990815162659, 
+        "ActiveItemType": 6, 
+        "SecondaryWeaponUpgrades": {
+            "LightType": 0, 
+            "BayonetType": 0, 
+            "AmmoType": 0, 
+            "ButtType": 0, 
+            "LauncherType": 0, 
+            "ScopeType": 0, 
+            "MagazineType": 0, 
+            "SilencerType": 0
+        }, 
+        "ActiveItemID": 902018, 
+        "ActiveWeaponSet": {
+            "SecondarySlotType": 49, 
+            "MeleeSlotID": 0, 
+            "MeleeSlotType": 0, 
+            "SecondarySlotID": 902007, 
+            "PrimarySlotTintID": 0, 
+            "MeleeSlotTintID": 0, 
+            "PrimarySlotID": 902018, 
+            "PrimarySlotType": 6, 
+            "SecondarySlotTintID": 0
+        }, 
+        "ActiveArmorSet": {
+            "HatType": 186, 
+            "MaskType": 170, 
+            "BackPackID": 902005, 
+            "PantsType": 131, 
+            "MaskID": 902000, 
+            "ArmorID": 902002, 
+            "BootsType": 110251, 
+            "HandsType": 0, 
+            "ShirtType": 110005, 
+            "HeadID": 0, 
+            "BackPackType": 115, 
+            "HeadType": 0, 
+            "PantsID": 902003, 
+            "ShirtID": 902004, 
+            "BootsID": 902006, 
+            "ArmorType": 102, 
+            "HatID": 902001, 
+            "HandsID": 0
+        }, 
+        "pitch": 0.18826980888843536, 
+        "PrimaryWeaponUpgrades": {
+            "LightType": 0, 
+            "BayonetType": 0, 
+            "AmmoType": 0, 
+            "ButtType": 0, 
+            "LauncherType": 0, 
+            "ScopeType": 0, 
+            "MagazineType": 0, 
+            "SilencerType": 0
+        }, 
+        "position": [
+            -611.32781982421875, 
+            31.191673278808594, 
+            501.43609619140625
+        ], 
+        "space_name": "spaces/outlands", 
+        "ActiveGadjetSet": {
+            "GadjetWork": 0, 
+            "GadjetID": 0, 
+            "GadjetType": 0
+        }
+    }
+}

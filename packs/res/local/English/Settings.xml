@@ -1,0 +1,7 @@
+<root>
+  <client>
+    <RESTART_REQUIRED>Client restart required</RESTART_REQUIRED>
+    <SETTINGS_APPLIED_AFTER_RESTART>All new graphic settings will be applied after client reboot. Reboot now?</SETTINGS_APPLIED_AFTER_RESTART>
+    <SETTINGS_LANGUAGE_RESTART>Language settings will be applied after restarting the client. Restart now?</SETTINGS_LANGUAGE_RESTART>
+  </client>
+</root>

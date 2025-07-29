@@ -1,0 +1,24 @@
+<root>
+	<Properties>	
+		<current_waypoint>
+			<Type> VECTOR3 </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</current_waypoint>
+		
+		<is_waypoint_reached>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0 </Default>
+		</is_waypoint_reached>
+		
+		<waypoint_reach_distance>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</waypoint_reach_distance>
+		
+		<waypoint_walk_speed>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</waypoint_walk_speed>
+	</Properties>	
+</root>

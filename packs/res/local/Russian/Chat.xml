@@ -1,0 +1,7 @@
+<root>
+  <TARGET_UNREACHABLE_MESSAGE>Сообщение не может быть доставлено, так как игрока с ником {nickname} не существует.</TARGET_UNREACHABLE_MESSAGE>
+  <TARGET_OFFLINE_MESSAGE>Игрок с ником {nickname} сейчас вне доступа.</TARGET_OFFLINE_MESSAGE>
+  <CHAT_BANNED>Сообщение не было отправлено, так как вы были временно лишены возможности отправлять текстовые сообщения.</CHAT_BANNED>
+  <SERVER_ANNOUNCER_NAME>Сервер</SERVER_ANNOUNCER_NAME>
+  <UNABLE_TO_DELIVER>В настоящее время сервер сообщений не отвечает, попробуйте отправить сообщение через некоторое время.</UNABLE_TO_DELIVER>
+</root>

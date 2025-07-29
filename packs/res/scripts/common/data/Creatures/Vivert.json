@@ -1,0 +1,228 @@
+{
+	"name, bylevel" : {
+		"default" : "Creatures.common.BOAR1",
+		"1" : "Creatures.common.BOAR2",
+		"2" : "Creatures.common.BOAR3",
+		"3" : "Creatures.common.BOAR4"
+	},
+	"model" : "vivert/vivert_female_lod1.model",	
+	"model_scale, bylevel" : {
+		"default" : 1,
+		"1" : 1,
+		"2" : 1.5,
+		"3" : 2.0
+	},
+	"coefLevel, bylevel": {
+		"default" : 99,
+		"1" : 99,
+		"2" : 99,
+		"3" : 99
+	}
+	"tints" : [{}],
+	"experience, bylevel" : {
+		"default" : 40,
+		"1" : 48,
+		"2" : 108,
+		"3" : 192
+	},
+	"health, bylevel" : {
+		"default" : 0.54,
+		"1" : 0.3,
+		"2" : 0.54,
+		"3" : 0.78
+	},	
+	"agro_range" : 20,
+	"karma": 17,
+	"lose_agro_range" : 30,
+	"global_cooldown" : 3.2,
+	"defence, bylevel" : {
+		"default" : {
+			"MELEE" : 700.0,
+			"BULLET" : 1.0,
+			"EXPLOSION" : 40.0,
+			"BIO" : 700.0
+		},
+		"1" : {
+			"BULLET" : 20.0
+		},
+		"2" : {
+			"BULLET" : 120.0
+		},
+		"3" : {
+			"BULLET" : 220.0
+		}	
+	},
+	"height" : 1.5,	
+	"width" : 0.5,
+	"decompose_time" : [30,100],
+	"loot, bylevel" : {
+		"default" : {},
+		"1" : {
+			"804" : "0.25",
+			"805" : "0.7"
+		},
+		"2" : {
+			"806" : "0.2",
+			"807" : "0.7"
+		},
+		"3" : {
+			"808" : "0.15",
+			"809" : "0.7"
+		}
+	},
+	"foot_nodes" : ["Bip001 L Foot", "Bip001 R Foot"],
+	"footsteps_sound" : "mob/boar/footsteps",
+	"melee_distance, bylevel" : { 
+	"default" : 1.56,
+		"1" : 1.8,
+		"2" : 2.3,
+		"3" : 3
+	},
+	"melee_height, bylevel" : {
+		"default" : 1.5,
+		"2" : 2,
+		"3" : 3
+	},
+	"actions, bylevel" : {
+		"default" : {
+			"Idle" : {
+				"sounds" : ["mob/boar/idle"]
+			},
+			"AttackTooth" : {
+				"model_actions" : ["AttackTooth"],
+				"sounds" : ["mob/boar/attack"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/boar/death"]
+			},
+			"Dead" : {
+				"model_actions" : ["Dead"]	
+			},
+			"Pain" : {
+				"sounds" : ["mob/boar/pain"]
+			}
+		},
+		"2" : {}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"default_state" : "walk_around",
+	"common_conditions,parent=default_common_conditions" : [],	
+	"states" : {
+		"walk_around, parent=default_walk_around" : {
+			"persistent_actions" : ["Idle"],
+			"speed, bylevel" : {
+				"default" : {
+					"walk_around" : [1.1, 4.4]
+				},
+				"2" : {
+					"walk_around" : [1.2, 4.5]
+				},
+				"3" : {
+					"walk_around" : [1.3, 4.6]
+				}
+			}
+		},		
+		"attacking, parent=default_attacking" : {
+			"skills" : {
+				"BOAR_MELEE" : 5,
+				"BOAR_MELEE_BLEED" : 1
+			},
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed, bylevel" : {
+				"default" : {
+					"follow_target" : 7.2,
+					"walk_around" : [2, 4.5]
+				},
+				"2" : {
+					"follow_target" : 7.5
+				},
+				"3" : {
+					"follow_target" : 7.8
+				}
+			}	
+		},
+		"dead" : {
+			"persistent_actions" : ["Dead"],
+			"entering_actions" : {"actions" : ["Die"], "time" : 0.9},
+			"conditions" : [
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			]
+		},
+		"before_recover, parent=default_before_recover" : {
+			"speed, bylevel" : {
+				"default" : {
+					"walk_around" : [1.1, 4.4]
+				},
+				"2" : {
+					"walk_around" : [1.2, 4.5]
+				},
+				"3" : {
+					"walk_around" : [1.3, 4.6]
+				}
+			}
+		},
+		"recover, parent=default_recover" : {
+			"persistent_actions" : ["Idle"]
+		}
+	},
+	"skills" : {
+		"BOAR_MELEE": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["LEG_UPPER", "TORSO"],
+					"type" : "MELEE",
+					"value" : [0.025, 0.048],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.025, 0.048]
+				},
+				"2": {
+					"value" : [0.083, 0.125]
+				},
+				"3": {
+					"value" : [0.128, 0.192]
+				}
+			},
+			"actions": ["AttackTooth"]
+		},
+		"BOAR_MELEE_BLEED": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["LEG_UPPER", "TORSO"],
+					"type" : "MELEE",
+					"value" : [0.025, 0.048],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.025, 0.048]
+				},
+				"2": {
+					"value" : [0.083, 0.125]
+				},
+				"3": {
+					"value" : [0.128, 0.192]
+				}
+			},
+			"effects, bylevel": {
+				"default": [["Bleed", 2]],
+				"1": [["Bleed", 2]],
+				"2": [["Bleed", 3]],
+				"3": [["Bleed", 4]]
+			},
+			"actions": ["AttackTooth"]
+		}
+	}
+}

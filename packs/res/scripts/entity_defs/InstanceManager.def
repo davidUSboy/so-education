@@ -1,0 +1,56 @@
+<root>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	
+	<Properties>
+		<insts>
+			<Type>	ARRAY	<of>	INSTANCE_PROP	</of>	</Type>
+			<Flags>	BASE	</Flags>
+		</insts>
+
+		<usrs>
+			<Type>	ARRAY	<of>	QUESTS_GROUP_LOGGED	</of>	</Type>
+			<Flags>	BASE	</Flags>
+		</usrs>		
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+	
+	<BaseMethods>
+
+		<instanceGetReady>
+			<Arg>	INT64	</Arg>
+            <Arg>	STRING	</Arg>
+		</instanceGetReady>
+		
+		<teleportToInst>
+			<Arg>	ARRAY	<of>	QUESTS_GROUP_LOGGED	</of>	</Arg>
+			<Arg>	ARRAY	<of>	INT64	</of>	</Arg>
+		</teleportToInst>
+
+		<gatherGroup>
+			<Arg>	ARRAY	<of>	QUESTS_GROUP_LOGGED	</of>	</Arg>
+			<Arg>	VECTOR3	</Arg>
+			<Arg>	INT64	</Arg>
+		</gatherGroup>
+		
+		<registerTeleportPoint>
+			<Arg>	INT64		</Arg>
+			<Arg>	INT64		</Arg>
+		</registerTeleportPoint>
+		
+		<onPlayerGeomChanged>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+		</onPlayerGeomChanged>
+		
+		<clearMailbox>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT64		</Arg>
+		</clearMailbox>
+	</BaseMethods>
+</root>

@@ -1,0 +1,32 @@
+<root>
+  <data>
+    <STRING_9_4>"Collect more loot from a dead mutants. It may partly compensate the cost of your weapons."</STRING_9_4>
+    <STRING_10_4>"Take psychomotor stimulant if you get far from the safe zone."</STRING_10_4>
+    <STRING_11_4>"To sell stuff or chase bandits use the noticeboard."</STRING_11_4>
+    <STRING_12_4>"You have to start a war with a clan to capture the base that belongs to it."</STRING_12_4>
+    <STRING_13_4>"Press Alt to roll the camera around your character."</STRING_13_4>
+    <STRING_14_4>"Try to enter high buildings. You can hide inside or search for loot."</STRING_14_4>
+    <STRING_15_4>"Click the right mouse button on the map(M) to add a new point with comments".</STRING_15_4>
+    <STRING_16_4>"Press Num+, Num-, Num* or Num/, to sit and have rest."</STRING_16_4>
+    <STRING_17_4>"Press "H" to move without a weapon."</STRING_17_4>
+    <STRING_18_4>"Remember that items can be worn out. It influences item's characteristics."</STRING_18_4>
+    <STRING_19_4>"Press Tab to turn on the cursor."</STRING_19_4>
+    <STRING_20_4>"You can craft stuff yourself (P), collecting parts and improving skills needed."</STRING_20_4>
+    <STRING_21_4>"Try to trade with other players. They may pay your more than NPC-traders."</STRING_21_4>
+    <STRING_22_4>"Watch your "karma". The way other NPC-clans will treat you depends on it."</STRING_22_4>
+    <STRING_23_4>"Skilled stalkers will tell you where it's better to search for artifacts"</STRING_23_4>
+    <STRING_24_4>"Moving along the unknown area, throw a stone to detect anomalies"</STRING_24_4>
+    <STRING_25_4>"Special containers help to save artifact effects and serve to transfer it."</STRING_25_4>
+    <STRING_26_4>"Buy "lost stalkers bags" from traders. You can find valuables there.</STRING_26_4>
+    <STRING_27_4>"A premium account gives you more experience per battle."</STRING_27_4>
+    <HINT_STORY_1>In 2012 the vagrant planet Nibiru passed close the Earth.</HINT_STORY_1>
+    <HINT_STORY_2>Some scientists say that the Zone extends and will overstep the bounds of the perimeter soon.</HINT_STORY_2>
+    <HINT_STORY_3>Anomalies block ways from the Zone. Communication with the outside world dies away.</HINT_STORY_3>
+    <HINT_STORY_4>When communication with the high command was gone, the military remained in the Zone without orders.</HINT_STORY_4>
+    <HINT_STORY_5>The "Natives" lived in these parts even before Zone's appearance and the perimeter's construction.</HINT_STORY_5>
+    <HINT_STORY_6>Military don't touch local men so lots of stalkers pretend to be locals.</HINT_STORY_6>
+    <HINT_STORY_7>The "Newcomers" arrived in the Zone seeking for adventures and artifacts.</HINT_STORY_7>
+    <HINT_STORY_8>All contacts with the outside world weaken. It beats the Zone economy. Dealers prices comes high.</HINT_STORY_8>
+    <HINT_STORY_9>The Whites believe in so-called "first stalker" who is believe to save the world from the global disaster.</HINT_STORY_9>
+  </data>
+</root>

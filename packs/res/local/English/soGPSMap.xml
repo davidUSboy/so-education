@@ -1,0 +1,25 @@
+<root>
+  <soGUI>
+    <STRING_208_19>Unknown area</STRING_208_19>
+    <STRING_500_104>Test space</STRING_500_104>
+    <STRING_501_113>Station</STRING_501_113>
+    <STRING_502_107>New Land</STRING_502_107>
+    <STRING_503_111>Tunguska</STRING_503_111>
+    <STRING_504_107>Velds</STRING_504_107>
+    <STRING_505_111>Vesuvius</STRING_505_111>
+    <STRING_506_107>Volcano</STRING_506_107>
+    <STRING_507_117>Liubech</STRING_507_117>
+    <STRING_508_112>Liubech (Forest)</STRING_508_112>
+    <STRING_772_19>Menu</STRING_772_19>
+    <STRING_steppe_dust>Desert</STRING_steppe_dust>
+    <minimap_outlands_caravan>Lubech Car</minimap_outlands_caravan>
+    <minimap_fukushima>Fukushima</minimap_fukushima>
+    <minimap_pk_prison01>Prison</minimap_pk_prison01>
+    <minimap_outlands_airport>Airport</minimap_outlands_airport>
+    <minimap_lubech_underground>Underground</minimap_lubech_underground>
+    <minimap_dm_outlands_village>PvP Suburbs of Lubech</minimap_dm_outlands_village>
+    <minimap_dm_rocks>PvP Mountains</minimap_dm_rocks>
+    <minimap_dm_ryabinushka>PvP Ryabinushka</minimap_dm_ryabinushka>
+    <minimap_dm_snowland>PvP Snezhnyi Island</minimap_dm_snowland>
+  </soGUI>
+</root>

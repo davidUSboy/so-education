@@ -1,0 +1,241 @@
+<root>
+
+	<Implements>
+		<Interface> Victim </Interface>
+		<Interface> Damager </Interface>
+		<Interface> AnomalyVisitor </Interface>
+		<Interface> AreaVisitor </Interface>
+		<Interface> Effects</Interface><!-- test -->
+	</Implements>
+
+	<LoDLevels>
+		<level> 20     <hyst>  4 </hyst> <label> SHORT     </label>     </level>
+		<level> 100     <hyst> 10 </hyst> <label> LONG</label>     </level>
+		<level> 250     <hyst> 20 </hyst> <label> UNREAL     </label>     </level>
+	</LoDLevels>
+	
+	<Properties>
+
+		<crouching>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</crouching>
+		<sitting>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Default> 0 </Default>
+		</sitting>
+		<name>
+			<Type> UNICODE_STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent>	true	</Persistent>
+			<Editable> true </Editable>
+			<Identifier>	true	</Identifier> 
+		</name>
+		<frags>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent>	true	</Persistent>
+			<Default>0</Default>
+		</frags>
+		<deaths>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent>	true	</Persistent>
+			<Default>0</Default>
+		</deaths>
+				
+		<sniping>
+			<Type>	BOOL		</Type>
+			<Flags>	OTHER_CLIENTS	</Flags>
+			<Persistent>	false	</Persistent>
+			<Default> 0 </Default>
+			<DetailLevel>UNREAL</DetailLevel>
+		</sniping>
+
+		<canExplodeGrenade>
+			<Type>	BOOL		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</canExplodeGrenade>
+		<alreadyExplodedGrenade>
+			<Type>	BOOL		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default> 0 </Default>
+		</alreadyExplodedGrenade>
+		<grenadePosition>
+			<Type>	VECTOR3		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+		</grenadePosition>
+
+		<relationsWithFractions>
+			<Type>	ARRAY <of> TUPLE <of>INT32</of></of></Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+			<Persistent>	true	</Persistent>
+		</relationsWithFractions>
+		
+	</Properties>
+
+	<ClientMethods>
+
+		<SetAvatarModel>
+		</SetAvatarModel>
+		<onJump>
+		</onJump>
+		<reload>	
+			<Arg> INT8 </Arg>
+			<Arg> FLOAT </Arg>
+			<Arg> INT32 </Arg>
+		</reload>
+		
+		<fire>
+		</fire>
+
+		<DrawThrow>
+			<Arg> FLOAT </Arg>
+			<Arg> VECTOR3 </Arg><!-- velocity -->
+        </DrawThrow>
+
+		<updateGrenadePath>
+			<Arg> VECTOR3 </Arg><!-- serverPos -->
+			<Arg> VECTOR3 </Arg><!-- destPos -->
+		</updateGrenadePath>
+
+		<dropItem>
+			<Arg> INT32 </Arg>
+		</dropItem>
+		
+		<DrawUseItem>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</DrawUseItem>
+		<DrawUseItemOnTarget>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</DrawUseItemOnTarget>
+		
+		
+		<DrawUnequipItem>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+			<Arg> FLOAT </Arg>
+		</DrawUnequipItem>
+
+		<beginAnimation>
+			<Arg> INT32 </Arg>
+			<Arg> FLOAT </Arg>
+		</beginAnimation>
+
+		<endAnimation>
+			<Arg> INT32 </Arg>
+		</endAnimation>
+		
+	</ClientMethods>
+
+	<CellMethods>
+	
+	
+		<DoHealing>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		INT64		</Arg>
+		</DoHealing>
+		<OnHealingEnded>
+			<Arg>		INT64		</Arg>
+		</OnHealingEnded>
+		
+		<UnJammWeapon>
+			<Exposed/>
+		</UnJammWeapon>	
+		
+		<InFormWeponJammed>
+			<Exposed/>
+		</InFormWeponJammed>	
+		
+		<SetSitting>
+			<Exposed/>
+			<Arg> BOOL </Arg>
+		</SetSitting>
+		
+		<SetSniping>
+			<Exposed/>
+			<Arg> BOOL </Arg>
+		</SetSniping>
+		
+		<DrawSitAction>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL </Arg>
+			<Arg> BOOL </Arg>
+			<Arg> BOOL </Arg>
+		</DrawSitAction>
+
+		<useItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</useItem>
+
+		<useItemOnTarget>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</useItemOnTarget>
+		
+		
+		<dropItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</dropItem>
+		<deleteItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</deleteItem>
+		<equipItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</equipItem>
+		<putOnItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</putOnItem>
+		<putOnItemStep2>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</putOnItemStep2>
+		<putOffItem>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+		</putOffItem>
+
+		<reload>
+			<Exposed/>
+		</reload>
+		
+		<onJump>
+			<Exposed/>
+		</onJump>
+		
+		<fire>
+			<Arg>
+				ARRAY <of> VICTIM_HIT</of> 
+			</Arg>
+		</fire>
+		
+		<throwGrenade>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg><!-- pos -->
+			<Arg> VECTOR3 </Arg><!-- velocity -->
+			<Arg> ENTITY_ID </Arg> <!-- client entity id -->
+		</throwGrenade>
+		
+		<throwStone>
+			<Exposed/>
+			<Arg> VECTOR3 </Arg><!-- pos -->
+			<Arg> VECTOR3 </Arg><!-- velocity -->
+			<Arg> ENTITY_ID </Arg> <!-- client entity id -->
+		</throwStone>	
+
+	</CellMethods>
+</root>

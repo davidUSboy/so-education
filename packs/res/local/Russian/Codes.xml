@@ -1,0 +1,57 @@
+<root>
+  <common>
+    <NO_ERROR>Нет ошибки</NO_ERROR>
+    <FORBIDDEN_CHARS>Имя содержит не разрешенные символы!</FORBIDDEN_CHARS>
+    <SHORT_NAME>Слишком короткое имя!</SHORT_NAME>
+    <LONG_NAME>Слишком длинное имя!</LONG_NAME>
+    <NAME_ALREADY_TAKEN>Имя занято другим игроком!</NAME_ALREADY_TAKEN>
+    <STARTS_WITH_UNDERSCORE>Имя не может начинаться с символа подчеркивания!</STARTS_WITH_UNDERSCORE>
+    <ENDS_WITH_UNDERSCORE>Имя не может заканчиваться символом подчеркивания!</ENDS_WITH_UNDERSCORE>
+    <MANY_UNDERSCORES>Слишком много символов подчеркивания!</MANY_UNDERSCORES>
+    <NO_CHARACTER>Нет такого персонажа!</NO_CHARACTER>
+    <NO_CHARACTER_WITH_DBID>Нет персонажа с таким DBID</NO_CHARACTER_WITH_DBID>
+    <OUT_OF_RENAME_TRIES>Нет доступных попыток смены имени!</OUT_OF_RENAME_TRIES>
+  </common>
+  <ShopResponses>
+    <FAIL_NO_MONEY>Недостаточно денег</FAIL_NO_MONEY>
+    <EVERYTHING_OK>Успешно</EVERYTHING_OK>
+    <PLACED_OK>Объявление размещено</PLACED_OK>
+    <SLOT_OVERFLOW>Все слоты заняты</SLOT_OVERFLOW>
+    <ALREADY_IN_SHOP>Уже в продаже</ALREADY_IN_SHOP>
+    <AVATARNAME_NOTFOUND>Имя продавца не найдено</AVATARNAME_NOTFOUND>
+    <ITEM_STATUS_NO_SALE>Предмет снят с продажи</ITEM_STATUS_NO_SALE>
+    <ITEM_NOT_FOUND>Предмет не найден</ITEM_NOT_FOUND>
+    <ITEM_PRICE_DIFFERENT>Цена отличается от указаной, попробуйте без читов</ITEM_PRICE_DIFFERENT>
+    <FAIL_SMALL_MONEY>Недопустимая маленькая цена</FAIL_SMALL_MONEY>
+    <FAIL_BIG_PRICE>Недопустимая большая цена</FAIL_BIG_PRICE>
+    <FAIL_ITEM_NOT_IN_STORED>Предмет продается только через хранилище</FAIL_ITEM_NOT_IN_STORED>
+    <FAIL_NO_MONEY_TAX>Не хватает денег для уплаты налога</FAIL_NO_MONEY_TAX>
+    <FAIL_NO_BUY_SELF>Вы не можете купить у себя!</FAIL_NO_BUY_SELF>
+    <FAIL_BANK_OVERFLOW>У вас переполнено хранилище! Покупка отменена</FAIL_BANK_OVERFLOW>
+    <FAIL_ITEM_OUTOFTIME>У предмета {itemname} закончилось время, забрать можно у {bank}</FAIL_ITEM_OUTOFTIME>
+    <APPROVE_BUY>Предмет {itemname} был куплен за {price}р., забрать можно у NPC {bank}</APPROVE_BUY>
+    <APPROVE_SOLD>Предмет {itemname} был куплен {buyerName} за цену {price}р., Вам перечислены деньги от NPC {bank}</APPROVE_SOLD>
+    <CANCEL_SHOP>Снято с продажи</CANCEL_SHOP>
+    <FAIL_INVALID_OPERATION>Недопустимая операция</FAIL_INVALID_OPERATION>
+  </ShopResponses>
+  <HunterResponses>
+    <DELETE_AD_OK>Заявка на {0} удалена</DELETE_AD_OK>
+    <DELETE_AD_NOT_FOUND>Заявка на {0} не найдена</DELETE_AD_NOT_FOUND>
+    <GET_MY_WANTED>GET_MY_WANTED</GET_MY_WANTED>
+    <GET_WANTED_POSITION>GET_WANTED_POSITION</GET_WANTED_POSITION>
+    <WANTED_NOT_FOUND>Игрок {0} не найден</WANTED_NOT_FOUND>
+    <SUBSCRIPTION_OK>Квест взят на игрока {0}, награда:{1}р., до выполнения осталось {2}ч.</SUBSCRIPTION_OK>
+    <WANTEDKILLEDANDIMPRISONED_OK>{0} уничтожен успешно, награда:{1}, охотников:{3}.    {4} отомщен.</WANTEDKILLEDANDIMPRISONED_OK>
+    <SUBMIT_FAIL_VICTIMNAME>У Вас уже есть заявка на {3}, отмените предыдущую или подождите пока его поймают</SUBMIT_FAIL_VICTIMNAME>
+    <SUBMIT_FAIL_WANTEDNAME>Игрок {0} уже разыскивается, заявка подана {3}</SUBMIT_FAIL_WANTEDNAME>
+    <SUBMIT_OK>Заявка размещена</SUBMIT_OK>
+    <REPORT_NOT_WANTED>REPORT_NOT_WANTED</REPORT_NOT_WANTED>
+    <MAX_OFFENFER>У Вас максимальное количество квестов</MAX_OFFENFER>
+    <MIN_PRICE>Слишком малая награда</MIN_PRICE>
+    <NO_CREDITNUMBER>нехватвет денег для уплаты</NO_CREDITNUMBER>
+    <OFFENDER_REMOVE>Игрок {0} больше не разыскивается</OFFENDER_REMOVE>
+    <WANTED_REMOVE>Игрок {1} больше не разыскивается</WANTED_REMOVE>
+    <YOU_KILLED_AND_IMPRISONED>Вас поймал охотник {0}, вы отправляетесь в тюрму</YOU_KILLED_AND_IMPRISONED>
+    <WANTED_THIS_I>Нельзя взять квест на себя!</WANTED_THIS_I>
+  </HunterResponses>
+</root>

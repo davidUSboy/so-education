@@ -1,0 +1,7 @@
+<root>
+  <TARGET_UNREACHABLE_MESSAGE>Your message can't be delivered. Player {nickname} doesn't exist.</TARGET_UNREACHABLE_MESSAGE>
+  <TARGET_OFFLINE_MESSAGE>Player {nickname} is offline.</TARGET_OFFLINE_MESSAGE>
+  <CHAT_BANNED>Your message can't be delivered, because you're banned. Your ban ends in {time_string}.</CHAT_BANNED>
+  <SERVER_ANNOUNCER_NAME>Server</SERVER_ANNOUNCER_NAME>
+  <UNABLE_TO_DELIVER>Server is not available. Please try again later.</UNABLE_TO_DELIVER>
+</root>

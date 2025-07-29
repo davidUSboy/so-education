@@ -1,0 +1,87 @@
+<!-- 
+	Teleport interface for entities, that can be reresented on clients. 
+	For other entities just use entity.teleport()
+-->
+ <root>
+	<Properties>
+		<!-- Each entity.teleport() call must be delayed to turn off client filters.  
+			 TP_params dict holds teleport parameters	-->
+		<TP_params>
+			<Type>FIXED_DICT
+				<Properties>
+					<nearbyBaseMB> <Type> MAILBOX </Type> </nearbyBaseMB>					
+					<position> <Type> VECTOR3 </Type> </position>
+					<direction><Type> VECTOR3 </Type> </direction>					
+					<teleporter><Type> MAILBOX </Type> </teleporter>
+					<teleport_type><Type> TELEPORT_TYPE </Type> </teleport_type>
+				</Properties>
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</TP_params>
+		
+		<TP_previous_position>
+			<Type>FIXED_DICT
+				<Properties>
+					<space> <Type> STRING </Type> </space>			
+					<position> <Type> VECTOR3 </Type> </position>
+				</Properties>
+			</Type>
+			<Persistent> True </Persistent> <!-- to be able to restore position after avatar reconnect -->
+			<Flags> CELL_PRIVATE </Flags>
+		</TP_previous_position>
+		
+		<TP_params_changed>
+			<Type> BOOL </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 0	</Default>		
+		</TP_params_changed>
+	</Properties>
+	
+	<BaseMethods>
+		<teleportNear>
+			<Arg> MAILBOX </Arg>
+		</teleportNear>
+
+        <teleportLookup>
+            <Arg> ENTITY_ID </Arg> 	<!-- teleportPoint ID -->
+            <Arg> VECTOR3 </Arg> 	<!-- position -->
+            <Arg> VECTOR3 </Arg> 	<!-- direction -->
+            <Arg> TELEPORT_TYPE </Arg> 	<!-- teleport_type -->
+        </teleportLookup>
+	</BaseMethods>
+	
+	<CellMethods>
+		<doTeleport>
+			<Arg> MAILBOX </Arg> <!-- target for teleporting (used for space/cell selection) -->
+			<Arg> VECTOR3 </Arg> <!-- position -->
+			<Arg> VECTOR3 </Arg> <!-- direction -->
+            <Arg> TELEPORT_TYPE </Arg>
+		</doTeleport>
+		
+		<doTeleportWithTeleporter>
+			<Arg> MAILBOX </Arg> <!-- target for teleporting (used for space/cell selection) -->
+			<Arg> VECTOR3 </Arg> <!-- position -->
+			<Arg> VECTOR3 </Arg> <!-- direction -->
+			<Arg> MAILBOX </Arg> <!-- teleporter ID -->
+			<Arg> TELEPORT_TYPE </Arg>
+		</doTeleportWithTeleporter>
+
+		<instantTeleport>
+			<Arg> MAILBOX </Arg> <!-- nearMB -->
+			<Arg> VECTOR3 </Arg> <!-- position -->
+			<Arg> VECTOR3 </Arg> <!-- direction -->		
+		</instantTeleport>		
+	</CellMethods>
+	
+	<ClientMethods>
+		<onTeleportCalled>
+			<Arg> TELEPORT_TYPE </Arg>
+			<Arg> VECTOR3 </Arg> <!-- expected position -->
+		</onTeleportCalled>
+		
+		<onTeleporting/>
+		<onTeleportEnded>
+			<Arg> INT8 </Arg>
+		</onTeleportEnded>
+	</ClientMethods>
+</root>

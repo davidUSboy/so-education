@@ -1,0 +1,16 @@
+<root>
+  <client>
+    <PRIVATE_TO_YOU>@%s private to you: %s</PRIVATE_TO_YOU>
+    <PRIVATE_YOU_TO>You &gt; @%s: %s</PRIVATE_YOU_TO>
+    <COMMON_YOU>You: %s</COMMON_YOU>
+    <PRIVATE_FROM_YOU>You &gt; @%s: %s</PRIVATE_FROM_YOU>
+    <GENERAL_FROM_YOU>You: %s</GENERAL_FROM_YOU>
+    <REGEX>[a-zA-Zа-яА-Я0-9]+</REGEX>
+  </client>
+  <base>
+    <CHARS_NOT_FOUND>Characters not found:</CHARS_NOT_FOUND>
+    <CHAR_NOT_FOUND>Character %s not found</CHAR_NOT_FOUND>
+    <CHARS_OFFLINE>Out of game chars:</CHARS_OFFLINE>
+    <CHAR_OFFLINE>Character %s is out of the game</CHAR_OFFLINE>
+  </base>
+</root>

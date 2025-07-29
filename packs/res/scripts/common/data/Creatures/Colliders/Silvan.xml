@@ -1,0 +1,81 @@
+<Silvan.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>Bip01 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.200000 -0.095867 -0.100642</minBounds>
+      <maxBounds>0.000000 0.095867 0.100642</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm</nodeName>
+      <boxName>Bip01 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>-0.400000 -0.050214 -0.050214</minBounds>
+      <maxBounds>0.000000 0.050214 0.050214</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L UpperArm</nodeName>
+      <boxName>Bip01 L UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.284000 -0.056891 -0.056891</minBounds>
+      <maxBounds>0.000000 0.056891 0.056891</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm</nodeName>
+      <boxName>Bip01 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>-0.400000 -0.050214 -0.050214</minBounds>
+      <maxBounds>0.000000 0.050214 0.050214</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R UpperArm</nodeName>
+      <boxName>Bip01 R UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>-0.284000 -0.056891 -0.056891</minBounds>
+      <maxBounds>0.000000 0.056891 0.056891</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine1</nodeName>
+      <boxName>Bip01 Spine1_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.463101 -0.158362 -0.128268</minBounds>
+      <maxBounds>0.000101 0.158363 0.128632</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Calf</nodeName>
+      <boxName>Bip01 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.550000 -0.065000 -0.065000</minBounds>
+      <maxBounds>0.000000 0.065000 0.065000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Thigh</nodeName>
+      <boxName>Bip01 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>-0.500000 -0.075000 -0.085000</minBounds>
+      <maxBounds>0.000000 0.075000 0.085000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Calf</nodeName>
+      <boxName>Bip01 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>-0.550000 -0.065000 -0.065000</minBounds>
+      <maxBounds>0.000000 0.065000 0.065000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Thigh</nodeName>
+      <boxName>Bip01 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>-0.500000 -0.075000 -0.085000</minBounds>
+      <maxBounds>0.000000 0.075000 0.085000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine</nodeName>
+      <boxName>Bip01 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.100374 -0.113739 -0.097255</minBounds>
+      <maxBounds>0.169786 0.113739 0.106615</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Silvan.xml>

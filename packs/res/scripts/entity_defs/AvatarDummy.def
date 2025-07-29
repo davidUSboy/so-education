@@ -1,0 +1,11 @@
+<root>
+<Properties>
+		<charIndex>
+			<Type>	INT32 </Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>	true	</Persistent>
+			<Editable>	true	</Editable>
+			<Default> 0 </Default>
+		</charIndex>
+</Properties>
+</root>

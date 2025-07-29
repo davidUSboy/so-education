@@ -1,0 +1,104 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> TimerManagerCell </Interface>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+
+	<Properties>
+		<!-- <name>			
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</name> -->
+
+		<occupiedAnomalyPoints>
+			<Type>			ARRAY <of> INT32 </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+			<Editable>		false			</Editable>
+		</occupiedAnomalyPoints>
+		
+		<difficulty>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		-1 				</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</difficulty>
+		
+		<terrainType>
+			<Type>			TERRAIN_TYPE		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</terrainType>
+		
+		<radius> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		10.0 			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  -->
+				<colour>	255.000000 255.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	4				</gizmoRadius>
+			</Widget>
+		</radius>
+
+<!-- 		<anomalys>
+			<Type>			ARRAY <of> ANOMALY_TYPE </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</anomalys>
+
+		<anomalys1>
+			<Type>			ARRAY <of> TESTDATA </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</anomalys1> -->
+
+
+		<anomalyMin>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</anomalyMin>
+
+		<anomalyMax>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</anomalyMax>
+
+		<anomalies>
+			<Type>			ARRAY <of>ENTITY_ID</of>	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</anomalies>
+		
+		
+	</Properties>
+
+	<CellMethods>
+		<onAnomalyDespawned>
+			<Arg>		ENTITY_ID	</Arg>
+			<Arg>		INT32	</Arg> <!-- point number -->
+		</onAnomalyDespawned>
+		
+		<onAnomalyInitialized>
+			<Arg>		MAILBOX				</Arg>	<!-- Anomaly Cell Mailbox --->
+		</onAnomalyInitialized>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+</root>
+

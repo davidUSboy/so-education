@@ -1,0 +1,19 @@
+<root>
+	<!-- Base classes need to be before derived classes -->
+	<CameraNode/>
+	<AreaVolume/>
+	<AnomalyPoint/>
+	<AnomalyTeleportPoint/>
+	<CreaturePoint/>
+	<WayUDO/>
+	<WaypointUDO/>
+	<SpawnPoint/>
+	<ItemSpawnerUDO/>
+	<ItemSpawnPointUDO/>
+	<LogicTestNode/>
+	<BaseFlagPoint/>
+	<BaseLeaguerPoint/>
+	<BaseNPCPoint/>
+	<BaseTraderPoint/>
+	<BaseSafeZonePoint/>
+</root>

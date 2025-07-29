@@ -1,0 +1,1239 @@
+<root>
+
+	<Messages>
+		<FAIL_NO> </FAIL_NO>
+		<FAIL_ITEM_CANT_BE_ATTACHED> Этот предмет не может быть присоединен </FAIL_ITEM_CANT_BE_ATTACHED>
+		<FAIL_ITEM_ALREADY_ATTACHED>Подобный предмет уже присоединен</FAIL_ITEM_ALREADY_ATTACHED>
+		<FAIL_ATTACHING_NOT_A_PART>Присоединять можно только предметы - запчасти</FAIL_ATTACHING_NOT_A_PART>
+		<FAIL_MOTHER_NOT_A_WEAPON>Устанавливать предмет можно только на броню и оружие</FAIL_MOTHER_NOT_A_WEAPON>
+		<FAIL_MOTHER_CANT_CARRY>Эта запчасть не подходит к этому предмету</FAIL_MOTHER_CANT_CARRY>
+		<FAIL_NOTHING_TO_REPAIR>Нечего чинить</FAIL_NOTHING_TO_REPAIR>
+		<FAIL_LOW_SKILL_LEVEL>Недостаточный навык</FAIL_LOW_SKILL_LEVEL>
+		<FAIL_NO_REPAIR_KIT>Нет ремонтного набора</FAIL_NO_REPAIR_KIT>
+		<FAIL_REPAIR_FAILED>Неудалось починить предмет</FAIL_REPAIR_FAILED>
+		<FAIL_NOT_DETACHABLE>Этот предмет нельзя отсоединить</FAIL_NOT_DETACHABLE>
+		<FAIL_ALREADY_DETACHED>Этот предмет уже отсоединен</FAIL_ALREADY_DETACHED>
+		<FAIL_TRADER_NO_MONEY>У торговца не осталось денег</FAIL_TRADER_NO_MONEY>
+		<FAIL_TRADER_NO_WARE>У торговца кончился товар</FAIL_TRADER_NO_WARE>
+		<FAIL_CANT_SELL>Этот предмет нельзя продать</FAIL_CANT_SELL>
+		<FAIL_NO_BATTARY>Элемент питания разряжен</FAIL_NO_BATTARY>
+		<FAIL_NO_MONEY>Недостаточно денег</FAIL_NO_MONEY>
+		<FAIL_NO_RECIPE>Нет этого рецепта</FAIL_NO_RECIPE>
+		<FAIL_NO_RESOURCE>Нехватает ресурсов</FAIL_NO_RESOURCE>
+		<FAIL_CRAFT_ROLL_FAIL>Не получилось создать предмет</FAIL_CRAFT_ROLL_FAIL>
+		<FAIL_ITEM_EQUIPPED>Нельзя манипулировать экипированными предметами</FAIL_ITEM_EQUIPPED>
+		<FAIL_IMPROPER_AMMO>Неподходящие патроны</FAIL_IMPROPER_AMMO>
+		<AMMO_ALREADY_LOADED>Оружие уже заряжено этими патронами</AMMO_ALREADY_LOADED>
+		<FAIL_TRADER_NOT_BUY_IT>Торговец не принимает этот товар</FAIL_TRADER_NOT_BUY_IT>
+		<FAIL_ITEM_STRUCTURE>Ошибка структуры предмета</FAIL_ITEM_STRUCTURE>
+		<FAIL_TOO_MANY_ITEMS>У вас слишком много предметов</FAIL_TOO_MANY_ITEMS>
+		<CHECK_AND_CONFIRM>Проверьте условия сделки и нажмите подтвердить еще раз</CHECK_AND_CONFIRM>
+		<ITEM_BROKEN_NOT_REPAIR>Новая максимальная прочность будет меньше текущей прочности предмета. Ремонт отменен.</ITEM_BROKEN_NOT_REPAIR>
+		<FAIL_CANT_UNITE>Предметы нельзя объединить</FAIL_CANT_UNITE>
+		<FAIL_NO_TRADER>Торговец пропал</FAIL_NO_TRADER>
+		<FAIL_OVERFLOW_SLOT> FAIL_OVERFLOW_SLOT </FAIL_OVERFLOW_SLOT>
+		<FAIL_IMPOSSIBLE_COOK> FAIL_IMPOSSIBLE_COOK Этот предмет невозможно приготовить</FAIL_IMPOSSIBLE_COOK>		
+		<FAIL_STACK> FAIL_STACK Этот предмет нужно разъеденить</FAIL_STACK>
+		<FAIL_USER_FIRE_ACCESS> FAIL_USER_FIRE_ACCESS владелец костра запретил это действие</FAIL_USER_FIRE_ACCESS>
+		<FAIL_CONTAINER_OFERFLOW> Контейнер полон </FAIL_CONTAINER_OFERFLOW>
+		<FAIL_CONTAINER_MAX_USE> Стабю раствор исчерпан </FAIL_CONTAINER_MAX_USE>
+	</Messages>
+
+	<Items>
+
+		<Names>
+
+			<AK74M_ASSAULT_RIFLE>АК 74М|Автомат АК 74М</AK74M_ASSAULT_RIFLE>
+			<AK_102_ASSAULT_RIFLE>АК 102|Автомат АК 102</AK_102_ASSAULT_RIFLE>
+			<AK_107_ASSAULT_RIFLE>АК 107|Автомат АК 107</AK_107_ASSAULT_RIFLE>
+			<AK_47_ASSAULT_RIFLE>АК-47|Автомат АК-47</AK_47_ASSAULT_RIFLE>
+			<AK_47_ASSAULT_RIFLE_DESERT>АК-47 Стп.|Автомат АК-47 (степной кам.)</AK_47_ASSAULT_RIFLE_DESERT>
+			<AK_47_ASSAULT_RIFLE_SNOW>АК-47 Зим.|Автомат АК-47 (зимний кам.)</AK_47_ASSAULT_RIFLE_SNOW>
+			<AK_47_ASSAULT_RIFLE_TOWN>АК-47 Гор.|Автомат АК-47 (городской кам.)</AK_47_ASSAULT_RIFLE_TOWN>
+			<AK_47_ASSAULT_RIFLE_WOOD>АК-47 Лес.|Автомат АК-47 (лесной кам.)</AK_47_ASSAULT_RIFLE_WOOD>
+			<AK_74_ASSAULT_RIFLE>АК 74|Автомат АК 74</AK_74_ASSAULT_RIFLE>
+			<AMMO_127x99_AP>12.7x99 брон|Патроны 12.7x99 М2 (брон.)</AMMO_127x99_AP>
+			<AMMO_127x99_FMJ>12.7x99|Патроны 12.7x99 М33</AMMO_127x99_FMJ>
+			<AMMO_12x70_FMJ>12/70 пуля|Патроны 12/70 пуля</AMMO_12x70_FMJ>
+			<AMMO_12x70_HP_12>12/70 00|Патроны 12/70 картечь 00 (12 шт)</AMMO_12x70_HP_12>
+			<AMMO_12x70_HP_8>12/70 0000|Патроны 12/70 картечь 0000 (8 шт)</AMMO_12x70_HP_8>
+			<AMMO_12x76_FMJ>12/76 пуля|Патроны 12/76 пуля</AMMO_12x76_FMJ>
+			<AMMO_12x76_HP_10>12/76 0000|Патроны 12/76 картечь 0000 (10 шт)</AMMO_12x76_HP_10>
+			<AMMO_12x76_HP_15>12/76 00|Патроны 12/76 картечь 00 (15 шт)</AMMO_12x76_HP_15>
+			<AMMO_40x53_HP>40x53|Гранаты 40мм</AMMO_40x53_HP>
+			<AMMO_545x39_AP>5.45x39 брон|Патроны 5.45x39 ПП (брон.)</AMMO_545x39_AP>
+			<AMMO_545x39_AP_WOL>5.45x39 брон-в|Патроны 5.45x39 БС вольфрам (брон.)</AMMO_545x39_AP_WOL>
+			<AMMO_545x39_FMJ>5.45x39|Патроны 5.45x39 ПС</AMMO_545x39_FMJ>
+			<AMMO_545x39_SL>5.45x39 бесш|Патроны 5.45x39 УС (бесш.)</AMMO_545x39_SL>
+			<AMMO_556x45_AP>5.56x45 брон|Патроны 5.56x45 M995 (брон.)</AMMO_556x45_AP>
+			<AMMO_556x45_FMJ_REM>5.56x45 rem|Патроны 5.56x45 .223 Rem.</AMMO_556x45_FMJ_REM>
+			<AMMO_556x45_FMJ_SS109>5.56x45 ss109|Патроны 5.56x45 NATO</AMMO_556x45_FMJ_SS109>
+			<AMMO_762x25_FMJ>7.62x25|Патроны 7.62x25 мм</AMMO_762x25_FMJ>
+			<AMMO_762x25_HP>7.62x25 эксп|Патроны 7.62x25 (эксп.)</AMMO_762x25_HP>
+			<AMMO_762x25_SL>7.62x25 бесш|Патроны 7.62x25 (бесш.)</AMMO_762x25_SL>
+			<AMMO_45_ACP_FMJ>7.62x38|Патроны 7.62x38 наган</AMMO_45_ACP_FMJ>
+			<AMMO_762x39_AP>7.62x39 брон|Патроны 7.62x39 БП (брон.)</AMMO_762x39_AP>
+			<AMMO_762x39_FMJ>7.62x39|Патроны 7.62x39 ПС</AMMO_762x39_FMJ>
+			<AMMO_762x39_SL>7.62x39 бесш|Патроны 7.62x39 УС (бесш.)</AMMO_762x39_SL>
+			<AMMO_762x51_AP>7.62x51 брон|Патроны 7.62x51 M993 (брон.)</AMMO_762x51_AP>
+			<AMMO_762x51_FMJ>7.62x51|Патроны 7.62x51 SS71</AMMO_762x51_FMJ>
+			<AMMO_762x54_AP>7.62x54 брон|Патроны 7.62x54 БП (брон.)</AMMO_762x54_AP>
+			<AMMO_762x54_FMJ>7.62x54|Патроны 7.62x54 M1908</AMMO_762x54_FMJ>
+			<AMMO_762x54_HP>7.62x54 эксп|Патроны 7.62x54 TMS (эксп.)</AMMO_762x54_HP>
+			<AMMO_762x54_TEST>7.62x54 тест|Патроны 7.62x54 TMS_T</AMMO_762x54_TEST>
+			<AMMO_9x18_AP>9x18 брон|9x18 ПБМ (брон.)</AMMO_9x18_AP>
+			<AMMO_9x18_FMJ>9x18 ПМ|Патроны 9x18 ПМ</AMMO_9x18_FMJ>
+			<AMMO_9x18_FMJ_BAD>9x18 ПМ(-1)|9x18 ПМ (отсыревшие)</AMMO_9x18_FMJ_BAD>
+			<AMMO_9x18_HP>9х18 эксп|9х18 ПСВ (эксп.)</AMMO_9x18_HP>
+			<AMMO_9x18_HP_POISON>9x18 яд|Патроны 9x18 ПСВ с паучьим ядом (эксп.)</AMMO_9x18_HP_POISON>
+			<AMMO_9x19_AP>9x19 брон|Патроны 9x19 (брон.)</AMMO_9x19_AP>
+			<AMMO_9x19_FMJ>9x19|Патроны 9x19 luger</AMMO_9x19_FMJ>
+			<AMMO_9x19_HP>9x19 эксп|Патроны 9x19 (эксп.)</AMMO_9x19_HP>
+			<AMMO_357_MAGNUM_AP>.357 брон|Патроны .357 (брон.)</AMMO_357_MAGNUM_AP>
+			<AMMO_357_MAGNUM_FMJ>.357|Патроны .357 magnum</AMMO_357_MAGNUM_FMJ>
+			<AMMO_357_MAGNUM_HP_DOT>.357 эксп|Патроны .357 (эксп.)</AMMO_357_MAGNUM_HP_DOT>
+			<AMMO_357_MAGNUM_HP_MAX>.357 охот|Патроны .357 охотничий (эксп.)</AMMO_357_MAGNUM_HP_MAX>
+			<AMMO_357_MAGNUM_HP_SAB>.357 обор|Патроны .357 оборонителный (эксп.)</AMMO_357_MAGNUM_HP_SAB>
+			<AMMO_9x39_AP_PAB9>9x39 ПАБ-9|Патроны 9x39 ПАБ-9</AMMO_9x39_AP_PAB9>
+			<AMMO_9x39_AP_SP6>9x39 СП-6|Патроны 9x39 СП-6. </AMMO_9x39_AP_SP6>
+			<AMMO_9x39_FMJ_SP5>9x39 СП-5|Патроны 9x39 СП-5</AMMO_9x39_FMJ_SP5>
+			<AMMO_ADD_BLANK> | </AMMO_ADD_BLANK>
+			<AMMO_ENERGY_12V_A>12В|Батарейки 12В</AMMO_ENERGY_12V_A>
+			<AMMO_ENERGY_1V_A>1.5В|Батарейки 1.5В</AMMO_ENERGY_1V_A>
+			<AMMO_ENERGY_3V_A>3В|Батарейки 3В</AMMO_ENERGY_3V_A>
+			<AMMO_ENERGY_9V_A>9В|Солевые батареи 9В</AMMO_ENERGY_9V_A>
+			<AMMO_M74_HP>Ракета М74|Гранатомётная ракета М74</AMMO_M74_HP>
+			<AMMO_RPG7_AP_LUC>ПГ-7ВЛ брон|Снаряд ПГ-7ВЛ (брон.)</AMMO_RPG7_AP_LUC>
+			<AMMO_RPG7_FMJ>ПГ-7ВМ|Снаряд ПГ-7ВМ</AMMO_RPG7_FMJ>
+			<AMMO_RPG7_HP_OSK>ОГ-7В эксп|Снаряд ОГ-7В (эксп.)</AMMO_RPG7_HP_OSK>
+			<AMMO_RPG7_HP_TAN>ТБГ-7В эксп|Снаряд ТБГ-7В "Танин" (эксп.)</AMMO_RPG7_HP_TAN>
+			<ANOMALY_AK_RECIPE>АК74МСТ|Чертеж стабилизированного АК74М</ANOMALY_AK_RECIPE>
+			<ANOMALY_DETECTOR>Детектор аном.|Детектор аномалий</ANOMALY_DETECTOR>
+			<ANOMALY_EXTRACTOR>Магн. захват|Магнитный захват артефактов</ANOMALY_EXTRACTOR>
+			<ANOMALY_EXTRACTOR_CFT>Магн. захват собр.|Магнитный захват (собранный)</ANOMALY_EXTRACTOR_CFT>
+			<ANOMALY_EXTRACTOR_MODULE>Магн. захват модл.|Магнитный захват (модульный)</ANOMALY_EXTRACTOR_MODULE>
+			<ANOMALY_EXTRACTOR_PROTOTYPE>Магн. захват прот.|Магнитный захват (прототип)</ANOMALY_EXTRACTOR_PROTOTYPE>
+			<ARMOR_BLANK> | </ARMOR_BLANK>
+			<ARMY_BACKPACK>Армейский 15кг|Армейский рюкзак</ARMY_BACKPACK>
+			<ARTIFACT_ADD_BLANK> | </ARTIFACT_ADD_BLANK>
+			<ARTIFACT_ANTIGRAV>Ар. Антиграв|Артефакт Антиграв</ARTIFACT_ANTIGRAV>
+			<ARTIFACT_MAREVO>Ар. Марево|Артефакт "Марево"</ARTIFACT_MAREVO>
+			<ARTIFACT_NOOB>Ар. Р.экран|Артефакт Разбитый экран</ARTIFACT_NOOB>
+			<ARTIFACT_PILLOW>Ар. Подушка|Артефакт Подушка</ARTIFACT_PILLOW>
+			<ARTIFACT_REZINA>Ар. Резина|Артефакт Резина</ARTIFACT_REZINA>
+			<ARTIFACT_SCREEN>Ар. Экран|Артефакт Экран</ARTIFACT_SCREEN>
+			<ARTIFACT_SHIT>Ар. Щит|Артефакт Щит</ARTIFACT_SHIT>
+			<ARTIFACT_STABILIZER>Ар. Стабилизатор|Артефакт Стабилизатор</ARTIFACT_STABILIZER>
+			<ARTIFACT_VEZUVIY>Ар. Везувий|Артефакт "Везувий"</ARTIFACT_VEZUVIY>
+			<ASSAULT1_NATO_SCOPE>Comp-1|Штурмовой прицел Comp-1</ASSAULT1_NATO_SCOPE>
+			<ASSAULT2_NATO_SCOPE>ACOG TA2|Штурмовой прицел ACOG TA2 </ASSAULT2_NATO_SCOPE>
+			<ASSAULT3_NATO_SCOPE>Comp-3М|Штурмовой прицел Comp-3М</ASSAULT3_NATO_SCOPE>
+			<ASSAULT4_NATO_SCOPE>Comp-4М|Штурмовой прицел Comp-4М</ASSAULT4_NATO_SCOPE>
+			<ATOMIC_GRENADE>Ядерная г.|Ядерная граната</ATOMIC_GRENADE>
+			<AUG_A3_ASSAULT_RIFLE>AUG A3|Автомат AUG A3</AUG_A3_ASSAULT_RIFLE>
+			<AUG_HBAR_MACHINEGUN>AUG HBar|Пулемёт AUG HBar</AUG_HBAR_MACHINEGUN>
+			<BACKPACK_BLANK> | </BACKPACK_BLANK>
+			<BANDITO_MASK>Бандито|Повязка Бандито</BANDITO_MASK>
+			<BARRETT_M82A3_SNIPER_RIFLE>Barrett M82|Снайперская винтовка Barrett M82A3</BARRETT_M82A3_SNIPER_RIFLE>
+			<BEAR_HEAD>Часть медведя|Голова молодого медведя</BEAR_HEAD>
+			<BEAR_HEAD_BIG>Часть медведя|Голова медведя</BEAR_HEAD_BIG>
+			<BEAR_HEAD_GIANT>Часть медведя|Голова рыжего медведя</BEAR_HEAD_GIANT>
+			<BERET_HAT>Берет|Военный Берет</BERET_HAT>
+			<BERET_HAT_BLUE>Берет Син.|Военный Берет синий</BERET_HAT_BLUE>
+			<BERET_HAT_RED>Берет Кр.|Военный Берет красный</BERET_HAT_RED>
+			<BES_HAND>Часть Беса|Рука медленного беса</BES_HAND>
+			<BES_HAND_BIG>Часть Беса|Рука беса</BES_HAND_BIG>
+			<BES_HAND_FAST>Часть Беса|Рука быстрого беса</BES_HAND_FAST>
+			<BINOCULAR>Бинокль</BINOCULAR>
+			<BLYAK_CLAW>Часть Бляка|Коготь глупого бляка</BLYAK_CLAW>
+			<BLYAK_CLAW_BIG>Часть Бляка|Коготь бляка</BLYAK_CLAW_BIG>
+			<BLYAK_CLAW_GIANT>Часть Бляка|Коготь умного бляка</BLYAK_CLAW_GIANT>
+			<BLYAK_TONGUE>Часть Бляка|Язык глупого бляка</BLYAK_TONGUE>
+			<BLYAK_TONGUE_BIG>Часть Бляка|Язык бляка</BLYAK_TONGUE_BIG>
+			<BLYAK_TONGUE_GIANT>Часть Бляка|Язык умного бляка</BLYAK_TONGUE_GIANT>
+			<BOAR_LEG>Часть кабана|Нога молодого кабана</BOAR_LEG>
+			<BOAR_LEG_BIG>Часть кабана|Нога кабана</BOAR_LEG_BIG>
+			<BOAR_LEG_GIANT>Часть кабана|Нога борова</BOAR_LEG_GIANT>
+			<BOAR_TUSK>Часть кабана|Клык молодого кабана</BOAR_TUSK>
+			<BOAR_TUSK_BIG>Часть кабана|Клык кабана</BOAR_TUSK_BIG>
+			<BOAR_TUSK_GIANT>Часть кабана|Клык борова</BOAR_TUSK_GIANT>
+			<BOILED_SPIDER_FOOD>Вар. паучьи лапки|Варёные паучьи лапки 3 шт.</BOILED_SPIDER_FOOD>
+			<BOOTS_BLANK> | </BOOTS_BLANK>
+			<BOSS_PAUKAN_HAND>Часть Паукана|Лапа Паукана</BOSS_PAUKAN_HAND>
+			<BRUTOR_BONE>Часть Брутора|Кость ослабленного брутора</BRUTOR_BONE>
+			<BRUTOR_BONE_BIG>Часть Брутора|Кость брутора</BRUTOR_BONE_BIG>
+			<BRUTOR_MUSCLE>Часть Брутора|Мускул ослабленного брутора</BRUTOR_MUSCLE>
+			<BRUTOR_MUSCLE_BIG>Часть Брутора|Мускул брутора</BRUTOR_MUSCLE_BIG>
+			<CERBER_ARMOR>Шакал|Броня группировки Шакал</CERBER_ARMOR>
+			<CERBER_PANTS>Шакал|Штаны группировки Шакал</CERBER_PANTS>
+			<CERBER_SHIRT>Шакал|Куртка группировки Шакал</CERBER_SHIRT>
+			<CFT_ACETONE>Ацетон</CFT_ACETONE>
+			<CFT_ANOMALY_EXTRACTOR_RECIPE>Магн. захват|Чертеж самодельного магнитного захвата </CFT_ANOMALY_EXTRACTOR_RECIPE>
+			<CFT_BEARINGS_BALL>Стальные шарики</CFT_BEARINGS_BALL>
+			<CFT_BLOWTORCH>Паяльная лампа</CFT_BLOWTORCH>
+			<CFT_BLUECAP_BOTTLE>Перекись водорода</CFT_BLUECAP_BOTTLE>
+			<CFT_BROKEN_FLASHLIGHT>Сломанный фонарь</CFT_BROKEN_FLASHLIGHT>
+			<CFT_BROWN_BOTTLE>Коричневый порошек</CFT_BROWN_BOTTLE>
+			<CFT_CAR_ACCUMULATOR>Автомобильный аккумулятор</CFT_CAR_ACCUMULATOR>
+			<CFT_CIGARETES_BELOMOR>Пачка "Беломора"</CFT_CIGARETES_BELOMOR>
+			<CFT_CIGARETTES_BOX>Блок сигарет</CFT_CIGARETTES_BOX>
+			<CFT_CIGARETTES_BOX_BELAMOR>Блок сигарет Беламор</CFT_CIGARETTES_BOX_BELAMOR>
+			<CFT_COFE>Банка из под Кофе</CFT_COFE>
+			<CFT_COMPOSITEMAT1>Пластина композитного материала</CFT_COMPOSITEMAT1>
+			<CFT_COMPOSITEMAT2>Пластина композитного материала</CFT_COMPOSITEMAT2>
+			<CFT_COMPOSITEMAT3>Пластина композитного материала</CFT_COMPOSITEMAT3>
+			<CFT_DRAGOON_M2_ARMOR_RECIPE>м. Драгун м2|Чертеж модификации бронежилета Драгун</CFT_DRAGOON_M2_ARMOR_RECIPE>
+			<CFT_DRUGS_BOX>Коробка медикаментов</CFT_DRUGS_BOX>
+			<CFT_EMPTY_BOTTLE>Пустая бутылка</CFT_EMPTY_BOTTLE>
+			<CFT_EMPTY_VIAL>Пустая бутылочка</CFT_EMPTY_VIAL>
+			<CFT_FLASK_BLUE>Синяя пробирка</CFT_FLASK_BLUE>
+			<CFT_FLASK_GREEN>Колба с паучьим ядом</CFT_FLASK_GREEN>
+			<CFT_FLASK_ORANGE>Ораньжевая пробирка</CFT_FLASK_ORANGE>
+			<CFT_FLASK_RED>Красная пробирка</CFT_FLASK_RED>
+			<CFT_FLASK_VIOLET>Фиолетовая пробирка</CFT_FLASK_VIOLET>
+			<CFT_GREASE>Банка солидола</CFT_GREASE>
+			<CFT_GREENCAP_BOTTLE>Диперекись ацетона</CFT_GREENCAP_BOTTLE>
+			<CFT_GREEN_SALT>Зеленая соль</CFT_GREEN_SALT>
+			<CFT_GREY_BOTTLE>Серый порошек</CFT_GREY_BOTTLE>
+			<CFT_INSULATING_TAPE>Изоляционная лента</CFT_INSULATING_TAPE>
+			<CFT_MAKINTOSH>Прорезиненная ткань</CFT_MAKINTOSH>
+			<CFT_METALPLATE1>Металлическая пластина</CFT_METALPLATE1>
+			<CFT_METALPLATE2>Пластина мягкого металла</CFT_METALPLATE2>
+			<CFT_METALPLATE3>Стальная пластина</CFT_METALPLATE3>
+			<CFT_METALPLATE4>Биметаллическая пластина</CFT_METALPLATE4>
+			<CFT_METAL_SHAVINGS>Стальная стружка</CFT_METAL_SHAVINGS>
+			<CFT_MICROCHIP>Микрочип</CFT_MICROCHIP>
+			<CFT_NEEDLES>Шелковая нить</CFT_NEEDLES>
+			<CFT_NUT>Крупная гайка</CFT_NUT>
+			<CFT_PIPE_LONG>Длинная трубка</CFT_PIPE_LONG>
+			<CFT_PIPE_SHORT>Короткая труба</CFT_PIPE_SHORT>
+			<CFT_PIPE_THREAD>Короткая труба с резьбой</CFT_PIPE_THREAD>
+			<CFT_RADIO_PARTS>Радиодетали</CFT_RADIO_PARTS>
+			<CFT_RADIO_PARTS2>Электродетали</CFT_RADIO_PARTS2>
+			<CFT_RADIO_VALVE>Радиолампа</CFT_RADIO_VALVE>
+			<CFT_RAT_M2_ARMOR_RECIPE>м. Жел.Крыса м2|Чертеж модификации бронежилета Железная Крыса</CFT_RAT_M2_ARMOR_RECIPE>
+			<CFT_REDCAP_BOTTLE>Химикат 2</CFT_REDCAP_BOTTLE>
+			<CFT_RED_SALT>Марганец</CFT_RED_SALT>
+			<CFT_SCALPEL_RAKE1>Заточка жел.|Заточка из куска железа</CFT_SCALPEL_RAKE1>
+			<CFT_SCALPEL_RAKE2>Заточка жел.|Заточка из куска мягкого железа</CFT_SCALPEL_RAKE2>
+			<CFT_SCALPEL_STEEL>Скальпель|Стальной скальпель</CFT_SCALPEL_STEEL>
+			<CFT_SCALPEL_SURGICAL>Скальпель хир.|Хирургический скальпель</CFT_SCALPEL_SURGICAL>
+			<CFT_SHIM>Крупные шайбы</CFT_SHIM>
+			<CFT_SPARK_PLUG>Автомобильная свеча</CFT_SPARK_PLUG>
+			<CFT_SPICES>Набор специй</CFT_SPICES>
+			<CFT_SPRING>Сильная пружина</CFT_SPRING>
+			<CFT_SPRING_SLIM>Пружинка</CFT_SPRING_SLIM>
+			<CFT_TARPAULIN>Брезент</CFT_TARPAULIN>
+			<CFT_TASH_ARMOR_BASE>Осн. ТАШ|Основа бронежилета ТАШ</CFT_TASH_ARMOR_BASE>
+			<CFT_TASH_M2_ARMOR_RECIPE>м. ТАШ м2|Чертеж модификации бронежилета ТАШ </CFT_TASH_M2_ARMOR_RECIPE>
+			<CFT_TEA_BOX>Пачка чая</CFT_TEA_BOX>
+			<CFT_TOILET_PAPER>Рулон туалетной бумаги</CFT_TOILET_PAPER>
+			<CFT_TOOLS>Набор инструментов</CFT_TOOLS>
+			<CFT_TRANSFORMATOR>Трансформатор</CFT_TRANSFORMATOR>
+			<CFT_VIKING_M2_ARMOR_RECIPE>м. Викинг м2|Чертеж модификации каски Викинг</CFT_VIKING_M2_ARMOR_RECIPE>
+			<CFT_VITAMINES>Витамины</CFT_VITAMINES>
+			<CFT_WIRES_COLOR>Обрезки проводков</CFT_WIRES_COLOR>
+			<CFT_WIRES_CUPRUM>Медная проволока</CFT_WIRES_CUPRUM>
+			<CFT_WIRES_INSULATED>Провод в изоляции</CFT_WIRES_INSULATED>
+			<CFT_ZIPPO>Бензиновая зажигалка</CFT_ZIPPO>
+			<CHACK_ARMOR>Чак|Бронежилет Чак</CHACK_ARMOR>
+			<CHACK_PANTS>Чак|Штаны Чак</CHACK_PANTS>
+			<CHACK_SHIRT>Чак|Куртка Чак</CHACK_SHIRT>
+			<CHIMERA_CLAN_BACKPACK>Химера|Рюкзак Химера</CHIMERA_CLAN_BACKPACK>
+			<CHIMERA_CLAN_SUIT>Химера гр.|Костюм группировки Химера</CHIMERA_CLAN_SUIT>
+			<COLLIMATOR_USSR_SCOPE>Коллиматорный|Советский коллиматорный прицел</COLLIMATOR_USSR_SCOPE>
+			<COLT_1911_PISTOL>Colt 1911|Пистолет Colt 1911</COLT_1911_PISTOL>
+			<COLT_M16_ASSAULT_RIFLE>Colt M16|Автомат Colt M16</COLT_M16_ASSAULT_RIFLE>
+			<COLT_M4A1_ASSAULT_RIFLE>Colt M4A1|Автомат Colt M4A1</COLT_M4A1_ASSAULT_RIFLE>
+			<COOKED_BEAR_HEAD_FOOD>Печ. голова медведя|Печёная голова медведя.</COOKED_BEAR_HEAD_FOOD>
+			<CZ_805_CLAN_ASSAULT_RIFLE>CZ 805|Автомат CZ 805</CZ_805_CLAN_ASSAULT_RIFLE>
+			<DEASERT_EAGLE_PISTOL>Орел пустыни|Пистолет Desert Eagle</DEASERT_EAGLE_PISTOL>
+			<DIPERICIS_ACETONE_RECIPE>Дипер. Ац.|Рецепт диперекиси ацетона</DIPERICIS_ACETONE_RECIPE>
+			<DIS_TASH_ARMOR_RECIPE>р. ТАШ|Чертеж разбирания бронежилета ТАШ на компоненты</DIS_TASH_ARMOR_RECIPE>
+			<DOG_HEAD> Часть собаки | Голова собаки-мутанта </DOG_HEAD>
+			<DOG_HEAD_BIG>Часть собаки|Голова дикой собаки</DOG_HEAD_BIG>
+			<DOG_HEAD_SMALL>Часть собаки|Голова щенка собаки</DOG_HEAD_SMALL>
+			<DOG_TUTHS_BIG>Часть собаки|Челюсть полярной собаки</DOG_TUTHS_BIG>
+			<DRAGOON_ARMOR>Драгун|Бронежилет Драгун</DRAGOON_ARMOR>
+			<DRAGOON_M2_ARMOR>Драгун м2|Бронежилет Драгун Модифицированный</DRAGOON_M2_ARMOR>
+			<DSC_SUIT>STORM гр.|Костюм группировки STORM</DSC_SUIT>
+			<FAMAS_ASSAULT_RIFLE>FAMAS|Автомат FAMAS</FAMAS_ASSAULT_RIFLE>
+			<FAUNA_ARMOR>Фауна|Бронежилет Фауна</FAUNA_ARMOR>
+			<FLASH1_NATO_LIGHT>Фонарь Surefire|Тактический Фонарь Surefire X300</FLASH1_NATO_LIGHT>
+			<FLASH2_NATO_LIGHT>Фонарик Н2|Подствольный фонарь НАТО м2</FLASH2_NATO_LIGHT>
+			<FLORA_ARMOR>Флора|Бронежилет Флора</FLORA_ARMOR>
+			<FN_FAL_ASSAULT_RIFLE>FN FAL|Автомат FN FAL</FN_FAL_ASSAULT_RIFLE>
+			<FN_FAL_ASSAULT_RIFLE_DESERT>FN FAL Стп.|Автомат FN FAL (степной кам.)</FN_FAL_ASSAULT_RIFLE_DESERT>
+			<FN_FAL_ASSAULT_RIFLE_SNOW>FN FAL Зим.|Автомат FN FAL (зимний кам.)</FN_FAL_ASSAULT_RIFLE_SNOW>
+			<FN_FAL_ASSAULT_RIFLE_TOWN>FN FAL Гор.|Автомат FN FAL (городской кам.)</FN_FAL_ASSAULT_RIFLE_TOWN>
+			<FN_FAL_ASSAULT_RIFLE_WOOD>FN FAL Лес.|Автомат FN FAL (лесной кам.)</FN_FAL_ASSAULT_RIFLE_WOOD>
+			<FN_SCAR_H_CLAN_ASSAULT_RIFLE>Scar-H|Автомат FN mk.17 SCAR-H</FN_SCAR_H_CLAN_ASSAULT_RIFLE>
+			<FRAG_GRENADE_F1>Ф1|Граната Ф1</FRAG_GRENADE_F1>
+			<FRANCHI_SPAS_12_SHOTGUN>SPAS 12|Дробовик SPAS 12</FRANCHI_SPAS_12_SHOTGUN>
+			<GADGET_ADD_BLANK> | </GADGET_ADD_BLANK>
+			<GLASSES_KOBRA_MASK>Очки Кобра|Стильные очки Кобры</GLASSES_KOBRA_MASK>
+			<GLOCK_17_PISTOL>Glock 17|Пистолет Glock 17</GLOCK_17_PISTOL>
+			<GLOCK_18_PISTOL>Glock 18|Пистолет Glock 18</GLOCK_18_PISTOL>
+			<GLOVES_BLANK> | </GLOVES_BLANK>
+			<GRAFFITY_MASK>Графити|Маска Графити</GRAFFITY_MASK>
+			<GRENADE_ADD_BLANK> | </GRENADE_ADD_BLANK>
+			<HAKI_PANTS>Хаки|Штаны Хаки</HAKI_PANTS>
+			<HAKI_PANTS_SNOW>Хаки Сн.|Штаны Хаки снежные</HAKI_PANTS_SNOW>
+			<HAKI_SHIRT>Хаки|Куртка Хаки</HAKI_SHIRT>
+			<HAKI_SHIRT_SNOW>Хаки Сн.|Куртка Хаки снежная</HAKI_SHIRT_SNOW>
+			<HARVAT_PANTS>Харват|Штаны Харват</HARVAT_PANTS>
+			<HAT_BLANK> | </HAT_BLANK>
+			<HEALTH_ANTIPOISON>Противоядие|Набор противоядия</HEALTH_ANTIPOISON>
+			<HEALTH_ANTIRADIN>Антирадиационное|Средство выведения радиации</HEALTH_ANTIRADIN>
+			<HEALTH_BANDAGE>Бинты|Пачка медицинских бинтов</HEALTH_BANDAGE>
+			<HEALTH_PACK_AVERAGE>Аптечка сред.|Аптечка фельдшера</HEALTH_PACK_AVERAGE>
+			<HEALTH_PACK_GREAT>Аптечка бол.|Санитарный набор</HEALTH_PACK_GREAT>
+			<HEALTH_PACK_LESSER>Аптечка мал.|Автомобильная аптечка</HEALTH_PACK_LESSER>
+			<HEALTH_PACK_SUPER>Аптечка Суп.|Супер аптечка</HEALTH_PACK_SUPER>
+			<HK_416_ASSAULT_RIFLE>HK 416|Автомат HK 416</HK_416_ASSAULT_RIFLE>
+			<HK_417_CLAN_ASSAULT_RIFLE>HK 417|Автомат HK 417</HK_417_CLAN_ASSAULT_RIFLE>
+			<HK_G36C_ASSAULT_RIFLE>HK G36C|Автомат HK G36C</HK_G36C_ASSAULT_RIFLE>
+			<HK_G3A_CLAN_ASSAULT_RIFLE>HK G3a|Автомат HK G3a</HK_G3A_CLAN_ASSAULT_RIFLE>
+			<HK_G3A_LAU_CLAN_ASSAULT_RIFLE>HK G3a mk.2|Автомат HK G3a mk.2</HK_G3A_LAU_CLAN_ASSAULT_RIFLE>
+			<HOMEMADE_GRENADE>Шашка|Самодельная шашка</HOMEMADE_GRENADE>
+			<HOMEMADE_GRENADE_RECIPE>Шашка|Чертеж изготовления самодельной шашки</HOMEMADE_GRENADE_RECIPE>
+			<INGLISH_MASK>Инглиш|Маска Инглиш</INGLISH_MASK>
+			<INQUISITOR_CLAN_SUIT>Инквизитор гр.|Костюм "Инквизитор" группировки</INQUISITOR_CLAN_SUIT>
+			<JACKHAMMER_MK3A1_SHOTGUN>Jackhammer|Дробовик Jackhammer MK3A1</JACKHAMMER_MK3A1_SHOTGUN>
+			<KAISER_ARMOR>Кайзер|Бронежилет Кайзер</KAISER_ARMOR>
+			<KOLOBOK_BACKPACK>Колобок 5кг|Рюкзак Колобок</KOLOBOK_BACKPACK>
+			<KOZIR_HAT>Козырь|Шапка Козырь</KOZIR_HAT>
+			<KURTKA_SHIRT>Кожанка|Куртка Кожанка</KURTKA_SHIRT>
+			<LONG_PANTS>Лонги|Штаны Лонги</LONG_PANTS>
+			<M1014_JSCS_SHOTGUN>M1014 JSCS|Дробовик M1014 JSCS</M1014_JSCS_SHOTGUN>
+			<M1_GARAND_RIFLE>M1 Garand|Винтовка M1 Garand</M1_GARAND_RIFLE>
+			<M202_ROCKET_LAUNCHER>M202|Гранатомёт M202</M202_ROCKET_LAUNCHER>
+			<M79_ROCKET_LAUNCHER>M79|Гранатомёт M79</M79_ROCKET_LAUNCHER>
+			<MAC_10_SUBMACHINEGUN>MAC-10|Пистолет-пулемёт MAC-10</MAC_10_SUBMACHINEGUN>
+			<MAKAROV_PISTOL>ПМ|Пистолет ПМ</MAKAROV_PISTOL>
+			<MARS_SUIT>Марс|Костюм Марс</MARS_SUIT>
+			<MASK_BLANK> | </MASK_BLANK>
+			<MASK_SNIPE_SUIT>Маскировочный гр.|Костюм маскировочный</MASK_SNIPE_SUIT>
+			<MAYKA_ARMOR>Майка|Бронежилет Майка</MAYKA_ARMOR>
+			<MAZAY_HAT>Мазай|Шапка Мазай</MAZAY_HAT>
+			<MISTIC_BACKPACK>Мистичный 40кг|Рюкзак Мистичный</MISTIC_BACKPACK>
+			<MK12_SPR_SNIPER_RIFLE>MK12 SPR|Снайперская винтовка MK12 SPR</MK12_SPR_SNIPER_RIFLE>
+			<MK12_SPR_SNIPER_RIFLE_DESERT>MK12 Стп.|Снайперская винтовка MK12 SPR (степной кам.)</MK12_SPR_SNIPER_RIFLE_DESERT>
+			<MK12_SPR_SNIPER_RIFLE_SNOW>MK12 Зим.|Снайперская винтовка MK12 SPR (зимний кам.)</MK12_SPR_SNIPER_RIFLE_SNOW>
+			<MK12_SPR_SNIPER_RIFLE_TOWN>MK12 Гор.|Снайперская винтовка MK12 SPR (городской кам.)</MK12_SPR_SNIPER_RIFLE_TOWN>
+			<MK12_SPR_SNIPER_RIFLE_WOOD>MK12 Лес.|Снайперская винтовка MK12 SPR (лесной кам.)</MK12_SPR_SNIPER_RIFLE_WOOD>
+			<MK48_MACHINEGUN>MK48|Пулемёт MK48</MK48_MACHINEGUN>
+			<MK48_MACHINEGUN_TOWN>MK48 Гор.|Пулемёт MK48 (Городской камуфляж)</MK48_MACHINEGUN_TOWN>
+			<MK48_MACHINEGUN_WOOD>MK48 Лес.|Пулемёт MK48 (Лесной камуфляж)</MK48_MACHINEGUN_WOOD>
+			<MOSSBERG_500_SHOTGUN>Mossberg 500|Дробовик Mossberg 500</MOSSBERG_500_SHOTGUN>
+			<MP5_K_SUBMACHINEGUN>MP5-K|Пистолет-пулемёт HK MP5-K</MP5_K_SUBMACHINEGUN>
+			<MP5_SUBMACHINEGUN>MP5-SD3|Пистолет-пулемёт HK MP5-SD3</MP5_SUBMACHINEGUN>
+			<NINJA_ARMOR>Ниндзя|Бронежилет Ниндзя</NINJA_ARMOR>
+			<OC_14_762_ASSAULT_RIFLE>Гроза-1|Автомат ОЦ 14 под 7.62х39</OC_14_762_ASSAULT_RIFLE>
+			<OC_14_939_ASSAULT_RIFLE>Гроза-4|Автомат ОЦ 14 под 9х39</OC_14_939_ASSAULT_RIFLE>
+			<OLD_STEW_FOOD>Тушёнка|Банка подозрительной тушёнки</OLD_STEW_FOOD>
+			<OMELET_ARMOR>Омлет|Бронежилет Омлет</OMELET_ARMOR>
+			<PANAMA_HAT>Панама|Шляпа Панама</PANAMA_HAT>
+			<PANTS_BLANK> | </PANTS_BLANK>
+			<PARTIZAN_BACKPACK>Партизан 12кг|Рюкзак Партизан</PARTIZAN_BACKPACK>
+			<PARTIZAN_BACKPACK_SNOW>Партизан 12кг Сн.|Рюкзак Партизан снежный</PARTIZAN_BACKPACK_SNOW>
+			<PARTIZAN_PANTS>Партизан|Штаны "Партизан"</PARTIZAN_PANTS>
+			<PARTIZAN_SHIRT>Партизан|Телогрейка "Партизан"</PARTIZAN_SHIRT>
+			<PATCHKA_SUIT>Пачка|Костюм Пачка</PATCHKA_SUIT>
+			<PECHENEG_CLAN_MACHINEGUN>Печенег|Пулемёт Печенег</PECHENEG_CLAN_MACHINEGUN>
+			<PO4X34_USSR_SCOPE>ПО 4х34|Снайперский прицел ПО 4х34.</PO4X34_USSR_SCOPE>
+			<PO6X36_USSR_SCOPE>ПО 6х36|Снайперский прицел ПО 6х36.</PO6X36_USSR_SCOPE>
+			<POISON_BULLETS_RECIPE>9х18 яд.|Чертеж отравленных патронов</POISON_BULLETS_RECIPE>
+			<POSP8X42_USSR_SCOPE>ПОСП 8х42|Снайперский прицел ПОСП 8х42.</POSP8X42_USSR_SCOPE>
+			<PPSH_41_SUBMACHINEGUN>ППШ-41|Пистолет-пулемёт ППШ-41</PPSH_41_SUBMACHINEGUN>
+			<PPS_SUIT>ППС гр.|Костюм группировки ППС</PPS_SUIT>
+			<PREDATOR_CLAN_SUIT>Хищник гр.|Костюм группировки Atomic</PREDATOR_CLAN_SUIT>
+			<PRESERVES_FOOD>Ящик консервов|Ящик консервов</PRESERVES_FOOD>
+			<PSO1_USSR_SCOPE>ПСО-1|Советский прицел ПСО-1</PSO1_USSR_SCOPE>
+			<QL_BEARINGS>_Запчасти</QL_BEARINGS>
+			<QL_BEAR_BILE>_Медвежья желч</QL_BEAR_BILE>
+			<QL_BEAR_CLAWS>_Когти медведя</QL_BEAR_CLAWS>
+			<QL_BEAR_HEAD_COOK>_Голова медведя для Гурмана</QL_BEAR_HEAD_COOK>
+			<QL_BEAR_HIDE>_Шкура медведя</QL_BEAR_HIDE>
+			<QL_BEAR_OINTMENT>_Мазь из медвежьего жира</QL_BEAR_OINTMENT>
+			<QL_BES_ARMS>_Рука Беса</QL_BES_ARMS>
+			<QL_BLOWTORCH>_Паяльная лампа</QL_BLOWTORCH>
+			<QL_BLYAK_BILE>_Жир Бляка</QL_BLYAK_BILE>
+			<QL_BLYAK_CLAWS>_Коготь Бляка</QL_BLYAK_CLAWS>
+			<QL_BLYAK_TONGUE>_Зуб Бляка</QL_BLYAK_TONGUE>
+			<QL_BOAR_EAR>_Кабанье ухо</QL_BOAR_EAR>
+			<QL_BOAR_HOOF>_Копыто кабана</QL_BOAR_HOOF>
+			<QL_BOAR_LEG_COOK>_Филе кабана для Гурмана</QL_BOAR_LEG_COOK>
+			<QL_BOAR_TAG>_Миграционная бирка</QL_BOAR_TAG>
+			<QL_BROKEN_BATTERY>_Сломанная батарейка</QL_BROKEN_BATTERY>
+			<QL_BRUTOR_BONE>_Кость брутора</QL_BRUTOR_BONE>
+			<QL_BRUTOR_MUSCLE>_Мускул брутора</QL_BRUTOR_MUSCLE>
+			<QL_CIGARETES_BELOMOR>_Пачка "Беломора"</QL_CIGARETES_BELOMOR>
+			<QL_CIGARETES_CASE>_Портсигар</QL_CIGARETES_CASE>
+			<QL_COFFEE_CUP>_Кофейная пара</QL_COFFEE_CUP>
+			<QL_DIPLOMAT>_Дипломат</QL_DIPLOMAT>
+			<QL_DOCUMENTS>Документы</QL_DOCUMENTS>
+			<QL_DOG_COLLAR>_Собачий ошейник</QL_DOG_COLLAR>
+			<QL_DOG_EAR>_Ухо собаки</QL_DOG_EAR>
+			<QL_DOG_HEAD_COOK>_Голова собаки для Гурмана</QL_DOG_HEAD_COOK>
+			<QL_DOG_HIDE>_Шкура собаки</QL_DOG_HIDE>
+			<QL_DOG_PAW>_Лапа собаки</QL_DOG_PAW>
+			<QL_DOG_TOOTHS>_Челюсть собаки</QL_DOG_TOOTHS>
+			<QL_EMPTY_FLASK>_Пустая фляжка</QL_EMPTY_FLASK>
+			<QL_GLASS_HOLDER>_Подстаканник</QL_GLASS_HOLDER>
+			<QL_GREEN_BOTTLE>_Зеленая бутылка</QL_GREEN_BOTTLE>
+			<QL_JELLY_BRAIN>_Мозг Студня</QL_JELLY_BRAIN>
+			<QL_JELLY_MUCUS>_Слизь Студня</QL_JELLY_MUCUS>
+			<QL_JELLY_OFFAL>_Потроха Студня</QL_JELLY_OFFAL>
+			<QL_JURIN_BACKPACK>_Юрин рюкзак</QL_JURIN_BACKPACK>
+			<QL_MICROCHIP>_Микрочип</QL_MICROCHIP>
+			<QL_MICROCOMPUTER>_Микрокомпьютер</QL_MICROCOMPUTER>
+			<QL_NEW_YEAR_TOY_1>_Новогодняя игрушка: Дед мороз</QL_NEW_YEAR_TOY_1>
+			<QL_NEW_YEAR_TOY_2>_Новогодняя игрушка: Стеклянный шар</QL_NEW_YEAR_TOY_2>
+			<QL_NEW_YEAR_TOY_3>_Новогодняя игрушка: Стеклянная шишка</QL_NEW_YEAR_TOY_3>
+			<QL_PADDED_JACKET>_Грязная телогрейка</QL_PADDED_JACKET>
+			<QL_RADIO_PARTS>_Радиодетали</QL_RADIO_PARTS>
+			<QL_RADIO_PARTS2>_Электродетали</QL_RADIO_PARTS2>
+			<QL_RADIO_VALVE>_Радиолампа</QL_RADIO_VALVE>
+			<QL_RAT_CARCASE_COOK>_Тушка крысы для Гурмана</QL_RAT_CARCASE_COOK>
+			<QL_RAT_SKIN>_Шкура крысы</QL_RAT_SKIN>
+			<QL_RAT_SKULL>_Крысинный череп</QL_RAT_SKULL>
+			<QL_RAT_TAIL>_Крысинный хвост</QL_RAT_TAIL>
+			<QL_ROLY_POLY>_Игрушка|Неваляшка</QL_ROLY_POLY>
+			<QL_ROLY_POLY2>_Игрушка|Игрушка - неваляшка</QL_ROLY_POLY2>
+			<QL_RUBIKS_CUBE>_Игрушка|Кубик Рубика</QL_RUBIKS_CUBE>
+			<QL_RUBIKS_CUBE2>_Игрушка|Игрушка - кубик Рубика</QL_RUBIKS_CUBE2>
+			<QL_SILVAN_HAIR>_Волос лешего</QL_SILVAN_HAIR>
+			<QL_SILVAN_SKIN>_Кожа лешего</QL_SILVAN_SKIN>
+			<QL_SMALL_TOOLS>_Инструменты</QL_SMALL_TOOLS>
+			<QL_SPARK_PLUG>_Автомобильная свеча</QL_SPARK_PLUG>
+			<QL_SPICES>_Набор специй</QL_SPICES>
+			<QL_SPIDER_COCOON>_Паучий кокон</QL_SPIDER_COCOON>
+			<QL_SPIDER_GLAND>_Ядовитая паучья железа</QL_SPIDER_GLAND>
+			<QL_SPIDER_GLANDWEB>_Паутинная паучья железа</QL_SPIDER_GLANDWEB>
+			<QL_SPIDER_LEG_COOK>_Лапа паука для Гурмана</QL_SPIDER_LEG_COOK>
+			<QL_SPIDER_MANDIBLES>_Жвалы паука</QL_SPIDER_MANDIBLES>
+			<QL_SPIRIT_FLASK>_Фляжка спирта</QL_SPIRIT_FLASK>
+			<QL_STEW>_Банка тушенки</QL_STEW>
+			<QL_TOY_BALL>_Игрушка|Детский мячик</QL_TOY_BALL>
+			<QL_TOY_BALL2>_Игрушка|Игрушка - детский мячик</QL_TOY_BALL2>
+			<QL_TOY_BEAR>_Игрушка|Игрушечный мишка</QL_TOY_BEAR>
+			<QL_TOY_BEAR2>_Игрушка|Игрушка - мягкий мишка</QL_TOY_BEAR2>
+			<QL_VATER_FLASK>_Фляжка с водой</QL_VATER_FLASK>
+			<QL_VERLIOKA_EYE>_Глаз Верлиоки</QL_VERLIOKA_EYE>
+			<QL_VERLIOKA_STING>_Коготь Верлиоки</QL_VERLIOKA_STING>
+			<QL_VERLIOKA_WING>_Крыло Верлиоки</QL_VERLIOKA_WING>
+			<QL_VERLIOKA_WING_COOK>_Крыло Верлиоки для Гурмана</QL_VERLIOKA_WING_COOK>
+			<RAT_ARMOR>Жел.Крыса|Бронежилет Железная Крыса</RAT_ARMOR>
+			<RAT_M2_ARMOR>Жел.Крыса м2|Бронежилет Железная Крыса Модернизированная</RAT_M2_ARMOR>
+			<RAT_TAIL>Часть крысы|Хвост мутировавшей крысы</RAT_TAIL>
+			<RAT_TAIL_BEASTLY>Часть крысы|Хвост гигантской крысы</RAT_TAIL_BEASTLY>
+			<RAT_TAIL_GIANT>Часть крысы|Хвост большой крысы</RAT_TAIL_GIANT>
+			<RAVENWOOD_ARMOR>Вороний лес|Бронежилет группировки Вороний лес</RAVENWOOD_ARMOR>
+			<RAVENWOOD_HELM>Вороний лес|Шлем группировки Вороний лес</RAVENWOOD_HELM>
+			<RAVENWOOD_PANTS>Вороний лес|Штаны группировки Вороний лес</RAVENWOOD_PANTS>
+			<RECOMENDATION_BANDIT_BEZLIKIY>Рек.Б. Безликого|Рекомендации Безликого</RECOMENDATION_BANDIT_BEZLIKIY>
+			<RECOMENDATION_BANDIT_HROMOY>Рек.Б. Хромого|Рекомендации Хромого</RECOMENDATION_BANDIT_HROMOY>
+			<RECOMENDATION_BANDIT_KRIVOGLAZOV>Рек.Б. Кривоглазого|Рекомендации Кривоглазого</RECOMENDATION_BANDIT_KRIVOGLAZOV>
+			<RECOMENDATION_BANDIT_PRIZRAK>Рек.Б. Призрака|Рекомендации Призрака</RECOMENDATION_BANDIT_PRIZRAK>
+			<RECOMENDATION_BANDIT_SHEPTUN>Рек.Б. Шептуна|Рекомендации Шептуна</RECOMENDATION_BANDIT_SHEPTUN>
+			<RECOMENDATION_SCI_KRASNOV>Рек.У. Краснова|Рекомендации доц.Краснова</RECOMENDATION_SCI_KRASNOV>
+			<RECOMENDATION_SCI_SELIKTEVICH>Рек.У. Селиктевича|Рекомендации доц.Селиктевича</RECOMENDATION_SCI_SELIKTEVICH>
+			<RECOMENDATION_SCI_SHPERLING>Рек.У. Шперлинга|Рекомендации доц.Шперлинга</RECOMENDATION_SCI_SHPERLING>
+			<RECOMENDATION_SCI_SIDOROV>Рек.У. Сидорова|Рекомендации доц.Сидорова</RECOMENDATION_SCI_SIDOROV>
+			<RECOMENDATION_SCI_SIMONOV>Рек.У. Симонова|Рекомендации доц.Симонова</RECOMENDATION_SCI_SIMONOV>
+			<RECOMENDATION_STALKER_FENIX>Рек.C. Феникса|Рекомендации Макса Феникса</RECOMENDATION_STALKER_FENIX>
+			<RECOMENDATION_STALKER_KISLIY>Рек.C. Кислого|Рекомендации Коли Кислого</RECOMENDATION_STALKER_KISLIY>
+			<RECOMENDATION_STALKER_MIKITYCH>Рек.C. Микитыча|Рекомендации Микитыча</RECOMENDATION_STALKER_MIKITYCH>
+			<RECOMENDATION_STALKER_SHUSTRIY>Рек.C. Шустрого|Рекомендации Сеньки Шустрого</RECOMENDATION_STALKER_SHUSTRIY>
+			<RECOMENDATION_STALKER_TIHIY>Рек.C. Тихого|Рекомендации Толика Тихого</RECOMENDATION_STALKER_TIHIY>
+			<RECOMENDATION_TRADE_BOCHKIN>Рек.Т. Бочкина|Рекомендации Бочкина</RECOMENDATION_TRADE_BOCHKIN>
+			<RECOMENDATION_TRADE_GRECHKIN>Рек.Т. Гречкина|Рекомендации Гречкина</RECOMENDATION_TRADE_GRECHKIN>
+			<RECOMENDATION_TRADE_OGURCOV>Рек.Т. Огурцова|Рекомендации Огурцова</RECOMENDATION_TRADE_OGURCOV>
+			<RECOMENDATION_TRADE_OTOVAROV>Рек.Т. Отоварова|Рекомендации Отоварова</RECOMENDATION_TRADE_OTOVAROV>
+			<RECOMENDATION_TRADE_PLYUSHKIN>Рек.Т. Плюшкина|Рекомендации Плюшкина</RECOMENDATION_TRADE_PLYUSHKIN>
+			<REDDOT_NATO_LIGHT>Целеуказатель|Лазерный Целеуказатель</REDDOT_NATO_LIGHT>
+			<RED_CROSS_SUIT>Кр. Крест гр.|Костюм группировки Красный Крест</RED_CROSS_SUIT>
+			<REPAIR_CERBER_ARMOR>в. Шакал|Чертеж восстановления бронежилета Шакал.</REPAIR_CERBER_ARMOR>
+			<REPAIR_CERBER_BODY>в. к.Шакал|Чертеж восстановления куртки Шакал.</REPAIR_CERBER_BODY>
+			<REPAIR_CERBER_PANTS>в. шт.Шакал|Чертеж восстановления штанов Шакал.</REPAIR_CERBER_PANTS>
+			<REPAIR_CHACK_ARMOR_RECIPE>в. Чак|Чертеж восстановления брони "Чак"</REPAIR_CHACK_ARMOR_RECIPE>
+			<REPAIR_CHACK_PANTS>в. шт.Чак|Чертеж восстановления штанов Чак</REPAIR_CHACK_PANTS>
+			<REPAIR_DRAGOON_ARMOR_RECIPE>в. Драгун|Чертеж восстановления брони "Драгун"</REPAIR_DRAGOON_ARMOR_RECIPE>
+			<REPAIR_DRAGOON_M2_ARMOR_RECIPE>в. Драгун м2|Чертеж восстановления брони "Драгун" м2</REPAIR_DRAGOON_M2_ARMOR_RECIPE>
+			<REPAIR_DSC_SUIT>в. DSC|Чертеж восстановления брони группировки DSC</REPAIR_DSC_SUIT>
+			<REPAIR_FAUNA_ARMOR_RECIPE>в. Фауна|Чертеж восстановления брони "Фауна"</REPAIR_FAUNA_ARMOR_RECIPE>
+			<REPAIR_FLORA_ARMOR_RECIPE>в. Флора|Чертеж восстановления брони "Флора"</REPAIR_FLORA_ARMOR_RECIPE>
+			<REPAIR_HAKI_PANTS>в. шт.Хаки|Чертеж восстановления штанов Хаки</REPAIR_HAKI_PANTS>
+			<REPAIR_HAKI_PANTS_SNOW>в. шт.Хаки Сн.|Чертеж восстановления штанов "Хаки" Сн.</REPAIR_HAKI_PANTS_SNOW>
+			<REPAIR_HARVAT_PANTS>в. шт.Харват|Чертеж восстановления штанов Харват</REPAIR_HARVAT_PANTS>
+			<REPAIR_HK_417_CLAN_RECIPE>в. HK-417|Чертеж ремонта HK-417</REPAIR_HK_417_CLAN_RECIPE>
+			<REPAIR_HK_SCAR_H_CLAN_RECIPE>в. SCAR-H|Чертеж ремонта FN mk.17 SCAR-H </REPAIR_HK_SCAR_H_CLAN_RECIPE>
+			<REPAIR_INQUSITOR_CLAN_SUIT>в. Инквизитор|Чертеж восстановления брони группировки Инквизиция.</REPAIR_INQUSITOR_CLAN_SUIT>
+			<REPAIR_KAISER_ARMOR_RECIPE>в. Кайзер|Чертеж восстановления брони "Кайзер"</REPAIR_KAISER_ARMOR_RECIPE>
+			<REPAIR_KIT>Ремнабор</REPAIR_KIT>
+			<REPAIR_LONG_PANTS>в. шт.Лонги|Чертеж восстановления штанов Лонги</REPAIR_LONG_PANTS>
+			<REPAIR_MARS_SUIT>в. Марс|Чертеж восстановления костюма Марс</REPAIR_MARS_SUIT>
+			<REPAIR_MASK_SNIPE_SUIT>в. Маскир.|Чертеж восстановления маскировочной брони.</REPAIR_MASK_SNIPE_SUIT>
+			<REPAIR_MAYKA_ARMOR_RECIPE>в. Майка|Чертеж восстановления брони "Майка"</REPAIR_MAYKA_ARMOR_RECIPE>
+			<REPAIR_MK48_MACHINEGUN_TOWN_RECIPE>в. Mk48 Гор.|Чертеж восстановления mk48 Городской камуфляж</REPAIR_MK48_MACHINEGUN_TOWN_RECIPE>
+			<REPAIR_MK48_MACHINEGUN_WOOD_RECIPE>в. Mk48 Лес.|Чертеж восстановления mk48 Лесной камуфляж</REPAIR_MK48_MACHINEGUN_WOOD_RECIPE>
+			<REPAIR_NINJA_ARMOR_RECIPE>в. Ниндзя|Чертеж восстановления брони "Ниндзя"</REPAIR_NINJA_ARMOR_RECIPE>
+			<REPAIR_OMELET_ARMOR_RECIPE>в. Омлет|Чертеж восстановления брони "Омлет"</REPAIR_OMELET_ARMOR_RECIPE>
+			<REPAIR_PACHKA_SUIT>в. Пачка|Чертеж восстановления костюма Пачка</REPAIR_PACHKA_SUIT>
+			<REPAIR_PARTIZAN_PANTS>в. шт.Партизан|Чертеж восстановления штанов Партизан</REPAIR_PARTIZAN_PANTS>
+			<REPAIR_PECHENEG_CLAN_RECIPE>в. Печенег|Чертеж ремонта пулемёта Печенег</REPAIR_PECHENEG_CLAN_RECIPE>
+			<REPAIR_PPS_SUIT>в. ППС|Чертеж восстановления брони группировки ППС.</REPAIR_PPS_SUIT>
+			<REPAIR_PREDATOR_CLAN_SUIT>в. Хищник|Чертеж восстановления брони "Хищник" группировки.</REPAIR_PREDATOR_CLAN_SUIT>
+			<REPAIR_RARE_KIT>Рем. редк.|Ремкоплект для редких вещей</REPAIR_RARE_KIT>
+			<REPAIR_RAT_ARMOR_RECIPE>в. Крыса|Чертеж восстановления брони "Крыса"</REPAIR_RAT_ARMOR_RECIPE>
+			<REPAIR_RAT_M2_ARMOR_RECIPE>в. Жел.Крыса м2|Чертеж восстановления брони "Железная Крыса" м2</REPAIR_RAT_M2_ARMOR_RECIPE>
+			<REPAIR_RAVENWOOD_ARMOR>в. Ворон.Л.|Чертеж восстановления бронежилета Вороний Лес.</REPAIR_RAVENWOOD_ARMOR>
+			<REPAIR_RAVENWOOD_HELM>в. шл.Ворон.Л.|Чертеж восстановления шлема Вороний Лес.</REPAIR_RAVENWOOD_HELM>
+			<REPAIR_RAVENWOOD_PANTS>в. шт.Ворон.Л.|Чертеж восстановления штанов Вороний Лес.</REPAIR_RAVENWOOD_PANTS>
+			<REPAIR_RED_CROSS_SUIT>в. КК|Чертеж восстановления брони группировки Красный Крест.</REPAIR_RED_CROSS_SUIT>
+			<REPAIR_SANDAL_ARMOR_RECIPE>в. Сандал|Чертеж восстановления брони "Сандал"</REPAIR_SANDAL_ARMOR_RECIPE>
+			<REPAIR_SHIZ_01_HELM>в. шл.ШИЗ о.|Чертеж восстановления шлема очкарик ШИЗ.</REPAIR_SHIZ_01_HELM>
+			<REPAIR_SHIZ_02_HELM>в. шл.ШИЗ п.|Чертеж восстановления шлема Прорезь ШИЗ.</REPAIR_SHIZ_02_HELM>
+			<REPAIR_SHIZ_ARMOR_RECIPE>в. ШИЗ|Чертеж восстановления брони "ШИЗ"</REPAIR_SHIZ_ARMOR_RECIPE>
+			<REPAIR_SHIZ_PANTS>в. шт.ШИЗ|Чертеж восстановления штанов ШИЗ.</REPAIR_SHIZ_PANTS>
+			<REPAIR_SHKURKA_ARMOR_RECIPE>в. Шкурка|Чертеж восстановления брони "Шкурка"</REPAIR_SHKURKA_ARMOR_RECIPE>
+			<REPAIR_SHPINAT_ARMOR_RECIPE>в. Шпинат|Чертеж восстановления брони "Шпинат"</REPAIR_SHPINAT_ARMOR_RECIPE>
+			<REPAIR_SHPINAT_ARMOR_SNOW>в. Шпинат Сн.|Чертеж восстановления брони "Шпинат" Зимний</REPAIR_SHPINAT_ARMOR_SNOW>
+			<REPAIR_SIGMA_SUIT>в. Сигма|Чертеж восстановления брони группировки Чёрные Ангелы.</REPAIR_SIGMA_SUIT>
+			<REPAIR_SIG_716_CLAN_RECIPE>в. SIG-716|Чертеж ремонта Sig-716</REPAIR_SIG_716_CLAN_RECIPE>
+			<REPAIR_SIG_751G_CLAN_RECIPE>в. Sig-751G|Чертеж восстановления Sig-751G</REPAIR_SIG_751G_CLAN_RECIPE>
+			<REPAIR_SIG_751_RECIPE>в. Sig-751|Чертеж восстановления Sig-751</REPAIR_SIG_751_RECIPE>
+			<REPAIR_SILENCE_CLAN_SUIT>в. Тишина|Чертеж восстановления брони "Тишина" группировки.</REPAIR_SILENCE_CLAN_SUIT>
+			<REPAIR_SINGLE_MOD1_SUIT>в. Ун.Одиночки|Чертеж восстановления брони Одиночки уникальной.</REPAIR_SINGLE_MOD1_SUIT>
+			<REPAIR_SINGLE_SUIT>в. Одиночки|Чертеж восстановления брони Одиночки.</REPAIR_SINGLE_SUIT>
+			<REPAIR_SUHAR_ARMOR_RECIPE>в. Сухарь|Чертеж восстановления брони "Сухарь"</REPAIR_SUHAR_ARMOR_RECIPE>
+			<REPAIR_SVOBODA2_CLAN_SUIT>в. Свобода С.|Чертеж восстановления брони "Страж" группировки Свобода.</REPAIR_SVOBODA2_CLAN_SUIT>
+			<REPAIR_SVOBODA_CLAN_SUIT>в. Свобода Т.|Чертеж восстановления брони "Тень" группировки Свобода.</REPAIR_SVOBODA_CLAN_SUIT>
+			<REPAIR_SVU_A_CLAN_RECIPE>в. СВУ-А|Чертеж ремонта СВУ-А</REPAIR_SVU_A_CLAN_RECIPE>
+			<REPAIR_SVU_CLAN_RECIPE>в. СВУ-ОЦ|Чертеж ремонта СВУ-ОЦ</REPAIR_SVU_CLAN_RECIPE>
+			<REPAIR_TASH_ARMOR_RECIPE>в. ТАШ|Чертеж восстановления брони "ТАШ"</REPAIR_TASH_ARMOR_RECIPE>
+			<REPAIR_TASH_ARMOR_SNOW>в. ТАШ Сн.|Чертеж восстановления брони ТАШ Сн.</REPAIR_TASH_ARMOR_SNOW>
+			<REPAIR_TASH_M2_ARMOR_RECIPE>в. ТАШ м2|Чертеж восстановления брони "ТАШ" м2</REPAIR_TASH_M2_ARMOR_RECIPE>
+			<REPAIR_TASH_PANTS>в. шт.ТАШ|Чертеж восстановления штанов ТАШ</REPAIR_TASH_PANTS>
+			<REPAIR_UGORY_SUIT>в. Угорь|Чертеж восстановления костюма Угорь</REPAIR_UGORY_SUIT>
+			<REPAIR_VIKING_HELM_SNOW>в. шл.Викинг Зим.|Чертеж восстановления зимнего викинга </REPAIR_VIKING_HELM_SNOW>
+			<REPAIR_VOENSTAL_SUIT>в. ВОЕНСТАЛ|Чертеж восстановления брони группировки ВОЕНСТАЛ.</REPAIR_VOENSTAL_SUIT>
+			<REPAIR_VOROT_ARMOR_RECIPE>в. Ворот|Чертеж восстановления брони "Ворот"</REPAIR_VOROT_ARMOR_RECIPE>
+			<REPAIR_VSS_MOD1_CLAN_RECIPE>в. ВСС мод.1|Чертеж восстановления ВСС мод.1</REPAIR_VSS_MOD1_CLAN_RECIPE>
+			<REPAIR_WALTHER_WA_2000_DESERT_RECIPE>в. WA-2000 Ст.|Чертеж восстановления WA-2000 Степной</REPAIR_WALTHER_WA_2000_DESERT_RECIPE>
+			<REPAIR_WALTHER_WA_2000_RECIPE>в. WA-2000|Чертеж восстановления WA-2000</REPAIR_WALTHER_WA_2000_RECIPE>
+			<REPAIR_WALTHER_WA_2000_SNOW_RECIPE>в. WA-2000 Зим.|Чертеж восстановления WA-2000 Зимний</REPAIR_WALTHER_WA_2000_SNOW_RECIPE>
+			<REPAIR_WALTHER_WA_2000_TOWN_RECIPE>в. WA-2000 Гор.|Чертеж восстановления WA-2000 Городской</REPAIR_WALTHER_WA_2000_TOWN_RECIPE>
+			<REPAIR_WALTHER_WA_2000_WOOD_RECIPE>в. WA-2000 Лес.|Чертеж восстановления WA-2000 Лесной</REPAIR_WALTHER_WA_2000_WOOD_RECIPE>
+			<ROAST_BOAR_LEG_FOOD>Жар. кабанья нога|Жареная кабанья нога 3 шт.</ROAST_BOAR_LEG_FOOD>
+			<ROAST_DOG_HEAD_FOOD>Жар. собачьи головы|Жареные собачьи головы 3 шт.</ROAST_DOG_HEAD_FOOD>
+			<ROAST_RAT_FOOD>Жареная крыса|Пачка жареных крыс 3 шт.</ROAST_RAT_FOOD>
+			<RPG7_ROCKET_LAUNCHER>РПГ 7|Гранатомёт РПГ 7</RPG7_ROCKET_LAUNCHER>
+			<RUGER_MINI_14>Ruger M14|Винтовка Ruger Mini 14</RUGER_MINI_14>
+			<SAIGA_12K_SHOTGUN>Сайга 12К|Дробовик Сайга 12К</SAIGA_12K_SHOTGUN>
+			<SANDAL_ARMOR>Сандал|Бронежилет Сандал</SANDAL_ARMOR>
+			<SCORPION_VZ61_SUBMACHINEGUN>Scorpion VZ61|Пистолет-пулемёт Scorpion VZ61</SCORPION_VZ61_SUBMACHINEGUN>
+			<SEKVOYA_BACKPACK>Секвойа 10кг|Рюкзак Секвойа 80</SEKVOYA_BACKPACK>
+			<SEKVOYA_BACKPACK_DESERT>Секвойа 10кг Стп.|Рюкзак Секвойа 80 Степной</SEKVOYA_BACKPACK_DESERT>
+			<SEKVOYA_BACKPACK_SNOW>Секвойа 10кг Зим.|Рюкзак Секвойа 80 Зимний</SEKVOYA_BACKPACK_SNOW>
+			<SEKVOYA_BACKPACK_TOWN>Секвойа 10кг Гор.|Рюкзак Секвойа 80 Городской</SEKVOYA_BACKPACK_TOWN>
+			<SEKVOYA_BACKPACK_WOOD>Секвойа 10кг Лес.|Рюкзак Секвойа 80 Лесной</SEKVOYA_BACKPACK_WOOD>
+			<SHIRT_BLANK> | </SHIRT_BLANK>
+			<SHIZ_01_HELM>Очкарик|Шлем ШИЗ "Очкарик"</SHIZ_01_HELM>
+			<SHIZ_02_HELM>Прорезь|Шлем ШИЗ "Прорезь"</SHIZ_02_HELM>
+			<SHIZ_ARMOR>ШИЗ|Бронежилет ШИЗ</SHIZ_ARMOR>
+			<SHIZ_PANTS>ШИЗ|Штаны ШИЗ</SHIZ_PANTS>
+			<SHKURKA_ARMOR>Шкурка|Бронежилет Шкурка</SHKURKA_ARMOR>
+			<SHPINAT_ARMOR>Шпинат|Бронежилет Шпинат</SHPINAT_ARMOR>
+			<SHPINAT_ARMOR_SNOW>Шпинат Сн.|Бронежилет Шпинат снежный</SHPINAT_ARMOR_SNOW>
+			<SIGMA_SUIT>Сигма гр.|Костюм группировки Черные Ангелы</SIGMA_SUIT>
+			<SIG_551_ASSAULT_RIFLE>Sig 551|Автомат Sig Sauer 551</SIG_551_ASSAULT_RIFLE>
+			<SIG_716_CLAN_ASSAULT_RIFLE>Sig 716|Автомат Sig 716</SIG_716_CLAN_ASSAULT_RIFLE>
+			<SIG_751G_CLAN_ASSAULT_RIFLE>Sig 751G|Автомат Sig 751G</SIG_751G_CLAN_ASSAULT_RIFLE>
+			<SIG_751_ASSAULT_RIFLE>Sig 751|Автомат Sig Sauer 751</SIG_751_ASSAULT_RIFLE>
+			<SILENCE_CLAN_SUIT>Тишина гр.|Костюм группировки Тишина</SILENCE_CLAN_SUIT>
+			<SINGLE_BACKPACK>Одиночки 15кг|Рюкзак одиночки</SINGLE_BACKPACK>
+			<SINGLE_MOD1_SUIT>Уник. Одиночка|Костюм уникальный одиночки</SINGLE_MOD1_SUIT>
+			<SINGLE_SUIT>Одиночка|Костюм одиночки</SINGLE_SUIT>
+			<SITES_SPECTRE_M4_SUBMACHINEGUN>SS M4|Пистолет-пулемёт Sites Spectre M4</SITES_SPECTRE_M4_SUBMACHINEGUN>
+			<SLONIK_MASK>Слоник|Противогаз Слоник</SLONIK_MASK>
+			<SNIPER1_ADD_NATO_SCOPE>CBX-12|Снайперский прицел Kahles CBX 12x</SNIPER1_ADD_NATO_SCOPE>
+			<SNIPER1_NATO_SCOPE>CBX-8|Снайперский прицел CBX 8x56</SNIPER1_NATO_SCOPE>
+			<SNIPER2_NATO_SCOPE>MSS 6x|Снайперский прицел MSS 6x.</SNIPER2_NATO_SCOPE>
+			<SNIPER3_NATO_SCOPE>MSS 4x|Снайперский прицел MSS 4x.</SNIPER3_NATO_SCOPE>
+			<SNIPER4_NATO_SCOPE>CQT 3х|Снайперский прицел CQT 3х</SNIPER4_NATO_SCOPE>
+			<SNIPER_VAR_RUSS_SCOPE>Прицел пер.кр.|Российский прицел переменной кратности</SNIPER_VAR_RUSS_SCOPE>
+			<SPETSOVKA_SHIRT>Спецовка|Куртка Спецовка</SPETSOVKA_SHIRT>
+			<SPIDER_LEG>Часть паука|Небольшая паучья лапа</SPIDER_LEG>
+			<SPIDER_LEG_BEASTLY>Часть паука|Лапа ужасающего паука</SPIDER_LEG_BEASTLY>
+			<SPIDER_LEG_BIG>Часть паука|Лапа паука</SPIDER_LEG_BIG>
+			<SPIDER_LEG_GIANT>Часть паука|Лапа королевского паука</SPIDER_LEG_GIANT>
+			<STABILIZED_AK74_ASSAULT_RIFLE>АК-74МСТ|Стабилизированный АК-74М</STABILIZED_AK74_ASSAULT_RIFLE>
+			<STELS_CLAN_SUIT>Стелс гр.|Костюм группировки Стелс</STELS_CLAN_SUIT>
+			<STONE_GRENADE>Камень</STONE_GRENADE>
+			<STORMOVKA_SHIRT>Штормовка</STORMOVKA_SHIRT>
+			<SUHAR_ARMOR>Сухарь|Бронежилет Сухарь</SUHAR_ARMOR>
+			<SVD_SNIPER_RIFLE>СВД|Снайперская винтовка Драгунова</SVD_SNIPER_RIFLE>
+			<SVD_SNIPER_RIFLE_DESERT>СВД Стп.|Снайперская винтовка Драгунова (степной кам.)</SVD_SNIPER_RIFLE_DESERT>
+			<SVD_SNIPER_RIFLE_FALL>СВД Осн.|Снайперская винтовка Драгунова (осенний кам.)</SVD_SNIPER_RIFLE_FALL>
+			<SVD_SNIPER_RIFLE_SNOW>СВД Зим.|Снайперская винтовка Драгунова (зимний кам.)</SVD_SNIPER_RIFLE_SNOW>
+			<SVD_SNIPER_RIFLE_TOWN>СВД Гор.|Снайперская винтовка Драгунова (городской кам.)</SVD_SNIPER_RIFLE_TOWN>
+			<SVD_SNIPER_RIFLE_WOOD>СВД Лес.|Снайперская винтовка Драгунова (лесной кам.)</SVD_SNIPER_RIFLE_WOOD>
+			<SVOBODA2_CLAN_SUIT>Свобода гр. Страж|Костюм "Страж" группировки Свобода</SVOBODA2_CLAN_SUIT>
+			<SVOBODA_CLAN_SUIT>Свобода гр. Тень|Костюм "Тень" группировки Свобода</SVOBODA_CLAN_SUIT>
+			<SVU_A_CLAN_SNIPER_RIFLE>СВУ-А|Снайперская Винтовка Укороченная (ОЦ-3А)</SVU_A_CLAN_SNIPER_RIFLE>
+			<SVU_CLAN_SNIPER_RIFLE>СВУ|Снайперская Винтовка Укороченная (ОЦ-3)</SVU_CLAN_SNIPER_RIFLE>
+			<TASH_ARMOR>ТАШ|Бронежилет ТАШ</TASH_ARMOR>
+			<TASH_ARMOR_SNOW>ТАШ Сн.|Бронежилет ТАШ снежный</TASH_ARMOR_SNOW>
+			<TASH_M2_ARMOR>ТАШ м2|Бронежилет ТАШ м2</TASH_M2_ARMOR>
+			<TASH_PANTS>ТАШ|Штаны ТАШ</TASH_PANTS>
+			<TOKAREV_TT_PISTOL>Токарев ТТ|Пистолет Токарев ТТ</TOKAREV_TT_PISTOL>
+			<TOZ_34_SHOTGUN>ТОЗ-34|Дробовик ТОЗ-34</TOZ_34_SHOTGUN>
+			<UGORY_SUIT>Угорь|Костюм Угорь</UGORY_SUIT>
+			<UNIFORM_MED_SHIRT>Санитар|Халат Медицинский</UNIFORM_MED_SHIRT>
+			<UNIFORM_SCI_SHIRT>Учёный|Халат Учёного</UNIFORM_SCI_SHIRT>
+			<UNIFORM_TECH_SHIRT>Техник|Халат Техника</UNIFORM_TECH_SHIRT>
+			<UZI_SUBMACHINEGUN>UZI|Пистолет-пулемёт UZI</UZI_SUBMACHINEGUN>
+			<VAL_ASSAULT_RIFLE>АС-ВАЛ|Автомат АС-ВАЛ</VAL_ASSAULT_RIFLE>
+			<VAL_ASSAULT_RIFLE_DESERT>АС-ВАЛ Стп.|Автомат АС-ВАЛ (степной кам.)</VAL_ASSAULT_RIFLE_DESERT>
+			<VAL_ASSAULT_RIFLE_SNOW>АС-ВАЛ Зим.|Автомат АС-ВАЛ (зимний кам.)</VAL_ASSAULT_RIFLE_SNOW>
+			<VAL_ASSAULT_RIFLE_TOWN>АС-ВАЛ Гор.|Автомат АС-ВАЛ (городской кам.)</VAL_ASSAULT_RIFLE_TOWN>
+			<VAL_ASSAULT_RIFLE_WOOD>АС-ВАЛ Лес.|Автомат АС-ВАЛ (лесной кам.)</VAL_ASSAULT_RIFLE_WOOD>
+			<VAL_MAGAZINE>20 п. 9х39|Магазин на 20 патронов 9х39</VAL_MAGAZINE>
+			<VEDUN_MEDALLION>Медалион Ведуна|Медалион слепого Ведуна</VEDUN_MEDALLION>
+			<VEDUN_MEDALLION_BIG>Медалион Ведуна|Медалион Ведуна</VEDUN_MEDALLION_BIG>
+			<VEDUN_MEDALLION_GIANT>Медалион Ведуна|Медалион зрячего Ведуна</VEDUN_MEDALLION_GIANT>
+			<VERLIOK_HAND>Часть верлиоки|Лапа молодой верлиоки</VERLIOK_HAND>
+			<VERLIOK_HAND_BIG>Часть верлиоки|Лапа верлиоки</VERLIOK_HAND_BIG>
+			<VERLIOK_HAND_GIANT>Часть верлиоки|Лапа панцирной верлиоки</VERLIOK_HAND_GIANT>
+			<VIKING_HELM>Викинг|Шлем Викинг</VIKING_HELM>
+			<VIKING_HELM_SNOW>Викинг Сн.|Шлем Викинг снежный</VIKING_HELM_SNOW>
+			<VIKING_M2_HELM>Викинг м2|Шлем Викинг модифицированный</VIKING_M2_HELM>
+			<VIZIR_MASK>Визирь|Повязка Визирь</VIZIR_MASK>
+			<VOENSTAL_SUIT>ВОЕНСТАЛ гр.|Костюм группировки ВОЕНСТАЛ</VOENSTAL_SUIT>
+			<VOROT_ARMOR>Ворот|Бронежилет Ворот</VOROT_ARMOR>
+			<VSS_MOD1_CLAN_ASSAULT_RIFLE>ВСС мод.1|Элитная ВСС модифицированная</VSS_MOD1_CLAN_ASSAULT_RIFLE>
+			<VSS_SNIPER_RIFLE>ВСС|Снайперская винтовка ВСС "Винторез"</VSS_SNIPER_RIFLE>
+			<VSS_SNIPER_RIFLE_DESERT>ВСС Стп.|Автомат ВСС (степной кам.)</VSS_SNIPER_RIFLE_DESERT>
+			<VSS_SNIPER_RIFLE_SNOW>ВСС Зим.|Автомат ВСС (зимний кам.)</VSS_SNIPER_RIFLE_SNOW>
+			<VSS_SNIPER_RIFLE_TOWN>ВСС Гор.|Автомат ВСС (городской кам.)</VSS_SNIPER_RIFLE_TOWN>
+			<VSS_SNIPER_RIFLE_WOOD>ВСС Лес.|Автомат ВСС (лесной кам.)</VSS_SNIPER_RIFLE_WOOD>
+			<VYAZONKA_HAT>Вязанка|Шапка Вязанка</VYAZONKA_HAT>
+			<WALTHER_WA_2000>WA-2000|Снайперская винтовка WA-2000</WALTHER_WA_2000>
+			<WALTHER_WA_2000_DESERT>WA-2000 Стп.|Walter WA-2000 (степной кам.)</WALTHER_WA_2000_DESERT>
+			<WALTHER_WA_2000_SNOW>WA-2000 Зим.|Walter WA-2000 (зимний кам.)</WALTHER_WA_2000_SNOW>
+			<WALTHER_WA_2000_TOWN>WA-2000 Гор.|Walter WA-2000 (городской кам.)</WALTHER_WA_2000_TOWN>
+			<WALTHER_WA_2000_WOOD>WA-2000 Лес.|Walter WA-2000 (лесной кам.)</WALTHER_WA_2000_WOOD>
+			<WEAPONMAIN_BLANK> | </WEAPONMAIN_BLANK>
+			<WEAPONPISTOL_BLANK> | </WEAPONPISTOL_BLANK>
+			<WEAPON_USSR_LIGHT>Фонарь Зенит|Тактический Фонарь Зенит</WEAPON_USSR_LIGHT>
+		</Names>
+
+		<Description>
+
+			<AK74M_ASSAULT_RIFLE>Надежное оружие российского производства, прекрасно сохранившееся на многих армейских складах, откуда постепенно и распродается. Благодаря неплохой скорострельности и энергетике патрона - хорошее оружие для боя на короткой и средней дистанции, а после модификаций становится поистине грозным оружием, за что и любим сталкерами.</AK74M_ASSAULT_RIFLE>
+			<AK_102_ASSAULT_RIFLE></AK_102_ASSAULT_RIFLE>
+			<AK_107_ASSAULT_RIFLE></AK_107_ASSAULT_RIFLE>
+			<AK_47_ASSAULT_RIFLE></AK_47_ASSAULT_RIFLE>
+			<AK_47_ASSAULT_RIFLE_DESERT>Камуфлированный вариант АК-47, прекрасно подходит для ведения боя на степных и пустынных территориях</AK_47_ASSAULT_RIFLE_DESERT>
+			<AK_47_ASSAULT_RIFLE_SNOW>Камуфлированный вариант АК-47, прекрасно подходит для ведения боя на заснеженных территориях</AK_47_ASSAULT_RIFLE_SNOW>
+			<AK_47_ASSAULT_RIFLE_TOWN>Камуфлированный вариант АК-47, прекрасно подходит для ведения боя в городских условиях</AK_47_ASSAULT_RIFLE_TOWN>
+			<AK_47_ASSAULT_RIFLE_WOOD>Камуфлированный вариант АК-47, прекрасно подходит для ведения боя в лесном массиве</AK_47_ASSAULT_RIFLE_WOOD>
+			<AK_74_ASSAULT_RIFLE></AK_74_ASSAULT_RIFLE>
+			<AMMO_127x99_AP>Противотанковый патрон 12.7x99</AMMO_127x99_AP>
+			<AMMO_127x99_FMJ>Крупнокалиберный патрон для противотанковых винтовок и стационарных пулемётов</AMMO_127x99_FMJ>
+			<AMMO_12x70_FMJ>12/70 пуля для охоты на крупную дичь. Наиболее эффективен против 1,2 класса защиты.</AMMO_12x70_FMJ>
+			<AMMO_12x70_HP_12>Охотничий патрон с картечью массой 3.5г\шт. Наиболее эффективен против целей без защиты.</AMMO_12x70_HP_12>
+			<AMMO_12x70_HP_8>Охотничьи патроны 12 калибра используются для стрельбы дробью. Их можно использовать со всеми видами гладкоствольного оружия. В основном охотничьи патроны 12 калибр используются при организации охоты на дичь и мелкого пушного зверя. Так же хорошо подходит для ближнего боя с мелкими мутантами. Наиболее эффективен против целей без защиты.</AMMO_12x70_HP_8>
+			<AMMO_12x76_FMJ>12/76 пуля для охоты на крупную дичь. Наиболее эффективен против 1,2 класса защиты.</AMMO_12x76_FMJ>
+			<AMMO_12x76_HP_10>Охотничьи патроны 12 калибра повышенной мощности, используются для стрельбы дробью. В основном охотничьи патроны 12 калибра используются для ближнего боя с мелкими и средними мутантами. Наиболее эффективен против целей без защиты.</AMMO_12x76_HP_10>
+			<AMMO_12x76_HP_15>12/76 охотничий патрон с картечью массой 3.5г\шт. Наиболее эффективен против целей без защиты.</AMMO_12x76_HP_15>
+			<AMMO_40x53_HP></AMMO_40x53_HP>
+			<AMMO_545x39_AP>Бронебойный вариант 5.45x39 ПС. Наиболее эффективен против 2,3 класса защиты.</AMMO_545x39_AP>
+			<AMMO_545x39_AP_WOL>Бронебойный вариант 5.45x39 ПС с вольфрамовым сердечником. Наиболее эффективен против 2,3,4 класса защиты.</AMMO_545x39_AP_WOL>
+			<AMMO_545x39_FMJ>Промежуточный патрон российского производства, производился для автоматических винтовок типа АК-74. При проектировании патрона 5,45×39 мм разработчики учитывали опыт создания и боевого применения американского патрона 5,56×45 мм, поэтому новый патрон получился сопоставимым по эффективности, несмотря на меньшую мощность. Малокалиберная пуля с высокой начальной скоростью, обеспечивает высокую настильность траектории. Наиболее эффективен против 1,2 класса защиты.</AMMO_545x39_FMJ>
+			<AMMO_545x39_SL>Бесшумный аналог патрона 5.45x39 ПС. Наиболее эффективен против 1,2 класса защиты.</AMMO_545x39_SL>
+			<AMMO_556x45_AP>Бронебойный вариант патрона 5.56x45 NATO. Наиболее эффективен против 2,3,4 класса защиты.</AMMO_556x45_AP>
+			<AMMO_556x45_FMJ_REM>Коммерческий вариант патрона 5.56x45 NATO. Наиболее эффективен против 2,3 класса защиты.</AMMO_556x45_FMJ_REM>
+			<AMMO_556x45_FMJ_SS109>Малоимпульсный промежуточный патрон, принятый на вооружение странами НАТО. Наиболее эффективен против 1,2 класса защиты.</AMMO_556x45_FMJ_SS109>
+			<AMMO_762x25_FMJ>Пистолетный патрон, разработанный для пистолетов серии ТТ. Наиболее эффективен против 1 класса защиты.</AMMO_762x25_FMJ>
+			<AMMO_762x25_HP>Экспансивный вариант пистолетного патрона 7.62x25 мм. Наиболее эффективен против беззащитных целей.</AMMO_762x25_HP>
+			<AMMO_762x25_SL>Бесшумный вариант пистолетного патрона 7.62x25 мм</AMMO_762x25_SL>
+			<AMMO_45_ACP_FMJ>Пистолет-пулемётный патрон 7.62x38 мм. Наиболее эффективен против беззащитных целей.</AMMO_45_ACP_FMJ>
+			<AMMO_762x39_AP>Бронебойный вариант патрона 7.62x39 ПС. Наиболее эффективен против 3,4,5 класса защиты.</AMMO_762x39_AP>
+			<AMMO_762x39_FMJ>Армейский патрон разработанный для АК-47. Наиболее эффективен против 2,3 класса защиты.</AMMO_762x39_FMJ>
+			<AMMO_762x39_SL>Бесшумный вариант патрона 7.62x39 ПС. Наиболее эффективен против 2,3 класса защиты.</AMMO_762x39_SL>
+			<AMMO_762x51_AP>Бронебойный вариант патрона 7.62x51. Наиболее эффективен против 3,4,5 класса защиты.</AMMO_762x51_AP>
+			<AMMO_762x51_FMJ>Стандартный винтовочно-пулемётный боеприпас стран-участниц НАТО. Принят в 1954 году под обозначением T65, впоследствии неоднократно модернизирован. Наиболее эффективен против 2,3,4 класса защиты.</AMMO_762x51_FMJ>
+			<AMMO_762x54_AP>Снайперский патрон 7.62x54. Наиболее эффективен против 3,4,5 класса защиты.</AMMO_762x54_AP>
+			<AMMO_762x54_FMJ>Пулемётный патрон 7.62x54. Наиболее эффективен против 2,3,4 класса защиты.</AMMO_762x54_FMJ>
+			<AMMO_762x54_HP>Охотничий вариант патрона 7.62x54 калибра. Наиболее эффективен против 1,2 класса защиты.</AMMO_762x54_HP>
+			<AMMO_762x54_TEST>Трассировочные тестовые патроны 7.62x54</AMMO_762x54_TEST>
+			<AMMO_9x18_AP>Пистолетный бронебойный патрон. Наиболее эффективен против 1 класса защиты</AMMO_9x18_AP>
+			<AMMO_9x18_FMJ>Пистолетный унитарный патрон. Наиболее эффективен против беззащитных целей.</AMMO_9x18_FMJ>
+			<AMMO_9x18_FMJ_BAD>​Пистолетный патрон, который долго лежал на складе и потерял часть своих характеристик. Наиболее эффективен против беззащитных целей.</AMMO_9x18_FMJ_BAD>
+			<AMMO_9x18_HP>Экспансивный вариант патрона 9x18 ПМ. Наиболее эффективен против беззащитных целей.</AMMO_9x18_HP>
+			<AMMO_9x18_HP_POISON>Стандартный ПМовский боеприпас, снаряжаемый местными умельцами с использованием паучьего яда, благодаря чему наносит дополнительный урон противнику. Наиболее эффективен против беззащитных целей.</AMMO_9x18_HP_POISON>
+			<AMMO_9x19_AP>Бронебойный вариант патрона 9x19. Наиболее эффективен против 1 класса защиты.</AMMO_9x19_AP>
+			<AMMO_9x19_FMJ>Пистолетный унитарный патрон, разработанный в 1902 году немецким оружейником Георгом Люгером под одноимённый пистолет «Люгер-Парабеллум». Название было придумано от латинской пословицы «Хочешь мира — готовься к войне» (лат. Si vis pacem, para bellum). После Второй мировой патрон был принят на вооружение во многих странах мира, как стандартный патрон НАТО. Наиболее эффективен против беззащитных целей.</AMMO_9x19_FMJ>
+			<AMMO_9x19_HP>Экспансивный вариант патрона 9x19. Наиболее эффективен против беззащитных целей.</AMMO_9x19_HP>
+			<AMMO_357_MAGNUM_AP>Бронебойный вариант револьверного патрона .357 калибра. Наиболее эффективен против 1-2 класса защиты.</AMMO_357_MAGNUM_AP>
+			<AMMO_357_MAGNUM_FMJ>Револьверный патрон центрального воспламенения с металлической гильзой. Используется в пистолете Орел пустыни. Наиболее эффективен против беззащитных и целей с 1 классом защиты.</AMMO_357_MAGNUM_FMJ>
+			<AMMO_357_MAGNUM_HP_DOT>Экспансивный вариант револьверного патрона .357 калибра. Наиболее эффективен против беззащитных целей.</AMMO_357_MAGNUM_HP_DOT>
+			<AMMO_357_MAGNUM_HP_MAX>Экспансивный охотничий вариант револьверного патрона .357 калибра. Наиболее эффективен против беззащитных целей.</AMMO_357_MAGNUM_HP_MAX>
+			<AMMO_357_MAGNUM_HP_SAB>Экспансивный оборонительный вариант револьверного патрона .357 калибра. Наиболее эффективен против беззащитных целей.</AMMO_357_MAGNUM_HP_SAB>
+			<AMMO_9x39_AP_PAB9>Коммерческий вариант патрона 9х39 СП-6. Наиболее эффективен против 3,4,5 класса защиты.</AMMO_9x39_AP_PAB9>
+			<AMMO_9x39_AP_SP6>Наиболее эффективен против 4,5,6 класса защиты.</AMMO_9x39_AP_SP6>
+			<AMMO_9x39_FMJ_SP5>Разработан для бесшумного снайперского комплекса подразделений специального назначения. Боеприпас с дозвуковой скоростью полёта пули для винтовок ВСС и АС ВАЛ. Наиболее эффективен против 2,3,4 класса защиты.</AMMO_9x39_FMJ_SP5>
+			<AMMO_ADD_BLANK></AMMO_ADD_BLANK>
+			<AMMO_ENERGY_12V_A></AMMO_ENERGY_12V_A>
+			<AMMO_ENERGY_1V_A></AMMO_ENERGY_1V_A>
+			<AMMO_ENERGY_3V_A></AMMO_ENERGY_3V_A>
+			<AMMO_ENERGY_9V_A></AMMO_ENERGY_9V_A>
+			<AMMO_M74_HP></AMMO_M74_HP>
+			<AMMO_RPG7_AP_LUC>Гранатомётный выстрел ПГ-7ВЛ "Луч" для РПГ7. Разработан для пробивания брони.</AMMO_RPG7_AP_LUC>
+			<AMMO_RPG7_FMJ>Стандартный гранатомётный выстрел для РПГ7</AMMO_RPG7_FMJ>
+			<AMMO_RPG7_HP_OSK>Гранатомётный выстрел ОГ-7В. Предназначен для поражения живой силы на большом расстоянии, нанося повреждение множеством осколков</AMMO_RPG7_HP_OSK>
+			<AMMO_RPG7_HP_TAN>Гранатомётный выстрел ТБГ-7В "Танин". Наносит повреждения объёмным взрывом. Радиус поражения живой силы: 10 м</AMMO_RPG7_HP_TAN>
+			<ANOMALY_AK_RECIPE>Этот чертеж был скопирован из документации ЦНИИ "Точмаш" и завезен в зону некими умельцами. Отлично помогает при модернизации АК-74М.</ANOMALY_AK_RECIPE>
+			<ANOMALY_DETECTOR>Высокотехнологичный инструмент для обнаружения аномалий, благодаря встроенному тритиевому аккумулятору имеет срок работы гораздо выше срока службы деталей прибора.</ANOMALY_DETECTOR>
+			<ANOMALY_EXTRACTOR>Высокотехнологичный инструмент для изъятия артефактов из аномалии, благодаря встроенному тритиевому аккумулятору имеет срок работы гораздо выше срока службы деталей прибора. Расход батарей: 1 Вт при включении, 10 Вт при активации</ANOMALY_EXTRACTOR>
+			<ANOMALY_EXTRACTOR_CFT>Собранный из подручных средств инструмент для изъятия артефактов из аномалии, благодаря встроенному тритиевому аккумулятору имеет срок работы гораздо выше срока службы деталей прибора. Расход батарей: 5 Вт при включении, 10 Вт при активации</ANOMALY_EXTRACTOR_CFT>
+			<ANOMALY_EXTRACTOR_MODULE>Модульный магнитный захват, впаивается в костюм. Неплохой инструмент для изъятия артефактов из аномалий, однако имеет некоторые конструктивные недостатки, которые повышают расход батарей. Расход батарей: 5 Вт при включении, 15 Вт при активации</ANOMALY_EXTRACTOR_MODULE>
+			<ANOMALY_EXTRACTOR_PROTOTYPE>Устаревший прототип инструмента для изъятия артефактов из аномалии, благодаря встроенному тритиевому аккумулятору имеет срок работы гораздо выше срока службы деталей прибора. Расход батарей: 5 Вт при включении, 20 Вт при активации</ANOMALY_EXTRACTOR_PROTOTYPE>
+			<ARMOR_BLANK></ARMOR_BLANK>
+			<ARMY_BACKPACK>Стандартный армейский рюкзак использующийся в российской армии с начала 21го века. Обладает эргономичностью и хорошей вместимостью.</ARMY_BACKPACK>
+			<ARTIFACT_ADD_BLANK></ARTIFACT_ADD_BLANK>
+			<ARTIFACT_ANTIGRAV>Увеличивает скорость передвижения, но увеличивает урон от пуль</ARTIFACT_ANTIGRAV>
+			<ARTIFACT_MAREVO>Невидимый глазу сгусток материи</ARTIFACT_MAREVO>
+			<ARTIFACT_NOOB>Выглядит как "Экран", но почему-то не работает, а вес в разы больше.</ARTIFACT_NOOB>
+			<ARTIFACT_PILLOW>Увеличивает защиту от рукопашного урона, но снижает защиту от пулевого урона</ARTIFACT_PILLOW>
+			<ARTIFACT_REZINA>Поглощает радиактивность из тела вместе с кровью</ARTIFACT_REZINA>
+			<ARTIFACT_SCREEN>Увеличивает защиту от взрывного урона, но снижает защиту от рукопашного урона</ARTIFACT_SCREEN>
+			<ARTIFACT_SHIT>Увеличивает защиту от пулевого урона, но снижает защиту от взрывного урона</ARTIFACT_SHIT>
+			<ARTIFACT_STABILIZER>Снижает урон от падений в 2 раза, но снижает скорость передвижения</ARTIFACT_STABILIZER>
+			<ARTIFACT_VEZUVIY>Уникальный артефакт, который можно найти только в центре Везувия</ARTIFACT_VEZUVIY>
+			<ASSAULT1_NATO_SCOPE>Штурмовой прицел закрытого типа, был разработан в начале девяностых для Командования Сил Специальных Операций Армии США.
+				ТТХ: Оптическая кратность прицела: 1.5 х</ASSAULT1_NATO_SCOPE>
+			<ASSAULT2_NATO_SCOPE>Прицелы данной фирмы очень быстро нашли распространение в армии США и вскоре данный прицел стал официальной боевой оптикой армии США.
+				ТТХ: Оптическая кратность прицела: 1.5 х</ASSAULT2_NATO_SCOPE>
+			<ASSAULT3_NATO_SCOPE>Штурмовой прицел стран НАТО, модификация Comp-1.
+				ТТХ: Оптическая кратность прицела: 1.5 х</ASSAULT3_NATO_SCOPE>
+			<ASSAULT4_NATO_SCOPE>Коллиматорный прицел закрытого типа, более современная модификация прицела Aimpoint Comp 1. Активно используется войсками США в Афганистане).
+				ТТХ: Оптическая кратность прицела: 1.5 х</ASSAULT4_NATO_SCOPE>
+			<ATOMIC_GRENADE>Ад и погибель. Всем. Без исключений.</ATOMIC_GRENADE>
+			<AUG_A3_ASSAULT_RIFLE></AUG_A3_ASSAULT_RIFLE>
+			<AUG_HBAR_MACHINEGUN></AUG_HBAR_MACHINEGUN>
+			<BACKPACK_BLANK></BACKPACK_BLANK>
+			<BANDITO_MASK></BANDITO_MASK>
+			<BARRETT_M82A3_SNIPER_RIFLE>Снайперская винтовка против тяжёлой брони. Оптика 10Х</BARRETT_M82A3_SNIPER_RIFLE>
+			<BEAR_HEAD>Воистину достойный охотничий трофей, не чета головам обычных медведей из за кордона, на которых при должной сноровке и с рогатиной можно идти.</BEAR_HEAD>
+			<BEAR_HEAD_BIG>Воистину достойный охотничий трофей, не чета головам обычных медведей из-за периметра, на которых при должной сноровке и с рогатиной можно идти.</BEAR_HEAD_BIG>
+			<BEAR_HEAD_GIANT>Мутировавший вид медведя, представляющий особый интерес для учёных. Воистину достойный охотничий трофей, не чета головам обычных медведей из-за периметра.</BEAR_HEAD_GIANT>
+			<BERET_HAT>Головной убор, использующийся в российской армии, носится на одной половине головы.</BERET_HAT>
+			<BERET_HAT_BLUE>Головной убор, использующийся в российской армии, носится на одной половине головы.</BERET_HAT_BLUE>
+			<BERET_HAT_RED>Головной убор, использующийся в российской армии, носится на одной половине головы.</BERET_HAT_RED>
+			<BES_HAND>Пример того, что зона может сотворить с человеком.</BES_HAND>
+			<BES_HAND_BIG>Пример того, что зона может сотворить с человеком.</BES_HAND_BIG>
+			<BES_HAND_FAST>Пример того, что зона может сотворить с человеком.</BES_HAND_FAST>
+			<BINOCULAR>Полевой бинокль с призмой ПОРРО. Применялся в Советскй армии во время Великой Отечественной войны. Множество экземпляров исправно служат и по сей день.</BINOCULAR>
+			<BLYAK_CLAW>Невероятно прочный и острый. Используется как сувенир или для изготовления медицинских инструментов.</BLYAK_CLAW>
+			<BLYAK_CLAW_BIG>Невероятно прочный и острый. Используется как сувенир или для изготовления медицинских инструментов.</BLYAK_CLAW_BIG>
+			<BLYAK_CLAW_GIANT>Невероятно прочный и острый. Используется как сувенир или для изготовления медицинских инструментов.</BLYAK_CLAW_GIANT>
+			<BLYAK_TONGUE>Вызывает настоящее удивление то, что этот орган покрыт жуткими шипами.</BLYAK_TONGUE>
+			<BLYAK_TONGUE_BIG>Вызывает настоящее удивление то, что этот орган покрыт жуткими шипами.</BLYAK_TONGUE_BIG>
+			<BLYAK_TONGUE_GIANT>Вызывает настоящее удивление то, что этот орган покрыт жуткими шипами.</BLYAK_TONGUE_GIANT>
+			<BOAR_LEG>Ученые доказали, что употребление в пищу этой части мутировавшего кабана наименее опасно, по сравнению со всеми остальными мутантами.</BOAR_LEG>
+			<BOAR_LEG_BIG>Ученые доказали, что употребление в пищу этой части мутировавшего кабана наименее опасно, по сравнению со всеми остальными мутантами.</BOAR_LEG_BIG>
+			<BOAR_LEG_GIANT>Ученые доказали, что употребление в пищу этой части мутировавшего кабана наименее опасно, по сравнению со всеми остальными мутантами.</BOAR_LEG_GIANT>
+			<BOAR_TUSK>Некоторые верят, что ношение при себе клыка мутировавшего кабана приносит удачу в Зоне, как кроличья лапка за кордоном. Кто знает, может это и так.</BOAR_TUSK>
+			<BOAR_TUSK_BIG>Некоторые верят, что ношение при себе клыка мутировавшего кабана приносит удачу в Зоне, как кроличья лапка за кордоном. Кто знает, может это и так.</BOAR_TUSK_BIG>
+			<BOAR_TUSK_GIANT>Некоторые верят, что ношение при себе клыка мутировавшего кабана приносит удачу в Зоне, как кроличья лапка за кордоном. Кто знает, может это и так.</BOAR_TUSK_GIANT>
+			<BOILED_SPIDER_FOOD>Паучьи лапки, сваренные на пару, с добавлением зелени и специй. Три порции.</BOILED_SPIDER_FOOD>
+			<BOOTS_BLANK></BOOTS_BLANK>
+			<BOSS_PAUKAN_HAND>Лапа содержащая ценные свойства. Эту часть тела данного мутанта очень любят изучать ученые, поскольку она содержит весь необходимый набор генов и ферментов, отвечающих за такую мутацию.</BOSS_PAUKAN_HAND>
+			<BRUTOR_BONE>Эта кость невероятна по своему строению.</BRUTOR_BONE>
+			<BRUTOR_BONE_BIG>Эта кость невероятна по своему строению.</BRUTOR_BONE_BIG>
+			<BRUTOR_MUSCLE>Эта мышца способна остановить пулю</BRUTOR_MUSCLE>
+			<BRUTOR_MUSCLE_BIG>Эта мышца способна остановить пулю</BRUTOR_MUSCLE_BIG>
+			<CERBER_ARMOR>Тяжёлая экипировка. Бандитская экипировка</CERBER_ARMOR>
+			<CERBER_PANTS>Тяжёлая экипировка. Бандитская экипировка</CERBER_PANTS>
+			<CERBER_SHIRT>Бандитская экипировка</CERBER_SHIRT>
+			<CFT_ACETONE>Промышленный растворитель. Горюч, химически активен.</CFT_ACETONE>
+			<CFT_ANOMALY_EXTRACTOR_RECIPE>Для изготовления требуются: батарейки, стальная пластина, изолетна, провода, радиодетали</CFT_ANOMALY_EXTRACTOR_RECIPE>
+			<CFT_BEARINGS_BALL></CFT_BEARINGS_BALL>
+			<CFT_BLOWTORCH></CFT_BLOWTORCH>
+			<CFT_BLUECAP_BOTTLE>Этот химикат предназначен для промывания ран, что никак не следует из названия.</CFT_BLUECAP_BOTTLE>
+			<CFT_BROKEN_FLASHLIGHT></CFT_BROKEN_FLASHLIGHT>
+			<CFT_BROWN_BOTTLE></CFT_BROWN_BOTTLE>
+			<CFT_CAR_ACCUMULATOR>Источник тока, наполнен свинецом и серной кислотой.</CFT_CAR_ACCUMULATOR>
+			<CFT_CIGARETES_BELOMOR></CFT_CIGARETES_BELOMOR>
+			<CFT_CIGARETTES_BOX></CFT_CIGARETTES_BOX>
+			<CFT_CIGARETTES_BOX_BELAMOR>Особые сигареты, которые продаёт Бармен, добавляя в них разные части местных растений.</CFT_CIGARETTES_BOX_BELAMOR>
+			<CFT_COFE></CFT_COFE>
+			<CFT_COMPOSITEMAT1></CFT_COMPOSITEMAT1>
+			<CFT_COMPOSITEMAT2></CFT_COMPOSITEMAT2>
+			<CFT_COMPOSITEMAT3></CFT_COMPOSITEMAT3>
+			<CFT_DRAGOON_M2_ARMOR_RECIPE></CFT_DRAGOON_M2_ARMOR_RECIPE>
+			<CFT_DRUGS_BOX></CFT_DRUGS_BOX>
+			<CFT_EMPTY_BOTTLE></CFT_EMPTY_BOTTLE>
+			<CFT_EMPTY_VIAL></CFT_EMPTY_VIAL>
+			<CFT_FLASK_BLUE></CFT_FLASK_BLUE>
+			<CFT_FLASK_GREEN></CFT_FLASK_GREEN>
+			<CFT_FLASK_ORANGE></CFT_FLASK_ORANGE>
+			<CFT_FLASK_RED></CFT_FLASK_RED>
+			<CFT_FLASK_VIOLET></CFT_FLASK_VIOLET>
+			<CFT_GREASE></CFT_GREASE>
+			<CFT_GREENCAP_BOTTLE>Гремучая и очень взрывоопасная вещь. Готовая начинка для бомбы.</CFT_GREENCAP_BOTTLE>
+			<CFT_GREEN_SALT></CFT_GREEN_SALT>
+			<CFT_GREY_BOTTLE></CFT_GREY_BOTTLE>
+			<CFT_INSULATING_TAPE></CFT_INSULATING_TAPE>
+			<CFT_MAKINTOSH>Может быть использована для ремонта костюмов хим.защиты</CFT_MAKINTOSH>
+			<CFT_METALPLATE1></CFT_METALPLATE1>
+			<CFT_METALPLATE2></CFT_METALPLATE2>
+			<CFT_METALPLATE3></CFT_METALPLATE3>
+			<CFT_METALPLATE4></CFT_METALPLATE4>
+			<CFT_METAL_SHAVINGS></CFT_METAL_SHAVINGS>
+			<CFT_MICROCHIP></CFT_MICROCHIP>
+			<CFT_NEEDLES></CFT_NEEDLES>
+			<CFT_NUT></CFT_NUT>
+			<CFT_PIPE_LONG></CFT_PIPE_LONG>
+			<CFT_PIPE_SHORT></CFT_PIPE_SHORT>
+			<CFT_PIPE_THREAD></CFT_PIPE_THREAD>
+			<CFT_RADIO_PARTS></CFT_RADIO_PARTS>
+			<CFT_RADIO_PARTS2></CFT_RADIO_PARTS2>
+			<CFT_RADIO_VALVE></CFT_RADIO_VALVE>
+			<CFT_RAT_M2_ARMOR_RECIPE></CFT_RAT_M2_ARMOR_RECIPE>
+			<CFT_REDCAP_BOTTLE></CFT_REDCAP_BOTTLE>
+			<CFT_RED_SALT>Универсальное средство: можно промыть раствором рану, обеззаразить воду, использовать для приготовления взрывчатого вещества.</CFT_RED_SALT>
+			<CFT_SCALPEL_RAKE1>Заточка, сделанная из куска железа, годится в качестве ножа</CFT_SCALPEL_RAKE1>
+			<CFT_SCALPEL_RAKE2>Заточка, сделанная из куска мягкого железа, годится в качестве ножа</CFT_SCALPEL_RAKE2>
+			<CFT_SCALPEL_STEEL>Хороший скальпель для проведения технических и медицинских работ</CFT_SCALPEL_STEEL>
+			<CFT_SCALPEL_SURGICAL>Скальпель из качественного металл, предназначен для проведения сложных хирургических операций.</CFT_SCALPEL_SURGICAL>
+			<CFT_SHIM></CFT_SHIM>
+			<CFT_SPARK_PLUG></CFT_SPARK_PLUG>
+			<CFT_SPICES></CFT_SPICES>
+			<CFT_SPRING></CFT_SPRING>
+			<CFT_SPRING_SLIM></CFT_SPRING_SLIM>
+			<CFT_TARPAULIN></CFT_TARPAULIN>
+			<CFT_TASH_ARMOR_BASE></CFT_TASH_ARMOR_BASE>
+			<CFT_TASH_M2_ARMOR_RECIPE></CFT_TASH_M2_ARMOR_RECIPE>
+			<CFT_TEA_BOX></CFT_TEA_BOX>
+			<CFT_TOILET_PAPER></CFT_TOILET_PAPER>
+			<CFT_TOOLS></CFT_TOOLS>
+			<CFT_TRANSFORMATOR></CFT_TRANSFORMATOR>
+			<CFT_VIKING_M2_ARMOR_RECIPE></CFT_VIKING_M2_ARMOR_RECIPE>
+			<CFT_VITAMINES></CFT_VITAMINES>
+			<CFT_WIRES_COLOR></CFT_WIRES_COLOR>
+			<CFT_WIRES_CUPRUM></CFT_WIRES_CUPRUM>
+			<CFT_WIRES_INSULATED></CFT_WIRES_INSULATED>
+			<CFT_ZIPPO></CFT_ZIPPO>
+			<CHACK_ARMOR>Прекрасное сочетание пулестойкости, защиты от внешних воздействий и противорадиационных свойств данного бронекомплекта, сделали его любимым выбором опытных сталкеров.</CHACK_ARMOR>
+			<CHACK_PANTS>Штаны начального уровня защиты, обладая малой массой и неплохой прочностью, массово используются сталкерами при ближних вылазках и дальних рейдах в малоопасные части Зоны.</CHACK_PANTS>
+			<CHACK_SHIRT></CHACK_SHIRT>
+			<CHIMERA_CLAN_BACKPACK>Уникальный рюкзак группировки. </CHIMERA_CLAN_BACKPACK>
+			<CHIMERA_CLAN_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки.</CHIMERA_CLAN_SUIT>
+			<COLLIMATOR_USSR_SCOPE>Стандартный оптический прицел российского производства, использовавшийся на оружии с боковой планкой крепления типа "ласточкин хвост".
+				ТТХ: Оптическая кратность прицела: 1.2 х</COLLIMATOR_USSR_SCOPE>
+			<COLT_1911_PISTOL></COLT_1911_PISTOL>
+			<COLT_M16_ASSAULT_RIFLE></COLT_M16_ASSAULT_RIFLE>
+			<COLT_M4A1_ASSAULT_RIFLE></COLT_M4A1_ASSAULT_RIFLE>
+			<COOKED_BEAR_HEAD_FOOD>Голова медведя, фаршированная яблоками, картофелем и зеленью. Большой прирост сытости (макс 1 порция), перебивает все перекуски и плотные завтраки. Хватает на 90 минут.</COOKED_BEAR_HEAD_FOOD>
+			<CZ_805_CLAN_ASSAULT_RIFLE>Автомат группировки</CZ_805_CLAN_ASSAULT_RIFLE>
+			<DEASERT_EAGLE_PISTOL>Легендарный пистолет своего времени, разработанный в США и доработанный в Израиле. Использует револьверный патрон .38 калибра, что объясняет высокую энергетику выстрела. Благодаря своему весу обладает неплохой кучностью, но слишком тяжел для начинающего стрелка. Идеальное оружие ближнего боя, способен наносить урон, сравнимый с некоторыми винтовками.</DEASERT_EAGLE_PISTOL>
+			<DIPERICIS_ACETONE_RECIPE>Ацетон, перикись водорода и серная кислота из автомобильного аккумулятора.</DIPERICIS_ACETONE_RECIPE>
+			<DIS_TASH_ARMOR_RECIPE>Из бронежилета ТАШ вы получаете основу бронежилета ТАШ и стальные пластины.</DIS_TASH_ARMOR_RECIPE>
+			<DOG_HEAD>У мутировавших собак обострено чувство стадности, и более развиты все органы чувств. Так же у них сила укуса непропорциональна развитию мышечной структуры черепа, ученые долгое время бьются над этой загадкой изучая головы убитых мутантов.</DOG_HEAD>
+			<DOG_HEAD_BIG>У мутировавших собак обострено чувство стадности, и более развиты все органы чувств. Так же у них сила укуса непропорциональна развитию мышечной структуры черепа, ученые долгое время бьются над этой загадкой изучая головы убитых мутантов.</DOG_HEAD_BIG>
+			<DOG_HEAD_SMALL>У мутировавших собак обострено чувство стадности, и более развиты все органы чувств. Так же у них сила укуса непропорциональна развитию мышечной структуры черепа, ученые долгое время бьются над этой загадкой изучая головы убитых мутантов.</DOG_HEAD_SMALL>
+			<DOG_TUTHS_BIG>Зубы полярной собаки обладают непревзайдённой остротой. Для учёных эта часть собаки представляет повышенный интерес.</DOG_TUTHS_BIG>
+			<DRAGOON_ARMOR>Тяжёлая экипировка. Штурмовая броня Российского производства. Прекрасно подходит для опытных бойцов, не привыкших прятаться по укрытиям. Однако, следует с осторожностью посещать места с повышенной концентрацией аномальной активности в данном бронекомплекте.</DRAGOON_ARMOR>
+			<DRAGOON_M2_ARMOR>Улучшенный вариант бронежилета «Драгун». Штурмовая броня Российского производства. Защитит даже от пули с высокой пробивной силой, убережет от разорвавшейся гранаты, но не остановит мутанта, нацелившегося перегрызть горло. В данном бронежилете не рекомендуется посещать места скопления аномалий.</DRAGOON_M2_ARMOR>
+			<DSC_SUIT>Тяжёлая экипировка. Костюм группировки создан на основе бронежилета ТАШ, из более качественных материалов</DSC_SUIT>
+			<FAMAS_ASSAULT_RIFLE>Французская автоматическая винтовка калибра 5,56 мм, имеющая компоновку «булл-пап». Благодаря своей компактности и использованию распространенного малоимпульсного боеприпаса заслужила признание во многих сферах использования. Отличный вариант для ведения боя на средней и ближней дистанции.</FAMAS_ASSAULT_RIFLE>
+			<FAUNA_ARMOR>Усовершенствованная модель российского бронежилета. Тканевая основа пропитана специальным составом, защищающим от различных аномальных воздействий.</FAUNA_ARMOR>
+			<FLASH1_NATO_LIGHT>Фонари данного производителя славятся своей надежностью и качеством изготовления, а так же хорошей яркостью излучаемого света, из особенностей можно отметить наличие стробоскопа.</FLASH1_NATO_LIGHT>
+			<FLASH2_NATO_LIGHT></FLASH2_NATO_LIGHT>
+			<FLORA_ARMOR>Самый “ходовой” вариант индивидуальной защиты в Зоне. Некоторые составляющие бронежилета были заменены более современными материалами, за счет чего к неплохой пулестойкости добавилась и базовая защита от внешних аномальных воздействий.</FLORA_ARMOR>
+			<FN_FAL_ASSAULT_RIFLE>Бельгийская автоматическая штурмовая винтовка. По настоящему массовой ее сделало использования натовского патрона 7,62х51. Характерной особенностью, присущей подавляющему большинству модификаций, является наличие диоптрического целика и расположение мушки на передней части газоотводного устройства. Является оружием боя на средней дистанции.</FN_FAL_ASSAULT_RIFLE>
+			<FN_FAL_ASSAULT_RIFLE_DESERT>Камуфлированный вариант FN FAL, прекрасно подходит для ведения боя на степных и пустынных территориях</FN_FAL_ASSAULT_RIFLE_DESERT>
+			<FN_FAL_ASSAULT_RIFLE_SNOW>Камуфлированный вариант FN FAL, прекрасно подходит для ведения боя на заснеженных территориях</FN_FAL_ASSAULT_RIFLE_SNOW>
+			<FN_FAL_ASSAULT_RIFLE_TOWN>Камуфлированный вариант FN FAL, прекрасно подходит для ведения боя в городских условиях</FN_FAL_ASSAULT_RIFLE_TOWN>
+			<FN_FAL_ASSAULT_RIFLE_WOOD>Камуфлированный вариант FN FAL, прекрасно подходит для ведения боя в лесном массиве</FN_FAL_ASSAULT_RIFLE_WOOD>
+			<FN_SCAR_H_CLAN_ASSAULT_RIFLE>Автомат группировки Инквизиция</FN_SCAR_H_CLAN_ASSAULT_RIFLE>
+			<FRAG_GRENADE_F1>Ручная противопехотная оборонительная граната. Предназначена для поражения живой силы в оборонительном бою. Из-за значительного радиуса разлёта осколков метать её можно только из-за укрытия.</FRAG_GRENADE_F1>
+			<FRANCHI_SPAS_12_SHOTGUN></FRANCHI_SPAS_12_SHOTGUN>
+			<GADGET_ADD_BLANK></GADGET_ADD_BLANK>
+			<GLASSES_KOBRA_MASK>Обычные квадратные очки с отражающей поверхностью</GLASSES_KOBRA_MASK>
+			<GLOCK_17_PISTOL></GLOCK_17_PISTOL>
+			<GLOCK_18_PISTOL></GLOCK_18_PISTOL>
+			<GLOVES_BLANK></GLOVES_BLANK>
+			<GRAFFITY_MASK>Тряпичня повязка на лицо, в отсутствии противогаза может спасти жизнь сталкеру, попавшему в зону поражения отравляющими веществами.</GRAFFITY_MASK>
+			<GRENADE_ADD_BLANK></GRENADE_ADD_BLANK>
+			<HAKI_PANTS></HAKI_PANTS>
+			<HAKI_PANTS_SNOW>Снежный вариант куртки</HAKI_PANTS_SNOW>
+			<HAKI_SHIRT></HAKI_SHIRT>
+			<HAKI_SHIRT_SNOW>Снежный вариант куртки</HAKI_SHIRT_SNOW>
+			<HARVAT_PANTS></HARVAT_PANTS>
+			<HAT_BLANK></HAT_BLANK>
+			<HEALTH_ANTIPOISON>Противоядие в шприцах (9 шт.).</HEALTH_ANTIPOISON>
+			<HEALTH_ANTIRADIN>Очень дорогое средство для быстрого очищения организма от радиактивного заражения. Устраняет последствия лучевой болезни.</HEALTH_ANTIRADIN>
+			<HEALTH_BANDAGE>Пачка из 3-х бинтов. Может спасти жизнь при больших кровопотерях. Однако снижает эффективность использования аптечек</HEALTH_BANDAGE>
+			<HEALTH_PACK_AVERAGE>Хороший набор средств первой помощи для израненного организма, не поможет пожалуй только при летальных ранениях и алкоголизме.</HEALTH_PACK_AVERAGE>
+			<HEALTH_PACK_GREAT>Хороший набор средств первой помощи для израненного организма, не поможет пожалуй только при летальных ранениях и алкоголизме.</HEALTH_PACK_GREAT>
+			<HEALTH_PACK_LESSER>Хороший набор средств первой помощи для израненного организма, не поможет пожалуй только при летальных ранениях и алкоголизме.</HEALTH_PACK_LESSER>
+			<HEALTH_PACK_SUPER></HEALTH_PACK_SUPER>
+			<HK_416_ASSAULT_RIFLE></HK_416_ASSAULT_RIFLE>
+			<HK_417_CLAN_ASSAULT_RIFLE>Автомат группировки STORM</HK_417_CLAN_ASSAULT_RIFLE>
+			<HK_G36C_ASSAULT_RIFLE></HK_G36C_ASSAULT_RIFLE>
+			<HK_G3A_CLAN_ASSAULT_RIFLE>Автомат группировки</HK_G3A_CLAN_ASSAULT_RIFLE>
+			<HK_G3A_LAU_CLAN_ASSAULT_RIFLE>Автомат группировки</HK_G3A_LAU_CLAN_ASSAULT_RIFLE>
+			<HOMEMADE_GRENADE>Вот что получается, если в отрезок трубы, положить нужные ингридиенты. Можно сказать, что это взрывоопасный бытовой мусор.</HOMEMADE_GRENADE>
+			<HOMEMADE_GRENADE_RECIPE>Самодельная шашка позволяет изготовить из подручных средств оружие с большим радиусом поражения</HOMEMADE_GRENADE_RECIPE>
+			<INGLISH_MASK></INGLISH_MASK>
+			<INQUISITOR_CLAN_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки.</INQUISITOR_CLAN_SUIT>
+			<JACKHAMMER_MK3A1_SHOTGUN></JACKHAMMER_MK3A1_SHOTGUN>
+			<KAISER_ARMOR>Отличный крепкий бронежилет. Немецкое качество не подведет даже в самой безвыходной ситуации.</KAISER_ARMOR>
+			<KOLOBOK_BACKPACK>Старый советский туристический рюкзак. Из плюсов стоит отметить разве что низкую стоимость и простоту изготовления. Но, на безрыбье и рак - рыба, хабар же надо складывать куда-то.</KOLOBOK_BACKPACK>
+			<KOZIR_HAT></KOZIR_HAT>
+			<KURTKA_SHIRT></KURTKA_SHIRT>
+			<LONG_PANTS>Джинсы со стальными наколенниками хорошо себя зарекомендовали во многих вооруженных конфликтах. Защита коленных суставов - незаменимое подспорье как в битвах с мутантами, так и при огневом контакте с противником.</LONG_PANTS>
+			<M1014_JSCS_SHOTGUN></M1014_JSCS_SHOTGUN>
+			<M1_GARAND_RIFLE></M1_GARAND_RIFLE>
+			<M202_ROCKET_LAUNCHER></M202_ROCKET_LAUNCHER>
+			<M79_ROCKET_LAUNCHER></M79_ROCKET_LAUNCHER>
+			<MAC_10_SUBMACHINEGUN></MAC_10_SUBMACHINEGUN>
+			<MAKAROV_PISTOL>Пистолет начального уровня, но в умелых руках способен спасти жизнь опытному сталкеру. Производился в России, где состоял на вооружении в отделениях охраны правопорядка и вооруженных силах, как личное оружие офицерского состава.</MAKAROV_PISTOL>
+			<MARS_SUIT>Особая конструкция тепловых трубок позволяет выдерживать даже самые горячие аномалии, однако едва ли это защитит от пуль.</MARS_SUIT>
+			<MASK_BLANK></MASK_BLANK>
+			<MASK_SNIPE_SUIT>Тяжёлая экипировка. Костюм предназначен для скрытых операций</MASK_SNIPE_SUIT>
+			<MAYKA_ARMOR>Отличный лёгкий бронежилет. Если вы не планируете активных боевых действий и длительных экспедиций в зоны повышенной опасности, то “Майка” – Ваш выбор.</MAYKA_ARMOR>
+			<MAZAY_HAT>Сшита из меха аномальных животных, обладает повышенной защитой от их атак.</MAZAY_HAT>
+			<MISTIC_BACKPACK>Уникальный рюкзак. Побывал в аномалии и приобрёл свойство перетаскивать в разы больше веса</MISTIC_BACKPACK>
+			<MK12_SPR_SNIPER_RIFLE>Снайперская полуавтоматическая винтовка - отличное оружие швейцарского производства для начинающего снайпера. Благодаря системе буллпап, обладает компактностью, так необходимой в Зоне.  Восьмикратный прицел позволяет обнаружить противника задолго до вашего обнаружения.</MK12_SPR_SNIPER_RIFLE>
+			<MK12_SPR_SNIPER_RIFLE_DESERT>Камуфлированный вариант MK12, прекрасно подходит для ведения боя на степных и пустынных территориях</MK12_SPR_SNIPER_RIFLE_DESERT>
+			<MK12_SPR_SNIPER_RIFLE_SNOW>Камуфлированный вариант MK12, прекрасно подходит для ведения боя на заснеженных территориях</MK12_SPR_SNIPER_RIFLE_SNOW>
+			<MK12_SPR_SNIPER_RIFLE_TOWN>Камуфлированный вариант MK12, прекрасно подходит для ведения боя в городских условиях</MK12_SPR_SNIPER_RIFLE_TOWN>
+			<MK12_SPR_SNIPER_RIFLE_WOOD>Камуфлированный вариант MK12, прекрасно подходит для ведения боя в лесном массиве</MK12_SPR_SNIPER_RIFLE_WOOD>
+			<MK48_MACHINEGUN></MK48_MACHINEGUN>
+			<MK48_MACHINEGUN_TOWN></MK48_MACHINEGUN_TOWN>
+			<MK48_MACHINEGUN_WOOD></MK48_MACHINEGUN_WOOD>
+			<MOSSBERG_500_SHOTGUN></MOSSBERG_500_SHOTGUN>
+			<MP5_K_SUBMACHINEGUN></MP5_K_SUBMACHINEGUN>
+			<MP5_SUBMACHINEGUN>Пистолет-пулемет немецкого производства (установлен глушитель), обладая высокой скорострельностью и неплохой кучностью, является незаменимым оружием ближнего боя, в ввиду малой энергии патрона на средней и дальней дистанции малоэффективен.</MP5_SUBMACHINEGUN>
+			<NINJA_ARMOR>Отменный вариант для исследователей Зоны. Совокупность защиты от пуль и от внешних воздействий на первых порах сделает Ваше пребывание в аномальных местах безопасным и даже комфортным.</NINJA_ARMOR>
+			<OC_14_762_ASSAULT_RIFLE></OC_14_762_ASSAULT_RIFLE>
+			<OC_14_939_ASSAULT_RIFLE></OC_14_939_ASSAULT_RIFLE>
+			<OLD_STEW_FOOD>Банка по всей видимости из гос. запаса 40-х годов. Её содержимое может быть подозрительным.</OLD_STEW_FOOD>
+			<OMELET_ARMOR></OMELET_ARMOR>
+			<PANAMA_HAT>Излюбленный головной убор снайперов - защищает глаза от солнца и обладает защитной окраской.</PANAMA_HAT>
+			<PANTS_BLANK></PANTS_BLANK>
+			<PARTIZAN_BACKPACK>Рюкзак Партизан</PARTIZAN_BACKPACK>
+			<PARTIZAN_BACKPACK_SNOW>Рюкзак Партизан снежный вариант</PARTIZAN_BACKPACK_SNOW>
+			<PARTIZAN_PANTS></PARTIZAN_PANTS>
+			<PARTIZAN_SHIRT></PARTIZAN_SHIRT>
+			<PATCHKA_SUIT>Научный комбинезон с замкнутой системой жизнеобеспечения, очень полезен тем, что защищает от большинства физических воздействий, к сожалению обладает пониженной сопротивляемостью механическим повреждениям.</PATCHKA_SUIT>
+			<PECHENEG_CLAN_MACHINEGUN>Эксклюзивно собранный крупнокалиберный пулемёт для группировки ВОЕНСТАЛ</PECHENEG_CLAN_MACHINEGUN>
+			<PO4X34_USSR_SCOPE>Прицел был разработан специально для стрелково-гранатометного комплекса ОЦ-14 Гроза).
+				ТТХ: Оптическая кратность прицела: 4.0 х</PO4X34_USSR_SCOPE>
+			<PO6X36_USSR_SCOPE>Одна из модификаций ПСО-1 предназначенна для винтовок СВД, СВН-98 и охотничьих карабинов.
+				ТТХ: Оптическая кратность прицела: 6.0 х</PO6X36_USSR_SCOPE>
+			<POISON_BULLETS_RECIPE>Эту схему используют местные умельцы для изготовления отравленных патронов с паучьим ядом. Вам понадобится 29 экспансивных патронов 9x18 ПМ и две лапы паука.</POISON_BULLETS_RECIPE>
+			<POSP8X42_USSR_SCOPE>Оптика обеспечивает четкое и контрастное изображение при дневном свете. Корпус заполнен азотом и полностью герметичен, повышая устойчивость к воздействию факторов окружающей среды. Линзы прицела не запотевают при резкой смене температур и позволяют работу в диапазоне от -50 до +50 градусов по Цельсию. Напряжение питания подсветки сетки - 3В.
+				ТТХ: Оптическая кратность прицела: 8.0 х</POSP8X42_USSR_SCOPE>
+			<PPSH_41_SUBMACHINEGUN></PPSH_41_SUBMACHINEGUN>
+			<PPS_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки ППС</PPS_SUIT>
+			<PREDATOR_CLAN_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки.</PREDATOR_CLAN_SUIT>
+			<PRESERVES_FOOD>Еда без признаков наличия заражения. На сытый желудок легче бегается. Ящик из 9-и банок.</PRESERVES_FOOD>
+			<PSO1_USSR_SCOPE>ПСО-1 стандартный оптический прицел российского производства, использовавшийся на оружии с боковой планкой крепления типа "ласточкин хвост". Удобная сетка прицеливания позволяет оценивать расстояние до цели, используя средние значения роста противника.
+				ТТХ: Оптическая кратность прицела: 4.0 х</PSO1_USSR_SCOPE>
+			<QL_BEARINGS></QL_BEARINGS>
+			<QL_BEAR_BILE></QL_BEAR_BILE>
+			<QL_BEAR_CLAWS></QL_BEAR_CLAWS>
+			<QL_BEAR_HEAD_COOK>Интересно, в чем он будет ее готовить?</QL_BEAR_HEAD_COOK>
+			<QL_BEAR_HIDE></QL_BEAR_HIDE>
+			<QL_BEAR_OINTMENT></QL_BEAR_OINTMENT>
+			<QL_BES_ARMS></QL_BES_ARMS>
+			<QL_BLOWTORCH></QL_BLOWTORCH>
+			<QL_BLYAK_BILE></QL_BLYAK_BILE>
+			<QL_BLYAK_CLAWS></QL_BLYAK_CLAWS>
+			<QL_BLYAK_TONGUE></QL_BLYAK_TONGUE>
+			<QL_BOAR_EAR></QL_BOAR_EAR>
+			<QL_BOAR_HOOF></QL_BOAR_HOOF>
+			<QL_BOAR_LEG_COOK>Филейная часть кабана, наконец-то что-то относительно съедобное.</QL_BOAR_LEG_COOK>
+			<QL_BOAR_TAG></QL_BOAR_TAG>
+			<QL_BROKEN_BATTERY></QL_BROKEN_BATTERY>
+			<QL_BRUTOR_BONE></QL_BRUTOR_BONE>
+			<QL_BRUTOR_MUSCLE></QL_BRUTOR_MUSCLE>
+			<QL_CIGARETES_BELOMOR></QL_CIGARETES_BELOMOR>
+			<QL_CIGARETES_CASE></QL_CIGARETES_CASE>
+			<QL_COFFEE_CUP></QL_COFFEE_CUP>
+			<QL_DIPLOMAT>Очень ценный и загадочный предмет. Что он скрывает в своих недрах? Скорее всего мы никогда не узнаем.</QL_DIPLOMAT>
+			<QL_DOCUMENTS></QL_DOCUMENTS>
+			<QL_DOG_COLLAR></QL_DOG_COLLAR>
+			<QL_DOG_EAR></QL_DOG_EAR>
+			<QL_DOG_HEAD_COOK>Лобастая, как он и просил.</QL_DOG_HEAD_COOK>
+			<QL_DOG_HIDE></QL_DOG_HIDE>
+			<QL_DOG_PAW></QL_DOG_PAW>
+			<QL_DOG_TOOTHS></QL_DOG_TOOTHS>
+			<QL_EMPTY_FLASK></QL_EMPTY_FLASK>
+			<QL_GLASS_HOLDER></QL_GLASS_HOLDER>
+			<QL_GREEN_BOTTLE></QL_GREEN_BOTTLE>
+			<QL_JELLY_BRAIN></QL_JELLY_BRAIN>
+			<QL_JELLY_MUCUS></QL_JELLY_MUCUS>
+			<QL_JELLY_OFFAL></QL_JELLY_OFFAL>
+			<QL_JURIN_BACKPACK></QL_JURIN_BACKPACK>
+			<QL_MICROCHIP></QL_MICROCHIP>
+			<QL_MICROCOMPUTER></QL_MICROCOMPUTER>
+			<QL_NEW_YEAR_TOY_1></QL_NEW_YEAR_TOY_1>
+			<QL_NEW_YEAR_TOY_2></QL_NEW_YEAR_TOY_2>
+			<QL_NEW_YEAR_TOY_3></QL_NEW_YEAR_TOY_3>
+			<QL_PADDED_JACKET></QL_PADDED_JACKET>
+			<QL_RADIO_PARTS></QL_RADIO_PARTS>
+			<QL_RADIO_PARTS2></QL_RADIO_PARTS2>
+			<QL_RADIO_VALVE></QL_RADIO_VALVE>
+			<QL_RAT_CARCASE_COOK>Лучше не думать, о том, что он будет ее готовить.</QL_RAT_CARCASE_COOK>
+			<QL_RAT_SKIN></QL_RAT_SKIN>
+			<QL_RAT_SKULL></QL_RAT_SKULL>
+			<QL_RAT_TAIL></QL_RAT_TAIL>
+			<QL_ROLY_POLY></QL_ROLY_POLY>
+			<QL_ROLY_POLY2></QL_ROLY_POLY2>
+			<QL_RUBIKS_CUBE></QL_RUBIKS_CUBE>
+			<QL_RUBIKS_CUBE2></QL_RUBIKS_CUBE2>
+			<QL_SILVAN_HAIR></QL_SILVAN_HAIR>
+			<QL_SILVAN_SKIN></QL_SILVAN_SKIN>
+			<QL_SMALL_TOOLS></QL_SMALL_TOOLS>
+			<QL_SPARK_PLUG></QL_SPARK_PLUG>
+			<QL_SPICES></QL_SPICES>
+			<QL_SPIDER_COCOON></QL_SPIDER_COCOON>
+			<QL_SPIDER_GLAND></QL_SPIDER_GLAND>
+			<QL_SPIDER_GLANDWEB></QL_SPIDER_GLANDWEB>
+			<QL_SPIDER_LEG_COOK>Без бородавок, как заказывали. Но всеравно, не верится, что это можно есть.</QL_SPIDER_LEG_COOK>
+			<QL_SPIDER_MANDIBLES></QL_SPIDER_MANDIBLES>
+			<QL_SPIRIT_FLASK></QL_SPIRIT_FLASK>
+			<QL_STEW></QL_STEW>
+			<QL_TOY_BALL></QL_TOY_BALL>
+			<QL_TOY_BALL2></QL_TOY_BALL2>
+			<QL_TOY_BEAR></QL_TOY_BEAR>
+			<QL_TOY_BEAR2></QL_TOY_BEAR2>
+			<QL_VATER_FLASK></QL_VATER_FLASK>
+			<QL_VERLIOKA_EYE></QL_VERLIOKA_EYE>
+			<QL_VERLIOKA_STING></QL_VERLIOKA_STING>
+			<QL_VERLIOKA_WING></QL_VERLIOKA_WING>
+			<QL_VERLIOKA_WING_COOK>Не травмированое крыло Верлиоки. Должно быть не ядовитым...</QL_VERLIOKA_WING_COOK>
+			<RAT_ARMOR>Броня, широко используемая английскими подразделениями при подавлении беспорядков. Легкость материалов и вполне сносная защита от пуль делают этот бронежилет идеальным для исследователей.</RAT_ARMOR>
+			<RAT_M2_ARMOR>Бронежилет, широко используемый английскими подразделениями при подавлении беспорядков. Легкость материалов и сносная защита от зубов и когтей мутантов делают этот бронежилет идеальным для исследователей.</RAT_M2_ARMOR>
+			<RAT_TAIL>Этот хвост настолько большой, что ученые его скупают на опыты. Но есть подозрение, что, сорее, как сувенир.</RAT_TAIL>
+			<RAT_TAIL_BEASTLY>Этот хвост настолько большой, что ученые его скупают на опыты. Но есть подозрение, что, сорее, как сувенир.</RAT_TAIL_BEASTLY>
+			<RAT_TAIL_GIANT>Этот хвост настолько большой, что ученые его скупают на опыты. Но есть подозрение, что, сорее, как сувенир.</RAT_TAIL_GIANT>
+			<RAVENWOOD_ARMOR></RAVENWOOD_ARMOR>
+			<RAVENWOOD_HELM></RAVENWOOD_HELM>
+			<RAVENWOOD_PANTS></RAVENWOOD_PANTS>
+			<RECOMENDATION_BANDIT_BEZLIKIY>Рекомендации бандитов</RECOMENDATION_BANDIT_BEZLIKIY>
+			<RECOMENDATION_BANDIT_HROMOY>Рекомендации бандитов</RECOMENDATION_BANDIT_HROMOY>
+			<RECOMENDATION_BANDIT_KRIVOGLAZOV>Рекомендации бандитов</RECOMENDATION_BANDIT_KRIVOGLAZOV>
+			<RECOMENDATION_BANDIT_PRIZRAK>Рекомендации бандитов</RECOMENDATION_BANDIT_PRIZRAK>
+			<RECOMENDATION_BANDIT_SHEPTUN>Рекомендации бандитов</RECOMENDATION_BANDIT_SHEPTUN>
+			<RECOMENDATION_SCI_KRASNOV>Рекомендация учёных</RECOMENDATION_SCI_KRASNOV>
+			<RECOMENDATION_SCI_SELIKTEVICH>Рекомендация учёных</RECOMENDATION_SCI_SELIKTEVICH>
+			<RECOMENDATION_SCI_SHPERLING>Рекомендация учёных</RECOMENDATION_SCI_SHPERLING>
+			<RECOMENDATION_SCI_SIDOROV>Рекомендация учёных</RECOMENDATION_SCI_SIDOROV>
+			<RECOMENDATION_SCI_SIMONOV>Рекомендация учёных</RECOMENDATION_SCI_SIMONOV>
+			<RECOMENDATION_STALKER_FENIX>Рекомендации сталкеров</RECOMENDATION_STALKER_FENIX>
+			<RECOMENDATION_STALKER_KISLIY>Рекомендации сталкеров</RECOMENDATION_STALKER_KISLIY>
+			<RECOMENDATION_STALKER_MIKITYCH>Рекомендации сталкеров</RECOMENDATION_STALKER_MIKITYCH>
+			<RECOMENDATION_STALKER_SHUSTRIY>Рекомендации сталкеров</RECOMENDATION_STALKER_SHUSTRIY>
+			<RECOMENDATION_STALKER_TIHIY>Рекомендации сталкеров</RECOMENDATION_STALKER_TIHIY>
+			<RECOMENDATION_TRADE_BOCHKIN>Рекомендации торговцев</RECOMENDATION_TRADE_BOCHKIN>
+			<RECOMENDATION_TRADE_GRECHKIN>Рекомендации торговцев</RECOMENDATION_TRADE_GRECHKIN>
+			<RECOMENDATION_TRADE_OGURCOV>Рекомендации торговцев</RECOMENDATION_TRADE_OGURCOV>
+			<RECOMENDATION_TRADE_OTOVAROV>Рекомендации торговцев</RECOMENDATION_TRADE_OTOVAROV>
+			<RECOMENDATION_TRADE_PLYUSHKIN>Рекомендации торговцев</RECOMENDATION_TRADE_PLYUSHKIN>
+			<REDDOT_NATO_LIGHT>Красная лазерная указка расположенная под стволом помогает своему обладателю точнее стрелять на вскидку и от бедра, так же можно использовать для пометки целей</REDDOT_NATO_LIGHT>
+			<RED_CROSS_SUIT>Костюм группировки разработан техниками Красный Крест</RED_CROSS_SUIT>
+			<REPAIR_CERBER_ARMOR>Для восстановления требуются стальные пластины.</REPAIR_CERBER_ARMOR>
+			<REPAIR_CERBER_BODY>Для восстановления куртки требуются стальные пластины и брезент.</REPAIR_CERBER_BODY>
+			<REPAIR_CERBER_PANTS>Для восстановления требуются стальные пластины.</REPAIR_CERBER_PANTS>
+			<REPAIR_CHACK_ARMOR_RECIPE>Для восстановления нужна сама броня "Чак" (в любом состоянии) и пластины металла.</REPAIR_CHACK_ARMOR_RECIPE>
+			<REPAIR_CHACK_PANTS>Для восстановления требуются пластины металла.</REPAIR_CHACK_PANTS>
+			<REPAIR_DRAGOON_ARMOR_RECIPE>Для восстановления нужна сама броня "Драгун" (в любом состоянии) и пластины металла.</REPAIR_DRAGOON_ARMOR_RECIPE>
+			<REPAIR_DRAGOON_M2_ARMOR_RECIPE>Для восстановления нужна сама броня "Драгун" (в любом состоянии) и пластины металла. В результате получается не модифицированный Драгун</REPAIR_DRAGOON_M2_ARMOR_RECIPE>
+			<REPAIR_DSC_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_DSC_SUIT>
+			<REPAIR_FAUNA_ARMOR_RECIPE>Для восстановления нужна сама броня "Фауна" (в любом состоянии) и пластины металла.</REPAIR_FAUNA_ARMOR_RECIPE>
+			<REPAIR_FLORA_ARMOR_RECIPE>Для восстановления нужна сама броня "Флора" (в любом состоянии) и пластины металла.</REPAIR_FLORA_ARMOR_RECIPE>
+			<REPAIR_HAKI_PANTS>Для восстановления требуются пластины металла.</REPAIR_HAKI_PANTS>
+			<REPAIR_HAKI_PANTS_SNOW>Для восстановления требуются пластины металла.</REPAIR_HAKI_PANTS_SNOW>
+			<REPAIR_HARVAT_PANTS>Для восстановления требуются стальные пластины.</REPAIR_HARVAT_PANTS>
+			<REPAIR_HK_417_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_HK_417_CLAN_RECIPE>
+			<REPAIR_HK_SCAR_H_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_HK_SCAR_H_CLAN_RECIPE>
+			<REPAIR_INQUSITOR_CLAN_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_INQUSITOR_CLAN_SUIT>
+			<REPAIR_KAISER_ARMOR_RECIPE>Для восстановления нужна сама броня "Кайзер" (в любом состоянии) и пластины металла.</REPAIR_KAISER_ARMOR_RECIPE>
+			<REPAIR_KIT>Используйте этот набор для починки оружия в полевых условиях. Хотя если руки растут из жо.. то даже он вряд ли вам поможет.</REPAIR_KIT>
+			<REPAIR_LONG_PANTS>Для восстановления требуются пластины металла.</REPAIR_LONG_PANTS>
+			<REPAIR_MARS_SUIT>Для восстановления костюма понадобится прорезиненная ткань и изоляционная ленты</REPAIR_MARS_SUIT>
+			<REPAIR_MASK_SNIPE_SUIT>Для восстановления бронежилета требуются стальные пластины и брезент.</REPAIR_MASK_SNIPE_SUIT>
+			<REPAIR_MAYKA_ARMOR_RECIPE>Для восстановления нужна сама броня "Майка" (в любом состоянии) и пластины металла.</REPAIR_MAYKA_ARMOR_RECIPE>
+			<REPAIR_MK48_MACHINEGUN_TOWN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_MK48_MACHINEGUN_TOWN_RECIPE>
+			<REPAIR_MK48_MACHINEGUN_WOOD_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_MK48_MACHINEGUN_WOOD_RECIPE>
+			<REPAIR_NINJA_ARMOR_RECIPE>Для восстановления нужна сама броня "Ниндзя" (в любом состоянии) и пластины металла.</REPAIR_NINJA_ARMOR_RECIPE>
+			<REPAIR_OMELET_ARMOR_RECIPE>Для восстановления нужна сама броня "Омлет" (в любом состоянии) и пластины металла.</REPAIR_OMELET_ARMOR_RECIPE>
+			<REPAIR_PACHKA_SUIT>Для восстановления костюма понадобится прорезиненная ткань и изоляционная ленты</REPAIR_PACHKA_SUIT>
+			<REPAIR_PARTIZAN_PANTS>Для восстановления требуются пластины металла.</REPAIR_PARTIZAN_PANTS>
+			<REPAIR_PECHENEG_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_PECHENEG_CLAN_RECIPE>
+			<REPAIR_PPS_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_PPS_SUIT>
+			<REPAIR_PREDATOR_CLAN_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_PREDATOR_CLAN_SUIT>
+			<REPAIR_RARE_KIT>Содержит части от разных редких видов вооружения</REPAIR_RARE_KIT>
+			<REPAIR_RAT_ARMOR_RECIPE>Для восстановления нужна сама броня "Крыса" (в любом состоянии) и пластины металла.</REPAIR_RAT_ARMOR_RECIPE>
+			<REPAIR_RAT_M2_ARMOR_RECIPE>Для восстановления нужна сама броня (в любом состоянии) и пластины металла. В результате получается не модифицированная Железная Крыса</REPAIR_RAT_M2_ARMOR_RECIPE>
+			<REPAIR_RAVENWOOD_ARMOR>Для восстановления требуются стальные пластины.</REPAIR_RAVENWOOD_ARMOR>
+			<REPAIR_RAVENWOOD_HELM>Для восстановления требуются стальные пластины.</REPAIR_RAVENWOOD_HELM>
+			<REPAIR_RAVENWOOD_PANTS>Для восстановления требуется 3 стальных пластин.</REPAIR_RAVENWOOD_PANTS>
+			<REPAIR_RED_CROSS_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_RED_CROSS_SUIT>
+			<REPAIR_SANDAL_ARMOR_RECIPE>Для восстановления нужна сама броня "Сандал" (в любом состоянии) и пластины металла.</REPAIR_SANDAL_ARMOR_RECIPE>
+			<REPAIR_SHIZ_01_HELM>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SHIZ_01_HELM>
+			<REPAIR_SHIZ_02_HELM>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SHIZ_02_HELM>
+			<REPAIR_SHIZ_ARMOR_RECIPE>Для восстановления нужна сама броня "ШИЗ" (в любом состоянии) и стальные пластины.</REPAIR_SHIZ_ARMOR_RECIPE>
+			<REPAIR_SHIZ_PANTS>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SHIZ_PANTS>
+			<REPAIR_SHKURKA_ARMOR_RECIPE>Для восстановления нужна сама броня "Шкурка" (в любом состоянии) и пластины металла.</REPAIR_SHKURKA_ARMOR_RECIPE>
+			<REPAIR_SHPINAT_ARMOR_RECIPE>Для восстановления нужна сама броня "Шпинат" (в любом состоянии) и пластины металла.</REPAIR_SHPINAT_ARMOR_RECIPE>
+			<REPAIR_SHPINAT_ARMOR_SNOW>Для восстановления нужна сама броня "Шпинат" (в любом состоянии) и пластины металла.</REPAIR_SHPINAT_ARMOR_SNOW>
+			<REPAIR_SIGMA_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SIGMA_SUIT>
+			<REPAIR_SIG_716_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_SIG_716_CLAN_RECIPE>
+			<REPAIR_SIG_751G_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_SIG_751G_CLAN_RECIPE>
+			<REPAIR_SIG_751_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_SIG_751_RECIPE>
+			<REPAIR_SILENCE_CLAN_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SILENCE_CLAN_SUIT>
+			<REPAIR_SINGLE_MOD1_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SINGLE_MOD1_SUIT>
+			<REPAIR_SINGLE_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SINGLE_SUIT>
+			<REPAIR_SUHAR_ARMOR_RECIPE>Для восстановления нужна сама броня "Сухарь" (в любом состоянии) и пластины металла.</REPAIR_SUHAR_ARMOR_RECIPE>
+			<REPAIR_SVOBODA2_CLAN_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SVOBODA2_CLAN_SUIT>
+			<REPAIR_SVOBODA_CLAN_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_SVOBODA_CLAN_SUIT>
+			<REPAIR_SVU_A_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_SVU_A_CLAN_RECIPE>
+			<REPAIR_SVU_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_SVU_CLAN_RECIPE>
+			<REPAIR_TASH_ARMOR_RECIPE>Для восстановления нужна сама броня "ТАШ" (в любом состоянии) и стальные пластины.</REPAIR_TASH_ARMOR_RECIPE>
+			<REPAIR_TASH_ARMOR_SNOW>Для восстановления нужна сама броня "ТАШ" (в любом состоянии) и стальные пластины.</REPAIR_TASH_ARMOR_SNOW>
+			<REPAIR_TASH_M2_ARMOR_RECIPE>Для восстановления нужна сама броня "ТАШ" (в любом состоянии) и стальные пластины. В результате получается не модифицированный ТАШ</REPAIR_TASH_M2_ARMOR_RECIPE>
+			<REPAIR_TASH_PANTS>Для восстановления требуются стальные пластины.</REPAIR_TASH_PANTS>
+			<REPAIR_UGORY_SUIT>Для восстановления костюма понадобится прорезиненная ткань и изоляционная ленты</REPAIR_UGORY_SUIT>
+			<REPAIR_VIKING_HELM_SNOW>Для восстановления требуются стальные пластины.</REPAIR_VIKING_HELM_SNOW>
+			<REPAIR_VOENSTAL_SUIT>Секрет ремонта уникальной экипировки передаётся только проверенным и надёжным людям. Для восстановления экипировки требуются стальные или металлические пластины.</REPAIR_VOENSTAL_SUIT>
+			<REPAIR_VOROT_ARMOR_RECIPE>Для восстановления нужна сама броня "Ворот" (в любом состоянии) и пластины металла.</REPAIR_VOROT_ARMOR_RECIPE>
+			<REPAIR_VSS_MOD1_CLAN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_VSS_MOD1_CLAN_RECIPE>
+			<REPAIR_WALTHER_WA_2000_DESERT_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_WALTHER_WA_2000_DESERT_RECIPE>
+			<REPAIR_WALTHER_WA_2000_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_WALTHER_WA_2000_RECIPE>
+			<REPAIR_WALTHER_WA_2000_SNOW_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_WALTHER_WA_2000_SNOW_RECIPE>
+			<REPAIR_WALTHER_WA_2000_TOWN_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_WALTHER_WA_2000_TOWN_RECIPE>
+			<REPAIR_WALTHER_WA_2000_WOOD_RECIPE>Для восстановления состояния оружия требуется сломанное оружие и некоторые дополнительные запчасти.</REPAIR_WALTHER_WA_2000_WOOD_RECIPE>
+			<ROAST_BOAR_LEG_FOOD>В масле жареная кабанья нога, посыпанная перцем, солью и чесноком. Три порции. Средний прирост сытости (максимум 2 порции), перебивает перекусы. Хватает на 60 минут.</ROAST_BOAR_LEG_FOOD>
+			<ROAST_DOG_HEAD_FOOD>Собачьи головы на вертеле, обжаренные в соевом соусе и политые дешевым вином. Три порции. Малый прирост сытости (максимум 3 порции). Хватает на 30 минут.</ROAST_DOG_HEAD_FOOD>
+			<ROAST_RAT_FOOD>Сочное мясо крысы, по вкусу напоминающее скорее свинину, чем курицу. Три порции.</ROAST_RAT_FOOD>
+			<RPG7_ROCKET_LAUNCHER></RPG7_ROCKET_LAUNCHER>
+			<RUGER_MINI_14>Самозарядная винтовка производства США. Появилась благодаря попытке совместить армейскую винтовку М1 и новый в то время патрон с малой отдачей 5,56x45. В результате получилась автоматическая винтовка, пользовавшаяся популярностью в полицейских силах США (в том числе и такими крупными полицейскими формированиями, как полицейский департамент города Нью-Йорк — NYPD, и полиция штата Техас — Texas DPS), а также была популярна в качестве гражданского оружия.</RUGER_MINI_14>
+			<SAIGA_12K_SHOTGUN>Автоматический дробовик массово производившийся в России для охотничьих нужд, так же массово использовался различными охранными предприятиями. Благодаря автоматической перезарядке, способен выдать невероятный урон в ближнем бою, за что и любим сталкерами. Так же при заряжании дробью - наносит урон нескольким целям в пятне поражения.</SAIGA_12K_SHOTGUN>
+			<SANDAL_ARMOR>Превосходный вариант для снайперов и разведчиков. Легкий бронежилет не стесняет движений. Подвижные бронепластины положительно сказываются на мобильности сталкера. Следует избегать прямых попаданий из автоматов и штурмовых винтовок.</SANDAL_ARMOR>
+			<SCORPION_VZ61_SUBMACHINEGUN></SCORPION_VZ61_SUBMACHINEGUN>
+			<SEKVOYA_BACKPACK>Рюкзак, входивший в комплект материального обеспчения спецподразделений стран блока НАТО. Менее вместительный чем армейский, но гораздо удобнее и компактнее.</SEKVOYA_BACKPACK>
+			<SEKVOYA_BACKPACK_DESERT>Эксклюзивный камуфлированный рюкзак</SEKVOYA_BACKPACK_DESERT>
+			<SEKVOYA_BACKPACK_SNOW>Эксклюзивный камуфлированный рюкзак</SEKVOYA_BACKPACK_SNOW>
+			<SEKVOYA_BACKPACK_TOWN>Эксклюзивный камуфлированный рюкзак</SEKVOYA_BACKPACK_TOWN>
+			<SEKVOYA_BACKPACK_WOOD>Эксклюзивный камуфлированный рюкзак</SEKVOYA_BACKPACK_WOOD>
+			<SHIRT_BLANK></SHIRT_BLANK>
+			<SHIZ_01_HELM>“Штурмовая Индивидуальная Защита”. Вариант укрепленной бронированной тактической маски. Маска ШИЗ делает его обладателя практически неуязвимой машиной для убийства. Может выдерживать интенсивный огонь из крупнокалиберного оружия.</SHIZ_01_HELM>
+			<SHIZ_02_HELM>“Штурмовая Индивидуальная Защита”. Вариант укрепленной бронированной тактической маски. Маска ШИЗ делает его обладателя практически неуязвимой машиной для убийства. Может выдерживать интенсивный огонь из крупнокалиберного оружия.</SHIZ_02_HELM>
+			<SHIZ_ARMOR>Тяжёлая экипировка. “Штурмовая Индивидуальная Защита”. Подгоняемые индивидуально, сочленения брони торса активно защищают владельца ШИЗы от пуль, осколков, взрывов и прочих негативных воздействий. Может выдерживать интенсивный огонь из крупнокалиберного оружия.</SHIZ_ARMOR>
+			<SHIZ_PANTS>Тяжёлая экипировка. “Штурмовая Индивидуальная Защита”. Тяжёлая экипировка. Подгоняемые индивидуально, сочленения брони ног активно защищают владельца ШИЗы от пуль, осколков, взрывов и прочих негативных воздействий. Может выдерживать интенсивный огонь из крупнокалиберного оружия.</SHIZ_PANTS>
+			<SHKURKA_ARMOR>“Хоть так” – все, что можно сказать про данный бронежилет. Главный (и единственный) плюс “шкурки” – друзьям не придется собирать ваши кишки с земли.</SHKURKA_ARMOR>
+			<SHPINAT_ARMOR>Спроектирован и создан для исследования аномальных зон в условиях повышенной активности мутантов. Достаточно высокая защита от внешних воздействий и повышенная пулестойкость.</SHPINAT_ARMOR>
+			<SHPINAT_ARMOR_SNOW>Снежный вариант брони</SHPINAT_ARMOR_SNOW>
+			<SIGMA_SUIT>Тяжёлая экипировка. Костюм группировки создан на основе бронежилета Омлет, из более качественных материалов с добавлением своей системы защиты от взрыва</SIGMA_SUIT>
+			<SIG_551_ASSAULT_RIFLE></SIG_551_ASSAULT_RIFLE>
+			<SIG_716_CLAN_ASSAULT_RIFLE>Автомат группировки АTOMIC</SIG_716_CLAN_ASSAULT_RIFLE>
+			<SIG_751G_CLAN_ASSAULT_RIFLE>Автомат для скрытых операций</SIG_751G_CLAN_ASSAULT_RIFLE>
+			<SIG_751_ASSAULT_RIFLE></SIG_751_ASSAULT_RIFLE>
+			<SILENCE_CLAN_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки.</SILENCE_CLAN_SUIT>
+			<SINGLE_BACKPACK>Рюкзак одиночки на металлической раме, хорошо растягивается.</SINGLE_BACKPACK>
+			<SINGLE_MOD1_SUIT>Костюм разработан выживальщиками аномальной зоны. Дополнительно модифицирован экспериментальным сплавом.</SINGLE_MOD1_SUIT>
+			<SINGLE_SUIT>Тяжёлая экипировка. Костюм разработан выживальщиками аномальной зоны.</SINGLE_SUIT>
+			<SITES_SPECTRE_M4_SUBMACHINEGUN></SITES_SPECTRE_M4_SUBMACHINEGUN>
+			<SLONIK_MASK></SLONIK_MASK>
+			<SNIPER1_ADD_NATO_SCOPE>Охотничий прицел с большим объективов и просветлённая оптикой созданный на основе CBX-8. Добавленная оптика, позволила увеличить кратность в 1.5 раза.
+				ТТХ: Оптическая кратность прицела: 12.0 х </SNIPER1_ADD_NATO_SCOPE>
+			<SNIPER1_NATO_SCOPE>Охотничий прицел с большим объективов и просветлённая оптикой, а так же прочный пыле-влаго-непроницаемый азотозаполненный корпус и легендарная надежность - вот то, что нужно настоящему "охотнику".
+				ТТХ: Оптическая кратность прицела: 8.0 х</SNIPER1_NATO_SCOPE>
+			<SNIPER2_NATO_SCOPE>Военный снайперский прицел, для крепления на планку.
+				ТТХ: Оптическая кратность прицела: 6.0 х</SNIPER2_NATO_SCOPE>
+			<SNIPER3_NATO_SCOPE>Гражданская версия прицела от военной отличается лишь меньшим количеством уровней яркости и меньшей кратностью увеличения прицела.
+				ТТХ: Оптическая кратность прицела: 4.0 х</SNIPER3_NATO_SCOPE>
+			<SNIPER4_NATO_SCOPE>Самый обычный охотничий прицел, из особенностей стоит отметить качество производства и простоту в эксплуатации. Сделан для внутреннего рынка США.
+				ТТХ: Оптическая кратность прицела: 3.0 х</SNIPER4_NATO_SCOPE>
+			<SNIPER_VAR_RUSS_SCOPE>— Прототип? — Да, прототип. — Наш продукт? — Да, наш продукт. — А выпускать у нас будете? — Нет, но это наш продукт. Прототип.</SNIPER_VAR_RUSS_SCOPE>
+			<SPETSOVKA_SHIRT></SPETSOVKA_SHIRT>
+			<SPIDER_LEG>Пожалуй единственный трофей, остающийся после продырявливания тушки мутировавшего паука.</SPIDER_LEG>
+			<SPIDER_LEG_BEASTLY>Пожалуй единственный трофей, остающийся после продырявливания тушки мутировавшего паука.</SPIDER_LEG_BEASTLY>
+			<SPIDER_LEG_BIG>Пожалуй единственный трофей, остающийся после продырявливания тушки мутировавшего паука.</SPIDER_LEG_BIG>
+			<SPIDER_LEG_GIANT>Пожалуй единственный трофей, остающийся после продырявливания тушки мутировавшего паука.</SPIDER_LEG_GIANT>
+			<STABILIZED_AK74_ASSAULT_RIFLE>Модернизированная версия автоматической винтовки российского производства, обладает лучшей кучностью и стабильностью ствола при выстреле.</STABILIZED_AK74_ASSAULT_RIFLE>
+			<STELS_CLAN_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки.</STELS_CLAN_SUIT>
+			<STONE_GRENADE>Просто камень.</STONE_GRENADE>
+			<STORMOVKA_SHIRT>Излюбленная куртка туристов всех времен и народов, отлично защищает от непогоды и обладает малым весом, что очень полезно в дальнем походе.</STORMOVKA_SHIRT>
+			<SUHAR_ARMOR>Выбор опытных исследователей зоны. Спец-материалы и пропитка ткани спасут даже от интенсивных аномальных воздействий.</SUHAR_ARMOR>
+			<SVD_SNIPER_RIFLE></SVD_SNIPER_RIFLE>
+			<SVD_SNIPER_RIFLE_DESERT>Камуфлированный вариант СВД, прекрасно подходит для ведения боя на степных и пустынных территориях</SVD_SNIPER_RIFLE_DESERT>
+			<SVD_SNIPER_RIFLE_FALL>Камуфлированный вариант СВД, прекрасно подходит для ведения боя в лесном массиве осенью</SVD_SNIPER_RIFLE_FALL>
+			<SVD_SNIPER_RIFLE_SNOW>Камуфлированный вариант СВД, прекрасно подходит для ведения боя на заснеженных территориях</SVD_SNIPER_RIFLE_SNOW>
+			<SVD_SNIPER_RIFLE_TOWN>Камуфлированный вариант СВД, прекрасно подходит для ведения боя в городских условиях</SVD_SNIPER_RIFLE_TOWN>
+			<SVD_SNIPER_RIFLE_WOOD>Камуфлированный вариант СВД, прекрасно подходит для ведения боя в лесном массиве</SVD_SNIPER_RIFLE_WOOD>
+			<SVOBODA2_CLAN_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки.</SVOBODA2_CLAN_SUIT>
+			<SVOBODA_CLAN_SUIT>Тяжёлая экипировка. Костюм разработан техниками группировки.</SVOBODA_CLAN_SUIT>
+			<SVU_A_CLAN_SNIPER_RIFLE>Винтовка заточенная группировкой Орден Свободы под штурмовую  винтовку</SVU_A_CLAN_SNIPER_RIFLE>
+			<SVU_CLAN_SNIPER_RIFLE>Винтовка заточенная группировкой Орден Свободы под снайперскую винтовку</SVU_CLAN_SNIPER_RIFLE>
+			<TASH_ARMOR>Тяжелый английский бронежилет. Защищает практически все основные органы жизнедеятельности. Некоторые материалы были заменены с учетом аномальных внешних воздействий. Подходит даже для разминирования.</TASH_ARMOR>
+			<TASH_ARMOR_SNOW>Снежный вариант брони</TASH_ARMOR_SNOW>
+			<TASH_M2_ARMOR>Тяжелый английский бронежилет. Модифицированная версия. Защищает практически все основные органы жизнедеятельности. Впрочем, некоторые материалы были заменены с учетом внешних аномальных воздействий. ТАШ можно повредить близко разорвавшейся гранатой, но в остальном это крепкая и надежная защита.</TASH_M2_ARMOR>
+			<TASH_PANTS>Тяжёлая экипировка. Создана для ношения вместе с бронежилетом ТАШ.</TASH_PANTS>
+			<TOKAREV_TT_PISTOL></TOKAREV_TT_PISTOL>
+			<TOZ_34_SHOTGUN>Старая добрая вертикалка, с такими еще наши прадеды ходили на охоту. Массово производилась в России для нужд охотников и егерей, и до сих пор сохранилось множество исправных образцов в отличном состоянии. Благодаря системе последовательного спуска нет нужды менять положение пальца или использовать два для выстрела дуплетом. При малом количестве выстрелов без перезарядки, тем не менее выдает неплохой урон в ближнем бою, а при заряжании дробью наносит урон сразу нескольким целям в пятне поражения.</TOZ_34_SHOTGUN>
+			<UGORY_SUIT>Особая сетка из проволоки позволяет экранировать даже от самых сильных электрических разрядов.</UGORY_SUIT>
+			<UNIFORM_MED_SHIRT></UNIFORM_MED_SHIRT>
+			<UNIFORM_SCI_SHIRT></UNIFORM_SCI_SHIRT>
+			<UNIFORM_TECH_SHIRT></UNIFORM_TECH_SHIRT>
+			<UZI_SUBMACHINEGUN></UZI_SUBMACHINEGUN>
+			<VAL_ASSAULT_RIFLE>Автоматическая штурмовая винтовка российского производства. Предназначалась для  подразделений спецслужб и войск специального назначения. Оснащена интегрированным глушителем-пламегасителем, что вкупе с использованием дозвукового патрона обеспечивает необходимую скрытность.</VAL_ASSAULT_RIFLE>
+			<VAL_ASSAULT_RIFLE_DESERT>Камуфлированный вариант АС-ВАЛ, прекрасно подходит для ведения боя на степных и пустынных территориях</VAL_ASSAULT_RIFLE_DESERT>
+			<VAL_ASSAULT_RIFLE_SNOW>Камуфлированный вариант АС-ВАЛ, прекрасно подходит для ведения боя на заснеженных территориях</VAL_ASSAULT_RIFLE_SNOW>
+			<VAL_ASSAULT_RIFLE_TOWN>Камуфлированный вариант АС-ВАЛ, прекрасно подходит для ведения боя в городских условиях</VAL_ASSAULT_RIFLE_TOWN>
+			<VAL_ASSAULT_RIFLE_WOOD>Камуфлированный вариант АС-ВАЛ, прекрасно подходит для ведения боя в лесном массиве</VAL_ASSAULT_RIFLE_WOOD>
+			<VAL_MAGAZINE>Типичный магазин на 20 патронов калибра 9х39. Используется такими видами вооружения как ВСС Винторез, АС ВАЛ</VAL_MAGAZINE>
+			<VEDUN_MEDALLION>Странный предмет, который слегка подрагивает в воздухе.</VEDUN_MEDALLION>
+			<VEDUN_MEDALLION_BIG>Странный предмет, который слегка подрагивает в воздухе.</VEDUN_MEDALLION_BIG>
+			<VEDUN_MEDALLION_GIANT>Странный предмет, который слегка подрагивает в воздухе.</VEDUN_MEDALLION_GIANT>
+			<VERLIOK_HAND>Эту часть тела данного мутанта очень любят изучать ученые, поскольку она содержит весь необходимый набор генов и ферментов, отвечающих за такую мутацию.</VERLIOK_HAND>
+			<VERLIOK_HAND_BIG>Эту часть тела данного мутанта очень любят изучать ученые, поскольку она содержит весь необходимый набор генов и ферментов, отвечающих за такую мутацию.</VERLIOK_HAND_BIG>
+			<VERLIOK_HAND_GIANT>Эту часть тела данного мутанта очень любят изучать ученые, поскольку она содержит весь необходимый набор генов и ферментов, отвечающих за такую мутацию.</VERLIOK_HAND_GIANT>
+			<VIKING_HELM></VIKING_HELM>
+			<VIKING_HELM_SNOW>Снежный вариант каски</VIKING_HELM_SNOW>
+			<VIKING_M2_HELM>Улучшенный вариант каски «Викинг». Дает дополнительную защиту от пули и осколков разорвавшейся гранаты. Немецкое качество.</VIKING_M2_HELM>
+			<VIZIR_MASK></VIZIR_MASK>
+			<VOENSTAL_SUIT>Тяжёлая экипировка. Костюм группировки создан на основе бронежилета ТАШ, из более качественных материалов</VOENSTAL_SUIT>
+			<VOROT_ARMOR>Прекрасный вариант для опытных снайперов. Легкий вес и высокий уровень брони отвечают самым высоким требованиям.</VOROT_ARMOR>
+			<VSS_MOD1_CLAN_ASSAULT_RIFLE>Это прототип, существующий в единственном эксземпляре. Элитная эксклюзивно собранная для ведения боя ВСС. Уникальный образец вооружения, который достался от друга, служившего в спец. подразделении. Была улучшена в закрытом инстетуте, получив имя модификация. </VSS_MOD1_CLAN_ASSAULT_RIFLE>
+			<VSS_SNIPER_RIFLE>Бесшумная снайперская винтовка. Создана в ЦНИИ «Точмаш» в Климовске в начале 1980-х годов под руководством Петра Сердюкова. Производилась в России для подразделений спецслужб и войск специального назначения. Благодаря дозвуковому патрону и интегрированному глушителю имеет пониженную шумность и яркость вспышки выстрела, но предельная дистанция использования гораздо меньше большинства снайперских винтовок.</VSS_SNIPER_RIFLE>
+			<VSS_SNIPER_RIFLE_DESERT>Камуфлированный вариант ВСС, прекрасно подходит для ведения боя на степных и пустынных территориях</VSS_SNIPER_RIFLE_DESERT>
+			<VSS_SNIPER_RIFLE_SNOW>Камуфлированный вариант ВСС, прекрасно подходит для ведения боя на заснеженных территориях</VSS_SNIPER_RIFLE_SNOW>
+			<VSS_SNIPER_RIFLE_TOWN>Камуфлированный вариант ВСС, прекрасно подходит для ведения боя в городских условиях</VSS_SNIPER_RIFLE_TOWN>
+			<VSS_SNIPER_RIFLE_WOOD>Камуфлированный вариант ВСС, прекрасно подходит для ведения боя в лесном массиве</VSS_SNIPER_RIFLE_WOOD>
+			<VYAZONKA_HAT>Стандартная вязаная шапка, рекомендуется к ношению для упрощенного собирания мозгов после ранения.</VYAZONKA_HAT>
+			<WALTHER_WA_2000>Снайперская полуавтоматическая винтовка - отличное оружие швейцарского производства для начинающего снайпера. Благодаря системе буллпап, обладает компактностью, так необходимой в Зоне.  Восьмикратный прицел позволяет обнаружить противника задолго до вашего обнаружения.</WALTHER_WA_2000>
+			<WALTHER_WA_2000_DESERT>Камуфлированный вариант WA-2000, прекрасно подходит для ведения боя на степных и пустынных территориях</WALTHER_WA_2000_DESERT>
+			<WALTHER_WA_2000_SNOW>Камуфлированный вариант WA-2000, прекрасно подходит для ведения боя на заснеженных территориях</WALTHER_WA_2000_SNOW>
+			<WALTHER_WA_2000_TOWN>Камуфлированный вариант WA-2000, прекрасно подходит для ведения боя в городских условиях</WALTHER_WA_2000_TOWN>
+			<WALTHER_WA_2000_WOOD>Камуфлированный вариант WA-2000, прекрасно подходит для ведения боя в лесном массиве</WALTHER_WA_2000_WOOD>
+			<WEAPONMAIN_BLANK></WEAPONMAIN_BLANK>
+			<WEAPONPISTOL_BLANK></WEAPONPISTOL_BLANK>
+			<WEAPON_USSR_LIGHT>Фонарь разработанный Российской фирмой Зенит практически сразу был принят на вооружение силовых структур РФ. В простонародье называется «Зенитка» из-за яркости излучаемого света.</WEAPON_USSR_LIGHT>
+		</Description>
+
+	</Items>
+
+
+</root>

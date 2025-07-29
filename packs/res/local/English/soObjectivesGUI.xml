@@ -1,0 +1,13 @@
+<root>
+  <soGUI>
+    <STRING_97_13>Enemy base breach:</STRING_97_13>
+    <STRING_320_13>Points breached: -/-</STRING_320_13>
+    <STRING_336_13>Time left: --/--/--</STRING_336_13>
+    <STRING_368_13>Capture the flag:</STRING_368_13>
+    <STRING_461_7>Points</STRING_461_7>
+    <STRING_463_7>flag</STRING_463_7>
+    <STRING_465_53>Capture</STRING_465_53>
+    <STRING_480_50>Points breached:</STRING_480_50>
+    <STRING_539_16>Till the capture:</STRING_539_16>
+  </soGUI>
+</root>

@@ -1,0 +1,18 @@
+<root>
+  <common>
+    <FRACTION1>Пришлые</FRACTION1>
+    <FRACTION2>Коренные</FRACTION2>
+    <FRACTION3>Беженцы</FRACTION3>
+    <FRACTION4>Одиночки</FRACTION4>
+    <FRACTION5>Торговцы</FRACTION5>
+    <FRACTION6>"Свободный бартер"</FRACTION6>
+    <FRACTION7>Бандиты</FRACTION7>
+    <FRACTION8>Военные</FRACTION8>
+    <FRACTION9>"Вороний Лес"</FRACTION9>
+    <FRACTION10>Регистраторы</FRACTION10>
+    <FRACTION11>Охотники</FRACTION11>
+    <FRACTION12>Ученые</FRACTION12>
+    <FRACTION13>Сталкеры</FRACTION13>
+    <FRACTION14>"Белое Братство"</FRACTION14>
+  </common>
+</root>

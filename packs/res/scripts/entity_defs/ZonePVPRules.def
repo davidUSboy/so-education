@@ -1,0 +1,89 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> MappedObject </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</name>
+
+		<radius> 			<!--  TEMP -->
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		50.000000 			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+		<volumes>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</volumes>
+
+		<trapped>
+			<Type>			ARRAY <of>MAILBOX</of>	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</trapped>
+
+        <!-- Used while loading UDOs to count loading time -->
+		<UDOExceptionsCount>
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0 				</Default>
+		</UDOExceptionsCount>
+
+		<recentlyLeft>
+			<Type> ARRAY <of> FIXED_DICT
+					<Properties>
+						<id>
+							<Type> ENTITY_ID  </Type>
+						</id>
+						<time>
+							<Type> FLOAT64     </Type>
+						</time>
+					</Properties>
+				</of>
+			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</recentlyLeft>
+    </Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+
+		<onEnterArea>
+			<Arg>		MAILBOX	</Arg>
+		</onEnterArea>
+
+		<onLeaveArea>
+			<Arg>		MAILBOX	</Arg>
+		</onLeaveArea>
+
+        <onLeaveAreaID>
+            <Arg>		ENTITY_ID	</Arg>
+        </onLeaveAreaID>
+	</CellMethods>
+
+	<BaseMethods>
+
+	</BaseMethods>
+
+</root>

@@ -1,0 +1,18 @@
+<Spider.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>SpiderHub</nodeName>
+      <boxName>None</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>-0.200000 -0.300000 -0.300000</minBounds>
+      <maxBounds>0.200000 0.300000 0.500000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>SpiderAbdom</nodeName>
+      <boxName>None</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>0.000000 -0.600000 -0.600000</minBounds>
+      <maxBounds>1.500000 0.600000 0.600000</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Spider.xml>

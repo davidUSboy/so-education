@@ -1,0 +1,47 @@
+<capabilities.xml>
+	<state>	0
+		<name>	Unarmed </name>
+		<id> UNARMED </id>
+	</state>
+	
+	<state>	1
+		<name>	AutogunArmed </name>
+		<id> AUTOGUN_ARMED </id>
+	</state>
+	
+	<state> 2
+		<name> Crouching </name>
+		<id> CROUCHING </id>
+	</state>
+
+	<state>	3
+		<name>	Injured </name>
+		<id> INJURED </id>
+	</state>
+
+	<state> 4
+		<name> Aiming </name>
+		<id> AIMING </id>
+	</state>
+	
+	<state> 5
+		<name> Dead </name>
+		<id> DEAD </id>
+	</state>
+
+	<state> 6
+		<name> Aggressive </name>
+		<id> AGGRESSIVE </id>
+	</state>
+	
+	<state> 7
+		<name> Hidden </name>
+		<id> HIDDEN </id>
+	</state>	
+	
+	<state> 8
+		<name> NPC_DISABLE </name>
+		<id> NPC_DISABLE </id>
+	</state>	
+
+</capabilities.xml>

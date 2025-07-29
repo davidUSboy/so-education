@@ -1,0 +1,9 @@
+<root>
+	<Properties>	
+		<think_interval>
+			<Type> FLOAT </Type>
+			<Flags> CELL_PRIVATE </Flags>
+			<Default> 5 </Default>
+		</think_interval>
+	</Properties>	
+</root>

@@ -1,0 +1,119 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> ModelSelector </Interface>
+		<Interface> InteractiveObject </Interface>
+        <Interface> Teleporter </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+	
+	<!-- Teleport expects his teleportToName to be already registered in globalData by name-key in ['teleportPoints'] -->
+	
+	<Properties>
+		<radius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		5.000000			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	0.000000 255.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+		<trapped>
+			<Type>			ARRAY <of>ENTITY_ID</of>	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+		</trapped>
+		
+
+		<quest>
+			<Type>			INT32	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+			<Default>		0 				</Default>
+		</quest>
+		
+		<qEffect>
+			<Type>			STRING	</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Editable>		true			</Editable>
+		</qEffect>
+		
+		<qInactiveTime>
+			<Type>			FLOAT32	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true			</Editable>
+			<Default>		0 				</Default>
+		</qInactiveTime>
+
+		<activeFlags>
+			<Type>			INT64			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>	false			</Persistent>
+			<Editable>		false			</Editable>
+			<Default> 1 </Default>
+		</activeFlags>
+		<triggerName>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Editable>	True		 </Editable>
+		</triggerName>
+		
+		<displayName>
+			<Type> STRING            </Type>
+			<Flags> CELL_PRIVATE 		 </Flags>
+			<Editable>	True		 </Editable>
+		</displayName>
+
+		<activatesHistory>
+			<Type> ARRAY
+				<of> FIXED_DICT
+					<Properties>
+						<id>
+							<Type>  ENTITY_ID  </Type>
+						</id>
+						<time>
+							<Type>  FLOAT64    </Type>
+						</time>
+					</Properties>
+				</of>
+			</Type>
+			<Flags> CELL_PRIVATE 		 </Flags>
+		</activatesHistory>
+
+		<name>
+			<Type> UNICODE_STRING    </Type>
+			<Flags> ALL_CLIENTS 		 </Flags>
+		</name>
+
+	</Properties>
+
+	<ClientMethods>
+	
+		<startQEffect>
+			<!--Arg> INT64 </Arg-->
+		</startQEffect>
+		
+	</ClientMethods>
+
+	<CellMethods>
+		<activate>
+			<Exposed/>
+		</activate>
+
+		<startQEffect>
+		</startQEffect>
+		
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+</root>
+

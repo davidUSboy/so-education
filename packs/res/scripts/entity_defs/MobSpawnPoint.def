@@ -1,0 +1,54 @@
+<root>
+	<Implements>
+		<Interface>MobSpawner</Interface>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+	
+	<Properties>
+		<mobsCountTarget>
+			<Type>			INT32 			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		1 			</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</mobsCountTarget>
+
+		<spawnTimed>
+			<Type>			INT32 			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0 			</Default>
+		</spawnTimed>
+
+		<mobs>
+			<Type>			ARRAY <of>ENTITY_ID</of> 			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</mobs>
+		
+		<spawnTimeMin>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true			</Editable>
+			<Default>		120 			</Default>
+		</spawnTimeMin>
+		<spawnTimeMax>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Editable>		true			</Editable>
+			<Default>		300 			</Default>
+		</spawnTimeMax>
+	</Properties>
+
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

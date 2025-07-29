@@ -1,0 +1,38 @@
+<Root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		DonatBaseManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+	</Properties>
+
+	<BaseMethods>
+		<cleanup/>
+		
+		<getItemByType>
+			<Arg>		INT64		</Arg>	<!-- password -->
+			<ReturnValues>
+				<item> COMPLEX_ITEM </item>
+			</ReturnValues>
+		</getItemByType>
+
+        <test>
+			<ReturnValues>
+				<response> STRING </response>
+			</ReturnValues>
+		</test>
+	</BaseMethods>
+	
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

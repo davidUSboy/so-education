@@ -1,0 +1,50 @@
+<root>
+  <name>
+    <base_vesuvius_podgorny1>Podgornaya v. 1</base_vesuvius_podgorny1>
+    <base_vesuvius_podgorny2>Podgornaya v. 2</base_vesuvius_podgorny2>
+    <base_vesuvius_podgorny3>Podgornaya v. 3</base_vesuvius_podgorny3>
+    <base_vesuvius_lep>Base near ETL</base_vesuvius_lep>
+    <base_outlands_belaya1>Belaya v. 1</base_outlands_belaya1>
+    <base_outlands_belaya2>Belaya v. 2</base_outlands_belaya2>
+    <base_outlands_belaya3>Belaya v. 3</base_outlands_belaya3>
+    <base_outlands_helicopter>By the Helicopter</base_outlands_helicopter>
+    <base_outlands_detsad1>Kindergarten 1</base_outlands_detsad1>
+    <base_outlands_detsad2>Kindergarten 2</base_outlands_detsad2>
+    <base_outlands_suburb1>Suburb 1</base_outlands_suburb1>
+    <base_outlands_suburb2>Suburb 2</base_outlands_suburb2>
+    <base_outlands_suburb3>Suburb 3</base_outlands_suburb3>
+    <base_outlands_suburb4>Suburb 4</base_outlands_suburb4>
+    <base_outlands_suburb5>Suburb 5</base_outlands_suburb5>
+    <base_outlands_suburb6>Suburb 6</base_outlands_suburb6>
+    <base_outlands_suburb7>Suburb 7</base_outlands_suburb7>
+    <base_outlands_suburb8>Suburb 8</base_outlands_suburb8>
+    <base_outlands_suburb9>Suburb 9</base_outlands_suburb9>
+    <base_outlands_suburb10>Suburb 10</base_outlands_suburb10>
+    <base_outlands_suburb11>Suburb 11</base_outlands_suburb11>
+    <base_outlands_suburb12>Suburb 12</base_outlands_suburb12>
+  </name>
+  <location>
+    <base_vesuvius_podgorny1>Vesuvius</base_vesuvius_podgorny1>
+    <base_vesuvius_podgorny2>Vesuvius</base_vesuvius_podgorny2>
+    <base_vesuvius_podgorny3>Vesuvius</base_vesuvius_podgorny3>
+    <base_vesuvius_lep>Vesuvius</base_vesuvius_lep>
+    <base_outlands_belaya1>Belaya v. 1</base_outlands_belaya1>
+    <base_outlands_belaya2>Belaya v. 2</base_outlands_belaya2>
+    <base_outlands_belaya3>Belaya v. 3</base_outlands_belaya3>
+    <base_outlands_helicopter>By the Helicopter</base_outlands_helicopter>
+    <base_outlands_detsad1>Kindergarten 1</base_outlands_detsad1>
+    <base_outlands_detsad2>Kindergarten 2</base_outlands_detsad2>
+    <base_outlands_suburb1>Suburb 1</base_outlands_suburb1>
+    <base_outlands_suburb2>Suburb 2</base_outlands_suburb2>
+    <base_outlands_suburb3>Suburb 3</base_outlands_suburb3>
+    <base_outlands_suburb4>Suburb 4</base_outlands_suburb4>
+    <base_outlands_suburb5>Suburb 5</base_outlands_suburb5>
+    <base_outlands_suburb6>Suburb 6</base_outlands_suburb6>
+    <base_outlands_suburb7>Suburb 7</base_outlands_suburb7>
+    <base_outlands_suburb8>Suburb 8</base_outlands_suburb8>
+    <base_outlands_suburb9>Suburb 9</base_outlands_suburb9>
+    <base_outlands_suburb10>Suburb 10</base_outlands_suburb10>
+    <base_outlands_suburb11>Suburb 11</base_outlands_suburb11>
+    <base_outlands_suburb12>Suburb 12</base_outlands_suburb12>
+  </location>
+</root>

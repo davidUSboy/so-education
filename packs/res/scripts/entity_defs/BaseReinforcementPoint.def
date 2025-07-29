@@ -1,0 +1,320 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> TimerManagerCell </Interface>
+	</Implements>
+
+    <Properties>
+
+        <flagUDO>
+			<Type>			UDO_REF             </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                </Editable>
+		</flagUDO>
+
+        <volumesUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                     </Editable>
+		</volumesUDO>
+
+		<UDOExceptionsCount>
+			<Type>			UINT16			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0 				</Default>
+		</UDOExceptionsCount>
+		<radius>
+			<Type>			FLOAT 			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		5.000000 			</Default>
+			<Editable>		true			</Editable>
+			<Widget>		RADIUS						<!--  Draw sphere in world editor  --->
+				<colour>	255.000000 0.000000 0.000000 255.000000	</colour>
+				<gizmoRadius>	2				</gizmoRadius>
+			</Widget>
+		</radius>
+
+		<!--<safeRadius>-->
+			<!--<Type>			FLOAT 			</Type>-->
+			<!--<Flags>			CELL_PRIVATE			</Flags>-->
+			<!--<Default>		10.000000 			</Default>-->
+			<!--<Editable>		true			</Editable>-->
+			<!--<Widget>		RADIUS						&lt;!&ndash;  Draw sphere in world editor  -&ndash;&gt;-->
+				<!--<colour>	255.000000 0.000000 0.000000 255.000000	</colour>-->
+				<!--<gizmoRadius>	2				</gizmoRadius>-->
+			<!--</Widget>-->
+		<!--</safeRadius>-->
+
+		<!--<spawnRadius>-->
+			<!--<Type>			FLOAT 			</Type>-->
+			<!--<Flags>			CELL_PRIVATE			</Flags>-->
+			<!--<Default>		10.000000 			</Default>-->
+			<!--<Editable>		true			</Editable>-->
+			<!--<Widget>		RADIUS						&lt;!&ndash;  Draw sphere in world editor  -&ndash;&gt;-->
+				<!--<colour>	255.000000 0.000000 0.000000 255.000000	</colour>-->
+				<!--<gizmoRadius>	2				</gizmoRadius>-->
+			<!--</Widget>-->
+		<!--</spawnRadius>-->
+
+        <clanID>
+			<Type>			INT64			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </clanID>
+        <safe_zone>
+			<Type>
+                   MAILBOX
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </safe_zone>
+        <!--<flag>-->
+			<!--<Type>-->
+                   <!--MAILBOX-->
+            <!--</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+        <!--</flag>-->
+        <flag>
+			<Type>  FIXED_DICT
+                    <Properties>
+                        <mail>
+                            <Type> MAILBOX </Type>
+                        </mail>
+                        <id>
+                            <Type>  ENTITY_ID  </Type>
+                        </id>
+						<permission>
+							<Type>  ARRAY <of> ENTITY_ID </of>  </Type>
+						</permission>
+                        <state>
+                            <Type>  INT8  </Type>
+                        </state>
+                        <clanID>
+                            <Type>  INT64  </Type>
+                        </clanID>
+                        <level>
+                            <Type>  INT8  </Type>
+                        </level>
+                        <progress>
+                            <Type>  FLOAT  </Type>
+                        </progress>
+	                    <winning_clan>
+		                    <Type>  INT64  </Type>
+			            </winning_clan>
+                    </Properties>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </flag>
+	    <enemy_clans>
+            <Type>          ARRAY <of> INT64 </of>           </Type>
+			<Flags>			CELL_PRIVATE	                 </Flags>
+	    </enemy_clans>
+	    <permission>
+            <Type>          ARRAY <of> INT64 </of>           </Type>
+			<Flags>			CELL_PRIVATE	                 </Flags>
+	    </permission>
+        <state>
+			<Type>			INT8                    </Type>
+			<Flags>			CELL_PRIVATE		    </Flags>
+		</state>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE	        </Flags>
+			<Editable>      True                     </Editable>
+		</name>
+		<displayName>
+			<Type>			UNICODE_STRING			</Type>
+			<Flags>			CELL_PRIVATE	        </Flags>
+			<Editable>      True                     </Editable>
+		</displayName>
+
+	    <!--&lt;!&ndash;<t_period>&ndash;&gt;-->
+	    <t_trash>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Editable>      True            </Editable>
+	        <Default>		60.0		    </Default>
+        </t_trash>
+
+	    <!--&lt;!&ndash;<t_idle>&ndash;&gt;-->
+	    <!--<t_work>-->
+			<!--<Type>			FLOAT			</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+	        <!--<Editable>      True            </Editable>-->
+	        <!--<Default>		90.0		    </Default>-->
+        <!--</t_work>-->
+
+	    <!--&lt;!&ndash;<t_shift>&ndash;&gt;-->
+	    <!--<t_sleep>-->
+			<!--<Type>			FLOAT			</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+	        <!--<Editable>      True            </Editable>-->
+	        <!--<Default>		0.0		    </Default>-->
+        <!--</t_sleep>-->
+
+	    <!--<t_count>-->
+			<!--<Type>			INT8			</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+	        <!--<Editable>      True            </Editable>-->
+	        <!--<Default>		0.0		    </Default>-->
+        <!--</t_count>-->
+
+
+	    <time_start>
+			<Type>			ARRAY <of> STRING </of>			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Editable>      True            </Editable>
+		    <Default>			    </Default>
+	    </time_start>
+
+
+        <trapped>
+			<Type> ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <mail>
+                            <Type> MAILBOX </Type>
+                        </mail>
+                        <clanID>
+                            <Type> INT64 </Type>
+                        </clanID>
+	                    <count>
+		                    <Type> INT8 </Type>
+	                    </count>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </trapped>
+
+	    <duration_timer>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Default>		0		    </Default>
+        </duration_timer>
+
+	    <start_timer_time>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+	        <Default>		0		    </Default>
+        </start_timer_time>
+
+	    <!--<controller_id>-->
+			<!--<Type>			INT64			</Type>-->
+			<!--<Flags>			CELL_PRIVATE	</Flags>-->
+	        <!--<Default>		0		    </Default>-->
+        <!--</controller_id>-->
+
+		<neutral_point_name>
+			<Type>			STRING		                </Type>
+			<Flags>			CELL_PRIVATE	            </Flags>
+	        <Editable>      True                        </Editable>
+		</neutral_point_name>
+
+		<clanName>
+			<Type>			UNICODE_STRING		                </Type>
+			<Flags>			CELL_PRIVATE	            </Flags>
+		</clanName>
+
+	     <debug>
+			<Type> ARRAY
+				<of> FIXED_DICT
+                    <Properties>
+                        <id>
+                            <Type> ENTITY_ID </Type>
+                        </id>
+                        <key>
+                            <Type> INT8     </Type>
+                        </key>
+                        <text>
+                            <Type> UNICODE_STRING   </Type>
+                        </text>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </debug>
+
+        <npcs>
+			<Type> ARRAY <of> MAILBOX
+                </of>
+            </Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+        </npcs>
+
+        <tradersUDO>
+			<Type>			ARRAY <of> UDO_REF </of> </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                     </Editable>
+		</tradersUDO>
+
+        <safeAndRaspUDO>
+			<Type>			UDO_REF             </Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+            <Editable>      True                </Editable>
+		</safeAndRaspUDO>
+    </Properties>
+
+    <ClientMethods>
+    </ClientMethods>
+
+    <CellMethods>
+		<registerSafeZone>
+            <Arg>   MAILBOX </Arg>
+			<Arg>   STRING  </Arg>
+	    </registerSafeZone>
+
+        <registerFlag>
+            <Arg>           MAILBOX             </Arg>
+            <Arg>           INT8                </Arg>
+            <Arg>           INT64                </Arg>
+	        <Arg>           INT8                </Arg>
+        </registerFlag>
+
+	    <addClanCanCapture>
+		    <Arg>          INT64                            </Arg>
+	    </addClanCanCapture>
+
+	    <removeClanCanCapture>
+		    <Arg>          INT64                            </Arg>
+	    </removeClanCanCapture>
+
+        <onEnterArea>
+            <Arg>           MAILBOX           </Arg>
+            <Arg>           INT64               </Arg>
+        </onEnterArea>
+
+        <onLeaveArea>
+            <Arg>           ENTITY_ID           </Arg>
+        </onLeaveArea>
+
+	    <setState>
+		    <Arg>           INT8                </Arg>
+	    </setState>
+
+	    <setClanID>
+		    <Arg>           INT64                          </Arg>
+		</setClanID>
+
+	    <!--<printDebugInfo>-->
+		    <!--<Arg>           UNICODE_STRING                  </Arg>-->
+		    <!--<Arg>           MAILBOX                         </Arg>-->
+	    <!--</printDebugInfo>-->
+	    <updateEnemyClans>
+		    <Arg> ARRAY <of> INT64 </of> </Arg>
+		    <Arg>   INT64 </Arg>
+	    </updateEnemyClans>
+
+        <registerNPC>
+            <Arg>   MAILBOX </Arg>
+            <Arg>   INT64 </Arg>
+        </registerNPC>
+
+	    <updateCaptureProgress>
+		    <Arg>   ENTITY_ID </Arg>
+		    <Arg>   FLOAT   </Arg>
+		    <Arg>   INT64 </Arg>
+	    </updateCaptureProgress>
+
+    </CellMethods>
+
+    <BaseMethods>
+    </BaseMethods>
+</root>

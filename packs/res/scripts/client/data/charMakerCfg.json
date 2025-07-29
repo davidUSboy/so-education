@@ -1,0 +1,331 @@
+{
+"01_head": {
+		"1": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_01.tga", 
+				"caption": "DefaultModels.client.STRING_45_11", 
+				"head_id": 1
+				},
+		"2": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_02.tga", 
+				"caption": "DefaultModels.client.STRING_46_14", 
+				"head_id": 2
+				},
+		"3": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_03.tga", 
+				"caption": "DefaultModels.client.STRING_47_14", 
+				"head_id": 3
+				},
+		"4": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_04.tga", 
+				"caption": "DefaultModels.client.STRING_48_14", 
+				"head_id": 4
+				},
+		"5": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_49_14", 
+				"head_id": 5
+				},
+		"6": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_50_14", 
+				"head_id": 6
+				},
+		"7": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_51_14", 
+				"head_id": 7
+				},
+		"8": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_52_14", 
+				"head_id": 8
+				},
+		"9": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_53_14", 
+				"head_id": 9
+				},
+		"10": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_54_14", 
+				"head_id": 10
+				},
+		"11": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_55_14", 
+				"head_id": 11
+				},
+		"12": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_56_14", 
+				"head_id": 12
+				},
+		"13": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_57_14", 
+				"head_id": 13
+				},
+		"14": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_58_14", 
+				"head_id": 14
+				},
+		"15": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_59_14", 
+				"head_id": 15
+				},
+		"16": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_60_14", 
+				"head_id": 16
+				},
+		"17": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_61_14", 
+				"head_id": 17
+				},
+		"18": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_62_14", 
+				"head_id": 18
+				},
+		"19": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_63_14", 
+				"head_id": 19
+				},
+		"20": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_64_14", 
+				"head_id": 20
+				},
+		"21": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_65_14", 
+				"head_id": 21
+				},
+		"22": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_66_14", 
+				"head_id": 22
+				},
+		"23": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_67_14", 
+				"head_id": 23
+				},
+		"24": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_68_14", 
+				"head_id": 24
+				},
+		"25": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_69_14", 
+				"head_id": 25
+				},
+		"26": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_70_14", 
+				"head_id": 26
+				},
+		"27": {
+				"icon": "soGUI/maps/Icons/chargen/icon_head_05.tga", 
+				"caption": "DefaultModels.client.STRING_71_14", 
+				"head_id": 27
+				}
+		},
+
+"02_body":	{
+		"1": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_shtormovka.dds", 
+				"caption": "DefaultModels.client.o2_body_shtormovka", 
+				"item_type_ID": 108
+				},
+		"2": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_shtormovka.dds", 
+				"caption": "DefaultModels.client.o2_body_shtormovka_hood", 
+				"item_type_ID": 109
+				},
+		"3": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_haki.dds", 
+				"caption": "DefaultModels.client.o2_body_haki", 
+				"item_type_ID": 120
+				},
+		"4": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_haki.dds", 
+				"caption": "DefaultModels.client.o2_body_haki_hood", 
+				"item_type_ID": 121
+				},
+		"5": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_kojanka", 
+				"item_type_ID": 122
+				},
+		"6": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_smock_01", 
+				"item_type_ID": 200005
+				},
+		"7": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_smock_01_blue", 
+				"item_type_ID": 200006
+				},
+		"8": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_smock_01_green", 
+				"item_type_ID": 200007
+				},
+		"9": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_smock_01_red", 
+				"item_type_ID": 200008
+				},
+		"10": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_smock_01_yellow", 
+				"item_type_ID": 200009
+				},
+		"11": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_sweater_01", 
+				"item_type_ID": 200010
+				},
+		"12": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_sweater_01_blue", 
+				"item_type_ID": 200011
+				},
+		"13": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_sweater_01_green", 
+				"item_type_ID": 200012
+				},
+		"14": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_sweater_01_red", 
+				"item_type_ID": 200013
+				},
+		"15": {
+				"icon": "soGUI/maps/Icons/armors/icon_body_kurtka.dds", 
+				"caption": "DefaultModels.client.o2_body_sweater_01_yellow", 
+				"item_type_ID": 200014
+				}
+		},
+
+"03_palms":		{
+		"1": {
+				"icon": "soGUI/maps/Icons/armors/icon_hand_koja.dds", 
+				"caption": "DefaultModels.client.o3_palms_perch", 
+				"item_type_ID": 110247
+				},
+		"2": {
+				"icon": "soGUI/maps/Icons/armors/icon_hand_koja.dds", 
+				"caption": "DefaultModels.client.o3_palms_poluperchatki", 
+				"item_type_ID": 110248
+				},
+		"3": {
+				"icon": "soGUI/maps/Icons/armors/icon_hand_koja.dds", 
+				"caption": "DefaultModels.client.o3_palms_poluperchatki2", 
+				"item_type_ID": 110249
+				},
+		"4": {
+				"icon": "soGUI/maps/Icons/armors/icon_hand_koja.dds", 
+				"caption": "DefaultModels.client.o3_palms_usilennie", 
+				"item_type_ID": 110250
+				}
+		},
+
+"04_legs":	{
+		"1": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_longi.dds", 
+				"caption": "DefaultModels.client.o4_legs_longi", 
+				"item_type_ID": 104
+				},
+		"2": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_jeans_blue", 
+				"item_type_ID": 110256
+				},
+		"3": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_jeans_brown", 
+				"item_type_ID": 110257
+				},
+		"4": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_jeans_black", 
+				"item_type_ID": 110258
+				},
+		"5": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_jeans_green", 
+				"item_type_ID": 110259
+				},
+		"6": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_bigpants_01", 
+				"item_type_ID": 200200
+				},
+		"7": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_bigpants_01_gray", 
+				"item_type_ID": 200201
+				},
+		"8": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_jeans_01", 
+				"item_type_ID": 200205
+				},
+		"9": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_bigpants_01_gray", 
+				"item_type_ID": 200206
+				},
+		"10": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_pants_01", 
+				"item_type_ID": 200210
+				},
+		"11": {
+				"icon": "soGUI/maps/Icons/armors/icon_legs_djinsy.dds", 
+				"caption": "DefaultModels.client.o4_legs_pants_01_gray", 
+				"item_type_ID": 200211
+				}
+		},
+
+"05_feet":	{
+		"1": {
+				"icon": "soGUI/maps/Icons/armors/icon_boots_bertsi.dds", 
+				"caption": "DefaultModels.client.o5_feet_bertci_m1", 
+				"item_type_ID": 110251
+				},
+		"2": {
+				"icon": "soGUI/maps/Icons/armors/icon_boots_bertsi.dds", 
+				"caption": "DefaultModels.client.o5_feet_bertci_m2", 
+				"item_type_ID": 110252
+				},
+		"3": {
+				"icon": "soGUI/maps/Icons/armors/icon_boots_bertsi.dds", 
+				"caption": "DefaultModels.client.o5_feet_bertci_m3", 
+				"item_type_ID": 110253
+				},
+		"4": {
+				"icon": "soGUI/maps/Icons/armors/icon_boots_bertsi.dds", 
+				"caption": "DefaultModels.client.o5_feet_bertci_m4", 
+				"item_type_ID": 110254
+				},
+		"5": {
+				"icon": "soGUI/maps/Icons/armors/icon_boots_botinok.dds", 
+				"caption": "DefaultModels.client.o5_feet_botinki", 
+				"item_type_ID": 110255
+				},
+		"5": {
+				"icon": "soGUI/maps/Icons/armors/icon_boots_botinok.dds", 
+				"caption": "DefaultModels.client.o5_feet_botinki", 
+				"item_type_ID": 200650
+				}
+		}
+}

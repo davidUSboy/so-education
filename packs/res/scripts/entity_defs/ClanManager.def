@@ -1,0 +1,562 @@
+<Root>
+	<Implements>
+		<Interface> TimerManagerBase </Interface>
+	</Implements>
+	<Properties>
+		<!--	Globally registered name. -->
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		ClanManager	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+
+		<clans> 
+			<Type>ARRAY <of>CLAN_ENTRY</of></Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</clans>
+		
+		<lastClanID>
+			<Type>			INT64			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</lastClanID>
+		
+		<pendingInvites>
+			<Type>ARRAY <of>CLAN_INVITE_ENTRY</of></Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</pendingInvites>
+		
+		<wares>
+			<Type> ARRAY <of> CLANWAREHOUSE </of> </Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</wares>
+		
+		<areaControl>
+				<Type> ARRAY <of>FIXED_DICT
+					<Properties>
+						<clanID>
+							<Type> INT64 </Type>
+							<Flags> BASE </Flags>
+							<Persistent> true </Persistent>
+						</clanID>
+
+						<name>
+							<Type> STRING </Type>
+							<Flags> BASE </Flags>
+							<Persistent> true </Persistent>
+						</name>
+						<time>
+							<Type> FLOAT64 </Type>
+							<Flags> BASE </Flags>
+							<Persistent> true </Persistent>
+						</time>
+					</Properties>
+					</of>
+				</Type>
+				<Flags> BASE </Flags>
+				<Persistent> true </Persistent>
+		</areaControl>
+
+		<areaWarTimes>
+				<Type> ARRAY <of>FIXED_DICT
+					<Properties>
+						<name>
+							<Type> STRING </Type>
+						</name>
+						<pvpTimeSet>
+							<Type> ARRAY <of>AREA_PVP_DAY_TIME_SETTING</of><size>7</size> </Type>
+						</pvpTimeSet>
+					</Properties>
+					</of>
+				</Type>
+				<Flags> BASE </Flags>
+				<Persistent> true </Persistent>
+		</areaWarTimes>
+		
+		<areaNPCs>
+				<Type> ARRAY <of>AREA_NPC_ENTRY</of> </Type>
+				<Flags> BASE </Flags>
+				<Persistent> False </Persistent>
+		</areaNPCs>
+		
+		<clanAreas>
+				<Type> ARRAY <of>CLAN_AREA_ENTRY</of> </Type>
+				<Flags> BASE </Flags>
+				<Persistent> False </Persistent>
+		</clanAreas>
+		
+		<users>
+				<Type> ARRAY <of>QUESTS_GROUP_LOGGED</of> </Type>
+				<Flags> BASE </Flags>
+		</users>
+
+		<!--Base capture-->
+
+
+		<reinfMails>
+			<Type> ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <mail>
+                            <Type> MAILBOX </Type>
+                        </mail>
+						<name>
+							<Type> STRING </Type>
+						</name>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			BASE	</Flags>
+		</reinfMails>
+
+
+        <reinfPoints>
+			<Type> ARRAY <of> FIXED_DICT
+                    <Properties>
+                        <clanID>
+                            <Type> INT64 </Type>
+                        </clanID>
+						<name>
+							<Type> STRING </Type>
+						</name>
+                    </Properties>
+                </of>
+            </Type>
+			<Flags>			BASE	</Flags>
+	        <Persistent> true </Persistent>
+        </reinfPoints>
+
+
+		<bases>
+			<Type> ARRAY <of>FIXED_DICT
+				<Properties>
+					<clanID>
+						<Type> INT64 </Type>
+					</clanID>
+					<name>
+						<Type> STRING </Type>
+					</name>
+				</Properties>
+				</of>
+			</Type>
+			<Flags> BASE </Flags>
+			<Persistent> true </Persistent>
+		</bases>
+
+		<listToBan>
+			<Type> ARRAY <of> INT64  </of>			</Type>
+			<Flags> BASE </Flags>
+			<Persistent> true </Persistent>
+		</listToBan>
+
+		<debug_actions>
+			<Type>			INT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>	      0			    </Default>
+			<Persistent>	true			</Persistent>
+		</debug_actions>
+	</Properties>
+
+	<BaseMethods>
+	
+		<isCanBuyInClanShop>
+			<Arg> 			STRING 			</Arg> 
+			<Arg> 			STRING 			</Arg> 
+			<Arg> 			MAILBOX 		</Arg> 
+		</isCanBuyInClanShop>
+	
+		<registerClan>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			STRING 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</registerClan>
+		
+		<joinClan> <!-- only if invited with registerInvite first and accepted; call unregisterInvite if invite is not accepted -->
+			<Arg>			INT64					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</joinClan>
+		
+		<leaveClan>
+			<Arg>			INT64					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</leaveClan>
+		
+		<destroyClan>
+			<Arg>			INT64					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</destroyClan>
+		
+<!--		<registerInvite>
+			<Arg>			INT64					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</registerInvite>
+		
+		<unregisterInvite>
+			<Arg>			INT64					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</unregisterInvite>
+-->		
+		<clanLogin>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			STRING 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</clanLogin>
+		
+		<clanKick>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> <!-- kicker -->
+			<Arg> 			MAILBOX 			</Arg> 
+			<Arg> 			STRING 			</Arg> <!-- name -->
+		</clanKick>
+		<clanKickWithReason>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> <!-- kicker -->
+			<Arg> 			MAILBOX 			</Arg> 
+			<Arg> 			STRING 			</Arg> <!-- name -->
+			<Arg> 			STRING 			</Arg> <!-- reason -->
+		</clanKickWithReason>
+		
+		<clanLogout>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+		</clanLogout>
+		
+		<clanTalk>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			STRING 			</Arg> 
+		</clanTalk>
+		
+		
+		<clanInvite>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> <!-- inviter DBID -->
+			<Arg>			MAILBOX			</Arg> <!-- inviter (for reject/accept notice) -->
+			<Arg>			MAILBOX			</Arg> <!-- invited (for base.confirmNotice) -->
+		</clanInvite>
+		
+		<noticeResponse>
+			<Arg> 			INT64 			</Arg> <!-- type id -->
+			<Arg> 			INT64 			</Arg> <!-- response id -->
+			<Arg>			INT64			</Arg> <!-- result -->
+			<Arg>			MAILBOX			</Arg> <!-- noticeFromMbox -->
+			<Arg>			DBID			</Arg> <!-- dbid -->
+			<Arg>			STRING			</Arg> <!-- name -->
+		</noticeResponse>
+
+        <commandGMSetClanLeader>
+            <Arg>			STRING			</Arg> <!-- clan_name -->
+            <Arg>			STRING			</Arg> <!-- user_name -->
+            <Arg>			MAILBOX			</Arg> <!-- noticeFromMbox -->
+        </commandGMSetClanLeader>
+		
+		<setRank>
+			<Arg>			INT64					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg>			INT32					</Arg>
+			<Arg> 			MAILBOX 			</Arg> 
+		</setRank>
+		
+		<setRankName>
+			<Arg>			INT64					</Arg>
+			<Arg>			INT32					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			STRING 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</setRankName>
+		
+		<setRankOptions>
+			<Arg>			INT64					</Arg>
+			<Arg>			INT32					</Arg>
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			UINT64 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</setRankOptions>
+		
+		<addClanReward>
+			<Arg>			INT64					</Arg> <!-- clanID -->
+			<Arg>			INT32					</Arg> <!-- reward type -->
+			<Arg>			INT64					</Arg> <!-- reward value -->
+		</addClanReward>
+		
+		<clanOnlineForQuests>
+			<Arg>			INT64					</Arg>
+		</clanOnlineForQuests>
+	<!--
+	def registerClan(self, ownerDBID, name, callback):
+	def destroyClan(self, id, callback):
+	def setRank(self, clanID, setterID, rankedID, rank):
+	def setRankName(self, clanID, rankID, setterID, newName):
+	def setRankOptions(self, clanID, rankID, setterID, newOptions):
+	def getClanName(self, id, callback):
+	def getClanID(self, name, callback):
+	def joinClan(self, id, joinerDBID, callback):
+	def registerInvite(self, clanID, joinerDBID)
+	def unregisterInvite(self, clanID, joinerDBID)
+	def leaveClan(self, id, leaverDBID, callback):
+	-->
+	
+		<clanRoster>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</clanRoster>
+		
+		<startWar>
+			<Arg> 			INT64 			</Arg> <!-- clan ID -->
+			<Arg> 			DATABASE_ID 			</Arg> <!-- declarer DBID -->
+			<Arg> 			MAILBOX 			</Arg> 
+			<Arg>			STRING </Arg> <!-- clan name to declare war to -->
+		</startWar>
+		
+		<stopWar>
+			<Arg> 			INT64 			</Arg> <!-- clan ID -->
+			<Arg> 			DATABASE_ID 			</Arg> <!-- declarer DBID -->
+			<Arg> 			MAILBOX 			</Arg> 
+			<Arg>			STRING </Arg> <!-- clan name to stop war with -->
+		</stopWar>
+		
+		<checkWar>
+			<Arg> 			INT64 			</Arg> <!-- clan ID -->
+			<Arg> 			MAILBOX 			</Arg> <!-- mailbox to call .setClanEnemies (on cell) -->
+		</checkWar>
+		
+		<clanPromote>
+			<Arg>			INT64					</Arg> <!-- clan ID -->
+			<Arg>			STRING					</Arg> <!-- name of promoted member -->
+			<Arg> 			DATABASE_ID 			</Arg> <!-- promoterDBID -->
+			<Arg> 			MAILBOX 			</Arg> <!-- promoterMbox -->
+		</clanPromote>
+		
+		<clanLeader>
+			<Arg>			INT64					</Arg> <!-- clan ID -->
+			<Arg>			STRING					</Arg> <!-- name of promoted member -->
+			<Arg> 			DATABASE_ID 			</Arg> <!-- promoterDBID -->
+			<Arg> 			MAILBOX 			</Arg> <!-- promoterMbox -->
+		</clanLeader>
+		
+		<clanDemote>
+			<Arg>			INT64					</Arg> <!-- clan ID -->
+			<Arg>			STRING					</Arg> <!-- name of demoted member -->
+			<Arg> 			DATABASE_ID 			</Arg> <!-- promoterDBID -->
+			<Arg> 			MAILBOX 			</Arg> <!-- promoterMbox -->
+		</clanDemote>
+		
+		<cleanup/>
+		
+		<clanBaseStatus>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+		</clanBaseStatus>
+		
+		<clanBaseHire>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+			<Arg>			STRING				</Arg>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+		</clanBaseHire>
+		
+		<clanBaseFire>
+			<Arg> 			INT64 			</Arg> 
+			<Arg> 			DATABASE_ID 			</Arg> 
+			<Arg> 			MAILBOX 			</Arg> 
+			<Arg>			STRING				</Arg>
+			<Arg>			INT32				</Arg>
+			<Arg>			INT32				</Arg>
+		</clanBaseFire>
+		
+
+		<registerAreaControl>
+			<Arg> 			INT64 			</Arg> <!-- clan ID -->
+			<Arg> 			STRING 			</Arg> <!-- area name -->
+			<Arg> 			MAILBOX 			</Arg> <!-- area base mailbox -->
+			<Arg>			FLOAT64 		</Arg> <!-- pvp end time, restored later -->
+		</registerAreaControl>
+		
+		<getAreaControl>
+			<Arg> 			STRING 			</Arg> <!-- area name -->
+			<Arg> 			MAILBOX 			</Arg> <!-- area mailbox -->
+		</getAreaControl>
+		
+		<registerAreaNPC>
+			<Arg> 			STRING 			</Arg> <!-- area name -->
+			<Arg> 	BASE_NPC_SOURCE_POINT </Arg> <!-- NPC Source Point -->
+		</registerAreaNPC>
+		
+		<updateAreaNPCStatus>
+			<Arg> 	STRING 	</Arg> <!-- area name -->
+			<Arg> BASE_NPC_STATUS </Arg> 
+		</updateAreaNPCStatus>
+		
+		<remMail>
+			<Arg> DBID </Arg> 
+		</remMail>
+
+        <commandGMStopWar>
+            <Arg> STRING </Arg>
+        </commandGMStopWar>
+
+		<registerReinfPoint>
+			<Arg> MAILBOX </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> STRING </Arg>
+		</registerReinfPoint>
+
+		<registerBase>
+			<Arg> STRING    </Arg>
+			<Arg> INT64     </Arg>
+			<Arg> MAILBOX   </Arg>
+		</registerBase>
+
+		<startCapture>
+			<Arg> STRING    </Arg>
+		</startCapture>
+
+		<banClan>
+			<Arg> STRING    </Arg>
+			<Arg> INT8      </Arg>
+		</banClan>
+
+		<clanRename>
+			<Arg>             STRING             </Arg> <!-- old name -->
+			<Arg>             STRING             </Arg> <!-- new name -->
+		</clanRename>
+
+
+		<console_clanRename>
+			<Arg>             STRING             </Arg> <!-- old name -->
+			<Arg>             STRING             </Arg> <!-- new name -->
+		</console_clanRename>
+
+		<webClanRename>
+			<Arg>             STRING             </Arg> <!-- old name -->
+			<Arg>             STRING             </Arg> <!-- new name -->
+			<ReturnValues>
+				<success>             BOOL         </success>
+				<errMsg>             STRING         </errMsg>
+			</ReturnValues>
+		</webClanRename>
+
+		<webRenameCounter>
+			<Arg>             STRING             </Arg> <!-- new name -->
+			<ReturnValues>
+				<success>             BOOL         </success>
+				<count>             INT8         </count>
+				<errMsg>            STRING         </errMsg>
+			</ReturnValues>
+		</webRenameCounter>
+		
+		<isClanLeader>
+			<Arg>              INT64         </Arg>
+			<Arg>              INT64         </Arg>
+			<Arg>			  MAILBOX			</Arg>
+		</isClanLeader>
+		
+		<addItemToWarehouse>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> COMPLEX_ITEM </Arg>
+		</addItemToWarehouse>
+		
+		<removeItemFromWarehouse>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> COMPLEX_ITEM </Arg>
+		</removeItemFromWarehouse>
+		
+		<addDonateBase>
+			<Arg> INT64 </Arg>
+			<Arg> STRING </Arg>
+		</addDonateBase>
+		
+		<deleteClan>
+			<Arg> STRING </Arg>
+		</deleteClan>
+		
+		<getWarehouse>
+			<Arg> MAILBOX </Arg>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+		</getWarehouse>
+		
+		<addMoney>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> INT64 </Arg>
+		</addMoney>
+		
+		<removeMoney>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> INT64 </Arg>
+		</removeMoney>
+		
+		<addGold>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> INT64 </Arg>
+		</addGold>
+		
+		<removeGold>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+			<Arg> INT64 </Arg>
+		</removeGold>
+		
+		<removeAllItems>
+			<Arg> STRING </Arg>
+			<Arg> INT64 </Arg>
+		</removeAllItems>
+		
+		<remove_deposit>
+            <Arg> MAILBOX	</Arg>
+			<Arg> STRING </Arg>
+            <Arg> INT64	</Arg>
+			<Arg> INT64 </Arg>
+			<Arg> STRING </Arg>
+        </remove_deposit>
+		
+		<pay>
+			<Arg> STRING </Arg>
+            <Arg> INT64	</Arg>
+			<Arg> FIXED_DICT
+                    <Properties>
+                        <money>
+                            <Type> INT64 </Type>
+                        </money>
+						<gold>
+							<Type> INT64 </Type>
+						</gold>
+                    </Properties> </Arg>
+			<Arg> STRING </Arg>
+        </pay>
+		
+		<registerDonateBase>
+			<Arg> INT64	</Arg>
+		</registerDonateBase>
+		
+		<removeDonateBase>
+			<Arg> INT64	</Arg>
+		</removeDonateBase>
+	</BaseMethods>
+
+	<!-- No cell methods -->
+	<CellMethods/>
+
+	<!-- No client methods -->
+	<ClientMethods/>
+</Root>

@@ -1,0 +1,165 @@
+<root>
+
+	<Domain>	CLIENT	</Domain>
+	<Properties>
+		
+		<pointType>
+			<Type>			ENUM			</Type><!-- test -->
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Editable>		true			</Editable>
+			<Default> 0 </Default>
+
+			<Widget>ENUM
+			<enum>
+				<value>0</value>
+				<display> Предмет </display>
+			</enum>
+			<enum>
+				<value>1</value>
+				<display> Контейнер </display>
+			</enum>
+			</Widget>
+		</pointType>
+		
+		
+		<modelSelect>
+			<Type>			ENUM			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Editable>		true			</Editable>
+			<Default> 0 </Default>
+			<Widget>ENUM
+				<enum>
+					<value>0</value>
+					<display>Default</display>
+				</enum>
+				<enum>
+					<value>1</value>
+					<display>army_ammo_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>2</value>
+					<display>army_ammo_02_entity.model</display>
+				</enum>
+				<enum>
+					<value>3</value>
+					<display>army_crate_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>4</value>
+					<display>army_crate_02_entity.model</display>
+				</enum>
+				<enum>
+					<value>5</value>
+					<display>army_pile_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>6</value>
+					<display>army_pile_02_entity.model</display>
+				</enum>
+				<enum>
+					<value>7</value>
+					<display>chemical_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>8</value>
+					<display>chemical_cardboardbox_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>9</value>
+					<display>electronics_cardboardbox_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>10</value>
+					<display>electronics_drawer_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>11</value>
+					<display>electronics_pile_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>12</value>
+					<display>electronics_pile_02_entity.model</display>
+				</enum>
+				<enum>
+					<value>13</value>
+					<display>garagejunk_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>14</value>
+					<display>garagejunk_02_entity.model</display>
+				</enum>
+				<enum>
+					<value>15</value>
+					<display>garagejunk_drawer_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>16</value>
+					<display>garagejunk_suitcase_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>17</value>
+					<display>medical_bag_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>18</value>
+					<display>medical_drawer_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>19</value>
+					<display>medical_woodbox_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>20</value>
+					<display>bush_shipovnik_01.model</display>
+				</enum>
+				<enum>
+					<value>21</value>
+					<display>egg.model</display>
+				</enum>
+				<enum>
+					<value>22</value>
+					<display>forest_ammo_01.model</display>
+				</enum>
+				<enum>
+					<value>23</value>
+					<display>forest_ammo_02.model</display>
+				</enum>
+				<enum>
+					<value>24</value>
+					<display>forest_junk_01.model</display>
+				</enum>
+				<enum>
+					<value>25</value>
+					<display>forest_junk_02.model</display>
+				</enum>
+				<enum>
+					<value>26</value>
+					<display>forest_goods_01.model</display>
+				</enum>
+				<enum>
+					<value>27</value>
+					<display>forest_goods_02.model</display>
+				</enum>
+				<enum>
+					<value>28</value>
+					<display>forest_goods_03.model</display>
+				</enum>
+				<enum>
+					<value>29</value>
+					<display>forest_goods_04.model</display>
+				</enum>
+				<enum>
+					<value>30</value>
+					<display>clothes_01_entity.model</display>
+				</enum>
+				<enum>
+					<value>31</value>
+					<display>bag.model</display>
+				</enum>
+				
+
+			</Widget>
+		</modelSelect>
+	</Properties>
+
+</root>

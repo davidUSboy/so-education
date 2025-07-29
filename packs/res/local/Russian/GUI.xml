@@ -1,0 +1,319 @@
+<root>
+  <IngameMenu>
+    <RESUME_GAME_BTN_LABEL>Продолжить</RESUME_GAME_BTN_LABEL>
+    <OPTIONS_BTN_LABEL>Настройки</OPTIONS_BTN_LABEL>
+    <LOGOUT_BTN_LABEL>Выйти в главное меню</LOGOUT_BTN_LABEL>
+    <QUIT_GAME_BTN_LABEL>Выйти из игры</QUIT_GAME_BTN_LABEL>
+    <PVP>PVP</PVP>
+    <leaveFromRoom>Выйти из PVP</leaveFromRoom>
+    <changeTeam>Выбрать команду</changeTeam>
+    <exit>Выход</exit>
+  </IngameMenu>
+  <DonateBase>
+    <ClanName>Название Вашего клана:</ClanName>
+    <CurrentTenant>Текущий арендатор Базы:</CurrentTenant>
+    <DateEndRent>Время до окончания аукциона:</DateEndRent>
+    <DateEndAuction>Дата окончания аукциона:</DateEndAuction>
+    <FartherRent>Минимальная ставка:</FartherRent>
+    <CountMemberAuction>Количество участников аукциона:</CountMemberAuction>
+    <LastStake>Последняя ставка:</LastStake>
+    <StepAuction>Шаг аукциона:</StepAuction>
+    <IncStake>Увеличить последнюю ставку с учетом шага аукциона:</IncStake>
+    <bInc>Увеличить на шаг</bInc>
+    <bConfirmStake>Подтвердить указанную ставку</bConfirmStake>
+    <bRefreshInfo>Обновить информацию</bRefreshInfo>
+    <noFartherRent>Нет</noFartherRent>
+    <tenant>Владелец</tenant>
+    <name>Название базы</name>
+    <location>Расположение</location>
+    <timeToBuy>Начнётся через</timeToBuy>
+    <timeToSell>До конца торгов</timeToSell>
+    <stake>Последняя ставка</stake>
+    <title>Аукцион</title>
+    <title_manager>Менеджер базы</title_manager>
+    <text>Вы - не лидер клана</text>
+    <view>Ставка</view>
+    <cashback>Забрать деньги</cashback>
+    <deposit>Депозит</deposit>
+    <deposit_back>Забрать депозит</deposit_back>
+    <zoo>Зу</zoo>
+    <vesuvius>Везувий</vesuvius>
+    <warehouse>Банк клана</warehouse>
+    <management>Управление базой</management>
+    <guards>Найм охранников</guards>
+    <recruitment_text>Вы сможете принимать участие в захвате укреп. точек. Стоимость {cost} будет списана из кланового хранилища</recruitment_text>
+    <free>База {name} никому не принадлежит</free>
+    <owner>Владелец базы {name}: {clan}</owner>
+    <greeting>Добро пожаловать на базу {name}</greeting>
+  </DonateBase>
+  <FriendList>
+    <CaptionQueryWindow>Заявка в друзья</CaptionQueryWindow>
+    <QueryFriend1>Игрок</QueryFriend1>
+    <QueryFriend2>хочет добавить Вас в друзья. Вы согласны?</QueryFriend2>
+    <CaptionTabFriend>Друзья</CaptionTabFriend>
+    <CaptionTabBlack>Игнорируемые</CaptionTabBlack>
+    <isOnline>в сети</isOnline>
+    <isOffline>не сети</isOffline>
+    <sendMessage>Отправить сообщение</sendMessage>
+    <delFriend>Удалить друга</delFriend>
+    <addToGroup>Пригласить в группу</addToGroup>
+    <addToClan>Пригласить в клан</addToClan>
+    <addedToFriendList>добавлен в друзья</addedToFriendList>
+    <deletedFriendmsg>удален из вашего списка друзей</deletedFriendmsg>
+    <notFind>не найден в списке друзей</notFind>
+    <isAlreadyYourFriend>уже ваш друг</isAlreadyYourFriend>
+    <readFriendNameCaption>Введите имя персонажа</readFriendNameCaption>
+    <deletingFromFriendList1>Удалить игрока</deletingFromFriendList1>
+    <deletingFromFriendList2>из списка друзей?</deletingFromFriendList2>
+    <AddingYourselfNotAllowed>Нельзя добавить в друзья самого себя</AddingYourselfNotAllowed>
+    <ExceededLimitFriends>Превышен лимит списка друзей!</ExceededLimitFriends>
+    <ExceededLimitBlackList>Превышен лимит черного списка!</ExceededLimitBlackList>
+    <addToFriendListCaption>Добавление в друзья</addToFriendListCaption>
+    <addToBlackListCaption>Добавление в игнор.</addToBlackListCaption>
+    <addedToBlackList>добавлен в черный список</addedToBlackList>
+    <playerNotFound>Данный персонаж не существует</playerNotFound>
+    <playerFoundInBlackList>Данный персонаж уже в черном списке</playerFoundInBlackList>
+    <playerNotFoundInBlackList>отсутствует в черном списке</playerNotFoundInBlackList>
+    <playerIsDeleted>удален из черного списка</playerIsDeleted>
+    <delFromBlackList>Удалить из черного списка</delFromBlackList>
+    <AddingYourselfNotAllowedToBlackList>Нельзя добавить в черный список самого себя</AddingYourselfNotAllowedToBlackList>
+    <PlayerInBlackList>Игрок находится в черном списке, добавление невозможно</PlayerInBlackList>
+    <isNotify>Уведомления</isNotify>
+    <InviteNotSend>Приглашение не отправлено, попробуйте через 30 секунд</InviteNotSend>
+    <add>Добавить</add>
+  </FriendList>
+  <QuitMenu>
+    <YES_BTN_LABEL>Да</YES_BTN_LABEL>
+    <NO_BTN_LABEL>Нет</NO_BTN_LABEL>
+    <QUESTION_LABEL>Вы хотите выйти из игры?</QUESTION_LABEL>
+  </QuitMenu>
+  <CraftGUI>
+    <WINDOW_CAPTION>Крафт (P)</WINDOW_CAPTION>
+  </CraftGUI>
+  <QuestLog>
+    <WINDOW_CAPTION>Журнал заданий (J)</WINDOW_CAPTION>
+    <ACTIVE_QUESTS_TAB_LABEL>Текущие задания</ACTIVE_QUESTS_TAB_LABEL>
+    <COMPLETED_QUESTS_TAB_LABEL>Выполненные задания</COMPLETED_QUESTS_TAB_LABEL>
+    <WANTED_TAB_LABEL>Разыскиваемые</WANTED_TAB_LABEL>
+  </QuestLog>
+  <GPSMap>
+    <WINDOW_CAPTION>Карта местности (M)</WINDOW_CAPTION>
+  </GPSMap>
+  <General>
+    <DAYS_SHORTENING>д</DAYS_SHORTENING>
+    <HOURS_SHORTENING>ч</HOURS_SHORTENING>
+    <MINUTES_SHORTENING>м</MINUTES_SHORTENING>
+    <SECONDS_SHORTENING>с</SECONDS_SHORTENING>
+  </General>
+  <ClanGUI>
+    <GENERAL_TAB_LABEL>Основное</GENERAL_TAB_LABEL>
+    <MEMBERS_TAB_LABEL>Состав</MEMBERS_TAB_LABEL>
+    <FINANCE_TAB_LABEL>Финансы</FINANCE_TAB_LABEL>
+    <BASES_TAB_LABEL>Базы</BASES_TAB_LABEL>
+    <INVITE_TO_CLAN>Пригласить в клан</INVITE_TO_CLAN>
+    <INVITE_TO_CLAN_TEXT>Введите имя:</INVITE_TO_CLAN_TEXT>
+    <INVITE_TO_CLAN_CAPTION>Приглашение в клан</INVITE_TO_CLAN_CAPTION>
+    <NO_CLAN>Вы не состоите в клане</NO_CLAN>
+  </ClanGUI>
+  <EULAGUI>
+    <ACCEPT>Принять</ACCEPT>
+    <DECLINE>Отклонить</DECLINE>
+  </EULAGUI>
+  <CharacterMaker>
+    <GENDER_CHOICE_LABEL>Пол</GENDER_CHOICE_LABEL>
+    <GENDER_MALE>Мужчина</GENDER_MALE>
+    <GENDER_FEMALE>Женщина</GENDER_FEMALE>
+    <ORIGINATION_CHOICE_LABEL>Происхождение</ORIGINATION_CHOICE_LABEL>
+    <ORIGINATION_FOREIGN>Пришлые</ORIGINATION_FOREIGN>
+    <ORIGINATION_LOCAL>Коренные</ORIGINATION_LOCAL>
+    <NEXT_BUTTON_LABEL>Далее</NEXT_BUTTON_LABEL>
+    <FINISH_BUTTON_LABEL>Готово</FINISH_BUTTON_LABEL>
+    <BACK_BUTTON_LABEL>Назад</BACK_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Отмена</CANCEL_BUTTON_LABEL>
+    <RANDOM_CUSTOMIZATION_BUTTON_LABEL>Случайно</RANDOM_CUSTOMIZATION_BUTTON_LABEL>
+    <APPEARANCE_CAPTION>Внешний вид</APPEARANCE_CAPTION>
+    <Equipment>Снаряжение</Equipment>
+  </CharacterMaker>
+  <CharacterPicker>
+    <PLAY_BUTTON_LABEL>В игру</PLAY_BUTTON_LABEL>
+    <BACK_TO_MAIN_BUTTON_LABEL>Выйти в меню</BACK_TO_MAIN_BUTTON_LABEL>
+    <NEW_CHARACTER_BUTTON_LABEL>Создать</NEW_CHARACTER_BUTTON_LABEL>
+    <DELETE_CHARACTER_BUTTON_LABEL>Удалить</DELETE_CHARACTER_BUTTON_LABEL>
+    <RESTORE_CHARACTER_BUTTON_LABEL>Восcтановить</RESTORE_CHARACTER_BUTTON_LABEL>
+    <EMPTY_CHARACTER_SLOT>Пусто</EMPTY_CHARACTER_SLOT>
+    <CHARACTER_LIST_CAPTION>Персонажи</CHARACTER_LIST_CAPTION>
+    <activatePremium>Премиум аккаунт</activatePremium>
+  </CharacterPicker>
+  <CharacterManagment>
+    <START_GAME_BUTTON_LABEL>В игру !</START_GAME_BUTTON_LABEL>
+    <CREATE_CHARACTER_BUTTON_LABEL>Создание персонажа</CREATE_CHARACTER_BUTTON_LABEL>
+    <EXIT_TO_MAIN_MENU_BUTTON_LABEL>Выйти в главное меню</EXIT_TO_MAIN_MENU_BUTTON_LABEL>
+    <DELETE_CHARACTER_BUTTON_LABEL>Удалить</DELETE_CHARACTER_BUTTON_LABEL>
+    <RENAME_CHARACTER_BUTTON_LABEL>Переименовать</RENAME_CHARACTER_BUTTON_LABEL>
+    <CREATE_CHARACTER_CONFIRM_BUTTON_LABEL>Создать</CREATE_CHARACTER_CONFIRM_BUTTON_LABEL>
+    <CREATE_CHARACTER_CANCEL_BUTTON_LABEL>Отмена</CREATE_CHARACTER_CANCEL_BUTTON_LABEL>
+  </CharacterManagment>
+  <CharacterGUI>
+    <CHARACTER_CHARACTERISTIC_STRENGTH>Сила</CHARACTER_CHARACTERISTIC_STRENGTH>
+    <CHARACTER_CHARACTERISTIC_INTELLIGENCE>Интеллект</CHARACTER_CHARACTERISTIC_INTELLIGENCE>
+    <CHARACTER_CHARACTERISTIC_DEXTERITY>Ловкость</CHARACTER_CHARACTERISTIC_DEXTERITY>
+    <CHARACTER_CHARACTERISTIC_CONSTITUTION>Телосложение</CHARACTER_CHARACTERISTIC_CONSTITUTION>
+    <CHARACTER_CHARACTERISTIC_PERCEPTION>Восприятие</CHARACTER_CHARACTERISTIC_PERCEPTION>
+    <CHARACTER_CHARACTERISTIC_PSIONICS>Пси</CHARACTER_CHARACTERISTIC_PSIONICS>
+    <EQUIPMENT_TAB_LABEL>Экипировка</EQUIPMENT_TAB_LABEL>
+    <REPUTATION_TAB_LABEL>Репутация</REPUTATION_TAB_LABEL>
+    <PVP_STATISTICS_TAB_LABEL>PvP статистика</PVP_STATISTICS_TAB_LABEL>
+    <ARTIFACTS_TAB_LABEL>Артефакты</ARTIFACTS_TAB_LABEL>
+    <CHARACTERISTICS_TAB_LABEL>Характеристики</CHARACTERISTICS_TAB_LABEL>
+  </CharacterGUI>
+  <ChatConsole>
+    <ALL_CHANNELS_TAB_LABEL>Все</ALL_CHANNELS_TAB_LABEL>
+    <CLAN_CHANNEL_TAB_LABEL>%Групп</CLAN_CHANNEL_TAB_LABEL>
+    <FRIENDS_CHANNEL_TAB_LABEL>#Друзья</FRIENDS_CHANNEL_TAB_LABEL>
+    <PARTY_CHANNEL_TAB_LABEL>+Отряд</PARTY_CHANNEL_TAB_LABEL>
+    <PRIVATE_MESSAGES_TAB_LABEL>@PM</PRIVATE_MESSAGES_TAB_LABEL>
+    <CHANNEL_SETTINGS_WINDOW_CAPTION>Настроить канал:</CHANNEL_SETTINGS_WINDOW_CAPTION>
+    <CHANNEL_SETTINGS_WINDOW_CONFIRM_BUTTON_LABEL>Принять</CHANNEL_SETTINGS_WINDOW_CONFIRM_BUTTON_LABEL>
+    <CHANNEL_SETTINGS_WINDOW_CANCEL_BUTTON_LABEL>Отмена</CHANNEL_SETTINGS_WINDOW_CANCEL_BUTTON_LABEL>
+    <MESSAGE_TYPE_DAMAGE>Урон</MESSAGE_TYPE_DAMAGE>
+    <MESSAGE_TYPE_ITEMS>Предметы</MESSAGE_TYPE_ITEMS>
+    <TIMESTAMP_OPTION_LABEL>Время</TIMESTAMP_OPTION_LABEL>
+    <MESSAGE_TYPE_SYSTEM>Сис. сообщ.</MESSAGE_TYPE_SYSTEM>
+    <MESSAGE_TYPE_QUESTS>Задания</MESSAGE_TYPE_QUESTS>
+    <MESSAGE_TYPE_NPCS>NPC</MESSAGE_TYPE_NPCS>
+    <MESSAGE_TYPE_GENERAL>Основной</MESSAGE_TYPE_GENERAL>
+    <MESSAGE_TYPE_CLAN>Группировка</MESSAGE_TYPE_CLAN>
+    <MESSAGE_TYPE_PARTY>Отряд</MESSAGE_TYPE_PARTY>
+    <MESSAGE_TYPE_PRIVATE>PM</MESSAGE_TYPE_PRIVATE>
+    <MESSAGE_TYPE_FRIENDS>Друзья</MESSAGE_TYPE_FRIENDS>
+    <MESSAGE_TYPE_TRADE>Торговля</MESSAGE_TYPE_TRADE>
+  </ChatConsole>
+  <Inventory>
+    <WINDOW_CAPTION>Инвентарь (I)</WINDOW_CAPTION>
+  </Inventory>
+  <TitleMenu>
+    <LOGIN_WINDOW_lanRU>RU</LOGIN_WINDOW_lanRU>
+    <LOGIN_WINDOW_lanENG>ENG</LOGIN_WINDOW_lanENG>
+    <LOGIN_WINDOW_CAPTION>Stalker Online BETA {version}</LOGIN_WINDOW_CAPTION>
+    <LOGIN_WINDOW_LOGIN_LABEL>Логин:</LOGIN_WINDOW_LOGIN_LABEL>
+    <LOGIN_WINDOW_PASSWORD_LABEL>Пароль:</LOGIN_WINDOW_PASSWORD_LABEL>
+    <LOGIN_WINDOW_LOGIN_BUTTON_LABEL>Войти</LOGIN_WINDOW_LOGIN_BUTTON_LABEL>
+    <LOGIN_WINDOW_SAVE_PASSWORD_LABEL>Сохранить пароль</LOGIN_WINDOW_SAVE_PASSWORD_LABEL>
+    <LOGIN_WINDOW_OPTIONS_BUTTON_LABEL>Настройки</LOGIN_WINDOW_OPTIONS_BUTTON_LABEL>
+    <LOGIN_WINDOW_QUIT_BUTTON_LABEL>Выход</LOGIN_WINDOW_QUIT_BUTTON_LABEL>
+  </TitleMenu>
+  <MessageBoxes>
+    <OK_BUTTON_LABEL>Ok</OK_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Отмена</CANCEL_BUTTON_LABEL>
+    <YES_BUTTON_LABEL>Да</YES_BUTTON_LABEL>
+    <NO_BUTTON_LABEL>Нет</NO_BUTTON_LABEL>
+    <UNDO_BUTTON_LABEL>Вернуть</UNDO_BUTTON_LABEL>
+    <APPLY_BUTTON_LABEL>Применить</APPLY_BUTTON_LABEL>
+    <RESET_BUTTON_LABEL>Сбросить</RESET_BUTTON_LABEL>
+    <CONFIRM_BUTTON_LABEL>Подтвердить</CONFIRM_BUTTON_LABEL>
+    <SAVE_BUTTON_LABEL>Сохранить</SAVE_BUTTON_LABEL>
+    <INVALID_BUTTON_LABEL>INVALID_BUTTON_TYPE</INVALID_BUTTON_LABEL>
+  </MessageBoxes>
+  <MunitionsGUI>
+    <NO_AMMO>Пусто</NO_AMMO>
+  </MunitionsGUI>
+  <PackageSellGUI>
+    <HIDE_UNAFFORDABLE_LABEL>Скрыть недоступные</HIDE_UNAFFORDABLE_LABEL>
+    <AUTOFILL_LABEL>Автозаполнение</AUTOFILL_LABEL>
+    <CONFIRM_BUTTON_LABEL>Принять</CONFIRM_BUTTON_LABEL>
+    <CLEAR_BUTTON_LABEL>Очистить</CLEAR_BUTTON_LABEL>
+    <WINDOW_CAPTION>Обмен</WINDOW_CAPTION>
+    <FOR_EXCHANGE_LABEL>Для обмена</FOR_EXCHANGE_LABEL>
+  </PackageSellGUI>
+  <InterPlayerTrade>
+    <MONEY_OUT_LABEL>Передать руб.</MONEY_OUT_LABEL>
+    <MAKE_OFFER_BUTTON_LABEL>Предложить</MAKE_OFFER_BUTTON_LABEL>
+    <CONFIRM_BUTTON_LABEL>Подтвердить</CONFIRM_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Отмена</CANCEL_BUTTON_LABEL>
+    <MONEY_IN_LABEL>Получено</MONEY_IN_LABEL>
+    <GOLD_IN_LABEL>з.р.</GOLD_IN_LABEL>
+    <ruble_in_label>р.</ruble_in_label>
+  </InterPlayerTrade>
+  <LevelingGUI>
+    <EQUIPMENT_SPEC_TAB_LABEL>Экипировка</EQUIPMENT_SPEC_TAB_LABEL>
+    <MEDICINE_SPEC_TAB_LABEL>Медицина</MEDICINE_SPEC_TAB_LABEL>
+    <WEAPONRY_SPEC_TAB_LABEL>Вооружение</WEAPONRY_SPEC_TAB_LABEL>
+    <REPAIRS_SPEC_TAB_LABEL>Ремонт</REPAIRS_SPEC_TAB_LABEL>
+    <EXPERIENCE_LABEL>Опыт:</EXPERIENCE_LABEL>
+    <LEVEL_LABEL>Уровень:</LEVEL_LABEL>
+    <ESSENTIAL_SKILLS_LABEL>Базовые умения</ESSENTIAL_SKILLS_LABEL>
+    <SPECIALISATIONS_LABEL>Специализации</SPECIALISATIONS_LABEL>
+    <ADVANCED_SKILLS_LABEL>Проффесиональные умения</ADVANCED_SKILLS_LABEL>
+    <SPECIALISATION_POINTS_LABEL>Очки специализации:</SPECIALISATION_POINTS_LABEL>
+    <AVAILABLE_EXPERIENCE_LABEL>Доступный опыт:</AVAILABLE_EXPERIENCE_LABEL>
+    <ACTIVE_SKILLS_LABEL>Активные умения</ACTIVE_SKILLS_LABEL>
+    <CONFIRM_BUTTON_LABEL>Подтвердить</CONFIRM_BUTTON_LABEL>
+    <CANCEL_BUTTON_LABEL>Отмена</CANCEL_BUTTON_LABEL>
+    <SPEND_EXPERIENCE_LABEL>Потратить очки опыта:</SPEND_EXPERIENCE_LABEL>
+    <PROFESSION_MODIFIER_LABEL>Модификатор профессии:</PROFESSION_MODIFIER_LABEL>
+  </LevelingGUI>
+  <Vendor>
+    <WINDOW_CAPTION>Торговля</WINDOW_CAPTION>
+    <PRICE_LABEL>Цена:</PRICE_LABEL>
+    <BUY_TAB_LABEL>Купить</BUY_TAB_LABEL>
+    <SELL_TAB_LABEL>Продать</SELL_TAB_LABEL>
+    <CONFIRM_BUTTON_LABEL>Принять</CONFIRM_BUTTON_LABEL>
+    <CLEAR_BUTTON_LABEL>Очистить</CLEAR_BUTTON_LABEL>
+    <OUTCOME_LABEL>Итог:</OUTCOME_LABEL>
+    <GOLD_LABEL>Золотые рубли</GOLD_LABEL>
+    <MONEY_LABEL>Рубли</MONEY_LABEL>
+    <toSite>Пополнить счет</toSite>
+  </Vendor>
+  <Legacy>
+    <TABLET_PC_BACK_TO_MAIN_BUTTON_LABEL>Меню</TABLET_PC_BACK_TO_MAIN_BUTTON_LABEL>
+    <CLAN_NAME_LABEL>Название клана</CLAN_NAME_LABEL>
+    <CONFIGURE_RIGHTS_LABEL>Настроить права</CONFIGURE_RIGHTS_LABEL>
+    <CLAN_TRADE_MANAGMENT_LABEL>Управление клановой торговлей</CLAN_TRADE_MANAGMENT_LABEL>
+    <RANKS_LABEL>Звания</RANKS_LABEL>
+    <RIGHTS_LABEL>Полномочия</RIGHTS_LABEL>
+    <APPLY_LABEL>Принять</APPLY_LABEL>
+    <CANCEL_LABEL>Отмена</CANCEL_LABEL>
+    <TRADE_ITEM_CHOICE>Выбор
+предмета
+торговли</TRADE_ITEM_CHOICE>
+    <SELL_TO_CLAN_ONLY>Продавать
+только
+в клан</SELL_TO_CLAN_ONLY>
+    <NAME>Наименование</NAME>
+    <QUANTITY_SHORT>шт.</QUANTITY_SHORT>
+    <BASE_COST>Базовая
+цена</BASE_COST>
+    <BUY_COST>Цена
+закупки</BUY_COST>
+    <COST_FOR_CLANMATES>Продажа
+сокланам</COST_FOR_CLANMATES>
+    <COST_FOR_NEUTRALS>Продажа
+нейтральным</COST_FOR_NEUTRALS>
+    <COST_FOR_FRIENDS>Продажа
+друзьям</COST_FOR_FRIENDS>
+    <COST_FOR_ENEMIES>Продажа
+врагам</COST_FOR_ENEMIES>
+    <SET_COST_IN_PERCENTS>Назначить в % от базовой цены</SET_COST_IN_PERCENTS>
+    <CLANMATE_NAME>Имя</CLANMATE_NAME>
+    <CLANMATE_RANK>Звание</CLANMATE_RANK>
+    <CLANMAE_STATE>Статус</CLANMAE_STATE>
+  </Legacy>
+  <hunter>
+    <take>беру</take>
+    <CancelOrder>отменить заказ</CancelOrder>
+    <hanters>охотников: {0}</hanters>
+    <PK>PK</PK>
+    <injured>Пострадавший</injured>
+    <reward>Награда</reward>
+    <remainingTime>Оставшееся время</remainingTime>
+    <caption>Внимание! О всех ошибках доски объявлений просьба сообщать на форум</caption>
+  </hunter>
+  <itemCache>
+    <cancelSale>снять с продажи</cancelSale>
+    <sale>продать</sale>
+  </itemCache>
+  <warehouse>
+    <canselSale>Снять с продажи</canselSale>
+    <sale>Продать</sale>
+  </warehouse>
+</root>

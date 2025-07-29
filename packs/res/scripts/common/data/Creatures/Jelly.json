@@ -1,0 +1,417 @@
+{
+	"name, bylevel" : {
+		"default" : "Creatures.common.JELLY1",
+		"1" : "Creatures.common.JELLY2",
+		"2" : "Creatures.common.JELLY1",
+		"3" : "Creatures.common.JELLY3",
+		
+		"lvl1_all" : "Creatures.common.JELLY_lv1",
+		"lvl3_all" : "Creatures.common.JELLY_lv3",
+		"lvl6_all" : "Creatures.common.JELLY_lv6",
+		"lvl9_all" : "Creatures.common.JELLY_lv9",
+		"lvl12_all" : "Creatures.common.JELLY_lv12",
+		"lvl15_all" : "Creatures.common.JELLY_lv15",
+		"lvl18_all" : "Creatures.common.JELLY_lv18",
+		"lvl21_all" : "Creatures.common.JELLY_lv21",
+		"lvl24_all" : "Creatures.common.JELLY_lv24",
+		"lvl27_all" : "Creatures.common.JELLY_lv27",
+		"lvl30_all" : "Creatures.common.JELLY_lv30",
+		
+		"lvl1_all_small" : "Creatures.common.VODYNOI_lv1",
+		"lvl3_all_small" : "Creatures.common.VODYNOI_lv3",
+		"lvl6_all_small" : "Creatures.common.VODYNOI_lv6",
+		"lvl9_all_small" : "Creatures.common.VODYNOI_lv9",
+		"lvl12_all_small" : "Creatures.common.VODYNOI_lv12",
+		"lvl15_all_small" : "Creatures.common.VODYNOI_lv15",
+		"lvl18_all_small" : "Creatures.common.VODYNOI_lv18",
+		"lvl21_all_small" : "Creatures.common.VODYNOI_lv21",
+		"lvl24_all_small" : "Creatures.common.VODYNOI_lv24",
+		"lvl27_all_small" : "Creatures.common.VODYNOI_lv27",
+		"lvl30_all_small" : "Creatures.common.VODYNOI_lv30"
+	},
+	"coefLevel, bylevel": {
+		"default" : 99,
+		"1" : 99,
+		"2" : 99,
+		"3" : 99
+	},
+	"model" : "jelly/jelly_lod1.model",	
+	"karma": 99,
+	"model_scale, bylevel" : {
+		"default" : 1,
+		"1" : 1,
+		"2" : 1.4,
+		"3" : 1.8,
+		
+		"lvl1_all" : 0.8,
+		"lvl3_all" : 0.9,
+		"lvl6_all" : 1,
+		"lvl9_all" : 1.05,
+		"lvl12_all" : 1.1,
+		"lvl15_all" : 1.15,
+		"lvl18_all" : 1.2,
+		"lvl21_all" : 1.25,
+		"lvl24_all" : 1.3,
+		"lvl27_all" : 1.35,
+		"lvl30_all" : 1.4,
+		
+		"lvl1_all_small" : 0.5,
+		"lvl3_all_small" : 0.55,
+		"lvl6_all_small" : 0.6,
+		"lvl9_all_small" : 0.65,
+		"lvl12_all_small" : 0.7,
+		"lvl15_all_small" : 0.75,
+		"lvl18_all_small" : 0.8,
+		"lvl21_all_small" : 0.85,
+		"lvl24_all_small" : 0.9,
+		"lvl27_all_small" : 0.95,
+		"lvl30_all_small" : 1.0
+	},
+	"tints" : [{}],
+	"experience, bylevel" : {
+		"default" : 1,
+		"1" : 192,
+		"2" : 300,
+		"3" : 432,
+		
+		"lvl1_all" : 192,
+		"lvl3_all" : 194,
+		"lvl6_all" : 196,
+		"lvl9_all" : 198,
+		"lvl12_all" : 200,
+		"lvl15_all" : 202,
+		"lvl18_all" : 204,
+		"lvl21_all" : 206,
+		"lvl24_all" : 208,
+		"lvl27_all" : 210,
+		"lvl30_all" : 212,
+		
+		"lvl1_all_small" : 140,
+		"lvl3_all_small" : 142,
+		"lvl6_all_small" : 144,
+		"lvl9_all_small" : 146,
+		"lvl12_all_small" : 148,
+		"lvl15_all_small" : 150,
+		"lvl18_all_small" : 152,
+		"lvl21_all_small" : 154,
+		"lvl24_all_small" : 156,
+		"lvl27_all_small" : 158,
+		"lvl30_all_small" : 160
+	},
+	"health, bylevel" : {
+		"default" : 0.777,
+		"1" : 1.2,
+		"2" : 3,
+		"3" : 7.5,
+		
+		"lvl1_all" : 1.14,
+		"lvl3_all" : 1.16,
+		"lvl6_all" : 1.18,
+		"lvl9_all" : 1.2,
+		"lvl12_all" : 1.22,
+		"lvl15_all" : 1.24,
+		"lvl18_all" : 1.26,
+		"lvl21_all" : 1.28,
+		"lvl24_all" : 1.3,
+		"lvl27_all" : 1.32,
+		"lvl30_all" : 1.34,
+		
+		"lvl1_all_small" : 0.5,
+		"lvl3_all_small" : 0.55,
+		"lvl6_all_small" : 0.6,
+		"lvl9_all_small" : 0.65,
+		"lvl12_all_small" : 0.7,
+		"lvl15_all_small" : 0.75,
+		"lvl18_all_small" : 0.8,
+		"lvl21_all_small" : 0.85,
+		"lvl24_all_small" : 0.9,
+		"lvl27_all_small" : 0.95,
+		"lvl30_all_small" : 1.0
+	},	
+	"agro_range" :  30,
+	"lose_agro_range" : 40,
+	"global_cooldown" : 3,
+	"defence, bylevel" : {
+		"default" : {
+			"MELEE" : 700.0,
+			"BULLET" : 1.0,
+			"EXPLOSION" : 20.0,
+			"BIO" : 700.0
+		},
+		"1" : {
+			"BULLET" : 0.0
+		},
+		"2" : {
+			"BULLET" : 20.0
+		},
+		"3" : {
+			"BULLET" : 30.0
+		},
+		"[lvl1_all,lvl3_all,lvl6_all,lvl9_all,lvl12_all,lvl15_all,lvl18_all,lvl21_all,lvl24_all,lvl27_all,lvl30_all]" : {
+			"BULLET" : 600.0
+		},
+		"[lvl1_all_small,lvl3_all_small,lvl6_all_small,lvl9_all_small,lvl12_all_small,lvl15_all_small,lvl18_all_small,lvl21_all_small,lvl24_all_small,lvl27_all_small,lvl30_all_small]" : {
+			"BULLET" : 20.0
+		}
+	},
+	"height" : 1.9,	
+	"width" : 0.5,
+	"decompose_time" : [60,120],
+	"loot, bylevel" : {
+		"default" : {},
+		"1" : {
+			"601" : "0.04",
+			"608" : "0.04",
+			"632" : "0.04",
+			"604" : "0.04",
+			"641" : "0.04",
+			"643" : "0.04"
+		},
+		"2" : {
+			"601" : "0.09",
+			"608" : "0.09",
+			"632" : "0.09",
+			"604" : "0.09",
+			"641" : "0.09",
+			"643" : "0.09"
+		},
+		"3" : {
+			"601" : "0.24",
+			"608" : "0.24",
+			"632" : "0.24",
+			"604" : "0.24",
+			"641" : "0.24",
+			"643" : "0.24"
+		},
+		"[lvl1_all,lvl3_all,lvl6_all,lvl9_all,lvl12_all,lvl15_all,lvl18_all,lvl21_all,lvl24_all,lvl27_all,lvl30_all]" : {
+			"601" : "0.09",
+			"608" : "0.09",
+			"632" : "0.09",
+			"604" : "0.09",
+			"641" : "0.09",
+			"643" : "0.09"
+		},
+		"[lvl1_all_small,lvl3_all_small,lvl6_all_small,lvl9_all_small,lvl12_all_small,lvl15_all_small,lvl18_all_small,lvl21_all_small,lvl24_all_small,lvl27_all_small,lvl30_all_small]" : {
+			"601" : "0.24",
+			"608" : "0.24",
+			"632" : "0.24",
+			"604" : "0.24",
+			"641" : "0.24",
+			"643" : "0.24"
+		}
+	},
+	"foot_nodes" : ["Bip001 L Foot", "Bip001 R Foot"],
+	"footsteps_sound" : "mob/jelly/footsteps",
+	"melee_distance, bylevel" : {
+		"default" : 2.03,
+		"1" : 1.02,
+		"2" : 1.2,
+		"3" : 1.5
+	},
+	"melee_height, bylevel" : {
+		"default" : 1.5,
+		"2" : 2,		
+		"3" : 3
+	},
+	"actions, bylevel" : {
+		"default" : {
+			"Idle" : {				
+				"sounds" : ["mob/jelly/idle"]
+			},
+			"Idle1" : {				
+				"model_actions" : ["Idle1"],
+				"sounds" : ["mob/jelly/idle"]
+			},
+			"Eat" : {				
+				"model_actions" : ["Eat"]
+			},
+			"AttackPaws" : {
+				"model_actions" : ["AttackPaws"],
+				"sounds" : ["mob/jelly/attack"]
+			},
+			"AttackTooth" : {
+				"model_actions" : ["AttackTooth"],
+				"sounds" : ["mob/jelly/attack"]
+			},
+			"Die1" : {
+				"model_actions" : ["Die1"],
+				"sounds" : ["mob/jelly/death"]
+			},
+			"Dead1" : {
+				"model_actions" : ["Dead1"]	
+			},				
+			"Pain" : {
+				"model_actions" : ["Pain"],
+				"sounds" : ["mob/jelly/pain"]
+			}				
+		},
+		"2" : {}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"default_state" : "walk_around",
+	"common_conditions,parent=default_common_conditions" : [],	
+	"states" : {
+		"walk_around" : {
+			"persistent_actions" : ["Idle"],			
+			"movement_types" : ["walk_around"],
+			"conditions" : [
+				{
+					"to_state" : "attacking_ranged",
+					"predicate" : 
+						["and",[
+							["targets_count", "more", "0"],
+							["health_percent", "more", "85"]
+						]]
+				},
+				{
+					"to_state" : "attacking",
+					"predicate" : 
+						["and",[
+							["targets_count", "more", "0"],
+							["health_percent", "less", "85"]
+						]]
+				}
+			],
+			"speed" : {
+				"walk_around" : [0.4, 1.1]
+			}
+		},		
+		"attacking, parent=default_attacking" : {
+			"skills" : {
+				"JELLY_MELEE" : 2				
+			},
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed" : {
+				"follow_target" : 2.2,
+				"walk_around" : [0.6, 1.3]
+			}	
+		},
+		"attacking_ranged" : {
+			"speed" : 2,
+			"movement_types" : ["follow_target", "walk_around"],
+			"conditions" : [
+				{
+					"to_state" : "attacking",
+					"predicate" : 
+						["and",[
+							["targets_count", "more", "0"],
+							["health_percent", "less", "85"]
+						]]
+				},
+				{
+					"to_state" : "walk_around",
+					"predicate" : 
+						["and",[
+							["targets_count", "equal", "0"],
+							["health_percent", "equal", "100"]
+						]]
+				},
+				{
+					"to_state" : "before_recover",
+					"predicate" : 
+						["and",[
+							["targets_count", "equal", "0"],
+							["health_percent", "less", "100"]
+						]]
+				},
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["targets_count", "equal", 0]
+				}
+			],
+			"skills" : {
+				"JELLY_RANGE" : 1
+				},
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed" : {
+				"follow_target" : 3.5,
+				"walk_around" : [1, 2]
+			}	
+		},
+		"dead" : {		
+			"persistent_actions" : ["Dead1"],
+			"entering_actions" : {"actions" : ["Die1"], "time" : 0.6},
+			"conditions" : [
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			]
+		},
+		"before_recover, parent=default_before_recover" : {
+			"speed" : {
+				"walk_around" : [1.7, 4]
+			}
+		},
+		"recover, parent=default_recover" : {			
+			"persistent_actions" : ["Eat"]
+		}
+	},
+	"skills" : {
+		"JELLY_MELEE": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["HEAD", "TORSO"],
+					"type" : "MELEE",
+					"value" : [0.115, 0.130],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.128, 0.192]
+				},
+				"2": {
+					"value" : [0.179, 0.268]
+				},
+				"3": {
+					"value" : [0.235, 0.353]
+				}
+			},			 
+			"actions": ["AttackTooth"]
+		},
+		"JELLY_RANGE": {
+			"type": "THROW",
+			"cast_range": 20.0,
+			"cooldown": 1.5,
+			"aoe_radius": 4,
+			"throwing_type"	: "BIO",
+			"throw_start_position"	: [0, 1.7, 0],
+			"explode_delay"	: 3,
+			"damage, bylevel": {
+				"default": {
+					"type" : "MELEE",
+					"value" : [0.005, 0.013],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.005, 0.013]
+				},
+				"2": {
+					"value" : [0.018, 0.032]
+				},
+				"3": {
+					"value" : [0.033, 0.054]
+				}
+			},	
+			"effects, bylevel" : {
+				"default" : [["Poison", 1]],
+				"lvl1_all" : [["Poison", 1]],
+				"lvl3_all" : [["Poison", 1]],
+				"lvl6_all" : [["Poison", 2]],
+				"lvl9_all" : [["Poison", 2]],
+				"lvl12_all" : [["Poison", 3]],
+				"lvl15_all" : [["Poison", 3]],
+				"lvl18_all" : [["Poison", 4]],
+				"lvl21_all" : [["Poison", 4]],
+				"lvl24_all" : [["Poison", 5]],
+				"lvl27_all" : [["Poison", 5]],
+				"lvl30_all" : [["Poison", 6]]
+			},
+			"actions": ["AttackPaws"]
+		}
+	}
+}

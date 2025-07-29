@@ -1,0 +1,1819 @@
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:06:24 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1B9831C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (800 x 450)
+PostProcessing: downSampleBlur1 (800 x 450)
+PostProcessing: computeBuffer1 (200 x 112)
+PostProcessing: computeBuffer2 (200 x 112)
+PostProcessing: backBufferCopyB (1600 x 900)
+PostProcessing: backBufferCopy (1600 x 900)
+PostProcessing: R16F (1600 x 900)
+PostProcessing: downSample1 (800 x 450)
+PostProcessing: downSample3 (200 x 112)
+PostProcessing: downSample2 (400 x 225)
+PostProcessing: total memory used by default RenderTargets : 39.65 MB
+_startOffline
+Traceback (most recent call last):
+  File "scripts/client/BWPersonality.py", line 1559, in _startOffline
+KeyError: u'v2v3v4'
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2C7ABD30 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2C7ABD30
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon Fog
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+Weather::_systemReadySummon ME_Stormy
+found ID 8 BackPackID 0
+found ID 4 BootsID 0
+found ID 1 ShirtID 0
+found ID 5 ArmorID 0
+found ID 3 PantsID 0
+found ID 6 HatID 0
+found ID 7 MaskID 0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 108.752001828 :: 0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+AttributeError: PySound <error> is virtual, Cannot set volume
+AttributeError: PySound <error> is virtual, Cannot set volume
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicStarted: :: ambient_perfect :: 204.25100708 :: 168.763003009 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_perfect volume =  0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+SplashingWater
+AttributeError: PySound <error> is virtual, Cannot set volume
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soList.py", line 72, in handleMouseEvent
+  File "scripts/client/soGUI/soList.py", line 445, in handleMouseEvent
+  File "scripts/client/soGUI/soList.py", line 425, in scrollDown
+  File "scripts/client/soGUI/soScrollBar.py", line 836, in setValue
+IndexError: list index out of range
+settings_path spaces/tunguska/space.settings
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+Traceback (most recent call last):
+  File "scripts/client/Inventory.py", line 1857, in ContextMenuEvent
+  File "scripts/client/BWPersonality.py", line 1536, in JumpToNextSpace
+  File "scripts/client/BWPersonality.py", line 1525, in JumpToSpace
+  File "scripts/client/BWPersonality.py", line 1334, in map_space
+ValueError: BigWorld.addSpaceGeometryMapping(): Could not map spaces/tunguska into space ID 1073741825 (probably no space.settings)
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:12:36 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x072B41C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (800 x 450)
+PostProcessing: downSampleBlur1 (800 x 450)
+PostProcessing: computeBuffer1 (200 x 112)
+PostProcessing: computeBuffer2 (200 x 112)
+PostProcessing: backBufferCopyB (1600 x 900)
+PostProcessing: backBufferCopy (1600 x 900)
+PostProcessing: R16F (1600 x 900)
+PostProcessing: downSample1 (800 x 450)
+PostProcessing: downSample3 (200 x 112)
+PostProcessing: downSample2 (400 x 225)
+PostProcessing: total memory used by default RenderTargets : 39.65 MB
+_startOffline
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2C55BE50 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2C55BE50
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soList.py", line 72, in handleMouseEvent
+  File "scripts/client/soGUI/soList.py", line 445, in handleMouseEvent
+  File "scripts/client/soGUI/soList.py", line 425, in scrollDown
+  File "scripts/client/soGUI/soScrollBar.py", line 836, in setValue
+IndexError: list index out of range
+settings_path spaces/outlands_caravan/space.settings
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+Traceback (most recent call last):
+  File "scripts/client/Inventory.py", line 1857, in ContextMenuEvent
+  File "scripts/client/BWPersonality.py", line 1536, in JumpToNextSpace
+  File "scripts/client/BWPersonality.py", line 1525, in JumpToSpace
+  File "scripts/client/BWPersonality.py", line 1334, in map_space
+ValueError: BigWorld.addSpaceGeometryMapping(): Could not map spaces/outlands_caravan into space ID 1073741825 (probably no space.settings)
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:17:20 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0xFF4BE1C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (800 x 450)
+PostProcessing: downSampleBlur1 (800 x 450)
+PostProcessing: computeBuffer1 (200 x 112)
+PostProcessing: computeBuffer2 (200 x 112)
+PostProcessing: backBufferCopyB (1600 x 900)
+PostProcessing: backBufferCopy (1600 x 900)
+PostProcessing: R16F (1600 x 900)
+PostProcessing: downSample1 (800 x 450)
+PostProcessing: downSample3 (200 x 112)
+PostProcessing: downSample2 (400 x 225)
+PostProcessing: total memory used by default RenderTargets : 39.65 MB
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:17:48 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1AD72198>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (840 x 525)
+PostProcessing: downSampleBlur1 (840 x 525)
+PostProcessing: computeBuffer1 (210 x 131)
+PostProcessing: computeBuffer2 (210 x 131)
+PostProcessing: backBufferCopyB (1680 x 1050)
+PostProcessing: backBufferCopy (1680 x 1050)
+PostProcessing: R16F (1680 x 1050)
+PostProcessing: downSample1 (840 x 525)
+PostProcessing: downSample3 (210 x 131)
+PostProcessing: downSample2 (420 x 262)
+PostProcessing: total memory used by default RenderTargets : 48.57 MB
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:18:03 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x06F52198>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:18:19 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1D432198>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D8FF4B8 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D8FF4B8
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+Traceback (most recent call last):
+  File "scripts/client/BWPersonality.py", line 731, in handleKeyEvent
+  File "scripts/client/Helpers/BWKeyBindings.py", line 338, in callActionForKeyState
+  File "scripts/client/PlayerAvatar.py", line 2837, in onLeftMouseButton
+  File "scripts/client/PlayerAvatar.py", line 2845, in LeftMouseButtonRoutine
+  File "scripts/client/PlayerAvatar.py", line 1624, in GetShootPossibility
+  File "scripts/client/PlayerAvatar.py", line 1619, in onFalseItemInHands
+  File "scripts/client/AvatarItemHolder.py", line 38, in onFalseItemInHands
+  File "scripts/client/ItemHolder.py", line 880, in SetEquippedWeaponParams
+  File "scripts/client/ItemHolder.py", line 792, in InitWeaponProperty
+UnboundLocalError: local variable 'current_item_params' referenced before assignment
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 109.479002001 :: 0.629999995232
+SwitchPVPScoreBar True
+SwitchPVPScoreBar False
+onGenericMusicStarted: :: ambient_deep-forest :: 179.905014038 :: 169.482003114 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_deep-forest volume =  0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: ambient_deep-forest :: 179.905014038 :: 349.434006201 :: 0.629999995232
+SwitchPVPScoreBar True
+SwitchPVPScoreBar False
+SwitchPVPScoreBar True
+SwitchPVPScoreBar False
+SwitchPVPScoreBar True
+SwitchPVPScoreBar False
+onGenericMusicStarted: :: ambient_cold-clean :: 185.573013306 :: 409.43600728 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_cold-clean volume =  0.629999995232
+settings_path spaces/steppe/space.settings
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+Traceback (most recent call last):
+  File "scripts/client/Inventory.py", line 1857, in ContextMenuEvent
+  File "scripts/client/BWPersonality.py", line 1536, in JumpToNextSpace
+  File "scripts/client/BWPersonality.py", line 1525, in JumpToSpace
+  File "scripts/client/BWPersonality.py", line 1334, in map_space
+ValueError: BigWorld.addSpaceGeometryMapping(): Could not map spaces/steppe into space ID 1073741825 (probably no space.settings)
+onGenericMusicFinished :: ambient_cold-clean :: 185.573013306 :: 595.0470103 :: 0.629999995232
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 281, in onLogoffClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 234, in logoff
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 281, in onLogoffClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 234, in logoff
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 281, in onLogoffClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 234, in logoff
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 281, in onLogoffClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 234, in logoff
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 281, in onLogoffClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 234, in logoff
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 281, in onLogoffClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 234, in logoff
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 281, in onLogoffClick
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 234, in logoff
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:37:32 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1C2001C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2C85AE88 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2C85AE88
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+settings_path spaces/vesuvius/space.settings
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+Traceback (most recent call last):
+  File "scripts/client/Inventory.py", line 1857, in ContextMenuEvent
+  File "scripts/client/BWPersonality.py", line 1536, in JumpToNextSpace
+  File "scripts/client/BWPersonality.py", line 1525, in JumpToSpace
+  File "scripts/client/BWPersonality.py", line 1334, in map_space
+ValueError: BigWorld.addSpaceGeometryMapping(): Could not map spaces/vesuvius into space ID 1073741825 (probably no space.settings)
+Traceback (most recent call last):
+  File "scripts/client/soGUI/soButton.py", line 241, in handleMouseButtonEvent
+  File "scripts/client/soGUI/soButton.py", line 195, in _onClick
+  File "scripts/client/soGUI/soQuitMenu.py", line 103, in onClickToYesBtn
+  File "scripts/client/soGUI/soIngameMainMenu.py", line 239, in quitGame
+AttributeError: 'NoneType' object has no attribute 'playerLogOff'
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 13:56:20 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1CC421C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D7011B8 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D7011B8
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 185.606004173 :: 0.629999995232
+Traceback (most recent call last):
+  File "scripts/client/BWPersonality.py", line 731, in handleKeyEvent
+  File "scripts/client/Helpers/BWKeyBindings.py", line 338, in callActionForKeyState
+  File "scripts/client/PlayerAvatar.py", line 2837, in onLeftMouseButton
+  File "scripts/client/PlayerAvatar.py", line 2845, in LeftMouseButtonRoutine
+  File "scripts/client/PlayerAvatar.py", line 1624, in GetShootPossibility
+  File "scripts/client/PlayerAvatar.py", line 1619, in onFalseItemInHands
+  File "scripts/client/AvatarItemHolder.py", line 38, in onFalseItemInHands
+  File "scripts/client/ItemHolder.py", line 880, in SetEquippedWeaponParams
+  File "scripts/client/ItemHolder.py", line 792, in InitWeaponProperty
+UnboundLocalError: local variable 'current_item_params' referenced before assignment
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicStarted: :: ambient_silent-suicide :: 121.240005493 :: 245.606005401 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_silent-suicide volume =  0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: ambient_silent-suicide :: 121.240005493 :: 366.868007824 :: 0.629999995232
+found ID 5 ArmorID 0
+onGenericMusicStarted: :: ambient_Theme-of-Heathland :: 110.288002014 :: 426.875008987 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Theme-of-Heathland volume =  0.629999995232
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 14:28:37 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1BFD21C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D73D9E8 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D73D9E8
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+found ID 5 ArmorID 0
+Pong not received. 4
+found ID 1 ShirtID 0
+found ID 8 BackPackID 0
+found ID 6 HatID 0
+found ID 5 ArmorID 0
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 14:37:37 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1CDD11C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D94E890 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D94E890
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+found ID 7 MaskID 0
+Pong not received. 4
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 14:51:20 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1C5E11C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+Traceback (most recent call last):
+  File "scripts/client/BWPersonality.py", line 1559, in _startOffline
+KeyError: u'gorg'
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D95F9B0 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D95F9B0
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon Fog
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 4
+settings_path spaces/outlands_caravan/space.settings
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+Traceback (most recent call last):
+  File "scripts/client/Inventory.py", line 1857, in ContextMenuEvent
+  File "scripts/client/BWPersonality.py", line 1536, in JumpToNextSpace
+  File "scripts/client/BWPersonality.py", line 1525, in JumpToSpace
+  File "scripts/client/BWPersonality.py", line 1334, in map_space
+ValueError: BigWorld.addSpaceGeometryMapping(): Could not map spaces/outlands_caravan into space ID 1073741825 (probably no space.settings)
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 18:55:38 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1BFD31C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x064FFF48 1073741825
+inventory pre load texture gui PlayerAvatar at 0x064FFF48
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+found ID 1 ShirtID 0
+found ID 8 BackPackID 0
+found ID 5 ArmorID 0
+found ID 6 HatID 0
+found ID 7 MaskID 0
+found ID 4 BootsID 0
+found ID 3 PantsID 0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 109.489002027 :: 0.629999995232
+onGenericMusicStarted: :: ambient_Pain-of-Angels-v.2 :: 83.2000045776 :: 169.489003287 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Pain-of-Angels-v.2 volume =  0.629999995232
+onGenericMusicFinished :: ambient_Pain-of-Angels-v.2 :: 83.2000045776 :: 416.611008998 :: 0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicStarted: :: ambient_Place-The-Shadows :: 153.678009033 :: 476.615010182 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Place-The-Shadows volume =  0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Mar 29 21:17:07 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x0FEF51C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2CF14F20 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2CF14F20
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon Fog
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+AttributeError: PySound <error> is virtual, Cannot set volume
+Pong not received. 4
+jumpCollisionNotifier 1
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 109.453001828 :: 0.629999995232
+onGenericMusicStarted: :: ambient_Pain-of-Angels-v.2 :: 83.2000045776 :: 169.465002926 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Pain-of-Angels-v.2 volume =  0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: ambient_Pain-of-Angels-v.2 :: 83.2000045776 :: 252.720004436 :: 0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+AttributeError: PySound <error> is virtual, Cannot set volume
+onGenericMusicStarted: :: ambient_cold-clean :: 185.573013306 :: 312.72600549 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_cold-clean volume =  0.629999995232
+jumpCollisionNotifier 1
+onGenericMusicFinished :: ambient_cold-clean :: 185.573013306 :: 498.325008618 :: 0.629999995232
+onGenericMusicStarted: :: ambient_Theme-of-Heathland :: 110.288002014 :: 558.33100968 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Theme-of-Heathland volume =  0.629999995232
+found ID 1 ShirtID 0
+found ID 8 BackPackID 0
+Weather::_systemReadySummon Day_Cloudy2
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+Weather::_systemReadySummon Day_Cloudy3
+onGenericMusicFinished :: ambient_Theme-of-Heathland :: 110.288002014 :: 668.649011612 :: 0.629999995232
+onGenericMusicStarted: :: ambient_autumn-empty :: 149.680999756 :: 728.660012643 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_autumn-empty volume =  0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+AttributeError: PySound <error> is virtual, Cannot set volume
+AttributeError: PySound <error> is virtual, Cannot set volume
+onGenericMusicFinished :: ambient_autumn-empty :: 149.680999756 :: 878.360015208 :: 0.629999995232
+onGenericMusicStarted: :: ambient_Theme-of-burial :: 419.604034424 :: 938.363016306 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Theme-of-burial volume =  0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+found ID 5 ArmorID 0
+found ID 3 PantsID 0
+found ID 4 BootsID 0
+found ID 6 HatID 0
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sun Mar 30 19:15:13 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1B5821C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2CA8CD68 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2CA8CD68
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+AttributeError: PySound <error> is virtual, Cannot set volume
+AttributeError: PySound <error> is virtual, Cannot set volume
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 108.25600161 :: 0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+onGenericMusicStarted: :: ambient_cold-clean :: 185.573013306 :: 168.265002615 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_cold-clean volume =  0.629999995232
+SplashingWater
+onGenericMusicFinished :: ambient_cold-clean :: 185.573013306 :: 353.875005724 :: 0.629999995232
+onGenericMusicStarted: :: ambient_autumn-empty :: 149.680999756 :: 413.888006671 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_autumn-empty volume =  0.629999995232
+onGenericMusicFinished :: ambient_autumn-empty :: 149.680999756 :: 563.578009007 :: 0.629999995232
+onGenericMusicStarted: :: ambient_perfect :: 204.25100708 :: 623.590010006 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_perfect volume =  0.629999995232
+onGenericMusicFinished :: ambient_perfect :: 204.25100708 :: 827.86401358 :: 0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+playSound SOUND NOT FOUND: ['guns/weapon_change']
+  File "scripts/client/sfx/__init__.py", line 253, in <lambda>
+  File "scripts/client/sfx/__init__.py", line 258, in go2
+  File "scripts/client/sfx/__init__.py", line 217, in playEvents
+  File "scripts/client/sfx/events.py", line 190, in go
+  File "scripts/client/sounds.py", line 147, in playSound
+action <built-in method py_action of PyModel object at 0x5FF4C2F4>
+actionScale 1.0
+addLineDraw <built-in method py_addLineDraw of PyModel object at 0x5FF4C2F4>
+addModelTest <built-in method py_addModelTest of PyModel object at 0x5FF4C2F4>
+addMotor <built-in method py_addMotor of PyModel object at 0x5FF4C2F4>
+alignToVector <built-in method py_alignToVector of PyModel object at 0x5FF4C2F4>
+alignTriangle <built-in method py_alignTriangle of PyModel object at 0x5FF4C2F4>
+attached False
+bounds MatrixProvider at 0x54E7D2DC
+calculateBoundingBoxes <built-in method py_calculateBoundingBoxes of PyModel object at 0x5FF4C2F4>
+clearLines <built-in method py_clearLines of PyModel object at 0x5FF4C2F4>
+cue <built-in method py_cue of PyModel object at 0x5FF4C2F4>
+delMotor <built-in method py_delMotor of PyModel object at 0x5FF4C2F4>
+getBoundingBox <built-in method py_getBoundingBox of PyModel object at 0x5FF4C2F4>
+getFxSound <built-in method py_getSound of PyModel object at 0x5FF4C2F4>
+getSound <built-in method py_getSound of PyModel object at 0x5FF4C2F4>
+height 1.78101801872
+inWorld False
+isCalcBoundBoxFromNodes False
+matrix MatrixProvider at 0x5465BB34
+motors (ActionMatcher at 0x4DBA336C,)
+moveAttachments False
+moveScale 1.0
+node <built-in method py_node of PyModel object at 0x5FF4C2F4>
+origin <built-in method py_origin of PyModel object at 0x5FF4C2F4>
+outsideOnly False
+playFxSound <built-in method py_playSound of PyModel object at 0x5FF4C2F4>
+playSound <built-in method py_playSound of PyModel object at 0x5FF4C2F4>
+popBoundingBox <built-in method py_popBoundingBox of PyModel object at 0x5FF4C2F4>
+position (-1097.82, 27.3466, -297.555)
+pushBoundingBox <built-in method py_pushBoundingBox of PyModel object at 0x5FF4C2F4>
+queue ()
+reflectOffTriangle <built-in method py_reflectOffTriangle of PyModel object at 0x5FF4C2F4>
+reloadModel <built-in method py_reloadModel of PyModel object at 0x5FF4C2F4>
+restoreActionQueue <built-in method py_restoreActionQueue of PyModel object at 0x5FF4C2F4>
+root PyModelNode at 0x198B82D4
+rotate <built-in method py_rotate of PyModel object at 0x5FF4C2F4>
+saveActionQueue <built-in method py_saveActionQueue of PyModel object at 0x5FF4C2F4>
+scale (1, 1, 1)
+shimmer False
+sources ('characters/avatars/basem.model', 'characters/avatars/heads/head_m5_30.model', 'characters/avatars/body/body_harvat.model', 'characters/avatars/hands/hand_koja.model', 'characters/avatars/legs/legs_harvat.model', 'characters/avatars/boots/boots_bertsi.model', 'characters/avatars/mod-armor/armor_dragoon.model')
+stipple False
+stopSoundsOnDestroy True
+straighten <built-in method py_straighten of PyModel object at 0x5FF4C2F4>
+tossCallback None
+unitRotation 0.0
+visible True
+visibleAttachments False
+yaw -0.225002378225
+zoomExtents <built-in method py_zoomExtents of PyModel object at 0x5FF4C2F4>
+_____
+scripts/client/sfx/__init__.py(269) :
+Warning: OneShotSFX.go2: using maxDuration for this effect. perhaps this was unexpected? sfx/Weapons/weapon_change.xml <sfx.BufferedOneShotSFX instance at 0x4DDA4E68> PyModel at 0x5FF4C2F4 None
+onGenericMusicStarted: :: ambient_Theme-of-Heathland :: 110.288002014 :: 887.873014682 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Theme-of-Heathland volume =  0.629999995232
+jumpCollisionNotifier 1
+onGenericMusicFinished :: ambient_Theme-of-Heathland :: 110.288002014 :: 998.198016793 :: 0.629999995232
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Wed Apr 02 23:22:17 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1A5E31C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2C85B6C8 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2C85B6C8
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 108.489001852 :: 0.629999995232
+onGenericMusicStarted: :: ambient_silent-suicide :: 121.240005493 :: 168.49100295 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_silent-suicide volume =  0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Thu Apr 03 20:20:12 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1C4801C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D63EF48 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D63EF48
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon Fog
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 108.654001778 :: 0.629999995232
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Thu Apr 03 22:47:15 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1BE821C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D609510 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D609510
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Thu Apr 03 22:48:36 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1A6E41C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2CB827F0 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2CB827F0
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 109.455001953 :: 0.629999995232
+onGenericMusicStarted: :: ambient_Theme-of-Heathland :: 110.288002014 :: 169.498003052 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Theme-of-Heathland volume =  0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+onGenericMusicFinished :: ambient_Theme-of-Heathland :: 110.288002014 :: 279.813005044 :: 0.629999995232
+found ID 5 ArmorID 0
+found ID 1 ShirtID 0
+found ID 3 PantsID 0
+onGenericMusicStarted: :: ambient_Theme-of-burial :: 419.604034424 :: 339.822006169 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Theme-of-burial volume =  0.629999995232
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Fri Apr 04 17:41:51 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1BAA31C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Fri Apr 04 19:55:58 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1CB211C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D489690 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D489690
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+found ID 6 HatID 0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 109.46800186 :: 0.629999995232
+onGenericMusicStarted: :: ambient_silent-suicide :: 121.240005493 :: 169.479003078 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_silent-suicide volume =  0.629999995232
+onGenericMusicFinished :: ambient_silent-suicide :: 121.240005493 :: 290.76400558 :: 0.629999995232
+onGenericMusicStarted: :: ambient_autumn-empty :: 149.680999756 :: 350.768006828 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_autumn-empty volume =  0.629999995232
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Fri Apr 04 20:07:05 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x065851C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2CE53D40 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2CE53D40
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Apr 05 17:33:39 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x0FEF51C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2C93F2B0 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2C93F2B0
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon Fog
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 108.681001658 :: 0.629999995232
+settings_path spaces/dm_ryabinushka/space.settings
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+Traceback (most recent call last):
+  File "scripts/client/Inventory.py", line 1857, in ContextMenuEvent
+  File "scripts/client/BWPersonality.py", line 1536, in JumpToNextSpace
+  File "scripts/client/BWPersonality.py", line 1525, in JumpToSpace
+  File "scripts/client/BWPersonality.py", line 1334, in map_space
+ValueError: BigWorld.addSpaceGeometryMapping(): Could not map spaces/dm_ryabinushka into space ID 1073741825 (probably no space.settings)
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sat Apr 05 19:13:51 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1B6141C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2CB35048 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2CB35048
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 1
+Traceback (most recent call last):
+  File "scripts/client/BWPersonality.py", line 731, in handleKeyEvent
+  File "scripts/client/Helpers/BWKeyBindings.py", line 338, in callActionForKeyState
+  File "scripts/client/PlayerAvatar.py", line 2837, in onLeftMouseButton
+  File "scripts/client/PlayerAvatar.py", line 2845, in LeftMouseButtonRoutine
+  File "scripts/client/PlayerAvatar.py", line 1624, in GetShootPossibility
+  File "scripts/client/PlayerAvatar.py", line 1619, in onFalseItemInHands
+  File "scripts/client/AvatarItemHolder.py", line 38, in onFalseItemInHands
+  File "scripts/client/ItemHolder.py", line 880, in SetEquippedWeaponParams
+  File "scripts/client/ItemHolder.py", line 792, in InitWeaponProperty
+UnboundLocalError: local variable 'current_item_params' referenced before assignment
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 109.430001577 :: 0.629999995232
+onGenericMusicStarted: :: ambient_Pain-of-Angels-v.2 :: 83.2000045776 :: 169.434002596 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Pain-of-Angels-v.2 volume =  0.629999995232
+onGenericMusicFinished :: ambient_Pain-of-Angels-v.2 :: 83.2000045776 :: 252.683003859 :: 0.629999995232
+AttributeError: PySound <error> is virtual, Cannot set volume
+onGenericMusicStarted: :: ambient_perfect :: 204.25100708 :: 312.696004772 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_perfect volume =  0.629999995232
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sun Apr 06 17:58:55 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1C4A71C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2D4A2D30 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2D4A2D30
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon MEsun_Cloudy2
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+found ID 8 BackPackID 0
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Sun Apr 06 23:03:39 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1C4C71C0>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 530)
+PostProcessing: downSampleBlur1 (960 x 530)
+PostProcessing: computeBuffer1 (240 x 132)
+PostProcessing: computeBuffer2 (240 x 132)
+PostProcessing: backBufferCopyB (1920 x 1061)
+PostProcessing: backBufferCopy (1920 x 1061)
+PostProcessing: R16F (1920 x 1061)
+PostProcessing: downSample1 (960 x 530)
+PostProcessing: downSample3 (240 x 132)
+PostProcessing: downSample2 (480 x 265)
+PostProcessing: total memory used by default RenderTargets : 56.08 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x2DB43E18 1073741825
+inventory pre load texture gui PlayerAvatar at 0x2DB43E18
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Weather::_systemReadySummon ME_Stormy
+Pong not received. 1
+Pong not received. 2
+Pong not received. 3
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+Pong not received. 4
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 109.409001589 :: 0.629999995232
+jumpCollisionNotifier 1
+cl self.ActiveWeaponSet.PrimarySlotTintID  0
+cl set self.ActiveWeaponSet.PrimarySlotTintID  0
+onGenericMusicStarted: :: ambient_autumn-empty :: 149.680999756 :: 169.417002602 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_autumn-empty volume =  0.629999995232
+onGenericMusicFinished :: ambient_autumn-empty :: 149.680999756 :: 319.126005103 :: 0.629999995232
+onGenericMusicStarted: :: ambient_Theme-of-burial :: 419.604034424 :: 379.133006054 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_Theme-of-burial volume =  0.629999995232
+onGenericMusicFinished :: ambient_Theme-of-burial :: 419.604034424 :: 798.763012753 :: 0.629999995232
+onGenericMusicStarted: :: ambient_perfect :: 204.25100708 :: 858.774013647 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_perfect volume =  0.629999995232
+KeyError: "Could not load sound event 'ambient/pads/ambient_pad'. See logs for details."
+playSound SOUND NOT FOUND: ['ambient/pads/ambient_pad']
+  File "scripts/client/SoundNode.py", line 27, in hitPot
+  File "scripts/client/SoundNode.py", line 84, in playRandom
+  File "scripts/client/sounds.py", line 147, in playSound
+action <built-in method py_action of PyModel object at 0x5F4D6C74>
+actionScale 1.0
+addLineDraw <built-in method py_addLineDraw of PyModel object at 0x5F4D6C74>
+addModelTest <built-in method py_addModelTest of PyModel object at 0x5F4D6C74>
+addMotor <built-in method py_addMotor of PyModel object at 0x5F4D6C74>
+alignToVector <built-in method py_alignToVector of PyModel object at 0x5F4D6C74>
+alignTriangle <built-in method py_alignTriangle of PyModel object at 0x5F4D6C74>
+attached True
+bounds MatrixProvider at 0x6EA8E65C
+calculateBoundingBoxes <built-in method py_calculateBoundingBoxes of PyModel object at 0x5F4D6C74>
+clearLines <built-in method py_clearLines of PyModel object at 0x5F4D6C74>
+cue <built-in method py_cue of PyModel object at 0x5F4D6C74>
+delMotor <built-in method py_delMotor of PyModel object at 0x5F4D6C74>
+getBoundingBox <built-in method py_getBoundingBox of PyModel object at 0x5F4D6C74>
+getFxSound <built-in method py_getSound of PyModel obj
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Fri Apr 18 23:47:04 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x1B7B8198>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+KeyError: "Could not load sound event 'music/story_bullet'. See logs for details."
+getSound SOUND NOT FOUND: ['music/story_bullet']
+  File "scripts/client/BWPersonality.py", line 517, in init
+  File "scripts/client/BWPersonality.py", line 964, in _on_init
+  File "scripts/client/Helpers/Listener.py", line 57, in __call__
+  File "scripts/client/Music.py", line 19, in onInit
+  File "scripts/client/Music.py", line 34, in initMusicTracks
+  File "scripts/client/sounds.py", line 186, in getMusic
+  File "scripts/client/sounds.py", line 171, in getSound
+_____
+Error loading 'music/story_bullet': music disabled
+PostProcessing: total memory used by default RenderTargets : 0.00 MB
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x266AF4A0 1073741825
+inventory pre load texture gui PlayerAvatar at 0x266AF4A0
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+KeyError: "Could not load sound event 'ambient/spaces/outlands'. See logs for details."
+playSound SOUND NOT FOUND: ['ambient/spaces/outlands']
+  File "scripts/client/PlayerAvatar.py", line 877, in onEnterWorld
+  File "scripts/client/PlayerAvatar.py", line 1041, in SpaceChangeRoutie
+  File "scripts/client/PlayerAvatar.py", line 1044, in initSpaceSounds
+  File "scripts/client/Music.py", line 137, in playSpaceSound
+  File "scripts/client/sounds.py", line 147, in playSound
+EventCategory <type '_FMOD.EventCategory'>
+EventGroup <type '_FMOD.EventGroup'>
+EventProject <type '_FMOD.EventProject'>
+EventReverb <type '_FMOD.EventReverb'>
+MusicSystem <type '_FMOD.MusicSystem'>
+Sound <type '_FMOD.Sound'>
+SoundParameter <type '_FMOD.SoundParameter'>
+getFxSoundDuration <built-in function getFxSoundDuration>
+getMusicSystem <built-in function getMusicSystem>
+getSound <built-in function getSound>
+getSoundBanks <built-in function getSoundBanks>
+loadEventProject <built-in function loadEventProject>
+loadSoundBankIntoMemory <built-in function loadSoundBankIntoMemory>
+loadSoundGroup <built-in function loadSoundGroup>
+playSound <built-in function playSound>
+reloadEventProject <built-in function reloadEventProject>
+setDefaultSoundProject <built-in function setDefaultSoundProject>
+setMasterVolume <built-in function setMasterVolume>
+unloadEventProject <built-in function unloadEventProject>
+unloadSoundBankFromMemory <built-in function unloadSoundBankFromMemory>
+unloadSoundGroup <built-in function unloadSoundGroup>
+_____
+Pong not received. 1
+Weather::_systemReadySummon Fog
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+KeyError: "Could not load sound event 'guns/autogun/reload_clipout'. See logs for details."
+playSound SOUND NOT FOUND: ['guns/autogun/reload_clipout']
+  File "scripts/client/sfx/__init__.py", line 253, in <lambda>
+  File "scripts/client/sfx/__init__.py", line 258, in go2
+  File "scripts/client/sfx/__init__.py", line 217, in playEvents
+  File "scripts/client/sfx/events.py", line 190, in go
+  File "scripts/client/sounds.py", line 147, in playSound
+action <built-in method py_action of PyModel object at 0x2CD73314>
+actionScale 1.0
+addLineDraw <built-in method py_addLineDraw of PyModel object at 0x2CD73314>
+addModelTest <built-in method py_addModelTest of PyModel object at 0x2CD73314>
+addMotor <built-in method py_addMotor of PyModel object at 0x2CD73314>
+alignToVector <built-in method py_alignToVector of PyModel object at 0x2CD73314>
+alignTriangle <built-in method py_alignTriangle of PyModel object at 0x2CD73314>
+attached True
+bounds MatrixProvider at 0x5022E604
+calculateBoundingBoxes <built-in method py_calculateBoundingBoxes of PyModel object at 0x2CD73314>
+clearLines <built-in method py_clearLines of PyModel object at 0x2CD73314>
+cue <built-in method py_cue of PyModel object at 0x2CD73314>
+delMotor <built-in method py_delMotor of PyModel object at 0x2CD73314>
+getBoundingBox <built-in method py_getBoundingBox of PyModel object at 0x2CD73314>
+getFxSound <built-in method py_getSound of PyModel object at 0x2CD73314>
+getSound <built-in method py_getSound of PyModel object at 0x2CD73314>
+height 1.78101801872
+inWorld True
+isCalcBoundBoxFromNodes False
+matrix MatrixProvider at 0x50251CBC
+motors (ActionMatcher at 0x2D00CFD4,)
+moveAttachments False
+moveScale 1.0
+node <built-in method py_node of PyModel object at 0x2CD73314>
+origin <built-in method py_origin of PyModel object at 0x2CD73314>
+outsideOnly False
+playFxSound <built-in method py_playSound of PyModel object at 0x2CD73314>
+playSound <built-in method py_playSound of PyModel object at 0x2CD73314>
+popBoundingBox <built-in method py_popBoundingBox of PyModel object at 0x2CD73314>
+position (1120.85, -9.23425, 1691.46)
+pushBoundingBox <built-in method py_pushBoundingBox of PyModel object at 0x2CD73314>
+queue ('RunForward', 'IdleForever', 'ReloadAutogun')
+reflectOffTriangle <built-in method py_reflectOffTriangle of PyModel object at 0x2CD73314>
+reloadModel <built-in method py_reloadModel of PyModel object at 0x2CD73314>
+restoreActionQueue <built-in method py_restoreActionQueue of PyModel object at 0x2CD73314>
+root PyModelNode at 0x2E6D0384
+rotate <built-in method py_rotate of PyModel object at 0x2CD73314>
+saveActionQueue <built-in method py_saveActionQueue of PyModel object at 0x2CD73314>
+scale (0.999999, 1, 0.999999)
+shimmer False
+sources ('characters/avatars/basem.model', 'characters/avatars/heads/head_m5_30.model', 'characters/avatars/body/body_harvat.model', 'characters/avatars/hands/hand_koja.model', 'characters/avatars/legs/legs_harvat.model', 'characters/avatars/boots/boots_bertsi.model', 'characters/avatars/mod-armor/armor_dragoon.model')
+stipple False
+stopSoundsOnDestroy True
+straighten <built-in method py_straighten of PyModel object at 0x2CD73314>
+tossCallback None
+unitRotation 0.0339281857014
+visible True
+visibleAttachments False
+yaw 2.18150424957
+zoomExtents <built-in method py_zoomExtents of PyModel object at 0x2CD73314>
+_____
+scripts/client/sfx/__init__.py(269) :
+Warning: OneShotSFX.go2: using maxDuration for this effect. perhaps this was unexpected? sfx\Weapons\Reload\reload_autogun_clipoff.xml <sfx.BufferedOneShotSFX instance at 0x3615C620> PyModel at 0x2CD73314 None
+KeyError: "Could not load sound event 'guns/autogun/reload_clipin'. See logs for details."
+playSound SOUND NOT FOUND: ['guns/autogun/reload_clipin']
+  File "scripts/client/sfx/__init__.py", line 253, in <lambda>
+  File "scripts/client/sfx/__init__.py", line 258, in go2
+  File "scripts/client/sfx/__init__.py", line 217, in playEvents
+  File "scripts/client/sfx/events.py", line 190, in go
+  File "scripts/client/sounds.py", line 147, in playSound
+action <built-in method py_action of PyModel object at 0x2CD73314>
+actionScale 1.0
+addLineDraw <built-in method py_addLineDraw of PyModel object at 0x2CD73314>
+addModelTest <built-in method py_addModelTest of PyModel object at 0x2CD73314>
+addMotor <built-in method py_addMotor of PyModel object at 0x2CD73314>
+alignToVector <built-in method py_alignToVector of PyModel object at 0x2CD73314>
+alignTriangle <built-in method py_alignTriangle of PyModel object at 0x2CD73314>
+attached True
+bounds MatrixProvider at 0x4D5FC19C
+calculateBoundingBoxes <built-in method py_calculateBoundingBoxes of PyModel object at 0x2CD73314>
+clearLines <built-in method py_clearLines of PyModel object at 0x2CD73314>
+cue <built-in method py_cue of PyModel object at 0x2CD73314>
+delMotor <built-in method py_delMotor of PyModel object at 0x2CD73314>
+getBoundingBox <built-in method py_getBoundingBox of PyModel object at 0x2CD73314>
+getFxSound <built-in method py_getSound of PyModel object at 0x2CD73314>
+getSound <built-in method py_getSound of PyModel object at 0x2CD73314>
+height 1.78101801872
+inWorld True
+isCalcBoundBoxFromNodes False
+matrix MatrixProvider at 0x4D5FC19C
+motors (ActionMatcher at 0x2D00CFD4,)
+moveAttachments False
+moveScale 1.0
+node <built-in method py_node of PyModel object at 0x2CD73314>
+origin <built-in method py_origin of PyModel object at 0x2CD73314>
+outsideOnly False
+playFxSound <built-in method py_playSound of PyModel object at 0x2CD73314>
+playSound <built-in method py_playSound of PyModel object at 0x2CD73314>
+popBoundingBox <built-in method py_popBoundingBox of PyModel object at 0x2CD73314>
+position (1125.89, -9.70329, 1689.82)
+pushBoundingBox <built-in method py_pushBoundingBox of PyModel object at 0x2CD73314>
+queue ('RunForward', 'IdleForever', 'ReloadAutogun')
+reflectOffTriangle <built-in method py_reflectOffTriangle of PyModel object at 0x2CD73314>
+reloadModel <built-in method py_reloadModel of PyModel object at 0x2CD73314>
+restoreActionQueue <built-in method py_restoreActionQueue of PyModel object at 0x2CD73314>
+root PyModelNode at 0x2E6D0384
+rotate <built-in method py_rotate of PyModel object at 0x2CD73314>
+saveActionQueue <built-in method py_saveActionQueue of PyModel object at 0x2CD73314>
+scale (0.999997, 1, 0.999996)
+shimmer False
+sources ('characters/avatars/basem.model', 'characters/avatars/heads/head_m5_30.model', 'characters/avatars/body/body_harvat.model', 'characters/avatars/hands/hand_koja.model', 'characters/avatars/legs/legs_harvat.model', 'characters/avatars/boots/boots_bertsi.model', 'characters/avatars/mod-armor/armor_dragoon.model')
+stipple False
+stopSoundsOnDestroy True
+straighten <built-in method py_straighten of PyModel object at 0x2CD73314>
+tossCallback None
+unitRotation 0.000666940759402
+visible True
+visibleAttachments False
+yaw 1.73298513889
+zoomExtents <built-in method py_zoomExtents of PyModel object at 0x2CD73314>
+_____
+scripts/client/sfx/__init__.py(269) :
+Warning: OneShotSFX.go2: using maxDuration for this effect. perhaps this was unexpected? sfx\Weapons\Reload\reload_autogun_clipin.xml <sfx.BufferedOneShotSFX instance at 0x36171B70> PyModel at 0x2CD73314 None
+KeyError: "Could not load sound event 'guns/autogun/reload_slide'. See logs for details."
+playSound SOUND NOT FOUND: ['guns/autogun/reload_slide']
+  File "scripts/client/sfx/__init__.py", line 253, in <lambda>
+  File "scripts/client/sfx/__init__.py", line 258, in go2
+  File "scripts/client/sfx/__init__.py", line 217, in playEvents
+  File "scripts/client/sfx/events.py", line 190, in go
+  File "scripts/client/sounds.py", line 147, in playSound
+action <built-in method py_action of PyModel object at 0x2CD73314>
+actionScale 1.0
+addLineDraw <built-in method py_addLineDraw of PyModel object at 0x2CD73314>
+addModelTest <built-in method py_addModelTest of PyModel object at 0x2CD73314>
+addMotor <built-in method py_addMotor of PyModel object at 0x2CD73314>
+alignToVector <built-in method py_alignToVector of PyModel object at 0x2CD73314>
+alignTriangle <built-in method py_alignTriangle of PyModel object at 0x2CD73314>
+attached True
+bounds MatrixProvider at 0x4EB8D06C
+calculateBoundingBoxes <built-in method py_calculateBoundingBoxes of PyModel object at 0x2CD73314>
+clearLines <built-in method py_clearLines of PyModel object at 0x2CD73314>
+cue <built-in method py_cue of PyModel object at 0x2CD73314>
+delMotor <built-in method py_delMotor of PyModel object at 0x2CD73314>
+getBoundingBox <built-in method py_getBoundingBox of PyModel object at 0x2CD73314>
+getFxSound <built-in method py_getSound of PyModel object at 0x2CD73314>
+getSound <built-in method py_getSound of PyModel object at 0x2CD73314>
+height 1.78101801872
+inWorld True
+isCalcBoundBoxFromNodes False
+matrix MatrixProvider at 0x4EB8D06C
+motors (ActionMatcher at 0x2D00CFD4,)
+moveAttachments False
+moveScale 1.0
+node <built-in method py_node of PyModel object at 0x2CD73314>
+origin <built-in method py_origin of PyModel object at 0x2CD73314>
+outsideOnly False
+playFxSound <built-in method py_playSound of PyModel object at 0x2CD73314>
+playSound <built-in method py_playSound of PyModel object at 0x2CD73314>
+popBoundingBox <built-in method py_popBoundingBox of PyModel object at 0x2CD73314>
+position (1128.43, -9.83113, 1689.41)
+pushBoundingBox <built-in method py_pushBoundingBox of PyModel object at 0x2CD73314>
+queue ('RunForward', 'IdleForever', 'ReloadAutogun')
+reflectOffTriangle <built-in method py_reflectOffTriangle of PyModel object at 0x2CD73314>
+reloadModel <built-in method py_reloadModel of PyModel object at 0x2CD73314>
+restoreActionQueue <built-in method py_restoreActionQueue of PyModel object at 0x2CD73314>
+root PyModelNode at 0x2E6D0384
+rotate <built-in method py_rotate of PyModel object at 0x2CD73314>
+saveActionQueue <built-in method py_saveActionQueue of PyModel object at 0x2CD73314>
+scale (0.999997, 1, 0.999996)
+shimmer False
+sources ('characters/avatars/basem.model', 'characters/avatars/heads/head_m5_30.model', 'characters/avatars/body/body_harvat.model', 'characters/avatars/hands/hand_koja.model', 'characters/avatars/legs/legs_harvat.model', 'characters/avatars/boots/boots_bertsi.model', 'characters/avatars/mod-armor/armor_dragoon.model')
+stipple False
+stopSoundsOnDestroy True
+straighten <built-in method py_straighten of PyModel object at 0x2CD73314>
+tossCallback None
+unitRotation 0.000357199896825
+visible True
+visibleAttachments False
+yaw 1.73298513889
+zoomExtents <built-in method py_zoomExtents of PyModel object at 0x2CD73314>
+_____
+scripts/client/sfx/__init__.py(269) :
+Warning: OneShotSFX.go2: using maxDuration for this effect. perhaps this was unexpected? sfx\Weapons\Reload\reload_autogun_slide.xml <sfx.BufferedOneShotSFX instance at 0x502BDC10> PyModel at 0x2CD73314 None
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/
+
+/------------------------------------------------------------------------------\
+BigWorld Release Client (compiled at 16:47:51 Mar 18 2016) starting on Tue Jul 29 15:59:59 2025
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 2076 with sources is not permanent (stackDuration != -1)
+DESIGNER_WARNING: prepareEffectsConfig: baseEf 806 with sources is not permanent (stackDuration != -1)
+globalLanguage  russian
+Start loading localization
+scripts/common/Lib/mhlib.py:83: DeprecationWarning: the multifile module has been deprecated since Python 2.5
+<Helpers.BWKeyBindings.BWKeyBindings instance at 0x2114E0F8>
+PostProcessing.init()
+Weather::onChangeSpace -1
+UpdateWeatherByPeriods
+onGenericMusicStarted: :: menu_theme :: 110.288002014 :: 0.0 :: 0.629999995232
+PostProcessing: downSample1B (960 x 540)
+PostProcessing: downSampleBlur1 (960 x 540)
+PostProcessing: computeBuffer1 (240 x 135)
+PostProcessing: computeBuffer2 (240 x 135)
+PostProcessing: backBufferCopyB (1920 x 1080)
+PostProcessing: backBufferCopy (1920 x 1080)
+PostProcessing: R16F (1920 x 1080)
+PostProcessing: downSample1 (960 x 540)
+PostProcessing: downSample3 (240 x 135)
+PostProcessing: downSample2 (480 x 270)
+PostProcessing: total memory used by default RenderTargets : 57.10 MB
+onGenericMusicFinished :: menu_theme :: 110.288002014 :: 108.472001871 :: 0.629999995232
+_startOffline
+prerequisites: gorg
+prerequisites: v2v3v4
+PlayerAvatar:onEnterWorld 1073741824
+onEnterWorld SpiderFake PlayerAvatar at 0x378DD030 1073741825
+inventory pre load texture gui PlayerAvatar at 0x378DD030
+settings_path /space.settings
+settings_path spaces/outlands/space.settings
+Play music (space ambient): ambient/spaces/outlands
+Pong not received. 1
+Weather::_systemReadySummon Fog
+Pong not received. 2
+Pong not received. 3
+Pong not received. 4
+onGenericMusicStarted: :: ambient_autumn-empty :: 149.680999756 :: 168.480002847 :: 0.629999995232
+MUSIC: startRandomTrack:  ambient_autumn-empty volume =  0.629999995232
+TypeError: SimpleGUIComponent::mouseButtonFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::crossFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::moveFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::dragFocusScript call attempted on a non-callable object!
+TypeError: SimpleGUIComponent::focusScript call attempted on a non-callable object!
+PostProcessing.fini()
+RenderTargets.fini()
+PostProcessing.Phases.fini()
+\--------------------------------------------------------------------------------/

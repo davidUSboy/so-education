@@ -1,0 +1,684 @@
+<root>
+	<Properties>
+		<requested_quests>
+			<Type> ARRAY <of> QUESTID </of>  </Type>
+			<Flags>	BASE </Flags>
+		</requested_quests>
+
+        <passTutorial>
+			<Type> INT8 </Type>
+			<Flags>	OWN_CLIENT </Flags>
+            <Default> 1 </Default>
+        </passTutorial>
+
+		<QuestPersistProp>
+			<Type> 	ARRAY <of> QUEST_PERSIST_PROP </of> </Type>
+			<Flags>	BASE </Flags>
+			<Persistent> True </Persistent>
+		</QuestPersistProp>
+
+		<CellQuestPersistProp>
+			<Type> 	ARRAY <of> QUEST_PERSIST_PROP </of> </Type>
+			<Flags>	CELL_PRIVATE </Flags>
+			<Persistent> True </Persistent>
+		</CellQuestPersistProp>
+
+		<QuestsCounters>
+			<Type>ARRAY <of> QUESTER_COUNTER </of></Type>
+			<Flags>	CELL_PRIVATE </Flags>
+			<Persistent> True </Persistent>
+		</QuestsCounters>
+
+		<!--<ClientQuests>&lt;!&ndash; Description of quests&ndash;&gt;-->
+			<!--<Type> ARRAY <of> QUESTONCLIENT </of> </Type>-->
+			<!--<Flags>	OWN_CLIENT </Flags>-->
+		<!--</ClientQuests>-->
+
+		<QuestObjInfo><!-- Description of quests-->
+			<Type> ARRAY <of> FIXED_DICT
+				<Properties>
+					<id>
+						<Type> QUESTID </Type>
+					</id>
+					<quest_type>
+						<Type> INT16 </Type>
+					</quest_type>
+					<object_type>
+						<Type> INT32 </Type>
+					</object_type>
+					<state>
+						<Type> INT32 </Type>
+					</state>
+				</Properties>
+			</of> </Type>
+			<Flags>	OWN_CLIENT </Flags>
+		</QuestObjInfo>
+
+		<PVPInfo>
+			<Type> 	PVP_CLIENT_INFO	</Type>
+			<Flags>	OWN_CLIENT 		</Flags>
+		</PVPInfo>
+
+		<PVPStatistic>
+			<Type> 	PVP_STATISTIC 	</Type>
+			<Flags>	OWN_CLIENT 									</Flags>
+		</PVPStatistic>
+
+		<QuestsList>
+			<Type>		LISTQUESTS							</Type>
+			<Flags>		BASE								</Flags>
+			<Persistent> True 								</Persistent>
+		</QuestsList>
+
+		<CellQuests>
+			<Type>		ARRAY <of> QUESTID </of>			</Type>
+			<Flags>		CELL_PRIVATE						</Flags>
+		</CellQuests>
+		
+		<savePoint>
+			<Type>		SAVE_POINT							</Type>
+			<Flags>		BASE								</Flags>
+			<Persistent> True 								</Persistent>
+		</savePoint>
+
+		<KillOrders>
+			<Type>	ARRAY	<of>	KILL_ORDER	</of>	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</KillOrders>
+		
+		<onTestScenario>
+			<Type>	ARRAY	<of>	QUESTID	</of>			</Type>
+			<Flags>		BASE								</Flags>
+		</onTestScenario>
+		
+		<scenarioEyes>
+			<Type>		ARRAY	<of>	SCENARIO_EYE_USER		</of>	</Type>
+			<Flags>			BASE										</Flags>
+		</scenarioEyes>
+		
+		<questTimers>
+			<Type>	ARRAY	<of>	QUEST_TIMER_BUFFER	</of>	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</questTimers>
+		
+		<!--<qControllerID>-->
+			<!--<Type>	INT64			</Type>-->
+			<!--<Flags>	CELL_PRIVATE	</Flags>-->
+		<!--</qControllerID>-->
+
+        <availableQTypes>
+            <Type>	ARRAY <of>	INT16 </of>		</Type>
+            <Flags>	OWN_CLIENT	</Flags>
+        </availableQTypes>
+
+		<reputationHistory>
+			<Type>
+				ARRAY
+				<of> FIXED_DICT
+					<Properties>
+						<id>
+							<Type>  FRACTION </Type>
+						</id>
+						<value>
+							<Type>  FLOAT32  </Type>
+						</value>
+						<time>
+							<Type> FLOAT32    </Type>
+						</time>
+					</Properties>
+				</of>
+			</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	true	</Persistent>
+		</reputationHistory>
+
+	</Properties>
+	
+	<BaseMethods>
+
+		<!--<onLoadQuestsOver>-->
+		<!--</onLoadQuestsOver>-->
+	
+		<takeScenario>
+			<Arg> 	QUESTID 	</Arg>
+			<Arg> 	MAILBOX 	</Arg>
+		</takeScenario>
+	
+		<onQLoadFin>
+			<Arg> 	QUESTID 	</Arg>
+			<Exposed/>
+		</onQLoadFin>
+	
+		<addOpened>
+			<Arg> 	QUESTID 	</Arg>
+		</addOpened>
+		
+		<loadQuests>
+			<!--<Arg> ARRAY <of>	QUESTID 	</of> </Arg>-->
+           <!--<Arg> ARRAY <of>	QUESTID 	</of> </Arg>-->
+            <!--<Arg> ARRAY <of>	QUEST_VERSION 	</of> </Arg>-->
+		</loadQuests>
+		
+		<!--<removeEvent>-->
+			<!--<Arg> 	QUESTID 	</Arg>-->
+		<!--</removeEvent>-->
+	
+		<removeQuestOnID>
+			<Arg> 	QUESTID 	</Arg>
+			<Arg> 	INT8 		</Arg>
+		</removeQuestOnID>
+	
+		<removeQuestFromJournal>
+			<Exposed/>
+			<Arg> 	QUESTID 	</Arg>
+		</removeQuestFromJournal>
+	
+		<startTalk>
+			<Arg>	MAILBOX		</Arg>
+            <Arg>	INT64		</Arg>
+            <Arg>	ARRAY <of> INT8 </of>		</Arg>
+            <Arg>	ARRAY <of> INT32 </of>		</Arg>
+            <Arg>	DIALOGID		</Arg>
+            <Arg>	INT8		</Arg>
+            <Arg>	ARRAY <of>	DIALOGID </of>	</Arg>
+            <Arg>	ARRAY <of>	DIALOG_VERSION </of>	</Arg>
+		</startTalk>
+		
+		<getMessage>
+			<Arg> 	MAILBOX 					</Arg>
+			<Arg> 	QUESTID						</Arg>
+			<Arg> 	INT8						</Arg>
+			<Arg>	ARRAY <of> UNICODE_STRING </of>	</Arg>
+		</getMessage>
+		
+		<requestQuestFromDialog>
+			<Arg> MAILBOX 					</Arg>
+			<Arg> ARRAY <of> QUESTID </of> 	</Arg>
+            <!--<Arg> ARRAY <of> QUESTID </of> </Arg>-->
+            <!--<Arg> ARRAY <of> INT64 </of> </Arg>-->
+		</requestQuestFromDialog>
+		
+		<questComplete>
+			<Arg> QUESTID 		</Arg>
+			<Arg> INT8 			</Arg>
+		</questComplete>
+		
+		<questOnTest>
+			<Arg> QUESTID 		</Arg>
+		</questOnTest>
+		
+
+		
+		<questFailed>
+			<Arg> QUESTID 		</Arg>
+		</questFailed>
+		
+		
+		<questError>
+			<Arg> QUESTID 		</Arg>
+		</questError>
+
+		<!--<takeStartQuest>-->
+			<!--<Arg> QUEST 		</Arg>-->
+		<!--</takeStartQuest>-->
+		
+		<questOpen>
+			<Arg> QUESTID 		</Arg>
+		</questOpen>
+	
+		<getNextTenCompleted>
+			<Arg> ARRAY <of> QUESTID </of>	</Arg>
+			<Exposed/>
+		</getNextTenCompleted>
+
+		<!--<restoreOnQuestID>-->
+			<!--<Arg>	QUESTID		</Arg>-->
+			<!--<Arg>	INT8		</Arg>-->
+		<!--</restoreOnQuestID>-->
+		
+		<getDescription>
+			<Exposed/>
+			<Arg>	QUESTID		</Arg>
+		</getDescription>
+		
+		<autoTakeQuest>
+					<Arg>	ARRAY	<of>	QUESTID		</of>	</Arg>
+		</autoTakeQuest>
+
+		<mobkillerQuestCheck>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT16	</Arg>
+			<Arg>	STRING	</Arg>
+		</mobkillerQuestCheck>
+
+		<cleanPlayer>
+		</cleanPlayer>
+<!---------------------------------------PVP Area END------------------------------------------->
+<!---------------------------------------Group quest BEGIN------------------------------------------->
+
+
+
+		<getReady>
+			<Arg> INT8				</Arg>
+			<Arg> QUESTID			</Arg>
+			<Exposed/>
+		</getReady>
+	
+		<correctReturning>
+			<Arg> QUESTID 			</Arg>
+			<Arg> INT64 			</Arg>
+			<Arg> VECTOR3 			</Arg>
+		</correctReturning>
+		
+		<sendInfoOnGM>
+			<Arg> QUESTID 			</Arg>
+		</sendInfoOnGM>
+		
+		<onGroupQuestComplete>
+			<Arg>	QUESTID			</Arg>
+		</onGroupQuestComplete>
+
+		<onGroupQuestFailed>
+			<Arg>	QUESTID			</Arg>
+		</onGroupQuestFailed>
+
+		<setGroupQuest>
+			<Arg> QUESTID 			</Arg>
+		</setGroupQuest>
+
+        <onTakeQuestsOnClient>
+            <Arg> ARRAY <of> QUESTID </of>			</Arg>
+            <Exposed/>
+        </onTakeQuestsOnClient>
+<!---------------------------------------Group quest END------------------------------------------->
+		<createScenarioEye>
+			<Arg>	QUESTID				</Arg>
+		</createScenarioEye>
+<!---------------------------------------Group quest END------------------------------------------->	
+
+	<!---------------------------------------Instances------------------------------------------->		
+		<tryTeleportToInstance>
+			<Arg>	ARRAY	<of>	INT64	</of>		</Arg>
+			<Arg>	INT64		                        </Arg>
+			<Arg>	VECTOR3		                        </Arg>
+			<Arg>	ARRAY <of>ENTITY_ID</of>	        </Arg>
+			<Exposed/>
+		</tryTeleportToInstance>
+		
+		<teleportToSP>
+		</teleportToSP>
+		
+		<gatherGroup>
+			<Arg>	INT64	</Arg>
+			<Exposed/>
+		</gatherGroup>
+		
+		<takeNPCNames>
+			<Arg>	QUESTID	</Arg>
+			<Arg> ARRAY <of>SCENARIO_NPC_NAMES </of></Arg>
+		</takeNPCNames>
+
+		<requestQuest>
+			<Arg>	QUESTID	</Arg>
+			<!--<Arg>	ARRAY <of> QUESTID </of>	</Arg>-->
+			<!--<Arg>	ARRAY <of> INT16    </of>	</Arg>-->
+		</requestQuest>
+	<!---------------------------------------Instances------------------------------------------->	
+
+		<journalUpdate>
+			<Arg>	ARRAY	<of>	QUESTID	</of>	</Arg>
+		</journalUpdate>
+
+		<takeQuestsOnClient>
+			<Arg>	ARRAY	<of>	QUESTID	</of>	</Arg>
+			<Arg>	ARRAY	<of>	QUESTID	</of>	</Arg>
+			<Exposed/>
+		</takeQuestsOnClient>
+	</BaseMethods>
+	
+	<CellMethods>
+	<!---------------------------------------Instances------------------------------------------->		
+		
+		<teleportToInstance>
+			<Arg>	INT64	</Arg>
+		</teleportToInstance>
+	<!---------------------------------------Instances------------------------------------------->		
+	
+		<tpRequestDialog>
+			<Arg>	STRING				</Arg>	
+			<Exposed/>
+		</tpRequestDialog>
+		<removeQuestResult>
+			<Arg>	QUESTID				</Arg>
+		</removeQuestResult>
+	
+		<checkQuestGetted>
+			<Arg>	QUESTID				</Arg>
+		</checkQuestGetted>
+		
+
+		<gatherGroup>
+			<Arg>	INT64				</Arg>
+			<Arg>	GROUPID				</Arg>
+		</gatherGroup>
+	<!---------------------------------------Cell Logic-------------------------------------------------->				
+
+        <guiQuestCheck>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT8	</Arg>
+            <Exposed/>
+        </guiQuestCheck>
+
+		<mobkillerQuestCheck>
+			<Arg>	INT8	</Arg>
+			<Arg>	INT16	</Arg>
+			<Arg>	STRING	</Arg>
+		</mobkillerQuestCheck>
+	
+		<requestQuestFromDialog>
+			<Exposed/>
+			<Arg> INT64 			</Arg>
+			<Arg> ARRAY <of> QUESTID </of> </Arg>
+            <!--<Arg> ARRAY <of> QUESTID </of> </Arg>-->
+            <!--<Arg> ARRAY <of> INT64 </of> </Arg>-->
+		</requestQuestFromDialog>
+
+		<onStartTalk>
+			<Exposed/>
+			<Arg>	INT64			</Arg>
+            <Arg>	DIALOGID		</Arg>
+            <Arg>	INT8		</Arg>
+            <Arg>	ARRAY <of>	DIALOGID </of>	</Arg>
+            <Arg>	ARRAY <of>	DIALOG_VERSION </of>	</Arg>
+		</onStartTalk>
+		
+		<removeCountersOnQuestID>
+			<Arg> QUESTID 			</Arg>
+		</removeCountersOnQuestID>
+		
+		<takeCellQuests>
+			<Arg> ARRAY <of> QUESTID </of> 		</Arg>
+			<Arg> ARRAY <of> INT8 </of> 		</Arg>
+			<Arg> ARRAY <of> INT8 </of> 		</Arg>
+		</takeCellQuests>
+		
+		<removeCellQuests>
+			<Arg> QUESTID 			</Arg>
+			<Arg> INT8				</Arg>
+		</removeCellQuests>
+		
+		<itemQuestCheck>
+			<Arg> INT16 			</Arg>
+			<Arg> INT8  			</Arg>
+			<Arg> INT8  			</Arg>
+		</itemQuestCheck>
+		
+		<checkQuestOnQuestID>
+			<Exposed/>
+			<Arg> QUESTID 			</Arg>
+		</checkQuestOnQuestID>
+		
+		<getCharactersStatus>
+			<Arg> MAILBOX  			</Arg>
+			<Arg> ARRAY <of> QUEST_STATUS </of> </Arg>
+		</getCharactersStatus>
+			
+		<checkQuestOnTest>
+			<Arg> INT16 			</Arg>
+		</checkQuestOnTest>
+
+		<areaVisitQuestCheck>
+			<Arg> STRING 			</Arg>
+		</areaVisitQuestCheck>
+		
+		<takeQuestRules>
+			<Arg> QUESTID			</Arg>
+		</takeQuestRules>
+		
+		<questerMessageToConsole>
+			<Arg>	UNICODE_STRING	</Arg>
+		</questerMessageToConsole>
+		
+		<takeRewardOnQuestID>
+			<Arg>	QUESTID			</Arg>
+		</takeRewardOnQuestID>
+		
+		<takePenaltyOnQuestID>
+			<Arg>	QUESTID			</Arg>
+		</takePenaltyOnQuestID>
+		
+		<takeGroupReward>
+			<Arg>	QUESTID			</Arg>
+			<Arg>	FLOAT			</Arg>
+		</takeGroupReward>
+		
+		<takeGroupPenalty>
+			<Arg>	QUESTID			</Arg>
+		</takeGroupPenalty>
+		
+		<getDescription>
+			<Arg>	ARRAY <of>	QUESTID	</of>			</Arg>
+			<Arg>	ARRAY <of>	INT8	</of>		</Arg>
+		</getDescription>
+		
+		<triggerQuestCheck>	
+			<Arg>	INT32			</Arg>
+			<Arg>	ENTITY_ID			</Arg>
+		</triggerQuestCheck>
+		
+		<onLoadQuestsOver>
+		</onLoadQuestsOver>
+
+<!---------------------------------------Group quest BEGIN-------------------------------------->
+		<askOnJoinToGroup>
+			<Arg> UNICODE_STRING 			</Arg>
+		</askOnJoinToGroup>
+	
+		<instanceGetReady>
+			<Arg> INT64 			</Arg>
+			<Arg> QUEST				</Arg>
+		</instanceGetReady>
+	
+		<askOnGetReady>
+		</askOnGetReady>
+	
+	
+		<correctReturning>
+			<Arg> QUESTID 			</Arg>
+			<Arg> INT64   			</Arg>
+			<Arg> VECTOR3 			</Arg>
+		</correctReturning>
+		
+		<teleportOnQuestID>
+			<Arg> QUESTID 			</Arg>
+			<Arg> INT8 				</Arg>
+		</teleportOnQuestID>
+		
+		<teleportOnPosition>
+			<Arg> INT64 			</Arg>
+			<Arg> VECTOR3 			</Arg>
+		</teleportOnPosition>
+		
+<!---------------------------------------Group quest END------------------------------------------->
+
+		<onCreateScenarioEye>
+			<Arg>	MAILBOX	 		</Arg>
+		</onCreateScenarioEye>
+<!---------------------------------------Scenarios------------------------------------------------->		
+		
+		<addKillOrder>
+			<Arg>	QUESTID	 				</Arg>
+			<Arg>	UNICODE_STRING	 		</Arg>
+		</addKillOrder>
+		
+		<removeKillOrder>
+			<Arg>	QUESTID	 		</Arg>
+		</removeKillOrder>
+		
+		<onScenarioEnd>
+			<Arg>	INT8	</Arg>
+			<Arg>	QUESTID	</Arg>
+		</onScenarioEnd>
+
+		<tellAboutQuesterStatus>
+			<Arg>	ARRAY		<of>		INT64		</of>		</Arg>
+			<Arg>	ARRAY		<of>		UNICODE_STRING		</of>		</Arg>
+			<Arg>	INT8		</Arg>
+		</tellAboutQuesterStatus>
+
+		<test_Reward>
+			<Arg>	QUESTREWARD		    </Arg>
+		</test_Reward>
+
+		<test_Penalty>
+			<Arg>	QUESTPENALTY		</Arg>
+		</test_Penalty>
+
+		<test_Target>
+			<Arg>	QUESTTARGET		</Arg>
+		</test_Target>
+
+		<test_Quest>
+			<Arg>	QUEST		</Arg>
+		</test_Quest>
+
+		<test_Rules>
+			<Arg>	QUESTRULES		</Arg>
+		</test_Rules>
+
+		<test_Additional>
+			<Arg>	QUESTADDITIONAL		</Arg>
+		</test_Additional>
+
+		<startDialog>
+			<Arg> STRING 			</Arg>
+			<!--<Arg> ARRAY <of>DIALOG </of> </Arg>-->
+            <!--<Arg> ARRAY <of>CACHED_DIALOG </of> </Arg>-->
+			<Arg> ARRAY <of>DIALOGID </of> </Arg>
+            <Arg> ARRAY <of>DIALOGID </of> </Arg>
+            <Arg> ARRAY <of>DIALOGID </of> </Arg>
+			<Arg> INT64 			</Arg>
+		</startDialog>
+
+		<loadQuests>
+           <!--<Arg> ARRAY <of>	QUESTID 	</of> </Arg>-->
+            <!--<Arg> ARRAY <of>	QUEST_VERSION 	</of> </Arg>-->
+           <Exposed/>
+		</loadQuests>
+
+		<takeClientQuests>
+			<Arg> ARRAY <of>QUESTONCLIENT           </of> </Arg>
+			<Arg> ARRAY <of>CACHED_QUESTONCLIENT    </of> </Arg>
+			<Arg> ARRAY <of>QUESTID                 </of> </Arg>
+		</takeClientQuests>
+		
+	</CellMethods>
+	
+	<ClientMethods>
+	
+		<startDialog>
+			<Arg> STRING 			</Arg>
+			<Arg> ARRAY <of>DIALOGID </of> </Arg>
+            <Arg> ARRAY <of>DIALOGID </of> </Arg>
+            <Arg> ARRAY <of>DIALOGID </of> </Arg>
+			<Arg> INT64 			            </Arg>
+		</startDialog>
+		
+		<takeClientQuests>
+			<Arg> ARRAY <of>QUESTONCLIENT           </of> </Arg>
+			<Arg> ARRAY <of>CACHED_QUESTONCLIENT    </of> </Arg>
+			<Arg> ARRAY <of>QUESTID                 </of> </Arg>
+		</takeClientQuests>
+
+		<removeClientQuest>
+			<Arg> QUESTID 			</Arg>
+			<Arg> INT8 				</Arg>
+		</removeClientQuest>
+		
+		<takeDescription>
+			<Arg> ARRAY <of>	QUESTID 	</of>		</Arg>
+			<Arg> ARRAY <of>	UNICODE_STRING	</of> 	</Arg>
+		</takeDescription>
+<!---------------------------------------Group quest BEGIN-------------------------------------->
+		<askOnJoinToGroup>
+			<Arg> UNICODE_STRING </Arg>
+		</askOnJoinToGroup>
+	
+		<askOnGetReady>
+		</askOnGetReady>
+	
+		<askOnStartGroupQuest>
+		</askOnStartGroupQuest>
+		
+
+<!---------------------------------------Group quest END------------------------------------------->
+	
+	<questerMessageToConsole>
+		<Arg>	UNICODE_STRING	</Arg>
+	</questerMessageToConsole>
+	
+	<checkQuestOver>
+		<Arg>	QUESTID			</Arg>
+	</checkQuestOver>
+	
+	<checkQuestNotOver>
+		<Arg>	QUESTID			</Arg>
+	</checkQuestNotOver>
+	
+	<checkQuestGetted>
+		<Arg>	QUESTID			</Arg>
+	</checkQuestGetted>
+	
+	<takePVPStat>
+		<Arg>	INT8								</Arg>
+		<Arg>	ENTITY_ID							</Arg>
+	</takePVPStat>
+	
+	<takePVPStatInfo>
+		<Arg>	ARRAY		<of>		PVP_USER_STATISTIC		</of>		</Arg>
+	</takePVPStatInfo>
+	
+	<startPVPPeriod>
+		<Arg>	INT8			</Arg>
+		<Arg>	FLOAT			</Arg>
+	</startPVPPeriod>
+	
+	<setPVPStatus>
+		<Arg>	INT8			</Arg>
+	</setPVPStatus>
+	
+	<tellAboutQuesterStatus>
+		<Arg>	ARRAY		<of>		INT64		</of>		</Arg>
+		<Arg>	ARRAY		<of>		UNICODE_STRING		</of>		</Arg>
+		<Arg>	INT8		</Arg>
+	</tellAboutQuesterStatus>
+
+<!--updates inworld markers-->
+
+        <deleteTriggerMarkers>
+		    <Arg>	INT64		</Arg>
+        </deleteTriggerMarkers>
+        
+        <addTriggerMarkers>
+		    <Arg>	INT64		</Arg>
+        </addTriggerMarkers>
+
+        <removeAllTriggerMarkers>
+        </removeAllTriggerMarkers>
+
+        <loadQuests>
+        </loadQuests>
+
+        <closeDialog>
+        </closeDialog>
+
+		<requestCache>
+			<Arg>	ARRAY		<of>		QUESTID		</of>		</Arg>
+			<Arg>	ARRAY		<of>		INT16		</of>		</Arg>
+		</requestCache>
+</ClientMethods>
+	
+	
+</root>

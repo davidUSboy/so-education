@@ -1,0 +1,66 @@
+<soScrollBar_default.xml>	&quot;soGUI.soScrollBarVisualState&quot;
+	<disabled>
+		<background>
+			<textureName>	soGUI/maps/Controls/scroll/scrollbar.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	soGUI/maps/Controls/scroll/scroll.tga	</textureName>
+			<mapping>	PIXEL
+				<coords0>	0.000000 42.000000	</coords0>
+				<coords1>	0.000000 56.000000	</coords1>
+				<coords2>	14.000000 56.000000	</coords2>
+				<coords3>	14.000000 42.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</thumb>
+	</disabled>
+	<hover>
+		<background>
+			<textureName>	soGUI/maps/Controls/scroll/scrollbar.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	soGUI/maps/Controls/scroll/scroll.tga	</textureName>
+			<mapping>	PIXEL
+				<coords0>	0.000000 14.000000	</coords0>
+				<coords1>	0.000000 14.000000	</coords1>
+				<coords2>	14.000000 28.000000	</coords2>
+				<coords3>	14.000000 28.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</thumb>
+	</hover>
+	<pressed>
+		<background>
+			<textureName>	soGUI/maps/Controls/scroll/scrollbar.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	soGUI/maps/Controls/scroll/scroll.tga	</textureName>
+			<mapping>	PIXEL
+				<coords0>	0.000000 28.000000	</coords0>
+				<coords1>	0.000000 42.000000	</coords1>
+				<coords2>	14.000000 42.000000	</coords2>
+				<coords3>	14.000000 28.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</thumb>
+	</pressed>
+	<normal>
+		<background>
+			<textureName>	soGUI/maps/Controls/scroll/scrollbar.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	soGUI/maps/Controls/scroll/scroll.tga	</textureName>
+			<mapping>	PIXEL
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 14.000000	</coords1>
+				<coords2>	14.000000 14.000000	</coords2>
+				<coords3>	14.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</thumb>
+	</normal>
+</soScrollBar_default.xml>

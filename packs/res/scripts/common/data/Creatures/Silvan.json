@@ -1,0 +1,531 @@
+{
+	"name, bylevel" : {
+		"default" : "Creatures.common.SILVAN1",
+		"1" : "Creatures.common.SILVAN2",
+		"2" : "Creatures.common.SILVAN1",
+		"3" : "Creatures.common.SILVAN3",
+		
+		"[or_lv1_quest,lvl1_all_dom]" : "Creatures.common.DOMOVOI_lv1",
+		"lvl3_all_dom" : "Creatures.common.DOMOVOI_lv3",
+		"lvl6_all_dom" : "Creatures.common.DOMOVOI_lv6",
+		"lvl9_all_dom" : "Creatures.common.DOMOVOI_lv9",
+		"[11, lvl12_all_dom]" : "Creatures.common.DOMOVOI_lv12",
+		"lvl15_all_dom" : "Creatures.common.DOMOVOI_lv15",
+		"lvl18_all_dom" : "Creatures.common.DOMOVOI_lv18",
+		"lvl21_all_dom" : "Creatures.common.DOMOVOI_lv21",
+		"lvl24_all_dom" : "Creatures.common.DOMOVOI_lv24",
+		"lvl27_all_dom" : "Creatures.common.DOMOVOI_lv27",
+		"lvl30_all_dom" : "Creatures.common.DOMOVOI_lv30",
+		
+		"nz_lv5_yeti" : "Creatures.common.YETI_lv3",
+		
+		"lvl1_all" : "Creatures.common.SILVAN_lv1",
+		"[lvl3_all,lvl4_all_agr3,lvl5_all_agr6]" : "Creatures.common.SILVAN_lv3",
+		"[lvl6_all,lvl6_all_agr9]" : "Creatures.common.SILVAN_lv6",
+		"lvl9_all" : "Creatures.common.SILVAN_lv9",
+		"lvl12_all" : "Creatures.common.SILVAN_lv12",
+		"lvl15_all" : "Creatures.common.SILVAN_lv15",
+		"lvl18_all" : "Creatures.common.SILVAN_lv18",
+		"lvl21_all" : "Creatures.common.SILVAN_lv21",
+		"lvl24_all" : "Creatures.common.SILVAN_lv24",
+		"lvl27_all" : "Creatures.common.SILVAN_lv27",
+		"lvl30_all" : "Creatures.common.SILVAN_lv30"
+	},
+	"model, bylevel" : {
+		"default" : "silvan/silvan_lod1.model",
+		"nz_lv5_yeti" : "silvan/silvan_home_lod1.model",
+		"[11,or_lv1_quest,lvl1_all_dom,lvl3_all_dom,lvl6_all_dom,lvl9_all_dom,lvl12_all_dom,lvl15_all_dom,lvl18_all_dom,lvl21_all_dom,lvl24_all_dom,lvl27_all_dom,lvl30_all_dom]" : "silvan/silvan_home_lod1.model"
+	},
+	"karma": 99,
+	"coefLevel, bylevel": {
+		"default" : 99,
+		"1" : 99,
+		"2" : 99,
+		"3" : 99,
+		"11" : 99
+	},
+	"model_scale, bylevel" : {
+		"default" : 1,
+		"1" : 0.7,
+		"2" : 1,
+		"3" : 1.5,
+		
+		"[or_lv1_quest,lvl1_all_dom]" : 0.5,
+		"11" : 1.0,
+		"lvl3_all_dom" : 0.55,
+		"lvl6_all_dom" : 0.6,
+		"lvl9_all_dom" : 0.65,
+		"lvl12_all_dom" : 0.7,
+		"lvl15_all_dom" : 0.75,
+		"lvl18_all_dom" : 0.8,
+		"lvl21_all_dom" : 0.85,
+		"lvl24_all_dom" : 0.9,
+		"lvl27_all_dom" : 0.95,
+		"lvl30_all_dom" : 1.0,
+		
+		"nz_lv5_yeti" : 0.6,
+		
+		"lvl1_all" : 0.7,
+		"[lvl3_all,lvl4_all_agr3,lvl5_all_agr6]" : 0.75,
+		"[lvl6_all,lvl6_all_agr9]" : 0.8,
+		"lvl9_all" : 0.85,
+		"lvl12_all" : 0.9,
+		"lvl15_all" : 0.95,
+		"lvl18_all" : 1.0,
+		"lvl21_all" : 1.05,
+		"lvl24_all" : 1.1,
+		"lvl27_all" : 1.15,
+		"lvl30_all" : 1.2
+		
+	},
+	"tints" : [{}],
+	"experience, bylevel" : {
+		"default" : 1,
+		"1" : 108,
+		"2" : 192,
+		"3" : 300,
+		
+		"[11,or_lv1_quest,lvl1_all_dom]" : 35,
+		"lvl3_all_dom" : 40,
+		"lvl6_all_dom" : 45,
+		"lvl9_all_dom" : 50,
+		"lvl12_all_dom" : 55,
+		"lvl15_all_dom" : 60,
+		"lvl18_all_dom" : 65,
+		"lvl21_all_dom" : 70,
+		"lvl24_all_dom" : 75,
+		"lvl27_all_dom" : 80,
+		"lvl30_all_dom" : 85,
+		
+		"nz_lv5_yeti" : 200,
+		
+		"lvl1_all" : 100,
+		"[lvl3_all,lvl4_all_agr3,lvl5_all_agr6]" : 105,
+		"[lvl6_all,lvl6_all_agr9]" : 110,
+		"lvl9_all" : 115,
+		"lvl12_all" : 120,
+		"lvl15_all" : 125,
+		"lvl18_all" : 130,
+		"lvl21_all" : 135,
+		"lvl24_all" : 140,
+		"lvl27_all" : 145,
+		"lvl30_all" : 150
+	},
+	"health, bylevel" : {
+		"default" : 0.777,
+		"1" : 0.36,
+		"2" : 0.54,
+		"3" : 0.72,
+		
+		"[11,or_lv1_quest,lvl1_all_dom]" : 0.196,
+		"lvl3_all_dom" : 0.098,
+		"lvl6_all_dom" : 0.1,
+		"lvl9_all_dom" : 0.102,
+		"lvl12_all_dom" : 0.104,
+		"lvl15_all_dom" : 0.106,
+		"lvl18_all_dom" : 0.108,
+		"lvl21_all_dom" : 0.11,
+		"lvl24_all_dom" : 0.112,
+		"lvl27_all_dom" : 0.114,
+		"lvl30_all_dom" : 0.116,
+		
+		"nz_lv5_yeti" : 0.54,
+		
+		"lvl1_all" : 0.7,
+		"[lvl3_all,lvl4_all_agr3,lvl5_all_agr6]" : 0.72,
+		"[lvl6_all,lvl6_all_agr9]" : 0.72,
+		"lvl9_all" : 0.74,
+		"lvl12_all" : 0.76,
+		"lvl15_all" : 0.78,
+		"lvl18_all" : 0.8,
+		"lvl21_all" : 0.82,
+		"lvl24_all" : 0.84,
+		"lvl27_all" : 0.86,
+		"lvl30_all" : 0.88
+	},	
+	"agro_range, bylevel" : { 
+		"default" : 30,
+		"[or_lv1_quest,lvl1_all_dom,lvl3_all_dom,lvl6_all_dom,lvl9_all_dom,lvl12_all_dom,lvl15_all_dom,lvl18_all_dom,lvl21_all_dom,lvl24_all_dom,lvl27_all_dom,lvl30_all_dom]" : 3,
+		"nz_lv5_yeti" : 6,
+		"11" : 30
+	},
+	"lose_agro_range, bylevel" : { 
+		"default" : 40,
+		"[or_lv1_quest,lvl1_all_dom,lvl3_all_dom,lvl6_all_dom,lvl9_all_dom,lvl12_all_dom,lvl15_all_dom,lvl18_all_dom,lvl21_all_dom,lvl24_all_dom,lvl27_all_dom,lvl30_all_dom]" : 7,
+		"nz_lv5_yeti" : 14,
+		"11" : 40
+	},
+	"global_cooldown" : 3,
+	"defence, bylevel" : {
+		"default" : {
+			"MELEE" : 700.0,
+			"BULLET" : 60.0,
+			"EXPLOSION" : 30.0,
+			"BIO" : 700.0
+		},
+		"1" : {
+			"BULLET" : 0.0
+		},
+		"2" : {
+			"BULLET" : 30.0
+		},
+		"[11,or_lv1_quest,lvl1_all_dom,lvl3_all_dom,lvl6_all_dom,lvl9_all_dom,lvl12_all_dom,lvl15_all_dom,lvl18_all_dom,lvl21_all_dom,lvl24_all_dom,lvl27_all_dom,lvl30_all_dom]" : {
+			"BULLET" : 0.0
+		},
+		"nz_lv5_yeti" : {
+			"BULLET" : 15.0,
+			"COLD" : 1000.0
+		},
+		"[lvl1_all,lvl3_all,lvl6_all,lvl9_all,lvl12_all,lvl15_all,lvl18_all,lvl21_all,lvl24_all,lvl27_all,lvl30_all]" : {
+			"BULLET" : 30.0
+		}
+	},
+	"height, bylevel" : { 
+		"default" : 1.8,
+		"[11,or_lv1_quest]" : 0.9,
+		"nz_lv5_yeti" : 0.9
+	},	
+	"width" : 0.5,
+	"decompose_time" : [60,120],
+	"loot, bylevel" : {
+		"default" : {
+			"810125" : "0.01",
+			"810155" : "1.0"
+		},
+		"1, override" : {
+			"800" : "0.03",
+			"803" : "0.03",
+			"801" : "0.03",
+			"804" : "0.03",
+			"802" : "0.03"
+		},
+		"2, override" : {
+			"816" : "0.03",
+			"810" : "0.03",
+			"814" : "0.03",
+			"806" : "0.03",
+			"812" : "0.03"
+		},
+		"3, override" : {
+			"817" : "0.03",
+			"819" : "0.03",
+			"815" : "0.03",
+			"808" : "0.03",
+			"813" : "0.03"
+		},
+		
+		"or_lv1_quest, override" : {
+			"810154" : "1.0"
+		},
+		"[11,lvl1_all_dom], override" : {
+			"835" : "0.4",
+			"810125" : "0.01",
+			"810155" : "1.0"
+		},
+		"lvl3_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl6_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl9_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl12_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl15_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl18_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl21_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl24_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl27_all_dom" : {
+			"835" : "0.4"
+		},
+		"lvl30_all_dom" : {
+			"835" : "0.4"
+		},
+		
+		"nz_lv5_yeti, override" : {
+			"210" : "0.01",
+			"820" : "0.25",
+			"810153" : "0.25",
+			"810154" : "0.25"
+		},
+		
+		"lvl1_all, override" : {
+			"800" : "0.03",
+			"803" : "0.03",
+			"801" : "0.03",
+			"804" : "0.03",
+			"802" : "0.03"
+		},
+		"[lvl3_all,lvl4_all_agr3,lvl5_all_agr6], override" : {
+			"800" : "0.03",
+			"803" : "0.03",
+			"801" : "0.03",
+			"804" : "0.03",
+			"802" : "0.03"
+		},
+		"[lvl6_all,lvl6_all_agr9], override" : {
+			"800" : "0.03",
+			"803" : "0.03",
+			"801" : "0.03",
+			"804" : "0.03",
+			"802" : "0.03"
+		},
+		"lvl9_all, override" : {
+			"800" : "0.03",
+			"803" : "0.03",
+			"801" : "0.03",
+			"804" : "0.03",
+			"802" : "0.03"
+		},
+		"lvl12_all, override" : {
+			"816" : "0.03",
+			"810" : "0.03",
+			"814" : "0.03",
+			"806" : "0.03",
+			"812" : "0.03"
+		},
+		"lvl15_all, override" : {
+			"816" : "0.03",
+			"810" : "0.03",
+			"814" : "0.03",
+			"806" : "0.03",
+			"812" : "0.03"
+		},
+		"lvl18_all, override" : {
+			"816" : "0.03",
+			"810" : "0.03",
+			"814" : "0.03",
+			"806" : "0.03",
+			"812" : "0.03"
+		},
+		"lvl21_all, override" : {
+			"816" : "0.03",
+			"810" : "0.03",
+			"814" : "0.03",
+			"806" : "0.03",
+			"812" : "0.03"
+		},
+		"lvl24_all, override" : {
+			"817" : "0.03",
+			"819" : "0.03",
+			"815" : "0.03",
+			"808" : "0.03",
+			"813" : "0.03"
+		},
+		"lvl27_all, override" : {
+			"817" : "0.03",
+			"819" : "0.03",
+			"815" : "0.03",
+			"808" : "0.03",
+			"813" : "0.03"
+		},
+		"lvl30_all, override" : {
+			"817" : "0.03",
+			"819" : "0.03",
+			"815" : "0.03",
+			"808" : "0.03",
+			"813" : "0.03"
+		}
+	},
+	"foot_nodes" : ["Bip01 L Toe0", "Bip01 R Toe0"],
+	"footsteps_sound, bylevel" : {
+		"default" : "mob/big_silvan/footsteps",
+		"[11,or_lv1_quest]" : "mob/silvan/footsteps",
+		"nz_lv5_yeti" : "mob/silvan/footsteps"
+	},	
+	"melee_distance, bylevel" : {
+		"default" : 1.56,
+		"1" : 2.09,
+		"2" : 1.56,
+		"3" : 2.34,
+		"[11,or_lv1_quest]" : 1.85,
+		"nz_lv5_yeti" : 1.85
+	},
+	"melee_height, bylevel" : {
+		"default" : 1.5,
+		"1" : 1,		
+		"3" : 2,		
+		"[11,or_lv1_quest]" : 1,		
+		"nz_lv5_yeti" : 1
+	},	
+	"actions, bylevel" : {
+		"default" : {
+			"Idle" : {				
+				"sounds" : ["mob/big_silvan/idle"]
+			},
+			"Idle1" : {				
+				"model_actions" : ["Idle1"],
+				"sounds" : ["mob/big_silvan/idle"]
+			},
+			"Hide" : {				
+				"sounds" : ["mob/big_silvan/idle"]
+			},
+			"Eat" : {				
+				"model_actions" : ["Eat"]
+			},
+			"AttackPaws" : {
+				"model_actions" : ["AttackPaws"],
+				"sounds" : ["mob/big_silvan/attack"]
+			},
+			"AttackTooth" : {
+				"model_actions" : ["AttackTooth"],
+				"sounds" : ["mob/big_silvan/attack"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/big_silvan/death"]
+			},
+			"Dead" : {
+				"model_actions" : ["Dead"]	
+			},				
+			"Pain" : {
+				"model_actions" : ["Pain"],
+				"sounds" : ["mob/big_silvan/pain"]
+			},				
+			"Attacking" : {
+				"sounds" : ["mob/big_silvan/angry"]
+			}
+		},
+		"[11,or_lv1_quest,lvl1_all_dom,lvl3_all_dom,lvl6_all_dom,lvl9_all_dom,lvl12_all_dom,lvl15_all_dom,lvl18_all_dom,lvl21_all_dom,lvl24_all_dom,lvl27_all_dom,lvl30_all_dom]" : {
+			"Idle" : {				
+				"sounds" : ["mob/silvan/idle"]
+			},	
+			"Idle1" : {				
+				"model_actions" : ["Idle1"],
+				"sounds" : ["mob/silvan/idle"]
+			},
+			"Eat" : {				
+				"model_actions" : ["Eat"],
+				"sounds" : ["mob/silvan/idle"]
+			},
+			"AttackPaws" : {
+				"model_actions" : ["AttackPaws"],
+				"sounds" : ["mob/silvan/attack"]
+			},
+			"AttackTooth" : {
+				"model_actions" : ["AttackTooth"],
+				"sounds" : ["mob/silvan/attack"]
+			},
+			"Die" : {
+				"model_actions" : ["Die"],
+				"sounds" : ["mob/silvan/death"]
+			},				
+			"Pain" : {
+				"model_actions" : ["Pain"],
+				"sounds" : ["mob/silvan/pain"]
+			},				
+			"Attacking" : {
+				"sounds" : ["mob/silvan/angry"]
+			}
+		}
+	},
+	"events" : {
+		"onTakeDamage" : ["Pain"]
+	},
+	"default_state, bylevel" : {
+		"default" : "walk_around",
+		"lvl4_all_agr3" : "ambush",
+		"lvl5_all_agr6" : "ambush",
+		"lvl6_all_agr9" : "ambush"
+	},
+	"common_conditions,parent=default_common_conditions" : [],	
+	"states" : {
+		"walk_around, parent=default_walk_around" : {
+			"persistent_actions" : ["Idle"],			
+			"speed" : {
+				"walk_around" : [1.6, 3]
+			}
+		},
+		"ambush" : {
+			"persistent_actions" : ["Hide"],			
+			"conditions" : [
+				{
+					"to_state" : "attacking",
+					"predicate" : ["targets_count", "more", 0]
+				}
+			],
+			"agro_range, bylevel" : {
+				"default" : 5.0,
+				"lvl4_all_agr3" : 3.0,
+				"lvl5_all_agr6" : 6.0,
+				"lvl6_all_agr9" : 9.0
+			}
+		},
+		"attacking, parent=default_attacking" : {
+			"skills, bylevel" : {
+				"default" : {
+						"SILVAN_MELEE" : 1
+				},
+				"nz_lv5_yeti" : {
+						"SILVAN_MELEE" : 1
+				}
+			},
+			"persistent_actions" : ["Attacking"],
+			"movement_types" : ["follow_target", "walk_around"],
+			"speed" : {
+				"follow_target" : 6.0,
+				"walk_around" : [1.8, 3]
+			}	
+		},
+		"dead" : {		
+			"persistent_actions" : ["Dead"],
+			"entering_actions" : {"actions" : ["Die"], "time" : 1.6},
+			"conditions" : [
+				{
+					"to_state" : "walk_around",
+					"predicate" : ["is_dead", "equal", 0]
+				}
+			]
+		},
+		"before_recover, parent=default_before_recover" : {
+			"speed" : {
+				"walk_around" : [1.6, 3]
+			}
+		},
+		"recover, parent=default_recover" : {			
+			"persistent_actions" : ["Eat"]
+		}
+	},
+	"skills" : {
+		"SILVAN_MELEE": {
+			"type": "MELEE",
+			"cooldown": 1.5,
+			"aoe_radius": 0,
+			"damage, bylevel": {
+				"default": {
+					"body_zones": ["HEAD", "LEG_UPPER", "TORSO", "ARM"],
+					"type" : "MELEE",
+					"value" : [0.01, 0.02],
+					"penetration" : 100
+				},
+				"1": {
+					"value" : [0.083, 0.125]
+				},
+				"2": {
+					"value" : [0.128, 0.192]
+				},
+				"3": {
+					"value" : [0.179, 0.268]
+				},
+				"[11,or_lv1_quest]": {
+					"value" : [0.01, 0.024]
+				},
+				"nz_lv5_yeti": {
+					"value" : [0.128, 0.192]
+				}
+			},			 
+			"actions": ["AttackTooth"]
+		}
+	}
+}

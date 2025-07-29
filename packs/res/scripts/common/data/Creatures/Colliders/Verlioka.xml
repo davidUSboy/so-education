@@ -1,0 +1,123 @@
+<Verlioka.xml>
+  <SkeletonCollider>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm</nodeName>
+      <boxName>Bip01 L Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.049505 -0.049505</minBounds>
+      <maxBounds>0.247525 0.049505 0.049505</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L UpperArm</nodeName>
+      <boxName>Bip01 L UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.049505 -0.049505</minBounds>
+      <maxBounds>0.247525 0.049505 0.049505</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm</nodeName>
+      <boxName>Bip01 R Forearm_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.049505 -0.049505</minBounds>
+      <maxBounds>0.247525 0.049505 0.049505</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R UpperArm</nodeName>
+      <boxName>Bip01 R UpperArm_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.049505 -0.049505</minBounds>
+      <maxBounds>0.247525 0.049505 0.049505</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Head</nodeName>
+      <boxName>Bip01 Head_bwhitbox</boxName>
+      <bodyZone>HEAD</bodyZone>
+      <minBounds>0.000000 -0.058948 -0.066197</minBounds>
+      <maxBounds>0.119965 0.058948 0.066197</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine1</nodeName>
+      <boxName>Bip01 Spine1_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.005194 -0.147675 -0.092815</minBounds>
+      <maxBounds>0.171788 0.147543 0.101927</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L HorseLink</nodeName>
+      <boxName>Bip01 L HorseLink_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.050000 -0.050000</minBounds>
+      <maxBounds>0.585724 0.050000 0.050000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Calf</nodeName>
+      <boxName>Bip01 L Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.050000 -0.050000</minBounds>
+      <maxBounds>0.277392 0.050000 0.050000</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Thigh</nodeName>
+      <boxName>Bip01 L Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.066007 -0.066007</minBounds>
+      <maxBounds>0.330033 0.066007 0.066007</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R HorseLink</nodeName>
+      <boxName>Bip01 R HorseLink_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.050000 -0.049869</minBounds>
+      <maxBounds>0.585724 0.050000 0.049869</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Calf</nodeName>
+      <boxName>Bip01 R Calf_bwhitbox</boxName>
+      <bodyZone>LEG_LOWER</bodyZone>
+      <minBounds>0.000000 -0.050000 -0.055478</minBounds>
+      <maxBounds>0.277392 0.050000 0.055478</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Thigh</nodeName>
+      <boxName>Bip01 R Thigh_bwhitbox</boxName>
+      <bodyZone>LEG_UPPER</bodyZone>
+      <minBounds>0.000000 -0.066007 -0.066007</minBounds>
+      <maxBounds>0.330033 0.066006 0.066007</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L Forearm01</nodeName>
+      <boxName>Bip01 L Forearm01_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.050662 -0.050662</minBounds>
+      <maxBounds>0.253308 0.050662 0.050662</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 L UpperArm01</nodeName>
+      <boxName>Bip01 L UpperArm01_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.052860 -0.052860</minBounds>
+      <maxBounds>0.264298 0.052860 0.052860</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R Forearm01</nodeName>
+      <boxName>Bip01 R Forearm01_bwhitbox</boxName>
+      <bodyZone>FOREARM</bodyZone>
+      <minBounds>0.000000 -0.050662 -0.050662</minBounds>
+      <maxBounds>0.253308 0.050662 0.050662</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 R UpperArm01</nodeName>
+      <boxName>Bip01 R UpperArm01_bwhitbox</boxName>
+      <bodyZone>ARM</bodyZone>
+      <minBounds>0.000000 -0.052860 -0.052860</minBounds>
+      <maxBounds>0.264298 0.052860 0.052860</maxBounds>
+    </BoxAttachment>
+    <BoxAttachment>
+      <nodeName>Bip01 Spine</nodeName>
+      <boxName>Bip01 Spine_bwhitbox</boxName>
+      <bodyZone>TORSO</bodyZone>
+      <minBounds>-0.045044 -0.161590 -0.075003</minBounds>
+      <maxBounds>0.199504 0.161396 0.074726</maxBounds>
+    </BoxAttachment>
+  </SkeletonCollider>
+</Verlioka.xml>

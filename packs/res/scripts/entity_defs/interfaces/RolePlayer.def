@@ -1,0 +1,43 @@
+<root>
+	<Properties>
+		<role_fraction_id>
+			<Type> 	        INT8            </Type>
+			<Flags>	        OWN_CLIENT      </Flags>
+			<Persistent>    True            </Persistent>
+			<Default>       0               </Default>
+		</role_fraction_id>
+
+		<role_profession_id>
+			<Type> 	        INT8            </Type>
+			<Flags>	        OWN_CLIENT      </Flags>
+			<Persistent>    True            </Persistent>
+			<Default>       0               </Default>
+		</role_profession_id>
+
+		<role_specialization_id>
+			<Type> 	        INT8            </Type>
+			<Flags>	        OWN_CLIENT      </Flags>
+			<Persistent>    True            </Persistent>
+			<Default>       0               </Default>
+		</role_specialization_id>
+
+		<role_expirience>
+			<Type> 	        INT32            </Type>
+			<Flags>	        OWN_CLIENT      </Flags>
+			<Persistent>    True            </Persistent>
+			<Default>       0               </Default>
+		</role_expirience>
+
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+
+</root>

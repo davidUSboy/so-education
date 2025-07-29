@@ -1,0 +1,80 @@
+<root>
+  <client>
+    <STRING_15_13>Beardless</STRING_15_13>
+    <STRING_28_12>Common</STRING_28_12>
+    <STRING_45_11>Head 1</STRING_45_11>
+    <STRING_46_14>Head 2</STRING_46_14>
+    <STRING_47_14>Head 3</STRING_47_14>
+    <STRING_48_14>Head 4</STRING_48_14>
+    <STRING_49_14>Head 5</STRING_49_14>
+    <STRING_50_14>Head 6</STRING_50_14>
+    <STRING_51_14>Head 7</STRING_51_14>
+    <STRING_52_14>Head 8</STRING_52_14>
+    <STRING_53_14>Head 9</STRING_53_14>
+    <STRING_54_14>Head 10</STRING_54_14>
+    <STRING_55_14>Head 11</STRING_55_14>
+    <STRING_56_14>Head 12</STRING_56_14>
+    <STRING_57_14>Head 13</STRING_57_14>
+    <STRING_58_14>Head 14</STRING_58_14>
+    <STRING_59_14>Head 15</STRING_59_14>
+    <STRING_60_14>Head 16</STRING_60_14>
+    <STRING_61_14>Head 17</STRING_61_14>
+    <STRING_62_14>Head 18</STRING_62_14>
+    <STRING_63_14>Head 19</STRING_63_14>
+    <STRING_64_14>Head 20</STRING_64_14>
+    <STRING_65_14>Head 21</STRING_65_14>
+    <STRING_66_14>Head 22</STRING_66_14>
+    <STRING_67_14>Head 23</STRING_67_14>
+    <STRING_68_14>Head 24</STRING_68_14>
+    <STRING_69_14>Head 25</STRING_69_14>
+    <STRING_70_14>Head 26</STRING_70_14>
+    <STRING_71_14>Head 27</STRING_71_14>
+    <STRING_84_13>Common</STRING_84_13>
+    <STRING_99_19>Storm coat</STRING_99_19>
+    <STRING_100_15>Jacket</STRING_100_15>
+    <STRING_101_17>Khaki</STRING_101_17>
+    <STRING_120_15>Jeans</STRING_120_15>
+    <STRING_121_14>Longi</STRING_121_14>
+    <STRING_138_16>Comnat boots</STRING_138_16>
+    <STRING_145_34>Head XXX</STRING_145_34>
+    <STRING_146_42>Beard XXX</STRING_146_42>
+    <STRING_147_46>Color XXX</STRING_147_46>
+    <STRING_148_33>Pants XXX</STRING_148_33>
+    <STRING_149_35>Sweater XXX</STRING_149_35>
+    <o2_body_shtormovka>Windcheater</o2_body_shtormovka>
+    <o2_body_shtormovka_hood>Windcheater with Hood</o2_body_shtormovka_hood>
+    <o2_body_haki>Khaki</o2_body_haki>
+    <o2_body_haki_hood>Khaki Hoody</o2_body_haki_hood>
+    <o2_body_kojanka>Leather Jacket</o2_body_kojanka>
+    <o2_body_smock_01>Hoody</o2_body_smock_01>
+    <o2_body_smock_01_blue>Blue Hoody</o2_body_smock_01_blue>
+    <o2_body_smock_01_green>Green Hoody</o2_body_smock_01_green>
+    <o2_body_smock_01_red>Red Hoody</o2_body_smock_01_red>
+    <o2_body_smock_01_yellow>Yellow Hoody</o2_body_smock_01_yellow>
+    <o2_body_sweater_01>Sweater</o2_body_sweater_01>
+    <o2_body_sweater_01_blue>Blue Sweater</o2_body_sweater_01_blue>
+    <o2_body_sweater_01_green>Green Sweater</o2_body_sweater_01_green>
+    <o2_body_sweater_01_red>Red Sweater</o2_body_sweater_01_red>
+    <o2_body_sweater_01_yellow>Yellow Sweater</o2_body_sweater_01_yellow>
+    <o3_palms_perch>Gloves</o3_palms_perch>
+    <o3_palms_poluperchatki>Half Gloves</o3_palms_poluperchatki>
+    <o3_palms_poluperchatki2>Half Gloves(bike)</o3_palms_poluperchatki2>
+    <o3_palms_usilennie>Half Gloves(reinforced)</o3_palms_usilennie>
+    <o4_legs_longi>Pants</o4_legs_longi>
+    <o4_legs_jeans_blue>Blue Jeans</o4_legs_jeans_blue>
+    <o4_legs_jeans_brown>Brown Jeans</o4_legs_jeans_brown>
+    <o4_legs_jeans_black>Black Jeans</o4_legs_jeans_black>
+    <o4_legs_jeans_green>Green Jeans</o4_legs_jeans_green>
+    <o4_legs_bigpants_01>Pants With Pockets(black)</o4_legs_bigpants_01>
+    <o4_legs_bigpants_01_gray>Pants With Pockets(grey)</o4_legs_bigpants_01_gray>
+    <o4_legs_jeans_01>Black Jeans</o4_legs_jeans_01>
+    <o4_legs_jeans_01_gray>Grey Jeans</o4_legs_jeans_01_gray>
+    <o4_legs_pants_01>Black Pants</o4_legs_pants_01>
+    <o4_legs_pants_01_gray>Grey Pants</o4_legs_pants_01_gray>
+    <o5_feet_bertci_m1>Boots (combat)</o5_feet_bertci_m1>
+    <o5_feet_bertci_m2>Boots (tracking)</o5_feet_bertci_m2>
+    <o5_feet_bertci_m3>Green Boots</o5_feet_bertci_m3>
+    <o5_feet_bertci_m4>Brown Boots</o5_feet_bertci_m4>
+    <o5_feet_botinki>Black Boots</o5_feet_botinki>
+  </client>
+</root>

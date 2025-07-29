@@ -1,0 +1,215 @@
+{
+	"Weather":
+	{
+		"spaces/so_origins":
+		{
+			"default": "Fog"
+		},
+
+		"spaces/city_lubech":
+		{
+			"default": "Fog",
+				"periods":
+				{
+					"weather_day_09_15":			["DN_Stormy", "Day_Cloudy3", "Day_Cloudy1", "Day_Cloudy2"],
+					"weather_evening_sun_15_19":	["Fog", "MEsun_Cloudy2", "ME_Stormy", "MEsun_Cloudy3"],
+					"weather_evening_moon_19_21":	["MEmoon_Cloudy3", "Fog"],
+					"weather_night_21_03":			["Day_Cloudy2", "Night_BlueClouds", "Fog", "DN_Stormy"],
+					"weather_morning_moon_03_05":	["MEmoon_Cloudy3", "MEmoon_Cloudy1", "Fog", "Rainy"],
+					"weather_mornong_sun_05_09":	["Fog", "MEsun_Cloudy3", "ME_Stormy"]
+				}
+		},
+
+		"spaces/outlands":
+		{
+			"default": "Fog",
+				"periods":
+				{
+					"weather_day_09_15":			["DN_Stormy", "Day_Cloudy2", "Day_Cloudy3", "Day_Cloudy1"],
+					"weather_evening_sun_15_19":	["ME_Stormy", "Fog", "MEsun_Cloudy2"],
+					"weather_evening_moon_19_21":	["MEmoon_Cloudy3", "Fog"],
+					"weather_night_21_03":			["Day_Cloudy3", "Night_BlueRed", "Night_BlueClouds", "DN_Stormy", "Fog"],
+					"weather_morning_moon_03_05":	["MEmoon_Cloudy2", "MEmoon_Cloudy1", "Fog", "Rainy"],
+					"weather_mornong_sun_05_09":	["Fog", "MEsun_Cloudy3", "ME_Stormy"]
+				}
+		},
+
+		"spaces/vesuvius":
+		{
+			"default": "ME_DustStorm",
+				"periods":
+				{
+					"weather_day_09_15":			["DN_DustStorm", "DN_Stormy", "Day_Cloudy2"],
+					"weather_evening_sun_15_19":	["ME_DustStorm", "MEsun_Cloudy3"],
+					"weather_evening_moon_19_21":	["ME_DustStorm", "MEmoon_Cloudy3", "Fog", "ME_Stormy"],
+					"weather_night_21_03":			["Night_Cloudy2", "Night_BlueClouds", "Night_BlueRed", "Fog"],
+					"weather_morning_moon_03_05":	["ME_DustStorm", "MEmoon_Cloudy2", "MEmoon_Cloudy1"],
+					"weather_mornong_sun_05_09":	["ME_DustStorm", "MEsun_Cloudy2"]
+				}
+		},
+		
+		"spaces/outlands_airport":
+		{
+			"default": "Fog",
+				"periods":
+				{
+					"weather_day_09_15":			["DN_Stormy", "Fog", "Day_Cloudy1", "Day_Cloudy2"],
+					"weather_evening_sun_15_19":	["ME_Stormy", "Fog", "MEsun_Cloudy2"],
+					"weather_evening_moon_19_21":	["MEmoon_Cloudy3", "Fog", "Rainy"],
+					"weather_night_21_03":			["Night_BlueClouds", "Day_Cloudy3", "DN_Stormy", "Fog"],
+					"weather_morning_moon_03_05":	["MEmoon_Cloudy3", "MEmoon_Cloudy1", "Fog", "Rainy"],
+					"weather_mornong_sun_05_09":	["Fog", "MEsun_Cloudy3", "ME_Stormy"]
+				}
+		},
+
+	    "spaces/outlands_caravan":
+		{
+			"default": "Fog",
+				"periods":
+				{
+					"weather_day_09_15":			["DN_Stormy", "Fog", "Day_Cloudy1", "Day_Cloudy2"],
+					"weather_evening_sun_15_19":	["ME_Stormy", "Fog", "MEsun_Cloudy2"],
+					"weather_evening_moon_19_21":	["MEmoon_Cloudy3", "Fog"],
+					"weather_night_21_03":			["Night_Cloudy3", "Night_BlueClouds", "DN_Stormy", "Cloudy2", "Fog"],
+					"weather_morning_moon_03_05":	["MEmoon_Cloudy3", "MEmoon_Cloudy1", "Fog", "Rainy"],
+					"weather_mornong_sun_05_09":	["Fog", "MEsun_Cloudy3", "ME_Stormy"]
+				}
+		},
+
+
+	    "spaces/tunguska":
+		{
+			"default": "Fog",
+				"periods":
+				{
+					"weather_day_09_15":			["DN_Stormy", "Fog", "Day_Cloudy1", "Day_Cloudy2"],
+					"weather_evening_sun_15_19":	["ME_Stormy", "Fog", "MEsun_Cloudy1"],
+					"weather_evening_moon_19_21":	["MEmoon_Cloudy2", "Fog"],
+					"weather_night_21_03":			["Night_Cloudy2", "Night_Quasar", "Night_BordoNebula", "Fog"],
+					"weather_morning_moon_03_05":	["MEmoon_Cloudy3", "MEmoon_Cloudy1", "Fog", "Rainy"],
+					"weather_mornong_sun_05_09":	["Fog", "MEsun_Cloudy3", "ME_Stormy"]
+				}
+		},
+
+		"spaces/volcano":
+	   	{
+			"default": "ME_DustStorm"
+		},
+	
+	    "spaces/novaya":
+		{
+			"default": "Blizzard",
+			"periods":
+			{
+				"weather_morning":			"Blizzard",
+				"weather_day":				["Snow", "Nz_aurora"],
+				"weather_evening":			["Blizzard", "Snow"],
+				"weather_night_random":		["Snow", "Blizzard", "Nz_aurora"]
+			}
+		},
+
+	    "spaces/steppe":
+	   	{
+			"default": "Steppe_dustwind"
+		},
+
+	    "spaces/steppe_dust":
+		{
+			"default": "Steppe_dustwind"
+		},
+
+		"spaces/lubech_uderground":
+	    {
+		    "default": "Lubech_Uderground"
+	    },
+		
+		"spaces/zoo":
+	    {
+		    "default": "Clear"
+	    },
+		
+		"spaces/dm_ryabinushka":
+		{
+		    "default": "DN_Stormy"
+		},
+
+		"spaces/dm_outlands_village":
+		{
+		    "default": "Day_Cloudy1"
+		},
+
+		"spaces/dm_snowland":
+		{
+		    "default": "Blizzard"
+		},
+
+		"spaces/dm_rocks":
+		{
+		    "default": "Day_Cloudy1"
+		},
+
+		"spaces/pk_prison01":
+		{
+		    "default": "ME_Stormy"
+		}
+
+	},
+	
+	"ZoneWeather":
+	{
+	    
+		"zone_fog_strong":
+		{
+		    "default": "fog_strong",
+			"periods":
+            {
+			    
+			}
+		},
+		
+		"zone_fog_middle":
+		{
+		    "default": "fog_middle",
+			"periods":
+            {
+			    
+			}
+		},
+		
+		"Fog":
+		{
+		    "default": "Fog",
+			"periods":
+            {
+			    
+			}
+		},
+		
+		"Rainy":
+		{
+		    "default": "Rainy",
+			"periods":
+            {
+			    
+			}
+		},
+		
+		"zone_1":
+		{
+			"default": "Clear",
+			"periods":
+			{
+				"clear_time":
+				{
+					"0":"Rainy"
+				},
+				"cloudy_time":
+				{
+					"0":"Rainy",
+					"1":["Rainy","Clear"]
+				}
+			}
+		}
+	}
+
+}

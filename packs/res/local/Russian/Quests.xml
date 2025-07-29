@@ -1,0 +1,27 @@
+<root>
+  <Messages>
+    <WIPE_COMPLETE>Удаление квестов успешно завершено.</WIPE_COMPLETE>
+    <MISSION_TAKEN>Вы взяли задание:{0}.</MISSION_TAKEN>
+    <MISSION_COMPLETE>Задание выполнено:{0}.</MISSION_COMPLETE>
+    <MISSION_FAILED>Задание провалено:{0}.</MISSION_FAILED>
+    <CANT_TAKE_MISSION_NOW>Вы не можете взять задание: {0}. Повторите попытку через {1} часов, {2} минут.</CANT_TAKE_MISSION_NOW>
+    <BAYPASS_TUTORIAL>Esc - закрыть сообщение</BAYPASS_TUTORIAL>
+    <COLLECT_COMPLETE>Вы собрали необходимое количество предметов({0}).</COLLECT_COMPLETE>
+    <COLLECT_PROCESS>Вы собрали {0}/{1} предметов ({2}).</COLLECT_PROCESS>
+    <COLLECT_FAILED>Вы потеряли {0}?.</COLLECT_FAILED>
+    <FARM_COMPLETE>Убито необходимое количество мутантов ({0}).</FARM_COMPLETE>
+    <FARM_PROCESS>Убито {0}/{1} мутантов({2}).</FARM_PROCESS>
+    <MONEY_FAILED>Недостаточно денег.</MONEY_FAILED>
+    <AREA_COMPLETED>Вы пришли в нужную зону:{0}.</AREA_COMPLETED>
+    <JOURNAL_UPDATED>Журнал заданий обновлен.</JOURNAL_UPDATED>
+    <TOO_FAR>Вы ушли слишком далеко, чтобы продолжать диалог.</TOO_FAR>
+    <PARTI_INSTANCE_LEADER_ONLY>Только лидер партии может пользоваться телепортом в инстанс.</PARTI_INSTANCE_LEADER_ONLY>
+    <SERVER_TOO_BUSY>Превышен лимит сервера. Попробуйте позже.</SERVER_TOO_BUSY>
+  </Messages>
+  <Journal>
+    <STATE_FAILED>[Провалено]</STATE_FAILED>
+    <NEXT_TEN_BUTTON>Следующие 10 квестов</NEXT_TEN_BUTTON>
+    <CANCEL_QUEST_HEADER>Отмена квеста</CANCEL_QUEST_HEADER>
+    <CANCEL_QUEST_QUESTION>Вы уверены, что хотите отменить квест: '{0}'?</CANCEL_QUEST_QUESTION>
+  </Journal>
+</root>
