@@ -1,33 +1,33 @@
-````markdown
-# STALKER Online — Offline Client
+```` markdown
+# STALKER Online — Offline client
 
-Старый клиент игры STALKER Online, ранее находившийся в открытом доступе на торрент-трекерах и других ресурсах. Содержит только клиентскую часть, работает без подключения к серверу.
+The old client of the STALKER Online game, previously publicly available on torrent trackers and other resources. Contains only the client part, which works without connecting to the server.
 
-## Запуск
+## Launch
 
-1. Скачайте репозиторий.
-2. Перейдите в папку `game`.
-3. Запустите исполняемый файл `.exe`.
+1. download the repository.
+2. Go to the "Game" folder.
+3. Run the executable file `.exe`.
 
-## Возможности
+## Features
 
-- Свободное перемещение по локации
-- Использование оружия
-- Надевание экипировки
-- Просмотр интерфейса и окружения
+- Free movement around locations.
+- Using weapons
+- Putting on equipment
+- Viewing the interface and environment
 
-## Требования
+## Requirements
 
-Установленный [Git LFS](https://git-lfs.github.com):
+Installed [Git LFS](https://git-lfs.github.com):
 
-```bash
-git lfs install
-git lfs pull
+``` bash
+install git lfs
+git lfs extract
 ````
 
-## Примечание
+## Note
 
-Файлы загружены исключительно в ознакомительных целях. Серверной части нет.
+Files are downloaded for informational purposes only. There is no server part.
 
 ```
 ```
