@@ -1,7 +1,8 @@
 ```` markdown
 # STALKER Online — Offline client
 
-The old client of the STALKER Online game, previously publicly available on torrent trackers and other resources. Contains only the client part, which works without connecting to the server.
+The old client of the STALKER Online game, publicly available on torrent trackers and other resources.
+Contains only the client part, which works without connecting to the server.
 
 ## Launch
 
